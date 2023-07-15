@@ -776,3 +776,49 @@
 [2023-07-16 01:43:26] INFO root fetch - processPackages [yaml-settings-pydantic]: Remove: archive file [/home/abi/fetcher/tmp/yaml-settings-pydantic-0.1.0.tar.gz]
 [2023-07-16 01:43:26] INFO root fetch - main [MainThread]: End processing [yaml-settings-pydantic]: success
 [2023-07-16 01:43:26] INFO root fetch - main [MainThread]: Store serial: [18903629]
+[2023-07-16 01:48:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18903629]
+[2023-07-16 01:48:34] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-16 01:48:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyccolo
+[2023-07-16 01:48:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: result
+[2023-07-16 01:48:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: skyplane-nightly
+[2023-07-16 01:48:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qprom
+[2023-07-16 01:48:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: qprom
+[2023-07-16 01:48:35] INFO root fetch - processPackages [qprom]: New version: [0.3] Old Version: [0.2]
+[2023-07-16 01:48:35] INFO root fetch - processPackages [result]: New version: [0.9.0] Old Version: [0.8.0b1]
+[2023-07-16 01:48:35] INFO root fetch - processPackages [qprom]: New version: [0.3] Old Version: [0.2]
+[2023-07-16 01:48:35] INFO root fetch - processPackages [pyccolo]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-16 01:48:35] INFO root fetch - processPackages [pyccolo]: Downloading https://files.pythonhosted.org/packages/89/99/05046591ea195d9d4635b006c98b0c0766181f97cf92a3b3cdd279c36cdf/pyccolo-0.0.8.tar.gz
+[2023-07-16 01:48:35] INFO root fetch - processPackages [skyplane-nightly]: New version: [0.3.2.dev20230715] Old Version: [0.3.2.dev20230714]
+[2023-07-16 01:48:35] INFO root fetch - processPackages [qprom]: Downloading https://files.pythonhosted.org/packages/e9/df/11d3f768b1cc058c40a7b1f9a7de634f32598f62a31a8083da4b3f702c8d/qprom-0.2.tar.gz
+[2023-07-16 01:48:35] INFO root fetch - processPackages [qprom]: Downloading https://files.pythonhosted.org/packages/e9/df/11d3f768b1cc058c40a7b1f9a7de634f32598f62a31a8083da4b3f702c8d/qprom-0.2.tar.gz
+[2023-07-16 01:48:35] INFO root fetch - processPackages [result]: Downloading https://files.pythonhosted.org/packages/7d/82/86e2b39e6c16e534e4f904f54e5f86c160ad29d6fc9a8a32bc3f5f4bb835/result-0.8.0b1.tar.gz
+[2023-07-16 01:48:35] INFO root fetch - processPackages [skyplane-nightly]: Downloading https://files.pythonhosted.org/packages/5a/09/330bf9b45b673f48ea514f0ef0e82772e1f8e118f266d308393a39bcc699/skyplane_nightly-0.3.2.dev20230714.tar.gz
+[2023-07-16 01:48:35] INFO root fetch - processPackages [pyccolo]: Downloading https://files.pythonhosted.org/packages/fb/f9/3c723baa4bc490806929e98f4f4253cc421b256db488e38738591c8785c0/pyccolo-0.0.9.tar.gz
+[2023-07-16 01:48:35] INFO root fetch - processPackages [pyccolo]: executing diffoscope
+[2023-07-16 01:48:35] INFO root fetch - processPackages [pyccolo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyccolo-0.0.8.tar.gz tmp/pyccolo-0.0.9.tar.gz --markdown 20230716/p/pyccolo/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-16 01:48:35] INFO root fetch - processPackages [qprom]: Downloading https://files.pythonhosted.org/packages/8a/93/b4e4e93b60dfae7911e2414656befdb3fbc49b6ee9def80d531ac86c979f/qprom-0.3.tar.gz
+[2023-07-16 01:48:35] INFO root fetch - processPackages [result]: Downloading https://files.pythonhosted.org/packages/e1/d2/a6ac37982c8e314f71acd5d4a509dfde718f0c0fc8590b35b7d64101097e/result-0.9.0.tar.gz
+[2023-07-16 01:48:35] INFO root fetch - processPackages [qprom]: Downloading https://files.pythonhosted.org/packages/8a/93/b4e4e93b60dfae7911e2414656befdb3fbc49b6ee9def80d531ac86c979f/qprom-0.3.tar.gz
+[2023-07-16 01:48:35] INFO root fetch - processPackages [skyplane-nightly]: Downloading https://files.pythonhosted.org/packages/82/52/a7394ef037ad282e02c06c44c3e57f215418c4382eb05fa3967c5ed39c1a/skyplane_nightly-0.3.2.dev20230715.tar.gz
+[2023-07-16 01:48:35] INFO root fetch - processPackages [qprom]: executing diffoscope
+[2023-07-16 01:48:35] INFO root fetch - processPackages [qprom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qprom-0.2.tar.gz tmp/qprom-0.3.tar.gz --markdown 20230716/q/qprom/0.2-0.3/diff.md --exclude *.pyd
+[2023-07-16 01:48:36] INFO root fetch - processPackages [result]: executing diffoscope
+[2023-07-16 01:48:36] INFO root fetch - processPackages [result]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/result-0.8.0b1.tar.gz tmp/result-0.9.0.tar.gz --markdown 20230716/r/result/0.8.0b1-0.9.0/diff.md --exclude *.pyd
+[2023-07-16 01:48:36] INFO root fetch - processPackages [qprom]: executing diffoscope
+[2023-07-16 01:48:36] INFO root fetch - processPackages [qprom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qprom-0.2.tar.gz tmp/qprom-0.3.tar.gz --markdown 20230716/q/qprom/0.2-0.3/diff.md --exclude *.pyd
+[2023-07-16 01:48:36] INFO root fetch - processPackages [skyplane-nightly]: executing diffoscope
+[2023-07-16 01:48:36] INFO root fetch - processPackages [skyplane-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skyplane_nightly-0.3.2.dev20230714.tar.gz tmp/skyplane_nightly-0.3.2.dev20230715.tar.gz --markdown 20230716/s/skyplane-nightly/0.3.2.dev20230714-0.3.2.dev20230715/diff.md --exclude *.pyd
+[2023-07-16 01:48:36] INFO root fetch - processPackages [pyccolo]: Remove: archive file [/home/abi/fetcher/tmp/pyccolo-0.0.8.tar.gz]
+[2023-07-16 01:48:36] INFO root fetch - processPackages [pyccolo]: Remove: archive file [/home/abi/fetcher/tmp/pyccolo-0.0.9.tar.gz]
+[2023-07-16 01:48:36] INFO root fetch - main [MainThread]: End processing [pyccolo]: success
+[2023-07-16 01:48:37] INFO root fetch - processPackages [qprom]: Remove: archive file [/home/abi/fetcher/tmp/qprom-0.2.tar.gz]
+[2023-07-16 01:48:37] INFO root fetch - processPackages [qprom]: Remove: archive file [/home/abi/fetcher/tmp/qprom-0.3.tar.gz]
+[2023-07-16 01:48:37] INFO root fetch - main [MainThread]: End processing [qprom]: success
+[2023-07-16 01:48:37] INFO root fetch - processPackages [result]: Remove: archive file [/home/abi/fetcher/tmp/result-0.8.0b1.tar.gz]
+[2023-07-16 01:48:37] INFO root fetch - processPackages [result]: Remove: archive file [/home/abi/fetcher/tmp/result-0.9.0.tar.gz]
+[2023-07-16 01:48:37] INFO root fetch - main [MainThread]: End processing [result]: success
+[2023-07-16 01:48:37] INFO root fetch - main [MainThread]: End processing [qprom]: success
+[2023-07-16 01:48:37] INFO root fetch - processPackages [skyplane-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skyplane_nightly-0.3.2.dev20230714.tar.gz]
+[2023-07-16 01:48:37] INFO root fetch - processPackages [skyplane-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skyplane_nightly-0.3.2.dev20230715.tar.gz]
+[2023-07-16 01:48:37] INFO root fetch - main [MainThread]: End processing [skyplane-nightly]: success
+[2023-07-16 01:48:37] INFO root fetch - main [MainThread]: Store serial: [18903644]
