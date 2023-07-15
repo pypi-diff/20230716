@@ -305,3 +305,57 @@
 [2023-07-16 00:41:12] INFO root fetch - processPackages [MPSPlots]: Remove: archive file [/home/abi/fetcher/tmp/MPSPlots-0.4.0-py3-none-any.whl.zip]
 [2023-07-16 00:41:12] INFO root fetch - main [MainThread]: End processing [MPSPlots]: success
 [2023-07-16 00:41:12] INFO root fetch - main [MainThread]: Store serial: [18903397]
+[2023-07-16 00:46:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18903397]
+[2023-07-16 00:46:20] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-16 00:46:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pymap-admin
+[2023-07-16 00:46:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: reedsolo
+[2023-07-16 00:46:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: socscikit
+[2023-07-16 00:46:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: WinJobster
+[2023-07-16 00:46:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: orso
+[2023-07-16 00:46:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: modsys
+[2023-07-16 00:46:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: helloNoor
+[2023-07-16 00:46:20] INFO root fetch - processPackages [orso]: New version: [0.0.9] Old Version: [0.0.84]
+[2023-07-16 00:46:20] INFO root fetch - processPackages [socscikit]: New version: [0.0.5] Old Version: [0.0.4.4]
+[2023-07-16 00:46:20] INFO root fetch - processPackages [reedsolo]: New version: [2.1.1b1] Old Version: [2.1.0b1]
+[2023-07-16 00:46:20] INFO root fetch - processPackages [pymap-admin]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-07-16 00:46:20] INFO root fetch - processPackages [modsys]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-07-16 00:46:20] WARNING root fetch - processPackages [WinJobster]: Skipping, unable to determine old version
+[2023-07-16 00:46:20] INFO root fetch - main [MainThread]: End processing [WinJobster] error
+[2023-07-16 00:46:20] WARNING root fetch - processPackages [helloNoor]: Skipping, unable to determine old version
+[2023-07-16 00:46:20] INFO root fetch - main [MainThread]: End processing [helloNoor] error
+[2023-07-16 00:46:20] INFO root fetch - processPackages [socscikit]: Downloading https://files.pythonhosted.org/packages/d2/2a/6f4bd4837fe5c4ff255850ae262a191f51d8a7993802edadb701da54cc00/socscikit-0.0.4.4.tar.gz
+[2023-07-16 00:46:20] INFO root fetch - processPackages [orso]: Downloading https://files.pythonhosted.org/packages/08/ea/afe98a1a7877dcd15628b5290ad9e02d4c5f8f80a9a7dfaa422fd96e0531/orso-0.0.84.tar.gz
+[2023-07-16 00:46:21] INFO root fetch - processPackages [modsys]: Downloading https://files.pythonhosted.org/packages/31/6f/4e3da1d249ffac0e3ac1a66808a31ef0b2ccfd51172932dc05c52208533c/modsys-0.4.0.tar.gz
+[2023-07-16 00:46:21] INFO root fetch - processPackages [pymap-admin]: Downloading https://files.pythonhosted.org/packages/2a/6a/3f4b8c2e3b9977dd9a8d9c0d38e4e0a6208976b8d8cb40893f45ff4a06ac/pymap_admin-0.9.1.tar.gz
+[2023-07-16 00:46:21] INFO root fetch - processPackages [reedsolo]: Downloading https://files.pythonhosted.org/packages/3a/6e/3b9c1908553558f365edce2c8a4e43a4a857e19f10eb0e8e313fe9c88b80/reedsolo-2.1.0b1.tar.gz
+[2023-07-16 00:46:21] INFO root fetch - processPackages [orso]: Downloading https://files.pythonhosted.org/packages/d0/a6/e427d299b4d15d22164372c94c2665865951bb26973a967eca19d3d2493c/orso-0.0.9.tar.gz
+[2023-07-16 00:46:21] INFO root fetch - processPackages [modsys]: Downloading https://files.pythonhosted.org/packages/90/be/a53951587c360f5a150f60fb705abd6053c17757b426cf28fd56cf1a1ebd/modsys-0.4.1.tar.gz
+[2023-07-16 00:46:21] INFO root fetch - processPackages [pymap-admin]: Downloading https://files.pythonhosted.org/packages/9e/02/7f793741b3d8a5c8f25f7075c659cdeb2e784e4b3516ce3d578c17f750eb/pymap_admin-0.9.2.tar.gz
+[2023-07-16 00:46:21] INFO root fetch - processPackages [orso]: executing diffoscope
+[2023-07-16 00:46:21] INFO root fetch - processPackages [orso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/orso-0.0.84.tar.gz tmp/orso-0.0.9.tar.gz --markdown 20230716/o/orso/0.0.84-0.0.9/diff.md --exclude *.pyd
+[2023-07-16 00:46:21] INFO root fetch - processPackages [reedsolo]: Downloading https://files.pythonhosted.org/packages/7d/72/d679db66834182f19d6d5cbd41c8a326bf73f83c7757dd3de7a595175183/reedsolo-2.1.1b1.tar.gz
+[2023-07-16 00:46:21] INFO root fetch - processPackages [pymap-admin]: executing diffoscope
+[2023-07-16 00:46:21] INFO root fetch - processPackages [pymap-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymap_admin-0.9.1.tar.gz tmp/pymap_admin-0.9.2.tar.gz --markdown 20230716/p/pymap-admin/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-07-16 00:46:21] INFO root fetch - processPackages [socscikit]: Downloading https://files.pythonhosted.org/packages/34/87/e365b2e36c3e72ba39858660a8acc800f89574f423a2ef21bc0e76da98fd/socscikit-0.0.5.tar.gz
+[2023-07-16 00:46:21] INFO root fetch - processPackages [modsys]: executing diffoscope
+[2023-07-16 00:46:21] INFO root fetch - processPackages [modsys]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modsys-0.4.0.tar.gz tmp/modsys-0.4.1.tar.gz --markdown 20230716/m/modsys/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-07-16 00:46:21] INFO root fetch - processPackages [reedsolo]: executing diffoscope
+[2023-07-16 00:46:21] INFO root fetch - processPackages [reedsolo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reedsolo-2.1.0b1.tar.gz tmp/reedsolo-2.1.1b1.tar.gz --markdown 20230716/r/reedsolo/2.1.0b1-2.1.1b1/diff.md --exclude *.pyd
+[2023-07-16 00:46:22] INFO root fetch - processPackages [socscikit]: executing diffoscope
+[2023-07-16 00:46:22] INFO root fetch - processPackages [socscikit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/socscikit-0.0.4.4.tar.gz tmp/socscikit-0.0.5.tar.gz --markdown 20230716/s/socscikit/0.0.4.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-16 00:46:22] INFO root fetch - processPackages [pymap-admin]: Remove: archive file [/home/abi/fetcher/tmp/pymap_admin-0.9.1.tar.gz]
+[2023-07-16 00:46:22] INFO root fetch - processPackages [pymap-admin]: Remove: archive file [/home/abi/fetcher/tmp/pymap_admin-0.9.2.tar.gz]
+[2023-07-16 00:46:22] INFO root fetch - main [MainThread]: End processing [pymap-admin]: success
+[2023-07-16 00:46:22] INFO root fetch - processPackages [orso]: Remove: archive file [/home/abi/fetcher/tmp/orso-0.0.84.tar.gz]
+[2023-07-16 00:46:22] INFO root fetch - processPackages [orso]: Remove: archive file [/home/abi/fetcher/tmp/orso-0.0.9.tar.gz]
+[2023-07-16 00:46:22] INFO root fetch - main [MainThread]: End processing [orso]: success
+[2023-07-16 00:46:22] INFO root fetch - processPackages [modsys]: Remove: archive file [/home/abi/fetcher/tmp/modsys-0.4.0.tar.gz]
+[2023-07-16 00:46:22] INFO root fetch - processPackages [modsys]: Remove: archive file [/home/abi/fetcher/tmp/modsys-0.4.1.tar.gz]
+[2023-07-16 00:46:22] INFO root fetch - main [MainThread]: End processing [modsys]: success
+[2023-07-16 00:46:22] INFO root fetch - processPackages [reedsolo]: Remove: archive file [/home/abi/fetcher/tmp/reedsolo-2.1.0b1.tar.gz]
+[2023-07-16 00:46:22] INFO root fetch - processPackages [reedsolo]: Remove: archive file [/home/abi/fetcher/tmp/reedsolo-2.1.1b1.tar.gz]
+[2023-07-16 00:46:22] INFO root fetch - main [MainThread]: End processing [reedsolo]: success
+[2023-07-16 00:46:23] INFO root fetch - processPackages [socscikit]: Remove: archive file [/home/abi/fetcher/tmp/socscikit-0.0.4.4.tar.gz]
+[2023-07-16 00:46:23] INFO root fetch - processPackages [socscikit]: Remove: archive file [/home/abi/fetcher/tmp/socscikit-0.0.5.tar.gz]
+[2023-07-16 00:46:23] INFO root fetch - main [MainThread]: End processing [socscikit]: success
+[2023-07-16 00:46:23] INFO root fetch - main [MainThread]: Store serial: [18903478]
