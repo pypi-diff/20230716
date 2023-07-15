@@ -440,3 +440,63 @@
 [2023-07-16 00:56:45] INFO root fetch - processPackages [socscikit]: Remove: archive file [/home/abi/fetcher/tmp/socscikit-0.0.5.1.tar.gz]
 [2023-07-16 00:56:45] INFO root fetch - main [MainThread]: End processing [socscikit]: success
 [2023-07-16 00:56:45] INFO root fetch - main [MainThread]: Store serial: [18903507]
+[2023-07-16 01:01:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18903507]
+[2023-07-16 01:01:54] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-16 01:01:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: khoj-assistant
+[2023-07-16 01:01:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyirecovery
+[2023-07-16 01:01:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pymap
+[2023-07-16 01:01:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: socscikit
+[2023-07-16 01:01:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: arke-discord
+[2023-07-16 01:01:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: flwr-nightly
+[2023-07-16 01:01:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mispr
+[2023-07-16 01:01:54] INFO root fetch - processPackages [socscikit]: New version: [0.0.5.2] Old Version: [0.0.5.1]
+[2023-07-16 01:01:54] INFO root fetch - processPackages [pymap]: New version: [0.9.7] Old Version: [0.9.6]
+[2023-07-16 01:01:54] WARNING root fetch - processPackages [arke-discord]: Skipping, unable to determine old version
+[2023-07-16 01:01:54] INFO root fetch - main [MainThread]: End processing [arke-discord] error
+[2023-07-16 01:01:54] INFO root fetch - processPackages [pyirecovery]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-16 01:01:54] INFO root fetch - processPackages [khoj-assistant]: New version: [0.8.3.dev8] Old Version: [0.8.3.dev4]
+[2023-07-16 01:01:54] INFO root fetch - processPackages [flwr-nightly]: New version: [1.5.0.dev20230714] Old Version: [1.5.0.dev20230713]
+[2023-07-16 01:01:54] INFO root fetch - processPackages [socscikit]: Downloading https://files.pythonhosted.org/packages/5d/86/c4b14465d11fda954140072e22ec415c6600c94a819f8a9c2785f48e07d9/socscikit-0.0.5.1.tar.gz
+[2023-07-16 01:01:54] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/27/d9/0e04d1c58d552b38506a0afabee4554d5f4f14aa2fd99db8adfa49a9e080/khoj_assistant-0.8.3.dev4.tar.gz
+[2023-07-16 01:01:54] INFO root fetch - processPackages [mispr]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-16 01:01:54] INFO root fetch - processPackages [flwr-nightly]: Downloading https://files.pythonhosted.org/packages/6f/03/a2152784ac28664d3c9fec5d5f3ed5e1245b6604cfa47672a63a40f30e49/flwr_nightly-1.5.0.dev20230713.tar.gz
+[2023-07-16 01:01:54] INFO root fetch - processPackages [pymap]: Downloading https://files.pythonhosted.org/packages/2a/5a/5f6cd5528d334cc9d4bef58ab2008b92d3ea2677f433cc2750f52df784c3/pymap-0.9.6.tar.gz
+[2023-07-16 01:01:54] INFO root fetch - processPackages [pyirecovery]: Downloading https://files.pythonhosted.org/packages/a9/95/a64c98d3ee087fb42c31769d0eb767c1717d5a8567efadf0b69efc95ff7b/pyirecovery-0.1.5.tar.gz
+[2023-07-16 01:01:55] INFO root fetch - processPackages [mispr]: Downloading https://files.pythonhosted.org/packages/7b/68/4f2d8f60e2c7e62a9f47e7428cf0cae85404231158cc4cb4831932389f37/mispr-0.0.2.tar.gz
+[2023-07-16 01:01:55] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/b8/60/b33e303aad0d4d2b6c445eedd3c8f71117cf0cf14fed573f154571bb71e5/khoj_assistant-0.8.3.dev8.tar.gz
+[2023-07-16 01:01:55] INFO root fetch - processPackages [flwr-nightly]: Downloading https://files.pythonhosted.org/packages/76/2d/feebd59499f64440df14e07294953fdeafe052e03cfac708b66e6b0ad515/flwr_nightly-1.5.0.dev20230714.tar.gz
+[2023-07-16 01:01:55] INFO root fetch - processPackages [pymap]: Downloading https://files.pythonhosted.org/packages/99/7c/f35c4b4960d80c3cf6279248e6d0b2ab6874188d4f955c4089d7905c8e31/pymap-0.9.7.tar.gz
+[2023-07-16 01:01:55] INFO root fetch - processPackages [socscikit]: Downloading https://files.pythonhosted.org/packages/9a/29/e777fc56ae88b19a8eaf7d2b0d495b4e13703a2f5ddc8264573311fb8c90/socscikit-0.0.5.2.tar.gz
+[2023-07-16 01:01:55] INFO root fetch - processPackages [flwr-nightly]: executing diffoscope
+[2023-07-16 01:01:55] INFO root fetch - processPackages [flwr-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flwr_nightly-1.5.0.dev20230713.tar.gz tmp/flwr_nightly-1.5.0.dev20230714.tar.gz --markdown 20230716/f/flwr-nightly/1.5.0.dev20230713-1.5.0.dev20230714/diff.md --exclude *.pyd
+[2023-07-16 01:01:55] INFO root fetch - processPackages [pyirecovery]: Downloading https://files.pythonhosted.org/packages/84/ca/f69efe60167c47095642d8157b7ed27bcd9e1ccc7a0ad8772605ededb19b/pyirecovery-0.1.6.tar.gz
+[2023-07-16 01:01:55] INFO root fetch - processPackages [khoj-assistant]: executing diffoscope
+[2023-07-16 01:01:55] INFO root fetch - processPackages [khoj-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/khoj_assistant-0.8.3.dev4.tar.gz tmp/khoj_assistant-0.8.3.dev8.tar.gz --markdown 20230716/k/khoj-assistant/0.8.3.dev4-0.8.3.dev8/diff.md --exclude *.pyd
+[2023-07-16 01:01:55] INFO root fetch - processPackages [pyirecovery]: executing diffoscope
+[2023-07-16 01:01:55] INFO root fetch - processPackages [pyirecovery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyirecovery-0.1.5.tar.gz tmp/pyirecovery-0.1.6.tar.gz --markdown 20230716/p/pyirecovery/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-16 01:01:55] INFO root fetch - processPackages [pymap]: executing diffoscope
+[2023-07-16 01:01:55] INFO root fetch - processPackages [pymap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymap-0.9.6.tar.gz tmp/pymap-0.9.7.tar.gz --markdown 20230716/p/pymap/0.9.6-0.9.7/diff.md --exclude *.pyd
+[2023-07-16 01:01:55] INFO root fetch - processPackages [socscikit]: executing diffoscope
+[2023-07-16 01:01:55] INFO root fetch - processPackages [socscikit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/socscikit-0.0.5.1.tar.gz tmp/socscikit-0.0.5.2.tar.gz --markdown 20230716/s/socscikit/0.0.5.1-0.0.5.2/diff.md --exclude *.pyd
+[2023-07-16 01:01:56] INFO root fetch - processPackages [mispr]: Downloading https://files.pythonhosted.org/packages/11/cf/f534fa771a27587a95d1e339910027205db52a2070d3c27977b9de42e591/mispr-0.0.3-py3-none-any.whl
+[2023-07-16 01:01:56] INFO root fetch - processPackages [pyirecovery]: Remove: archive file [/home/abi/fetcher/tmp/pyirecovery-0.1.5.tar.gz]
+[2023-07-16 01:01:56] INFO root fetch - processPackages [pyirecovery]: Remove: archive file [/home/abi/fetcher/tmp/pyirecovery-0.1.6.tar.gz]
+[2023-07-16 01:01:56] INFO root fetch - main [MainThread]: End processing [pyirecovery]: success
+[2023-07-16 01:01:56] INFO root fetch - processPackages [mispr]: executing diffoscope
+[2023-07-16 01:01:56] INFO root fetch - processPackages [mispr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mispr-0.0.2.tar.gz tmp/mispr-0.0.3-py3-none-any.whl.zip --markdown 20230716/m/mispr/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-16 01:01:56] INFO root fetch - processPackages [flwr-nightly]: Remove: archive file [/home/abi/fetcher/tmp/flwr_nightly-1.5.0.dev20230713.tar.gz]
+[2023-07-16 01:01:56] INFO root fetch - processPackages [flwr-nightly]: Remove: archive file [/home/abi/fetcher/tmp/flwr_nightly-1.5.0.dev20230714.tar.gz]
+[2023-07-16 01:01:56] INFO root fetch - main [MainThread]: End processing [flwr-nightly]: success
+[2023-07-16 01:01:56] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-0.8.3.dev4.tar.gz]
+[2023-07-16 01:01:56] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-0.8.3.dev8.tar.gz]
+[2023-07-16 01:01:56] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
+[2023-07-16 01:01:56] INFO root fetch - processPackages [pymap]: Remove: archive file [/home/abi/fetcher/tmp/pymap-0.9.6.tar.gz]
+[2023-07-16 01:01:56] INFO root fetch - processPackages [pymap]: Remove: archive file [/home/abi/fetcher/tmp/pymap-0.9.7.tar.gz]
+[2023-07-16 01:01:56] INFO root fetch - main [MainThread]: End processing [pymap]: success
+[2023-07-16 01:01:57] INFO root fetch - processPackages [socscikit]: Remove: archive file [/home/abi/fetcher/tmp/socscikit-0.0.5.1.tar.gz]
+[2023-07-16 01:01:57] INFO root fetch - processPackages [socscikit]: Remove: archive file [/home/abi/fetcher/tmp/socscikit-0.0.5.2.tar.gz]
+[2023-07-16 01:01:57] INFO root fetch - main [MainThread]: End processing [socscikit]: success
+[2023-07-16 01:01:57] INFO root fetch - processPackages [mispr]: Remove: archive file [/home/abi/fetcher/tmp/mispr-0.0.2.tar.gz]
+[2023-07-16 01:01:57] INFO root fetch - processPackages [mispr]: Remove: archive file [/home/abi/fetcher/tmp/mispr-0.0.3-py3-none-any.whl.zip]
+[2023-07-16 01:01:57] INFO root fetch - main [MainThread]: End processing [mispr]: success
+[2023-07-16 01:01:57] INFO root fetch - main [MainThread]: Store serial: [18903529]
