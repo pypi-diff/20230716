@@ -1,0 +1,54 @@
+[2023-07-16 00:04:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18903218]
+[2023-07-16 00:04:47] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-16 00:04:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xfetus
+[2023-07-16 00:04:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo14-addon-purchase-order-ubl-py3o
+[2023-07-16 00:04:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo14-addon-purchase-order-ubl
+[2023-07-16 00:04:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: threads-api
+[2023-07-16 00:04:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyccolo
+[2023-07-16 00:04:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: examon-core
+[2023-07-16 00:04:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: frictionless
+[2023-07-16 00:04:47] INFO root fetch - processPackages [threads-api]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-07-16 00:04:47] INFO root fetch - processPackages [odoo14-addon-purchase-order-ubl]: New version: [14.0.1.1.0] Old Version: [14.0.1.0.1.dev4]
+[2023-07-16 00:04:47] WARNING root fetch - processPackages [xfetus]: Skipping, unable to determine old version
+[2023-07-16 00:04:47] INFO root fetch - processPackages [examon-core]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-16 00:04:47] INFO root fetch - main [MainThread]: End processing [xfetus] error
+[2023-07-16 00:04:47] WARNING root fetch - processPackages [odoo14-addon-purchase-order-ubl-py3o]: Skipping, unable to determine old version
+[2023-07-16 00:04:47] INFO root fetch - main [MainThread]: End processing [odoo14-addon-purchase-order-ubl-py3o] error
+[2023-07-16 00:04:47] INFO root fetch - processPackages [pyccolo]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-16 00:04:47] INFO root fetch - processPackages [frictionless]: New version: [5.8.3] Old Version: [5.8.2]
+[2023-07-16 00:04:48] INFO root fetch - processPackages [examon-core]: Downloading https://files.pythonhosted.org/packages/0c/ca/aee09791a77e4dc4c547f23e7a57671bf257d686dfebbf5b984b3946b10e/examon_core-1.0.2.tar.gz
+[2023-07-16 00:04:48] INFO root fetch - processPackages [threads-api]: Downloading https://files.pythonhosted.org/packages/8e/7b/d9f92cfe385bef370f7b0c6946c2c5bae610c8564a65a6b1e0a2cd206538/threads-api-1.1.8.tar.gz
+[2023-07-16 00:04:48] INFO root fetch - processPackages [odoo14-addon-purchase-order-ubl]: Downloading https://files.pythonhosted.org/packages/78/ba/67f56a7a9738f14c28af5e595c1abb8d32d99692b6417c4931f8cc06c780/odoo14_addon_purchase_order_ubl-14.0.1.0.1.dev4-py3-none-any.whl
+[2023-07-16 00:04:48] INFO root fetch - processPackages [frictionless]: Downloading https://files.pythonhosted.org/packages/64/ee/14733c5b1fcd9a121c750af080aa978bfe1e801a9de882afa8cfe53382a6/frictionless-5.8.2.tar.gz
+[2023-07-16 00:04:48] INFO root fetch - processPackages [pyccolo]: Downloading https://files.pythonhosted.org/packages/89/99/05046591ea195d9d4635b006c98b0c0766181f97cf92a3b3cdd279c36cdf/pyccolo-0.0.8.tar.gz
+[2023-07-16 00:04:48] INFO root fetch - processPackages [examon-core]: Downloading https://files.pythonhosted.org/packages/0d/cf/cfd2915f97813fbdcb33abad3eb704e0bf36189757cef0f9a32318bc3afe/examon_core-1.0.3.tar.gz
+[2023-07-16 00:04:48] INFO root fetch - processPackages [threads-api]: Downloading https://files.pythonhosted.org/packages/85/23/ee0d1c9967b678f8a86817ad842a1577939edc7b5469bb1e5d6d237402b7/threads-api-1.1.9.tar.gz
+[2023-07-16 00:04:48] INFO root fetch - processPackages [examon-core]: executing diffoscope
+[2023-07-16 00:04:48] INFO root fetch - processPackages [examon-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/examon_core-1.0.2.tar.gz tmp/examon_core-1.0.3.tar.gz --markdown 20230716/e/examon-core/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-16 00:04:48] INFO root fetch - processPackages [frictionless]: Downloading https://files.pythonhosted.org/packages/90/d2/f85c7cedee239a748294362c4c36984bc70e846a057ecc7f4ed136298a34/frictionless-5.8.3.tar.gz
+[2023-07-16 00:04:48] INFO root fetch - processPackages [odoo14-addon-purchase-order-ubl]: Downloading https://files.pythonhosted.org/packages/3e/b0/f5f7894c6a7f0ebd9648df8de3e0399e947f86f816e2ab80187623ddf94c/odoo14_addon_purchase_order_ubl-14.0.1.1.0-py3-none-any.whl
+[2023-07-16 00:04:48] INFO root fetch - processPackages [threads-api]: executing diffoscope
+[2023-07-16 00:04:48] INFO root fetch - processPackages [threads-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threads-api-1.1.8.tar.gz tmp/threads-api-1.1.9.tar.gz --markdown 20230716/t/threads-api/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-07-16 00:04:48] INFO root fetch - processPackages [pyccolo]: Downloading https://files.pythonhosted.org/packages/fb/f9/3c723baa4bc490806929e98f4f4253cc421b256db488e38738591c8785c0/pyccolo-0.0.9.tar.gz
+[2023-07-16 00:04:48] INFO root fetch - processPackages [frictionless]: executing diffoscope
+[2023-07-16 00:04:48] INFO root fetch - processPackages [frictionless]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frictionless-5.8.2.tar.gz tmp/frictionless-5.8.3.tar.gz --markdown 20230716/f/frictionless/5.8.2-5.8.3/diff.md --exclude *.pyd
+[2023-07-16 00:04:49] INFO root fetch - processPackages [odoo14-addon-purchase-order-ubl]: executing diffoscope
+[2023-07-16 00:04:49] INFO root fetch - processPackages [odoo14-addon-purchase-order-ubl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_purchase_order_ubl-14.0.1.0.1.dev4-py3-none-any.whl.zip tmp/odoo14_addon_purchase_order_ubl-14.0.1.1.0-py3-none-any.whl.zip --markdown 20230716/o/odoo14-addon-purchase-order-ubl/14.0.1.0.1.dev4-14.0.1.1.0/diff.md --exclude *.pyd
+[2023-07-16 00:04:49] INFO root fetch - processPackages [pyccolo]: executing diffoscope
+[2023-07-16 00:04:49] INFO root fetch - processPackages [pyccolo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyccolo-0.0.8.tar.gz tmp/pyccolo-0.0.9.tar.gz --markdown 20230716/p/pyccolo/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-16 00:04:49] INFO root fetch - processPackages [examon-core]: Remove: archive file [/home/abi/fetcher/tmp/examon_core-1.0.2.tar.gz]
+[2023-07-16 00:04:49] INFO root fetch - processPackages [examon-core]: Remove: archive file [/home/abi/fetcher/tmp/examon_core-1.0.3.tar.gz]
+[2023-07-16 00:04:49] INFO root fetch - main [MainThread]: End processing [examon-core]: success
+[2023-07-16 00:04:49] INFO root fetch - processPackages [threads-api]: Remove: archive file [/home/abi/fetcher/tmp/threads-api-1.1.8.tar.gz]
+[2023-07-16 00:04:49] INFO root fetch - processPackages [threads-api]: Remove: archive file [/home/abi/fetcher/tmp/threads-api-1.1.9.tar.gz]
+[2023-07-16 00:04:49] INFO root fetch - main [MainThread]: End processing [threads-api]: success
+[2023-07-16 00:04:49] INFO root fetch - processPackages [odoo14-addon-purchase-order-ubl]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_purchase_order_ubl-14.0.1.0.1.dev4-py3-none-any.whl.zip]
+[2023-07-16 00:04:49] INFO root fetch - processPackages [odoo14-addon-purchase-order-ubl]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_purchase_order_ubl-14.0.1.1.0-py3-none-any.whl.zip]
+[2023-07-16 00:04:49] INFO root fetch - main [MainThread]: End processing [odoo14-addon-purchase-order-ubl]: success
+[2023-07-16 00:04:50] INFO root fetch - processPackages [pyccolo]: Remove: archive file [/home/abi/fetcher/tmp/pyccolo-0.0.8.tar.gz]
+[2023-07-16 00:04:50] INFO root fetch - processPackages [pyccolo]: Remove: archive file [/home/abi/fetcher/tmp/pyccolo-0.0.9.tar.gz]
+[2023-07-16 00:04:50] INFO root fetch - main [MainThread]: End processing [pyccolo]: success
+[2023-07-16 00:04:51] INFO root fetch - processPackages [frictionless]: Remove: archive file [/home/abi/fetcher/tmp/frictionless-5.8.2.tar.gz]
+[2023-07-16 00:04:51] INFO root fetch - processPackages [frictionless]: Remove: archive file [/home/abi/fetcher/tmp/frictionless-5.8.3.tar.gz]
+[2023-07-16 00:04:51] INFO root fetch - main [MainThread]: End processing [frictionless]: success
+[2023-07-16 00:04:51] INFO root fetch - main [MainThread]: Store serial: [18903242]
