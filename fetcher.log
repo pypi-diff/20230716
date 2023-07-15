@@ -136,3 +136,47 @@
 [2023-07-16 00:15:15] INFO root fetch - processPackages [mujoco-dev]: Remove: archive file [/home/abi/fetcher/tmp/mujoco_dev-2.3.6.dev548395521-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2023-07-16 00:15:15] INFO root fetch - main [MainThread]: End processing [mujoco-dev]: success
 [2023-07-16 00:15:15] INFO root fetch - main [MainThread]: Store serial: [18903309]
+[2023-07-16 00:20:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18903309]
+[2023-07-16 00:20:28] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-16 00:20:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ArucoScanner
+[2023-07-16 00:20:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: reflex-nexus
+[2023-07-16 00:20:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: falconlib
+[2023-07-16 00:20:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mindspore-dev
+[2023-07-16 00:20:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: micrOSDevToolKit
+[2023-07-16 00:20:28] INFO root fetch - processPackages [falconlib]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-16 00:20:28] INFO root fetch - processPackages [ArucoScanner]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-16 00:20:28] INFO root fetch - processPackages [mindspore-dev]: New version: [2.1.0.dev20230716] Old Version: [2.1.0.dev20230710]
+[2023-07-16 00:20:28] INFO root fetch - processPackages [micrOSDevToolKit]: New version: [1.19.0] Old Version: [1.18.3]
+[2023-07-16 00:20:28] INFO root fetch - processPackages [reflex-nexus]: New version: [0.0.12] Old Version: [0.0.1]
+[2023-07-16 00:20:28] INFO root fetch - processPackages [micrOSDevToolKit]: Downloading https://files.pythonhosted.org/packages/da/30/9bbd9b3abd35ade95140ebd6512efb20f997ee60b8fd0c4ab22124f06e04/micrOSDevToolKit-1.18.3.tar.gz
+[2023-07-16 00:20:28] INFO root fetch - processPackages [ArucoScanner]: Downloading https://files.pythonhosted.org/packages/4d/b9/dd83df136f60fd1f137370642fef8997e1fff4fbc0ac39d667f31ca43b4d/ArucoScanner-0.0.1.tar.gz
+[2023-07-16 00:20:28] INFO root fetch - processPackages [falconlib]: Downloading https://files.pythonhosted.org/packages/3d/74/57428cf78a3c7eb0de1c166379b9c053cd12b7d9c141a85e8e6374ffeb02/falconlib-0.0.8.tar.gz
+[2023-07-16 00:20:28] INFO root fetch - processPackages [reflex-nexus]: Downloading https://files.pythonhosted.org/packages/5c/1c/8c8a3218cf9eb620229c81db24407fdb76eb861f54f43c0ef364defc8429/reflex_nexus-0.0.1.tar.gz
+[2023-07-16 00:20:28] INFO root fetch - processPackages [mindspore-dev]: Downloading https://files.pythonhosted.org/packages/a3/a7/71c0c0fba1ebb3a83b34d7511d34b332c1c4cf1ce9f54c5892435120e90e/mindspore_dev-2.1.0.dev20230710-cp39-none-any.whl
+[2023-07-16 00:20:28] WARNING root fetch - processPackages [mindspore-dev]: Skipping package: exceeds size limit 169381715>=10485760
+[2023-07-16 00:20:28] INFO root fetch - main [MainThread]: End processing [mindspore-dev] error
+[2023-07-16 00:20:28] INFO root fetch - processPackages [reflex-nexus]: Downloading https://files.pythonhosted.org/packages/2f/db/47107999fb9653d9c1ff10c3ea31bcae0dec76bdc5306e24d32e4824c5af/reflex_nexus-0.0.12.tar.gz
+[2023-07-16 00:20:29] INFO root fetch - processPackages [falconlib]: Downloading https://files.pythonhosted.org/packages/af/66/b9c471ad44f60bb92cecd425a471bae725a037f39d79460cec927698b3eb/falconlib-0.0.9.tar.gz
+[2023-07-16 00:20:29] INFO root fetch - processPackages [ArucoScanner]: Downloading https://files.pythonhosted.org/packages/b0/4b/70692590afee6488f9be2d92ce89a15410c8e6a9657abc356246036e2343/ArucoScanner-0.0.2.tar.gz
+[2023-07-16 00:20:29] INFO root fetch - processPackages [falconlib]: executing diffoscope
+[2023-07-16 00:20:29] INFO root fetch - processPackages [falconlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/falconlib-0.0.8.tar.gz tmp/falconlib-0.0.9.tar.gz --markdown 20230716/f/falconlib/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-16 00:20:29] INFO root fetch - processPackages [reflex-nexus]: executing diffoscope
+[2023-07-16 00:20:29] INFO root fetch - processPackages [reflex-nexus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reflex_nexus-0.0.1.tar.gz tmp/reflex_nexus-0.0.12.tar.gz --markdown 20230716/r/reflex-nexus/0.0.1-0.0.12/diff.md --exclude *.pyd
+[2023-07-16 00:20:29] INFO root fetch - processPackages [ArucoScanner]: executing diffoscope
+[2023-07-16 00:20:29] INFO root fetch - processPackages [ArucoScanner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ArucoScanner-0.0.1.tar.gz tmp/ArucoScanner-0.0.2.tar.gz --markdown 20230716/A/ArucoScanner/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-16 00:20:29] INFO root fetch - processPackages [micrOSDevToolKit]: Downloading https://files.pythonhosted.org/packages/ce/98/817161b88bf188b71d288e7578473d53f07a1414cd4da1693883a673cbaf/micrOSDevToolKit-1.19.0.tar.gz
+[2023-07-16 00:20:30] INFO root fetch - processPackages [reflex-nexus]: Remove: archive file [/home/abi/fetcher/tmp/reflex_nexus-0.0.1.tar.gz]
+[2023-07-16 00:20:30] INFO root fetch - processPackages [reflex-nexus]: Remove: archive file [/home/abi/fetcher/tmp/reflex_nexus-0.0.12.tar.gz]
+[2023-07-16 00:20:30] INFO root fetch - main [MainThread]: End processing [reflex-nexus]: success
+[2023-07-16 00:20:30] INFO root fetch - processPackages [ArucoScanner]: Remove: archive file [/home/abi/fetcher/tmp/ArucoScanner-0.0.1.tar.gz]
+[2023-07-16 00:20:30] INFO root fetch - processPackages [ArucoScanner]: Remove: archive file [/home/abi/fetcher/tmp/ArucoScanner-0.0.2.tar.gz]
+[2023-07-16 00:20:30] INFO root fetch - main [MainThread]: End processing [ArucoScanner]: success
+[2023-07-16 00:20:30] INFO root fetch - processPackages [falconlib]: Remove: archive file [/home/abi/fetcher/tmp/falconlib-0.0.8.tar.gz]
+[2023-07-16 00:20:30] INFO root fetch - processPackages [falconlib]: Remove: archive file [/home/abi/fetcher/tmp/falconlib-0.0.9.tar.gz]
+[2023-07-16 00:20:30] INFO root fetch - main [MainThread]: End processing [falconlib]: success
+[2023-07-16 00:20:30] INFO root fetch - processPackages [micrOSDevToolKit]: executing diffoscope
+[2023-07-16 00:20:30] INFO root fetch - processPackages [micrOSDevToolKit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/micrOSDevToolKit-1.18.3.tar.gz tmp/micrOSDevToolKit-1.19.0.tar.gz --markdown 20230716/m/micrOSDevToolKit/1.18.3-1.19.0/diff.md --exclude *.pyd
+[2023-07-16 00:20:32] INFO root fetch - processPackages [micrOSDevToolKit]: Remove: archive file [/home/abi/fetcher/tmp/micrOSDevToolKit-1.18.3.tar.gz]
+[2023-07-16 00:20:32] INFO root fetch - processPackages [micrOSDevToolKit]: Remove: archive file [/home/abi/fetcher/tmp/micrOSDevToolKit-1.19.0.tar.gz]
+[2023-07-16 00:20:32] INFO root fetch - main [MainThread]: End processing [micrOSDevToolKit]: success
+[2023-07-16 00:20:32] INFO root fetch - main [MainThread]: Store serial: [18903334]
