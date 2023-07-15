@@ -674,3 +674,33 @@
 [2023-07-16 01:27:55] INFO root fetch - processPackages [pandasai]: Remove: archive file [/home/abi/fetcher/tmp/pandasai-0.6.9.tar.gz]
 [2023-07-16 01:27:55] INFO root fetch - main [MainThread]: End processing [pandasai]: success
 [2023-07-16 01:27:55] INFO root fetch - main [MainThread]: Store serial: [18903591]
+[2023-07-16 01:32:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18903591]
+[2023-07-16 01:33:03] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-16 01:33:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: modsys
+[2023-07-16 01:33:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: datoso
+[2023-07-16 01:33:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: freefang-server
+[2023-07-16 01:33:03] INFO root fetch - processPackages [freefang-server]: New version: [0.4.0] Old Version: [0.3.1]
+[2023-07-16 01:33:03] INFO root fetch - processPackages [modsys]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-07-16 01:33:03] INFO root fetch - processPackages [datoso]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-07-16 01:33:03] INFO root fetch - processPackages [modsys]: Downloading https://files.pythonhosted.org/packages/2f/4b/5dfbd2352c04f4b369d5fceff1f3b99fc85241c0c59ce69f3d1ec02522d4/modsys-0.4.2.tar.gz
+[2023-07-16 01:33:03] INFO root fetch - processPackages [freefang-server]: Downloading https://files.pythonhosted.org/packages/6d/f2/b33b2f533936149818d943f1d807d8ca42b1a881810915951339fe2e6549/freefang-server-0.3.1.tar.gz
+[2023-07-16 01:33:03] INFO root fetch - processPackages [datoso]: Downloading https://files.pythonhosted.org/packages/b8/0d/2bc793c6b1eed08a51588f831fbf5f998e53aaba8751f07ae54c506e0790/datoso-0.3.2.tar.gz
+[2023-07-16 01:33:04] INFO root fetch - processPackages [modsys]: Downloading https://files.pythonhosted.org/packages/ff/6f/b7f4adf5da0b13480aa6eadeb2ea9257cfbe652a188eba48e57e5261d4b5/modsys-0.4.3.tar.gz
+[2023-07-16 01:33:04] INFO root fetch - processPackages [modsys]: executing diffoscope
+[2023-07-16 01:33:04] INFO root fetch - processPackages [modsys]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modsys-0.4.2.tar.gz tmp/modsys-0.4.3.tar.gz --markdown 20230716/m/modsys/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-07-16 01:33:04] INFO root fetch - processPackages [datoso]: Downloading https://files.pythonhosted.org/packages/e4/da/03eb00405f0b40d284e3c42ce1c9c90c6b096cf98d18d87fd63f436a300f/datoso-0.3.3.tar.gz
+[2023-07-16 01:33:04] INFO root fetch - processPackages [freefang-server]: Downloading https://files.pythonhosted.org/packages/7d/f9/448982b4f24def6a7dc81d5b1f711d5aac775baaff9ad7b10ff13fe8ec19/freefang-server-0.4.0.tar.gz
+[2023-07-16 01:33:04] INFO root fetch - processPackages [datoso]: executing diffoscope
+[2023-07-16 01:33:04] INFO root fetch - processPackages [datoso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datoso-0.3.2.tar.gz tmp/datoso-0.3.3.tar.gz --markdown 20230716/d/datoso/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-07-16 01:33:04] INFO root fetch - processPackages [freefang-server]: executing diffoscope
+[2023-07-16 01:33:04] INFO root fetch - processPackages [freefang-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/freefang-server-0.3.1.tar.gz tmp/freefang-server-0.4.0.tar.gz --markdown 20230716/f/freefang-server/0.3.1-0.4.0/diff.md --exclude *.pyd
+[2023-07-16 01:33:05] INFO root fetch - processPackages [modsys]: Remove: archive file [/home/abi/fetcher/tmp/modsys-0.4.2.tar.gz]
+[2023-07-16 01:33:05] INFO root fetch - processPackages [modsys]: Remove: archive file [/home/abi/fetcher/tmp/modsys-0.4.3.tar.gz]
+[2023-07-16 01:33:05] INFO root fetch - main [MainThread]: End processing [modsys]: success
+[2023-07-16 01:33:05] INFO root fetch - processPackages [freefang-server]: Remove: archive file [/home/abi/fetcher/tmp/freefang-server-0.3.1.tar.gz]
+[2023-07-16 01:33:05] INFO root fetch - processPackages [freefang-server]: Remove: archive file [/home/abi/fetcher/tmp/freefang-server-0.4.0.tar.gz]
+[2023-07-16 01:33:05] INFO root fetch - main [MainThread]: End processing [freefang-server]: success
+[2023-07-16 01:33:05] INFO root fetch - processPackages [datoso]: Remove: archive file [/home/abi/fetcher/tmp/datoso-0.3.2.tar.gz]
+[2023-07-16 01:33:05] INFO root fetch - processPackages [datoso]: Remove: archive file [/home/abi/fetcher/tmp/datoso-0.3.3.tar.gz]
+[2023-07-16 01:33:05] INFO root fetch - main [MainThread]: End processing [datoso]: success
+[2023-07-16 01:33:05] INFO root fetch - main [MainThread]: Store serial: [18903600]
