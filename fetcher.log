@@ -662,3 +662,15 @@
 [2023-07-16 01:22:44] INFO root fetch - processPackages [sagemaker]: Remove: archive file [/home/abi/fetcher/tmp/sagemaker-2.99.0.tar.gz]
 [2023-07-16 01:22:44] INFO root fetch - main [MainThread]: End processing [sagemaker]: success
 [2023-07-16 01:22:44] INFO root fetch - main [MainThread]: Store serial: [18903588]
+[2023-07-16 01:27:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18903588]
+[2023-07-16 01:27:53] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2023-07-16 01:27:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pandasai
+[2023-07-16 01:27:53] INFO root fetch - processPackages [pandasai]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-07-16 01:27:53] INFO root fetch - processPackages [pandasai]: Downloading https://files.pythonhosted.org/packages/8c/84/9a85dcf65104c8b25534a533538695163a524f1f79c54d082640809290ae/pandasai-0.6.8.tar.gz
+[2023-07-16 01:27:54] INFO root fetch - processPackages [pandasai]: Downloading https://files.pythonhosted.org/packages/f9/2a/12fe91158b2b1d2ea5e11fc3bc103067764f3befa7163b521f5c84af1e93/pandasai-0.6.9.tar.gz
+[2023-07-16 01:27:54] INFO root fetch - processPackages [pandasai]: executing diffoscope
+[2023-07-16 01:27:54] INFO root fetch - processPackages [pandasai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandasai-0.6.8.tar.gz tmp/pandasai-0.6.9.tar.gz --markdown 20230716/p/pandasai/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-07-16 01:27:55] INFO root fetch - processPackages [pandasai]: Remove: archive file [/home/abi/fetcher/tmp/pandasai-0.6.8.tar.gz]
+[2023-07-16 01:27:55] INFO root fetch - processPackages [pandasai]: Remove: archive file [/home/abi/fetcher/tmp/pandasai-0.6.9.tar.gz]
+[2023-07-16 01:27:55] INFO root fetch - main [MainThread]: End processing [pandasai]: success
+[2023-07-16 01:27:55] INFO root fetch - main [MainThread]: Store serial: [18903591]
