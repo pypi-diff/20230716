@@ -500,3 +500,69 @@
 [2023-07-16 01:01:57] INFO root fetch - processPackages [mispr]: Remove: archive file [/home/abi/fetcher/tmp/mispr-0.0.3-py3-none-any.whl.zip]
 [2023-07-16 01:01:57] INFO root fetch - main [MainThread]: End processing [mispr]: success
 [2023-07-16 01:01:57] INFO root fetch - main [MainThread]: Store serial: [18903529]
+[2023-07-16 01:07:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18903529]
+[2023-07-16 01:07:06] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-16 01:07:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tmnt-cu101
+[2023-07-16 01:07:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: remotior-sensus
+[2023-07-16 01:07:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: palette-generator
+[2023-07-16 01:07:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tmnt
+[2023-07-16 01:07:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: spark-quality-rules-tools
+[2023-07-16 01:07:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: socscikit
+[2023-07-16 01:07:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fundaml
+[2023-07-16 01:07:07] INFO root fetch - processPackages [fundaml]: New version: [0.1.34] Old Version: [0.1.33]
+[2023-07-16 01:07:07] INFO root fetch - processPackages [socscikit]: New version: [0.0.5.3] Old Version: [0.0.5.2]
+[2023-07-16 01:07:07] INFO root fetch - processPackages [spark-quality-rules-tools]: New version: [0.7.5] Old Version: [0.7.0]
+[2023-07-16 01:07:07] INFO root fetch - processPackages [remotior-sensus]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-16 01:07:07] INFO root fetch - processPackages [palette-generator]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-16 01:07:07] INFO root fetch - processPackages [tmnt]: New version: [0.7.0b20230715] Old Version: [0.7.0b20230714]
+[2023-07-16 01:07:07] INFO root fetch - processPackages [tmnt-cu101]: New version: [0.7.0b20230715] Old Version: [0.7.0b20230714]
+[2023-07-16 01:07:07] INFO root fetch - processPackages [socscikit]: Downloading https://files.pythonhosted.org/packages/9a/29/e777fc56ae88b19a8eaf7d2b0d495b4e13703a2f5ddc8264573311fb8c90/socscikit-0.0.5.2.tar.gz
+[2023-07-16 01:07:07] INFO root fetch - processPackages [remotior-sensus]: Downloading https://files.pythonhosted.org/packages/2d/82/4f0f8be3b8f3c4f00b90027ff3c32958918221be17a5ad7c3cf298d4af04/remotior_sensus-0.0.8.tar.gz
+[2023-07-16 01:07:07] INFO root fetch - processPackages [spark-quality-rules-tools]: Downloading https://files.pythonhosted.org/packages/ce/16/98ba05c5ac4407178ce43154c947ad2edaf88b885b13fe2f2a16f1d0b22c/spark_quality_rules_tools-0.7.0.tar.gz
+[2023-07-16 01:07:07] INFO root fetch - processPackages [fundaml]: Downloading https://files.pythonhosted.org/packages/d7/f9/385d237f30d95ae311115b9d1068f2b5248675f193cb370c1c5cb26afd29/fundaml-0.1.33.tar.gz
+[2023-07-16 01:07:07] INFO root fetch - processPackages [palette-generator]: Downloading https://files.pythonhosted.org/packages/44/1b/51c25d53e71a6825a7822e90860a8bc75c210130b4939b0591b8ff5d6426/palette_generator-0.1.2.tar.gz
+[2023-07-16 01:07:07] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/21/e3/898135bbe5bd900f52cf970dcd821a3ba0e315d1ce7e62950201a8ea082f/tmnt-0.7.0b20230714.tar.gz
+[2023-07-16 01:07:07] INFO root fetch - processPackages [tmnt-cu101]: Downloading https://files.pythonhosted.org/packages/ba/31/be7eef7c8733a9a2b424915eb09e6cf1f1fcf05558deb0784304d46e5085/tmnt-cu101-0.7.0b20230714.tar.gz
+[2023-07-16 01:07:07] INFO root fetch - processPackages [fundaml]: Downloading https://files.pythonhosted.org/packages/3d/7d/79e3833e89f0c27e10419e79ae226534d626d2dba1fa4ef388bb8e90727e/fundaml-0.1.34.tar.gz
+[2023-07-16 01:07:07] INFO root fetch - processPackages [socscikit]: Downloading https://files.pythonhosted.org/packages/3f/75/8756f6e93faae251307870ff43a1f17b1082b4c8a4231933349b1d018cfa/socscikit-0.0.5.3.tar.gz
+[2023-07-16 01:07:07] INFO root fetch - processPackages [remotior-sensus]: Downloading https://files.pythonhosted.org/packages/e4/c8/0c6054910848b2651da24ecb17a3d9ab9a62b4c844a98797ec686eaac17b/remotior_sensus-0.0.9.tar.gz
+[2023-07-16 01:07:07] INFO root fetch - processPackages [spark-quality-rules-tools]: Downloading https://files.pythonhosted.org/packages/87/bb/e9cc0ba042aade1dad220320220475e61efaa24690c7c8d82f73ebd28d8d/spark_quality_rules_tools-0.7.5.tar.gz
+[2023-07-16 01:07:07] INFO root fetch - processPackages [tmnt-cu101]: Downloading https://files.pythonhosted.org/packages/6c/fa/07f2b621c7c77dd7844aa631d03702488add991e0db663be3e38ea1a89df/tmnt-cu101-0.7.0b20230715.tar.gz
+[2023-07-16 01:07:07] INFO root fetch - processPackages [fundaml]: executing diffoscope
+[2023-07-16 01:07:07] INFO root fetch - processPackages [fundaml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fundaml-0.1.33.tar.gz tmp/fundaml-0.1.34.tar.gz --markdown 20230716/f/fundaml/0.1.33-0.1.34/diff.md --exclude *.pyd
+[2023-07-16 01:07:07] INFO root fetch - processPackages [palette-generator]: Downloading https://files.pythonhosted.org/packages/46/d6/2699970e6b23a73e74f4629024a91622f73d2e2c99bd0f292995824333f5/palette_generator-0.1.3.tar.gz
+[2023-07-16 01:07:07] INFO root fetch - processPackages [remotior-sensus]: executing diffoscope
+[2023-07-16 01:07:07] INFO root fetch - processPackages [remotior-sensus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remotior_sensus-0.0.8.tar.gz tmp/remotior_sensus-0.0.9.tar.gz --markdown 20230716/r/remotior-sensus/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-16 01:07:07] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/70/05/ca85cf9be056ac7eff33fdd36e1ec38b5b52db6c66500e28a0ef078ea338/tmnt-0.7.0b20230715.tar.gz
+[2023-07-16 01:07:08] INFO root fetch - processPackages [spark-quality-rules-tools]: executing diffoscope
+[2023-07-16 01:07:08] INFO root fetch - processPackages [spark-quality-rules-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spark_quality_rules_tools-0.7.0.tar.gz tmp/spark_quality_rules_tools-0.7.5.tar.gz --markdown 20230716/s/spark-quality-rules-tools/0.7.0-0.7.5/diff.md --exclude *.pyd
+[2023-07-16 01:07:08] INFO root fetch - processPackages [socscikit]: executing diffoscope
+[2023-07-16 01:07:08] INFO root fetch - processPackages [socscikit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/socscikit-0.0.5.2.tar.gz tmp/socscikit-0.0.5.3.tar.gz --markdown 20230716/s/socscikit/0.0.5.2-0.0.5.3/diff.md --exclude *.pyd
+[2023-07-16 01:07:08] INFO root fetch - processPackages [palette-generator]: executing diffoscope
+[2023-07-16 01:07:08] INFO root fetch - processPackages [palette-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/palette_generator-0.1.2.tar.gz tmp/palette_generator-0.1.3.tar.gz --markdown 20230716/p/palette-generator/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-16 01:07:08] INFO root fetch - processPackages [tmnt-cu101]: executing diffoscope
+[2023-07-16 01:07:08] INFO root fetch - processPackages [tmnt-cu101]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-cu101-0.7.0b20230714.tar.gz tmp/tmnt-cu101-0.7.0b20230715.tar.gz --markdown 20230716/t/tmnt-cu101/0.7.0b20230714-0.7.0b20230715/diff.md --exclude *.pyd
+[2023-07-16 01:07:08] INFO root fetch - processPackages [tmnt]: executing diffoscope
+[2023-07-16 01:07:08] INFO root fetch - processPackages [tmnt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-0.7.0b20230714.tar.gz tmp/tmnt-0.7.0b20230715.tar.gz --markdown 20230716/t/tmnt/0.7.0b20230714-0.7.0b20230715/diff.md --exclude *.pyd
+[2023-07-16 01:07:09] INFO root fetch - processPackages [fundaml]: Remove: archive file [/home/abi/fetcher/tmp/fundaml-0.1.33.tar.gz]
+[2023-07-16 01:07:09] INFO root fetch - processPackages [fundaml]: Remove: archive file [/home/abi/fetcher/tmp/fundaml-0.1.34.tar.gz]
+[2023-07-16 01:07:09] INFO root fetch - main [MainThread]: End processing [fundaml]: success
+[2023-07-16 01:07:09] INFO root fetch - processPackages [palette-generator]: Remove: archive file [/home/abi/fetcher/tmp/palette_generator-0.1.2.tar.gz]
+[2023-07-16 01:07:09] INFO root fetch - processPackages [palette-generator]: Remove: archive file [/home/abi/fetcher/tmp/palette_generator-0.1.3.tar.gz]
+[2023-07-16 01:07:09] INFO root fetch - main [MainThread]: End processing [palette-generator]: success
+[2023-07-16 01:07:09] INFO root fetch - processPackages [tmnt-cu101]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-cu101-0.7.0b20230714.tar.gz]
+[2023-07-16 01:07:09] INFO root fetch - processPackages [tmnt-cu101]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-cu101-0.7.0b20230715.tar.gz]
+[2023-07-16 01:07:09] INFO root fetch - main [MainThread]: End processing [tmnt-cu101]: success
+[2023-07-16 01:07:09] INFO root fetch - processPackages [spark-quality-rules-tools]: Remove: archive file [/home/abi/fetcher/tmp/spark_quality_rules_tools-0.7.0.tar.gz]
+[2023-07-16 01:07:09] INFO root fetch - processPackages [spark-quality-rules-tools]: Remove: archive file [/home/abi/fetcher/tmp/spark_quality_rules_tools-0.7.5.tar.gz]
+[2023-07-16 01:07:09] INFO root fetch - main [MainThread]: End processing [spark-quality-rules-tools]: success
+[2023-07-16 01:07:09] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.0b20230714.tar.gz]
+[2023-07-16 01:07:09] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.0b20230715.tar.gz]
+[2023-07-16 01:07:09] INFO root fetch - main [MainThread]: End processing [tmnt]: success
+[2023-07-16 01:07:09] INFO root fetch - processPackages [remotior-sensus]: Remove: archive file [/home/abi/fetcher/tmp/remotior_sensus-0.0.8.tar.gz]
+[2023-07-16 01:07:09] INFO root fetch - processPackages [remotior-sensus]: Remove: archive file [/home/abi/fetcher/tmp/remotior_sensus-0.0.9.tar.gz]
+[2023-07-16 01:07:09] INFO root fetch - main [MainThread]: End processing [remotior-sensus]: success
+[2023-07-16 01:07:09] INFO root fetch - processPackages [socscikit]: Remove: archive file [/home/abi/fetcher/tmp/socscikit-0.0.5.2.tar.gz]
+[2023-07-16 01:07:09] INFO root fetch - processPackages [socscikit]: Remove: archive file [/home/abi/fetcher/tmp/socscikit-0.0.5.3.tar.gz]
+[2023-07-16 01:07:09] INFO root fetch - main [MainThread]: End processing [socscikit]: success
+[2023-07-16 01:07:09] INFO root fetch - main [MainThread]: Store serial: [18903550]
