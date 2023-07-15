@@ -638,3 +638,27 @@
 [2023-07-16 01:17:32] INFO root fetch - processPackages [ggml-python]: Remove: archive file [/home/abi/fetcher/tmp/ggml-python-0.0.9.tar.gz]
 [2023-07-16 01:17:32] INFO root fetch - main [MainThread]: End processing [ggml-python]: success
 [2023-07-16 01:17:32] INFO root fetch - main [MainThread]: Store serial: [18903578]
+[2023-07-16 01:22:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18903578]
+[2023-07-16 01:22:41] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-16 01:22:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: simc-support
+[2023-07-16 01:22:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qprom
+[2023-07-16 01:22:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sagemaker
+[2023-07-16 01:22:41] WARNING root fetch - processPackages [qprom]: Skipping, unable to determine old version
+[2023-07-16 01:22:41] INFO root fetch - main [MainThread]: End processing [qprom] error
+[2023-07-16 01:22:41] INFO root fetch - processPackages [simc-support]: New version: [9.2.5.3] Old Version: [9.2.5.2]
+[2023-07-16 01:22:41] INFO root fetch - processPackages [sagemaker]: New version: [2.99.0] Old Version: [2.98.0]
+[2023-07-16 01:22:41] INFO root fetch - processPackages [simc-support]: Downloading https://files.pythonhosted.org/packages/f2/2a/7c51939ccb108431387a296bc5c850bc5de94d88f9f5349f20368b0d95e5/simc_support-9.2.5.2.tar.gz
+[2023-07-16 01:22:41] INFO root fetch - processPackages [sagemaker]: Downloading https://files.pythonhosted.org/packages/22/dd/adc439c8040ceb2a14d8d72110638d79775925a88e7e3925ee7a87333551/sagemaker-2.98.0.tar.gz
+[2023-07-16 01:22:42] INFO root fetch - processPackages [sagemaker]: Downloading https://files.pythonhosted.org/packages/a1/4b/c6dcd8ae0e0f163c7938e1fee17da72be71aac4347c044a5a52f21a850a6/sagemaker-2.99.0.tar.gz
+[2023-07-16 01:22:42] INFO root fetch - processPackages [simc-support]: Downloading https://files.pythonhosted.org/packages/7f/f2/94679bd3aff7cfce75541c456a83745c5be1b451e014726a9dceb888be9e/simc_support-9.2.5.3.tar.gz
+[2023-07-16 01:22:42] INFO root fetch - processPackages [sagemaker]: executing diffoscope
+[2023-07-16 01:22:42] INFO root fetch - processPackages [sagemaker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sagemaker-2.98.0.tar.gz tmp/sagemaker-2.99.0.tar.gz --markdown 20230716/s/sagemaker/2.98.0-2.99.0/diff.md --exclude *.pyd
+[2023-07-16 01:22:42] INFO root fetch - processPackages [simc-support]: executing diffoscope
+[2023-07-16 01:22:42] INFO root fetch - processPackages [simc-support]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simc_support-9.2.5.2.tar.gz tmp/simc_support-9.2.5.3.tar.gz --markdown 20230716/s/simc-support/9.2.5.2-9.2.5.3/diff.md --exclude *.pyd
+[2023-07-16 01:22:43] INFO root fetch - processPackages [simc-support]: Remove: archive file [/home/abi/fetcher/tmp/simc_support-9.2.5.2.tar.gz]
+[2023-07-16 01:22:43] INFO root fetch - processPackages [simc-support]: Remove: archive file [/home/abi/fetcher/tmp/simc_support-9.2.5.3.tar.gz]
+[2023-07-16 01:22:43] INFO root fetch - main [MainThread]: End processing [simc-support]: success
+[2023-07-16 01:22:44] INFO root fetch - processPackages [sagemaker]: Remove: archive file [/home/abi/fetcher/tmp/sagemaker-2.98.0.tar.gz]
+[2023-07-16 01:22:44] INFO root fetch - processPackages [sagemaker]: Remove: archive file [/home/abi/fetcher/tmp/sagemaker-2.99.0.tar.gz]
+[2023-07-16 01:22:44] INFO root fetch - main [MainThread]: End processing [sagemaker]: success
+[2023-07-16 01:22:44] INFO root fetch - main [MainThread]: Store serial: [18903588]
