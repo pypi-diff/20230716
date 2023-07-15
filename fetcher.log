@@ -359,3 +359,45 @@
 [2023-07-16 00:46:23] INFO root fetch - processPackages [socscikit]: Remove: archive file [/home/abi/fetcher/tmp/socscikit-0.0.5.tar.gz]
 [2023-07-16 00:46:23] INFO root fetch - main [MainThread]: End processing [socscikit]: success
 [2023-07-16 00:46:23] INFO root fetch - main [MainThread]: Store serial: [18903478]
+[2023-07-16 00:51:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18903478]
+[2023-07-16 00:51:32] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-16 00:51:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: helloyahya
+[2023-07-16 00:51:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: f5project
+[2023-07-16 00:51:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: grammarinator
+[2023-07-16 00:51:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: logium
+[2023-07-16 00:51:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: helloyahyaali
+[2023-07-16 00:51:32] INFO root fetch - processPackages [helloyahya]: New version: [0.0.3] Old Version: [0.0.1]
+[2023-07-16 00:51:32] WARNING root fetch - processPackages [helloyahyaali]: Skipping, unable to determine old version
+[2023-07-16 00:51:32] INFO root fetch - main [MainThread]: End processing [helloyahyaali] error
+[2023-07-16 00:51:32] INFO root fetch - processPackages [f5project]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-16 00:51:32] INFO root fetch - processPackages [logium]: New version: [0.5] Old Version: [0.4]
+[2023-07-16 00:51:32] INFO root fetch - processPackages [grammarinator]: New version: [23.7] Old Version: [19.3]
+[2023-07-16 00:51:32] INFO root fetch - processPackages [logium]: Downloading https://files.pythonhosted.org/packages/9e/c9/90c7782ada5f841c6dfb654f110446af6d46223d50ccfb490573f8854ac9/logium-0.4.tar.gz
+[2023-07-16 00:51:32] INFO root fetch - processPackages [helloyahya]: Downloading https://files.pythonhosted.org/packages/71/ec/5d0fba54386ef67e8d57a00ae26cb3cc9cbd152199040f7563793bc6842f/helloyahya-0.0.1.tar.gz
+[2023-07-16 00:51:32] INFO root fetch - processPackages [grammarinator]: Downloading https://files.pythonhosted.org/packages/b0/77/d50d5ddc09c86354363f7c1f32ef87f55ed9b025c4cc127b6f6305bf6531/grammarinator-19.3.tar.gz
+[2023-07-16 00:51:32] INFO root fetch - processPackages [f5project]: Downloading https://files.pythonhosted.org/packages/8a/ce/a2b802cb0a7a9a64f0d88b731fcc7ca0f5ca928115bac89d8656a17f8854/f5project-0.0.8.tar.gz
+[2023-07-16 00:51:32] INFO root fetch - processPackages [logium]: Downloading https://files.pythonhosted.org/packages/1f/33/e51059c86d6b0acdc06f23ce9524602b6b9e0a6d0e1cae9baa4bbba87369/logium-0.5.tar.gz
+[2023-07-16 00:51:32] INFO root fetch - processPackages [helloyahya]: Downloading https://files.pythonhosted.org/packages/24/af/a9d42f460f551bc10688ba9911e79009cb30242122399f9b91c900fe706b/helloyahya-0.0.3.tar.gz
+[2023-07-16 00:51:33] INFO root fetch - processPackages [logium]: executing diffoscope
+[2023-07-16 00:51:33] INFO root fetch - processPackages [logium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logium-0.4.tar.gz tmp/logium-0.5.tar.gz --markdown 20230716/l/logium/0.4-0.5/diff.md --exclude *.pyd
+[2023-07-16 00:51:33] INFO root fetch - processPackages [grammarinator]: Downloading https://files.pythonhosted.org/packages/e2/c0/f9b0d419b70185969e7b8b33b5c4ad95427c94f56d48c5ce47a0317337eb/grammarinator-23.7.tar.gz
+[2023-07-16 00:51:33] INFO root fetch - processPackages [helloyahya]: executing diffoscope
+[2023-07-16 00:51:33] INFO root fetch - processPackages [helloyahya]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/helloyahya-0.0.1.tar.gz tmp/helloyahya-0.0.3.tar.gz --markdown 20230716/h/helloyahya/0.0.1-0.0.3/diff.md --exclude *.pyd
+[2023-07-16 00:51:33] INFO root fetch - processPackages [f5project]: Downloading https://files.pythonhosted.org/packages/e8/2f/220c8e52debbe80fc55bf5ede9dfa7c496cdf95165ba8f9486f38aca2c5e/f5project-0.0.9.tar.gz
+[2023-07-16 00:51:33] INFO root fetch - processPackages [grammarinator]: executing diffoscope
+[2023-07-16 00:51:33] INFO root fetch - processPackages [grammarinator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grammarinator-19.3.tar.gz tmp/grammarinator-23.7.tar.gz --markdown 20230716/g/grammarinator/19.3-23.7/diff.md --exclude *.pyd
+[2023-07-16 00:51:33] INFO root fetch - processPackages [f5project]: executing diffoscope
+[2023-07-16 00:51:33] INFO root fetch - processPackages [f5project]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/f5project-0.0.8.tar.gz tmp/f5project-0.0.9.tar.gz --markdown 20230716/f/f5project/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-16 00:51:33] INFO root fetch - processPackages [logium]: Remove: archive file [/home/abi/fetcher/tmp/logium-0.4.tar.gz]
+[2023-07-16 00:51:33] INFO root fetch - processPackages [logium]: Remove: archive file [/home/abi/fetcher/tmp/logium-0.5.tar.gz]
+[2023-07-16 00:51:33] INFO root fetch - main [MainThread]: End processing [logium]: success
+[2023-07-16 00:51:33] INFO root fetch - processPackages [helloyahya]: Remove: archive file [/home/abi/fetcher/tmp/helloyahya-0.0.1.tar.gz]
+[2023-07-16 00:51:33] INFO root fetch - processPackages [helloyahya]: Remove: archive file [/home/abi/fetcher/tmp/helloyahya-0.0.3.tar.gz]
+[2023-07-16 00:51:33] INFO root fetch - main [MainThread]: End processing [helloyahya]: success
+[2023-07-16 00:51:34] INFO root fetch - processPackages [grammarinator]: Remove: archive file [/home/abi/fetcher/tmp/grammarinator-19.3.tar.gz]
+[2023-07-16 00:51:34] INFO root fetch - processPackages [grammarinator]: Remove: archive file [/home/abi/fetcher/tmp/grammarinator-23.7.tar.gz]
+[2023-07-16 00:51:34] INFO root fetch - main [MainThread]: End processing [grammarinator]: success
+[2023-07-16 00:51:34] INFO root fetch - processPackages [f5project]: Remove: archive file [/home/abi/fetcher/tmp/f5project-0.0.8.tar.gz]
+[2023-07-16 00:51:34] INFO root fetch - processPackages [f5project]: Remove: archive file [/home/abi/fetcher/tmp/f5project-0.0.9.tar.gz]
+[2023-07-16 00:51:34] INFO root fetch - main [MainThread]: End processing [f5project]: success
+[2023-07-16 00:51:34] INFO root fetch - main [MainThread]: Store serial: [18903497]
