@@ -219,3 +219,9 @@
 [2023-07-16 00:25:43] INFO root fetch - processPackages [latch]: Remove: archive file [/home/abi/fetcher/tmp/latch-2.9.6.tar.gz]
 [2023-07-16 00:25:43] INFO root fetch - main [MainThread]: End processing [latch]: success
 [2023-07-16 00:25:43] INFO root fetch - main [MainThread]: Store serial: [18903350]
+[2023-07-16 00:30:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18903350]
+[2023-07-16 00:30:51] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2023-07-16 00:30:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pycis-cli
+[2023-07-16 00:30:51] WARNING root fetch - processPackages [pycis-cli]: Skipping, unable to determine old version
+[2023-07-16 00:30:51] INFO root fetch - main [MainThread]: End processing [pycis-cli] error
+[2023-07-16 00:30:51] INFO root fetch - main [MainThread]: Store serial: [18903357]
