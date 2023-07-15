@@ -52,3 +52,57 @@
 [2023-07-16 00:04:51] INFO root fetch - processPackages [frictionless]: Remove: archive file [/home/abi/fetcher/tmp/frictionless-5.8.3.tar.gz]
 [2023-07-16 00:04:51] INFO root fetch - main [MainThread]: End processing [frictionless]: success
 [2023-07-16 00:04:51] INFO root fetch - main [MainThread]: Store serial: [18903242]
+[2023-07-16 00:09:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18903242]
+[2023-07-16 00:10:00] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-16 00:10:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: polarmints
+[2023-07-16 00:10:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ribs
+[2023-07-16 00:10:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spacetraders-sdk-feba66
+[2023-07-16 00:10:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bitmap2
+[2023-07-16 00:10:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: afkode
+[2023-07-16 00:10:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ml4s
+[2023-07-16 00:10:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: python-wekan
+[2023-07-16 00:10:00] WARNING root fetch - processPackages [spacetraders-sdk-feba66]: Skipping, unable to determine old version
+[2023-07-16 00:10:00] INFO root fetch - main [MainThread]: End processing [spacetraders-sdk-feba66] error
+[2023-07-16 00:10:00] INFO root fetch - processPackages [afkode]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-07-16 00:10:00] INFO root fetch - processPackages [ml4s]: New version: [0.1.0] Old Version: [0.0.2]
+[2023-07-16 00:10:00] INFO root fetch - processPackages [python-wekan]: New version: [0.1.8] Old Version: [0.1.6]
+[2023-07-16 00:10:00] INFO root fetch - processPackages [bitmap2]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-07-16 00:10:00] WARNING root fetch - processPackages [polarmints]: Skipping, unable to determine old version
+[2023-07-16 00:10:00] INFO root fetch - main [MainThread]: End processing [polarmints] error
+[2023-07-16 00:10:00] INFO root fetch - processPackages [ribs]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-07-16 00:10:00] INFO root fetch - processPackages [python-wekan]: Downloading https://files.pythonhosted.org/packages/74/b2/156223ebc95a387a86551c32ed94c99901b0766b1403a56d8ff8b5bd0a25/python-wekan-0.1.6.tar.gz
+[2023-07-16 00:10:00] INFO root fetch - processPackages [afkode]: Downloading https://files.pythonhosted.org/packages/3a/94/f2c52157a6f7aa30e374dcdf0cd7afb3eb088aacd3eee8b2133c8731c3c7/afkode-0.4.2.tar.gz
+[2023-07-16 00:10:00] INFO root fetch - processPackages [ml4s]: Downloading https://files.pythonhosted.org/packages/10/e4/71ac983fa8fe39d4c0a4506e578d5cac139f05e81c04d657a52b6dda7eea/ml4s-0.0.2.tar.gz
+[2023-07-16 00:10:00] INFO root fetch - processPackages [ribs]: Downloading https://files.pythonhosted.org/packages/ce/20/2767fdb0a214fc23f47df2609e0b78213582c26acd519463d67d423fe645/ribs-0.5.1.tar.gz
+[2023-07-16 00:10:00] INFO root fetch - processPackages [bitmap2]: Downloading https://files.pythonhosted.org/packages/34/94/e0c79d00fceabf49da64aff93f2d29218ebfb2e3b7bd1cb0b51ae8f41986/bitmap2-0.2.3.tar.gz
+[2023-07-16 00:10:00] INFO root fetch - processPackages [python-wekan]: Downloading https://files.pythonhosted.org/packages/f8/0f/c4397c1f5e108c8ee28cd66cfb6968f4f10ffe32b8a799e2d7a937888d7c/python-wekan-0.1.8.tar.gz
+[2023-07-16 00:10:00] INFO root fetch - processPackages [afkode]: Downloading https://files.pythonhosted.org/packages/65/98/76c26408994c57bd46c401a7f9ed2136b389b0c781fcbe96b33f151d8872/afkode-0.4.3.tar.gz
+[2023-07-16 00:10:00] INFO root fetch - processPackages [ribs]: Downloading https://files.pythonhosted.org/packages/84/1f/c939e5fd40a0f802548a2cb1e1faef5a2149d79ea53b7b5b6678650006e1/ribs-0.5.2.tar.gz
+[2023-07-16 00:10:01] INFO root fetch - processPackages [ml4s]: Downloading https://files.pythonhosted.org/packages/08/09/ccbe2ff9cec4d5cc31029334737996d5b22b37616e6350087bb46730dfd7/ml4s-0.1.0.tar.gz
+[2023-07-16 00:10:01] INFO root fetch - processPackages [bitmap2]: Downloading https://files.pythonhosted.org/packages/22/c5/a5cf5901ede31695a0ce0efad9978911c22367e39fbf21af19deb5bf9390/bitmap2-0.2.4.tar.gz
+[2023-07-16 00:10:01] INFO root fetch - processPackages [python-wekan]: executing diffoscope
+[2023-07-16 00:10:01] INFO root fetch - processPackages [python-wekan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-wekan-0.1.6.tar.gz tmp/python-wekan-0.1.8.tar.gz --markdown 20230716/p/python-wekan/0.1.6-0.1.8/diff.md --exclude *.pyd
+[2023-07-16 00:10:01] INFO root fetch - processPackages [afkode]: executing diffoscope
+[2023-07-16 00:10:01] INFO root fetch - processPackages [afkode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/afkode-0.4.2.tar.gz tmp/afkode-0.4.3.tar.gz --markdown 20230716/a/afkode/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-07-16 00:10:01] INFO root fetch - processPackages [ribs]: executing diffoscope
+[2023-07-16 00:10:01] INFO root fetch - processPackages [ribs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ribs-0.5.1.tar.gz tmp/ribs-0.5.2.tar.gz --markdown 20230716/r/ribs/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-07-16 00:10:01] INFO root fetch - processPackages [ml4s]: executing diffoscope
+[2023-07-16 00:10:01] INFO root fetch - processPackages [ml4s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml4s-0.0.2.tar.gz tmp/ml4s-0.1.0.tar.gz --markdown 20230716/m/ml4s/0.0.2-0.1.0/diff.md --exclude *.pyd
+[2023-07-16 00:10:01] INFO root fetch - processPackages [bitmap2]: executing diffoscope
+[2023-07-16 00:10:01] INFO root fetch - processPackages [bitmap2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bitmap2-0.2.3.tar.gz tmp/bitmap2-0.2.4.tar.gz --markdown 20230716/b/bitmap2/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-07-16 00:10:02] INFO root fetch - processPackages [python-wekan]: Remove: archive file [/home/abi/fetcher/tmp/python-wekan-0.1.6.tar.gz]
+[2023-07-16 00:10:02] INFO root fetch - processPackages [python-wekan]: Remove: archive file [/home/abi/fetcher/tmp/python-wekan-0.1.8.tar.gz]
+[2023-07-16 00:10:02] INFO root fetch - main [MainThread]: End processing [python-wekan]: success
+[2023-07-16 00:10:02] INFO root fetch - processPackages [afkode]: Remove: archive file [/home/abi/fetcher/tmp/afkode-0.4.2.tar.gz]
+[2023-07-16 00:10:02] INFO root fetch - processPackages [afkode]: Remove: archive file [/home/abi/fetcher/tmp/afkode-0.4.3.tar.gz]
+[2023-07-16 00:10:02] INFO root fetch - main [MainThread]: End processing [afkode]: success
+[2023-07-16 00:10:02] INFO root fetch - processPackages [bitmap2]: Remove: archive file [/home/abi/fetcher/tmp/bitmap2-0.2.3.tar.gz]
+[2023-07-16 00:10:02] INFO root fetch - processPackages [bitmap2]: Remove: archive file [/home/abi/fetcher/tmp/bitmap2-0.2.4.tar.gz]
+[2023-07-16 00:10:02] INFO root fetch - main [MainThread]: End processing [bitmap2]: success
+[2023-07-16 00:10:02] INFO root fetch - processPackages [ribs]: Remove: archive file [/home/abi/fetcher/tmp/ribs-0.5.1.tar.gz]
+[2023-07-16 00:10:02] INFO root fetch - processPackages [ribs]: Remove: archive file [/home/abi/fetcher/tmp/ribs-0.5.2.tar.gz]
+[2023-07-16 00:10:02] INFO root fetch - main [MainThread]: End processing [ribs]: success
+[2023-07-16 00:10:02] INFO root fetch - processPackages [ml4s]: Remove: archive file [/home/abi/fetcher/tmp/ml4s-0.0.2.tar.gz]
+[2023-07-16 00:10:02] INFO root fetch - processPackages [ml4s]: Remove: archive file [/home/abi/fetcher/tmp/ml4s-0.1.0.tar.gz]
+[2023-07-16 00:10:02] INFO root fetch - main [MainThread]: End processing [ml4s]: success
+[2023-07-16 00:10:02] INFO root fetch - main [MainThread]: Store serial: [18903268]
