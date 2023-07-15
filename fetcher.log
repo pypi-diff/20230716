@@ -737,3 +737,42 @@
 [2023-07-16 01:38:15] INFO root fetch - processPackages [pyipatcher]: Remove: archive file [/home/abi/fetcher/tmp/pyipatcher-2.0.5.tar.gz]
 [2023-07-16 01:38:15] INFO root fetch - main [MainThread]: End processing [pyipatcher]: success
 [2023-07-16 01:38:15] INFO root fetch - main [MainThread]: Store serial: [18903615]
+[2023-07-16 01:43:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18903615]
+[2023-07-16 01:43:24] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-16 01:43:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: modsys
+[2023-07-16 01:43:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bb-apputils
+[2023-07-16 01:43:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cjm-yolox-pytorch
+[2023-07-16 01:43:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: yaml-settings-pydantic
+[2023-07-16 01:43:24] INFO root fetch - processPackages [modsys]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-07-16 01:43:24] INFO root fetch - processPackages [yaml-settings-pydantic]: New version: [0.1.0] Old Version: [0.0.0]
+[2023-07-16 01:43:24] INFO root fetch - processPackages [bb-apputils]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-16 01:43:24] INFO root fetch - processPackages [cjm-yolox-pytorch]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-16 01:43:24] INFO root fetch - processPackages [modsys]: Downloading https://files.pythonhosted.org/packages/ff/6f/b7f4adf5da0b13480aa6eadeb2ea9257cfbe652a188eba48e57e5261d4b5/modsys-0.4.3.tar.gz
+[2023-07-16 01:43:24] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/c2/bc/1e51fa8009ac3b9bd8b49a4a63b9db3584cf5f4025074c91590c5e33e061/cjm-yolox-pytorch-0.0.98.tar.gz
+[2023-07-16 01:43:24] INFO root fetch - processPackages [bb-apputils]: Downloading https://files.pythonhosted.org/packages/66/82/f5f023d0972033292d702a345bc257d1a53fb797c4469099207eafbc1e1e/bb_apputils-0.3.8.tar.gz
+[2023-07-16 01:43:24] INFO root fetch - processPackages [yaml-settings-pydantic]: Downloading https://files.pythonhosted.org/packages/f7/a3/22663db6163516a4be546382b3edf96df9ac351f14bd677eddc0a12a1e52/yaml-settings-pydantic-0.0.0.tar.gz
+[2023-07-16 01:43:24] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/48/c0/c61aa048df93a11ff930d1680535fee96bb684ff0e7e76a755726ebcf9e1/cjm-yolox-pytorch-0.0.99.tar.gz
+[2023-07-16 01:43:24] INFO root fetch - processPackages [modsys]: Downloading https://files.pythonhosted.org/packages/89/49/17bc2123eb39eb79618517636128cf853a28dba065cb4596c29748098fd2/modsys-0.4.4.tar.gz
+[2023-07-16 01:43:25] INFO root fetch - processPackages [cjm-yolox-pytorch]: executing diffoscope
+[2023-07-16 01:43:25] INFO root fetch - processPackages [cjm-yolox-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cjm-yolox-pytorch-0.0.98.tar.gz tmp/cjm-yolox-pytorch-0.0.99.tar.gz --markdown 20230716/c/cjm-yolox-pytorch/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-16 01:43:25] INFO root fetch - processPackages [bb-apputils]: Downloading https://files.pythonhosted.org/packages/48/e1/38e7bed1df3e49b67d8c869a30ed5e9c9d7520268def3d6231d7facb0bb5/bb_apputils-0.3.9.tar.gz
+[2023-07-16 01:43:25] INFO root fetch - processPackages [modsys]: executing diffoscope
+[2023-07-16 01:43:25] INFO root fetch - processPackages [modsys]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modsys-0.4.3.tar.gz tmp/modsys-0.4.4.tar.gz --markdown 20230716/m/modsys/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-07-16 01:43:25] INFO root fetch - processPackages [yaml-settings-pydantic]: Downloading https://files.pythonhosted.org/packages/1c/4a/168703662bcfe6ddab497486a5aa0ab8879e884e2d1992483442a62320af/yaml-settings-pydantic-0.1.0.tar.gz
+[2023-07-16 01:43:25] INFO root fetch - processPackages [bb-apputils]: executing diffoscope
+[2023-07-16 01:43:25] INFO root fetch - processPackages [bb-apputils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bb_apputils-0.3.8.tar.gz tmp/bb_apputils-0.3.9.tar.gz --markdown 20230716/b/bb-apputils/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-16 01:43:25] INFO root fetch - processPackages [yaml-settings-pydantic]: executing diffoscope
+[2023-07-16 01:43:25] INFO root fetch - processPackages [yaml-settings-pydantic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yaml-settings-pydantic-0.0.0.tar.gz tmp/yaml-settings-pydantic-0.1.0.tar.gz --markdown 20230716/y/yaml-settings-pydantic/0.0.0-0.1.0/diff.md --exclude *.pyd
+[2023-07-16 01:43:25] INFO root fetch - processPackages [cjm-yolox-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/cjm-yolox-pytorch-0.0.98.tar.gz]
+[2023-07-16 01:43:25] INFO root fetch - processPackages [cjm-yolox-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/cjm-yolox-pytorch-0.0.99.tar.gz]
+[2023-07-16 01:43:25] INFO root fetch - main [MainThread]: End processing [cjm-yolox-pytorch]: success
+[2023-07-16 01:43:26] INFO root fetch - processPackages [bb-apputils]: Remove: archive file [/home/abi/fetcher/tmp/bb_apputils-0.3.8.tar.gz]
+[2023-07-16 01:43:26] INFO root fetch - processPackages [bb-apputils]: Remove: archive file [/home/abi/fetcher/tmp/bb_apputils-0.3.9.tar.gz]
+[2023-07-16 01:43:26] INFO root fetch - main [MainThread]: End processing [bb-apputils]: success
+[2023-07-16 01:43:26] INFO root fetch - processPackages [modsys]: Remove: archive file [/home/abi/fetcher/tmp/modsys-0.4.3.tar.gz]
+[2023-07-16 01:43:26] INFO root fetch - processPackages [modsys]: Remove: archive file [/home/abi/fetcher/tmp/modsys-0.4.4.tar.gz]
+[2023-07-16 01:43:26] INFO root fetch - main [MainThread]: End processing [modsys]: success
+[2023-07-16 01:43:26] INFO root fetch - processPackages [yaml-settings-pydantic]: Remove: archive file [/home/abi/fetcher/tmp/yaml-settings-pydantic-0.0.0.tar.gz]
+[2023-07-16 01:43:26] INFO root fetch - processPackages [yaml-settings-pydantic]: Remove: archive file [/home/abi/fetcher/tmp/yaml-settings-pydantic-0.1.0.tar.gz]
+[2023-07-16 01:43:26] INFO root fetch - main [MainThread]: End processing [yaml-settings-pydantic]: success
+[2023-07-16 01:43:26] INFO root fetch - main [MainThread]: Store serial: [18903629]
