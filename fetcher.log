@@ -225,3 +225,62 @@
 [2023-07-16 00:30:51] WARNING root fetch - processPackages [pycis-cli]: Skipping, unable to determine old version
 [2023-07-16 00:30:51] INFO root fetch - main [MainThread]: End processing [pycis-cli] error
 [2023-07-16 00:30:51] INFO root fetch - main [MainThread]: Store serial: [18903357]
+[2023-07-16 00:35:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18903357]
+[2023-07-16 00:35:59] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-16 00:35:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: carbonate-sdk
+[2023-07-16 00:35:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: CrossPy
+[2023-07-16 00:35:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: logium
+[2023-07-16 00:35:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xmos-ai-tools
+[2023-07-16 00:36:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: index-503
+[2023-07-16 00:36:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cjm-yolox-pytorch
+[2023-07-16 00:36:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cz-emoticon
+[2023-07-16 00:36:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: muutils
+[2023-07-16 00:36:00] INFO root fetch - processPackages [CrossPy]: New version: [0.0.0a3.dev9] Old Version: [0.0.0a3.dev8]
+[2023-07-16 00:36:00] INFO root fetch - processPackages [index-503]: New version: [2.4.0] Old Version: [2.3.1]
+[2023-07-16 00:36:00] WARNING root fetch - processPackages [cz-emoticon]: Skipping, unable to determine old version
+[2023-07-16 00:36:00] INFO root fetch - main [MainThread]: End processing [cz-emoticon] error
+[2023-07-16 00:36:00] INFO root fetch - processPackages [xmos-ai-tools]: New version: [1.0.1.dev60] Old Version: [1.0.1.dev58]
+[2023-07-16 00:36:00] INFO root fetch - processPackages [logium]: New version: [0.4] Old Version: [0.3]
+[2023-07-16 00:36:00] WARNING root fetch - processPackages [carbonate-sdk]: Skipping, unable to determine old version
+[2023-07-16 00:36:00] INFO root fetch - processPackages [muutils]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-07-16 00:36:00] INFO root fetch - main [MainThread]: End processing [carbonate-sdk] error
+[2023-07-16 00:36:00] INFO root fetch - processPackages [cjm-yolox-pytorch]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-16 00:36:00] INFO root fetch - processPackages [CrossPy]: Downloading https://files.pythonhosted.org/packages/ec/b8/e5ab99de223845d8d356f63f407518017a5afb79c4313f7c29026f449ba8/CrossPy-0.0.0a3.dev8.tar.gz
+[2023-07-16 00:36:00] INFO root fetch - processPackages [logium]: Downloading https://files.pythonhosted.org/packages/ad/e6/f1e0e432ef40587f1d6dde0bd593f5f6bdbd3d1adbeb8330bf03e41202f3/logium-0.3.tar.gz
+[2023-07-16 00:36:00] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/c2/bc/1e51fa8009ac3b9bd8b49a4a63b9db3584cf5f4025074c91590c5e33e061/cjm-yolox-pytorch-0.0.98.tar.gz
+[2023-07-16 00:36:00] INFO root fetch - processPackages [index-503]: Downloading https://files.pythonhosted.org/packages/9c/49/7d276b70d5dbda20238168e3f46a159b106aad1648e5e683a7d3e9a7125f/index_503-2.3.1.tar.gz
+[2023-07-16 00:36:00] INFO root fetch - processPackages [xmos-ai-tools]: Downloading https://files.pythonhosted.org/packages/87/3f/da3763a978be12ee4acb24953bacc569d38451363ce44c673a598e29f968/xmos_ai_tools-1.0.1.dev58-py3-none-win_amd64.whl
+[2023-07-16 00:36:00] INFO root fetch - processPackages [muutils]: Downloading https://files.pythonhosted.org/packages/d4/f1/271cc0983f4e2f3a2398add72d5d86012b423fcb30611b46278ddf1e4fe6/muutils-0.4.3.tar.gz
+[2023-07-16 00:36:00] INFO root fetch - processPackages [CrossPy]: Downloading https://files.pythonhosted.org/packages/42/3c/bb73b16a9d09ec4ec2e611a065b0b1308508085441750f46083f95b884c7/CrossPy-0.0.0a3.dev9.tar.gz
+[2023-07-16 00:36:00] WARNING root fetch - processPackages [xmos-ai-tools]: Skipping package: exceeds size limit 27616748>=10485760
+[2023-07-16 00:36:00] INFO root fetch - main [MainThread]: End processing [xmos-ai-tools] error
+[2023-07-16 00:36:00] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/48/c0/c61aa048df93a11ff930d1680535fee96bb684ff0e7e76a755726ebcf9e1/cjm-yolox-pytorch-0.0.99.tar.gz
+[2023-07-16 00:36:00] INFO root fetch - processPackages [CrossPy]: executing diffoscope
+[2023-07-16 00:36:00] INFO root fetch - processPackages [CrossPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CrossPy-0.0.0a3.dev8.tar.gz tmp/CrossPy-0.0.0a3.dev9.tar.gz --markdown 20230716/C/CrossPy/0.0.0a3.dev8-0.0.0a3.dev9/diff.md --exclude *.pyd
+[2023-07-16 00:36:00] INFO root fetch - processPackages [logium]: Downloading https://files.pythonhosted.org/packages/9e/c9/90c7782ada5f841c6dfb654f110446af6d46223d50ccfb490573f8854ac9/logium-0.4.tar.gz
+[2023-07-16 00:36:00] INFO root fetch - processPackages [index-503]: Downloading https://files.pythonhosted.org/packages/9e/78/8b25fdc5de569c8fa8836b8a439b2fa3cfcb3dc59615bb51e19495e346ba/index_503-2.4.0.tar.gz
+[2023-07-16 00:36:00] INFO root fetch - processPackages [cjm-yolox-pytorch]: executing diffoscope
+[2023-07-16 00:36:00] INFO root fetch - processPackages [cjm-yolox-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cjm-yolox-pytorch-0.0.98.tar.gz tmp/cjm-yolox-pytorch-0.0.99.tar.gz --markdown 20230716/c/cjm-yolox-pytorch/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-16 00:36:00] INFO root fetch - processPackages [muutils]: Downloading https://files.pythonhosted.org/packages/9f/17/46c9e04102f01d6920f03de371de37c876b54b018bf1b13353a1e9c747cd/muutils-0.4.4.tar.gz
+[2023-07-16 00:36:00] INFO root fetch - processPackages [logium]: executing diffoscope
+[2023-07-16 00:36:00] INFO root fetch - processPackages [logium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logium-0.3.tar.gz tmp/logium-0.4.tar.gz --markdown 20230716/l/logium/0.3-0.4/diff.md --exclude *.pyd
+[2023-07-16 00:36:01] INFO root fetch - processPackages [index-503]: executing diffoscope
+[2023-07-16 00:36:01] INFO root fetch - processPackages [index-503]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/index_503-2.3.1.tar.gz tmp/index_503-2.4.0.tar.gz --markdown 20230716/i/index-503/2.3.1-2.4.0/diff.md --exclude *.pyd
+[2023-07-16 00:36:01] INFO root fetch - processPackages [muutils]: executing diffoscope
+[2023-07-16 00:36:01] INFO root fetch - processPackages [muutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/muutils-0.4.3.tar.gz tmp/muutils-0.4.4.tar.gz --markdown 20230716/m/muutils/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-07-16 00:36:01] INFO root fetch - processPackages [CrossPy]: Remove: archive file [/home/abi/fetcher/tmp/CrossPy-0.0.0a3.dev8.tar.gz]
+[2023-07-16 00:36:01] INFO root fetch - processPackages [CrossPy]: Remove: archive file [/home/abi/fetcher/tmp/CrossPy-0.0.0a3.dev9.tar.gz]
+[2023-07-16 00:36:01] INFO root fetch - main [MainThread]: End processing [CrossPy]: success
+[2023-07-16 00:36:01] INFO root fetch - processPackages [cjm-yolox-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/cjm-yolox-pytorch-0.0.98.tar.gz]
+[2023-07-16 00:36:01] INFO root fetch - processPackages [cjm-yolox-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/cjm-yolox-pytorch-0.0.99.tar.gz]
+[2023-07-16 00:36:01] INFO root fetch - main [MainThread]: End processing [cjm-yolox-pytorch]: success
+[2023-07-16 00:36:01] INFO root fetch - processPackages [logium]: Remove: archive file [/home/abi/fetcher/tmp/logium-0.3.tar.gz]
+[2023-07-16 00:36:01] INFO root fetch - processPackages [logium]: Remove: archive file [/home/abi/fetcher/tmp/logium-0.4.tar.gz]
+[2023-07-16 00:36:01] INFO root fetch - main [MainThread]: End processing [logium]: success
+[2023-07-16 00:36:01] INFO root fetch - processPackages [index-503]: Remove: archive file [/home/abi/fetcher/tmp/index_503-2.3.1.tar.gz]
+[2023-07-16 00:36:01] INFO root fetch - processPackages [index-503]: Remove: archive file [/home/abi/fetcher/tmp/index_503-2.4.0.tar.gz]
+[2023-07-16 00:36:01] INFO root fetch - main [MainThread]: End processing [index-503]: success
+[2023-07-16 00:36:02] INFO root fetch - processPackages [muutils]: Remove: archive file [/home/abi/fetcher/tmp/muutils-0.4.3.tar.gz]
+[2023-07-16 00:36:02] INFO root fetch - processPackages [muutils]: Remove: archive file [/home/abi/fetcher/tmp/muutils-0.4.4.tar.gz]
+[2023-07-16 00:36:02] INFO root fetch - main [MainThread]: End processing [muutils]: success
+[2023-07-16 00:36:02] INFO root fetch - main [MainThread]: Store serial: [18903392]
