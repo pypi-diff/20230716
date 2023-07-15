@@ -284,3 +284,24 @@
 [2023-07-16 00:36:02] INFO root fetch - processPackages [muutils]: Remove: archive file [/home/abi/fetcher/tmp/muutils-0.4.4.tar.gz]
 [2023-07-16 00:36:02] INFO root fetch - main [MainThread]: End processing [muutils]: success
 [2023-07-16 00:36:02] INFO root fetch - main [MainThread]: Store serial: [18903392]
+[2023-07-16 00:41:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18903392]
+[2023-07-16 00:41:10] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-07-16 00:41:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: MPSPlots
+[2023-07-16 00:41:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openai2
+[2023-07-16 00:41:10] INFO root fetch - processPackages [openai2]: New version: [1.5.11.1] Old Version: [1.5.11]
+[2023-07-16 00:41:10] INFO root fetch - processPackages [MPSPlots]: New version: [0.4.0] Old Version: [0.3.18]
+[2023-07-16 00:41:10] INFO root fetch - processPackages [openai2]: Downloading https://files.pythonhosted.org/packages/8f/48/4be175a7a3d3651d67d0e66414aa181cd655df006c1a990aab93c1f35a9a/openai2-1.5.11.tar.gz
+[2023-07-16 00:41:10] INFO root fetch - processPackages [MPSPlots]: Downloading https://files.pythonhosted.org/packages/71/51/29bac822b2b25d8d4b10f8b45d4520fdf4719dcca143684350b3a9ce0613/MPSPlots-0.3.18-py3-none-any.whl
+[2023-07-16 00:41:10] INFO root fetch - processPackages [openai2]: Downloading https://files.pythonhosted.org/packages/00/7d/dbdc094baed0d01c60bcfaecd806f6ce7a51cf6f489dc5db7627e9d9aaca/openai2-1.5.11.1.tar.gz
+[2023-07-16 00:41:10] INFO root fetch - processPackages [openai2]: executing diffoscope
+[2023-07-16 00:41:10] INFO root fetch - processPackages [openai2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai2-1.5.11.tar.gz tmp/openai2-1.5.11.1.tar.gz --markdown 20230716/o/openai2/1.5.11-1.5.11.1/diff.md --exclude *.pyd
+[2023-07-16 00:41:11] INFO root fetch - processPackages [MPSPlots]: Downloading https://files.pythonhosted.org/packages/c1/05/933abf053c7ac58bb0d3a0c49ef416f0a4b7795959eafacb3338d335f415/MPSPlots-0.4.0-py3-none-any.whl
+[2023-07-16 00:41:11] INFO root fetch - processPackages [MPSPlots]: executing diffoscope
+[2023-07-16 00:41:11] INFO root fetch - processPackages [MPSPlots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MPSPlots-0.3.18-py3-none-any.whl.zip tmp/MPSPlots-0.4.0-py3-none-any.whl.zip --markdown 20230716/M/MPSPlots/0.3.18-0.4.0/diff.md --exclude *.pyd
+[2023-07-16 00:41:11] INFO root fetch - processPackages [openai2]: Remove: archive file [/home/abi/fetcher/tmp/openai2-1.5.11.tar.gz]
+[2023-07-16 00:41:11] INFO root fetch - processPackages [openai2]: Remove: archive file [/home/abi/fetcher/tmp/openai2-1.5.11.1.tar.gz]
+[2023-07-16 00:41:11] INFO root fetch - main [MainThread]: End processing [openai2]: success
+[2023-07-16 00:41:12] INFO root fetch - processPackages [MPSPlots]: Remove: archive file [/home/abi/fetcher/tmp/MPSPlots-0.3.18-py3-none-any.whl.zip]
+[2023-07-16 00:41:12] INFO root fetch - processPackages [MPSPlots]: Remove: archive file [/home/abi/fetcher/tmp/MPSPlots-0.4.0-py3-none-any.whl.zip]
+[2023-07-16 00:41:12] INFO root fetch - main [MainThread]: End processing [MPSPlots]: success
+[2023-07-16 00:41:12] INFO root fetch - main [MainThread]: Store serial: [18903397]
