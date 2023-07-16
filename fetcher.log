@@ -11035,3 +11035,63 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-16 17:47:00] INFO root fetch - processPackages [z4d-certified-devices]: Remove: archive file [/home/abi/fetcher/tmp/z4d-certified-devices-2.76.tar.gz]
 [2023-07-16 17:47:00] INFO root fetch - main [MainThread]: End processing [z4d-certified-devices]: success
 [2023-07-16 17:47:00] INFO root fetch - main [MainThread]: Store serial: [18907905]
+[2023-07-16 17:52:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18907905]
+[2023-07-16 17:52:08] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-16 17:52:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyathena
+[2023-07-16 17:52:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dav-tools
+[2023-07-16 17:52:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: deepl-translator
+[2023-07-16 17:52:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: buckaroo
+[2023-07-16 17:52:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ultralytics
+[2023-07-16 17:52:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: CartiMorph-vxm
+[2023-07-16 17:52:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cshogi
+[2023-07-16 17:52:09] INFO root fetch - processPackages [ultralytics]: New version: [8.0.99] Old Version: [8.0.98]
+[2023-07-16 17:52:09] INFO root fetch - processPackages [dav-tools]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-07-16 17:52:09] INFO root fetch - processPackages [buckaroo]: New version: [0.3.8] Old Version: [0.3.7]
+[2023-07-16 17:52:09] WARNING root fetch - processPackages [CartiMorph-vxm]: Skipping, unable to determine old version
+[2023-07-16 17:52:09] INFO root fetch - main [MainThread]: End processing [CartiMorph-vxm] error
+[2023-07-16 17:52:09] INFO root fetch - processPackages [deepl-translator]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-07-16 17:52:09] INFO root fetch - processPackages [pyathena]: New version: [3.0.6] Old Version: [3.0.5]
+[2023-07-16 17:52:09] INFO root fetch - processPackages [cshogi]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-07-16 17:52:09] INFO root fetch - processPackages [deepl-translator]: Downloading https://files.pythonhosted.org/packages/66/5f/ccebe5a1fcb13642ed4c191e585709e561813927e7445cc95e56859d0188/deepl_translator-0.1.7.tar.gz
+[2023-07-16 17:52:09] INFO root fetch - processPackages [ultralytics]: Downloading https://files.pythonhosted.org/packages/b6/de/f3172b8f928ec31c47cbc2e23d6a875eea575cba8e11ad4548900923efa1/ultralytics-8.0.98.tar.gz
+[2023-07-16 17:52:09] INFO root fetch - processPackages [pyathena]: Downloading https://files.pythonhosted.org/packages/21/98/fb21ceb488d433f01e5ddbed1445d1963a1f8cd50deb4a8a7c3cb5564091/pyathena-3.0.5.tar.gz
+[2023-07-16 17:52:09] INFO root fetch - processPackages [dav-tools]: Downloading https://files.pythonhosted.org/packages/9b/2d/bd15254940b7d487483e50e9aa1720a242cb97840845ee631169965fd6d0/dav_tools-0.0.9.tar.gz
+[2023-07-16 17:52:09] INFO root fetch - processPackages [cshogi]: Downloading https://files.pythonhosted.org/packages/7e/b5/a41607cf01e4122a9ec4c791f0da143fd30658e7c5fce13bc1825c49dba7/cshogi-0.6.0.tar.gz
+[2023-07-16 17:52:09] INFO root fetch - processPackages [buckaroo]: Downloading https://files.pythonhosted.org/packages/1e/72/bc3409f8b7f9594c4a69bdfac7d1c92d73452f89183fc76503639876ccc0/buckaroo-0.3.7.tar.gz
+[2023-07-16 17:52:09] INFO root fetch - processPackages [deepl-translator]: Downloading https://files.pythonhosted.org/packages/c5/27/af2a35751bbde56bd5fcd91d3322acae958e9b8c77d9cfeb9f5f3a5488b6/deepl_translator-0.1.8.tar.gz
+[2023-07-16 17:52:09] INFO root fetch - processPackages [dav-tools]: Downloading https://files.pythonhosted.org/packages/db/2d/6229f36b2d50068add79c9b1e386c7f5e00a15df721ddd9887ba691ddc35/dav_tools-0.1.0.tar.gz
+[2023-07-16 17:52:09] INFO root fetch - processPackages [pyathena]: Downloading https://files.pythonhosted.org/packages/e7/35/96220131fc6259b9b18972ad82b26d5aac85c35238514d93606e086f126a/pyathena-3.0.6.tar.gz
+[2023-07-16 17:52:09] INFO root fetch - processPackages [cshogi]: Downloading https://files.pythonhosted.org/packages/4a/f7/6a3c9a51c62871fd9334d1a95a68b34b3a7b01bc938835c2a6f8e5c20e05/cshogi-0.6.1.tar.gz
+[2023-07-16 17:52:09] INFO root fetch - processPackages [deepl-translator]: executing diffoscope
+[2023-07-16 17:52:09] INFO root fetch - processPackages [deepl-translator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepl_translator-0.1.7.tar.gz tmp/deepl_translator-0.1.8.tar.gz --markdown 20230716/d/deepl-translator/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-07-16 17:52:10] INFO root fetch - processPackages [ultralytics]: Downloading https://files.pythonhosted.org/packages/b3/b0/87b289ca8a910cd1421d5a217c06fb642b51546dd96bd6b923c67be00415/ultralytics-8.0.99.tar.gz
+[2023-07-16 17:52:10] INFO root fetch - processPackages [dav-tools]: executing diffoscope
+[2023-07-16 17:52:10] INFO root fetch - processPackages [dav-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dav_tools-0.0.9.tar.gz tmp/dav_tools-0.1.0.tar.gz --markdown 20230716/d/dav-tools/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-07-16 17:52:10] INFO root fetch - processPackages [pyathena]: executing diffoscope
+[2023-07-16 17:52:10] INFO root fetch - processPackages [pyathena]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyathena-3.0.5.tar.gz tmp/pyathena-3.0.6.tar.gz --markdown 20230716/p/pyathena/3.0.5-3.0.6/diff.md --exclude *.pyd
+[2023-07-16 17:52:10] INFO root fetch - processPackages [cshogi]: executing diffoscope
+[2023-07-16 17:52:10] INFO root fetch - processPackages [cshogi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cshogi-0.6.0.tar.gz tmp/cshogi-0.6.1.tar.gz --markdown 20230716/c/cshogi/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-07-16 17:52:10] INFO root fetch - processPackages [buckaroo]: Downloading https://files.pythonhosted.org/packages/06/1d/f1d551d2b97fd6f278757ed06abe2eaa396eca8eb79ae206a203fa155f75/buckaroo-0.3.8.tar.gz
+[2023-07-16 17:52:10] INFO root fetch - processPackages [ultralytics]: executing diffoscope
+[2023-07-16 17:52:10] INFO root fetch - processPackages [ultralytics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ultralytics-8.0.98.tar.gz tmp/ultralytics-8.0.99.tar.gz --markdown 20230716/u/ultralytics/8.0.98-8.0.99/diff.md --exclude *.pyd
+[2023-07-16 17:52:10] INFO root fetch - processPackages [buckaroo]: executing diffoscope
+[2023-07-16 17:52:10] INFO root fetch - processPackages [buckaroo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/buckaroo-0.3.7.tar.gz tmp/buckaroo-0.3.8.tar.gz --markdown 20230716/b/buckaroo/0.3.7-0.3.8/diff.md --exclude *.pyd
+[2023-07-16 17:52:10] INFO root fetch - processPackages [dav-tools]: Remove: archive file [/home/abi/fetcher/tmp/dav_tools-0.0.9.tar.gz]
+[2023-07-16 17:52:10] INFO root fetch - processPackages [dav-tools]: Remove: archive file [/home/abi/fetcher/tmp/dav_tools-0.1.0.tar.gz]
+[2023-07-16 17:52:10] INFO root fetch - main [MainThread]: End processing [dav-tools]: success
+[2023-07-16 17:52:10] INFO root fetch - processPackages [deepl-translator]: Remove: archive file [/home/abi/fetcher/tmp/deepl_translator-0.1.7.tar.gz]
+[2023-07-16 17:52:10] INFO root fetch - processPackages [deepl-translator]: Remove: archive file [/home/abi/fetcher/tmp/deepl_translator-0.1.8.tar.gz]
+[2023-07-16 17:52:10] INFO root fetch - main [MainThread]: End processing [deepl-translator]: success
+[2023-07-16 17:52:11] INFO root fetch - processPackages [pyathena]: Remove: archive file [/home/abi/fetcher/tmp/pyathena-3.0.5.tar.gz]
+[2023-07-16 17:52:11] INFO root fetch - processPackages [pyathena]: Remove: archive file [/home/abi/fetcher/tmp/pyathena-3.0.6.tar.gz]
+[2023-07-16 17:52:11] INFO root fetch - main [MainThread]: End processing [pyathena]: success
+[2023-07-16 17:52:11] INFO root fetch - processPackages [cshogi]: Remove: archive file [/home/abi/fetcher/tmp/cshogi-0.6.0.tar.gz]
+[2023-07-16 17:52:11] INFO root fetch - processPackages [cshogi]: Remove: archive file [/home/abi/fetcher/tmp/cshogi-0.6.1.tar.gz]
+[2023-07-16 17:52:11] INFO root fetch - main [MainThread]: End processing [cshogi]: success
+[2023-07-16 17:52:11] INFO root fetch - processPackages [ultralytics]: Remove: archive file [/home/abi/fetcher/tmp/ultralytics-8.0.98.tar.gz]
+[2023-07-16 17:52:11] INFO root fetch - processPackages [ultralytics]: Remove: archive file [/home/abi/fetcher/tmp/ultralytics-8.0.99.tar.gz]
+[2023-07-16 17:52:11] INFO root fetch - main [MainThread]: End processing [ultralytics]: success
+[2023-07-16 17:52:13] INFO root fetch - processPackages [buckaroo]: Remove: archive file [/home/abi/fetcher/tmp/buckaroo-0.3.7.tar.gz]
+[2023-07-16 17:52:13] INFO root fetch - processPackages [buckaroo]: Remove: archive file [/home/abi/fetcher/tmp/buckaroo-0.3.8.tar.gz]
+[2023-07-16 17:52:13] INFO root fetch - main [MainThread]: End processing [buckaroo]: success
+[2023-07-16 17:52:13] INFO root fetch - main [MainThread]: Store serial: [18907937]
