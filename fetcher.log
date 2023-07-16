@@ -14723,3 +14723,81 @@ zipfile.BadZipFile: File is not a zip file
 [2023-07-16 23:25:39] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.367.0.tar.gz]
 [2023-07-16 23:25:39] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
 [2023-07-16 23:25:39] INFO root fetch - main [MainThread]: Store serial: [18909521]
+[2023-07-16 23:30:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18909521]
+[2023-07-16 23:30:48] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-16 23:30:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: symlib
+[2023-07-16 23:30:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tidalapi
+[2023-07-16 23:30:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: atro-pyrsync
+[2023-07-16 23:30:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: grai-schemas
+[2023-07-16 23:30:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: meson
+[2023-07-16 23:30:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: atro-rsync
+[2023-07-16 23:30:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: grai-client
+[2023-07-16 23:30:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cellpy
+[2023-07-16 23:30:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: faasmctl
+[2023-07-16 23:30:49] INFO root fetch - processPackages [faasmctl]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-16 23:30:49] INFO root fetch - processPackages [cellpy]: New version: [1.0.0b1] Old Version: [1.0.0b0]
+[2023-07-16 23:30:49] INFO root fetch - processPackages [symlib]: New version: [1.3.8] Old Version: [1.3.7]
+[2023-07-16 23:30:49] WARNING root fetch - processPackages [atro-rsync]: Skipping, unable to determine old version
+[2023-07-16 23:30:49] INFO root fetch - main [MainThread]: End processing [atro-rsync] error
+[2023-07-16 23:30:49] INFO root fetch - processPackages [atro-pyrsync]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-16 23:30:49] INFO root fetch - processPackages [grai-schemas]: New version: [0.2.0a9] Old Version: [0.2.0a8]
+[2023-07-16 23:30:49] INFO root fetch - processPackages [tidalapi]: New version: [0.7.2] Old Version: [0.7.1]
+[2023-07-16 23:30:49] INFO root fetch - processPackages [grai-client]: New version: [0.3.0a9] Old Version: [0.3.0a8]
+[2023-07-16 23:30:49] INFO root fetch - processPackages [meson]: New version: [1.2.0rc3] Old Version: [1.2.0rc2]
+[2023-07-16 23:30:49] INFO root fetch - processPackages [faasmctl]: Downloading https://files.pythonhosted.org/packages/f6/70/43c183de96913153b808f25cef8e4525721ad236a31a871e313340e7d996/faasmctl-0.3.8.tar.gz
+[2023-07-16 23:30:49] INFO root fetch - processPackages [symlib]: Downloading https://files.pythonhosted.org/packages/e6/bd/0bd14f78f4897aff442c0e5496dfef6e1ba6c9f0c532bfb6e57b8d4963f6/symlib-1.3.7.tar.gz
+[2023-07-16 23:30:49] INFO root fetch - processPackages [atro-pyrsync]: Downloading https://files.pythonhosted.org/packages/a2/6b/d9ee0c1158d16bddc03e567d6b63c536260cce3860ddef23c37d6c0a6bba/atro-pyrsync-0.0.7.tar.gz
+[2023-07-16 23:30:49] INFO root fetch - processPackages [cellpy]: Downloading https://files.pythonhosted.org/packages/52/b6/39ef928d9d647fb3a001929c7de701d707729dc6f9b03ad21f6223548d1d/cellpy-1.0.0b0.tar.gz
+[2023-07-16 23:30:49] INFO root fetch - processPackages [grai-schemas]: Downloading https://files.pythonhosted.org/packages/6e/66/2baaba2ea1b50113ff57ea758dbaa99ea5dbe2ca81d865eb0141a6344eba/grai_schemas-0.2.0a8.tar.gz
+[2023-07-16 23:30:49] INFO root fetch - processPackages [grai-client]: Downloading https://files.pythonhosted.org/packages/7b/0c/3ea2e50fbd7275dd1c4003dc273a6673f7f6072e73030d815eb008c57cf7/grai_client-0.3.0a8.tar.gz
+[2023-07-16 23:30:49] INFO root fetch - processPackages [tidalapi]: Downloading https://files.pythonhosted.org/packages/68/d9/82b5eaa87142157d65c24a327f48beb4e4d19db7263f4e319d455c087c0b/tidalapi-0.7.1.tar.gz
+[2023-07-16 23:30:49] INFO root fetch - processPackages [faasmctl]: Downloading https://files.pythonhosted.org/packages/2a/af/c324ec8be631a4af16c72c5b21851f91cbbab8232fcc4fc58a24f7911959/faasmctl-0.3.9.tar.gz
+[2023-07-16 23:30:49] INFO root fetch - processPackages [meson]: Downloading https://files.pythonhosted.org/packages/4d/1f/477d363c2d20ecdb9824725c8ce23082319d212a6eecc7dbb9f2332aab04/meson-1.2.0rc2.tar.gz
+[2023-07-16 23:30:49] INFO root fetch - processPackages [faasmctl]: executing diffoscope
+[2023-07-16 23:30:49] INFO root fetch - processPackages [faasmctl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/faasmctl-0.3.8.tar.gz tmp/faasmctl-0.3.9.tar.gz --markdown 20230716/f/faasmctl/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-16 23:30:49] INFO root fetch - processPackages [symlib]: Downloading https://files.pythonhosted.org/packages/2e/c7/f94c28557cb09bfd01f2dba44d320236663033aee85cf9eb7bd3c66ea8ae/symlib-1.3.8.tar.gz
+[2023-07-16 23:30:49] INFO root fetch - processPackages [atro-pyrsync]: Downloading https://files.pythonhosted.org/packages/5c/0e/a7424bd68c67a16781bb99d2ff4306c70979af65ddc68b0f38255f58c86f/atro_pyrsync-0.0.8.tar.gz
+[2023-07-16 23:30:49] INFO root fetch - processPackages [grai-schemas]: Downloading https://files.pythonhosted.org/packages/df/ad/f3d775b9e7b760c7bb84c1ef489431a1ccca62bef412f313c612911842f9/grai_schemas-0.2.0a9.tar.gz
+[2023-07-16 23:30:49] INFO root fetch - processPackages [symlib]: executing diffoscope
+[2023-07-16 23:30:49] INFO root fetch - processPackages [symlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/symlib-1.3.7.tar.gz tmp/symlib-1.3.8.tar.gz --markdown 20230716/s/symlib/1.3.7-1.3.8/diff.md --exclude *.pyd
+[2023-07-16 23:30:49] INFO root fetch - processPackages [tidalapi]: Downloading https://files.pythonhosted.org/packages/07/2c/c14afe2ffc4294f2d1411fdcc2925fb9466cff37e386aad442047a255043/tidalapi-0.7.2.tar.gz
+[2023-07-16 23:30:50] INFO root fetch - processPackages [atro-pyrsync]: executing diffoscope
+[2023-07-16 23:30:50] INFO root fetch - processPackages [atro-pyrsync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atro-pyrsync-0.0.7.tar.gz tmp/atro_pyrsync-0.0.8.tar.gz --markdown 20230716/a/atro-pyrsync/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-16 23:30:50] INFO root fetch - processPackages [grai-client]: Downloading https://files.pythonhosted.org/packages/99/fe/aff0ad822eae61047cf64181e643629668c44ac5d46f6baf5af3086d1f1b/grai_client-0.3.0a9.tar.gz
+[2023-07-16 23:30:50] INFO root fetch - processPackages [tidalapi]: executing diffoscope
+[2023-07-16 23:30:50] INFO root fetch - processPackages [tidalapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tidalapi-0.7.1.tar.gz tmp/tidalapi-0.7.2.tar.gz --markdown 20230716/t/tidalapi/0.7.1-0.7.2/diff.md --exclude *.pyd
+[2023-07-16 23:30:50] INFO root fetch - processPackages [grai-schemas]: executing diffoscope
+[2023-07-16 23:30:50] INFO root fetch - processPackages [grai-schemas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grai_schemas-0.2.0a8.tar.gz tmp/grai_schemas-0.2.0a9.tar.gz --markdown 20230716/g/grai-schemas/0.2.0a8-0.2.0a9/diff.md --exclude *.pyd
+[2023-07-16 23:30:50] INFO root fetch - processPackages [grai-client]: executing diffoscope
+[2023-07-16 23:30:50] INFO root fetch - processPackages [grai-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grai_client-0.3.0a8.tar.gz tmp/grai_client-0.3.0a9.tar.gz --markdown 20230716/g/grai-client/0.3.0a8-0.3.0a9/diff.md --exclude *.pyd
+[2023-07-16 23:30:50] INFO root fetch - processPackages [meson]: Downloading https://files.pythonhosted.org/packages/e5/77/afce71d4bbf66600beb56a91813ebd2429e2f12e9121bde471f02e4e24f9/meson-1.2.0rc3.tar.gz
+[2023-07-16 23:30:50] INFO root fetch - processPackages [cellpy]: Downloading https://files.pythonhosted.org/packages/13/d3/210235701a4f5cf565a5b7b80a11319e7ed4fbdfdff5c083a9f35d54b975/cellpy-1.0.0b1.tar.gz
+[2023-07-16 23:30:50] INFO root fetch - processPackages [meson]: executing diffoscope
+[2023-07-16 23:30:50] INFO root fetch - processPackages [meson]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meson-1.2.0rc2.tar.gz tmp/meson-1.2.0rc3.tar.gz --markdown 20230716/m/meson/1.2.0rc2-1.2.0rc3/diff.md --exclude *.pyd
+[2023-07-16 23:30:50] INFO root fetch - processPackages [faasmctl]: Remove: archive file [/home/abi/fetcher/tmp/faasmctl-0.3.8.tar.gz]
+[2023-07-16 23:30:50] INFO root fetch - processPackages [faasmctl]: Remove: archive file [/home/abi/fetcher/tmp/faasmctl-0.3.9.tar.gz]
+[2023-07-16 23:30:50] INFO root fetch - main [MainThread]: End processing [faasmctl]: success
+[2023-07-16 23:30:50] INFO root fetch - processPackages [atro-pyrsync]: Remove: archive file [/home/abi/fetcher/tmp/atro-pyrsync-0.0.7.tar.gz]
+[2023-07-16 23:30:50] INFO root fetch - processPackages [atro-pyrsync]: Remove: archive file [/home/abi/fetcher/tmp/atro_pyrsync-0.0.8.tar.gz]
+[2023-07-16 23:30:50] INFO root fetch - main [MainThread]: End processing [atro-pyrsync]: success
+[2023-07-16 23:30:51] INFO root fetch - processPackages [symlib]: Remove: archive file [/home/abi/fetcher/tmp/symlib-1.3.7.tar.gz]
+[2023-07-16 23:30:51] INFO root fetch - processPackages [symlib]: Remove: archive file [/home/abi/fetcher/tmp/symlib-1.3.8.tar.gz]
+[2023-07-16 23:30:51] INFO root fetch - main [MainThread]: End processing [symlib]: success
+[2023-07-16 23:30:51] INFO root fetch - processPackages [tidalapi]: Remove: archive file [/home/abi/fetcher/tmp/tidalapi-0.7.1.tar.gz]
+[2023-07-16 23:30:51] INFO root fetch - processPackages [tidalapi]: Remove: archive file [/home/abi/fetcher/tmp/tidalapi-0.7.2.tar.gz]
+[2023-07-16 23:30:51] INFO root fetch - main [MainThread]: End processing [tidalapi]: success
+[2023-07-16 23:30:51] INFO root fetch - processPackages [grai-schemas]: Remove: archive file [/home/abi/fetcher/tmp/grai_schemas-0.2.0a8.tar.gz]
+[2023-07-16 23:30:51] INFO root fetch - processPackages [grai-schemas]: Remove: archive file [/home/abi/fetcher/tmp/grai_schemas-0.2.0a9.tar.gz]
+[2023-07-16 23:30:51] INFO root fetch - main [MainThread]: End processing [grai-schemas]: success
+[2023-07-16 23:30:51] INFO root fetch - processPackages [grai-client]: Remove: archive file [/home/abi/fetcher/tmp/grai_client-0.3.0a8.tar.gz]
+[2023-07-16 23:30:51] INFO root fetch - processPackages [grai-client]: Remove: archive file [/home/abi/fetcher/tmp/grai_client-0.3.0a9.tar.gz]
+[2023-07-16 23:30:51] INFO root fetch - main [MainThread]: End processing [grai-client]: success
+[2023-07-16 23:30:51] INFO root fetch - processPackages [cellpy]: executing diffoscope
+[2023-07-16 23:30:51] INFO root fetch - processPackages [cellpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cellpy-1.0.0b0.tar.gz tmp/cellpy-1.0.0b1.tar.gz --markdown 20230716/c/cellpy/1.0.0b0-1.0.0b1/diff.md --exclude *.pyd
+[2023-07-16 23:30:53] INFO root fetch - processPackages [cellpy]: Remove: archive file [/home/abi/fetcher/tmp/cellpy-1.0.0b0.tar.gz]
+[2023-07-16 23:30:53] INFO root fetch - processPackages [cellpy]: Remove: archive file [/home/abi/fetcher/tmp/cellpy-1.0.0b1.tar.gz]
+[2023-07-16 23:30:53] INFO root fetch - main [MainThread]: End processing [cellpy]: success
+[2023-07-16 23:31:20] INFO root fetch - processPackages [meson]: Remove: archive file [/home/abi/fetcher/tmp/meson-1.2.0rc2.tar.gz]
+[2023-07-16 23:31:20] INFO root fetch - processPackages [meson]: Remove: archive file [/home/abi/fetcher/tmp/meson-1.2.0rc3.tar.gz]
+[2023-07-16 23:31:20] INFO root fetch - main [MainThread]: End processing [meson]: success
+[2023-07-16 23:31:20] INFO root fetch - main [MainThread]: Store serial: [18909554]
