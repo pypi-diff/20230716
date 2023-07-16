@@ -7737,3 +7737,120 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-16 13:34:29] INFO root fetch - processPackages [suod]: Remove: archive file [/home/abi/fetcher/tmp/suod-0.0.9.tar.gz]
 [2023-07-16 13:34:29] INFO root fetch - main [MainThread]: End processing [suod]: success
 [2023-07-16 13:34:29] INFO root fetch - main [MainThread]: Store serial: [18906504]
+[2023-07-16 13:39:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18906504]
+[2023-07-16 13:39:38] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-07-16 13:39:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyfrobot
+[2023-07-16 13:39:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pystools
+[2023-07-16 13:39:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: poetry-dotenv-plugin
+[2023-07-16 13:39:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dagshub
+[2023-07-16 13:39:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: GBQM
+[2023-07-16 13:39:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: django-pdr
+[2023-07-16 13:39:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: attune-project-api
+[2023-07-16 13:39:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: faasmctl
+[2023-07-16 13:39:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pykinect-recorder
+[2023-07-16 13:39:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bert4torch
+[2023-07-16 13:39:38] INFO root fetch - processPackages [poetry-dotenv-plugin]: New version: [0.2.0] Old Version: [0.1.0a2]
+[2023-07-16 13:39:38] INFO root fetch - processPackages [pyfrobot]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-16 13:39:38] WARNING root fetch - processPackages [GBQM]: Skipping, unable to determine old version
+[2023-07-16 13:39:38] INFO root fetch - processPackages [GBQM]: Start processing: generic
+[2023-07-16 13:39:38] INFO root fetch - main [MainThread]: End processing [GBQM] error
+[2023-07-16 13:39:38] INFO root fetch - processPackages [pykinect-recorder]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-07-16 13:39:38] INFO root fetch - processPackages [generic]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-07-16 13:39:38] INFO root fetch - processPackages [django-pdr]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-07-16 13:39:38] INFO root fetch - processPackages [faasmctl]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-16 13:39:38] INFO root fetch - processPackages [dagshub]: New version: [0.2.9.post1] Old Version: [0.2.9]
+[2023-07-16 13:39:38] INFO root fetch - processPackages [pystools]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-16 13:39:38] INFO root fetch - processPackages [attune-project-api]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-16 13:39:38] INFO root fetch - processPackages [bert4torch]: New version: [0.3.0] Old Version: [0.2.9]
+[2023-07-16 13:39:38] INFO root fetch - processPackages [pyfrobot]: Downloading https://files.pythonhosted.org/packages/47/d8/4eff931acd80eb8b05f05c88112d1850849146f9915175d6eadf35df14ef/pyfrobot-0.1.8.tar.gz
+[2023-07-16 13:39:38] INFO root fetch - processPackages [faasmctl]: Downloading https://files.pythonhosted.org/packages/f6/70/43c183de96913153b808f25cef8e4525721ad236a31a871e313340e7d996/faasmctl-0.3.8.tar.gz
+[2023-07-16 13:39:38] INFO root fetch - processPackages [poetry-dotenv-plugin]: Downloading https://files.pythonhosted.org/packages/e1/1d/538de6349a9a1d2cf73fbe0be18a840c19d7fd80f8c43e528d0957c6a386/poetry-dotenv-plugin-0.1.0a2.tar.gz
+[2023-07-16 13:39:38] INFO root fetch - processPackages [django-pdr]: Downloading https://files.pythonhosted.org/packages/81/24/cd50b462f351541afaa9538a80f39a1056194853c438876c50290bd37789/django-pdr-1.2.8.tar.gz
+[2023-07-16 13:39:38] INFO root fetch - processPackages [dagshub]: Downloading https://files.pythonhosted.org/packages/0d/f8/a9f96c11255f07e3c042b56ad482d8facb9a0cbe224405ae2e237631c637/dagshub-0.2.9.tar.gz
+[2023-07-16 13:39:39] INFO root fetch - processPackages [pykinect-recorder]: Downloading https://files.pythonhosted.org/packages/8f/4e/1bd37c526a3abf5b1c4a0a19c49ead15c5476039e5061ad029c22b634835/pykinect_recorder-0.9.1.tar.gz
+[2023-07-16 13:39:39] INFO root fetch - processPackages [generic]: Downloading https://files.pythonhosted.org/packages/63/82/ad69185a1210beb405d11faee66d037ad16d7ab9ca86cbcdb6679845f2b8/generic-1.1.1.tar.gz
+[2023-07-16 13:39:39] INFO root fetch - processPackages [attune-project-api]: Downloading https://files.pythonhosted.org/packages/d7/f8/ced67fc9acf12de675f2d634457c7373e34106fd88baa6288503685dd4d6/attune-project-api-0.9.8.tar.gz
+[2023-07-16 13:39:39] INFO root fetch - processPackages [pystools]: Downloading https://files.pythonhosted.org/packages/d3/f1/f6fef6b574bd57970579f257d2f3b2adf9f6b87b20d9dc2c11e18d2a4a47/pystools-0.0.8.tar.gz
+[2023-07-16 13:39:39] INFO root fetch - processPackages [bert4torch]: Downloading https://files.pythonhosted.org/packages/32/f0/c7601c953f4867508163093ea0ff9f291759a95d997b3491157dc6aa4eb8/bert4torch-0.2.9.tar.gz
+[2023-07-16 13:39:39] INFO root fetch - processPackages [pyfrobot]: Downloading https://files.pythonhosted.org/packages/a5/a7/c91a44b101557e88b0c525fd1fbcc9ee6e7a1d4fe9318da83243b9481ac4/pyfrobot-0.1.9.tar.gz
+[2023-07-16 13:39:39] INFO root fetch - processPackages [faasmctl]: Downloading https://files.pythonhosted.org/packages/2a/af/c324ec8be631a4af16c72c5b21851f91cbbab8232fcc4fc58a24f7911959/faasmctl-0.3.9.tar.gz
+[2023-07-16 13:39:39] INFO root fetch - processPackages [pyfrobot]: executing diffoscope
+[2023-07-16 13:39:39] INFO root fetch - processPackages [pyfrobot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfrobot-0.1.8.tar.gz tmp/pyfrobot-0.1.9.tar.gz --markdown 20230716/p/pyfrobot/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-16 13:39:39] INFO root fetch - processPackages [poetry-dotenv-plugin]: Downloading https://files.pythonhosted.org/packages/8f/7a/6f329eee5b9e57669f00c12b6d2b811dc1b394741518f967a3ed75131dc8/poetry_dotenv_plugin-0.2.0.tar.gz
+[2023-07-16 13:39:39] INFO root fetch - processPackages [django-pdr]: Downloading https://files.pythonhosted.org/packages/36/f9/326659fda9e7bf3ba840f0c789944e72a150630f7ca4afc665ef7eb28050/django-pdr-1.2.9.tar.gz
+[2023-07-16 13:39:39] INFO root fetch - processPackages [generic]: Downloading https://files.pythonhosted.org/packages/6e/10/5a973294613f0ab1f4d0703ecbfd7136665f9f041ac9306226877f846048/generic-1.1.2.tar.gz
+[2023-07-16 13:39:39] INFO root fetch - processPackages [dagshub]: Downloading https://files.pythonhosted.org/packages/72/6a/c087876d5854a64299ca4ff5af3363883236b89d4e6d16b482cd5797d6ce/dagshub-0.2.9.post1-py3-none-any.whl
+[2023-07-16 13:39:39] INFO root fetch - processPackages [pykinect-recorder]: Downloading https://files.pythonhosted.org/packages/34/fc/835fa92962e90e8e09ed621573ff0b2846c16ad33317e83fcc6e5e4d40a9/pykinect_recorder-0.9.2.tar.gz
+[2023-07-16 13:39:39] INFO root fetch - processPackages [attune-project-api]: Downloading https://files.pythonhosted.org/packages/c7/16/d44eb9ceaa1f24e93d7e0ef5a7cc8f16ca2354efe09e1f3d05025fa94147/attune-project-api-0.9.9.tar.gz
+[2023-07-16 13:39:39] INFO root fetch - processPackages [poetry-dotenv-plugin]: executing diffoscope
+[2023-07-16 13:39:39] INFO root fetch - processPackages [poetry-dotenv-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/poetry-dotenv-plugin-0.1.0a2.tar.gz tmp/poetry_dotenv_plugin-0.2.0.tar.gz --markdown 20230716/p/poetry-dotenv-plugin/0.1.0a2-0.2.0/diff.md --exclude *.pyd
+[2023-07-16 13:39:39] INFO root fetch - processPackages [pystools]: Downloading https://files.pythonhosted.org/packages/9b/5a/9f2cf38e22565c5aa2ecb7be3dbecb7a44f7d23efbd86fd532eacd613f62/pystools-0.0.9.tar.gz
+[2023-07-16 13:39:39] INFO root fetch - processPackages [bert4torch]: Downloading https://files.pythonhosted.org/packages/96/b8/f4e66c10b97fa4c9692bddeea418640ee4de2d46eebea108adf7d881bc0e/bert4torch-0.3.0.tar.gz
+[2023-07-16 13:39:39] INFO root fetch - processPackages [faasmctl]: executing diffoscope
+[2023-07-16 13:39:39] INFO root fetch - processPackages [faasmctl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/faasmctl-0.3.8.tar.gz tmp/faasmctl-0.3.9.tar.gz --markdown 20230716/f/faasmctl/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-16 13:39:39] INFO root fetch - processPackages [django-pdr]: executing diffoscope
+[2023-07-16 13:39:39] INFO root fetch - processPackages [django-pdr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-pdr-1.2.8.tar.gz tmp/django-pdr-1.2.9.tar.gz --markdown 20230716/d/django-pdr/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-07-16 13:39:39] INFO root fetch - processPackages [pystools]: executing diffoscope
+[2023-07-16 13:39:39] INFO root fetch - processPackages [generic]: executing diffoscope
+[2023-07-16 13:39:39] INFO root fetch - processPackages [pystools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pystools-0.0.8.tar.gz tmp/pystools-0.0.9.tar.gz --markdown 20230716/p/pystools/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-16 13:39:39] INFO root fetch - processPackages [generic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/generic-1.1.1.tar.gz tmp/generic-1.1.2.tar.gz --markdown 20230716/g/generic/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-07-16 13:39:39] INFO root fetch - processPackages [dagshub]: executing diffoscope
+[2023-07-16 13:39:39] INFO root fetch - processPackages [dagshub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dagshub-0.2.9.tar.gz tmp/dagshub-0.2.9.post1-py3-none-any.whl.zip --markdown 20230716/d/dagshub/0.2.9-0.2.9.post1/diff.md --exclude *.pyd
+[2023-07-16 13:39:39] INFO root fetch - processPackages [pykinect-recorder]: executing diffoscope
+[2023-07-16 13:39:39] INFO root fetch - processPackages [pykinect-recorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pykinect_recorder-0.9.1.tar.gz tmp/pykinect_recorder-0.9.2.tar.gz --markdown 20230716/p/pykinect-recorder/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-07-16 13:39:39] INFO root fetch - processPackages [attune-project-api]: executing diffoscope
+[2023-07-16 13:39:39] INFO root fetch - processPackages [attune-project-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/attune-project-api-0.9.8.tar.gz tmp/attune-project-api-0.9.9.tar.gz --markdown 20230716/a/attune-project-api/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-16 13:39:40] INFO root fetch - processPackages [bert4torch]: executing diffoscope
+[2023-07-16 13:39:40] INFO root fetch - processPackages [bert4torch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bert4torch-0.2.9.tar.gz tmp/bert4torch-0.3.0.tar.gz --markdown 20230716/b/bert4torch/0.2.9-0.3.0/diff.md --exclude *.pyd
+[2023-07-16 13:39:40] INFO root fetch - processPackages [pyfrobot]: Remove: archive file [/home/abi/fetcher/tmp/pyfrobot-0.1.8.tar.gz]
+[2023-07-16 13:39:40] INFO root fetch - processPackages [pyfrobot]: Remove: archive file [/home/abi/fetcher/tmp/pyfrobot-0.1.9.tar.gz]
+[2023-07-16 13:39:40] INFO root fetch - processPackages [pyfrobot]: Start processing: postal-coder-jp
+[2023-07-16 13:39:40] INFO root fetch - main [MainThread]: End processing [pyfrobot]: success
+[2023-07-16 13:39:40] WARNING root fetch - processPackages [postal-coder-jp]: Skipping, unable to determine old version
+[2023-07-16 13:39:40] INFO root fetch - processPackages [postal-coder-jp]: Start processing: zit
+[2023-07-16 13:39:40] INFO root fetch - main [MainThread]: End processing [postal-coder-jp] error
+[2023-07-16 13:39:40] INFO root fetch - processPackages [zit]: New version: [0.0.3a9] Old Version: [0.0.3a8]
+[2023-07-16 13:39:41] INFO root fetch - processPackages [zit]: Downloading https://files.pythonhosted.org/packages/9d/b1/feab52c6188b15e420bc52c41b2e6bca0dbd342cf5b12a4e575ae0726fee/zit-0.0.3a8.tar.gz
+[2023-07-16 13:39:41] INFO root fetch - processPackages [poetry-dotenv-plugin]: Remove: archive file [/home/abi/fetcher/tmp/poetry-dotenv-plugin-0.1.0a2.tar.gz]
+[2023-07-16 13:39:41] INFO root fetch - processPackages [poetry-dotenv-plugin]: Remove: archive file [/home/abi/fetcher/tmp/poetry_dotenv_plugin-0.2.0.tar.gz]
+[2023-07-16 13:39:41] INFO root fetch - processPackages [poetry-dotenv-plugin]: Start processing: for-testing
+[2023-07-16 13:39:41] INFO root fetch - main [MainThread]: End processing [poetry-dotenv-plugin]: success
+[2023-07-16 13:39:41] INFO root fetch - processPackages [faasmctl]: Remove: archive file [/home/abi/fetcher/tmp/faasmctl-0.3.8.tar.gz]
+[2023-07-16 13:39:41] INFO root fetch - processPackages [faasmctl]: Remove: archive file [/home/abi/fetcher/tmp/faasmctl-0.3.9.tar.gz]
+[2023-07-16 13:39:41] INFO root fetch - main [MainThread]: End processing [faasmctl]: success
+[2023-07-16 13:39:41] INFO root fetch - processPackages [for-testing]: New version: [49.0.0b1] Old Version: [49.0.0b0]
+[2023-07-16 13:39:41] INFO root fetch - processPackages [pystools]: Remove: archive file [/home/abi/fetcher/tmp/pystools-0.0.8.tar.gz]
+[2023-07-16 13:39:41] INFO root fetch - processPackages [pystools]: Remove: archive file [/home/abi/fetcher/tmp/pystools-0.0.9.tar.gz]
+[2023-07-16 13:39:41] INFO root fetch - main [MainThread]: End processing [pystools]: success
+[2023-07-16 13:39:41] INFO root fetch - processPackages [for-testing]: Downloading https://files.pythonhosted.org/packages/90/3e/869205b4d8a90984906a51938157bf2825898b6e32f62fba06a24df9bf0f/for-testing-49.0.0b0.tar.gz
+[2023-07-16 13:39:41] INFO root fetch - processPackages [dagshub]: Remove: archive file [/home/abi/fetcher/tmp/dagshub-0.2.9.tar.gz]
+[2023-07-16 13:39:41] INFO root fetch - processPackages [dagshub]: Remove: archive file [/home/abi/fetcher/tmp/dagshub-0.2.9.post1-py3-none-any.whl.zip]
+[2023-07-16 13:39:41] INFO root fetch - main [MainThread]: End processing [dagshub]: success
+[2023-07-16 13:39:41] INFO root fetch - processPackages [zit]: Downloading https://files.pythonhosted.org/packages/0b/29/dd47bcd69f0c0c4481944f323918be890bb8afe3b32336f509edfc597748/zit-0.0.3a9.tar.gz
+[2023-07-16 13:39:41] INFO root fetch - processPackages [django-pdr]: Remove: archive file [/home/abi/fetcher/tmp/django-pdr-1.2.8.tar.gz]
+[2023-07-16 13:39:41] INFO root fetch - processPackages [django-pdr]: Remove: archive file [/home/abi/fetcher/tmp/django-pdr-1.2.9.tar.gz]
+[2023-07-16 13:39:41] INFO root fetch - main [MainThread]: End processing [django-pdr]: success
+[2023-07-16 13:39:41] INFO root fetch - processPackages [generic]: Remove: archive file [/home/abi/fetcher/tmp/generic-1.1.1.tar.gz]
+[2023-07-16 13:39:41] INFO root fetch - processPackages [generic]: Remove: archive file [/home/abi/fetcher/tmp/generic-1.1.2.tar.gz]
+[2023-07-16 13:39:41] INFO root fetch - main [MainThread]: End processing [generic]: success
+[2023-07-16 13:39:41] INFO root fetch - processPackages [attune-project-api]: Remove: archive file [/home/abi/fetcher/tmp/attune-project-api-0.9.8.tar.gz]
+[2023-07-16 13:39:41] INFO root fetch - processPackages [attune-project-api]: Remove: archive file [/home/abi/fetcher/tmp/attune-project-api-0.9.9.tar.gz]
+[2023-07-16 13:39:41] INFO root fetch - main [MainThread]: End processing [attune-project-api]: success
+[2023-07-16 13:39:41] INFO root fetch - processPackages [bert4torch]: Remove: archive file [/home/abi/fetcher/tmp/bert4torch-0.2.9.tar.gz]
+[2023-07-16 13:39:41] INFO root fetch - processPackages [for-testing]: Downloading https://files.pythonhosted.org/packages/28/f7/5fc85057052269f513c0e73dc1714cd9600bb5b69064685d2bd22778ea32/for-testing-49.0.0b1.tar.gz
+[2023-07-16 13:39:41] INFO root fetch - processPackages [bert4torch]: Remove: archive file [/home/abi/fetcher/tmp/bert4torch-0.3.0.tar.gz]
+[2023-07-16 13:39:41] INFO root fetch - main [MainThread]: End processing [bert4torch]: success
+[2023-07-16 13:39:41] INFO root fetch - processPackages [pykinect-recorder]: Remove: archive file [/home/abi/fetcher/tmp/pykinect_recorder-0.9.1.tar.gz]
+[2023-07-16 13:39:41] INFO root fetch - processPackages [pykinect-recorder]: Remove: archive file [/home/abi/fetcher/tmp/pykinect_recorder-0.9.2.tar.gz]
+[2023-07-16 13:39:41] INFO root fetch - main [MainThread]: End processing [pykinect-recorder]: success
+[2023-07-16 13:39:41] INFO root fetch - processPackages [zit]: executing diffoscope
+[2023-07-16 13:39:41] INFO root fetch - processPackages [zit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zit-0.0.3a8.tar.gz tmp/zit-0.0.3a9.tar.gz --markdown 20230716/z/zit/0.0.3a8-0.0.3a9/diff.md --exclude *.pyd
+[2023-07-16 13:39:41] INFO root fetch - processPackages [for-testing]: executing diffoscope
+[2023-07-16 13:39:41] INFO root fetch - processPackages [for-testing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/for-testing-49.0.0b0.tar.gz tmp/for-testing-49.0.0b1.tar.gz --markdown 20230716/f/for-testing/49.0.0b0-49.0.0b1/diff.md --exclude *.pyd
+[2023-07-16 13:39:42] INFO root fetch - processPackages [zit]: Remove: archive file [/home/abi/fetcher/tmp/zit-0.0.3a8.tar.gz]
+[2023-07-16 13:39:42] INFO root fetch - processPackages [zit]: Remove: archive file [/home/abi/fetcher/tmp/zit-0.0.3a9.tar.gz]
+[2023-07-16 13:39:42] INFO root fetch - main [MainThread]: End processing [zit]: success
+[2023-07-16 13:39:42] INFO root fetch - processPackages [for-testing]: Remove: archive file [/home/abi/fetcher/tmp/for-testing-49.0.0b0.tar.gz]
+[2023-07-16 13:39:42] INFO root fetch - processPackages [for-testing]: Remove: archive file [/home/abi/fetcher/tmp/for-testing-49.0.0b1.tar.gz]
+[2023-07-16 13:39:42] INFO root fetch - main [MainThread]: End processing [for-testing]: success
+[2023-07-16 13:39:42] INFO root fetch - main [MainThread]: Store serial: [18906550]
