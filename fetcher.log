@@ -3988,3 +3988,15 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-16 07:24:33] INFO root fetch - processPackages [hak]: Remove: archive file [/home/abi/fetcher/tmp/hak-0.0.91.tar.gz]
 [2023-07-16 07:24:33] INFO root fetch - main [MainThread]: End processing [hak]: success
 [2023-07-16 07:24:33] INFO root fetch - main [MainThread]: Store serial: [18904930]
+[2023-07-16 07:29:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18904930]
+[2023-07-16 07:29:42] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2023-07-16 07:29:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sigils
+[2023-07-16 07:29:42] INFO root fetch - processPackages [sigils]: New version: [0.3.1] Old Version: [0.2.8]
+[2023-07-16 07:29:42] INFO root fetch - processPackages [sigils]: Downloading https://files.pythonhosted.org/packages/b5/fa/3cebbb7d1d16b06497d7e707f2552548ad61cb3658f6ba88a2cbe8c64f4d/sigils-0.2.8.tar.gz
+[2023-07-16 07:29:42] INFO root fetch - processPackages [sigils]: Downloading https://files.pythonhosted.org/packages/f0/e0/03eef2538796a104c5e0704a23ae33d516bef37765e1625090d0c07b90aa/sigils-0.3.1.tar.gz
+[2023-07-16 07:29:43] INFO root fetch - processPackages [sigils]: executing diffoscope
+[2023-07-16 07:29:43] INFO root fetch - processPackages [sigils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sigils-0.2.8.tar.gz tmp/sigils-0.3.1.tar.gz --markdown 20230716/s/sigils/0.2.8-0.3.1/diff.md --exclude *.pyd
+[2023-07-16 07:29:43] INFO root fetch - processPackages [sigils]: Remove: archive file [/home/abi/fetcher/tmp/sigils-0.2.8.tar.gz]
+[2023-07-16 07:29:43] INFO root fetch - processPackages [sigils]: Remove: archive file [/home/abi/fetcher/tmp/sigils-0.3.1.tar.gz]
+[2023-07-16 07:29:43] INFO root fetch - main [MainThread]: End processing [sigils]: success
+[2023-07-16 07:29:43] INFO root fetch - main [MainThread]: Store serial: [18904933]
