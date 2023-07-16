@@ -4773,3 +4773,42 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-16 08:53:03] INFO root fetch - processPackages [socscikit]: Remove: archive file [/home/abi/fetcher/tmp/socscikit-0.0.5.4.tar.gz]
 [2023-07-16 08:53:03] INFO root fetch - main [MainThread]: End processing [socscikit]: success
 [2023-07-16 08:53:03] INFO root fetch - main [MainThread]: Store serial: [18905316]
+[2023-07-16 08:58:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18905316]
+[2023-07-16 08:58:11] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-16 08:58:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ps-optimize
+[2023-07-16 08:58:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: miauw-base-service
+[2023-07-16 08:58:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lightning-template
+[2023-07-16 08:58:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pgsqlx
+[2023-07-16 08:58:11] INFO root fetch - processPackages [miauw-base-service]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-07-16 08:58:11] INFO root fetch - processPackages [ps-optimize]: New version: [2.0.3] Old Version: [2.0.2]
+[2023-07-16 08:58:11] INFO root fetch - processPackages [lightning-template]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-16 08:58:11] INFO root fetch - processPackages [pgsqlx]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-16 08:58:11] INFO root fetch - processPackages [lightning-template]: Downloading https://files.pythonhosted.org/packages/bb/23/283f51826390193fc77c120c748d3599480b234089dc9eea07057d06ac6a/lightning-template-1.0.8.tar.gz
+[2023-07-16 08:58:11] INFO root fetch - processPackages [miauw-base-service]: Downloading https://files.pythonhosted.org/packages/79/cb/cd1e60e08f802b51640be02753932e93e37f7980c1dac7f65dbfd36efd2a/miauw-base-service-1.2.2.tar.gz
+[2023-07-16 08:58:11] INFO root fetch - processPackages [ps-optimize]: Downloading https://files.pythonhosted.org/packages/f7/01/a36e6c99ae33274b430acbf87dc78142b5241194fb86082beffde1174738/ps-optimize-2.0.2.tar.gz
+[2023-07-16 08:58:11] INFO root fetch - processPackages [pgsqlx]: Downloading https://files.pythonhosted.org/packages/8d/84/8a88f4a8ae311cd62d8502429fa70efdb92afadb08ea204950f777b3328a/pgsqlx-1.0.0.tar.gz
+[2023-07-16 08:58:11] INFO root fetch - processPackages [lightning-template]: Downloading https://files.pythonhosted.org/packages/3c/15/188896748e785a66931b38a2f6e0ae23e7a6c736948e3b34b74d3220587a/lightning-template-1.0.9.tar.gz
+[2023-07-16 08:58:12] INFO root fetch - processPackages [lightning-template]: executing diffoscope
+[2023-07-16 08:58:12] INFO root fetch - processPackages [lightning-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightning-template-1.0.8.tar.gz tmp/lightning-template-1.0.9.tar.gz --markdown 20230716/l/lightning-template/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-16 08:58:12] INFO root fetch - processPackages [miauw-base-service]: Downloading https://files.pythonhosted.org/packages/ef/82/3f796c16fef3a5df731bf651ff8ecb4f24788421aa656e1e024291e7d026/miauw-base-service-1.2.3.tar.gz
+[2023-07-16 08:58:12] INFO root fetch - processPackages [ps-optimize]: Downloading https://files.pythonhosted.org/packages/77/ff/702feebc373d9cd91dc678e9fc1c83ed08ec08501464141f94fa01cb1dcf/ps-optimize-2.0.3.tar.gz
+[2023-07-16 08:58:12] INFO root fetch - processPackages [pgsqlx]: Downloading https://files.pythonhosted.org/packages/60/77/30cf515a97637ea0edfc3114d5a79aad62e3f5ef4733032b46e7de4d8f00/pgsqlx-1.0.1.tar.gz
+[2023-07-16 08:58:12] INFO root fetch - processPackages [ps-optimize]: executing diffoscope
+[2023-07-16 08:58:12] INFO root fetch - processPackages [ps-optimize]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ps-optimize-2.0.2.tar.gz tmp/ps-optimize-2.0.3.tar.gz --markdown 20230716/p/ps-optimize/2.0.2-2.0.3/diff.md --exclude *.pyd
+[2023-07-16 08:58:12] INFO root fetch - processPackages [miauw-base-service]: executing diffoscope
+[2023-07-16 08:58:12] INFO root fetch - processPackages [miauw-base-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/miauw-base-service-1.2.2.tar.gz tmp/miauw-base-service-1.2.3.tar.gz --markdown 20230716/m/miauw-base-service/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-07-16 08:58:12] INFO root fetch - processPackages [pgsqlx]: executing diffoscope
+[2023-07-16 08:58:12] INFO root fetch - processPackages [pgsqlx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pgsqlx-1.0.0.tar.gz tmp/pgsqlx-1.0.1.tar.gz --markdown 20230716/p/pgsqlx/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-16 08:58:13] INFO root fetch - processPackages [lightning-template]: Remove: archive file [/home/abi/fetcher/tmp/lightning-template-1.0.8.tar.gz]
+[2023-07-16 08:58:13] INFO root fetch - processPackages [lightning-template]: Remove: archive file [/home/abi/fetcher/tmp/lightning-template-1.0.9.tar.gz]
+[2023-07-16 08:58:13] INFO root fetch - main [MainThread]: End processing [lightning-template]: success
+[2023-07-16 08:58:13] INFO root fetch - processPackages [ps-optimize]: Remove: archive file [/home/abi/fetcher/tmp/ps-optimize-2.0.2.tar.gz]
+[2023-07-16 08:58:13] INFO root fetch - processPackages [ps-optimize]: Remove: archive file [/home/abi/fetcher/tmp/ps-optimize-2.0.3.tar.gz]
+[2023-07-16 08:58:13] INFO root fetch - main [MainThread]: End processing [ps-optimize]: success
+[2023-07-16 08:58:13] INFO root fetch - processPackages [miauw-base-service]: Remove: archive file [/home/abi/fetcher/tmp/miauw-base-service-1.2.2.tar.gz]
+[2023-07-16 08:58:13] INFO root fetch - processPackages [miauw-base-service]: Remove: archive file [/home/abi/fetcher/tmp/miauw-base-service-1.2.3.tar.gz]
+[2023-07-16 08:58:13] INFO root fetch - main [MainThread]: End processing [miauw-base-service]: success
+[2023-07-16 08:58:13] INFO root fetch - processPackages [pgsqlx]: Remove: archive file [/home/abi/fetcher/tmp/pgsqlx-1.0.0.tar.gz]
+[2023-07-16 08:58:13] INFO root fetch - processPackages [pgsqlx]: Remove: archive file [/home/abi/fetcher/tmp/pgsqlx-1.0.1.tar.gz]
+[2023-07-16 08:58:13] INFO root fetch - main [MainThread]: End processing [pgsqlx]: success
+[2023-07-16 08:58:13] INFO root fetch - main [MainThread]: Store serial: [18905327]
