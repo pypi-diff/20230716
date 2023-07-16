@@ -4306,3 +4306,34 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-16 07:55:51] INFO root fetch - processPackages [django-restit]: Remove: archive file [/home/abi/fetcher/tmp/django_restit-4.1.7.tar.gz]
 [2023-07-16 07:55:51] INFO root fetch - main [MainThread]: End processing [django-restit]: success
 [2023-07-16 07:55:51] INFO root fetch - main [MainThread]: Store serial: [18905085]
+[2023-07-16 08:00:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18905085]
+[2023-07-16 08:00:59] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-16 08:00:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bb-apputils
+[2023-07-16 08:00:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ml-starter
+[2023-07-16 08:00:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zupa
+[2023-07-16 08:00:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bb-apputils
+[2023-07-16 08:01:00] INFO root fetch - processPackages [ml-starter]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-16 08:01:00] INFO root fetch - processPackages [bb-apputils]: New version: [0.3.91] Old Version: [0.3.9]
+[2023-07-16 08:01:00] INFO root fetch - processPackages [bb-apputils]: New version: [0.3.91] Old Version: [0.3.9]
+[2023-07-16 08:01:00] WARNING root fetch - processPackages [zupa]: Skipping, unable to determine old version
+[2023-07-16 08:01:00] INFO root fetch - main [MainThread]: End processing [zupa] error
+[2023-07-16 08:01:00] INFO root fetch - processPackages [ml-starter]: Downloading https://files.pythonhosted.org/packages/f1/6e/ab5edbd173735efb035421e439282ab35dea267430a8049f476e1d08ff16/ml-starter-0.1.8.tar.gz
+[2023-07-16 08:01:00] INFO root fetch - processPackages [bb-apputils]: Downloading https://files.pythonhosted.org/packages/48/e1/38e7bed1df3e49b67d8c869a30ed5e9c9d7520268def3d6231d7facb0bb5/bb_apputils-0.3.9.tar.gz
+[2023-07-16 08:01:00] INFO root fetch - processPackages [bb-apputils]: Downloading https://files.pythonhosted.org/packages/48/e1/38e7bed1df3e49b67d8c869a30ed5e9c9d7520268def3d6231d7facb0bb5/bb_apputils-0.3.9.tar.gz
+[2023-07-16 08:01:00] INFO root fetch - processPackages [ml-starter]: Downloading https://files.pythonhosted.org/packages/44/9f/ffb6ae287f30a52a4bcc5aae269e948d3ffcd9bd7ab6aafda6ce73f567c8/ml-starter-0.1.9.tar.gz
+[2023-07-16 08:01:00] INFO root fetch - processPackages [bb-apputils]: Downloading https://files.pythonhosted.org/packages/60/77/cf7ba59f46ec5cd8090c4a1023e11efc1ae084cbacfd02eb4094d408c481/bb_apputils-0.3.91.tar.gz
+[2023-07-16 08:01:00] INFO root fetch - processPackages [bb-apputils]: Downloading https://files.pythonhosted.org/packages/60/77/cf7ba59f46ec5cd8090c4a1023e11efc1ae084cbacfd02eb4094d408c481/bb_apputils-0.3.91.tar.gz
+[2023-07-16 08:01:00] INFO root fetch - processPackages [ml-starter]: executing diffoscope
+[2023-07-16 08:01:00] INFO root fetch - processPackages [ml-starter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml-starter-0.1.8.tar.gz tmp/ml-starter-0.1.9.tar.gz --markdown 20230716/m/ml-starter/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-16 08:01:00] INFO root fetch - processPackages [bb-apputils]: executing diffoscope
+[2023-07-16 08:01:00] INFO root fetch - processPackages [bb-apputils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bb_apputils-0.3.9.tar.gz tmp/bb_apputils-0.3.91.tar.gz --markdown 20230716/b/bb-apputils/0.3.9-0.3.91/diff.md --exclude *.pyd
+[2023-07-16 08:01:00] INFO root fetch - processPackages [bb-apputils]: executing diffoscope
+[2023-07-16 08:01:00] INFO root fetch - processPackages [bb-apputils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bb_apputils-0.3.9.tar.gz tmp/bb_apputils-0.3.91.tar.gz --markdown 20230716/b/bb-apputils/0.3.9-0.3.91/diff.md --exclude *.pyd
+[2023-07-16 08:01:01] INFO root fetch - processPackages [bb-apputils]: Remove: archive file [/home/abi/fetcher/tmp/bb_apputils-0.3.9.tar.gz]
+[2023-07-16 08:01:01] INFO root fetch - processPackages [bb-apputils]: Remove: archive file [/home/abi/fetcher/tmp/bb_apputils-0.3.91.tar.gz]
+[2023-07-16 08:01:01] INFO root fetch - main [MainThread]: End processing [bb-apputils]: success
+[2023-07-16 08:01:01] INFO root fetch - main [MainThread]: End processing [bb-apputils]: success
+[2023-07-16 08:01:02] INFO root fetch - processPackages [ml-starter]: Remove: archive file [/home/abi/fetcher/tmp/ml-starter-0.1.8.tar.gz]
+[2023-07-16 08:01:02] INFO root fetch - processPackages [ml-starter]: Remove: archive file [/home/abi/fetcher/tmp/ml-starter-0.1.9.tar.gz]
+[2023-07-16 08:01:02] INFO root fetch - main [MainThread]: End processing [ml-starter]: success
+[2023-07-16 08:01:02] INFO root fetch - main [MainThread]: Store serial: [18905153]
