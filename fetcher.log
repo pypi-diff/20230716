@@ -13486,3 +13486,18 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-16 21:36:21] INFO root fetch - processPackages [adb-push-create]: Remove: archive file [/home/abi/fetcher/tmp/adb_push_create-0.11.tar.gz]
 [2023-07-16 21:36:21] INFO root fetch - main [MainThread]: End processing [adb-push-create]: success
 [2023-07-16 21:36:21] INFO root fetch - main [MainThread]: Store serial: [18908933]
+[2023-07-16 21:41:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18908933]
+[2023-07-16 21:41:29] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-07-16 21:41:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: matplotlib-backend-sixel
+[2023-07-16 21:41:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: MLXpress
+[2023-07-16 21:41:29] WARNING root fetch - processPackages [matplotlib-backend-sixel]: Skipping, unable to determine old version
+[2023-07-16 21:41:29] INFO root fetch - main [MainThread]: End processing [matplotlib-backend-sixel] error
+[2023-07-16 21:41:29] INFO root fetch - processPackages [MLXpress]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-16 21:41:29] INFO root fetch - processPackages [MLXpress]: Downloading https://files.pythonhosted.org/packages/16/3b/05d8c596c074007bb0202fcd8359fcca557c9e3600a6ed330cad67c1ea96/MLXpress-0.1.0-py3-none-any.whl
+[2023-07-16 21:41:30] INFO root fetch - processPackages [MLXpress]: Downloading https://files.pythonhosted.org/packages/6d/c2/47f5c74a23fc017795ea2d49d1f7403870fff904f0a504bba97ec0fb77ca/MLXpress-0.1.1-py3-none-any.whl
+[2023-07-16 21:41:30] INFO root fetch - processPackages [MLXpress]: executing diffoscope
+[2023-07-16 21:41:30] INFO root fetch - processPackages [MLXpress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MLXpress-0.1.0-py3-none-any.whl.zip tmp/MLXpress-0.1.1-py3-none-any.whl.zip --markdown 20230716/M/MLXpress/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-16 21:41:31] INFO root fetch - processPackages [MLXpress]: Remove: archive file [/home/abi/fetcher/tmp/MLXpress-0.1.0-py3-none-any.whl.zip]
+[2023-07-16 21:41:31] INFO root fetch - processPackages [MLXpress]: Remove: archive file [/home/abi/fetcher/tmp/MLXpress-0.1.1-py3-none-any.whl.zip]
+[2023-07-16 21:41:31] INFO root fetch - main [MainThread]: End processing [MLXpress]: success
+[2023-07-16 21:41:31] INFO root fetch - main [MainThread]: Store serial: [18908946]
