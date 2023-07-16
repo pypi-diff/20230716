@@ -3574,3 +3574,53 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-16 06:22:24] INFO root fetch - processPackages [vitriolic]: Remove: archive file [/home/abi/fetcher/tmp/vitriolic-3.3.0-py3-none-any.whl.zip]
 [2023-07-16 06:22:24] INFO root fetch - main [MainThread]: End processing [vitriolic]: success
 [2023-07-16 06:22:24] INFO root fetch - main [MainThread]: Store serial: [18904752]
+[2023-07-16 06:27:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18904752]
+[2023-07-16 06:27:33] INFO root fetch - main [MainThread]: No changed packages found
+[2023-07-16 06:32:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18904752]
+[2023-07-16 06:32:39] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-16 06:32:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pmdsky-debug-py
+[2023-07-16 06:32:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nonebot-plugin-stable-diffusion-diao
+[2023-07-16 06:32:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: storage-local
+[2023-07-16 06:32:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: seunggabi-core-python
+[2023-07-16 06:32:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: roblox-pyc
+[2023-07-16 06:32:39] INFO root fetch - processPackages [storage-local]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-16 06:32:39] INFO root fetch - processPackages [seunggabi-core-python]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-16 06:32:39] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: New version: [0.3.9.3] Old Version: [0.3.9.2]
+[2023-07-16 06:32:39] INFO root fetch - processPackages [roblox-pyc]: New version: [1.6.6.5a0] Old Version: [1.6.6.5.4]
+[2023-07-16 06:32:39] INFO root fetch - processPackages [pmdsky-debug-py]: New version: [7.0.4] Old Version: [7.0.3]
+[2023-07-16 06:32:39] INFO root fetch - processPackages [seunggabi-core-python]: Downloading https://files.pythonhosted.org/packages/63/29/afebe64cd0882d776f1432763ac8a3bc55ba7db1adc9dd67145a5901cd8b/seunggabi_core_python-0.8.0.tar.gz
+[2023-07-16 06:32:39] INFO root fetch - processPackages [roblox-pyc]: Downloading https://files.pythonhosted.org/packages/44/ab/2c1167a2d328570fcff41305068766f10c181301f2cd7a1f64f72287fa27/roblox-pyc-1.6.6.5.4.tar.gz
+[2023-07-16 06:32:39] INFO root fetch - processPackages [storage-local]: Downloading https://files.pythonhosted.org/packages/84/7b/91946d734002c00ad9a1fc3b16df50af361c0481cf5f13fdaefcf5c3ee23/storage-local-0.0.5.tar.gz
+[2023-07-16 06:32:39] INFO root fetch - processPackages [pmdsky-debug-py]: Downloading https://files.pythonhosted.org/packages/2a/8d/ae04e3a8b36f65f61be8823a8f52c0de506d7b861083d38fdf1dab11c2f6/pmdsky_debug_py-7.0.3-py3-none-any.whl
+[2023-07-16 06:32:39] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: Downloading https://files.pythonhosted.org/packages/bf/af/aac31f48ccd6c97f9cfc6b41caeeee7f30c2a73f3d29302dc55faed201f4/nonebot_plugin_stable_diffusion_diao-0.3.9.2.tar.gz
+[2023-07-16 06:32:39] INFO root fetch - processPackages [seunggabi-core-python]: Downloading https://files.pythonhosted.org/packages/88/df/6de121f176000c375aa2ca25c6b2d525af420c09a38131ffe98aeab2fc63/seunggabi_core_python-0.9.0.tar.gz
+[2023-07-16 06:32:39] INFO root fetch - processPackages [roblox-pyc]: Downloading https://files.pythonhosted.org/packages/59/75/7884ffaab86bf051065880fd8aefdfc8e3f2c34e7c9d4a8d352321ec57f8/roblox-pyc-1.6.6.5a0.tar.gz
+[2023-07-16 06:32:40] INFO root fetch - processPackages [storage-local]: Downloading https://files.pythonhosted.org/packages/9e/91/73b3e77699b061cc63d89b25553d8dea9f81065e432f4fcc18a413f0e8f7/storage-local-0.0.6.tar.gz
+[2023-07-16 06:32:40] INFO root fetch - processPackages [seunggabi-core-python]: executing diffoscope
+[2023-07-16 06:32:40] INFO root fetch - processPackages [seunggabi-core-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seunggabi_core_python-0.8.0.tar.gz tmp/seunggabi_core_python-0.9.0.tar.gz --markdown 20230716/s/seunggabi-core-python/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-16 06:32:40] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: Downloading https://files.pythonhosted.org/packages/c2/c0/5802dce0461d920254a3e5a8e65d7e506c453625524ad51a08c91c151b0e/nonebot_plugin_stable_diffusion_diao-0.3.9.3.tar.gz
+[2023-07-16 06:32:40] INFO root fetch - processPackages [roblox-pyc]: executing diffoscope
+[2023-07-16 06:32:40] INFO root fetch - processPackages [roblox-pyc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roblox-pyc-1.6.6.5.4.tar.gz tmp/roblox-pyc-1.6.6.5a0.tar.gz --markdown 20230716/r/roblox-pyc/1.6.6.5.4-1.6.6.5a0/diff.md --exclude *.pyd
+[2023-07-16 06:32:40] INFO root fetch - processPackages [storage-local]: executing diffoscope
+[2023-07-16 06:32:40] INFO root fetch - processPackages [storage-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/storage-local-0.0.5.tar.gz tmp/storage-local-0.0.6.tar.gz --markdown 20230716/s/storage-local/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-16 06:32:40] INFO root fetch - processPackages [pmdsky-debug-py]: Downloading https://files.pythonhosted.org/packages/5d/36/cbbad872157edb8608905377a2ce9e5ae4d3260c05255ff157a5c79166de/pmdsky_debug_py-7.0.4-py3-none-any.whl
+[2023-07-16 06:32:40] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: executing diffoscope
+[2023-07-16 06:32:40] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_stable_diffusion_diao-0.3.9.2.tar.gz tmp/nonebot_plugin_stable_diffusion_diao-0.3.9.3.tar.gz --markdown 20230716/n/nonebot-plugin-stable-diffusion-diao/0.3.9.2-0.3.9.3/diff.md --exclude *.pyd
+[2023-07-16 06:32:40] INFO root fetch - processPackages [pmdsky-debug-py]: executing diffoscope
+[2023-07-16 06:32:40] INFO root fetch - processPackages [pmdsky-debug-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pmdsky_debug_py-7.0.3-py3-none-any.whl.zip tmp/pmdsky_debug_py-7.0.4-py3-none-any.whl.zip --markdown 20230716/p/pmdsky-debug-py/7.0.3-7.0.4/diff.md --exclude *.pyd
+[2023-07-16 06:32:41] INFO root fetch - processPackages [seunggabi-core-python]: Remove: archive file [/home/abi/fetcher/tmp/seunggabi_core_python-0.8.0.tar.gz]
+[2023-07-16 06:32:41] INFO root fetch - processPackages [seunggabi-core-python]: Remove: archive file [/home/abi/fetcher/tmp/seunggabi_core_python-0.9.0.tar.gz]
+[2023-07-16 06:32:41] INFO root fetch - main [MainThread]: End processing [seunggabi-core-python]: success
+[2023-07-16 06:32:41] INFO root fetch - processPackages [roblox-pyc]: Remove: archive file [/home/abi/fetcher/tmp/roblox-pyc-1.6.6.5.4.tar.gz]
+[2023-07-16 06:32:41] INFO root fetch - processPackages [roblox-pyc]: Remove: archive file [/home/abi/fetcher/tmp/roblox-pyc-1.6.6.5a0.tar.gz]
+[2023-07-16 06:32:41] INFO root fetch - main [MainThread]: End processing [roblox-pyc]: success
+[2023-07-16 06:32:41] INFO root fetch - processPackages [storage-local]: Remove: archive file [/home/abi/fetcher/tmp/storage-local-0.0.5.tar.gz]
+[2023-07-16 06:32:41] INFO root fetch - processPackages [storage-local]: Remove: archive file [/home/abi/fetcher/tmp/storage-local-0.0.6.tar.gz]
+[2023-07-16 06:32:41] INFO root fetch - main [MainThread]: End processing [storage-local]: success
+[2023-07-16 06:32:41] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_stable_diffusion_diao-0.3.9.2.tar.gz]
+[2023-07-16 06:32:41] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_stable_diffusion_diao-0.3.9.3.tar.gz]
+[2023-07-16 06:32:41] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-stable-diffusion-diao]: success
+[2023-07-16 06:32:42] INFO root fetch - processPackages [pmdsky-debug-py]: Remove: archive file [/home/abi/fetcher/tmp/pmdsky_debug_py-7.0.3-py3-none-any.whl.zip]
+[2023-07-16 06:32:42] INFO root fetch - processPackages [pmdsky-debug-py]: Remove: archive file [/home/abi/fetcher/tmp/pmdsky_debug_py-7.0.4-py3-none-any.whl.zip]
+[2023-07-16 06:32:42] INFO root fetch - main [MainThread]: End processing [pmdsky-debug-py]: success
+[2023-07-16 06:32:42] INFO root fetch - main [MainThread]: Store serial: [18904766]
