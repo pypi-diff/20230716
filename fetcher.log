@@ -4938,3 +4938,45 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-16 09:08:41] INFO root fetch - processPackages [czsc]: Remove: archive file [/home/abi/fetcher/tmp/czsc-0.9.9.tar.gz]
 [2023-07-16 09:08:41] INFO root fetch - main [MainThread]: End processing [czsc]: success
 [2023-07-16 09:08:41] INFO root fetch - main [MainThread]: Store serial: [18905374]
+[2023-07-16 09:13:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18905374]
+[2023-07-16 09:13:51] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-16 09:13:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: socscikit
+[2023-07-16 09:13:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: python2verilog
+[2023-07-16 09:13:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: HCNetSDK-python
+[2023-07-16 09:13:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-url-tokenizer
+[2023-07-16 09:13:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: streamlit-nightly
+[2023-07-16 09:13:51] INFO root fetch - processPackages [python2verilog]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-16 09:13:51] INFO root fetch - processPackages [socscikit]: New version: [0.0.5.6] Old Version: [0.0.5.5]
+[2023-07-16 09:13:51] INFO root fetch - processPackages [socscikit]: Downloading https://files.pythonhosted.org/packages/d2/79/a6e048027595dffa7c10b194dd6ea9bbf89c2f9d57574f8ceeb4e2c1802e/socscikit-0.0.5.5.tar.gz
+[2023-07-16 09:13:51] INFO root fetch - processPackages [django-url-tokenizer]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-16 09:13:51] WARNING root fetch - processPackages [HCNetSDK-python]: Skipping, unable to determine old version
+[2023-07-16 09:13:51] INFO root fetch - main [MainThread]: End processing [HCNetSDK-python] error
+[2023-07-16 09:13:51] INFO root fetch - processPackages [streamlit-nightly]: New version: [1.9.3.dev20220601] Old Version: [1.9.3.dev20220531]
+[2023-07-16 09:13:51] INFO root fetch - processPackages [python2verilog]: Downloading https://files.pythonhosted.org/packages/92/c2/299a68a5fe49b28a98200cef66f12fcbc56506ae28872f406599de355e98/python2verilog-0.0.1.tar.gz
+[2023-07-16 09:13:51] INFO root fetch - processPackages [django-url-tokenizer]: Downloading https://files.pythonhosted.org/packages/58/fc/c297e12ea86d40bc35c3034412e468c38bef18667e6adfe0b24802b0e417/django-url-tokenizer-0.0.8.tar.gz
+[2023-07-16 09:13:51] INFO root fetch - processPackages [streamlit-nightly]: Downloading https://files.pythonhosted.org/packages/bb/77/73ca36b159a0852f16710c30eca243772d04e8d37c1497e26e837ebad465/streamlit-nightly-1.9.3.dev20220531.tar.gz
+[2023-07-16 09:13:51] INFO root fetch - processPackages [django-url-tokenizer]: Downloading https://files.pythonhosted.org/packages/c5/13/df27d1141ec44b1c35f247440fc5cb506efe40a15cbed84328a82cab2d67/django-url-tokenizer-0.0.9.tar.gz
+[2023-07-16 09:13:51] INFO root fetch - processPackages [python2verilog]: Downloading https://files.pythonhosted.org/packages/56/bb/41cd61ba8bbf0da3b37043b0176422c4d7f8c25e43bd6619cf441a8d754f/python2verilog-0.0.2.tar.gz
+[2023-07-16 09:13:51] INFO root fetch - processPackages [django-url-tokenizer]: executing diffoscope
+[2023-07-16 09:13:51] INFO root fetch - processPackages [django-url-tokenizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-url-tokenizer-0.0.8.tar.gz tmp/django-url-tokenizer-0.0.9.tar.gz --markdown 20230716/d/django-url-tokenizer/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-16 09:13:51] INFO root fetch - processPackages [socscikit]: Downloading https://files.pythonhosted.org/packages/c7/21/bc6889136dcd748b6ab6991ec95c0348344c0ae8a28ff4e666f45165a0d8/socscikit-0.0.5.6.tar.gz
+[2023-07-16 09:13:51] INFO root fetch - processPackages [python2verilog]: executing diffoscope
+[2023-07-16 09:13:51] INFO root fetch - processPackages [python2verilog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python2verilog-0.0.1.tar.gz tmp/python2verilog-0.0.2.tar.gz --markdown 20230716/p/python2verilog/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-16 09:13:52] INFO root fetch - processPackages [socscikit]: executing diffoscope
+[2023-07-16 09:13:52] INFO root fetch - processPackages [socscikit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/socscikit-0.0.5.5.tar.gz tmp/socscikit-0.0.5.6.tar.gz --markdown 20230716/s/socscikit/0.0.5.5-0.0.5.6/diff.md --exclude *.pyd
+[2023-07-16 09:13:52] INFO root fetch - processPackages [streamlit-nightly]: Downloading https://files.pythonhosted.org/packages/3f/2a/57340e81e1d94e80229a3f8d9acc663cdad9ffd0ead21e2c20c76b879c18/streamlit-nightly-1.9.3.dev20220601.tar.gz
+[2023-07-16 09:13:52] INFO root fetch - processPackages [django-url-tokenizer]: Remove: archive file [/home/abi/fetcher/tmp/django-url-tokenizer-0.0.8.tar.gz]
+[2023-07-16 09:13:52] INFO root fetch - processPackages [django-url-tokenizer]: Remove: archive file [/home/abi/fetcher/tmp/django-url-tokenizer-0.0.9.tar.gz]
+[2023-07-16 09:13:52] INFO root fetch - main [MainThread]: End processing [django-url-tokenizer]: success
+[2023-07-16 09:13:52] INFO root fetch - processPackages [python2verilog]: Remove: archive file [/home/abi/fetcher/tmp/python2verilog-0.0.1.tar.gz]
+[2023-07-16 09:13:52] INFO root fetch - processPackages [python2verilog]: Remove: archive file [/home/abi/fetcher/tmp/python2verilog-0.0.2.tar.gz]
+[2023-07-16 09:13:52] INFO root fetch - main [MainThread]: End processing [python2verilog]: success
+[2023-07-16 09:13:53] INFO root fetch - processPackages [streamlit-nightly]: executing diffoscope
+[2023-07-16 09:13:53] INFO root fetch - processPackages [streamlit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-nightly-1.9.3.dev20220531.tar.gz tmp/streamlit-nightly-1.9.3.dev20220601.tar.gz --markdown 20230716/s/streamlit-nightly/1.9.3.dev20220531-1.9.3.dev20220601/diff.md --exclude *.pyd
+[2023-07-16 09:13:53] INFO root fetch - processPackages [socscikit]: Remove: archive file [/home/abi/fetcher/tmp/socscikit-0.0.5.5.tar.gz]
+[2023-07-16 09:13:53] INFO root fetch - processPackages [socscikit]: Remove: archive file [/home/abi/fetcher/tmp/socscikit-0.0.5.6.tar.gz]
+[2023-07-16 09:13:53] INFO root fetch - main [MainThread]: End processing [socscikit]: success
+[2023-07-16 09:14:01] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-nightly-1.9.3.dev20220531.tar.gz]
+[2023-07-16 09:14:01] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-nightly-1.9.3.dev20220601.tar.gz]
+[2023-07-16 09:14:01] INFO root fetch - main [MainThread]: End processing [streamlit-nightly]: success
+[2023-07-16 09:14:01] INFO root fetch - main [MainThread]: Store serial: [18905389]
