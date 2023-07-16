@@ -11188,3 +11188,69 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-16 18:02:33] INFO root fetch - processPackages [gitopenlib]: Remove: archive file [/home/abi/fetcher/tmp/gitopenlib-0.2.8.28.tar.gz]
 [2023-07-16 18:02:33] INFO root fetch - main [MainThread]: End processing [gitopenlib]: success
 [2023-07-16 18:02:33] INFO root fetch - main [MainThread]: Store serial: [18907975]
+[2023-07-16 18:07:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18907975]
+[2023-07-16 18:07:42] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-16 18:07:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hyprshade
+[2023-07-16 18:07:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Colorthon
+[2023-07-16 18:07:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cf-xarray
+[2023-07-16 18:07:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: notification-service-nightly
+[2023-07-16 18:07:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: langchain-model
+[2023-07-16 18:07:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ai-flow-nightly
+[2023-07-16 18:07:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: buckaroo
+[2023-07-16 18:07:42] INFO root fetch - processPackages [langchain-model]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-16 18:07:42] INFO root fetch - processPackages [buckaroo]: New version: [0.3.8] Old Version: [0.3.7]
+[2023-07-16 18:07:42] INFO root fetch - processPackages [hyprshade]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-07-16 18:07:42] INFO root fetch - processPackages [Colorthon]: New version: [2.9.6] Old Version: [2.9.3]
+[2023-07-16 18:07:42] INFO root fetch - processPackages [notification-service-nightly]: New version: [2023.7.9] Old Version: [2023.7.8]
+[2023-07-16 18:07:42] INFO root fetch - processPackages [cf-xarray]: New version: [0.8.4] Old Version: [0.8.3]
+[2023-07-16 18:07:42] INFO root fetch - processPackages [ai-flow-nightly]: New version: [2023.7.9] Old Version: [2023.7.8]
+[2023-07-16 18:07:42] INFO root fetch - processPackages [langchain-model]: Downloading https://files.pythonhosted.org/packages/84/bb/9250fbcffc9d0d6c1ebf52ce3c34c064a5250f84414ccc4a73e40d105bfd/langchain_model-0.0.4.tar.gz
+[2023-07-16 18:07:42] INFO root fetch - processPackages [buckaroo]: Downloading https://files.pythonhosted.org/packages/1e/72/bc3409f8b7f9594c4a69bdfac7d1c92d73452f89183fc76503639876ccc0/buckaroo-0.3.7.tar.gz
+[2023-07-16 18:07:42] INFO root fetch - processPackages [Colorthon]: Downloading https://files.pythonhosted.org/packages/53/50/f5a740e2a58f278cf1391806e740a2d90ba1dd0806c7a5e0527d3e64b5fb/colorthon-2.9.3.tar.gz
+[2023-07-16 18:07:42] INFO root fetch - processPackages [notification-service-nightly]: Downloading https://files.pythonhosted.org/packages/65/1e/184f8ca7fea0333def3590be1e6ae93ecab708b7db224f287099c81829a3/notification_service_nightly-2023.7.8.tar.gz
+[2023-07-16 18:07:42] INFO root fetch - processPackages [ai-flow-nightly]: Downloading https://files.pythonhosted.org/packages/a1/d9/ddd063ea869d5052ce371cc02a1b34d4989fa5c798eb88f04b3631d5ac24/ai_flow_nightly-2023.7.8.tar.gz
+[2023-07-16 18:07:43] INFO root fetch - processPackages [cf-xarray]: Downloading https://files.pythonhosted.org/packages/36/50/3070924d8fc910e28d61529586797e24ac9aa0d0f7b5d35c5cfd103a7a49/cf_xarray-0.8.3.tar.gz
+[2023-07-16 18:07:43] INFO root fetch - processPackages [hyprshade]: Downloading https://files.pythonhosted.org/packages/cc/21/475a60a4bb3cb64cc87cf7afab564ffe9e3345fcdcf793b550d356585674/hyprshade-0.6.1.tar.gz
+[2023-07-16 18:07:43] INFO root fetch - processPackages [langchain-model]: Downloading https://files.pythonhosted.org/packages/4e/25/6594c4953c3dce7154f84942618aa1cbbda6e0c9eed86bcf76bf56f0b54c/langchain_model-0.0.5.tar.gz
+[2023-07-16 18:07:43] INFO root fetch - processPackages [notification-service-nightly]: Downloading https://files.pythonhosted.org/packages/c7/4b/124fc5261f6060915e47111ca32199af3db938323021c15e986ffd6c0801/notification_service_nightly-2023.7.9.tar.gz
+[2023-07-16 18:07:43] INFO root fetch - processPackages [ai-flow-nightly]: Downloading https://files.pythonhosted.org/packages/99/90/4b39e8ebed6b96e9b48be05151c4f1796979ff1689ad51452e0257bd3913/ai_flow_nightly-2023.7.9.tar.gz
+[2023-07-16 18:07:43] INFO root fetch - processPackages [Colorthon]: Downloading https://files.pythonhosted.org/packages/6d/30/b3482577bb87b96066e014e65f5c0fc5dac8420ad8a6fd7f6369af5ebc19/Colorthon-2.9.6.tar.gz
+[2023-07-16 18:07:43] INFO root fetch - processPackages [langchain-model]: executing diffoscope
+[2023-07-16 18:07:43] INFO root fetch - processPackages [langchain-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain_model-0.0.4.tar.gz tmp/langchain_model-0.0.5.tar.gz --markdown 20230716/l/langchain-model/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-16 18:07:43] INFO root fetch - processPackages [hyprshade]: Downloading https://files.pythonhosted.org/packages/27/1a/cbf1b2e35cd5cbb55d6120db87507cce666f5913fc97e3695f283b2ce508/hyprshade-0.6.2.tar.gz
+[2023-07-16 18:07:43] INFO root fetch - processPackages [notification-service-nightly]: executing diffoscope
+[2023-07-16 18:07:43] INFO root fetch - processPackages [notification-service-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notification_service_nightly-2023.7.8.tar.gz tmp/notification_service_nightly-2023.7.9.tar.gz --markdown 20230716/n/notification-service-nightly/2023.7.8-2023.7.9/diff.md --exclude *.pyd
+[2023-07-16 18:07:43] INFO root fetch - processPackages [ai-flow-nightly]: executing diffoscope
+[2023-07-16 18:07:43] INFO root fetch - processPackages [ai-flow-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai_flow_nightly-2023.7.8.tar.gz tmp/ai_flow_nightly-2023.7.9.tar.gz --markdown 20230716/a/ai-flow-nightly/2023.7.8-2023.7.9/diff.md --exclude *.pyd
+[2023-07-16 18:07:43] INFO root fetch - processPackages [cf-xarray]: Downloading https://files.pythonhosted.org/packages/da/af/bab6eb7eafb230c0abf5c62f5de1812b350d34ee0862325661435ae387b2/cf_xarray-0.8.4.tar.gz
+[2023-07-16 18:07:43] INFO root fetch - processPackages [Colorthon]: executing diffoscope
+[2023-07-16 18:07:43] INFO root fetch - processPackages [Colorthon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/colorthon-2.9.3.tar.gz tmp/Colorthon-2.9.6.tar.gz --markdown 20230716/C/Colorthon/2.9.3-2.9.6/diff.md --exclude *.pyd
+[2023-07-16 18:07:43] INFO root fetch - processPackages [buckaroo]: Downloading https://files.pythonhosted.org/packages/06/1d/f1d551d2b97fd6f278757ed06abe2eaa396eca8eb79ae206a203fa155f75/buckaroo-0.3.8.tar.gz
+[2023-07-16 18:07:43] INFO root fetch - processPackages [cf-xarray]: executing diffoscope
+[2023-07-16 18:07:43] INFO root fetch - processPackages [cf-xarray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cf_xarray-0.8.3.tar.gz tmp/cf_xarray-0.8.4.tar.gz --markdown 20230716/c/cf-xarray/0.8.3-0.8.4/diff.md --exclude *.pyd
+[2023-07-16 18:07:43] INFO root fetch - processPackages [hyprshade]: executing diffoscope
+[2023-07-16 18:07:43] INFO root fetch - processPackages [hyprshade]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyprshade-0.6.1.tar.gz tmp/hyprshade-0.6.2.tar.gz --markdown 20230716/h/hyprshade/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-07-16 18:07:43] INFO root fetch - processPackages [buckaroo]: executing diffoscope
+[2023-07-16 18:07:43] INFO root fetch - processPackages [buckaroo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/buckaroo-0.3.7.tar.gz tmp/buckaroo-0.3.8.tar.gz --markdown 20230716/b/buckaroo/0.3.7-0.3.8/diff.md --exclude *.pyd
+[2023-07-16 18:07:44] INFO root fetch - processPackages [langchain-model]: Remove: archive file [/home/abi/fetcher/tmp/langchain_model-0.0.4.tar.gz]
+[2023-07-16 18:07:44] INFO root fetch - processPackages [langchain-model]: Remove: archive file [/home/abi/fetcher/tmp/langchain_model-0.0.5.tar.gz]
+[2023-07-16 18:07:44] INFO root fetch - main [MainThread]: End processing [langchain-model]: success
+[2023-07-16 18:07:44] INFO root fetch - processPackages [Colorthon]: Remove: archive file [/home/abi/fetcher/tmp/colorthon-2.9.3.tar.gz]
+[2023-07-16 18:07:44] INFO root fetch - processPackages [Colorthon]: Remove: archive file [/home/abi/fetcher/tmp/Colorthon-2.9.6.tar.gz]
+[2023-07-16 18:07:44] INFO root fetch - main [MainThread]: End processing [Colorthon]: success
+[2023-07-16 18:07:44] INFO root fetch - processPackages [hyprshade]: Remove: archive file [/home/abi/fetcher/tmp/hyprshade-0.6.1.tar.gz]
+[2023-07-16 18:07:44] INFO root fetch - processPackages [hyprshade]: Remove: archive file [/home/abi/fetcher/tmp/hyprshade-0.6.2.tar.gz]
+[2023-07-16 18:07:44] INFO root fetch - main [MainThread]: End processing [hyprshade]: success
+[2023-07-16 18:07:44] INFO root fetch - processPackages [notification-service-nightly]: Remove: archive file [/home/abi/fetcher/tmp/notification_service_nightly-2023.7.8.tar.gz]
+[2023-07-16 18:07:44] INFO root fetch - processPackages [notification-service-nightly]: Remove: archive file [/home/abi/fetcher/tmp/notification_service_nightly-2023.7.9.tar.gz]
+[2023-07-16 18:07:44] INFO root fetch - main [MainThread]: End processing [notification-service-nightly]: success
+[2023-07-16 18:07:45] INFO root fetch - processPackages [cf-xarray]: Remove: archive file [/home/abi/fetcher/tmp/cf_xarray-0.8.3.tar.gz]
+[2023-07-16 18:07:45] INFO root fetch - processPackages [cf-xarray]: Remove: archive file [/home/abi/fetcher/tmp/cf_xarray-0.8.4.tar.gz]
+[2023-07-16 18:07:45] INFO root fetch - main [MainThread]: End processing [cf-xarray]: success
+[2023-07-16 18:07:45] INFO root fetch - processPackages [ai-flow-nightly]: Remove: archive file [/home/abi/fetcher/tmp/ai_flow_nightly-2023.7.8.tar.gz]
+[2023-07-16 18:07:45] INFO root fetch - processPackages [ai-flow-nightly]: Remove: archive file [/home/abi/fetcher/tmp/ai_flow_nightly-2023.7.9.tar.gz]
+[2023-07-16 18:07:45] INFO root fetch - main [MainThread]: End processing [ai-flow-nightly]: success
+[2023-07-16 18:07:46] INFO root fetch - processPackages [buckaroo]: Remove: archive file [/home/abi/fetcher/tmp/buckaroo-0.3.7.tar.gz]
+[2023-07-16 18:07:46] INFO root fetch - processPackages [buckaroo]: Remove: archive file [/home/abi/fetcher/tmp/buckaroo-0.3.8.tar.gz]
+[2023-07-16 18:07:46] INFO root fetch - main [MainThread]: End processing [buckaroo]: success
+[2023-07-16 18:07:46] INFO root fetch - main [MainThread]: Store serial: [18907995]
