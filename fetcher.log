@@ -9881,3 +9881,77 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-16 16:18:14] INFO root fetch - processPackages [liteindex]: Remove: archive file [/home/abi/fetcher/tmp/liteindex-0.0.1.dev9.tar.gz]
 [2023-07-16 16:18:14] INFO root fetch - main [MainThread]: End processing [liteindex]: success
 [2023-07-16 16:18:14] INFO root fetch - main [MainThread]: Store serial: [18907448]
+[2023-07-16 16:23:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18907448]
+[2023-07-16 16:23:23] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-16 16:23:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dsa-for-all
+[2023-07-16 16:23:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: extract-office-content
+[2023-07-16 16:23:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dsa-for-all
+[2023-07-16 16:23:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: crypto-screening
+[2023-07-16 16:23:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tychos
+[2023-07-16 16:23:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: openshift-cluster-management-python-wrapper
+[2023-07-16 16:23:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: alfen-eve-modbus-tcp
+[2023-07-16 16:23:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dsa-for-all
+[2023-07-16 16:23:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: spanishconjugator
+[2023-07-16 16:23:23] INFO root fetch - processPackages [extract-office-content]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-16 16:23:23] INFO root fetch - processPackages [dsa-for-all]: New version: [1.0.1.1] Old Version: [1.0.0.1]
+[2023-07-16 16:23:23] INFO root fetch - processPackages [dsa-for-all]: New version: [1.0.1.1] Old Version: [1.0.0.1]
+[2023-07-16 16:23:23] INFO root fetch - processPackages [tychos]: New version: [0.0.7] Old Version: [0.0.5]
+[2023-07-16 16:23:23] INFO root fetch - processPackages [crypto-screening]: New version: [5.3.0] Old Version: [5.2.3]
+[2023-07-16 16:23:23] INFO root fetch - processPackages [dsa-for-all]: New version: [1.0.1.1] Old Version: [1.0.0.1]
+[2023-07-16 16:23:23] INFO root fetch - processPackages [openshift-cluster-management-python-wrapper]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-16 16:23:23] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-07-16 16:23:23] WARNING root fetch - processPackages [alfen-eve-modbus-tcp]: Skipping, unable to determine old version
+[2023-07-16 16:23:23] INFO root fetch - main [MainThread]: End processing [alfen-eve-modbus-tcp] error
+[2023-07-16 16:23:23] INFO root fetch - processPackages [crypto-screening]: Downloading https://files.pythonhosted.org/packages/cb/a6/2c1f3eb1671d76022162296be86fa82453978b36be79c4ba92d616470877/crypto-screening-5.2.3.tar.gz
+[2023-07-16 16:23:23] INFO root fetch - processPackages [extract-office-content]: Downloading https://files.pythonhosted.org/packages/ac/d5/768cf9ab18c6655739071daa37cede500a71e8e8ab213888e79c7ec79c4b/extract_office_content-0.0.6-py3-none-any.whl
+[2023-07-16 16:23:23] INFO root fetch - processPackages [dsa-for-all]: Downloading https://files.pythonhosted.org/packages/b5/d3/a06f18d40283cf433c38f7664b544f0af2634989a219626426faa4823b9c/dsa_for_all-1.0.0.1-py3-none-any.whl
+[2023-07-16 16:23:23] INFO root fetch - processPackages [dsa-for-all]: Downloading https://files.pythonhosted.org/packages/b5/d3/a06f18d40283cf433c38f7664b544f0af2634989a219626426faa4823b9c/dsa_for_all-1.0.0.1-py3-none-any.whl
+[2023-07-16 16:23:23] INFO root fetch - processPackages [dsa-for-all]: Downloading https://files.pythonhosted.org/packages/b5/d3/a06f18d40283cf433c38f7664b544f0af2634989a219626426faa4823b9c/dsa_for_all-1.0.0.1-py3-none-any.whl
+[2023-07-16 16:23:23] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-07-16 16:23:23] INFO root fetch - processPackages [openshift-cluster-management-python-wrapper]: Downloading https://files.pythonhosted.org/packages/c4/00/080ef5dd094ce238dea7428d87f981afa486ff6fb8b6087ca896071d3e9b/openshift-cluster-management-python-wrapper-1.0.8.tar.gz
+[2023-07-16 16:23:23] INFO root fetch - processPackages [tychos]: Downloading https://files.pythonhosted.org/packages/33/ba/1d8dc9f75189dddef24a5ed77dd3e41f9edee2653cddc6bef152bb013a8f/tychos-0.0.5.tar.gz
+[2023-07-16 16:23:23] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-07-16 16:23:24] INFO root fetch - processPackages [crypto-screening]: Downloading https://files.pythonhosted.org/packages/db/57/dbf44e86fd2e15d67e67470cad2603b9a16f54a2a6dc3308e3fc67a3d34c/crypto-screening-5.3.0.tar.gz
+[2023-07-16 16:23:24] INFO root fetch - processPackages [extract-office-content]: Downloading https://files.pythonhosted.org/packages/00/a8/3c3de77223cba5b5bafa9dc8f2fed86b0c2fc994ef493c55f249072c9c44/extract_office_content-0.0.7-py3-none-any.whl
+[2023-07-16 16:23:24] INFO root fetch - processPackages [dsa-for-all]: Downloading https://files.pythonhosted.org/packages/2b/b6/899ff25586c9fc50884e76ad875d6eae3a290568dd7af957242d78a2aca6/dsa-for-all-1.0.1.1.tar.gz
+[2023-07-16 16:23:24] INFO root fetch - processPackages [dsa-for-all]: Downloading https://files.pythonhosted.org/packages/2b/b6/899ff25586c9fc50884e76ad875d6eae3a290568dd7af957242d78a2aca6/dsa-for-all-1.0.1.1.tar.gz
+[2023-07-16 16:23:24] INFO root fetch - processPackages [dsa-for-all]: Downloading https://files.pythonhosted.org/packages/2b/b6/899ff25586c9fc50884e76ad875d6eae3a290568dd7af957242d78a2aca6/dsa-for-all-1.0.1.1.tar.gz
+[2023-07-16 16:23:24] INFO root fetch - processPackages [tychos]: Downloading https://files.pythonhosted.org/packages/c4/f0/06cd51b86dff0902d6293c3851276281233f8f9d7fe427ea6b9408642f5b/tychos-0.0.7.tar.gz
+[2023-07-16 16:23:24] INFO root fetch - processPackages [openshift-cluster-management-python-wrapper]: Downloading https://files.pythonhosted.org/packages/c5/ff/2a7dc53e940f4cf01cba78091f8503bd24ebe8b716139738212ed5473bde/openshift-cluster-management-python-wrapper-1.0.9.tar.gz
+[2023-07-16 16:23:24] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-07-16 16:23:24] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230716/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-07-16 16:23:24] INFO root fetch - processPackages [extract-office-content]: executing diffoscope
+[2023-07-16 16:23:24] INFO root fetch - processPackages [extract-office-content]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/extract_office_content-0.0.6-py3-none-any.whl.zip tmp/extract_office_content-0.0.7-py3-none-any.whl.zip --markdown 20230716/e/extract-office-content/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-16 16:23:24] INFO root fetch - processPackages [crypto-screening]: executing diffoscope
+[2023-07-16 16:23:24] INFO root fetch - processPackages [crypto-screening]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crypto-screening-5.2.3.tar.gz tmp/crypto-screening-5.3.0.tar.gz --markdown 20230716/c/crypto-screening/5.2.3-5.3.0/diff.md --exclude *.pyd
+[2023-07-16 16:23:24] INFO root fetch - processPackages [dsa-for-all]: executing diffoscope
+[2023-07-16 16:23:24] INFO root fetch - processPackages [tychos]: executing diffoscope
+[2023-07-16 16:23:24] INFO root fetch - processPackages [tychos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tychos-0.0.5.tar.gz tmp/tychos-0.0.7.tar.gz --markdown 20230716/t/tychos/0.0.5-0.0.7/diff.md --exclude *.pyd
+[2023-07-16 16:23:24] INFO root fetch - processPackages [dsa-for-all]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsa_for_all-1.0.0.1-py3-none-any.whl.zip tmp/dsa-for-all-1.0.1.1.tar.gz --markdown 20230716/d/dsa-for-all/1.0.0.1-1.0.1.1/diff.md --exclude *.pyd
+[2023-07-16 16:23:24] INFO root fetch - processPackages [dsa-for-all]: executing diffoscope
+[2023-07-16 16:23:24] INFO root fetch - processPackages [dsa-for-all]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsa_for_all-1.0.0.1-py3-none-any.whl.zip tmp/dsa-for-all-1.0.1.1.tar.gz --markdown 20230716/d/dsa-for-all/1.0.0.1-1.0.1.1/diff.md --exclude *.pyd
+[2023-07-16 16:23:24] INFO root fetch - processPackages [dsa-for-all]: executing diffoscope
+[2023-07-16 16:23:24] INFO root fetch - processPackages [dsa-for-all]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsa_for_all-1.0.0.1-py3-none-any.whl.zip tmp/dsa-for-all-1.0.1.1.tar.gz --markdown 20230716/d/dsa-for-all/1.0.0.1-1.0.1.1/diff.md --exclude *.pyd
+[2023-07-16 16:23:24] INFO root fetch - processPackages [openshift-cluster-management-python-wrapper]: executing diffoscope
+[2023-07-16 16:23:24] INFO root fetch - processPackages [openshift-cluster-management-python-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openshift-cluster-management-python-wrapper-1.0.8.tar.gz tmp/openshift-cluster-management-python-wrapper-1.0.9.tar.gz --markdown 20230716/o/openshift-cluster-management-python-wrapper/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-16 16:23:25] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2023-07-16 16:23:25] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2023-07-16 16:23:25] INFO root fetch - processPackages [tychos]: Remove: archive file [/home/abi/fetcher/tmp/tychos-0.0.5.tar.gz]
+[2023-07-16 16:23:25] INFO root fetch - processPackages [dsa-for-all]: Remove: archive file [/home/abi/fetcher/tmp/dsa_for_all-1.0.0.1-py3-none-any.whl.zip]
+[2023-07-16 16:23:25] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-07-16 16:23:25] INFO root fetch - processPackages [tychos]: Remove: archive file [/home/abi/fetcher/tmp/tychos-0.0.7.tar.gz]
+[2023-07-16 16:23:25] INFO root fetch - processPackages [dsa-for-all]: Remove: archive file [/home/abi/fetcher/tmp/dsa-for-all-1.0.1.1.tar.gz]
+[2023-07-16 16:23:25] INFO root fetch - main [MainThread]: End processing [tychos]: success
+[2023-07-16 16:23:25] INFO root fetch - main [MainThread]: End processing [dsa-for-all]: success
+[2023-07-16 16:23:25] INFO root fetch - processPackages [extract-office-content]: Remove: archive file [/home/abi/fetcher/tmp/extract_office_content-0.0.6-py3-none-any.whl.zip]
+[2023-07-16 16:23:25] INFO root fetch - processPackages [extract-office-content]: Remove: archive file [/home/abi/fetcher/tmp/extract_office_content-0.0.7-py3-none-any.whl.zip]
+[2023-07-16 16:23:25] INFO root fetch - main [MainThread]: End processing [extract-office-content]: success
+[2023-07-16 16:23:25] INFO root fetch - main [MainThread]: End processing [dsa-for-all]: success
+[2023-07-16 16:23:25] INFO root fetch - processPackages [openshift-cluster-management-python-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/openshift-cluster-management-python-wrapper-1.0.8.tar.gz]
+[2023-07-16 16:23:25] INFO root fetch - processPackages [openshift-cluster-management-python-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/openshift-cluster-management-python-wrapper-1.0.9.tar.gz]
+[2023-07-16 16:23:25] INFO root fetch - main [MainThread]: End processing [openshift-cluster-management-python-wrapper]: success
+[2023-07-16 16:23:25] INFO root fetch - processPackages [crypto-screening]: Remove: archive file [/home/abi/fetcher/tmp/crypto-screening-5.2.3.tar.gz]
+[2023-07-16 16:23:25] INFO root fetch - processPackages [crypto-screening]: Remove: archive file [/home/abi/fetcher/tmp/crypto-screening-5.3.0.tar.gz]
+[2023-07-16 16:23:25] INFO root fetch - main [MainThread]: End processing [crypto-screening]: success
+[2023-07-16 16:23:25] INFO root fetch - main [MainThread]: End processing [dsa-for-all]: success
+[2023-07-16 16:23:25] INFO root fetch - main [MainThread]: Store serial: [18907473]
