@@ -4358,3 +4358,51 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-16 08:06:11] INFO root fetch - processPackages [aigc-zoo]: Remove: archive file [/home/abi/fetcher/tmp/aigc_zoo-0.1.12.post0-py3-none-any.whl.zip]
 [2023-07-16 08:06:11] INFO root fetch - main [MainThread]: End processing [aigc-zoo]: success
 [2023-07-16 08:06:11] INFO root fetch - main [MainThread]: Store serial: [18905160]
+[2023-07-16 08:11:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18905160]
+[2023-07-16 08:11:20] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-16 08:11:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sigils
+[2023-07-16 08:11:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: terminal-manager
+[2023-07-16 08:11:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Pydule
+[2023-07-16 08:11:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyacaia-async
+[2023-07-16 08:11:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fdfat
+[2023-07-16 08:11:20] INFO root fetch - processPackages [terminal-manager]: New version: [0.7.0] Old Version: [0.6.0]
+[2023-07-16 08:11:20] INFO root fetch - processPackages [fdfat]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-16 08:11:20] INFO root fetch - processPackages [pyacaia-async]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-16 08:11:20] INFO root fetch - processPackages [Pydule]: New version: [3.3.7] Old Version: [3.3.6]
+[2023-07-16 08:11:20] INFO root fetch - processPackages [sigils]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-07-16 08:11:20] INFO root fetch - processPackages [terminal-manager]: Downloading https://files.pythonhosted.org/packages/c7/ca/3d308859658fd1a1f2beeca8d51529cf8f10900c6365c290cfc5baa6fa3f/terminal_manager-0.6.0.tar.gz
+[2023-07-16 08:11:20] INFO root fetch - processPackages [pyacaia-async]: Downloading https://files.pythonhosted.org/packages/e4/5f/8f4a9adf3b155f843be08486f9c0145de8adfb9429d73f826058902ab881/pyacaia_async-0.0.4.tar.gz
+[2023-07-16 08:11:20] INFO root fetch - processPackages [fdfat]: Downloading https://files.pythonhosted.org/packages/a9/c2/d7916b3c128e3c36ca4a9eab7a9b0b9ff4408b2f2b1355192b312c3b33e4/fdfat-0.1.3.tar.gz
+[2023-07-16 08:11:20] INFO root fetch - processPackages [sigils]: Downloading https://files.pythonhosted.org/packages/5c/ba/f667ef2acba78ecc540c079746ad8308c2c5d00714ffb934f40804a416ba/sigils-0.3.2.tar.gz
+[2023-07-16 08:11:21] INFO root fetch - processPackages [Pydule]: Downloading https://files.pythonhosted.org/packages/18/35/47853cd021eead78070888697717e04e82217a9d6d212c1785eac7cd0431/Pydule-3.3.6.tar.gz
+[2023-07-16 08:11:21] INFO root fetch - processPackages [terminal-manager]: Downloading https://files.pythonhosted.org/packages/ae/52/7de0726cdcfac5da8adce7a201925ddabda2ed4d3013a585cb4b5bed8afd/terminal_manager-0.7.0.tar.gz
+[2023-07-16 08:11:21] INFO root fetch - processPackages [fdfat]: Downloading https://files.pythonhosted.org/packages/5c/b3/7cc3e1b8eb85d08219b3dcb21f8a4e631d29cffd17b9dedae40f12b134b9/fdfat-0.1.4.tar.gz
+[2023-07-16 08:11:21] INFO root fetch - processPackages [sigils]: Downloading https://files.pythonhosted.org/packages/3a/7c/32f598907f481c549e83d494fa506af45f4e57d098787660546fe1dd21a3/sigils-0.3.3.tar.gz
+[2023-07-16 08:11:21] INFO root fetch - processPackages [pyacaia-async]: Downloading https://files.pythonhosted.org/packages/73/34/ee37f23042bf1e8d8b0dd345f66a23900af721b546e8e2624bfd8e9ea99e/pyacaia_async-0.0.5.tar.gz
+[2023-07-16 08:11:21] INFO root fetch - processPackages [Pydule]: Downloading https://files.pythonhosted.org/packages/8a/cf/e9e9aef7c72cf3bb7280b7efbc0ad75b268b0e11d03c4141d09cdbfb2d01/Pydule-3.3.7.tar.gz
+[2023-07-16 08:11:21] INFO root fetch - processPackages [fdfat]: executing diffoscope
+[2023-07-16 08:11:21] INFO root fetch - processPackages [fdfat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fdfat-0.1.3.tar.gz tmp/fdfat-0.1.4.tar.gz --markdown 20230716/f/fdfat/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-16 08:11:21] INFO root fetch - processPackages [sigils]: executing diffoscope
+[2023-07-16 08:11:21] INFO root fetch - processPackages [sigils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sigils-0.3.2.tar.gz tmp/sigils-0.3.3.tar.gz --markdown 20230716/s/sigils/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-07-16 08:11:21] INFO root fetch - processPackages [terminal-manager]: executing diffoscope
+[2023-07-16 08:11:21] INFO root fetch - processPackages [terminal-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/terminal_manager-0.6.0.tar.gz tmp/terminal_manager-0.7.0.tar.gz --markdown 20230716/t/terminal-manager/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2023-07-16 08:11:21] INFO root fetch - processPackages [pyacaia-async]: executing diffoscope
+[2023-07-16 08:11:21] INFO root fetch - processPackages [pyacaia-async]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyacaia_async-0.0.4.tar.gz tmp/pyacaia_async-0.0.5.tar.gz --markdown 20230716/p/pyacaia-async/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-16 08:11:21] INFO root fetch - processPackages [Pydule]: executing diffoscope
+[2023-07-16 08:11:21] INFO root fetch - processPackages [Pydule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Pydule-3.3.6.tar.gz tmp/Pydule-3.3.7.tar.gz --markdown 20230716/P/Pydule/3.3.6-3.3.7/diff.md --exclude *.pyd
+[2023-07-16 08:11:22] INFO root fetch - processPackages [pyacaia-async]: Remove: archive file [/home/abi/fetcher/tmp/pyacaia_async-0.0.4.tar.gz]
+[2023-07-16 08:11:22] INFO root fetch - processPackages [pyacaia-async]: Remove: archive file [/home/abi/fetcher/tmp/pyacaia_async-0.0.5.tar.gz]
+[2023-07-16 08:11:22] INFO root fetch - main [MainThread]: End processing [pyacaia-async]: success
+[2023-07-16 08:11:22] INFO root fetch - processPackages [Pydule]: Remove: archive file [/home/abi/fetcher/tmp/Pydule-3.3.6.tar.gz]
+[2023-07-16 08:11:22] INFO root fetch - processPackages [Pydule]: Remove: archive file [/home/abi/fetcher/tmp/Pydule-3.3.7.tar.gz]
+[2023-07-16 08:11:22] INFO root fetch - main [MainThread]: End processing [Pydule]: success
+[2023-07-16 08:11:22] INFO root fetch - processPackages [terminal-manager]: Remove: archive file [/home/abi/fetcher/tmp/terminal_manager-0.6.0.tar.gz]
+[2023-07-16 08:11:22] INFO root fetch - processPackages [terminal-manager]: Remove: archive file [/home/abi/fetcher/tmp/terminal_manager-0.7.0.tar.gz]
+[2023-07-16 08:11:22] INFO root fetch - main [MainThread]: End processing [terminal-manager]: success
+[2023-07-16 08:11:22] INFO root fetch - processPackages [sigils]: Remove: archive file [/home/abi/fetcher/tmp/sigils-0.3.2.tar.gz]
+[2023-07-16 08:11:22] INFO root fetch - processPackages [sigils]: Remove: archive file [/home/abi/fetcher/tmp/sigils-0.3.3.tar.gz]
+[2023-07-16 08:11:22] INFO root fetch - main [MainThread]: End processing [sigils]: success
+[2023-07-16 08:11:22] INFO root fetch - processPackages [fdfat]: Remove: archive file [/home/abi/fetcher/tmp/fdfat-0.1.3.tar.gz]
+[2023-07-16 08:11:22] INFO root fetch - processPackages [fdfat]: Remove: archive file [/home/abi/fetcher/tmp/fdfat-0.1.4.tar.gz]
+[2023-07-16 08:11:22] INFO root fetch - main [MainThread]: End processing [fdfat]: success
+[2023-07-16 08:11:22] INFO root fetch - main [MainThread]: Store serial: [18905175]
