@@ -6797,3 +6797,60 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-16 12:05:42] INFO root fetch - processPackages [deovi]: Remove: archive file [/home/abi/fetcher/tmp/deovi-0.6.1.tar.gz]
 [2023-07-16 12:05:42] INFO root fetch - main [MainThread]: End processing [deovi]: success
 [2023-07-16 12:05:42] INFO root fetch - main [MainThread]: Store serial: [18906091]
+[2023-07-16 12:10:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18906091]
+[2023-07-16 12:10:50] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-16 12:10:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: faasmctl
+[2023-07-16 12:10:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wordx
+[2023-07-16 12:10:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: metaphor-connectors
+[2023-07-16 12:10:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyfrobot
+[2023-07-16 12:10:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kuro2sudachi
+[2023-07-16 12:10:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: docstring-generator-ext
+[2023-07-16 12:10:51] INFO root fetch - processPackages [docstring-generator-ext]: New version: [0.0.31] Old Version: [0.0.28]
+[2023-07-16 12:10:51] INFO root fetch - processPackages [kuro2sudachi]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-07-16 12:10:51] INFO root fetch - processPackages [wordx]: New version: [0.2.5] Old Version: [0.2.4.4]
+[2023-07-16 12:10:51] INFO root fetch - processPackages [pyfrobot]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-16 12:10:51] INFO root fetch - processPackages [faasmctl]: New version: [0.3.8] Old Version: [0.3.7]
+[2023-07-16 12:10:51] INFO root fetch - processPackages [metaphor-connectors]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-07-16 12:10:51] INFO root fetch - processPackages [pyfrobot]: Downloading https://files.pythonhosted.org/packages/47/d8/4eff931acd80eb8b05f05c88112d1850849146f9915175d6eadf35df14ef/pyfrobot-0.1.8.tar.gz
+[2023-07-16 12:10:51] INFO root fetch - processPackages [kuro2sudachi]: Downloading https://files.pythonhosted.org/packages/c4/9e/46302253402d52b5e2c6394c2b42396ec455480628fe94d2edf6f4f5b890/kuro2sudachi-0.4.2.tar.gz
+[2023-07-16 12:10:51] INFO root fetch - processPackages [metaphor-connectors]: Downloading https://files.pythonhosted.org/packages/92/c2/f775488949e85740917971e97fbd1e7187de61421ac7fbbc9d5485275473/metaphor-connectors-0.9.3.tar.gz
+[2023-07-16 12:10:51] INFO root fetch - processPackages [wordx]: Downloading https://files.pythonhosted.org/packages/ff/43/9dab29845ca2a0ce3697499190c162e76553153931dcc6776ee5987c5660/wordx-0.2.4.4.tar.gz
+[2023-07-16 12:10:51] INFO root fetch - processPackages [faasmctl]: Downloading https://files.pythonhosted.org/packages/c3/f4/91d8255fd351eced63cae35958ef01b69235881b03ac4789212f2f3e3cec/faasmctl-0.3.7.tar.gz
+[2023-07-16 12:10:51] INFO root fetch - processPackages [docstring-generator-ext]: Downloading https://files.pythonhosted.org/packages/54/2e/e12c72b447b8cfe189daddbb3a096ef38717df212eadd29eee276b78aa9c/docstring_generator_ext-0.0.28.tar.gz
+[2023-07-16 12:10:51] INFO root fetch - processPackages [pyfrobot]: Downloading https://files.pythonhosted.org/packages/a5/a7/c91a44b101557e88b0c525fd1fbcc9ee6e7a1d4fe9318da83243b9481ac4/pyfrobot-0.1.9.tar.gz
+[2023-07-16 12:10:51] INFO root fetch - processPackages [kuro2sudachi]: Downloading https://files.pythonhosted.org/packages/52/ff/33b5920598f2a2062ff0d82cfd1327b8eeb47e13b4432b6e924826e8655f/kuro2sudachi-0.4.3.tar.gz
+[2023-07-16 12:10:51] INFO root fetch - processPackages [pyfrobot]: executing diffoscope
+[2023-07-16 12:10:51] INFO root fetch - processPackages [pyfrobot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfrobot-0.1.8.tar.gz tmp/pyfrobot-0.1.9.tar.gz --markdown 20230716/p/pyfrobot/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-16 12:10:51] INFO root fetch - processPackages [faasmctl]: Downloading https://files.pythonhosted.org/packages/f6/70/43c183de96913153b808f25cef8e4525721ad236a31a871e313340e7d996/faasmctl-0.3.8.tar.gz
+[2023-07-16 12:10:51] INFO root fetch - processPackages [wordx]: Downloading https://files.pythonhosted.org/packages/a4/06/722e3d6105d6c27ee3d7458b3c1c163402514a49da60c9c219d56ae7687f/wordx-0.2.5.tar.gz
+[2023-07-16 12:10:51] INFO root fetch - processPackages [kuro2sudachi]: executing diffoscope
+[2023-07-16 12:10:51] INFO root fetch - processPackages [kuro2sudachi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kuro2sudachi-0.4.2.tar.gz tmp/kuro2sudachi-0.4.3.tar.gz --markdown 20230716/k/kuro2sudachi/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-07-16 12:10:51] INFO root fetch - processPackages [docstring-generator-ext]: Downloading https://files.pythonhosted.org/packages/ac/7d/6dbf02e6d80d3d3be7b1bbca0483ff394dd439f5049acc1424d3488f0ddf/docstring_generator_ext-0.0.31.tar.gz
+[2023-07-16 12:10:51] INFO root fetch - processPackages [faasmctl]: executing diffoscope
+[2023-07-16 12:10:51] INFO root fetch - processPackages [faasmctl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/faasmctl-0.3.7.tar.gz tmp/faasmctl-0.3.8.tar.gz --markdown 20230716/f/faasmctl/0.3.7-0.3.8/diff.md --exclude *.pyd
+[2023-07-16 12:10:52] INFO root fetch - processPackages [wordx]: executing diffoscope
+[2023-07-16 12:10:52] INFO root fetch - processPackages [wordx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wordx-0.2.4.4.tar.gz tmp/wordx-0.2.5.tar.gz --markdown 20230716/w/wordx/0.2.4.4-0.2.5/diff.md --exclude *.pyd
+[2023-07-16 12:10:52] INFO root fetch - processPackages [docstring-generator-ext]: executing diffoscope
+[2023-07-16 12:10:52] INFO root fetch - processPackages [docstring-generator-ext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docstring_generator_ext-0.0.28.tar.gz tmp/docstring_generator_ext-0.0.31.tar.gz --markdown 20230716/d/docstring-generator-ext/0.0.28-0.0.31/diff.md --exclude *.pyd
+[2023-07-16 12:10:52] INFO root fetch - processPackages [metaphor-connectors]: Downloading https://files.pythonhosted.org/packages/7e/f3/fd51e0c2498f7340487d8eba1ee24a716e8056cce2a496a20f5da0cc11de/metaphor-connectors-0.9.4.tar.gz
+[2023-07-16 12:10:52] INFO root fetch - processPackages [metaphor-connectors]: executing diffoscope
+[2023-07-16 12:10:52] INFO root fetch - processPackages [metaphor-connectors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metaphor-connectors-0.9.3.tar.gz tmp/metaphor-connectors-0.9.4.tar.gz --markdown 20230716/m/metaphor-connectors/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-07-16 12:10:52] INFO root fetch - processPackages [pyfrobot]: Remove: archive file [/home/abi/fetcher/tmp/pyfrobot-0.1.8.tar.gz]
+[2023-07-16 12:10:52] INFO root fetch - processPackages [pyfrobot]: Remove: archive file [/home/abi/fetcher/tmp/pyfrobot-0.1.9.tar.gz]
+[2023-07-16 12:10:52] INFO root fetch - main [MainThread]: End processing [pyfrobot]: success
+[2023-07-16 12:10:52] INFO root fetch - processPackages [kuro2sudachi]: Remove: archive file [/home/abi/fetcher/tmp/kuro2sudachi-0.4.2.tar.gz]
+[2023-07-16 12:10:52] INFO root fetch - processPackages [kuro2sudachi]: Remove: archive file [/home/abi/fetcher/tmp/kuro2sudachi-0.4.3.tar.gz]
+[2023-07-16 12:10:52] INFO root fetch - main [MainThread]: End processing [kuro2sudachi]: success
+[2023-07-16 12:10:52] INFO root fetch - processPackages [faasmctl]: Remove: archive file [/home/abi/fetcher/tmp/faasmctl-0.3.7.tar.gz]
+[2023-07-16 12:10:52] INFO root fetch - processPackages [faasmctl]: Remove: archive file [/home/abi/fetcher/tmp/faasmctl-0.3.8.tar.gz]
+[2023-07-16 12:10:52] INFO root fetch - main [MainThread]: End processing [faasmctl]: success
+[2023-07-16 12:10:53] INFO root fetch - processPackages [docstring-generator-ext]: Remove: archive file [/home/abi/fetcher/tmp/docstring_generator_ext-0.0.28.tar.gz]
+[2023-07-16 12:10:53] INFO root fetch - processPackages [docstring-generator-ext]: Remove: archive file [/home/abi/fetcher/tmp/docstring_generator_ext-0.0.31.tar.gz]
+[2023-07-16 12:10:53] INFO root fetch - main [MainThread]: End processing [docstring-generator-ext]: success
+[2023-07-16 12:10:53] INFO root fetch - processPackages [wordx]: Remove: archive file [/home/abi/fetcher/tmp/wordx-0.2.4.4.tar.gz]
+[2023-07-16 12:10:53] INFO root fetch - processPackages [wordx]: Remove: archive file [/home/abi/fetcher/tmp/wordx-0.2.5.tar.gz]
+[2023-07-16 12:10:53] INFO root fetch - main [MainThread]: End processing [wordx]: success
+[2023-07-16 12:10:53] INFO root fetch - processPackages [metaphor-connectors]: Remove: archive file [/home/abi/fetcher/tmp/metaphor-connectors-0.9.3.tar.gz]
+[2023-07-16 12:10:53] INFO root fetch - processPackages [metaphor-connectors]: Remove: archive file [/home/abi/fetcher/tmp/metaphor-connectors-0.9.4.tar.gz]
+[2023-07-16 12:10:53] INFO root fetch - main [MainThread]: End processing [metaphor-connectors]: success
+[2023-07-16 12:10:53] INFO root fetch - main [MainThread]: Store serial: [18906108]
