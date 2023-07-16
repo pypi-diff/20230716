@@ -3833,3 +3833,24 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-16 07:03:48] INFO root fetch - processPackages [bcamp-dl]: Remove: archive file [/home/abi/fetcher/tmp/bcamp-dl-1.0.2.tar.gz]
 [2023-07-16 07:03:48] INFO root fetch - main [MainThread]: End processing [bcamp-dl]: success
 [2023-07-16 07:03:48] INFO root fetch - main [MainThread]: Store serial: [18904858]
+[2023-07-16 07:08:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18904858]
+[2023-07-16 07:08:57] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-07-16 07:08:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rapid-pe
+[2023-07-16 07:08:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dask-cuda
+[2023-07-16 07:08:57] INFO root fetch - processPackages [rapid-pe]: New version: [0.1.1.dev20230716] Old Version: [0.1.1.dev20230715]
+[2023-07-16 07:08:57] INFO root fetch - processPackages [dask-cuda]: New version: [23.8.0a230716] Old Version: [23.8.0a230715]
+[2023-07-16 07:08:57] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/9b/9a/0c47c4ab79293b45678a710d0b7c24f58f10228691f4f7dd55b69812f5fc/rapid_pe-0.1.1.dev20230715.tar.gz
+[2023-07-16 07:08:57] INFO root fetch - processPackages [dask-cuda]: Downloading https://files.pythonhosted.org/packages/dc/d8/6b226b5f77a2f1c84131f1f8857b22c0f6e25a6256f905655a6f6966e91d/dask-cuda-23.8.0a230715.tar.gz
+[2023-07-16 07:08:57] INFO root fetch - processPackages [dask-cuda]: Downloading https://files.pythonhosted.org/packages/0b/ed/cf4a934e2a68a6a73f581af2b2af9841a504b7db9767dff3200caff06b90/dask-cuda-23.8.0a230716.tar.gz
+[2023-07-16 07:08:57] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/66/b5/716ffe6971da626d34695ac5c8b1ee718ea0206b2da66dff76f25c9259b2/rapid_pe-0.1.1.dev20230716.tar.gz
+[2023-07-16 07:08:58] INFO root fetch - processPackages [rapid-pe]: executing diffoscope
+[2023-07-16 07:08:58] INFO root fetch - processPackages [rapid-pe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapid_pe-0.1.1.dev20230715.tar.gz tmp/rapid_pe-0.1.1.dev20230716.tar.gz --markdown 20230716/r/rapid-pe/0.1.1.dev20230715-0.1.1.dev20230716/diff.md --exclude *.pyd
+[2023-07-16 07:08:58] INFO root fetch - processPackages [dask-cuda]: executing diffoscope
+[2023-07-16 07:08:58] INFO root fetch - processPackages [dask-cuda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dask-cuda-23.8.0a230715.tar.gz tmp/dask-cuda-23.8.0a230716.tar.gz --markdown 20230716/d/dask-cuda/23.8.0a230715-23.8.0a230716/diff.md --exclude *.pyd
+[2023-07-16 07:08:58] INFO root fetch - processPackages [rapid-pe]: Remove: archive file [/home/abi/fetcher/tmp/rapid_pe-0.1.1.dev20230715.tar.gz]
+[2023-07-16 07:08:58] INFO root fetch - processPackages [rapid-pe]: Remove: archive file [/home/abi/fetcher/tmp/rapid_pe-0.1.1.dev20230716.tar.gz]
+[2023-07-16 07:08:58] INFO root fetch - main [MainThread]: End processing [rapid-pe]: success
+[2023-07-16 07:08:59] INFO root fetch - processPackages [dask-cuda]: Remove: archive file [/home/abi/fetcher/tmp/dask-cuda-23.8.0a230715.tar.gz]
+[2023-07-16 07:08:59] INFO root fetch - processPackages [dask-cuda]: Remove: archive file [/home/abi/fetcher/tmp/dask-cuda-23.8.0a230716.tar.gz]
+[2023-07-16 07:08:59] INFO root fetch - main [MainThread]: End processing [dask-cuda]: success
+[2023-07-16 07:08:59] INFO root fetch - main [MainThread]: Store serial: [18904866]
