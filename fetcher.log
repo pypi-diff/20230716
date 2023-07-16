@@ -14936,3 +14936,81 @@ zipfile.BadZipFile: File is not a zip file
 [2023-07-16 23:41:47] INFO root fetch - processPackages [cellpy]: Remove: archive file [/home/abi/fetcher/tmp/cellpy-1.0.0b1.tar.gz]
 [2023-07-16 23:41:47] INFO root fetch - main [MainThread]: End processing [cellpy]: success
 [2023-07-16 23:41:47] INFO root fetch - main [MainThread]: Store serial: [18909610]
+[2023-07-16 23:46:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18909610]
+[2023-07-16 23:46:56] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-16 23:46:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyroostermoney
+[2023-07-16 23:46:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: picaso
+[2023-07-16 23:46:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: busGal-api
+[2023-07-16 23:46:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: atro-args
+[2023-07-16 23:46:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: float-table
+[2023-07-16 23:46:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: simple2encrypt
+[2023-07-16 23:46:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: threads-api
+[2023-07-16 23:46:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: heaobject
+[2023-07-16 23:46:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: volstreet
+[2023-07-16 23:46:56] WARNING root fetch - processPackages [atro-args]: Skipping, unable to determine old version
+[2023-07-16 23:46:56] INFO root fetch - main [MainThread]: End processing [atro-args] error
+[2023-07-16 23:46:56] INFO root fetch - processPackages [heaobject]: New version: [1.0.0a9] Old Version: [1.0.0a8]
+[2023-07-16 23:46:56] INFO root fetch - processPackages [pyroostermoney]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-16 23:46:56] INFO root fetch - processPackages [picaso]: New version: [3.1.1] Old Version: [3.1]
+[2023-07-16 23:46:56] INFO root fetch - processPackages [float-table]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-16 23:46:56] INFO root fetch - processPackages [busGal-api]: New version: [0.1] Old Version: [0.0.6.1]
+[2023-07-16 23:46:56] INFO root fetch - processPackages [volstreet]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-16 23:46:56] INFO root fetch - processPackages [simple2encrypt]: New version: [1.5] Old Version: [1.4]
+[2023-07-16 23:46:56] INFO root fetch - processPackages [threads-api]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-07-16 23:46:56] INFO root fetch - processPackages [volstreet]: Downloading https://files.pythonhosted.org/packages/ab/48/5237a5e46997126e0cd8c54c0b3031aa08e31d3fcec89b2414b18315ef45/volstreet-1.0.0.tar.gz
+[2023-07-16 23:46:56] INFO root fetch - processPackages [pyroostermoney]: Downloading https://files.pythonhosted.org/packages/be/cf/5933dc69e911f77bb91d213502b90a0e1c1dbe5bdf2439a32a22e56baba2/pyroostermoney-0.1.5.tar.gz
+[2023-07-16 23:46:56] INFO root fetch - processPackages [threads-api]: Downloading https://files.pythonhosted.org/packages/8e/7b/d9f92cfe385bef370f7b0c6946c2c5bae610c8564a65a6b1e0a2cd206538/threads-api-1.1.8.tar.gz
+[2023-07-16 23:46:56] INFO root fetch - processPackages [simple2encrypt]: Downloading https://files.pythonhosted.org/packages/7d/93/79ff06becc4057f32f9350ddf8f0a77f723eea4305880d6a587dacee8c12/simple2encrypt-1.4.tar.gz
+[2023-07-16 23:46:56] INFO root fetch - processPackages [float-table]: Downloading https://files.pythonhosted.org/packages/18/48/ed6a0d855348026b3fc661fcf7fa94d838aaf969a24cefc64fec7e2fb1d4/float_table-0.1.4.tar.gz
+[2023-07-16 23:46:56] INFO root fetch - processPackages [heaobject]: Downloading https://files.pythonhosted.org/packages/17/38/f2cd981268a2f1ba60928e8adca3b88331abfa27ca5bc770488ced4f0a18/heaobject-1.0.0a8.tar.gz
+[2023-07-16 23:46:56] INFO root fetch - processPackages [busGal-api]: Downloading https://files.pythonhosted.org/packages/e7/34/ff133a8611708d32236f95046afccdaf6a18a07ac2444ef62bfed6e8937e/busGal_api-0.0.6.1.tar.gz
+[2023-07-16 23:46:56] INFO root fetch - processPackages [picaso]: Downloading https://files.pythonhosted.org/packages/12/72/c9cbc35755c086dac6347112bda8881cf0493ada9056046c1012713fd8ba/picaso-3.1.tar.gz
+[2023-07-16 23:46:56] INFO root fetch - processPackages [threads-api]: Downloading https://files.pythonhosted.org/packages/85/23/ee0d1c9967b678f8a86817ad842a1577939edc7b5469bb1e5d6d237402b7/threads-api-1.1.9.tar.gz
+[2023-07-16 23:46:57] INFO root fetch - processPackages [volstreet]: Downloading https://files.pythonhosted.org/packages/79/85/f54e4062776c3938fc683552388804c4a6173c737339a83cd5e447f647e1/volstreet-1.0.1.tar.gz
+[2023-07-16 23:46:57] INFO root fetch - processPackages [pyroostermoney]: Downloading https://files.pythonhosted.org/packages/59/86/d7b3afdddd39f324450ef168281d47f749cbb78d2449ebd1c9e370c51910/pyroostermoney-0.1.6.tar.gz
+[2023-07-16 23:46:57] INFO root fetch - processPackages [threads-api]: executing diffoscope
+[2023-07-16 23:46:57] INFO root fetch - processPackages [threads-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threads-api-1.1.8.tar.gz tmp/threads-api-1.1.9.tar.gz --markdown 20230716/t/threads-api/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-07-16 23:46:57] INFO root fetch - processPackages [busGal-api]: Downloading https://files.pythonhosted.org/packages/94/b4/2b94d890d5695312d3781288808cdfd05ab7157982ab26697bd740a8bfce/busGal_api-0.1.tar.gz
+[2023-07-16 23:46:57] INFO root fetch - processPackages [float-table]: Downloading https://files.pythonhosted.org/packages/2c/99/9ed85100ac4938619e9d0ee7afdbdc5ba1488bd16e5b12ff5b01eacaecd2/float_table-0.1.5.tar.gz
+[2023-07-16 23:46:57] INFO root fetch - processPackages [simple2encrypt]: Downloading https://files.pythonhosted.org/packages/d1/85/7b647b34f1be1f4465cc3f0e1e11fa3711951718d807c78ad12dc5edbe3b/simple2encrypt-1.5.tar.gz
+[2023-07-16 23:46:57] INFO root fetch - processPackages [heaobject]: Downloading https://files.pythonhosted.org/packages/b8/16/d3d81d41e49df90146c58d742bd80cbadc210dc2060460f1d3dadc571a9c/heaobject-1.0.0a9.tar.gz
+[2023-07-16 23:46:57] INFO root fetch - processPackages [picaso]: Downloading https://files.pythonhosted.org/packages/b0/34/abb4c27585887e79d1b8077d781192ecaa5da918242024b3b960a0070b7a/picaso-3.1.1.tar.gz
+[2023-07-16 23:46:57] INFO root fetch - processPackages [volstreet]: executing diffoscope
+[2023-07-16 23:46:57] INFO root fetch - processPackages [volstreet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volstreet-1.0.0.tar.gz tmp/volstreet-1.0.1.tar.gz --markdown 20230716/v/volstreet/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-16 23:46:57] INFO root fetch - processPackages [pyroostermoney]: executing diffoscope
+[2023-07-16 23:46:57] INFO root fetch - processPackages [pyroostermoney]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyroostermoney-0.1.5.tar.gz tmp/pyroostermoney-0.1.6.tar.gz --markdown 20230716/p/pyroostermoney/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-16 23:46:57] INFO root fetch - processPackages [busGal-api]: executing diffoscope
+[2023-07-16 23:46:57] INFO root fetch - processPackages [busGal-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/busGal_api-0.0.6.1.tar.gz tmp/busGal_api-0.1.tar.gz --markdown 20230716/b/busGal-api/0.0.6.1-0.1/diff.md --exclude *.pyd
+[2023-07-16 23:46:57] INFO root fetch - processPackages [float-table]: executing diffoscope
+[2023-07-16 23:46:57] INFO root fetch - processPackages [float-table]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/float_table-0.1.4.tar.gz tmp/float_table-0.1.5.tar.gz --markdown 20230716/f/float-table/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-16 23:46:57] INFO root fetch - processPackages [simple2encrypt]: executing diffoscope
+[2023-07-16 23:46:57] INFO root fetch - processPackages [simple2encrypt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simple2encrypt-1.4.tar.gz tmp/simple2encrypt-1.5.tar.gz --markdown 20230716/s/simple2encrypt/1.4-1.5/diff.md --exclude *.pyd
+[2023-07-16 23:46:57] INFO root fetch - processPackages [heaobject]: executing diffoscope
+[2023-07-16 23:46:57] INFO root fetch - processPackages [heaobject]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heaobject-1.0.0a8.tar.gz tmp/heaobject-1.0.0a9.tar.gz --markdown 20230716/h/heaobject/1.0.0a8-1.0.0a9/diff.md --exclude *.pyd
+[2023-07-16 23:46:57] INFO root fetch - processPackages [picaso]: executing diffoscope
+[2023-07-16 23:46:57] INFO root fetch - processPackages [picaso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/picaso-3.1.tar.gz tmp/picaso-3.1.1.tar.gz --markdown 20230716/p/picaso/3.1-3.1.1/diff.md --exclude *.pyd
+[2023-07-16 23:46:58] INFO root fetch - processPackages [threads-api]: Remove: archive file [/home/abi/fetcher/tmp/threads-api-1.1.8.tar.gz]
+[2023-07-16 23:46:58] INFO root fetch - processPackages [threads-api]: Remove: archive file [/home/abi/fetcher/tmp/threads-api-1.1.9.tar.gz]
+[2023-07-16 23:46:58] INFO root fetch - main [MainThread]: End processing [threads-api]: success
+[2023-07-16 23:46:58] INFO root fetch - processPackages [float-table]: Remove: archive file [/home/abi/fetcher/tmp/float_table-0.1.4.tar.gz]
+[2023-07-16 23:46:58] INFO root fetch - processPackages [float-table]: Remove: archive file [/home/abi/fetcher/tmp/float_table-0.1.5.tar.gz]
+[2023-07-16 23:46:58] INFO root fetch - main [MainThread]: End processing [float-table]: success
+[2023-07-16 23:46:58] INFO root fetch - processPackages [pyroostermoney]: Remove: archive file [/home/abi/fetcher/tmp/pyroostermoney-0.1.5.tar.gz]
+[2023-07-16 23:46:58] INFO root fetch - processPackages [pyroostermoney]: Remove: archive file [/home/abi/fetcher/tmp/pyroostermoney-0.1.6.tar.gz]
+[2023-07-16 23:46:58] INFO root fetch - main [MainThread]: End processing [pyroostermoney]: success
+[2023-07-16 23:46:58] INFO root fetch - processPackages [volstreet]: Remove: archive file [/home/abi/fetcher/tmp/volstreet-1.0.0.tar.gz]
+[2023-07-16 23:46:58] INFO root fetch - processPackages [volstreet]: Remove: archive file [/home/abi/fetcher/tmp/volstreet-1.0.1.tar.gz]
+[2023-07-16 23:46:58] INFO root fetch - main [MainThread]: End processing [volstreet]: success
+[2023-07-16 23:46:58] INFO root fetch - processPackages [busGal-api]: Remove: archive file [/home/abi/fetcher/tmp/busGal_api-0.0.6.1.tar.gz]
+[2023-07-16 23:46:58] INFO root fetch - processPackages [busGal-api]: Remove: archive file [/home/abi/fetcher/tmp/busGal_api-0.1.tar.gz]
+[2023-07-16 23:46:58] INFO root fetch - main [MainThread]: End processing [busGal-api]: success
+[2023-07-16 23:46:58] INFO root fetch - processPackages [simple2encrypt]: Remove: archive file [/home/abi/fetcher/tmp/simple2encrypt-1.4.tar.gz]
+[2023-07-16 23:46:58] INFO root fetch - processPackages [simple2encrypt]: Remove: archive file [/home/abi/fetcher/tmp/simple2encrypt-1.5.tar.gz]
+[2023-07-16 23:46:58] INFO root fetch - main [MainThread]: End processing [simple2encrypt]: success
+[2023-07-16 23:46:58] INFO root fetch - processPackages [heaobject]: Remove: archive file [/home/abi/fetcher/tmp/heaobject-1.0.0a8.tar.gz]
+[2023-07-16 23:46:58] INFO root fetch - processPackages [heaobject]: Remove: archive file [/home/abi/fetcher/tmp/heaobject-1.0.0a9.tar.gz]
+[2023-07-16 23:46:58] INFO root fetch - main [MainThread]: End processing [heaobject]: success
+[2023-07-16 23:46:59] INFO root fetch - processPackages [picaso]: Remove: archive file [/home/abi/fetcher/tmp/picaso-3.1.tar.gz]
+[2023-07-16 23:46:59] INFO root fetch - processPackages [picaso]: Remove: archive file [/home/abi/fetcher/tmp/picaso-3.1.1.tar.gz]
+[2023-07-16 23:46:59] INFO root fetch - main [MainThread]: End processing [picaso]: success
+[2023-07-16 23:46:59] INFO root fetch - main [MainThread]: Store serial: [18909641]
