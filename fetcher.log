@@ -14801,3 +14801,66 @@ zipfile.BadZipFile: File is not a zip file
 [2023-07-16 23:31:20] INFO root fetch - processPackages [meson]: Remove: archive file [/home/abi/fetcher/tmp/meson-1.2.0rc3.tar.gz]
 [2023-07-16 23:31:20] INFO root fetch - main [MainThread]: End processing [meson]: success
 [2023-07-16 23:31:20] INFO root fetch - main [MainThread]: Store serial: [18909554]
+[2023-07-16 23:36:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18909554]
+[2023-07-16 23:36:29] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-16 23:36:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: epyk
+[2023-07-16 23:36:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: classyxml
+[2023-07-16 23:36:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cash-balance
+[2023-07-16 23:36:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: litenai
+[2023-07-16 23:36:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: HCSR04-python-lib
+[2023-07-16 23:36:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: atro-rsync
+[2023-07-16 23:36:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cudagrad
+[2023-07-16 23:36:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: simple2encrypt
+[2023-07-16 23:36:29] WARNING root fetch - processPackages [cash-balance]: Skipping, unable to determine old version
+[2023-07-16 23:36:29] INFO root fetch - main [MainThread]: End processing [cash-balance] error
+[2023-07-16 23:36:30] INFO root fetch - processPackages [atro-rsync]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-16 23:36:30] INFO root fetch - processPackages [simple2encrypt]: New version: [1.4] Old Version: [1.3]
+[2023-07-16 23:36:30] WARNING root fetch - processPackages [HCSR04-python-lib]: Skipping, unable to determine old version
+[2023-07-16 23:36:30] INFO root fetch - main [MainThread]: End processing [HCSR04-python-lib] error
+[2023-07-16 23:36:30] INFO root fetch - processPackages [classyxml]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-16 23:36:30] INFO root fetch - processPackages [cudagrad]: New version: [0.0.2] Old Version: [0.0.12]
+[2023-07-16 23:36:30] INFO root fetch - processPackages [litenai]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-16 23:36:30] INFO root fetch - processPackages [epyk]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-07-16 23:36:30] INFO root fetch - processPackages [simple2encrypt]: Downloading https://files.pythonhosted.org/packages/33/30/da2bfcbe97da36e16818d87ae1149eb734d2bfd7c50076e5b98a2c972e24/simple2encrypt-1.3.tar.gz
+[2023-07-16 23:36:30] INFO root fetch - processPackages [atro-rsync]: Downloading https://files.pythonhosted.org/packages/7c/81/5e25c9e86c0f7e35a3cd76c86ecd95cad15058d2b5cd52b86444af1152d5/atro_rsync-0.0.8.tar.gz
+[2023-07-16 23:36:30] INFO root fetch - processPackages [cudagrad]: Downloading https://files.pythonhosted.org/packages/f3/13/43ba0c65b3be742dc9dc0735f223137b49be8e3d8cdcdb305182a3acf163/cudagrad-0.0.12.tar.gz
+[2023-07-16 23:36:30] INFO root fetch - processPackages [litenai]: Downloading https://files.pythonhosted.org/packages/94/2a/faa876ae16d03bc0c8948d4f3be1aab1fdbcfb4318cef9fcb984d2b303b9/litenai-0.0.8-py3-none-any.whl
+[2023-07-16 23:36:30] INFO root fetch - processPackages [classyxml]: Downloading https://files.pythonhosted.org/packages/64/25/448f11a11718d4963fa0156dee0753662e45505383f006c4320b5ab79d24/classyxml-0.0.5.tar.gz
+[2023-07-16 23:36:30] INFO root fetch - processPackages [epyk]: Downloading https://files.pythonhosted.org/packages/2b/b7/d8534d999b9d58a4412b4db34fefcdfbe6c581e844864d76492fdcb43548/epyk-1.9.8-py3-none-any.whl
+[2023-07-16 23:36:30] INFO root fetch - processPackages [simple2encrypt]: Downloading https://files.pythonhosted.org/packages/7d/93/79ff06becc4057f32f9350ddf8f0a77f723eea4305880d6a587dacee8c12/simple2encrypt-1.4.tar.gz
+[2023-07-16 23:36:30] INFO root fetch - processPackages [atro-rsync]: Downloading https://files.pythonhosted.org/packages/1b/45/9214e3b628256719eaa98fb95d8ab306418cdf39f637d7afb42bbc6dcd2e/atro_rsync-0.0.9.tar.gz
+[2023-07-16 23:36:30] INFO root fetch - processPackages [cudagrad]: Downloading https://files.pythonhosted.org/packages/57/f3/d7e753c2890989b22f26afd14d0fb2833511f9831d32f97b4c5af670bf37/cudagrad-0.0.2.tar.gz
+[2023-07-16 23:36:30] INFO root fetch - processPackages [simple2encrypt]: executing diffoscope
+[2023-07-16 23:36:30] INFO root fetch - processPackages [simple2encrypt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simple2encrypt-1.3.tar.gz tmp/simple2encrypt-1.4.tar.gz --markdown 20230716/s/simple2encrypt/1.3-1.4/diff.md --exclude *.pyd
+[2023-07-16 23:36:30] INFO root fetch - processPackages [classyxml]: Downloading https://files.pythonhosted.org/packages/75/ec/36d5e390b6be21c8f42570a36dda28997dda58110c21646754c3505b88e2/classyxml-0.0.6.tar.gz
+[2023-07-16 23:36:30] INFO root fetch - processPackages [litenai]: Downloading https://files.pythonhosted.org/packages/75/73/193b789002dd329d092fe95760ff9bc83157ab0798508e0489ccadc622b4/litenai-0.0.9-py3-none-any.whl
+[2023-07-16 23:36:30] INFO root fetch - processPackages [cudagrad]: executing diffoscope
+[2023-07-16 23:36:30] INFO root fetch - processPackages [cudagrad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cudagrad-0.0.12.tar.gz tmp/cudagrad-0.0.2.tar.gz --markdown 20230716/c/cudagrad/0.0.12-0.0.2/diff.md --exclude *.pyd
+[2023-07-16 23:36:30] INFO root fetch - processPackages [atro-rsync]: executing diffoscope
+[2023-07-16 23:36:30] INFO root fetch - processPackages [atro-rsync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atro_rsync-0.0.8.tar.gz tmp/atro_rsync-0.0.9.tar.gz --markdown 20230716/a/atro-rsync/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-16 23:36:30] INFO root fetch - processPackages [classyxml]: executing diffoscope
+[2023-07-16 23:36:30] INFO root fetch - processPackages [classyxml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/classyxml-0.0.5.tar.gz tmp/classyxml-0.0.6.tar.gz --markdown 20230716/c/classyxml/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-16 23:36:31] INFO root fetch - processPackages [litenai]: executing diffoscope
+[2023-07-16 23:36:31] INFO root fetch - processPackages [litenai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/litenai-0.0.8-py3-none-any.whl.zip tmp/litenai-0.0.9-py3-none-any.whl.zip --markdown 20230716/l/litenai/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-16 23:36:31] INFO root fetch - processPackages [epyk]: Downloading https://files.pythonhosted.org/packages/16/be/cd2f93881ffe92a847a9cfff5f05b11b2f5cd93f2b1c552a7982a06aab4e/epyk-1.9.9-py3-none-any.whl
+[2023-07-16 23:36:31] INFO root fetch - processPackages [epyk]: executing diffoscope
+[2023-07-16 23:36:31] INFO root fetch - processPackages [epyk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/epyk-1.9.8-py3-none-any.whl.zip tmp/epyk-1.9.9-py3-none-any.whl.zip --markdown 20230716/e/epyk/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-07-16 23:36:31] INFO root fetch - processPackages [simple2encrypt]: Remove: archive file [/home/abi/fetcher/tmp/simple2encrypt-1.3.tar.gz]
+[2023-07-16 23:36:31] INFO root fetch - processPackages [simple2encrypt]: Remove: archive file [/home/abi/fetcher/tmp/simple2encrypt-1.4.tar.gz]
+[2023-07-16 23:36:31] INFO root fetch - main [MainThread]: End processing [simple2encrypt]: success
+[2023-07-16 23:36:31] INFO root fetch - processPackages [atro-rsync]: Remove: archive file [/home/abi/fetcher/tmp/atro_rsync-0.0.8.tar.gz]
+[2023-07-16 23:36:31] INFO root fetch - processPackages [atro-rsync]: Remove: archive file [/home/abi/fetcher/tmp/atro_rsync-0.0.9.tar.gz]
+[2023-07-16 23:36:31] INFO root fetch - main [MainThread]: End processing [atro-rsync]: success
+[2023-07-16 23:36:31] INFO root fetch - processPackages [cudagrad]: Remove: archive file [/home/abi/fetcher/tmp/cudagrad-0.0.12.tar.gz]
+[2023-07-16 23:36:31] INFO root fetch - processPackages [cudagrad]: Remove: archive file [/home/abi/fetcher/tmp/cudagrad-0.0.2.tar.gz]
+[2023-07-16 23:36:31] INFO root fetch - main [MainThread]: End processing [cudagrad]: success
+[2023-07-16 23:36:31] INFO root fetch - processPackages [classyxml]: Remove: archive file [/home/abi/fetcher/tmp/classyxml-0.0.5.tar.gz]
+[2023-07-16 23:36:31] INFO root fetch - processPackages [classyxml]: Remove: archive file [/home/abi/fetcher/tmp/classyxml-0.0.6.tar.gz]
+[2023-07-16 23:36:31] INFO root fetch - main [MainThread]: End processing [classyxml]: success
+[2023-07-16 23:36:32] INFO root fetch - processPackages [litenai]: Remove: archive file [/home/abi/fetcher/tmp/litenai-0.0.8-py3-none-any.whl.zip]
+[2023-07-16 23:36:32] INFO root fetch - processPackages [litenai]: Remove: archive file [/home/abi/fetcher/tmp/litenai-0.0.9-py3-none-any.whl.zip]
+[2023-07-16 23:36:32] INFO root fetch - main [MainThread]: End processing [litenai]: success
+[2023-07-16 23:36:35] INFO root fetch - processPackages [epyk]: Remove: archive file [/home/abi/fetcher/tmp/epyk-1.9.8-py3-none-any.whl.zip]
+[2023-07-16 23:36:35] INFO root fetch - processPackages [epyk]: Remove: archive file [/home/abi/fetcher/tmp/epyk-1.9.9-py3-none-any.whl.zip]
+[2023-07-16 23:36:35] INFO root fetch - main [MainThread]: End processing [epyk]: success
+[2023-07-16 23:36:35] INFO root fetch - main [MainThread]: Store serial: [18909579]
