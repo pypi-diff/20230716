@@ -5039,3 +5039,36 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-16 09:19:12] INFO root fetch - processPackages [noun-decomposition]: Remove: archive file [/home/abi/fetcher/tmp/noun-decomposition-0.0.3.tar.gz]
 [2023-07-16 09:19:12] INFO root fetch - main [MainThread]: End processing [noun-decomposition]: success
 [2023-07-16 09:19:12] INFO root fetch - main [MainThread]: Store serial: [18905413]
+[2023-07-16 09:24:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18905413]
+[2023-07-16 09:24:20] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-16 09:24:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: talkytimes-package
+[2023-07-16 09:24:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bb-apputils
+[2023-07-16 09:24:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pdfly
+[2023-07-16 09:24:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: settus
+[2023-07-16 09:24:20] INFO root fetch - processPackages [talkytimes-package]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-16 09:24:20] INFO root fetch - processPackages [pdfly]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-07-16 09:24:20] INFO root fetch - processPackages [bb-apputils]: New version: [0.4.0] Old Version: [0.3.95]
+[2023-07-16 09:24:20] WARNING root fetch - processPackages [settus]: Skipping, unable to determine old version
+[2023-07-16 09:24:20] INFO root fetch - main [MainThread]: End processing [settus] error
+[2023-07-16 09:24:20] INFO root fetch - processPackages [talkytimes-package]: Downloading https://files.pythonhosted.org/packages/8d/df/08ae4bf3ef39e115ecaccf02dbc8731df57b506673fd1999227a0c9fd064/talkytimes_package-0.1.4.tar.gz
+[2023-07-16 09:24:20] INFO root fetch - processPackages [bb-apputils]: Downloading https://files.pythonhosted.org/packages/65/12/7e4d94e86dc6ea11cb76a559c3b90b11a80038e666a7182593cb34881f09/bb_apputils-0.3.95.tar.gz
+[2023-07-16 09:24:20] INFO root fetch - processPackages [pdfly]: Downloading https://files.pythonhosted.org/packages/fc/33/05e23c092e4e1ab88fb5a1f0a62f022228be79456fd973a016941b4eace1/pdfly-0.2.5.tar.gz
+[2023-07-16 09:24:21] INFO root fetch - processPackages [pdfly]: Downloading https://files.pythonhosted.org/packages/9c/60/f1387648dcd32c65ba42a429aaf86eba933d6a64f0b2bc86cbf6bf87dd26/pdfly-0.2.6.tar.gz
+[2023-07-16 09:24:21] INFO root fetch - processPackages [talkytimes-package]: Downloading https://files.pythonhosted.org/packages/c6/62/22801f146cbf20aa75d1874b29b888b7da6e057872d39d2e27cc4554126f/talkytimes_package-0.1.5.tar.gz
+[2023-07-16 09:24:21] INFO root fetch - processPackages [bb-apputils]: Downloading https://files.pythonhosted.org/packages/1f/69/072499274eaa09505e7aa5416d399441f9bc5f355d3a7c35a66f2b10fea3/bb_apputils-0.4.0.tar.gz
+[2023-07-16 09:24:21] INFO root fetch - processPackages [pdfly]: executing diffoscope
+[2023-07-16 09:24:21] INFO root fetch - processPackages [pdfly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdfly-0.2.5.tar.gz tmp/pdfly-0.2.6.tar.gz --markdown 20230716/p/pdfly/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-07-16 09:24:21] INFO root fetch - processPackages [talkytimes-package]: executing diffoscope
+[2023-07-16 09:24:21] INFO root fetch - processPackages [talkytimes-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/talkytimes_package-0.1.4.tar.gz tmp/talkytimes_package-0.1.5.tar.gz --markdown 20230716/t/talkytimes-package/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-16 09:24:21] INFO root fetch - processPackages [bb-apputils]: executing diffoscope
+[2023-07-16 09:24:21] INFO root fetch - processPackages [bb-apputils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bb_apputils-0.3.95.tar.gz tmp/bb_apputils-0.4.0.tar.gz --markdown 20230716/b/bb-apputils/0.3.95-0.4.0/diff.md --exclude *.pyd
+[2023-07-16 09:24:22] INFO root fetch - processPackages [talkytimes-package]: Remove: archive file [/home/abi/fetcher/tmp/talkytimes_package-0.1.4.tar.gz]
+[2023-07-16 09:24:22] INFO root fetch - processPackages [talkytimes-package]: Remove: archive file [/home/abi/fetcher/tmp/talkytimes_package-0.1.5.tar.gz]
+[2023-07-16 09:24:22] INFO root fetch - main [MainThread]: End processing [talkytimes-package]: success
+[2023-07-16 09:24:22] INFO root fetch - processPackages [pdfly]: Remove: archive file [/home/abi/fetcher/tmp/pdfly-0.2.5.tar.gz]
+[2023-07-16 09:24:22] INFO root fetch - processPackages [pdfly]: Remove: archive file [/home/abi/fetcher/tmp/pdfly-0.2.6.tar.gz]
+[2023-07-16 09:24:22] INFO root fetch - main [MainThread]: End processing [pdfly]: success
+[2023-07-16 09:24:22] INFO root fetch - processPackages [bb-apputils]: Remove: archive file [/home/abi/fetcher/tmp/bb_apputils-0.3.95.tar.gz]
+[2023-07-16 09:24:22] INFO root fetch - processPackages [bb-apputils]: Remove: archive file [/home/abi/fetcher/tmp/bb_apputils-0.4.0.tar.gz]
+[2023-07-16 09:24:22] INFO root fetch - main [MainThread]: End processing [bb-apputils]: success
+[2023-07-16 09:24:22] INFO root fetch - main [MainThread]: Store serial: [18905426]
