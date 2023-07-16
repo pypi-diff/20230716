@@ -3438,3 +3438,33 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-16 05:56:33] INFO root fetch - processPackages [ecommerce-scraper-py]: Remove: archive file [/home/abi/fetcher/tmp/ecommerce-scraper-py-0.1.1.tar.gz]
 [2023-07-16 05:56:33] INFO root fetch - main [MainThread]: End processing [ecommerce-scraper-py]: success
 [2023-07-16 05:56:33] INFO root fetch - main [MainThread]: Store serial: [18904695]
+[2023-07-16 06:01:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18904695]
+[2023-07-16 06:01:41] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-16 06:01:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dsds
+[2023-07-16 06:01:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: threemystic-cloud-data-client
+[2023-07-16 06:01:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: evals-nightly
+[2023-07-16 06:01:41] INFO root fetch - processPackages [dsds]: New version: [0.0.18] Old Version: [0.0.17]
+[2023-07-16 06:01:41] INFO root fetch - processPackages [threemystic-cloud-data-client]: New version: [0.1.14] Old Version: [0.1.12]
+[2023-07-16 06:01:41] INFO root fetch - processPackages [evals-nightly]: New version: [1.0.3.dev20230714] Old Version: [1.0.3.dev20230713]
+[2023-07-16 06:01:41] INFO root fetch - processPackages [evals-nightly]: Downloading https://files.pythonhosted.org/packages/b8/6c/57eab36d8890f2007b9c50caf45f3a24855206cdbc320dd700063e6ca71c/evals-nightly-1.0.3.dev20230713.tar.gz
+[2023-07-16 06:01:41] INFO root fetch - processPackages [threemystic-cloud-data-client]: Downloading https://files.pythonhosted.org/packages/82/3d/b22106a887895aacb02d33ef13ca67f42c7f7f8a550dff975412536cd740/threemystic_cloud_data_client-0.1.12.tar.gz
+[2023-07-16 06:01:42] INFO root fetch - processPackages [dsds]: Downloading https://files.pythonhosted.org/packages/1e/22/96008488879a01f078506f91dd28af32eb2f2a7e54ecfe248b00c38d097a/dsds-0.0.17.tar.gz
+[2023-07-16 06:01:42] INFO root fetch - processPackages [evals-nightly]: Downloading https://files.pythonhosted.org/packages/3c/41/2d8f3397b066de7a7b3c25f3b20c162e89286dad104a5599912df1d825bb/evals-nightly-1.0.3.dev20230714.tar.gz
+[2023-07-16 06:01:42] INFO root fetch - processPackages [threemystic-cloud-data-client]: Downloading https://files.pythonhosted.org/packages/29/23/6171c654ced2ebd5e0f448df1b1a851e23aba584751b95d9e97c83558343/threemystic_cloud_data_client-0.1.14.tar.gz
+[2023-07-16 06:01:42] INFO root fetch - processPackages [evals-nightly]: executing diffoscope
+[2023-07-16 06:01:42] INFO root fetch - processPackages [evals-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evals-nightly-1.0.3.dev20230713.tar.gz tmp/evals-nightly-1.0.3.dev20230714.tar.gz --markdown 20230716/e/evals-nightly/1.0.3.dev20230713-1.0.3.dev20230714/diff.md --exclude *.pyd
+[2023-07-16 06:01:42] INFO root fetch - processPackages [threemystic-cloud-data-client]: executing diffoscope
+[2023-07-16 06:01:42] INFO root fetch - processPackages [threemystic-cloud-data-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threemystic_cloud_data_client-0.1.12.tar.gz tmp/threemystic_cloud_data_client-0.1.14.tar.gz --markdown 20230716/t/threemystic-cloud-data-client/0.1.12-0.1.14/diff.md --exclude *.pyd
+[2023-07-16 06:01:42] INFO root fetch - processPackages [dsds]: Downloading https://files.pythonhosted.org/packages/b9/fb/044c997852ec631dc1acb885d9adc986e826999edcac5166a5bc68568462/dsds-0.0.18.tar.gz
+[2023-07-16 06:01:42] INFO root fetch - processPackages [dsds]: executing diffoscope
+[2023-07-16 06:01:42] INFO root fetch - processPackages [dsds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsds-0.0.17.tar.gz tmp/dsds-0.0.18.tar.gz --markdown 20230716/d/dsds/0.0.17-0.0.18/diff.md --exclude *.pyd
+[2023-07-16 06:01:43] INFO root fetch - processPackages [threemystic-cloud-data-client]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_cloud_data_client-0.1.12.tar.gz]
+[2023-07-16 06:01:43] INFO root fetch - processPackages [threemystic-cloud-data-client]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_cloud_data_client-0.1.14.tar.gz]
+[2023-07-16 06:01:43] INFO root fetch - main [MainThread]: End processing [threemystic-cloud-data-client]: success
+[2023-07-16 06:01:43] INFO root fetch - processPackages [dsds]: Remove: archive file [/home/abi/fetcher/tmp/dsds-0.0.17.tar.gz]
+[2023-07-16 06:01:43] INFO root fetch - processPackages [dsds]: Remove: archive file [/home/abi/fetcher/tmp/dsds-0.0.18.tar.gz]
+[2023-07-16 06:01:43] INFO root fetch - main [MainThread]: End processing [dsds]: success
+[2023-07-16 06:01:43] INFO root fetch - processPackages [evals-nightly]: Remove: archive file [/home/abi/fetcher/tmp/evals-nightly-1.0.3.dev20230713.tar.gz]
+[2023-07-16 06:01:43] INFO root fetch - processPackages [evals-nightly]: Remove: archive file [/home/abi/fetcher/tmp/evals-nightly-1.0.3.dev20230714.tar.gz]
+[2023-07-16 06:01:43] INFO root fetch - main [MainThread]: End processing [evals-nightly]: success
+[2023-07-16 06:01:43] INFO root fetch - main [MainThread]: Store serial: [18904704]
