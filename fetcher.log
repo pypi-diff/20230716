@@ -3497,3 +3497,36 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-16 06:06:54] INFO root fetch - processPackages [hak]: Remove: archive file [/home/abi/fetcher/tmp/hak-0.0.9.tar.gz]
 [2023-07-16 06:06:54] INFO root fetch - main [MainThread]: End processing [hak]: success
 [2023-07-16 06:06:54] INFO root fetch - main [MainThread]: Store serial: [18904716]
+[2023-07-16 06:11:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18904716]
+[2023-07-16 06:12:03] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-16 06:12:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: 1secMail
+[2023-07-16 06:12:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: limberer
+[2023-07-16 06:12:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mynacode
+[2023-07-16 06:12:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jtim-enc
+[2023-07-16 06:12:03] INFO root fetch - processPackages [mynacode]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-07-16 06:12:03] INFO root fetch - processPackages [limberer]: New version: [0.5.1] Old Version: [0.5]
+[2023-07-16 06:12:03] WARNING root fetch - processPackages [jtim-enc]: Skipping, unable to determine old version
+[2023-07-16 06:12:03] INFO root fetch - main [MainThread]: End processing [jtim-enc] error
+[2023-07-16 06:12:03] INFO root fetch - processPackages [1secMail]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-07-16 06:12:03] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/1d/24/3d4ef0a0a267fb47bcbac68ff9b760a9b892095f2ee727874f0286d600c3/mynacode-1.0.98-py3-none-any.whl
+[2023-07-16 06:12:03] INFO root fetch - processPackages [limberer]: Downloading https://files.pythonhosted.org/packages/5c/39/4feb757837415f8ccc4f46f92e0d1ff40d2c101b6ed23c30ddd9ba23ae21/limberer-0.5.tar.gz
+[2023-07-16 06:12:03] INFO root fetch - processPackages [1secMail]: Downloading https://files.pythonhosted.org/packages/d9/43/4c8542ec266b5a3579fa21f12eac7600d6ee787aae46a48eecc78c8d4495/1secMail-1.0.0.tar.gz
+[2023-07-16 06:12:03] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/38/32/362f7abef6d28b78afa03843fa2eadc7bb1454ef66bde894a08e281d5bfb/mynacode-1.0.99-py3-none-any.whl
+[2023-07-16 06:12:04] INFO root fetch - processPackages [mynacode]: executing diffoscope
+[2023-07-16 06:12:04] INFO root fetch - processPackages [mynacode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mynacode-1.0.98-py3-none-any.whl.zip tmp/mynacode-1.0.99-py3-none-any.whl.zip --markdown 20230716/m/mynacode/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-07-16 06:12:04] INFO root fetch - processPackages [limberer]: Downloading https://files.pythonhosted.org/packages/fb/7c/2b12088604d3fbc457d9a4cc29838f6e17550809411a7148b771cab1234c/limberer-0.5.1.tar.gz
+[2023-07-16 06:12:04] INFO root fetch - processPackages [1secMail]: Downloading https://files.pythonhosted.org/packages/3b/b6/1e0350b3ae8334894787c7d771736a40ed8271fc1e6baf040743ecdfabc2/1secMail-1.1.0.tar.gz
+[2023-07-16 06:12:04] INFO root fetch - processPackages [1secMail]: executing diffoscope
+[2023-07-16 06:12:04] INFO root fetch - processPackages [1secMail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/1secMail-1.0.0.tar.gz tmp/1secMail-1.1.0.tar.gz --markdown 20230716/1/1secMail/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-07-16 06:12:04] INFO root fetch - processPackages [limberer]: executing diffoscope
+[2023-07-16 06:12:04] INFO root fetch - processPackages [limberer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/limberer-0.5.tar.gz tmp/limberer-0.5.1.tar.gz --markdown 20230716/l/limberer/0.5-0.5.1/diff.md --exclude *.pyd
+[2023-07-16 06:12:04] INFO root fetch - processPackages [mynacode]: Remove: archive file [/home/abi/fetcher/tmp/mynacode-1.0.98-py3-none-any.whl.zip]
+[2023-07-16 06:12:04] INFO root fetch - processPackages [mynacode]: Remove: archive file [/home/abi/fetcher/tmp/mynacode-1.0.99-py3-none-any.whl.zip]
+[2023-07-16 06:12:04] INFO root fetch - main [MainThread]: End processing [mynacode]: success
+[2023-07-16 06:12:05] INFO root fetch - processPackages [1secMail]: Remove: archive file [/home/abi/fetcher/tmp/1secMail-1.0.0.tar.gz]
+[2023-07-16 06:12:05] INFO root fetch - processPackages [1secMail]: Remove: archive file [/home/abi/fetcher/tmp/1secMail-1.1.0.tar.gz]
+[2023-07-16 06:12:05] INFO root fetch - main [MainThread]: End processing [1secMail]: success
+[2023-07-16 06:12:05] INFO root fetch - processPackages [limberer]: Remove: archive file [/home/abi/fetcher/tmp/limberer-0.5.tar.gz]
+[2023-07-16 06:12:05] INFO root fetch - processPackages [limberer]: Remove: archive file [/home/abi/fetcher/tmp/limberer-0.5.1.tar.gz]
+[2023-07-16 06:12:05] INFO root fetch - main [MainThread]: End processing [limberer]: success
+[2023-07-16 06:12:05] INFO root fetch - main [MainThread]: Store serial: [18904729]
