@@ -2997,3 +2997,33 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-16 04:58:56] INFO root fetch - processPackages [hak]: Remove: archive file [/home/abi/fetcher/tmp/hak-0.0.9.tar.gz]
 [2023-07-16 04:58:56] INFO root fetch - main [MainThread]: End processing [hak]: success
 [2023-07-16 04:58:56] INFO root fetch - main [MainThread]: Store serial: [18904515]
+[2023-07-16 05:04:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18904515]
+[2023-07-16 05:04:05] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-16 05:04:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hak
+[2023-07-16 05:04:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pathvalidate
+[2023-07-16 05:04:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chai-guanaco
+[2023-07-16 05:04:05] INFO root fetch - processPackages [hak]: New version: [0.0.9] Old Version: [0.0.83]
+[2023-07-16 05:04:05] INFO root fetch - processPackages [chai-guanaco]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-07-16 05:04:05] INFO root fetch - processPackages [pathvalidate]: New version: [3.1.0] Old Version: [3.0.0]
+[2023-07-16 05:04:05] INFO root fetch - processPackages [pathvalidate]: Downloading https://files.pythonhosted.org/packages/04/45/3787d66cf2eb8f520dd26f1ab016305942b57e67be0bf1c4f42159d58b4d/pathvalidate-3.0.0.tar.gz
+[2023-07-16 05:04:05] INFO root fetch - processPackages [hak]: Downloading https://files.pythonhosted.org/packages/dd/96/3b880d3a78270d329d152fe53767d4166802a49b81c392b478a4954539b7/hak-0.0.83.tar.gz
+[2023-07-16 05:04:05] INFO root fetch - processPackages [chai-guanaco]: Downloading https://files.pythonhosted.org/packages/97/83/2ea8304582c3186eaea569ba516ef69c5ed88e2320f33475a1d7ecd42236/chai-guanaco-1.0.4.tar.gz
+[2023-07-16 05:04:05] INFO root fetch - processPackages [pathvalidate]: Downloading https://files.pythonhosted.org/packages/0b/4d/4171a276f2db306729832bbe1c53d8cbcb760e6e2605d46b79897df7a584/pathvalidate-3.1.0.tar.gz
+[2023-07-16 05:04:05] INFO root fetch - processPackages [hak]: Downloading https://files.pythonhosted.org/packages/fd/2b/bf7b3451d5e3a84e9a674b47e9f046c4db1f582764a85a4dfc00e14ecf00/hak-0.0.9.tar.gz
+[2023-07-16 05:04:06] INFO root fetch - processPackages [chai-guanaco]: Downloading https://files.pythonhosted.org/packages/dc/f9/c412fbdcf8c28f27dbe55c0571c4333722d712b7e371c600124a16496efe/chai-guanaco-1.0.5.tar.gz
+[2023-07-16 05:04:06] INFO root fetch - processPackages [pathvalidate]: executing diffoscope
+[2023-07-16 05:04:06] INFO root fetch - processPackages [pathvalidate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pathvalidate-3.0.0.tar.gz tmp/pathvalidate-3.1.0.tar.gz --markdown 20230716/p/pathvalidate/3.0.0-3.1.0/diff.md --exclude *.pyd
+[2023-07-16 05:04:06] INFO root fetch - processPackages [hak]: executing diffoscope
+[2023-07-16 05:04:06] INFO root fetch - processPackages [hak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hak-0.0.83.tar.gz tmp/hak-0.0.9.tar.gz --markdown 20230716/h/hak/0.0.83-0.0.9/diff.md --exclude *.pyd
+[2023-07-16 05:04:06] INFO root fetch - processPackages [chai-guanaco]: executing diffoscope
+[2023-07-16 05:04:06] INFO root fetch - processPackages [chai-guanaco]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chai-guanaco-1.0.4.tar.gz tmp/chai-guanaco-1.0.5.tar.gz --markdown 20230716/c/chai-guanaco/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-07-16 05:04:07] INFO root fetch - processPackages [pathvalidate]: Remove: archive file [/home/abi/fetcher/tmp/pathvalidate-3.0.0.tar.gz]
+[2023-07-16 05:04:07] INFO root fetch - processPackages [pathvalidate]: Remove: archive file [/home/abi/fetcher/tmp/pathvalidate-3.1.0.tar.gz]
+[2023-07-16 05:04:07] INFO root fetch - main [MainThread]: End processing [pathvalidate]: success
+[2023-07-16 05:04:07] INFO root fetch - processPackages [chai-guanaco]: Remove: archive file [/home/abi/fetcher/tmp/chai-guanaco-1.0.4.tar.gz]
+[2023-07-16 05:04:07] INFO root fetch - processPackages [chai-guanaco]: Remove: archive file [/home/abi/fetcher/tmp/chai-guanaco-1.0.5.tar.gz]
+[2023-07-16 05:04:07] INFO root fetch - main [MainThread]: End processing [chai-guanaco]: success
+[2023-07-16 05:04:07] INFO root fetch - processPackages [hak]: Remove: archive file [/home/abi/fetcher/tmp/hak-0.0.83.tar.gz]
+[2023-07-16 05:04:07] INFO root fetch - processPackages [hak]: Remove: archive file [/home/abi/fetcher/tmp/hak-0.0.9.tar.gz]
+[2023-07-16 05:04:07] INFO root fetch - main [MainThread]: End processing [hak]: success
+[2023-07-16 05:04:07] INFO root fetch - main [MainThread]: Store serial: [18904524]
