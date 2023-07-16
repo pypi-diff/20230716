@@ -5794,3 +5794,32 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-16 10:42:14] INFO root fetch - processPackages [tff-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tff_nightly-0.0.1.dev20230715-py2.py3-none-any.whl.zip]
 [2023-07-16 10:42:14] INFO root fetch - main [MainThread]: End processing [tff-nightly]: success
 [2023-07-16 10:42:14] INFO root fetch - main [MainThread]: Store serial: [18905709]
+[2023-07-16 10:47:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18905709]
+[2023-07-16 10:47:23] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-16 10:47:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyfrobot
+[2023-07-16 10:47:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: scrape-schema
+[2023-07-16 10:47:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: certora-cli-beta
+[2023-07-16 10:47:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: talkytimes-package
+[2023-07-16 10:47:23] INFO root fetch - processPackages [talkytimes-package]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-07-16 10:47:23] WARNING root fetch - processPackages [pyfrobot]: Skipping, unable to determine old version
+[2023-07-16 10:47:23] INFO root fetch - main [MainThread]: End processing [pyfrobot] error
+[2023-07-16 10:47:23] INFO root fetch - processPackages [certora-cli-beta]: New version: [4.6.0] Old Version: [4.5.1]
+[2023-07-16 10:47:23] INFO root fetch - processPackages [scrape-schema]: New version: [0.3.6] Old Version: [0.3.5]
+[2023-07-16 10:47:23] INFO root fetch - processPackages [talkytimes-package]: Downloading https://files.pythonhosted.org/packages/c1/43/ec28b8f6ec73ce10cecf80a1a3240cf45b0b6420121278ccb75a2f364ce0/talkytimes_package-0.2.2.tar.gz
+[2023-07-16 10:47:23] INFO root fetch - processPackages [scrape-schema]: Downloading https://files.pythonhosted.org/packages/52/6a/9f29be006e802aed0db76f87dcafcfa2864611f84d9a6cc6a4aa0c176d7a/scrape_schema-0.3.5.tar.gz
+[2023-07-16 10:47:23] INFO root fetch - processPackages [certora-cli-beta]: Downloading https://files.pythonhosted.org/packages/5a/7d/a97bdba6147783a1d5d45c01f6ab846cb5c09117f0193b0e3616d01be540/certora-cli-beta-4.5.1.tar.gz
+[2023-07-16 10:47:24] WARNING root fetch - processPackages [certora-cli-beta]: Skipping package: exceeds size limit 37461734>=10485760
+[2023-07-16 10:47:24] INFO root fetch - main [MainThread]: End processing [certora-cli-beta] error
+[2023-07-16 10:47:24] INFO root fetch - processPackages [talkytimes-package]: Downloading https://files.pythonhosted.org/packages/eb/0b/86bbb5956139c42673522aa25a0c20c59bd8ff973674fc3c53e89972720f/talkytimes_package-0.2.3.tar.gz
+[2023-07-16 10:47:24] INFO root fetch - processPackages [scrape-schema]: Downloading https://files.pythonhosted.org/packages/73/11/bddbd5e0a77c8b436166861270735afc9b6f18b6961540b194e212a0fa4c/scrape_schema-0.3.6.tar.gz
+[2023-07-16 10:47:24] INFO root fetch - processPackages [talkytimes-package]: executing diffoscope
+[2023-07-16 10:47:24] INFO root fetch - processPackages [talkytimes-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/talkytimes_package-0.2.2.tar.gz tmp/talkytimes_package-0.2.3.tar.gz --markdown 20230716/t/talkytimes-package/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-07-16 10:47:24] INFO root fetch - processPackages [scrape-schema]: executing diffoscope
+[2023-07-16 10:47:24] INFO root fetch - processPackages [scrape-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrape_schema-0.3.5.tar.gz tmp/scrape_schema-0.3.6.tar.gz --markdown 20230716/s/scrape-schema/0.3.5-0.3.6/diff.md --exclude *.pyd
+[2023-07-16 10:47:25] INFO root fetch - processPackages [talkytimes-package]: Remove: archive file [/home/abi/fetcher/tmp/talkytimes_package-0.2.2.tar.gz]
+[2023-07-16 10:47:25] INFO root fetch - processPackages [talkytimes-package]: Remove: archive file [/home/abi/fetcher/tmp/talkytimes_package-0.2.3.tar.gz]
+[2023-07-16 10:47:25] INFO root fetch - main [MainThread]: End processing [talkytimes-package]: success
+[2023-07-16 10:47:25] INFO root fetch - processPackages [scrape-schema]: Remove: archive file [/home/abi/fetcher/tmp/scrape_schema-0.3.5.tar.gz]
+[2023-07-16 10:47:25] INFO root fetch - processPackages [scrape-schema]: Remove: archive file [/home/abi/fetcher/tmp/scrape_schema-0.3.6.tar.gz]
+[2023-07-16 10:47:25] INFO root fetch - main [MainThread]: End processing [scrape-schema]: success
+[2023-07-16 10:47:25] INFO root fetch - main [MainThread]: Store serial: [18905726]
