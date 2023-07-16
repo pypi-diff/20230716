@@ -4210,3 +4210,99 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-16 07:50:38] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip]
 [2023-07-16 07:50:38] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
 [2023-07-16 07:50:38] INFO root fetch - main [MainThread]: Store serial: [18905025]
+[2023-07-16 07:55:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18905025]
+[2023-07-16 07:55:46] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-16 07:55:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: docwalker
+[2023-07-16 07:55:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mynacode
+[2023-07-16 07:55:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyblip
+[2023-07-16 07:55:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: noelgram1
+[2023-07-16 07:55:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: heimdallm
+[2023-07-16 07:55:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ork.build
+[2023-07-16 07:55:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: django-restit
+[2023-07-16 07:55:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: vector-vault
+[2023-07-16 07:55:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aigc-zoo
+[2023-07-16 07:55:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: stream-gears
+[2023-07-16 07:55:46] INFO root fetch - processPackages [aigc-zoo]: New version: [0.1.12] Old Version: [0.1.11.post2]
+[2023-07-16 07:55:46] INFO root fetch - processPackages [pyblip]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-07-16 07:55:46] INFO root fetch - processPackages [vector-vault]: New version: [2.1.0] Old Version: [2.0.7]
+[2023-07-16 07:55:46] WARNING root fetch - processPackages [noelgram1]: Skipping, unable to determine old version
+[2023-07-16 07:55:46] INFO root fetch - processPackages [noelgram1]: Start processing: metaphor-connectors
+[2023-07-16 07:55:46] INFO root fetch - main [MainThread]: End processing [noelgram1] error
+[2023-07-16 07:55:46] INFO root fetch - processPackages [docwalker]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-16 07:55:46] INFO root fetch - processPackages [heimdallm]: New version: [0.3.0] Old Version: [0.2.1]
+[2023-07-16 07:55:46] INFO root fetch - processPackages [django-restit]: New version: [4.1.7] Old Version: [4.1.6]
+[2023-07-16 07:55:46] INFO root fetch - processPackages [mynacode]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-07-16 07:55:46] INFO root fetch - processPackages [stream-gears]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-16 07:55:46] INFO root fetch - processPackages [ork.build]: New version: [0.0.52] Old Version: [0.0.51]
+[2023-07-16 07:55:46] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/1d/24/3d4ef0a0a267fb47bcbac68ff9b760a9b892095f2ee727874f0286d600c3/mynacode-1.0.98-py3-none-any.whl
+[2023-07-16 07:55:46] INFO root fetch - processPackages [pyblip]: Downloading https://files.pythonhosted.org/packages/fc/5c/5fe4a7a225a5e74bfc8b41293941d0cb1a47c438ca89cef7e13f5faad2e9/pyblip-0.4.0.tar.gz
+[2023-07-16 07:55:47] INFO root fetch - processPackages [django-restit]: Downloading https://files.pythonhosted.org/packages/34/4c/a2c0552fd474e0e4102f4702b70888ec0e87cb586a80b59abfa76c0201d9/django_restit-4.1.6.tar.gz
+[2023-07-16 07:55:47] INFO root fetch - processPackages [ork.build]: Downloading https://files.pythonhosted.org/packages/7f/81/46646b33016a3bc2502825974c0ae8a8fcdd29dc5ea5984cb65621937b35/ork.build-0.0.51.tar.gz
+[2023-07-16 07:55:47] INFO root fetch - processPackages [metaphor-connectors]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-07-16 07:55:47] INFO root fetch - processPackages [aigc-zoo]: Downloading https://files.pythonhosted.org/packages/d5/47/76e090da3a680231d4641693dcc5a1e46fae5e5340b89840e5b39a7e6df1/aigc_zoo-0.1.11.post2-py3-none-any.whl
+[2023-07-16 07:55:47] INFO root fetch - processPackages [vector-vault]: Downloading https://files.pythonhosted.org/packages/3d/3d/ff3d34f6de093fd7023093c9348d7827643dea3aa3743663a6e5172c98dc/vector_vault-2.0.7.tar.gz
+[2023-07-16 07:55:47] INFO root fetch - processPackages [docwalker]: Downloading https://files.pythonhosted.org/packages/d8/c6/de7715693b26f9e8d5a1bc06c16ee17969d2b935dede95bef967eee2c463/docwalker-1.0.0.tar.gz
+[2023-07-16 07:55:47] INFO root fetch - processPackages [heimdallm]: Downloading https://files.pythonhosted.org/packages/c8/f4/2f067db8e649bccfa410f27ea8fed79c8c16859f298565225d9a31f4420f/heimdallm-0.2.1.tar.gz
+[2023-07-16 07:55:47] INFO root fetch - processPackages [stream-gears]: Downloading https://files.pythonhosted.org/packages/13/81/79efb8e292403dc0e02ea78b266635644e038eac384fbfe481a2a8a68074/stream_gears-0.1.8.tar.gz
+[2023-07-16 07:55:47] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/38/32/362f7abef6d28b78afa03843fa2eadc7bb1454ef66bde894a08e281d5bfb/mynacode-1.0.99-py3-none-any.whl
+[2023-07-16 07:55:47] INFO root fetch - processPackages [metaphor-connectors]: Downloading https://files.pythonhosted.org/packages/92/c2/f775488949e85740917971e97fbd1e7187de61421ac7fbbc9d5485275473/metaphor-connectors-0.9.3.tar.gz
+[2023-07-16 07:55:47] INFO root fetch - processPackages [ork.build]: Downloading https://files.pythonhosted.org/packages/05/63/c7863235ce76023e34008f6f4a3b96dd4a9089c6648d29cefd42c9a7b3dd/ork.build-0.0.52.tar.gz
+[2023-07-16 07:55:47] INFO root fetch - processPackages [mynacode]: executing diffoscope
+[2023-07-16 07:55:47] INFO root fetch - processPackages [mynacode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mynacode-1.0.98-py3-none-any.whl.zip tmp/mynacode-1.0.99-py3-none-any.whl.zip --markdown 20230716/m/mynacode/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-07-16 07:55:47] INFO root fetch - processPackages [django-restit]: Downloading https://files.pythonhosted.org/packages/ae/7e/48ed456e1153c96fee431558fe9a283e2f0cfb48bed579593ce79a8356e3/django_restit-4.1.7.tar.gz
+[2023-07-16 07:55:47] INFO root fetch - processPackages [aigc-zoo]: Downloading https://files.pythonhosted.org/packages/a0/b4/07a326e046ccb3f7ecda7ffcd76e4d40acea79920a9fa2fa9ec3cd2c5260/aigc_zoo-0.1.12-py3-none-any.whl
+[2023-07-16 07:55:47] INFO root fetch - processPackages [docwalker]: Downloading https://files.pythonhosted.org/packages/61/3b/e435110efa4d455a5c396035cbc29db20873735a07949dff6293ff2e0b4a/docwalker-1.0.1.tar.gz
+[2023-07-16 07:55:47] INFO root fetch - processPackages [vector-vault]: Downloading https://files.pythonhosted.org/packages/0e/f6/c13804bf13afbbecdb26227dec841e808501f493d70046b28976cc824105/vector_vault-2.1.0.tar.gz
+[2023-07-16 07:55:47] INFO root fetch - processPackages [ork.build]: executing diffoscope
+[2023-07-16 07:55:47] INFO root fetch - processPackages [ork.build]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ork.build-0.0.51.tar.gz tmp/ork.build-0.0.52.tar.gz --markdown 20230716/o/ork.build/0.0.51-0.0.52/diff.md --exclude *.pyd
+[2023-07-16 07:55:47] INFO root fetch - processPackages [heimdallm]: Downloading https://files.pythonhosted.org/packages/f3/d2/5771ff707f8b89870125e4721ca0d303c861e8062561f4d51617a7677644/heimdallm-0.3.0.tar.gz
+[2023-07-16 07:55:47] INFO root fetch - processPackages [docwalker]: executing diffoscope
+[2023-07-16 07:55:47] INFO root fetch - processPackages [django-restit]: executing diffoscope
+[2023-07-16 07:55:47] INFO root fetch - processPackages [django-restit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_restit-4.1.6.tar.gz tmp/django_restit-4.1.7.tar.gz --markdown 20230716/d/django-restit/4.1.6-4.1.7/diff.md --exclude *.pyd
+[2023-07-16 07:55:47] INFO root fetch - processPackages [docwalker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docwalker-1.0.0.tar.gz tmp/docwalker-1.0.1.tar.gz --markdown 20230716/d/docwalker/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-16 07:55:47] INFO root fetch - processPackages [vector-vault]: executing diffoscope
+[2023-07-16 07:55:47] INFO root fetch - processPackages [vector-vault]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vector_vault-2.0.7.tar.gz tmp/vector_vault-2.1.0.tar.gz --markdown 20230716/v/vector-vault/2.0.7-2.1.0/diff.md --exclude *.pyd
+[2023-07-16 07:55:47] INFO root fetch - processPackages [aigc-zoo]: executing diffoscope
+[2023-07-16 07:55:47] INFO root fetch - processPackages [aigc-zoo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aigc_zoo-0.1.11.post2-py3-none-any.whl.zip tmp/aigc_zoo-0.1.12-py3-none-any.whl.zip --markdown 20230716/a/aigc-zoo/0.1.11.post2-0.1.12/diff.md --exclude *.pyd
+[2023-07-16 07:55:47] INFO root fetch - processPackages [stream-gears]: Downloading https://files.pythonhosted.org/packages/8c/e7/74a603e774f52cb59d3b1b07ce874ef8180426c14aa6f1316a255772b5c7/stream_gears-0.1.9.tar.gz
+[2023-07-16 07:55:48] INFO root fetch - processPackages [heimdallm]: executing diffoscope
+[2023-07-16 07:55:48] INFO root fetch - processPackages [heimdallm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heimdallm-0.2.1.tar.gz tmp/heimdallm-0.3.0.tar.gz --markdown 20230716/h/heimdallm/0.2.1-0.3.0/diff.md --exclude *.pyd
+[2023-07-16 07:55:48] INFO root fetch - processPackages [metaphor-connectors]: Downloading https://files.pythonhosted.org/packages/7e/f3/fd51e0c2498f7340487d8eba1ee24a716e8056cce2a496a20f5da0cc11de/metaphor-connectors-0.9.4.tar.gz
+[2023-07-16 07:55:48] INFO root fetch - processPackages [stream-gears]: executing diffoscope
+[2023-07-16 07:55:48] INFO root fetch - processPackages [stream-gears]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stream_gears-0.1.8.tar.gz tmp/stream_gears-0.1.9.tar.gz --markdown 20230716/s/stream-gears/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-16 07:55:48] INFO root fetch - processPackages [metaphor-connectors]: executing diffoscope
+[2023-07-16 07:55:48] INFO root fetch - processPackages [metaphor-connectors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metaphor-connectors-0.9.3.tar.gz tmp/metaphor-connectors-0.9.4.tar.gz --markdown 20230716/m/metaphor-connectors/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-07-16 07:55:48] INFO root fetch - processPackages [pyblip]: Downloading https://files.pythonhosted.org/packages/61/75/4d36ed8dd143f90d70007440592133aef979ed03b955e27b2fc2de607454/pyblip-0.4.1.tar.gz
+[2023-07-16 07:55:48] INFO root fetch - processPackages [pyblip]: executing diffoscope
+[2023-07-16 07:55:48] INFO root fetch - processPackages [pyblip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyblip-0.4.0.tar.gz tmp/pyblip-0.4.1.tar.gz --markdown 20230716/p/pyblip/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-07-16 07:55:48] INFO root fetch - processPackages [mynacode]: Remove: archive file [/home/abi/fetcher/tmp/mynacode-1.0.98-py3-none-any.whl.zip]
+[2023-07-16 07:55:48] INFO root fetch - processPackages [mynacode]: Remove: archive file [/home/abi/fetcher/tmp/mynacode-1.0.99-py3-none-any.whl.zip]
+[2023-07-16 07:55:48] INFO root fetch - main [MainThread]: End processing [mynacode]: success
+[2023-07-16 07:55:49] INFO root fetch - processPackages [docwalker]: Remove: archive file [/home/abi/fetcher/tmp/docwalker-1.0.0.tar.gz]
+[2023-07-16 07:55:49] INFO root fetch - processPackages [docwalker]: Remove: archive file [/home/abi/fetcher/tmp/docwalker-1.0.1.tar.gz]
+[2023-07-16 07:55:49] INFO root fetch - main [MainThread]: End processing [docwalker]: success
+[2023-07-16 07:55:49] INFO root fetch - processPackages [vector-vault]: Remove: archive file [/home/abi/fetcher/tmp/vector_vault-2.0.7.tar.gz]
+[2023-07-16 07:55:49] INFO root fetch - processPackages [vector-vault]: Remove: archive file [/home/abi/fetcher/tmp/vector_vault-2.1.0.tar.gz]
+[2023-07-16 07:55:49] INFO root fetch - main [MainThread]: End processing [vector-vault]: success
+[2023-07-16 07:55:49] INFO root fetch - processPackages [aigc-zoo]: Remove: archive file [/home/abi/fetcher/tmp/aigc_zoo-0.1.11.post2-py3-none-any.whl.zip]
+[2023-07-16 07:55:49] INFO root fetch - processPackages [aigc-zoo]: Remove: archive file [/home/abi/fetcher/tmp/aigc_zoo-0.1.12-py3-none-any.whl.zip]
+[2023-07-16 07:55:49] INFO root fetch - main [MainThread]: End processing [aigc-zoo]: success
+[2023-07-16 07:55:49] INFO root fetch - processPackages [stream-gears]: Remove: archive file [/home/abi/fetcher/tmp/stream_gears-0.1.8.tar.gz]
+[2023-07-16 07:55:49] INFO root fetch - processPackages [stream-gears]: Remove: archive file [/home/abi/fetcher/tmp/stream_gears-0.1.9.tar.gz]
+[2023-07-16 07:55:49] INFO root fetch - main [MainThread]: End processing [stream-gears]: success
+[2023-07-16 07:55:49] INFO root fetch - processPackages [heimdallm]: Remove: archive file [/home/abi/fetcher/tmp/heimdallm-0.2.1.tar.gz]
+[2023-07-16 07:55:49] INFO root fetch - processPackages [heimdallm]: Remove: archive file [/home/abi/fetcher/tmp/heimdallm-0.3.0.tar.gz]
+[2023-07-16 07:55:49] INFO root fetch - main [MainThread]: End processing [heimdallm]: success
+[2023-07-16 07:55:50] INFO root fetch - processPackages [metaphor-connectors]: Remove: archive file [/home/abi/fetcher/tmp/metaphor-connectors-0.9.3.tar.gz]
+[2023-07-16 07:55:50] INFO root fetch - processPackages [metaphor-connectors]: Remove: archive file [/home/abi/fetcher/tmp/metaphor-connectors-0.9.4.tar.gz]
+[2023-07-16 07:55:50] INFO root fetch - main [MainThread]: End processing [metaphor-connectors]: success
+[2023-07-16 07:55:50] INFO root fetch - processPackages [pyblip]: Remove: archive file [/home/abi/fetcher/tmp/pyblip-0.4.0.tar.gz]
+[2023-07-16 07:55:50] INFO root fetch - processPackages [pyblip]: Remove: archive file [/home/abi/fetcher/tmp/pyblip-0.4.1.tar.gz]
+[2023-07-16 07:55:50] INFO root fetch - main [MainThread]: End processing [pyblip]: success
+[2023-07-16 07:55:51] INFO root fetch - processPackages [ork.build]: Remove: archive file [/home/abi/fetcher/tmp/ork.build-0.0.51.tar.gz]
+[2023-07-16 07:55:51] INFO root fetch - processPackages [ork.build]: Remove: archive file [/home/abi/fetcher/tmp/ork.build-0.0.52.tar.gz]
+[2023-07-16 07:55:51] INFO root fetch - main [MainThread]: End processing [ork.build]: success
+[2023-07-16 07:55:51] INFO root fetch - processPackages [django-restit]: Remove: archive file [/home/abi/fetcher/tmp/django_restit-4.1.6.tar.gz]
+[2023-07-16 07:55:51] INFO root fetch - processPackages [django-restit]: Remove: archive file [/home/abi/fetcher/tmp/django_restit-4.1.7.tar.gz]
+[2023-07-16 07:55:51] INFO root fetch - main [MainThread]: End processing [django-restit]: success
+[2023-07-16 07:55:51] INFO root fetch - main [MainThread]: Store serial: [18905085]
