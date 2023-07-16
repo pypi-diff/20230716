@@ -10794,3 +10794,112 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-16 17:31:22] INFO root fetch - processPackages [harlogger]: Remove: archive file [/home/abi/fetcher/tmp/harlogger-3.0.0.tar.gz]
 [2023-07-16 17:31:22] INFO root fetch - main [MainThread]: End processing [harlogger]: success
 [2023-07-16 17:31:22] INFO root fetch - main [MainThread]: Store serial: [18907826]
+[2023-07-16 17:36:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18907826]
+[2023-07-16 17:36:31] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-16 17:36:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: deepl-translator
+[2023-07-16 17:36:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: GPT4Readability
+[2023-07-16 17:36:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pfrl
+[2023-07-16 17:36:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: CTkColorPicker
+[2023-07-16 17:36:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lightkube
+[2023-07-16 17:36:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: envinfopy
+[2023-07-16 17:36:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: xso
+[2023-07-16 17:36:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: deepl-translator
+[2023-07-16 17:36:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: namespace-mahdimir
+[2023-07-16 17:36:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: getRoutersConfig
+[2023-07-16 17:36:32] INFO root fetch - processPackages [getRoutersConfig]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-16 17:36:32] INFO root fetch - processPackages [namespace-mahdimir]: New version: [2.2.0] Old Version: [2.1.0]
+[2023-07-16 17:36:32] INFO root fetch - processPackages [deepl-translator]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-16 17:36:32] INFO root fetch - processPackages [pfrl]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-07-16 17:36:32] INFO root fetch - processPackages [xso]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-16 17:36:32] INFO root fetch - processPackages [deepl-translator]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-16 17:36:32] INFO root fetch - processPackages [GPT4Readability]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-16 17:36:32] INFO root fetch - processPackages [CTkColorPicker]: New version: [0.8.0] Old Version: [0.7.0]
+[2023-07-16 17:36:32] INFO root fetch - processPackages [lightkube]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-07-16 17:36:32] INFO root fetch - processPackages [envinfopy]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-07-16 17:36:32] INFO root fetch - processPackages [deepl-translator]: Downloading https://files.pythonhosted.org/packages/ec/65/de13e80964cd0c77446971e0856b74751d66271fdde4245a28550d42d89c/deepl_translator-0.1.4.tar.gz
+[2023-07-16 17:36:32] INFO root fetch - processPackages [deepl-translator]: Downloading https://files.pythonhosted.org/packages/ec/65/de13e80964cd0c77446971e0856b74751d66271fdde4245a28550d42d89c/deepl_translator-0.1.4.tar.gz
+[2023-07-16 17:36:32] INFO root fetch - processPackages [namespace-mahdimir]: Downloading https://files.pythonhosted.org/packages/3d/38/4783ad7f63c50048fe9d7b57b1242b3bdc6978711e8385b83b87e9c7de65/namespace_mahdimir-2.1.0.tar.gz
+[2023-07-16 17:36:32] INFO root fetch - processPackages [getRoutersConfig]: Downloading https://files.pythonhosted.org/packages/34/4d/8f179e857de9bb13f1829fd8cddcb98c7f500421fb136cc5b6a4692c61d4/getRoutersConfig-0.0.6.tar.gz
+[2023-07-16 17:36:32] INFO root fetch - processPackages [pfrl]: Downloading https://files.pythonhosted.org/packages/1c/55/053cdd48aee18a4a5d9ae5ca864ff50f7294da0f12a01cdff9f86ea4496b/pfrl-0.3.0.tar.gz
+[2023-07-16 17:36:32] INFO root fetch - processPackages [xso]: Downloading https://files.pythonhosted.org/packages/39/4b/e1ba209fc5d765723926e148858e382350ca169de1b705f95be73a49bd83/xso-0.0.2.tar.gz
+[2023-07-16 17:36:32] INFO root fetch - processPackages [GPT4Readability]: Downloading https://files.pythonhosted.org/packages/2a/1d/7449a72be0fa8f70cfb89aa2a653f908290986dccf4c4de9ec3d571fa771/GPT4Readability-0.0.4.tar.gz
+[2023-07-16 17:36:32] INFO root fetch - processPackages [lightkube]: Downloading https://files.pythonhosted.org/packages/b6/c7/c8e8a3174034102efeadd33695089d2890e5a45493d521106cf554896529/lightkube-0.8.1.tar.gz
+[2023-07-16 17:36:32] INFO root fetch - processPackages [envinfopy]: Downloading https://files.pythonhosted.org/packages/87/32/d1c6a4c9291f7c375a7d87237c1ed633b695133844ee1c2ed555729bb5aa/envinfopy-0.1.0.tar.gz
+[2023-07-16 17:36:32] INFO root fetch - processPackages [CTkColorPicker]: Downloading https://files.pythonhosted.org/packages/14/bb/0055c501d3827cb267939989b3ab0e1ca112d4eed5e2389eb4db64ce5e4e/CTkColorPicker-0.7.0.tar.gz
+[2023-07-16 17:36:32] INFO root fetch - processPackages [deepl-translator]: Downloading https://files.pythonhosted.org/packages/fa/ac/ee3fa214906bfd233682a9a49ec0889c9d798f4e0e406bf838527edc8f43/deepl_translator-0.1.5.tar.gz
+[2023-07-16 17:36:32] INFO root fetch - processPackages [deepl-translator]: Downloading https://files.pythonhosted.org/packages/fa/ac/ee3fa214906bfd233682a9a49ec0889c9d798f4e0e406bf838527edc8f43/deepl_translator-0.1.5.tar.gz
+[2023-07-16 17:36:32] INFO root fetch - processPackages [namespace-mahdimir]: Downloading https://files.pythonhosted.org/packages/10/f2/9d9ffb846d348257add377278cf4cb81a30d067f4ea811b11d583ecd2ea7/namespace_mahdimir-2.2.0.tar.gz
+[2023-07-16 17:36:32] INFO root fetch - processPackages [getRoutersConfig]: Downloading https://files.pythonhosted.org/packages/a8/c9/ea7f36478d1409f1d1a91934157bf47eaafad2ca172c157096d8417cee54/getRoutersConfig-0.0.7.tar.gz
+[2023-07-16 17:36:32] INFO root fetch - processPackages [xso]: Downloading https://files.pythonhosted.org/packages/4a/8f/0c55c8e216e86827bb0998a601dd9fc853a310c04396a371ed955da04772/xso-0.0.3.tar.gz
+[2023-07-16 17:36:32] INFO root fetch - processPackages [pfrl]: Downloading https://files.pythonhosted.org/packages/5b/9a/402600084ade77264e0df6916891fbfd86b30ce04c63aef3608f6989fcff/pfrl-0.4.0.tar.gz
+[2023-07-16 17:36:33] INFO root fetch - processPackages [deepl-translator]: executing diffoscope
+[2023-07-16 17:36:33] INFO root fetch - processPackages [deepl-translator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepl_translator-0.1.4.tar.gz tmp/deepl_translator-0.1.5.tar.gz --markdown 20230716/d/deepl-translator/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-16 17:36:33] INFO root fetch - processPackages [deepl-translator]: executing diffoscope
+[2023-07-16 17:36:33] INFO root fetch - processPackages [deepl-translator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepl_translator-0.1.4.tar.gz tmp/deepl_translator-0.1.5.tar.gz --markdown 20230716/d/deepl-translator/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-16 17:36:33] INFO root fetch - processPackages [envinfopy]: Downloading https://files.pythonhosted.org/packages/96/8d/2b11b36e391923a1a16a88a0921cab7bc4f1e43cbeb07c8819fe371b7dd2/envinfopy-0.2.0.tar.gz
+[2023-07-16 17:36:33] INFO root fetch - processPackages [namespace-mahdimir]: executing diffoscope
+[2023-07-16 17:36:33] INFO root fetch - processPackages [namespace-mahdimir]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/namespace_mahdimir-2.1.0.tar.gz tmp/namespace_mahdimir-2.2.0.tar.gz --markdown 20230716/n/namespace-mahdimir/2.1.0-2.2.0/diff.md --exclude *.pyd
+[2023-07-16 17:36:33] INFO root fetch - processPackages [getRoutersConfig]: executing diffoscope
+[2023-07-16 17:36:33] INFO root fetch - processPackages [getRoutersConfig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/getRoutersConfig-0.0.6.tar.gz tmp/getRoutersConfig-0.0.7.tar.gz --markdown 20230716/g/getRoutersConfig/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-16 17:36:33] INFO root fetch - processPackages [GPT4Readability]: Downloading https://files.pythonhosted.org/packages/02/50/e8c8ea6b615bab094537f19d229ce2e5eac9b77a9802beef2048b9f62f11/GPT4Readability-0.0.5.tar.gz
+[2023-07-16 17:36:33] INFO root fetch - processPackages [xso]: executing diffoscope
+[2023-07-16 17:36:33] INFO root fetch - processPackages [xso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xso-0.0.2.tar.gz tmp/xso-0.0.3.tar.gz --markdown 20230716/x/xso/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-16 17:36:33] INFO root fetch - processPackages [CTkColorPicker]: Downloading https://files.pythonhosted.org/packages/49/cc/272eb5df14f5160b0eca116d98baf28af134020a1515c024b06645efffe0/CTkColorPicker-0.8.0.tar.gz
+[2023-07-16 17:36:33] INFO root fetch - processPackages [lightkube]: Downloading https://files.pythonhosted.org/packages/40/a9/7f2e9d66fe0e5f8facb79608e25bac48747efe708a906358c0a87301843f/lightkube-0.9.0.tar.gz
+[2023-07-16 17:36:33] INFO root fetch - processPackages [envinfopy]: executing diffoscope
+[2023-07-16 17:36:33] INFO root fetch - processPackages [envinfopy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/envinfopy-0.1.0.tar.gz tmp/envinfopy-0.2.0.tar.gz --markdown 20230716/e/envinfopy/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-07-16 17:36:33] INFO root fetch - processPackages [pfrl]: executing diffoscope
+[2023-07-16 17:36:33] INFO root fetch - processPackages [pfrl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pfrl-0.3.0.tar.gz tmp/pfrl-0.4.0.tar.gz --markdown 20230716/p/pfrl/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-07-16 17:36:33] INFO root fetch - processPackages [CTkColorPicker]: executing diffoscope
+[2023-07-16 17:36:33] INFO root fetch - processPackages [CTkColorPicker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CTkColorPicker-0.7.0.tar.gz tmp/CTkColorPicker-0.8.0.tar.gz --markdown 20230716/C/CTkColorPicker/0.7.0-0.8.0/diff.md --exclude *.pyd
+[2023-07-16 17:36:33] INFO root fetch - processPackages [GPT4Readability]: executing diffoscope
+[2023-07-16 17:36:33] INFO root fetch - processPackages [GPT4Readability]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GPT4Readability-0.0.4.tar.gz tmp/GPT4Readability-0.0.5.tar.gz --markdown 20230716/G/GPT4Readability/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-16 17:36:33] INFO root fetch - processPackages [lightkube]: executing diffoscope
+[2023-07-16 17:36:33] INFO root fetch - processPackages [lightkube]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightkube-0.8.1.tar.gz tmp/lightkube-0.9.0.tar.gz --markdown 20230716/l/lightkube/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-07-16 17:36:34] INFO root fetch - processPackages [deepl-translator]: Remove: archive file [/home/abi/fetcher/tmp/deepl_translator-0.1.4.tar.gz]
+[2023-07-16 17:36:34] INFO root fetch - processPackages [deepl-translator]: Remove: archive file [/home/abi/fetcher/tmp/deepl_translator-0.1.5.tar.gz]
+[2023-07-16 17:36:34] INFO root fetch - processPackages [deepl-translator]: Start processing: deklinacija
+[2023-07-16 17:36:34] INFO root fetch - main [MainThread]: End processing [deepl-translator]: success
+[2023-07-16 17:36:34] INFO root fetch - processPackages [namespace-mahdimir]: Remove: archive file [/home/abi/fetcher/tmp/namespace_mahdimir-2.1.0.tar.gz]
+[2023-07-16 17:36:34] INFO root fetch - processPackages [namespace-mahdimir]: Remove: archive file [/home/abi/fetcher/tmp/namespace_mahdimir-2.2.0.tar.gz]
+[2023-07-16 17:36:34] INFO root fetch - processPackages [deklinacija]: New version: [1.5.1] Old Version: [1.5.0]
+[2023-07-16 17:36:34] INFO root fetch - processPackages [namespace-mahdimir]: Start processing: dank-mids
+[2023-07-16 17:36:34] INFO root fetch - main [MainThread]: End processing [namespace-mahdimir]: success
+[2023-07-16 17:36:34] INFO root fetch - processPackages [dank-mids]: New version: [4.20.9] Old Version: [4.20.8]
+[2023-07-16 17:36:34] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/dd/d9/a90cdebb46db5a35fe035f493b14d48e210491b568f4927af7919ab2fdbd/dank_mids-4.20.8.tar.gz
+[2023-07-16 17:36:34] INFO root fetch - processPackages [getRoutersConfig]: Remove: archive file [/home/abi/fetcher/tmp/getRoutersConfig-0.0.6.tar.gz]
+[2023-07-16 17:36:34] INFO root fetch - processPackages [getRoutersConfig]: Remove: archive file [/home/abi/fetcher/tmp/getRoutersConfig-0.0.7.tar.gz]
+[2023-07-16 17:36:34] INFO root fetch - main [MainThread]: End processing [getRoutersConfig]: success
+[2023-07-16 17:36:34] INFO root fetch - processPackages [deklinacija]: Downloading https://files.pythonhosted.org/packages/82/db/aec0e80cd704eb2dcf63e09d3cb5e1d6e0d4ae912de0adb8aa849217f06e/deklinacija-1.5.0.tar.gz
+[2023-07-16 17:36:34] INFO root fetch - main [MainThread]: End processing [deepl-translator]: success
+[2023-07-16 17:36:34] INFO root fetch - processPackages [envinfopy]: Remove: archive file [/home/abi/fetcher/tmp/envinfopy-0.1.0.tar.gz]
+[2023-07-16 17:36:34] INFO root fetch - processPackages [envinfopy]: Remove: archive file [/home/abi/fetcher/tmp/envinfopy-0.2.0.tar.gz]
+[2023-07-16 17:36:34] INFO root fetch - main [MainThread]: End processing [envinfopy]: success
+[2023-07-16 17:36:34] INFO root fetch - processPackages [xso]: Remove: archive file [/home/abi/fetcher/tmp/xso-0.0.2.tar.gz]
+[2023-07-16 17:36:34] INFO root fetch - processPackages [xso]: Remove: archive file [/home/abi/fetcher/tmp/xso-0.0.3.tar.gz]
+[2023-07-16 17:36:34] INFO root fetch - main [MainThread]: End processing [xso]: success
+[2023-07-16 17:36:34] INFO root fetch - processPackages [CTkColorPicker]: Remove: archive file [/home/abi/fetcher/tmp/CTkColorPicker-0.7.0.tar.gz]
+[2023-07-16 17:36:34] INFO root fetch - processPackages [CTkColorPicker]: Remove: archive file [/home/abi/fetcher/tmp/CTkColorPicker-0.8.0.tar.gz]
+[2023-07-16 17:36:34] INFO root fetch - main [MainThread]: End processing [CTkColorPicker]: success
+[2023-07-16 17:36:35] INFO root fetch - processPackages [lightkube]: Remove: archive file [/home/abi/fetcher/tmp/lightkube-0.8.1.tar.gz]
+[2023-07-16 17:36:35] INFO root fetch - processPackages [lightkube]: Remove: archive file [/home/abi/fetcher/tmp/lightkube-0.9.0.tar.gz]
+[2023-07-16 17:36:35] INFO root fetch - main [MainThread]: End processing [lightkube]: success
+[2023-07-16 17:36:35] INFO root fetch - processPackages [GPT4Readability]: Remove: archive file [/home/abi/fetcher/tmp/GPT4Readability-0.0.4.tar.gz]
+[2023-07-16 17:36:35] INFO root fetch - processPackages [GPT4Readability]: Remove: archive file [/home/abi/fetcher/tmp/GPT4Readability-0.0.5.tar.gz]
+[2023-07-16 17:36:35] INFO root fetch - main [MainThread]: End processing [GPT4Readability]: success
+[2023-07-16 17:36:35] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/e9/d0/a0c6c8d2d154a0250f47b30968e60098b0d44d3b35571e97a925b9b3984f/dank_mids-4.20.9.tar.gz
+[2023-07-16 17:36:35] INFO root fetch - processPackages [deklinacija]: Downloading https://files.pythonhosted.org/packages/6e/86/34db4128da190fc9804a47e1cee6a28369d2988f045224118af368a7f830/deklinacija-1.5.1.tar.gz
+[2023-07-16 17:36:35] INFO root fetch - processPackages [dank-mids]: executing diffoscope
+[2023-07-16 17:36:35] INFO root fetch - processPackages [dank-mids]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dank_mids-4.20.8.tar.gz tmp/dank_mids-4.20.9.tar.gz --markdown 20230716/d/dank-mids/4.20.8-4.20.9/diff.md --exclude *.pyd
+[2023-07-16 17:36:35] INFO root fetch - processPackages [deklinacija]: executing diffoscope
+[2023-07-16 17:36:35] INFO root fetch - processPackages [deklinacija]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deklinacija-1.5.0.tar.gz tmp/deklinacija-1.5.1.tar.gz --markdown 20230716/d/deklinacija/1.5.0-1.5.1/diff.md --exclude *.pyd
+[2023-07-16 17:36:35] INFO root fetch - processPackages [pfrl]: Remove: archive file [/home/abi/fetcher/tmp/pfrl-0.3.0.tar.gz]
+[2023-07-16 17:36:35] INFO root fetch - processPackages [pfrl]: Remove: archive file [/home/abi/fetcher/tmp/pfrl-0.4.0.tar.gz]
+[2023-07-16 17:36:35] INFO root fetch - main [MainThread]: End processing [pfrl]: success
+[2023-07-16 17:36:36] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.8.tar.gz]
+[2023-07-16 17:36:36] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.9.tar.gz]
+[2023-07-16 17:36:36] INFO root fetch - main [MainThread]: End processing [dank-mids]: success
+[2023-07-16 17:36:36] INFO root fetch - processPackages [deklinacija]: Remove: archive file [/home/abi/fetcher/tmp/deklinacija-1.5.0.tar.gz]
+[2023-07-16 17:36:36] INFO root fetch - processPackages [deklinacija]: Remove: archive file [/home/abi/fetcher/tmp/deklinacija-1.5.1.tar.gz]
+[2023-07-16 17:36:36] INFO root fetch - main [MainThread]: End processing [deklinacija]: success
+[2023-07-16 17:36:36] INFO root fetch - main [MainThread]: Store serial: [18907862]
