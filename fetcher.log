@@ -9531,3 +9531,65 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-16 15:46:44] INFO root fetch - processPackages [domain-admin]: Remove: archive file [/home/abi/fetcher/tmp/domain-admin-1.5.1.tar.gz]
 [2023-07-16 15:46:44] INFO root fetch - main [MainThread]: End processing [domain-admin]: success
 [2023-07-16 15:46:44] INFO root fetch - main [MainThread]: Store serial: [18907294]
+[2023-07-16 15:51:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18907294]
+[2023-07-16 15:51:53] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-16 15:51:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: arknights-mower
+[2023-07-16 15:51:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: coconut-develop
+[2023-07-16 15:51:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Turing-Pi-BMC
+[2023-07-16 15:51:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyVIA
+[2023-07-16 15:51:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kuro2sudachi
+[2023-07-16 15:51:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cohesity-management-sdk
+[2023-07-16 15:51:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nonebot-plugin-game-collection
+[2023-07-16 15:51:53] INFO root fetch - processPackages [kuro2sudachi]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-07-16 15:51:53] INFO root fetch - processPackages [coconut-develop]: New version: [3.0.2.post0.dev9] Old Version: [3.0.2.post0.dev8]
+[2023-07-16 15:51:53] INFO root fetch - processPackages [cohesity-management-sdk]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-07-16 15:51:53] INFO root fetch - processPackages [Turing-Pi-BMC]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-07-16 15:51:53] INFO root fetch - processPackages [arknights-mower]: New version: [3.4.2] Old Version: [3.4.1]
+[2023-07-16 15:51:53] INFO root fetch - processPackages [pyVIA]: New version: [0.1.9] Old Version: [0.1.83]
+[2023-07-16 15:51:53] INFO root fetch - processPackages [nonebot-plugin-game-collection]: New version: [2.3.9] Old Version: [2.3.8]
+[2023-07-16 15:51:53] INFO root fetch - processPackages [kuro2sudachi]: Downloading https://files.pythonhosted.org/packages/52/ff/33b5920598f2a2062ff0d82cfd1327b8eeb47e13b4432b6e924826e8655f/kuro2sudachi-0.4.3.tar.gz
+[2023-07-16 15:51:53] INFO root fetch - processPackages [coconut-develop]: Downloading https://files.pythonhosted.org/packages/76/ba/83f4a7e45967086c125a6525e086526f469362e3a1327a44f8df15d67400/coconut-develop-3.0.2.post0.dev8.tar.gz
+[2023-07-16 15:51:53] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Downloading https://files.pythonhosted.org/packages/51/fb/d907f05bab271d6408024397bb87d8e7e069ff91fa3152a09c37d0191aec/nonebot_plugin_game_collection-2.3.8.tar.gz
+[2023-07-16 15:51:53] INFO root fetch - processPackages [Turing-Pi-BMC]: Downloading https://files.pythonhosted.org/packages/56/1a/33ab9a1d9dbd08116ddbeca9b66163c2ca5635f680a9f3565f6e1d487ed4/Turing%20Pi%20BMC-0.3.0.tar.gz
+[2023-07-16 15:51:53] INFO root fetch - processPackages [pyVIA]: Downloading https://files.pythonhosted.org/packages/25/b8/a80fd4b9e39d1a23549db5c84ec5bdfcf0ade779269be698c98a456913f7/pyVIA-0.1.83.tar.gz
+[2023-07-16 15:51:53] INFO root fetch - processPackages [cohesity-management-sdk]: Downloading https://files.pythonhosted.org/packages/c0/a5/847d23f02560c85f48803ce2f1eaab312de52baa5a1bd3236876c2b681ee/cohesity_management_sdk-1.9.1.tar.gz
+[2023-07-16 15:51:53] INFO root fetch - processPackages [arknights-mower]: Downloading https://files.pythonhosted.org/packages/b3/99/c0481758519aabf2633e5f263fa8f7e20398f6b253becec66453775b2bd6/arknights_mower-3.4.1.tar.gz
+[2023-07-16 15:51:54] WARNING root fetch - processPackages [arknights-mower]: Skipping package: exceeds size limit 15859314>=10485760
+[2023-07-16 15:51:54] INFO root fetch - main [MainThread]: End processing [arknights-mower] error
+[2023-07-16 15:51:54] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Downloading https://files.pythonhosted.org/packages/e4/94/777d03c2f9fbba4c5835c0178b82dffa9d6007ab381b752f81e9af32ff1e/nonebot_plugin_game_collection-2.3.9.tar.gz
+[2023-07-16 15:51:54] INFO root fetch - processPackages [coconut-develop]: Downloading https://files.pythonhosted.org/packages/d7/8d/949a59bb813ee853bbb1d03d15a3f5a3de89562602ada8e1a9cca581a8d5/coconut-develop-3.0.2.post0.dev9.tar.gz
+[2023-07-16 15:51:54] INFO root fetch - processPackages [kuro2sudachi]: Downloading https://files.pythonhosted.org/packages/6f/db/0e806f5b0018d39498d84b67232a4987081843ffda6fe6c789f946c4f5df/kuro2sudachi-0.4.4.tar.gz
+[2023-07-16 15:51:54] INFO root fetch - processPackages [nonebot-plugin-game-collection]: executing diffoscope
+[2023-07-16 15:51:54] INFO root fetch - processPackages [nonebot-plugin-game-collection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_game_collection-2.3.8.tar.gz tmp/nonebot_plugin_game_collection-2.3.9.tar.gz --markdown 20230716/n/nonebot-plugin-game-collection/2.3.8-2.3.9/diff.md --exclude *.pyd
+[2023-07-16 15:51:54] INFO root fetch - processPackages [coconut-develop]: executing diffoscope
+[2023-07-16 15:51:54] INFO root fetch - processPackages [coconut-develop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coconut-develop-3.0.2.post0.dev8.tar.gz tmp/coconut-develop-3.0.2.post0.dev9.tar.gz --markdown 20230716/c/coconut-develop/3.0.2.post0.dev8-3.0.2.post0.dev9/diff.md --exclude *.pyd
+[2023-07-16 15:51:54] INFO root fetch - processPackages [Turing-Pi-BMC]: Downloading https://files.pythonhosted.org/packages/ae/2a/f8baf78b0861cc982c84f0d1d04e701723ff0b6269d7ff13933bcee5c9e8/Turing%20Pi%20BMC-0.4.0.tar.gz
+[2023-07-16 15:51:54] INFO root fetch - processPackages [pyVIA]: Downloading https://files.pythonhosted.org/packages/bd/5d/14b0cba02cfede3b95cd9d5da09d97df025ef9b2e4a6efd991707631f113/pyVIA-0.1.9.tar.gz
+[2023-07-16 15:51:54] INFO root fetch - processPackages [kuro2sudachi]: executing diffoscope
+[2023-07-16 15:51:54] INFO root fetch - processPackages [kuro2sudachi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kuro2sudachi-0.4.3.tar.gz tmp/kuro2sudachi-0.4.4.tar.gz --markdown 20230716/k/kuro2sudachi/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-07-16 15:51:54] INFO root fetch - processPackages [cohesity-management-sdk]: Downloading https://files.pythonhosted.org/packages/30/26/2652799e648648b7e0cfdf8f92df7b51f594914d332d835532ab70b3732e/cohesity_management_sdk-1.9.2.tar.gz
+[2023-07-16 15:51:54] INFO root fetch - processPackages [pyVIA]: executing diffoscope
+[2023-07-16 15:51:54] INFO root fetch - processPackages [pyVIA]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyVIA-0.1.83.tar.gz tmp/pyVIA-0.1.9.tar.gz --markdown 20230716/p/pyVIA/0.1.83-0.1.9/diff.md --exclude *.pyd
+[2023-07-16 15:51:54] INFO root fetch - processPackages [Turing-Pi-BMC]: executing diffoscope
+[2023-07-16 15:51:54] INFO root fetch - processPackages [Turing-Pi-BMC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Turing Pi BMC-0.3.0.tar.gz tmp/Turing Pi BMC-0.4.0.tar.gz --markdown 20230716/T/Turing-Pi-BMC/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-07-16 15:51:54] INFO root fetch - processPackages [cohesity-management-sdk]: executing diffoscope
+[2023-07-16 15:51:54] INFO root fetch - processPackages [cohesity-management-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cohesity_management_sdk-1.9.1.tar.gz tmp/cohesity_management_sdk-1.9.2.tar.gz --markdown 20230716/c/cohesity-management-sdk/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-07-16 15:51:55] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_game_collection-2.3.8.tar.gz]
+[2023-07-16 15:51:55] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_game_collection-2.3.9.tar.gz]
+[2023-07-16 15:51:55] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-game-collection]: success
+[2023-07-16 15:51:55] INFO root fetch - processPackages [kuro2sudachi]: Remove: archive file [/home/abi/fetcher/tmp/kuro2sudachi-0.4.3.tar.gz]
+[2023-07-16 15:51:55] INFO root fetch - processPackages [kuro2sudachi]: Remove: archive file [/home/abi/fetcher/tmp/kuro2sudachi-0.4.4.tar.gz]
+[2023-07-16 15:51:55] INFO root fetch - main [MainThread]: End processing [kuro2sudachi]: success
+[2023-07-16 15:51:55] INFO root fetch - processPackages [pyVIA]: Remove: archive file [/home/abi/fetcher/tmp/pyVIA-0.1.83.tar.gz]
+[2023-07-16 15:51:55] INFO root fetch - processPackages [pyVIA]: Remove: archive file [/home/abi/fetcher/tmp/pyVIA-0.1.9.tar.gz]
+[2023-07-16 15:51:55] INFO root fetch - main [MainThread]: End processing [pyVIA]: success
+[2023-07-16 15:51:55] INFO root fetch - processPackages [Turing-Pi-BMC]: Remove: archive file [/home/abi/fetcher/tmp/Turing Pi BMC-0.3.0.tar.gz]
+[2023-07-16 15:51:55] INFO root fetch - processPackages [Turing-Pi-BMC]: Remove: archive file [/home/abi/fetcher/tmp/Turing Pi BMC-0.4.0.tar.gz]
+[2023-07-16 15:51:55] INFO root fetch - main [MainThread]: End processing [Turing-Pi-BMC]: success
+[2023-07-16 15:51:55] INFO root fetch - processPackages [coconut-develop]: Remove: archive file [/home/abi/fetcher/tmp/coconut-develop-3.0.2.post0.dev8.tar.gz]
+[2023-07-16 15:51:55] INFO root fetch - processPackages [coconut-develop]: Remove: archive file [/home/abi/fetcher/tmp/coconut-develop-3.0.2.post0.dev9.tar.gz]
+[2023-07-16 15:51:55] INFO root fetch - main [MainThread]: End processing [coconut-develop]: success
+[2023-07-16 15:52:09] INFO root fetch - processPackages [cohesity-management-sdk]: Remove: archive file [/home/abi/fetcher/tmp/cohesity_management_sdk-1.9.1.tar.gz]
+[2023-07-16 15:52:09] INFO root fetch - processPackages [cohesity-management-sdk]: Remove: archive file [/home/abi/fetcher/tmp/cohesity_management_sdk-1.9.2.tar.gz]
+[2023-07-16 15:52:09] INFO root fetch - main [MainThread]: End processing [cohesity-management-sdk]: success
+[2023-07-16 15:52:09] INFO root fetch - main [MainThread]: Store serial: [18907314]
