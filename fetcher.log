@@ -6739,3 +6739,24 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-16 11:55:20] INFO root fetch - processPackages [prospr]: Remove: archive file [/home/abi/fetcher/tmp/prospr-1.0.tar.gz]
 [2023-07-16 11:55:20] INFO root fetch - main [MainThread]: End processing [prospr]: success
 [2023-07-16 11:55:20] INFO root fetch - main [MainThread]: Store serial: [18906072]
+[2023-07-16 12:00:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18906072]
+[2023-07-16 12:00:28] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-07-16 12:00:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyfrobot
+[2023-07-16 12:00:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mass-composition
+[2023-07-16 12:00:28] INFO root fetch - processPackages [pyfrobot]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-16 12:00:28] INFO root fetch - processPackages [pyfrobot]: Downloading https://files.pythonhosted.org/packages/47/d8/4eff931acd80eb8b05f05c88112d1850849146f9915175d6eadf35df14ef/pyfrobot-0.1.8.tar.gz
+[2023-07-16 12:00:28] INFO root fetch - processPackages [mass-composition]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-16 12:00:28] INFO root fetch - processPackages [pyfrobot]: Downloading https://files.pythonhosted.org/packages/a5/a7/c91a44b101557e88b0c525fd1fbcc9ee6e7a1d4fe9318da83243b9481ac4/pyfrobot-0.1.9.tar.gz
+[2023-07-16 12:00:29] INFO root fetch - processPackages [mass-composition]: Downloading https://files.pythonhosted.org/packages/c3/b9/841cc2b3e5d624d3f0d4611ab926933ef4275486ab60a4e31866620a05f7/mass_composition-0.1.8.tar.gz
+[2023-07-16 12:00:29] INFO root fetch - processPackages [pyfrobot]: executing diffoscope
+[2023-07-16 12:00:29] INFO root fetch - processPackages [pyfrobot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfrobot-0.1.8.tar.gz tmp/pyfrobot-0.1.9.tar.gz --markdown 20230716/p/pyfrobot/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-16 12:00:29] INFO root fetch - processPackages [pyfrobot]: Remove: archive file [/home/abi/fetcher/tmp/pyfrobot-0.1.8.tar.gz]
+[2023-07-16 12:00:29] INFO root fetch - processPackages [pyfrobot]: Remove: archive file [/home/abi/fetcher/tmp/pyfrobot-0.1.9.tar.gz]
+[2023-07-16 12:00:29] INFO root fetch - main [MainThread]: End processing [pyfrobot]: success
+[2023-07-16 12:00:29] INFO root fetch - processPackages [mass-composition]: Downloading https://files.pythonhosted.org/packages/4f/ea/2897c098efd0fa32ba87bc7885f3dfea4a69075a3aaec9f6f06641157246/mass_composition-0.1.9.tar.gz
+[2023-07-16 12:00:30] INFO root fetch - processPackages [mass-composition]: executing diffoscope
+[2023-07-16 12:00:30] INFO root fetch - processPackages [mass-composition]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mass_composition-0.1.8.tar.gz tmp/mass_composition-0.1.9.tar.gz --markdown 20230716/m/mass-composition/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-16 12:00:30] INFO root fetch - processPackages [mass-composition]: Remove: archive file [/home/abi/fetcher/tmp/mass_composition-0.1.8.tar.gz]
+[2023-07-16 12:00:30] INFO root fetch - processPackages [mass-composition]: Remove: archive file [/home/abi/fetcher/tmp/mass_composition-0.1.9.tar.gz]
+[2023-07-16 12:00:30] INFO root fetch - main [MainThread]: End processing [mass-composition]: success
+[2023-07-16 12:00:30] INFO root fetch - main [MainThread]: Store serial: [18906079]
