@@ -3099,3 +3099,67 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-16 05:14:31] INFO root fetch - processPackages [hak]: Remove: archive file [/home/abi/fetcher/tmp/hak-0.0.9.tar.gz]
 [2023-07-16 05:14:31] INFO root fetch - main [MainThread]: End processing [hak]: success
 [2023-07-16 05:14:31] INFO root fetch - main [MainThread]: Store serial: [18904550]
+[2023-07-16 05:19:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18904550]
+[2023-07-16 05:19:39] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-16 05:19:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hak
+[2023-07-16 05:19:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: CompactObject-TOV
+[2023-07-16 05:19:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: deep-training
+[2023-07-16 05:19:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: CMGDB
+[2023-07-16 05:19:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: noelgram
+[2023-07-16 05:19:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dockery
+[2023-07-16 05:19:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: noelgram
+[2023-07-16 05:19:40] INFO root fetch - processPackages [CompactObject-TOV]: New version: [1.3.1] Old Version: [1.2.1]
+[2023-07-16 05:19:40] INFO root fetch - processPackages [deep-training]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-16 05:19:40] INFO root fetch - processPackages [noelgram]: New version: [2.0.106] Old Version: [0.0.1]
+[2023-07-16 05:19:40] INFO root fetch - processPackages [CMGDB]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-16 05:19:40] INFO root fetch - processPackages [dockery]: New version: [0.8.0] Old Version: [0.7.0]
+[2023-07-16 05:19:40] INFO root fetch - processPackages [noelgram]: New version: [2.0.106] Old Version: [0.0.1]
+[2023-07-16 05:19:40] INFO root fetch - processPackages [hak]: New version: [0.0.9] Old Version: [0.0.85]
+[2023-07-16 05:19:40] INFO root fetch - processPackages [noelgram]: Downloading https://files.pythonhosted.org/packages/4a/83/8b646815dc63b29f74103bb3d08bf3b1bc11000df6b04eb8194a5d280407/noelgram-0.0.1.tar.gz
+[2023-07-16 05:19:40] INFO root fetch - processPackages [noelgram]: Downloading https://files.pythonhosted.org/packages/4a/83/8b646815dc63b29f74103bb3d08bf3b1bc11000df6b04eb8194a5d280407/noelgram-0.0.1.tar.gz
+[2023-07-16 05:19:40] INFO root fetch - processPackages [CompactObject-TOV]: Downloading https://files.pythonhosted.org/packages/5b/ef/0bc9005361cd63e6fac68a09b1e7d3963975a7c569f35e3db82e514f8ab0/CompactObject_TOV-1.2.1-py3-none-any.whl
+[2023-07-16 05:19:40] INFO root fetch - processPackages [deep-training]: Downloading https://files.pythonhosted.org/packages/87/b3/3c8fcf7b1e70c43e235098b71636333ed9cdfaf9b6c6fbc85f67531280e1/deep_training-0.1.8-py3-none-any.whl
+[2023-07-16 05:19:40] INFO root fetch - processPackages [hak]: Downloading https://files.pythonhosted.org/packages/84/3e/c21e60ebd90fce59cf4941a87a82aab73f350cd9b9348db29c5b54324438/hak-0.0.85.tar.gz
+[2023-07-16 05:19:40] INFO root fetch - processPackages [dockery]: Downloading https://files.pythonhosted.org/packages/0a/df/6c67f99fea7546d90994e4e3d8d3ed31f3327455afd4358c7e2911f67074/dockery-0.7.0.tar.gz
+[2023-07-16 05:19:40] INFO root fetch - processPackages [CMGDB]: Downloading https://files.pythonhosted.org/packages/b9/a6/bfe79d782e3dc8905fab37c150a3f85e38d034a543b70d0c62b9c526c3b8/CMGDB-1.0.2.tar.gz
+[2023-07-16 05:19:40] INFO root fetch - processPackages [hak]: Downloading https://files.pythonhosted.org/packages/fd/2b/bf7b3451d5e3a84e9a674b47e9f046c4db1f582764a85a4dfc00e14ecf00/hak-0.0.9.tar.gz
+[2023-07-16 05:19:40] INFO root fetch - processPackages [CompactObject-TOV]: Downloading https://files.pythonhosted.org/packages/62/de/8070d3d8707ac7c95e80047314004ccdb98974c155aa54df0465698e0ca2/CompactObject_TOV-1.3.1.tar.gz
+[2023-07-16 05:19:40] INFO root fetch - processPackages [dockery]: Downloading https://files.pythonhosted.org/packages/9f/5d/a902b35b8e8238f6b14ef3b065f1a93ac5775ca950692a2b8211818dd124/dockery-0.8.0.tar.gz
+[2023-07-16 05:19:40] INFO root fetch - processPackages [noelgram]: Downloading https://files.pythonhosted.org/packages/75/04/41427beeb7b81ca461883c68d5336d7cf3a650da3e09e0d07aa456fc9d25/noelgram-2.0.106.tar.gz
+[2023-07-16 05:19:40] INFO root fetch - processPackages [noelgram]: Downloading https://files.pythonhosted.org/packages/75/04/41427beeb7b81ca461883c68d5336d7cf3a650da3e09e0d07aa456fc9d25/noelgram-2.0.106.tar.gz
+[2023-07-16 05:19:40] INFO root fetch - processPackages [hak]: executing diffoscope
+[2023-07-16 05:19:40] INFO root fetch - processPackages [hak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hak-0.0.85.tar.gz tmp/hak-0.0.9.tar.gz --markdown 20230716/h/hak/0.0.85-0.0.9/diff.md --exclude *.pyd
+[2023-07-16 05:19:40] INFO root fetch - processPackages [CompactObject-TOV]: executing diffoscope
+[2023-07-16 05:19:40] INFO root fetch - processPackages [CompactObject-TOV]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CompactObject_TOV-1.2.1-py3-none-any.whl.zip tmp/CompactObject_TOV-1.3.1.tar.gz --markdown 20230716/C/CompactObject-TOV/1.2.1-1.3.1/diff.md --exclude *.pyd
+[2023-07-16 05:19:40] INFO root fetch - processPackages [CMGDB]: Downloading https://files.pythonhosted.org/packages/c4/4d/218628640c7160502ca64b04e293caf309cc668da90fae62c800fc146497/CMGDB-1.0.3.tar.gz
+[2023-07-16 05:19:40] INFO root fetch - processPackages [deep-training]: Downloading https://files.pythonhosted.org/packages/97/8f/30bf3a3b2b45dc48f23a82065cc1cff429cfa9ec38e2c8dfd40bc15ada07/deep_training-0.1.9-py3-none-any.whl
+[2023-07-16 05:19:41] INFO root fetch - processPackages [dockery]: executing diffoscope
+[2023-07-16 05:19:41] INFO root fetch - processPackages [dockery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dockery-0.7.0.tar.gz tmp/dockery-0.8.0.tar.gz --markdown 20230716/d/dockery/0.7.0-0.8.0/diff.md --exclude *.pyd
+[2023-07-16 05:19:41] INFO root fetch - processPackages [noelgram]: executing diffoscope
+[2023-07-16 05:19:41] INFO root fetch - processPackages [noelgram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/noelgram-0.0.1.tar.gz tmp/noelgram-2.0.106.tar.gz --markdown 20230716/n/noelgram/0.0.1-2.0.106/diff.md --exclude *.pyd
+[2023-07-16 05:19:41] INFO root fetch - processPackages [noelgram]: executing diffoscope
+[2023-07-16 05:19:41] INFO root fetch - processPackages [noelgram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/noelgram-0.0.1.tar.gz tmp/noelgram-2.0.106.tar.gz --markdown 20230716/n/noelgram/0.0.1-2.0.106/diff.md --exclude *.pyd
+[2023-07-16 05:19:41] INFO root fetch - processPackages [deep-training]: executing diffoscope
+[2023-07-16 05:19:41] INFO root fetch - processPackages [deep-training]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deep_training-0.1.8-py3-none-any.whl.zip tmp/deep_training-0.1.9-py3-none-any.whl.zip --markdown 20230716/d/deep-training/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-16 05:19:41] INFO root fetch - processPackages [CMGDB]: executing diffoscope
+[2023-07-16 05:19:41] INFO root fetch - processPackages [CMGDB]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CMGDB-1.0.2.tar.gz tmp/CMGDB-1.0.3.tar.gz --markdown 20230716/C/CMGDB/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-16 05:19:42] INFO root fetch - processPackages [CompactObject-TOV]: Remove: archive file [/home/abi/fetcher/tmp/CompactObject_TOV-1.2.1-py3-none-any.whl.zip]
+[2023-07-16 05:19:42] INFO root fetch - processPackages [CompactObject-TOV]: Remove: archive file [/home/abi/fetcher/tmp/CompactObject_TOV-1.3.1.tar.gz]
+[2023-07-16 05:19:42] INFO root fetch - main [MainThread]: End processing [CompactObject-TOV]: success
+[2023-07-16 05:19:42] INFO root fetch - processPackages [dockery]: Remove: archive file [/home/abi/fetcher/tmp/dockery-0.7.0.tar.gz]
+[2023-07-16 05:19:42] INFO root fetch - processPackages [dockery]: Remove: archive file [/home/abi/fetcher/tmp/dockery-0.8.0.tar.gz]
+[2023-07-16 05:19:42] INFO root fetch - main [MainThread]: End processing [dockery]: success
+[2023-07-16 05:19:43] INFO root fetch - processPackages [CMGDB]: Remove: archive file [/home/abi/fetcher/tmp/CMGDB-1.0.2.tar.gz]
+[2023-07-16 05:19:43] INFO root fetch - processPackages [CMGDB]: Remove: archive file [/home/abi/fetcher/tmp/CMGDB-1.0.3.tar.gz]
+[2023-07-16 05:19:43] INFO root fetch - main [MainThread]: End processing [CMGDB]: success
+[2023-07-16 05:19:43] INFO root fetch - processPackages [hak]: Remove: archive file [/home/abi/fetcher/tmp/hak-0.0.85.tar.gz]
+[2023-07-16 05:19:43] INFO root fetch - processPackages [hak]: Remove: archive file [/home/abi/fetcher/tmp/hak-0.0.9.tar.gz]
+[2023-07-16 05:19:43] INFO root fetch - main [MainThread]: End processing [hak]: success
+[2023-07-16 05:19:43] INFO root fetch - processPackages [deep-training]: Remove: archive file [/home/abi/fetcher/tmp/deep_training-0.1.8-py3-none-any.whl.zip]
+[2023-07-16 05:19:43] INFO root fetch - processPackages [deep-training]: Remove: archive file [/home/abi/fetcher/tmp/deep_training-0.1.9-py3-none-any.whl.zip]
+[2023-07-16 05:19:43] INFO root fetch - main [MainThread]: End processing [deep-training]: success
+[2023-07-16 05:19:44] INFO root fetch - processPackages [noelgram]: Remove: archive file [/home/abi/fetcher/tmp/noelgram-0.0.1.tar.gz]
+[2023-07-16 05:19:44] INFO root fetch - processPackages [noelgram]: Remove: archive file [/home/abi/fetcher/tmp/noelgram-2.0.106.tar.gz]
+[2023-07-16 05:19:44] INFO root fetch - main [MainThread]: End processing [noelgram]: success
+[2023-07-16 05:19:44] INFO root fetch - main [MainThread]: End processing [noelgram]: success
+[2023-07-16 05:19:44] INFO root fetch - main [MainThread]: Store serial: [18904572]
