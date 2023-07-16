@@ -7555,3 +7555,45 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-16 13:18:51] INFO root fetch - processPackages [non-local-detector]: Remove: archive file [/home/abi/fetcher/tmp/non_local_detector-0.2.9.dev0.tar.gz]
 [2023-07-16 13:18:51] INFO root fetch - main [MainThread]: End processing [non-local-detector]: success
 [2023-07-16 13:18:51] INFO root fetch - main [MainThread]: Store serial: [18906433]
+[2023-07-16 13:23:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18906433]
+[2023-07-16 13:24:01] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-16 13:24:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: modpoll
+[2023-07-16 13:24:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: treestructure
+[2023-07-16 13:24:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tb-nightly
+[2023-07-16 13:24:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: redhat-qe-cloud-tools
+[2023-07-16 13:24:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: torchtnt-nightly
+[2023-07-16 13:24:01] WARNING root fetch - processPackages [treestructure]: Skipping, unable to determine old version
+[2023-07-16 13:24:01] INFO root fetch - main [MainThread]: End processing [treestructure] error
+[2023-07-16 13:24:01] INFO root fetch - processPackages [redhat-qe-cloud-tools]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-16 13:24:01] INFO root fetch - processPackages [modpoll]: New version: [0.5.4] Old Version: [0.5.3]
+[2023-07-16 13:24:01] INFO root fetch - processPackages [torchtnt-nightly]: New version: [2023.7.9] Old Version: [2023.7.8]
+[2023-07-16 13:24:01] INFO root fetch - processPackages [torchtnt-nightly]: Downloading https://files.pythonhosted.org/packages/47/a5/6e0ce29c38b55188a4ab6ec32c5f4908ef7a19908d233cb0c077fcc21462/torchtnt-nightly-2023.7.8.tar.gz
+[2023-07-16 13:24:01] INFO root fetch - processPackages [tb-nightly]: New version: [2.9.0a20220502] Old Version: [2.9.0a20220501]
+[2023-07-16 13:24:01] INFO root fetch - processPackages [redhat-qe-cloud-tools]: Downloading https://files.pythonhosted.org/packages/bb/ba/b006d094180ea2c9d36260eb23821d2bdf0bc3e11192b77282a510ac39ee/redhat_qe_cloud_tools-1.0.8.tar.gz
+[2023-07-16 13:24:01] INFO root fetch - processPackages [modpoll]: Downloading https://files.pythonhosted.org/packages/50/0f/4de240b8086cece2c99585b96a5169224bf8ae109e08c10cd759614e5e3f/modpoll-0.5.3.tar.gz
+[2023-07-16 13:24:01] INFO root fetch - processPackages [tb-nightly]: Downloading https://files.pythonhosted.org/packages/cc/bf/76bb32cf070e37f4b777ed5596c5d082fb60a1bfc06e9463401d07021a8a/tb_nightly-2.9.0a20220501-py3-none-any.whl
+[2023-07-16 13:24:01] INFO root fetch - processPackages [torchtnt-nightly]: Downloading https://files.pythonhosted.org/packages/ae/7f/589eb3c0712725a4a9594bdbc4229b9087a94038117bda63c54ef6d2e7e5/torchtnt-nightly-2023.7.9.tar.gz
+[2023-07-16 13:24:02] INFO root fetch - processPackages [torchtnt-nightly]: executing diffoscope
+[2023-07-16 13:24:02] INFO root fetch - processPackages [torchtnt-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchtnt-nightly-2023.7.8.tar.gz tmp/torchtnt-nightly-2023.7.9.tar.gz --markdown 20230716/t/torchtnt-nightly/2023.7.8-2023.7.9/diff.md --exclude *.pyd
+[2023-07-16 13:24:02] INFO root fetch - processPackages [redhat-qe-cloud-tools]: Downloading https://files.pythonhosted.org/packages/73/ee/78f15b2144832b2da8cfd67c1d7f49253a5bbeabe351e94adf1af190017c/redhat_qe_cloud_tools-1.0.9.tar.gz
+[2023-07-16 13:24:02] INFO root fetch - processPackages [modpoll]: Downloading https://files.pythonhosted.org/packages/5f/ec/f33b1c3f5aba92fb0417e8f1dd98661924acafae4e400ac32227bbd61ca7/modpoll-0.5.4.tar.gz
+[2023-07-16 13:24:02] INFO root fetch - processPackages [redhat-qe-cloud-tools]: executing diffoscope
+[2023-07-16 13:24:02] INFO root fetch - processPackages [redhat-qe-cloud-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redhat_qe_cloud_tools-1.0.8.tar.gz tmp/redhat_qe_cloud_tools-1.0.9.tar.gz --markdown 20230716/r/redhat-qe-cloud-tools/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-16 13:24:02] INFO root fetch - processPackages [modpoll]: executing diffoscope
+[2023-07-16 13:24:02] INFO root fetch - processPackages [modpoll]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modpoll-0.5.3.tar.gz tmp/modpoll-0.5.4.tar.gz --markdown 20230716/m/modpoll/0.5.3-0.5.4/diff.md --exclude *.pyd
+[2023-07-16 13:24:02] INFO root fetch - processPackages [tb-nightly]: Downloading https://files.pythonhosted.org/packages/68/8e/03bca092830a4abf26a80c7387b02478c5f948656cb79d63c1bffab65c00/tb_nightly-2.9.0a20220502-py3-none-any.whl
+[2023-07-16 13:24:03] INFO root fetch - processPackages [torchtnt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchtnt-nightly-2023.7.8.tar.gz]
+[2023-07-16 13:24:03] INFO root fetch - processPackages [torchtnt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchtnt-nightly-2023.7.9.tar.gz]
+[2023-07-16 13:24:03] INFO root fetch - main [MainThread]: End processing [torchtnt-nightly]: success
+[2023-07-16 13:24:03] INFO root fetch - processPackages [redhat-qe-cloud-tools]: Remove: archive file [/home/abi/fetcher/tmp/redhat_qe_cloud_tools-1.0.8.tar.gz]
+[2023-07-16 13:24:03] INFO root fetch - processPackages [redhat-qe-cloud-tools]: Remove: archive file [/home/abi/fetcher/tmp/redhat_qe_cloud_tools-1.0.9.tar.gz]
+[2023-07-16 13:24:03] INFO root fetch - main [MainThread]: End processing [redhat-qe-cloud-tools]: success
+[2023-07-16 13:24:03] INFO root fetch - processPackages [modpoll]: Remove: archive file [/home/abi/fetcher/tmp/modpoll-0.5.3.tar.gz]
+[2023-07-16 13:24:03] INFO root fetch - processPackages [modpoll]: Remove: archive file [/home/abi/fetcher/tmp/modpoll-0.5.4.tar.gz]
+[2023-07-16 13:24:03] INFO root fetch - main [MainThread]: End processing [modpoll]: success
+[2023-07-16 13:24:03] INFO root fetch - processPackages [tb-nightly]: executing diffoscope
+[2023-07-16 13:24:03] INFO root fetch - processPackages [tb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip --markdown 20230716/t/tb-nightly/2.9.0a20220501-2.9.0a20220502/diff.md --exclude *.pyd
+[2023-07-16 13:24:05] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip]
+[2023-07-16 13:24:05] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip]
+[2023-07-16 13:24:05] INFO root fetch - main [MainThread]: End processing [tb-nightly]: success
+[2023-07-16 13:24:05] INFO root fetch - main [MainThread]: Store serial: [18906448]
