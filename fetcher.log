@@ -11972,3 +11972,56 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-16 19:16:02] INFO root fetch - processPackages [snap-helpers]: Remove: archive file [/home/abi/fetcher/tmp/snap-helpers-0.4.0.tar.gz]
 [2023-07-16 19:16:02] INFO root fetch - main [MainThread]: End processing [snap-helpers]: success
 [2023-07-16 19:16:02] INFO root fetch - main [MainThread]: Store serial: [18908267]
+[2023-07-16 19:21:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18908267]
+[2023-07-16 19:21:10] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-16 19:21:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: database-local
+[2023-07-16 19:21:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ai-services
+[2023-07-16 19:21:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: balcony
+[2023-07-16 19:21:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: langtest
+[2023-07-16 19:21:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ez-a-sync
+[2023-07-16 19:21:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: textology
+[2023-07-16 19:21:11] INFO root fetch - processPackages [ez-a-sync]: New version: [0.6.2.dev2] Old Version: [0.6.2.dev1]
+[2023-07-16 19:21:11] INFO root fetch - processPackages [database-local]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-16 19:21:11] INFO root fetch - processPackages [textology]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-16 19:21:11] INFO root fetch - processPackages [ai-services]: New version: [0.5.0rc9] Old Version: [0.5.0rc8]
+[2023-07-16 19:21:11] INFO root fetch - processPackages [langtest]: New version: [1.1.0rc1] Old Version: [1.0.0rc2]
+[2023-07-16 19:21:11] INFO root fetch - processPackages [balcony]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-16 19:21:11] INFO root fetch - processPackages [database-local]: Downloading https://files.pythonhosted.org/packages/1c/1b/9691b2d3eace61848ccd79a13693f0ff4a15199b1fd243d8b965176c48aa/database-local-0.0.6.tar.gz
+[2023-07-16 19:21:11] INFO root fetch - processPackages [textology]: Downloading https://files.pythonhosted.org/packages/6c/cb/a2bfd9419eb44bbd0bade05886fe8fe62bec5dc1c9b13d1701f5d863a5f1/textology-0.0.5.tar.gz
+[2023-07-16 19:21:11] INFO root fetch - processPackages [ez-a-sync]: Downloading https://files.pythonhosted.org/packages/a6/21/9ba09e3f81e1ebf613032723f2f5f540612e1d4c2d56dcc0a64e147be098/ez-a-sync-0.6.2.dev1.tar.gz
+[2023-07-16 19:21:11] INFO root fetch - processPackages [balcony]: Downloading https://files.pythonhosted.org/packages/3c/38/6254fcbd99d63c388e42e3106763ea140afd94cd5e8ad747dde2a8817ae8/balcony-0.1.5.tar.gz
+[2023-07-16 19:21:11] INFO root fetch - processPackages [langtest]: Downloading https://files.pythonhosted.org/packages/88/e1/b82f5b5e121029b05fcb29a44a1f12a520ce2b4302a49c562424f8e02697/langtest-1.0.0rc2.tar.gz
+[2023-07-16 19:21:11] INFO root fetch - processPackages [ai-services]: Downloading https://files.pythonhosted.org/packages/77/c5/a81e3c1016a728128de1001a0672005901ca96685966233a57826ceba4e2/ai_services-0.5.0rc8.tar.gz
+[2023-07-16 19:21:11] WARNING root fetch - processPackages [langtest]: Skipping package: exceeds size limit 59564416>=10485760
+[2023-07-16 19:21:11] INFO root fetch - main [MainThread]: End processing [langtest] error
+[2023-07-16 19:21:11] INFO root fetch - processPackages [database-local]: Downloading https://files.pythonhosted.org/packages/a1/19/a06b95eaab679d2cf860014fec0a89b25c60e1be9a257c864b30f06fc683/database-local-0.0.7.tar.gz
+[2023-07-16 19:21:11] INFO root fetch - processPackages [textology]: Downloading https://files.pythonhosted.org/packages/e6/c6/b1662b3e736ca9d5533ee95ad7e97a202b1f780dc4b85ea69181f0dd61f7/textology-0.0.6.tar.gz
+[2023-07-16 19:21:11] INFO root fetch - processPackages [ez-a-sync]: Downloading https://files.pythonhosted.org/packages/2d/9b/55723f6309e51f68dbcffccc8e89108f73533b251d59059c80bc80723104/ez-a-sync-0.6.2.dev2.tar.gz
+[2023-07-16 19:21:11] INFO root fetch - processPackages [balcony]: Downloading https://files.pythonhosted.org/packages/ef/f5/ca5bbde9646e3e83101e9d81ccbe808fc9a65cae5a6aaedd230ba04a99b1/balcony-0.1.6.tar.gz
+[2023-07-16 19:21:11] INFO root fetch - processPackages [database-local]: executing diffoscope
+[2023-07-16 19:21:11] INFO root fetch - processPackages [database-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/database-local-0.0.6.tar.gz tmp/database-local-0.0.7.tar.gz --markdown 20230716/d/database-local/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-16 19:21:11] INFO root fetch - processPackages [textology]: executing diffoscope
+[2023-07-16 19:21:11] INFO root fetch - processPackages [textology]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/textology-0.0.5.tar.gz tmp/textology-0.0.6.tar.gz --markdown 20230716/t/textology/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-16 19:21:11] INFO root fetch - processPackages [ez-a-sync]: executing diffoscope
+[2023-07-16 19:21:11] INFO root fetch - processPackages [ez-a-sync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ez-a-sync-0.6.2.dev1.tar.gz tmp/ez-a-sync-0.6.2.dev2.tar.gz --markdown 20230716/e/ez-a-sync/0.6.2.dev1-0.6.2.dev2/diff.md --exclude *.pyd
+[2023-07-16 19:21:11] INFO root fetch - processPackages [ai-services]: Downloading https://files.pythonhosted.org/packages/c2/e2/78cfce554b3c81f6240f71231bcdbdaa59f36309e81fcc627c63823a5d6c/ai_services-0.5.0rc9.tar.gz
+[2023-07-16 19:21:12] INFO root fetch - processPackages [ai-services]: executing diffoscope
+[2023-07-16 19:21:12] INFO root fetch - processPackages [ai-services]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai_services-0.5.0rc8.tar.gz tmp/ai_services-0.5.0rc9.tar.gz --markdown 20230716/a/ai-services/0.5.0rc8-0.5.0rc9/diff.md --exclude *.pyd
+[2023-07-16 19:21:12] INFO root fetch - processPackages [balcony]: executing diffoscope
+[2023-07-16 19:21:12] INFO root fetch - processPackages [balcony]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/balcony-0.1.5.tar.gz tmp/balcony-0.1.6.tar.gz --markdown 20230716/b/balcony/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-16 19:21:12] INFO root fetch - processPackages [database-local]: Remove: archive file [/home/abi/fetcher/tmp/database-local-0.0.6.tar.gz]
+[2023-07-16 19:21:12] INFO root fetch - processPackages [database-local]: Remove: archive file [/home/abi/fetcher/tmp/database-local-0.0.7.tar.gz]
+[2023-07-16 19:21:12] INFO root fetch - main [MainThread]: End processing [database-local]: success
+[2023-07-16 19:21:13] INFO root fetch - processPackages [textology]: Remove: archive file [/home/abi/fetcher/tmp/textology-0.0.5.tar.gz]
+[2023-07-16 19:21:13] INFO root fetch - processPackages [textology]: Remove: archive file [/home/abi/fetcher/tmp/textology-0.0.6.tar.gz]
+[2023-07-16 19:21:13] INFO root fetch - main [MainThread]: End processing [textology]: success
+[2023-07-16 19:21:13] INFO root fetch - processPackages [ez-a-sync]: Remove: archive file [/home/abi/fetcher/tmp/ez-a-sync-0.6.2.dev1.tar.gz]
+[2023-07-16 19:21:13] INFO root fetch - processPackages [ez-a-sync]: Remove: archive file [/home/abi/fetcher/tmp/ez-a-sync-0.6.2.dev2.tar.gz]
+[2023-07-16 19:21:13] INFO root fetch - main [MainThread]: End processing [ez-a-sync]: success
+[2023-07-16 19:21:13] INFO root fetch - processPackages [balcony]: Remove: archive file [/home/abi/fetcher/tmp/balcony-0.1.5.tar.gz]
+[2023-07-16 19:21:13] INFO root fetch - processPackages [balcony]: Remove: archive file [/home/abi/fetcher/tmp/balcony-0.1.6.tar.gz]
+[2023-07-16 19:21:13] INFO root fetch - main [MainThread]: End processing [balcony]: success
+[2023-07-16 19:21:13] INFO root fetch - processPackages [ai-services]: Remove: archive file [/home/abi/fetcher/tmp/ai_services-0.5.0rc8.tar.gz]
+[2023-07-16 19:21:13] INFO root fetch - processPackages [ai-services]: Remove: archive file [/home/abi/fetcher/tmp/ai_services-0.5.0rc9.tar.gz]
+[2023-07-16 19:21:13] INFO root fetch - main [MainThread]: End processing [ai-services]: success
+[2023-07-16 19:21:13] INFO root fetch - main [MainThread]: Store serial: [18908299]
