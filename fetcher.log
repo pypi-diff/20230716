@@ -1937,3 +1937,63 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-16 03:12:23] INFO root fetch - processPackages [dcapy]: Remove: archive file [/home/abi/fetcher/tmp/dcapy-0.1.9.tar.gz]
 [2023-07-16 03:12:23] INFO root fetch - main [MainThread]: End processing [dcapy]: success
 [2023-07-16 03:12:23] INFO root fetch - main [MainThread]: Store serial: [18904086]
+[2023-07-16 03:17:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18904086]
+[2023-07-16 03:17:31] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-16 03:17:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: symbex
+[2023-07-16 03:17:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-sns-notify
+[2023-07-16 03:17:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyjamas-rfglab
+[2023-07-16 03:17:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dolma
+[2023-07-16 03:17:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-emrserverless-with-delta-lake
+[2023-07-16 03:17:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sync-pre-commit-deps
+[2023-07-16 03:17:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: langful
+[2023-07-16 03:17:32] INFO root fetch - processPackages [dolma]: New version: [0.6.4] Old Version: [0.6.3]
+[2023-07-16 03:17:32] INFO root fetch - processPackages [cdk-sns-notify]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-16 03:17:32] INFO root fetch - processPackages [symbex]: New version: [1.1] Old Version: [1.0]
+[2023-07-16 03:17:32] WARNING root fetch - processPackages [sync-pre-commit-deps]: Skipping, unable to determine old version
+[2023-07-16 03:17:32] INFO root fetch - main [MainThread]: End processing [sync-pre-commit-deps] error
+[2023-07-16 03:17:32] INFO root fetch - processPackages [langful]: New version: [0.34] Old Version: [0.33]
+[2023-07-16 03:17:32] INFO root fetch - processPackages [pyjamas-rfglab]: New version: [2023.7.3] Old Version: [2023.7.2]
+[2023-07-16 03:17:32] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-16 03:17:32] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Downloading https://files.pythonhosted.org/packages/ca/c8/c8aec8668c8ae715e0e15ea3ea2e2e326fea6b5d0258b79e2b876aefa521/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz
+[2023-07-16 03:17:32] INFO root fetch - processPackages [pyjamas-rfglab]: Downloading https://files.pythonhosted.org/packages/77/ac/4649fd45ec91208b111db3d43df73c347d028644150cb351e6a4e717681c/pyjamas-rfglab-2023.7.2.tar.gz
+[2023-07-16 03:17:32] INFO root fetch - processPackages [dolma]: Downloading https://files.pythonhosted.org/packages/92/71/f15487e74234ae9aacce7aed54ebd4d28540561e552d63e98d3576bd39b7/dolma-0.6.3.tar.gz
+[2023-07-16 03:17:32] INFO root fetch - processPackages [cdk-sns-notify]: Downloading https://files.pythonhosted.org/packages/63/7d/ec62f3b7c0e08e1437b2036911a0d42b75ee30ea2cbb819399bdf8b55111/cdk-sns-notify-0.0.98.tar.gz
+[2023-07-16 03:17:32] INFO root fetch - processPackages [symbex]: Downloading https://files.pythonhosted.org/packages/87/97/27e5cfb680f749fa6b7a8a7db16517d2bd3ca4b933250b3c004b45b77668/symbex-1.0.tar.gz
+[2023-07-16 03:17:32] INFO root fetch - processPackages [langful]: Downloading https://files.pythonhosted.org/packages/f4/eb/ade0233b0de423bf1ae98579e092a69b31529458e4204efcf0609694e1e3/langful-0.33-py3-none-any.whl
+[2023-07-16 03:17:32] INFO root fetch - processPackages [pyjamas-rfglab]: Downloading https://files.pythonhosted.org/packages/30/b6/06aec4f9e94e81711d832c1ce71437fe5d8e5fc5fefdf51606ba6328d9d9/pyjamas-rfglab-2023.7.3.tar.gz
+[2023-07-16 03:17:32] INFO root fetch - processPackages [symbex]: Downloading https://files.pythonhosted.org/packages/4e/72/197389866706eb6d75f9313391de6f331d0bf90ee6dd4fae781c60cc2b99/symbex-1.1.tar.gz
+[2023-07-16 03:17:32] INFO root fetch - processPackages [cdk-sns-notify]: Downloading https://files.pythonhosted.org/packages/18/81/3593e022c53913815c1207f0d20763efc2764992a13c81d641f3a01edf7d/cdk-sns-notify-0.0.99.tar.gz
+[2023-07-16 03:17:32] INFO root fetch - processPackages [langful]: Downloading https://files.pythonhosted.org/packages/b2/68/d6ed7f3303e891d1a6d1612ebf69039c14e5d28f7d40b340600b0a1ddf5f/langful-0.34-py3-none-any.whl
+[2023-07-16 03:17:32] INFO root fetch - processPackages [cdk-sns-notify]: executing diffoscope
+[2023-07-16 03:17:32] INFO root fetch - processPackages [cdk-sns-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-sns-notify-0.0.98.tar.gz tmp/cdk-sns-notify-0.0.99.tar.gz --markdown 20230716/c/cdk-sns-notify/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-16 03:17:32] INFO root fetch - processPackages [dolma]: Downloading https://files.pythonhosted.org/packages/30/c2/bc3c5b8fd72eb89cf93f9f9ffd2a0a3b9bfcc6623d259cf75772930867be/dolma-0.6.4.tar.gz
+[2023-07-16 03:17:32] INFO root fetch - processPackages [langful]: executing diffoscope
+[2023-07-16 03:17:32] INFO root fetch - processPackages [langful]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langful-0.33-py3-none-any.whl.zip tmp/langful-0.34-py3-none-any.whl.zip --markdown 20230716/l/langful/0.33-0.34/diff.md --exclude *.pyd
+[2023-07-16 03:17:32] INFO root fetch - processPackages [pyjamas-rfglab]: executing diffoscope
+[2023-07-16 03:17:32] INFO root fetch - processPackages [pyjamas-rfglab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyjamas-rfglab-2023.7.2.tar.gz tmp/pyjamas-rfglab-2023.7.3.tar.gz --markdown 20230716/p/pyjamas-rfglab/2023.7.2-2023.7.3/diff.md --exclude *.pyd
+[2023-07-16 03:17:32] INFO root fetch - processPackages [symbex]: executing diffoscope
+[2023-07-16 03:17:32] INFO root fetch - processPackages [symbex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/symbex-1.0.tar.gz tmp/symbex-1.1.tar.gz --markdown 20230716/s/symbex/1.0-1.1/diff.md --exclude *.pyd
+[2023-07-16 03:17:33] INFO root fetch - processPackages [dolma]: executing diffoscope
+[2023-07-16 03:17:33] INFO root fetch - processPackages [dolma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dolma-0.6.3.tar.gz tmp/dolma-0.6.4.tar.gz --markdown 20230716/d/dolma/0.6.3-0.6.4/diff.md --exclude *.pyd
+[2023-07-16 03:17:33] INFO root fetch - processPackages [langful]: Remove: archive file [/home/abi/fetcher/tmp/langful-0.33-py3-none-any.whl.zip]
+[2023-07-16 03:17:33] INFO root fetch - processPackages [langful]: Remove: archive file [/home/abi/fetcher/tmp/langful-0.34-py3-none-any.whl.zip]
+[2023-07-16 03:17:33] INFO root fetch - main [MainThread]: End processing [langful]: success
+[2023-07-16 03:17:33] INFO root fetch - processPackages [cdk-sns-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sns-notify-0.0.98.tar.gz]
+[2023-07-16 03:17:33] INFO root fetch - processPackages [cdk-sns-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sns-notify-0.0.99.tar.gz]
+[2023-07-16 03:17:33] INFO root fetch - main [MainThread]: End processing [cdk-sns-notify]: success
+[2023-07-16 03:17:33] INFO root fetch - processPackages [symbex]: Remove: archive file [/home/abi/fetcher/tmp/symbex-1.0.tar.gz]
+[2023-07-16 03:17:33] INFO root fetch - processPackages [symbex]: Remove: archive file [/home/abi/fetcher/tmp/symbex-1.1.tar.gz]
+[2023-07-16 03:17:33] INFO root fetch - main [MainThread]: End processing [symbex]: success
+[2023-07-16 03:17:34] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Downloading https://files.pythonhosted.org/packages/7f/24/30b3ba3f3be3fa0cda5f66dcfce20bb782a7327b2635d12d6f66d6acf91f/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz
+[2023-07-16 03:17:34] INFO root fetch - processPackages [pyjamas-rfglab]: Remove: archive file [/home/abi/fetcher/tmp/pyjamas-rfglab-2023.7.2.tar.gz]
+[2023-07-16 03:17:34] INFO root fetch - processPackages [pyjamas-rfglab]: Remove: archive file [/home/abi/fetcher/tmp/pyjamas-rfglab-2023.7.3.tar.gz]
+[2023-07-16 03:17:34] INFO root fetch - main [MainThread]: End processing [pyjamas-rfglab]: success
+[2023-07-16 03:17:34] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: executing diffoscope
+[2023-07-16 03:17:34] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz tmp/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz --markdown 20230716/c/cdk-emrserverless-with-delta-lake/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-07-16 03:17:35] INFO root fetch - processPackages [dolma]: Remove: archive file [/home/abi/fetcher/tmp/dolma-0.6.3.tar.gz]
+[2023-07-16 03:17:35] INFO root fetch - processPackages [dolma]: Remove: archive file [/home/abi/fetcher/tmp/dolma-0.6.4.tar.gz]
+[2023-07-16 03:17:35] INFO root fetch - main [MainThread]: End processing [dolma]: success
+[2023-07-16 03:17:35] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Remove: archive file [/home/abi/fetcher/tmp/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz]
+[2023-07-16 03:17:35] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Remove: archive file [/home/abi/fetcher/tmp/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz]
+[2023-07-16 03:17:35] INFO root fetch - main [MainThread]: End processing [cdk-emrserverless-with-delta-lake]: success
+[2023-07-16 03:17:35] INFO root fetch - main [MainThread]: Store serial: [18904152]
