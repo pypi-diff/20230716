@@ -7889,3 +7889,50 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-16 13:44:54] INFO root fetch - processPackages [wcferry]: Remove: archive file [/home/abi/fetcher/tmp/wcferry-39.0.1.0.tar.gz]
 [2023-07-16 13:44:54] INFO root fetch - main [MainThread]: End processing [wcferry]: success
 [2023-07-16 13:44:54] INFO root fetch - main [MainThread]: Store serial: [18906562]
+[2023-07-16 13:49:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18906562]
+[2023-07-16 13:50:04] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-16 13:50:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: for-testing
+[2023-07-16 13:50:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: chdb
+[2023-07-16 13:50:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: eznet-keras
+[2023-07-16 13:50:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lotr-api-rr
+[2023-07-16 13:50:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: for-testing
+[2023-07-16 13:50:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: malwareDetector
+[2023-07-16 13:50:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: GBQM
+[2023-07-16 13:50:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bbox-visualizer2
+[2023-07-16 13:50:04] WARNING root fetch - processPackages [lotr-api-rr]: Skipping, unable to determine old version
+[2023-07-16 13:50:04] INFO root fetch - main [MainThread]: End processing [lotr-api-rr] error
+[2023-07-16 13:50:04] INFO root fetch - processPackages [chdb]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-16 13:50:04] WARNING root fetch - processPackages [GBQM]: Skipping, unable to determine old version
+[2023-07-16 13:50:04] INFO root fetch - main [MainThread]: End processing [GBQM] error
+[2023-07-16 13:50:04] INFO root fetch - processPackages [for-testing]: New version: [49.0.0b4] Old Version: [49.0.0b3]
+[2023-07-16 13:50:04] WARNING root fetch - processPackages [malwareDetector]: Skipping, unable to determine old version
+[2023-07-16 13:50:04] INFO root fetch - main [MainThread]: End processing [malwareDetector] error
+[2023-07-16 13:50:04] INFO root fetch - processPackages [eznet-keras]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-16 13:50:04] INFO root fetch - processPackages [for-testing]: New version: [49.0.0b4] Old Version: [49.0.0b3]
+[2023-07-16 13:50:04] INFO root fetch - processPackages [bbox-visualizer2]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-16 13:50:04] INFO root fetch - processPackages [eznet-keras]: Downloading https://files.pythonhosted.org/packages/23/c8/117e97b85f2466581f5a55df9c2492fe52a153f27f2cd8314116946710a9/eznet_keras-1.0.0.tar.gz
+[2023-07-16 13:50:04] INFO root fetch - processPackages [for-testing]: Downloading https://files.pythonhosted.org/packages/f0/a6/177e990c6ee82c2b19484f3ae17eeb01dc3f01ca32436072e0e524a9a0f9/for-testing-49.0.0b3.tar.gz
+[2023-07-16 13:50:04] INFO root fetch - processPackages [for-testing]: Downloading https://files.pythonhosted.org/packages/f0/a6/177e990c6ee82c2b19484f3ae17eeb01dc3f01ca32436072e0e524a9a0f9/for-testing-49.0.0b3.tar.gz
+[2023-07-16 13:50:04] INFO root fetch - processPackages [chdb]: Downloading https://files.pythonhosted.org/packages/46/34/78cda0c6a8c072a692d2240af17a7c99de4739831f72ec6589ec96e8952b/chdb-0.8.0-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-16 13:50:05] INFO root fetch - processPackages [bbox-visualizer2]: Downloading https://files.pythonhosted.org/packages/1e/af/c36bffd295966ac6866c04608dda5ea3dc1524d6e0b7e11f50a178daac2b/bbox_visualizer2-0.0.3.tar.gz
+[2023-07-16 13:50:05] WARNING root fetch - processPackages [chdb]: Skipping package: exceeds size limit 108993016>=10485760
+[2023-07-16 13:50:05] INFO root fetch - main [MainThread]: End processing [chdb] error
+[2023-07-16 13:50:05] INFO root fetch - processPackages [eznet-keras]: Downloading https://files.pythonhosted.org/packages/7a/05/62024262849e98c17c4ddd09d62303adea1aa1a9065618d82078feb4518c/eznet_keras-1.0.1.tar.gz
+[2023-07-16 13:50:05] WARNING root fetch - processPackages [bbox-visualizer2]: Skipping package: exceeds size limit 12813558>=10485760
+[2023-07-16 13:50:05] INFO root fetch - main [MainThread]: End processing [bbox-visualizer2] error
+[2023-07-16 13:50:05] INFO root fetch - processPackages [eznet-keras]: executing diffoscope
+[2023-07-16 13:50:05] INFO root fetch - processPackages [eznet-keras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eznet_keras-1.0.0.tar.gz tmp/eznet_keras-1.0.1.tar.gz --markdown 20230716/e/eznet-keras/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-16 13:50:05] INFO root fetch - processPackages [for-testing]: Downloading https://files.pythonhosted.org/packages/23/3f/a2836c2d63c684c3e39ddfe57457a8a4d0779239526de1bb43775361f116/for-testing-49.0.0b4.tar.gz
+[2023-07-16 13:50:05] INFO root fetch - processPackages [for-testing]: Downloading https://files.pythonhosted.org/packages/23/3f/a2836c2d63c684c3e39ddfe57457a8a4d0779239526de1bb43775361f116/for-testing-49.0.0b4.tar.gz
+[2023-07-16 13:50:05] INFO root fetch - processPackages [for-testing]: executing diffoscope
+[2023-07-16 13:50:05] INFO root fetch - processPackages [for-testing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/for-testing-49.0.0b3.tar.gz tmp/for-testing-49.0.0b4.tar.gz --markdown 20230716/f/for-testing/49.0.0b3-49.0.0b4/diff.md --exclude *.pyd
+[2023-07-16 13:50:05] INFO root fetch - processPackages [for-testing]: executing diffoscope
+[2023-07-16 13:50:05] INFO root fetch - processPackages [for-testing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/for-testing-49.0.0b3.tar.gz tmp/for-testing-49.0.0b4.tar.gz --markdown 20230716/f/for-testing/49.0.0b3-49.0.0b4/diff.md --exclude *.pyd
+[2023-07-16 13:50:06] INFO root fetch - processPackages [eznet-keras]: Remove: archive file [/home/abi/fetcher/tmp/eznet_keras-1.0.0.tar.gz]
+[2023-07-16 13:50:06] INFO root fetch - processPackages [eznet-keras]: Remove: archive file [/home/abi/fetcher/tmp/eznet_keras-1.0.1.tar.gz]
+[2023-07-16 13:50:06] INFO root fetch - main [MainThread]: End processing [eznet-keras]: success
+[2023-07-16 13:50:06] INFO root fetch - processPackages [for-testing]: Remove: archive file [/home/abi/fetcher/tmp/for-testing-49.0.0b3.tar.gz]
+[2023-07-16 13:50:06] INFO root fetch - processPackages [for-testing]: Remove: archive file [/home/abi/fetcher/tmp/for-testing-49.0.0b4.tar.gz]
+[2023-07-16 13:50:06] INFO root fetch - main [MainThread]: End processing [for-testing]: success
+[2023-07-16 13:50:06] INFO root fetch - main [MainThread]: End processing [for-testing]: success
+[2023-07-16 13:50:06] INFO root fetch - main [MainThread]: Store serial: [18906592]
