@@ -15044,3 +15044,51 @@ zipfile.BadZipFile: File is not a zip file
 [2023-07-16 23:52:09] INFO root fetch - processPackages [AutoCarver]: Remove: archive file [/home/abi/fetcher/tmp/AutoCarver-5.1.2.tar.gz]
 [2023-07-16 23:52:09] INFO root fetch - main [MainThread]: End processing [AutoCarver]: success
 [2023-07-16 23:52:09] INFO root fetch - main [MainThread]: Store serial: [18909652]
+[2023-07-16 23:57:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18909652]
+[2023-07-16 23:57:18] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-16 23:57:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: simple2encrypt
+[2023-07-16 23:57:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyroostermoney
+[2023-07-16 23:57:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: filometro
+[2023-07-16 23:57:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: golfy
+[2023-07-16 23:57:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gdshoplib
+[2023-07-16 23:57:18] INFO root fetch - processPackages [golfy]: New version: [2.3.0] Old Version: [2.2.0]
+[2023-07-16 23:57:18] INFO root fetch - processPackages [filometro]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-07-16 23:57:18] INFO root fetch - processPackages [pyroostermoney]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-07-16 23:57:18] INFO root fetch - processPackages [simple2encrypt]: New version: [1.5.1] Old Version: [1.5]
+[2023-07-16 23:57:18] INFO root fetch - processPackages [gdshoplib]: New version: [2.1.1] Old Version: [2.0.5]
+[2023-07-16 23:57:18] INFO root fetch - processPackages [pyroostermoney]: Downloading https://files.pythonhosted.org/packages/59/86/d7b3afdddd39f324450ef168281d47f749cbb78d2449ebd1c9e370c51910/pyroostermoney-0.1.6.tar.gz
+[2023-07-16 23:57:18] INFO root fetch - processPackages [simple2encrypt]: Downloading https://files.pythonhosted.org/packages/d1/85/7b647b34f1be1f4465cc3f0e1e11fa3711951718d807c78ad12dc5edbe3b/simple2encrypt-1.5.tar.gz
+[2023-07-16 23:57:18] INFO root fetch - processPackages [golfy]: Downloading https://files.pythonhosted.org/packages/15/f8/94ac2763473f059f2ad0cde74fcd8b51d5b91c376df77bba8923f850d836/golfy-2.2.0.tar.gz
+[2023-07-16 23:57:18] INFO root fetch - processPackages [gdshoplib]: Downloading https://files.pythonhosted.org/packages/de/67/7c7e1c364adaf8ecbb3e6575106ff8c9836bb72d2aa5ffde164ba389bd2d/gdshoplib-2.0.5.tar.gz
+[2023-07-16 23:57:18] INFO root fetch - processPackages [filometro]: Downloading https://files.pythonhosted.org/packages/19/92/08572db040a8266daf091bacca5ca7d795837d2aeb653024fa5294db52a7/filometro-1.2.0.tar.gz
+[2023-07-16 23:57:19] INFO root fetch - processPackages [simple2encrypt]: Downloading https://files.pythonhosted.org/packages/e7/95/bcaae700b896a05348daf314fc95a920b3cdf21b18caf91c7241b6d0f6d1/simple2encrypt-1.5.1.tar.gz
+[2023-07-16 23:57:19] INFO root fetch - processPackages [pyroostermoney]: Downloading https://files.pythonhosted.org/packages/7b/82/313e1ef2b930b425592fd427835c7d1fbdf92c3c38c56dde89db444949a5/pyroostermoney-0.1.7.tar.gz
+[2023-07-16 23:57:19] INFO root fetch - processPackages [golfy]: Downloading https://files.pythonhosted.org/packages/bd/1a/aa4af1bcfeff167b6668f136980ec9f544599669a71259465702e3b5abb2/golfy-2.3.0.tar.gz
+[2023-07-16 23:57:19] INFO root fetch - processPackages [gdshoplib]: Downloading https://files.pythonhosted.org/packages/88/9f/d2cb41d6fad3a04d16392ab170ea4836e0920b41a08fb9447f7c7d23650f/gdshoplib-2.1.1.tar.gz
+[2023-07-16 23:57:19] INFO root fetch - processPackages [filometro]: Downloading https://files.pythonhosted.org/packages/b2/e4/c66c8ec9af5a4b9aa8f85089ab9191cf5fc3ea06ddf259787b332795625d/filometro-1.2.1.tar.gz
+[2023-07-16 23:57:19] INFO root fetch - processPackages [pyroostermoney]: executing diffoscope
+[2023-07-16 23:57:19] INFO root fetch - processPackages [pyroostermoney]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyroostermoney-0.1.6.tar.gz tmp/pyroostermoney-0.1.7.tar.gz --markdown 20230716/p/pyroostermoney/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-07-16 23:57:19] INFO root fetch - processPackages [simple2encrypt]: executing diffoscope
+[2023-07-16 23:57:19] INFO root fetch - processPackages [simple2encrypt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simple2encrypt-1.5.tar.gz tmp/simple2encrypt-1.5.1.tar.gz --markdown 20230716/s/simple2encrypt/1.5-1.5.1/diff.md --exclude *.pyd
+[2023-07-16 23:57:19] INFO root fetch - processPackages [filometro]: executing diffoscope
+[2023-07-16 23:57:19] INFO root fetch - processPackages [filometro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/filometro-1.2.0.tar.gz tmp/filometro-1.2.1.tar.gz --markdown 20230716/f/filometro/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-07-16 23:57:19] INFO root fetch - processPackages [golfy]: executing diffoscope
+[2023-07-16 23:57:19] INFO root fetch - processPackages [golfy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/golfy-2.2.0.tar.gz tmp/golfy-2.3.0.tar.gz --markdown 20230716/g/golfy/2.2.0-2.3.0/diff.md --exclude *.pyd
+[2023-07-16 23:57:19] INFO root fetch - processPackages [gdshoplib]: executing diffoscope
+[2023-07-16 23:57:19] INFO root fetch - processPackages [gdshoplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gdshoplib-2.0.5.tar.gz tmp/gdshoplib-2.1.1.tar.gz --markdown 20230716/g/gdshoplib/2.0.5-2.1.1/diff.md --exclude *.pyd
+[2023-07-16 23:57:20] INFO root fetch - processPackages [simple2encrypt]: Remove: archive file [/home/abi/fetcher/tmp/simple2encrypt-1.5.tar.gz]
+[2023-07-16 23:57:20] INFO root fetch - processPackages [simple2encrypt]: Remove: archive file [/home/abi/fetcher/tmp/simple2encrypt-1.5.1.tar.gz]
+[2023-07-16 23:57:20] INFO root fetch - main [MainThread]: End processing [simple2encrypt]: success
+[2023-07-16 23:57:20] INFO root fetch - processPackages [pyroostermoney]: Remove: archive file [/home/abi/fetcher/tmp/pyroostermoney-0.1.6.tar.gz]
+[2023-07-16 23:57:20] INFO root fetch - processPackages [pyroostermoney]: Remove: archive file [/home/abi/fetcher/tmp/pyroostermoney-0.1.7.tar.gz]
+[2023-07-16 23:57:20] INFO root fetch - main [MainThread]: End processing [pyroostermoney]: success
+[2023-07-16 23:57:20] INFO root fetch - processPackages [filometro]: Remove: archive file [/home/abi/fetcher/tmp/filometro-1.2.0.tar.gz]
+[2023-07-16 23:57:20] INFO root fetch - processPackages [filometro]: Remove: archive file [/home/abi/fetcher/tmp/filometro-1.2.1.tar.gz]
+[2023-07-16 23:57:20] INFO root fetch - main [MainThread]: End processing [filometro]: success
+[2023-07-16 23:57:20] INFO root fetch - processPackages [golfy]: Remove: archive file [/home/abi/fetcher/tmp/golfy-2.2.0.tar.gz]
+[2023-07-16 23:57:20] INFO root fetch - processPackages [golfy]: Remove: archive file [/home/abi/fetcher/tmp/golfy-2.3.0.tar.gz]
+[2023-07-16 23:57:20] INFO root fetch - main [MainThread]: End processing [golfy]: success
+[2023-07-16 23:57:20] INFO root fetch - processPackages [gdshoplib]: Remove: archive file [/home/abi/fetcher/tmp/gdshoplib-2.0.5.tar.gz]
+[2023-07-16 23:57:20] INFO root fetch - processPackages [gdshoplib]: Remove: archive file [/home/abi/fetcher/tmp/gdshoplib-2.1.1.tar.gz]
+[2023-07-16 23:57:20] INFO root fetch - main [MainThread]: End processing [gdshoplib]: success
+[2023-07-16 23:57:20] INFO root fetch - main [MainThread]: Store serial: [18909671]
