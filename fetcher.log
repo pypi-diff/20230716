@@ -7984,3 +7984,51 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-16 13:55:17] INFO root fetch - processPackages [metrics-as-scores]: Remove: archive file [/home/abi/fetcher/tmp/metrics_as_scores-2.7.0.tar.gz]
 [2023-07-16 13:55:17] INFO root fetch - main [MainThread]: End processing [metrics-as-scores]: success
 [2023-07-16 13:55:17] INFO root fetch - main [MainThread]: Store serial: [18906616]
+[2023-07-16 14:00:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18906616]
+[2023-07-16 14:00:25] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-16 14:00:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hyfi
+[2023-07-16 14:00:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mona-sdk
+[2023-07-16 14:00:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: financeager
+[2023-07-16 14:00:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyrobosim
+[2023-07-16 14:00:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fakesnow
+[2023-07-16 14:00:25] INFO root fetch - processPackages [fakesnow]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-07-16 14:00:25] INFO root fetch - processPackages [mona-sdk]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-16 14:00:25] INFO root fetch - processPackages [financeager]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-07-16 14:00:25] INFO root fetch - processPackages [pyrobosim]: New version: [1.0.0] Old Version: [0.0.0]
+[2023-07-16 14:00:25] INFO root fetch - processPackages [hyfi]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-07-16 14:00:25] INFO root fetch - processPackages [fakesnow]: Downloading https://files.pythonhosted.org/packages/e2/51/740355ee9e8a233d1bfc47d86a86efbc430b71b3c3107bcfa6b6bfa9dc53/fakesnow-0.4.0.tar.gz
+[2023-07-16 14:00:26] INFO root fetch - processPackages [pyrobosim]: Downloading https://files.pythonhosted.org/packages/26/39/bea582e8543c6476f3ee2dc681c19f8319b25ed52b62e4c929780861c2f4/pyrobosim-0.0.0.tar.gz
+[2023-07-16 14:00:26] INFO root fetch - processPackages [financeager]: Downloading https://files.pythonhosted.org/packages/88/01/8234cf46041e4b63c29ab6cebb6c7cf87f8201a77a1f6781faf3b2ee4a2f/financeager-1.3.0.tar.gz
+[2023-07-16 14:00:26] INFO root fetch - processPackages [hyfi]: Downloading https://files.pythonhosted.org/packages/67/14/a8874bf5d4feab7aac5db7c9744a30b740f39d014d10b82d7128653a8727/hyfi-1.2.8.tar.gz
+[2023-07-16 14:00:26] INFO root fetch - processPackages [mona-sdk]: Downloading https://files.pythonhosted.org/packages/77/c2/28caca48c10e039777e0b30189572242e59f5bf35f99d1c5187ce51fa97d/mona_sdk-0.0.8.tar.gz
+[2023-07-16 14:00:26] INFO root fetch - processPackages [fakesnow]: Downloading https://files.pythonhosted.org/packages/15/28/17755744632ce51875a74678b2fcb46e28552ffb5bc923db0f516da95ae0/fakesnow-0.4.1.tar.gz
+[2023-07-16 14:00:26] INFO root fetch - processPackages [fakesnow]: executing diffoscope
+[2023-07-16 14:00:26] INFO root fetch - processPackages [fakesnow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fakesnow-0.4.0.tar.gz tmp/fakesnow-0.4.1.tar.gz --markdown 20230716/f/fakesnow/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-07-16 14:00:26] INFO root fetch - processPackages [pyrobosim]: Downloading https://files.pythonhosted.org/packages/6b/a9/80207984cf2405812358096d8ebeabe35d388d2725afc08d8c2ff739fb18/pyrobosim-1.0.0.tar.gz
+[2023-07-16 14:00:26] INFO root fetch - processPackages [hyfi]: Downloading https://files.pythonhosted.org/packages/e7/b9/098a45bf19855c41ad95ca39f957e22c0579c1d45fee04080711b5dc17ea/hyfi-1.2.9.tar.gz
+[2023-07-16 14:00:26] INFO root fetch - processPackages [financeager]: Downloading https://files.pythonhosted.org/packages/a7/c6/e1c0ed4f0421bf20ffbabe6ae6df54310768301426cb7c9699af4d195c0b/financeager-1.3.1.tar.gz
+[2023-07-16 14:00:26] INFO root fetch - processPackages [hyfi]: executing diffoscope
+[2023-07-16 14:00:26] INFO root fetch - processPackages [hyfi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyfi-1.2.8.tar.gz tmp/hyfi-1.2.9.tar.gz --markdown 20230716/h/hyfi/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-07-16 14:00:26] INFO root fetch - processPackages [mona-sdk]: Downloading https://files.pythonhosted.org/packages/53/31/03a2f02a79557a6670cc5a0342bce2ac3783dac2252cba394719bc2a6cff/mona_sdk-0.0.9.tar.gz
+[2023-07-16 14:00:26] INFO root fetch - processPackages [pyrobosim]: executing diffoscope
+[2023-07-16 14:00:26] INFO root fetch - processPackages [pyrobosim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrobosim-0.0.0.tar.gz tmp/pyrobosim-1.0.0.tar.gz --markdown 20230716/p/pyrobosim/0.0.0-1.0.0/diff.md --exclude *.pyd
+[2023-07-16 14:00:26] INFO root fetch - processPackages [financeager]: executing diffoscope
+[2023-07-16 14:00:26] INFO root fetch - processPackages [financeager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/financeager-1.3.0.tar.gz tmp/financeager-1.3.1.tar.gz --markdown 20230716/f/financeager/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-07-16 14:00:26] INFO root fetch - processPackages [mona-sdk]: executing diffoscope
+[2023-07-16 14:00:26] INFO root fetch - processPackages [mona-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mona_sdk-0.0.8.tar.gz tmp/mona_sdk-0.0.9.tar.gz --markdown 20230716/m/mona-sdk/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-16 14:00:27] INFO root fetch - processPackages [fakesnow]: Remove: archive file [/home/abi/fetcher/tmp/fakesnow-0.4.0.tar.gz]
+[2023-07-16 14:00:27] INFO root fetch - processPackages [fakesnow]: Remove: archive file [/home/abi/fetcher/tmp/fakesnow-0.4.1.tar.gz]
+[2023-07-16 14:00:27] INFO root fetch - main [MainThread]: End processing [fakesnow]: success
+[2023-07-16 14:00:27] INFO root fetch - processPackages [hyfi]: Remove: archive file [/home/abi/fetcher/tmp/hyfi-1.2.8.tar.gz]
+[2023-07-16 14:00:27] INFO root fetch - processPackages [hyfi]: Remove: archive file [/home/abi/fetcher/tmp/hyfi-1.2.9.tar.gz]
+[2023-07-16 14:00:27] INFO root fetch - main [MainThread]: End processing [hyfi]: success
+[2023-07-16 14:00:27] INFO root fetch - processPackages [mona-sdk]: Remove: archive file [/home/abi/fetcher/tmp/mona_sdk-0.0.8.tar.gz]
+[2023-07-16 14:00:27] INFO root fetch - processPackages [mona-sdk]: Remove: archive file [/home/abi/fetcher/tmp/mona_sdk-0.0.9.tar.gz]
+[2023-07-16 14:00:27] INFO root fetch - main [MainThread]: End processing [mona-sdk]: success
+[2023-07-16 14:00:27] INFO root fetch - processPackages [financeager]: Remove: archive file [/home/abi/fetcher/tmp/financeager-1.3.0.tar.gz]
+[2023-07-16 14:00:27] INFO root fetch - processPackages [financeager]: Remove: archive file [/home/abi/fetcher/tmp/financeager-1.3.1.tar.gz]
+[2023-07-16 14:00:27] INFO root fetch - main [MainThread]: End processing [financeager]: success
+[2023-07-16 14:00:27] INFO root fetch - processPackages [pyrobosim]: Remove: archive file [/home/abi/fetcher/tmp/pyrobosim-0.0.0.tar.gz]
+[2023-07-16 14:00:27] INFO root fetch - processPackages [pyrobosim]: Remove: archive file [/home/abi/fetcher/tmp/pyrobosim-1.0.0.tar.gz]
+[2023-07-16 14:00:27] INFO root fetch - main [MainThread]: End processing [pyrobosim]: success
+[2023-07-16 14:00:27] INFO root fetch - main [MainThread]: Store serial: [18906630]
