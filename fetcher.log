@@ -9162,3 +9162,91 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-16 15:25:18] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev9.tar.gz]
 [2023-07-16 15:25:18] INFO root fetch - main [MainThread]: End processing [moto]: success
 [2023-07-16 15:25:18] INFO root fetch - main [MainThread]: Store serial: [18907158]
+[2023-07-16 15:30:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18907158]
+[2023-07-16 15:30:26] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-16 15:30:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wf-cv-utils
+[2023-07-16 15:30:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: treedb
+[2023-07-16 15:30:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: checkov
+[2023-07-16 15:30:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bigdl-dllib-spark3
+[2023-07-16 15:30:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mostats
+[2023-07-16 15:30:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bigdl-orca-spark3
+[2023-07-16 15:30:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bigdl-friesian-spark3
+[2023-07-16 15:30:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bigdl-chronos-spark3
+[2023-07-16 15:30:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bigdl-spark3
+[2023-07-16 15:30:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pycodecage
+[2023-07-16 15:30:27] INFO root fetch - processPackages [wf-cv-utils]: New version: [3.5.0] Old Version: [3.4.0]
+[2023-07-16 15:30:27] INFO root fetch - processPackages [treedb]: New version: [2.6.2] Old Version: [2.6.1]
+[2023-07-16 15:30:27] INFO root fetch - processPackages [mostats]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-16 15:30:27] WARNING root fetch - processPackages [pycodecage]: Skipping, unable to determine old version
+[2023-07-16 15:30:27] INFO root fetch - processPackages [pycodecage]: Start processing: cloudlanguagetools
+[2023-07-16 15:30:27] INFO root fetch - main [MainThread]: End processing [pycodecage] error
+[2023-07-16 15:30:27] INFO root fetch - processPackages [bigdl-dllib-spark3]: New version: [2.4.0b20230716] Old Version: [2.4.0b20230715]
+[2023-07-16 15:30:27] INFO root fetch - processPackages [bigdl-chronos-spark3]: New version: [2.4.0b20230716] Old Version: [2.4.0b20230715]
+[2023-07-16 15:30:27] INFO root fetch - processPackages [bigdl-orca-spark3]: New version: [2.4.0b20230716] Old Version: [2.4.0b20230715]
+[2023-07-16 15:30:27] INFO root fetch - processPackages [bigdl-spark3]: New version: [2.4.0b20230716] Old Version: [2.4.0b20230715]
+[2023-07-16 15:30:27] INFO root fetch - processPackages [bigdl-friesian-spark3]: New version: [2.4.0b20230716] Old Version: [2.4.0b20230715]
+[2023-07-16 15:30:27] INFO root fetch - processPackages [checkov]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-07-16 15:30:27] INFO root fetch - processPackages [mostats]: Downloading https://files.pythonhosted.org/packages/4d/d5/9737916cb01fc3200ddc5da2fd490309beeb71c18c200ecc00df1bd51d39/mostats-1.0.8-py3-none-any.whl
+[2023-07-16 15:30:27] INFO root fetch - processPackages [cloudlanguagetools]: New version: [5.8] Old Version: [5.7]
+[2023-07-16 15:30:27] INFO root fetch - processPackages [wf-cv-utils]: Downloading https://files.pythonhosted.org/packages/c6/a3/a7072af7db9b517c81f3e99c0e0e7b235fb5f3acc6a35fcc630dbb5dd88d/wf-cv-utils-3.4.0.tar.gz
+[2023-07-16 15:30:27] INFO root fetch - processPackages [bigdl-friesian-spark3]: Downloading https://files.pythonhosted.org/packages/67/db/8a6e6d679ef10c9af430bb93d0d9538e1ed487d623967377527ffbde8645/bigdl_friesian_spark3-2.4.0b20230715-py3-none-manylinux1_x86_64.whl
+[2023-07-16 15:30:27] INFO root fetch - processPackages [treedb]: Downloading https://files.pythonhosted.org/packages/23/45/61200af7227e97439c95f479954ad7d2f2b5814e75c9d22a5dbc604a51f5/treedb-2.6.1.zip
+[2023-07-16 15:30:27] INFO root fetch - processPackages [bigdl-dllib-spark3]: Downloading https://files.pythonhosted.org/packages/7a/65/924fa83919882b807ae65e9247e2ea874a27f2a1ae4e93f4d43806c62de1/bigdl-dllib-spark3-2.4.0b20230715.tar.gz
+[2023-07-16 15:30:27] INFO root fetch - processPackages [bigdl-spark3]: Downloading https://files.pythonhosted.org/packages/a8/f0/77a5bdd80805256fe016ef0c4e8608c6cc6a476e4933232ecd47ca961def/bigdl_spark3-2.4.0b20230715-py3-none-manylinux1_x86_64.whl
+[2023-07-16 15:30:27] INFO root fetch - processPackages [bigdl-chronos-spark3]: Downloading https://files.pythonhosted.org/packages/fd/a8/d2be66f6ec438e27e109f88773006593413dbba7ad989fa2845be7a7a7eb/bigdl_chronos_spark3-2.4.0b20230715-py3-none-manylinux1_x86_64.whl
+[2023-07-16 15:30:27] INFO root fetch - processPackages [checkov]: Downloading https://files.pythonhosted.org/packages/8f/c0/b3713d4cbc03ff63d42af6bc96060bf07ac510f578af21d0beb23a58ebd5/checkov-2.3.98.tar.gz
+[2023-07-16 15:30:27] WARNING root fetch - processPackages [bigdl-dllib-spark3]: Skipping package: exceeds size limit 61329419>=10485760
+[2023-07-16 15:30:27] INFO root fetch - main [MainThread]: End processing [bigdl-dllib-spark3] error
+[2023-07-16 15:30:27] INFO root fetch - processPackages [bigdl-orca-spark3]: Downloading https://files.pythonhosted.org/packages/10/06/efed98f2fc03c96ce6f88a7498dc1db24c24a72879c930ad4f84e73e3fb6/bigdl_orca_spark3-2.4.0b20230715-py3-none-manylinux1_x86_64.whl
+[2023-07-16 15:30:27] INFO root fetch - processPackages [cloudlanguagetools]: Downloading https://files.pythonhosted.org/packages/61/11/ad5db452a4590c8b4e15f1c093ba120a0c936a62a950038dbbedaac90421/cloudlanguagetools-5.7.tar.gz
+[2023-07-16 15:30:27] INFO root fetch - processPackages [mostats]: Downloading https://files.pythonhosted.org/packages/ad/d5/86e988e653a869f1b971741243da2bb9a870fff3a31eb959d1e84660a167/mostats-1.0.9-py3-none-any.whl
+[2023-07-16 15:30:27] WARNING root fetch - processPackages [bigdl-orca-spark3]: Skipping package: exceeds size limit 20211985>=10485760
+[2023-07-16 15:30:27] INFO root fetch - main [MainThread]: End processing [bigdl-orca-spark3] error
+[2023-07-16 15:30:28] INFO root fetch - processPackages [mostats]: executing diffoscope
+[2023-07-16 15:30:28] INFO root fetch - processPackages [mostats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mostats-1.0.8-py3-none-any.whl.zip tmp/mostats-1.0.9-py3-none-any.whl.zip --markdown 20230716/m/mostats/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-16 15:30:28] INFO root fetch - processPackages [bigdl-friesian-spark3]: Downloading https://files.pythonhosted.org/packages/7f/96/a6c594999835ccded0121b4c6cf39ad1ced7128cb720efad3edf27cd3743/bigdl_friesian_spark3-2.4.0b20230716-py3-none-manylinux1_x86_64.whl
+[2023-07-16 15:30:28] INFO root fetch - processPackages [wf-cv-utils]: Downloading https://files.pythonhosted.org/packages/f6/14/12bde7d8f033533b53a29808819b9ce35d5afa2cc8c94be54760c6ac7de9/wf-cv-utils-3.5.0.tar.gz
+[2023-07-16 15:30:28] INFO root fetch - processPackages [treedb]: Downloading https://files.pythonhosted.org/packages/c2/7f/495e475343eaa4d2995984d3dcbf4f68ed3654923d13917bde2a8f09a638/treedb-2.6.2.zip
+[2023-07-16 15:30:28] INFO root fetch - processPackages [bigdl-spark3]: Downloading https://files.pythonhosted.org/packages/79/c2/c9d4f417a97c135e3835eac1d080bb1a3b37c5dd904c7da52755fb89f081/bigdl_spark3-2.4.0b20230716-py3-none-manylinux1_x86_64.whl
+[2023-07-16 15:30:28] INFO root fetch - processPackages [bigdl-chronos-spark3]: Downloading https://files.pythonhosted.org/packages/3e/24/2bd1b29ec5ff42326d8fec1596b3db0555f4f9194afd21696486361ec55f/bigdl_chronos_spark3-2.4.0b20230716-py3-none-manylinux1_x86_64.whl
+[2023-07-16 15:30:28] INFO root fetch - processPackages [wf-cv-utils]: executing diffoscope
+[2023-07-16 15:30:28] INFO root fetch - processPackages [wf-cv-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wf-cv-utils-3.4.0.tar.gz tmp/wf-cv-utils-3.5.0.tar.gz --markdown 20230716/w/wf-cv-utils/3.4.0-3.5.0/diff.md --exclude *.pyd
+[2023-07-16 15:30:28] INFO root fetch - processPackages [cloudlanguagetools]: Downloading https://files.pythonhosted.org/packages/c5/76/0ec9ebc260b93775cb3237d54c5e8e181c6baa5767c619145472db79b8c4/cloudlanguagetools-5.8.tar.gz
+[2023-07-16 15:30:28] INFO root fetch - processPackages [bigdl-friesian-spark3]: executing diffoscope
+[2023-07-16 15:30:28] INFO root fetch - processPackages [bigdl-friesian-spark3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_friesian_spark3-2.4.0b20230715-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_friesian_spark3-2.4.0b20230716-py3-none-manylinux1_x86_64.whl.zip --markdown 20230716/b/bigdl-friesian-spark3/2.4.0b20230715-2.4.0b20230716/diff.md --exclude *.pyd
+[2023-07-16 15:30:28] INFO root fetch - processPackages [checkov]: Downloading https://files.pythonhosted.org/packages/36/b2/faea7cf4d04d72880327d7e73a0327922cb8cd1c61a51e8fd38f344e9f2f/checkov-2.3.99.tar.gz
+[2023-07-16 15:30:28] INFO root fetch - processPackages [bigdl-spark3]: executing diffoscope
+[2023-07-16 15:30:28] INFO root fetch - processPackages [bigdl-spark3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_spark3-2.4.0b20230715-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_spark3-2.4.0b20230716-py3-none-manylinux1_x86_64.whl.zip --markdown 20230716/b/bigdl-spark3/2.4.0b20230715-2.4.0b20230716/diff.md --exclude *.pyd
+[2023-07-16 15:30:28] INFO root fetch - processPackages [treedb]: executing diffoscope
+[2023-07-16 15:30:28] INFO root fetch - processPackages [treedb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/treedb-2.6.1.zip tmp/treedb-2.6.2.zip --markdown 20230716/t/treedb/2.6.1-2.6.2/diff.md --exclude *.pyd
+[2023-07-16 15:30:28] INFO root fetch - processPackages [bigdl-chronos-spark3]: executing diffoscope
+[2023-07-16 15:30:28] INFO root fetch - processPackages [bigdl-chronos-spark3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_chronos_spark3-2.4.0b20230715-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_chronos_spark3-2.4.0b20230716-py3-none-manylinux1_x86_64.whl.zip --markdown 20230716/b/bigdl-chronos-spark3/2.4.0b20230715-2.4.0b20230716/diff.md --exclude *.pyd
+[2023-07-16 15:30:28] INFO root fetch - processPackages [cloudlanguagetools]: executing diffoscope
+[2023-07-16 15:30:28] INFO root fetch - processPackages [cloudlanguagetools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudlanguagetools-5.7.tar.gz tmp/cloudlanguagetools-5.8.tar.gz --markdown 20230716/c/cloudlanguagetools/5.7-5.8/diff.md --exclude *.pyd
+[2023-07-16 15:30:28] INFO root fetch - processPackages [checkov]: executing diffoscope
+[2023-07-16 15:30:28] INFO root fetch - processPackages [checkov]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkov-2.3.98.tar.gz tmp/checkov-2.3.99.tar.gz --markdown 20230716/c/checkov/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-07-16 15:30:29] INFO root fetch - processPackages [mostats]: Remove: archive file [/home/abi/fetcher/tmp/mostats-1.0.8-py3-none-any.whl.zip]
+[2023-07-16 15:30:29] INFO root fetch - processPackages [mostats]: Remove: archive file [/home/abi/fetcher/tmp/mostats-1.0.9-py3-none-any.whl.zip]
+[2023-07-16 15:30:29] INFO root fetch - main [MainThread]: End processing [mostats]: success
+[2023-07-16 15:30:29] INFO root fetch - processPackages [bigdl-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_spark3-2.4.0b20230715-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-16 15:30:29] INFO root fetch - processPackages [bigdl-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_spark3-2.4.0b20230716-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-16 15:30:29] INFO root fetch - main [MainThread]: End processing [bigdl-spark3]: success
+[2023-07-16 15:30:29] INFO root fetch - processPackages [wf-cv-utils]: Remove: archive file [/home/abi/fetcher/tmp/wf-cv-utils-3.4.0.tar.gz]
+[2023-07-16 15:30:29] INFO root fetch - processPackages [wf-cv-utils]: Remove: archive file [/home/abi/fetcher/tmp/wf-cv-utils-3.5.0.tar.gz]
+[2023-07-16 15:30:29] INFO root fetch - main [MainThread]: End processing [wf-cv-utils]: success
+[2023-07-16 15:30:29] INFO root fetch - processPackages [bigdl-friesian-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_friesian_spark3-2.4.0b20230715-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-16 15:30:29] INFO root fetch - processPackages [bigdl-friesian-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_friesian_spark3-2.4.0b20230716-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-16 15:30:29] INFO root fetch - main [MainThread]: End processing [bigdl-friesian-spark3]: success
+[2023-07-16 15:30:29] INFO root fetch - processPackages [cloudlanguagetools]: Remove: archive file [/home/abi/fetcher/tmp/cloudlanguagetools-5.7.tar.gz]
+[2023-07-16 15:30:29] INFO root fetch - processPackages [cloudlanguagetools]: Remove: archive file [/home/abi/fetcher/tmp/cloudlanguagetools-5.8.tar.gz]
+[2023-07-16 15:30:29] INFO root fetch - main [MainThread]: End processing [cloudlanguagetools]: success
+[2023-07-16 15:30:30] INFO root fetch - processPackages [treedb]: Remove: archive file [/home/abi/fetcher/tmp/treedb-2.6.1.zip]
+[2023-07-16 15:30:30] INFO root fetch - processPackages [treedb]: Remove: archive file [/home/abi/fetcher/tmp/treedb-2.6.2.zip]
+[2023-07-16 15:30:30] INFO root fetch - main [MainThread]: End processing [treedb]: success
+[2023-07-16 15:30:30] INFO root fetch - processPackages [bigdl-chronos-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos_spark3-2.4.0b20230715-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-16 15:30:30] INFO root fetch - processPackages [bigdl-chronos-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos_spark3-2.4.0b20230716-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-16 15:30:30] INFO root fetch - main [MainThread]: End processing [bigdl-chronos-spark3]: success
+[2023-07-16 15:30:42] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-2.3.98.tar.gz]
+[2023-07-16 15:30:42] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-2.3.99.tar.gz]
+[2023-07-16 15:30:42] INFO root fetch - main [MainThread]: End processing [checkov]: success
+[2023-07-16 15:30:42] INFO root fetch - main [MainThread]: Store serial: [18907188]
