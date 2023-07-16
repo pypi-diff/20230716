@@ -14525,3 +14525,81 @@ zipfile.BadZipFile: File is not a zip file
 [2023-07-16 23:09:42] INFO root fetch - processPackages [coconut-develop]: Remove: archive file [/home/abi/fetcher/tmp/coconut-develop-3.0.2.post0.dev9.tar.gz]
 [2023-07-16 23:09:42] INFO root fetch - main [MainThread]: End processing [coconut-develop]: success
 [2023-07-16 23:09:42] INFO root fetch - main [MainThread]: Store serial: [18909449]
+[2023-07-16 23:14:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18909449]
+[2023-07-16 23:14:51] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-16 23:14:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyracer
+[2023-07-16 23:14:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: logger-local
+[2023-07-16 23:14:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: invenhost-core
+[2023-07-16 23:14:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: segnn-jax
+[2023-07-16 23:14:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pywa
+[2023-07-16 23:14:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: simple2encrypt
+[2023-07-16 23:14:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sphinx-artisan-theme
+[2023-07-16 23:14:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cobblequery
+[2023-07-16 23:14:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: drtools
+[2023-07-16 23:14:51] INFO root fetch - processPackages [pywa]: New version: [0.0.1rc24] Old Version: [0.0.1rc23]
+[2023-07-16 23:14:51] INFO root fetch - processPackages [pyracer]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-16 23:14:51] INFO root fetch - processPackages [sphinx-artisan-theme]: New version: [0.1.0] Old Version: [0.0.2]
+[2023-07-16 23:14:51] INFO root fetch - processPackages [cobblequery]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-16 23:14:51] INFO root fetch - processPackages [drtools]: New version: [2.0.0] Old Version: [1.0.9]
+[2023-07-16 23:14:51] INFO root fetch - processPackages [logger-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-16 23:14:51] INFO root fetch - processPackages [simple2encrypt]: New version: [1.3] Old Version: [1.2]
+[2023-07-16 23:14:51] INFO root fetch - processPackages [segnn-jax]: New version: [0.7] Old Version: [0.6]
+[2023-07-16 23:14:51] WARNING root fetch - processPackages [invenhost-core]: Skipping, unable to determine old version
+[2023-07-16 23:14:51] INFO root fetch - main [MainThread]: End processing [invenhost-core] error
+[2023-07-16 23:14:51] INFO root fetch - processPackages [pyracer]: Downloading https://files.pythonhosted.org/packages/fa/4b/e63c3bf2340980a2618105c9d5719ef599e883f8740cea322c58b413c2a5/pyracer-1.0.1.tar.gz
+[2023-07-16 23:14:51] INFO root fetch - processPackages [logger-local]: Downloading https://files.pythonhosted.org/packages/21/e1/7a45a748162f16f488c16187a0b07c25201df5531bf12da29ff61c6d7db5/logger-local-0.0.8.tar.gz
+[2023-07-16 23:14:51] INFO root fetch - processPackages [simple2encrypt]: Downloading https://files.pythonhosted.org/packages/48/03/6076d049606286849a776e11714595d1c68953ca91c209718c2f9697dc79/simple2encrypt-1.2.tar.gz
+[2023-07-16 23:14:51] INFO root fetch - processPackages [drtools]: Downloading https://files.pythonhosted.org/packages/18/2f/6897155230204fdbfc06e7d32cce6ef57db351b8fc2135337121afae8beb/drtools-1.0.9.tar.gz
+[2023-07-16 23:14:51] INFO root fetch - processPackages [sphinx-artisan-theme]: Downloading https://files.pythonhosted.org/packages/15/b7/448c947acae8e93fffdc2f7187f20351ddf9f27bddc9f87ded612d92ad1d/sphinx-artisan-theme-0.0.2.tar.gz
+[2023-07-16 23:14:51] INFO root fetch - processPackages [segnn-jax]: Downloading https://files.pythonhosted.org/packages/0c/92/21183192d1fcfe66cbfa5a744966dd459edef7b3d1abc4dbffdb810d4f93/segnn_jax-0.6.tar.gz
+[2023-07-16 23:14:51] INFO root fetch - processPackages [pywa]: Downloading https://files.pythonhosted.org/packages/78/2c/11115109eeeb572ad4931d67014fb7701417a1b612f7315de5eed97e2f39/pywa-0.0.1rc23-py3-none-any.whl
+[2023-07-16 23:14:51] INFO root fetch - processPackages [cobblequery]: Downloading https://files.pythonhosted.org/packages/7f/89/24452067a3a59e17dd2f06b07b154027788a26e3f36a520bf1ef759af149/cobblequery-0.1.0.tar.gz
+[2023-07-16 23:14:52] INFO root fetch - processPackages [logger-local]: Downloading https://files.pythonhosted.org/packages/2d/a9/d7815ae572e09b03370b309ad1bf127cf7c8f4c91b3ddd26fd0043a2e559/logger-local-0.0.9.tar.gz
+[2023-07-16 23:14:52] INFO root fetch - processPackages [pyracer]: Downloading https://files.pythonhosted.org/packages/01/f1/2bb97f28c528b015dd17215bd8ccb75febec9b5012ad0c377d803f40cad7/pyracer-1.0.2.tar.gz
+[2023-07-16 23:14:52] INFO root fetch - processPackages [simple2encrypt]: Downloading https://files.pythonhosted.org/packages/33/30/da2bfcbe97da36e16818d87ae1149eb734d2bfd7c50076e5b98a2c972e24/simple2encrypt-1.3.tar.gz
+[2023-07-16 23:14:52] INFO root fetch - processPackages [segnn-jax]: Downloading https://files.pythonhosted.org/packages/2a/1e/b96670220ece8a2633aaac867fdae0eb820418fde05580bbce9580581988/segnn_jax-0.7.tar.gz
+[2023-07-16 23:14:52] INFO root fetch - processPackages [logger-local]: executing diffoscope
+[2023-07-16 23:14:52] INFO root fetch - processPackages [drtools]: Downloading https://files.pythonhosted.org/packages/22/b5/12b75ae73359ad70560d7f7bb94da56eb697c7e75028dea8217efc96d3ba/drtools-2.0.0.tar.gz
+[2023-07-16 23:14:52] INFO root fetch - processPackages [logger-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logger-local-0.0.8.tar.gz tmp/logger-local-0.0.9.tar.gz --markdown 20230716/l/logger-local/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-16 23:14:52] INFO root fetch - processPackages [pywa]: Downloading https://files.pythonhosted.org/packages/b4/54/8cb2688f956b8112f524a5c57e7ca2caf8c648bbf1e62b02b9f09bc39fe1/pywa-0.0.1rc24-py3-none-any.whl
+[2023-07-16 23:14:52] INFO root fetch - processPackages [cobblequery]: Downloading https://files.pythonhosted.org/packages/1b/f3/12d1f0649d3d7abc962765ce81ebaf8d730908fa77c548b84bedb8cf6e1b/cobblequery-0.1.1.tar.gz
+[2023-07-16 23:14:52] INFO root fetch - processPackages [sphinx-artisan-theme]: Downloading https://files.pythonhosted.org/packages/0d/95/db6961a636e7a27dbfd00aa2d1b6bc8b7d5bea67ba4469aac8b921565717/sphinx_artisan_theme-0.1.0.tar.gz
+[2023-07-16 23:14:52] INFO root fetch - processPackages [pyracer]: executing diffoscope
+[2023-07-16 23:14:52] INFO root fetch - processPackages [pyracer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyracer-1.0.1.tar.gz tmp/pyracer-1.0.2.tar.gz --markdown 20230716/p/pyracer/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-16 23:14:52] INFO root fetch - processPackages [simple2encrypt]: executing diffoscope
+[2023-07-16 23:14:52] INFO root fetch - processPackages [simple2encrypt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simple2encrypt-1.2.tar.gz tmp/simple2encrypt-1.3.tar.gz --markdown 20230716/s/simple2encrypt/1.2-1.3/diff.md --exclude *.pyd
+[2023-07-16 23:14:52] INFO root fetch - processPackages [pywa]: executing diffoscope
+[2023-07-16 23:14:52] INFO root fetch - processPackages [pywa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pywa-0.0.1rc23-py3-none-any.whl.zip tmp/pywa-0.0.1rc24-py3-none-any.whl.zip --markdown 20230716/p/pywa/0.0.1rc23-0.0.1rc24/diff.md --exclude *.pyd
+[2023-07-16 23:14:52] INFO root fetch - processPackages [segnn-jax]: executing diffoscope
+[2023-07-16 23:14:52] INFO root fetch - processPackages [segnn-jax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/segnn_jax-0.6.tar.gz tmp/segnn_jax-0.7.tar.gz --markdown 20230716/s/segnn-jax/0.6-0.7/diff.md --exclude *.pyd
+[2023-07-16 23:14:52] INFO root fetch - processPackages [sphinx-artisan-theme]: executing diffoscope
+[2023-07-16 23:14:52] INFO root fetch - processPackages [sphinx-artisan-theme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphinx-artisan-theme-0.0.2.tar.gz tmp/sphinx_artisan_theme-0.1.0.tar.gz --markdown 20230716/s/sphinx-artisan-theme/0.0.2-0.1.0/diff.md --exclude *.pyd
+[2023-07-16 23:14:52] INFO root fetch - processPackages [cobblequery]: executing diffoscope
+[2023-07-16 23:14:52] INFO root fetch - processPackages [cobblequery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cobblequery-0.1.0.tar.gz tmp/cobblequery-0.1.1.tar.gz --markdown 20230716/c/cobblequery/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-16 23:14:52] INFO root fetch - processPackages [drtools]: executing diffoscope
+[2023-07-16 23:14:52] INFO root fetch - processPackages [drtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drtools-1.0.9.tar.gz tmp/drtools-2.0.0.tar.gz --markdown 20230716/d/drtools/1.0.9-2.0.0/diff.md --exclude *.pyd
+[2023-07-16 23:14:53] INFO root fetch - processPackages [logger-local]: Remove: archive file [/home/abi/fetcher/tmp/logger-local-0.0.8.tar.gz]
+[2023-07-16 23:14:53] INFO root fetch - processPackages [logger-local]: Remove: archive file [/home/abi/fetcher/tmp/logger-local-0.0.9.tar.gz]
+[2023-07-16 23:14:53] INFO root fetch - main [MainThread]: End processing [logger-local]: success
+[2023-07-16 23:14:53] INFO root fetch - processPackages [pyracer]: Remove: archive file [/home/abi/fetcher/tmp/pyracer-1.0.1.tar.gz]
+[2023-07-16 23:14:53] INFO root fetch - processPackages [pyracer]: Remove: archive file [/home/abi/fetcher/tmp/pyracer-1.0.2.tar.gz]
+[2023-07-16 23:14:53] INFO root fetch - main [MainThread]: End processing [pyracer]: success
+[2023-07-16 23:14:53] INFO root fetch - processPackages [simple2encrypt]: Remove: archive file [/home/abi/fetcher/tmp/simple2encrypt-1.2.tar.gz]
+[2023-07-16 23:14:53] INFO root fetch - processPackages [simple2encrypt]: Remove: archive file [/home/abi/fetcher/tmp/simple2encrypt-1.3.tar.gz]
+[2023-07-16 23:14:53] INFO root fetch - main [MainThread]: End processing [simple2encrypt]: success
+[2023-07-16 23:14:53] INFO root fetch - processPackages [pywa]: Remove: archive file [/home/abi/fetcher/tmp/pywa-0.0.1rc23-py3-none-any.whl.zip]
+[2023-07-16 23:14:53] INFO root fetch - processPackages [pywa]: Remove: archive file [/home/abi/fetcher/tmp/pywa-0.0.1rc24-py3-none-any.whl.zip]
+[2023-07-16 23:14:53] INFO root fetch - main [MainThread]: End processing [pywa]: success
+[2023-07-16 23:14:53] INFO root fetch - processPackages [cobblequery]: Remove: archive file [/home/abi/fetcher/tmp/cobblequery-0.1.0.tar.gz]
+[2023-07-16 23:14:53] INFO root fetch - processPackages [cobblequery]: Remove: archive file [/home/abi/fetcher/tmp/cobblequery-0.1.1.tar.gz]
+[2023-07-16 23:14:53] INFO root fetch - main [MainThread]: End processing [cobblequery]: success
+[2023-07-16 23:14:53] INFO root fetch - processPackages [segnn-jax]: Remove: archive file [/home/abi/fetcher/tmp/segnn_jax-0.6.tar.gz]
+[2023-07-16 23:14:53] INFO root fetch - processPackages [segnn-jax]: Remove: archive file [/home/abi/fetcher/tmp/segnn_jax-0.7.tar.gz]
+[2023-07-16 23:14:53] INFO root fetch - main [MainThread]: End processing [segnn-jax]: success
+[2023-07-16 23:14:53] INFO root fetch - processPackages [sphinx-artisan-theme]: Remove: archive file [/home/abi/fetcher/tmp/sphinx-artisan-theme-0.0.2.tar.gz]
+[2023-07-16 23:14:53] INFO root fetch - processPackages [sphinx-artisan-theme]: Remove: archive file [/home/abi/fetcher/tmp/sphinx_artisan_theme-0.1.0.tar.gz]
+[2023-07-16 23:14:53] INFO root fetch - main [MainThread]: End processing [sphinx-artisan-theme]: success
+[2023-07-16 23:14:53] INFO root fetch - processPackages [drtools]: Remove: archive file [/home/abi/fetcher/tmp/drtools-1.0.9.tar.gz]
+[2023-07-16 23:14:53] INFO root fetch - processPackages [drtools]: Remove: archive file [/home/abi/fetcher/tmp/drtools-2.0.0.tar.gz]
+[2023-07-16 23:14:53] INFO root fetch - main [MainThread]: End processing [drtools]: success
+[2023-07-16 23:14:53] INFO root fetch - main [MainThread]: Store serial: [18909476]
