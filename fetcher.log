@@ -5705,3 +5705,45 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-16 10:31:52] INFO root fetch - main [MainThread]: End processing [clustutils4r]: success
 [2023-07-16 10:31:52] INFO root fetch - main [MainThread]: End processing [clustutils4r]: success
 [2023-07-16 10:31:52] INFO root fetch - main [MainThread]: Store serial: [18905679]
+[2023-07-16 10:36:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18905679]
+[2023-07-16 10:37:01] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-16 10:37:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: srai-core
+[2023-07-16 10:37:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wiliot-deployment-tools
+[2023-07-16 10:37:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: miauw-base-service
+[2023-07-16 10:37:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: talkytimes-package
+[2023-07-16 10:37:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: redis-chatgpt
+[2023-07-16 10:37:01] INFO root fetch - processPackages [miauw-base-service]: New version: [1.2.4] Old Version: [1.2.3]
+[2023-07-16 10:37:01] INFO root fetch - processPackages [srai-core]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-07-16 10:37:01] INFO root fetch - processPackages [talkytimes-package]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-16 10:37:01] INFO root fetch - processPackages [wiliot-deployment-tools]: New version: [4.0.8] Old Version: [4.0.7]
+[2023-07-16 10:37:01] WARNING root fetch - processPackages [redis-chatgpt]: Skipping, unable to determine old version
+[2023-07-16 10:37:01] INFO root fetch - main [MainThread]: End processing [redis-chatgpt] error
+[2023-07-16 10:37:01] INFO root fetch - processPackages [miauw-base-service]: Downloading https://files.pythonhosted.org/packages/ef/82/3f796c16fef3a5df731bf651ff8ecb4f24788421aa656e1e024291e7d026/miauw-base-service-1.2.3.tar.gz
+[2023-07-16 10:37:01] INFO root fetch - processPackages [talkytimes-package]: Downloading https://files.pythonhosted.org/packages/8c/1f/b389dd4ffb63aa1d4faf4ae7906fdf3c74cbbe61e7f1812e4db9a5904921/talkytimes_package-0.2.1.tar.gz
+[2023-07-16 10:37:01] INFO root fetch - processPackages [wiliot-deployment-tools]: Downloading https://files.pythonhosted.org/packages/dc/92/c5b9a483fe38ba3d8168fab282f11332917de54eb6ba9ef5c674f0fd6f98/wiliot-deployment-tools-4.0.7.tar.gz
+[2023-07-16 10:37:01] INFO root fetch - processPackages [srai-core]: Downloading https://files.pythonhosted.org/packages/31/e0/50333cadccacb3dd735df4f80a91f7b0ff8b0f0cad082dc466613fc7b49f/srai-core-0.3.0.tar.gz
+[2023-07-16 10:37:02] INFO root fetch - processPackages [miauw-base-service]: Downloading https://files.pythonhosted.org/packages/fd/85/747e4215c12a10ef3c3e88e30bb891ff2215d752b4f66912dc4e4791b449/miauw-base-service-1.2.4.tar.gz
+[2023-07-16 10:37:02] INFO root fetch - processPackages [talkytimes-package]: Downloading https://files.pythonhosted.org/packages/c1/43/ec28b8f6ec73ce10cecf80a1a3240cf45b0b6420121278ccb75a2f364ce0/talkytimes_package-0.2.2.tar.gz
+[2023-07-16 10:37:02] INFO root fetch - processPackages [srai-core]: Downloading https://files.pythonhosted.org/packages/0d/22/1ba836e9ec6071eb041f4428c68d18817ec9e8c09eab63ce3d1000aa5a3a/srai-core-0.4.0.tar.gz
+[2023-07-16 10:37:02] INFO root fetch - processPackages [wiliot-deployment-tools]: Downloading https://files.pythonhosted.org/packages/c1/d8/ac9ca94ecddd03059c1fc825f3afd9097f77d7810f76c2d615ba559b0c3c/wiliot-deployment-tools-4.0.8.tar.gz
+[2023-07-16 10:37:02] INFO root fetch - processPackages [talkytimes-package]: executing diffoscope
+[2023-07-16 10:37:02] INFO root fetch - processPackages [talkytimes-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/talkytimes_package-0.2.1.tar.gz tmp/talkytimes_package-0.2.2.tar.gz --markdown 20230716/t/talkytimes-package/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-16 10:37:02] INFO root fetch - processPackages [miauw-base-service]: executing diffoscope
+[2023-07-16 10:37:02] INFO root fetch - processPackages [miauw-base-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/miauw-base-service-1.2.3.tar.gz tmp/miauw-base-service-1.2.4.tar.gz --markdown 20230716/m/miauw-base-service/1.2.3-1.2.4/diff.md --exclude *.pyd
+[2023-07-16 10:37:02] INFO root fetch - processPackages [wiliot-deployment-tools]: executing diffoscope
+[2023-07-16 10:37:02] INFO root fetch - processPackages [wiliot-deployment-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wiliot-deployment-tools-4.0.7.tar.gz tmp/wiliot-deployment-tools-4.0.8.tar.gz --markdown 20230716/w/wiliot-deployment-tools/4.0.7-4.0.8/diff.md --exclude *.pyd
+[2023-07-16 10:37:02] INFO root fetch - processPackages [srai-core]: executing diffoscope
+[2023-07-16 10:37:02] INFO root fetch - processPackages [srai-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/srai-core-0.3.0.tar.gz tmp/srai-core-0.4.0.tar.gz --markdown 20230716/s/srai-core/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-07-16 10:37:03] INFO root fetch - processPackages [talkytimes-package]: Remove: archive file [/home/abi/fetcher/tmp/talkytimes_package-0.2.1.tar.gz]
+[2023-07-16 10:37:03] INFO root fetch - processPackages [talkytimes-package]: Remove: archive file [/home/abi/fetcher/tmp/talkytimes_package-0.2.2.tar.gz]
+[2023-07-16 10:37:03] INFO root fetch - main [MainThread]: End processing [talkytimes-package]: success
+[2023-07-16 10:37:03] INFO root fetch - processPackages [miauw-base-service]: Remove: archive file [/home/abi/fetcher/tmp/miauw-base-service-1.2.3.tar.gz]
+[2023-07-16 10:37:03] INFO root fetch - processPackages [miauw-base-service]: Remove: archive file [/home/abi/fetcher/tmp/miauw-base-service-1.2.4.tar.gz]
+[2023-07-16 10:37:03] INFO root fetch - main [MainThread]: End processing [miauw-base-service]: success
+[2023-07-16 10:37:03] INFO root fetch - processPackages [srai-core]: Remove: archive file [/home/abi/fetcher/tmp/srai-core-0.3.0.tar.gz]
+[2023-07-16 10:37:03] INFO root fetch - processPackages [srai-core]: Remove: archive file [/home/abi/fetcher/tmp/srai-core-0.4.0.tar.gz]
+[2023-07-16 10:37:03] INFO root fetch - main [MainThread]: End processing [srai-core]: success
+[2023-07-16 10:37:03] INFO root fetch - processPackages [wiliot-deployment-tools]: Remove: archive file [/home/abi/fetcher/tmp/wiliot-deployment-tools-4.0.7.tar.gz]
+[2023-07-16 10:37:03] INFO root fetch - processPackages [wiliot-deployment-tools]: Remove: archive file [/home/abi/fetcher/tmp/wiliot-deployment-tools-4.0.8.tar.gz]
+[2023-07-16 10:37:03] INFO root fetch - main [MainThread]: End processing [wiliot-deployment-tools]: success
+[2023-07-16 10:37:03] INFO root fetch - main [MainThread]: Store serial: [18905694]
