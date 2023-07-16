@@ -8806,3 +8806,63 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-16 15:03:12] INFO root fetch - processPackages [foursight-core]: Remove: archive file [/home/abi/fetcher/tmp/foursight_core-4.3.0.2b6.tar.gz]
 [2023-07-16 15:03:12] INFO root fetch - main [MainThread]: End processing [foursight-core]: success
 [2023-07-16 15:03:12] INFO root fetch - main [MainThread]: Store serial: [18907030]
+[2023-07-16 15:08:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18907030]
+[2023-07-16 15:08:21] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-16 15:08:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nonebot-plugin-game-collection
+[2023-07-16 15:08:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: foursight
+[2023-07-16 15:08:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: python-semantic-release
+[2023-07-16 15:08:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tablestring
+[2023-07-16 15:08:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: zshgpt
+[2023-07-16 15:08:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fbgemm-gpu-nightly-cpu
+[2023-07-16 15:08:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: wiggler-studiorabota
+[2023-07-16 15:08:21] WARNING root fetch - processPackages [zshgpt]: Skipping, unable to determine old version
+[2023-07-16 15:08:21] INFO root fetch - main [MainThread]: End processing [zshgpt] error
+[2023-07-16 15:08:21] INFO root fetch - processPackages [wiggler-studiorabota]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-16 15:08:21] INFO root fetch - processPackages [tablestring]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-16 15:08:21] INFO root fetch - processPackages [nonebot-plugin-game-collection]: New version: [2.3.9] Old Version: [2.3.8]
+[2023-07-16 15:08:21] INFO root fetch - processPackages [python-semantic-release]: New version: [8.0.0rc4] Old Version: [8.0.0rc3]
+[2023-07-16 15:08:21] INFO root fetch - processPackages [foursight]: New version: [3.5.2] Old Version: [3.5.0.2b9]
+[2023-07-16 15:08:21] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: New version: [2023.7.16] Old Version: [2023.7.15]
+[2023-07-16 15:08:21] INFO root fetch - processPackages [wiggler-studiorabota]: Downloading https://files.pythonhosted.org/packages/0d/86/d02e2203065f80a5af3e959e7e9db4e443dd80919a0ca9c31a84d751cbb1/wiggler_studiorabota-0.0.8.tar.gz
+[2023-07-16 15:08:21] INFO root fetch - processPackages [tablestring]: Downloading https://files.pythonhosted.org/packages/73/43/b4d57fb02de8d7d28275bdaac89da9cb3fa716b758603f30ba84b71a9e73/tablestring-0.0.2.tar.gz
+[2023-07-16 15:08:22] INFO root fetch - processPackages [python-semantic-release]: Downloading https://files.pythonhosted.org/packages/3d/d6/535347ad1ccf231f7dc22211c85177efcd4f5327aecd6cf23f1e0a115990/python-semantic-release-8.0.0rc3.tar.gz
+[2023-07-16 15:08:22] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Downloading https://files.pythonhosted.org/packages/51/fb/d907f05bab271d6408024397bb87d8e7e069ff91fa3152a09c37d0191aec/nonebot_plugin_game_collection-2.3.8.tar.gz
+[2023-07-16 15:08:22] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/07/e2/cfd9fbd72783e68efca37d1b28181287f8f1b4ddc0abbdd891e7087382c6/fbgemm_gpu_nightly_cpu-2023.7.15-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-16 15:08:22] INFO root fetch - processPackages [foursight]: Downloading https://files.pythonhosted.org/packages/2f/ea/4ffd61289baca905acc5b266ec269ba6a6a5af5a83d90b64dd3715b8ba73/foursight-3.5.0.2b9.tar.gz
+[2023-07-16 15:08:22] INFO root fetch - processPackages [wiggler-studiorabota]: Downloading https://files.pythonhosted.org/packages/48/ca/d088276f8dab32bed8eb0a430fee09ee102c277df96d2e8dafe437289ac8/wiggler_studiorabota-0.0.9.tar.gz
+[2023-07-16 15:08:22] INFO root fetch - processPackages [tablestring]: Downloading https://files.pythonhosted.org/packages/ef/ac/1a816f402c082900e650d63f38ea2c64f9e8c57542ed8bc4b3a4ce8744d6/tablestring-0.0.3.tar.gz
+[2023-07-16 15:08:22] INFO root fetch - processPackages [wiggler-studiorabota]: executing diffoscope
+[2023-07-16 15:08:22] INFO root fetch - processPackages [wiggler-studiorabota]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wiggler_studiorabota-0.0.8.tar.gz tmp/wiggler_studiorabota-0.0.9.tar.gz --markdown 20230716/w/wiggler-studiorabota/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-16 15:08:22] INFO root fetch - processPackages [tablestring]: executing diffoscope
+[2023-07-16 15:08:22] INFO root fetch - processPackages [tablestring]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tablestring-0.0.2.tar.gz tmp/tablestring-0.0.3.tar.gz --markdown 20230716/t/tablestring/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-16 15:08:22] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Downloading https://files.pythonhosted.org/packages/e4/94/777d03c2f9fbba4c5835c0178b82dffa9d6007ab381b752f81e9af32ff1e/nonebot_plugin_game_collection-2.3.9.tar.gz
+[2023-07-16 15:08:22] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/7e/c9/301dde23904e91c378eebd2aeb34c145252578eba03f48668b6ff39f015c/fbgemm_gpu_nightly_cpu-2023.7.16-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-16 15:08:22] INFO root fetch - processPackages [python-semantic-release]: Downloading https://files.pythonhosted.org/packages/5e/0a/e01eedc680fbf8c3c5984e69816f4b27a73911b2bca79212cdd77fd9f191/python-semantic-release-8.0.0rc4.tar.gz
+[2023-07-16 15:08:22] INFO root fetch - processPackages [foursight]: Downloading https://files.pythonhosted.org/packages/bd/8c/50d9da3068d59edec8eea2edea45a139cd714924728919f08b74b8300357/foursight-3.5.2.tar.gz
+[2023-07-16 15:08:22] INFO root fetch - processPackages [nonebot-plugin-game-collection]: executing diffoscope
+[2023-07-16 15:08:22] INFO root fetch - processPackages [nonebot-plugin-game-collection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_game_collection-2.3.8.tar.gz tmp/nonebot_plugin_game_collection-2.3.9.tar.gz --markdown 20230716/n/nonebot-plugin-game-collection/2.3.8-2.3.9/diff.md --exclude *.pyd
+[2023-07-16 15:08:22] INFO root fetch - processPackages [foursight]: executing diffoscope
+[2023-07-16 15:08:22] INFO root fetch - processPackages [foursight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foursight-3.5.0.2b9.tar.gz tmp/foursight-3.5.2.tar.gz --markdown 20230716/f/foursight/3.5.0.2b9-3.5.2/diff.md --exclude *.pyd
+[2023-07-16 15:08:22] INFO root fetch - processPackages [python-semantic-release]: executing diffoscope
+[2023-07-16 15:08:22] INFO root fetch - processPackages [python-semantic-release]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-semantic-release-8.0.0rc3.tar.gz tmp/python-semantic-release-8.0.0rc4.tar.gz --markdown 20230716/p/python-semantic-release/8.0.0rc3-8.0.0rc4/diff.md --exclude *.pyd
+[2023-07-16 15:08:23] INFO root fetch - processPackages [wiggler-studiorabota]: Remove: archive file [/home/abi/fetcher/tmp/wiggler_studiorabota-0.0.8.tar.gz]
+[2023-07-16 15:08:23] INFO root fetch - processPackages [wiggler-studiorabota]: Remove: archive file [/home/abi/fetcher/tmp/wiggler_studiorabota-0.0.9.tar.gz]
+[2023-07-16 15:08:23] INFO root fetch - main [MainThread]: End processing [wiggler-studiorabota]: success
+[2023-07-16 15:08:23] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: executing diffoscope
+[2023-07-16 15:08:23] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fbgemm_gpu_nightly_cpu-2023.7.15-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/fbgemm_gpu_nightly_cpu-2023.7.16-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230716/f/fbgemm-gpu-nightly-cpu/2023.7.15-2023.7.16/diff.md --exclude *.pyd
+[2023-07-16 15:08:23] INFO root fetch - processPackages [tablestring]: Remove: archive file [/home/abi/fetcher/tmp/tablestring-0.0.2.tar.gz]
+[2023-07-16 15:08:23] INFO root fetch - processPackages [tablestring]: Remove: archive file [/home/abi/fetcher/tmp/tablestring-0.0.3.tar.gz]
+[2023-07-16 15:08:23] INFO root fetch - main [MainThread]: End processing [tablestring]: success
+[2023-07-16 15:08:23] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_game_collection-2.3.8.tar.gz]
+[2023-07-16 15:08:23] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_game_collection-2.3.9.tar.gz]
+[2023-07-16 15:08:23] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-game-collection]: success
+[2023-07-16 15:08:23] INFO root fetch - processPackages [foursight]: Remove: archive file [/home/abi/fetcher/tmp/foursight-3.5.0.2b9.tar.gz]
+[2023-07-16 15:08:23] INFO root fetch - processPackages [foursight]: Remove: archive file [/home/abi/fetcher/tmp/foursight-3.5.2.tar.gz]
+[2023-07-16 15:08:23] INFO root fetch - main [MainThread]: End processing [foursight]: success
+[2023-07-16 15:08:24] INFO root fetch - processPackages [python-semantic-release]: Remove: archive file [/home/abi/fetcher/tmp/python-semantic-release-8.0.0rc3.tar.gz]
+[2023-07-16 15:08:24] INFO root fetch - processPackages [python-semantic-release]: Remove: archive file [/home/abi/fetcher/tmp/python-semantic-release-8.0.0rc4.tar.gz]
+[2023-07-16 15:08:24] INFO root fetch - main [MainThread]: End processing [python-semantic-release]: success
+[2023-07-16 15:09:09] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/fbgemm_gpu_nightly_cpu-2023.7.15-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-07-16 15:09:09] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/fbgemm_gpu_nightly_cpu-2023.7.16-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-07-16 15:09:09] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly-cpu]: success
+[2023-07-16 15:09:09] INFO root fetch - main [MainThread]: Store serial: [18907057]
