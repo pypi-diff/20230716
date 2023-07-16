@@ -852,3 +852,51 @@
 [2023-07-16 01:53:48] INFO root fetch - processPackages [pyccolo]: Remove: archive file [/home/abi/fetcher/tmp/pyccolo-0.0.9.tar.gz]
 [2023-07-16 01:53:48] INFO root fetch - main [MainThread]: End processing [pyccolo]: success
 [2023-07-16 01:53:48] INFO root fetch - main [MainThread]: Store serial: [18903662]
+[2023-07-16 01:58:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18903662]
+[2023-07-16 01:58:56] INFO root fetch - main [MainThread]: No changed packages found
+[2023-07-16 02:03:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18903662]
+[2023-07-16 02:04:02] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-16 02:04:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dj-veryfi
+[2023-07-16 02:04:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hyfi-template
+[2023-07-16 02:04:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dj-veryfi
+[2023-07-16 02:04:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: EASYPLOT-TOOLBOX
+[2023-07-16 02:04:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: discovery-core
+[2023-07-16 02:04:02] INFO root fetch - processPackages [dj-veryfi]: New version: [0.1.1] Old Version: [0.1]
+[2023-07-16 02:04:02] INFO root fetch - processPackages [EASYPLOT-TOOLBOX]: New version: [2023.6] Old Version: [2023.5]
+[2023-07-16 02:04:02] INFO root fetch - processPackages [dj-veryfi]: New version: [0.1.1] Old Version: [0.1]
+[2023-07-16 02:04:02] INFO root fetch - processPackages [hyfi-template]: New version: [0.4.5] Old Version: [0.4.4]
+[2023-07-16 02:04:02] INFO root fetch - processPackages [discovery-core]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-07-16 02:04:02] INFO root fetch - processPackages [hyfi-template]: Downloading https://files.pythonhosted.org/packages/e1/cd/f29994ea09eb08be80dded39ab4b44e7af61cdd600b2db6e7cdf36c85f29/hyfi_template-0.4.4.tar.gz
+[2023-07-16 02:04:02] INFO root fetch - processPackages [dj-veryfi]: Downloading https://files.pythonhosted.org/packages/b2/e9/c608cb00ac0186e32d06a94842bdb6bde951ea84ab6b0af1fbab6a10d371/dj-veryfi-0.1.tar.gz
+[2023-07-16 02:04:02] INFO root fetch - processPackages [dj-veryfi]: Downloading https://files.pythonhosted.org/packages/b2/e9/c608cb00ac0186e32d06a94842bdb6bde951ea84ab6b0af1fbab6a10d371/dj-veryfi-0.1.tar.gz
+[2023-07-16 02:04:02] INFO root fetch - processPackages [EASYPLOT-TOOLBOX]: Downloading https://files.pythonhosted.org/packages/b8/87/d3bbf3a92f11bbf4e4cca77efdd2178a3049ddece447df6bea4a534b6c0c/EASYPLOT_TOOLBOX-2023.5.tar.gz
+[2023-07-16 02:04:02] INFO root fetch - processPackages [discovery-core]: Downloading https://files.pythonhosted.org/packages/c8/3b/9cc045d4c57555ce7e302d3e3b4d31ca216e0754dc615c6ba4199a2904dd/discovery-core-0.2.5.tar.gz
+[2023-07-16 02:04:03] INFO root fetch - processPackages [hyfi-template]: Downloading https://files.pythonhosted.org/packages/bc/45/2dd387819d1ee2730759e9c42cd85e3430c839dcce85fdf66a28b1e55bd9/hyfi_template-0.4.5.tar.gz
+[2023-07-16 02:04:03] INFO root fetch - processPackages [dj-veryfi]: Downloading https://files.pythonhosted.org/packages/10/42/07dd3d81cf4f4ec93f9fd53a04f884f14bdfac86036d09a74053c59abc79/dj-veryfi-0.1.1.tar.gz
+[2023-07-16 02:04:03] INFO root fetch - processPackages [dj-veryfi]: Downloading https://files.pythonhosted.org/packages/10/42/07dd3d81cf4f4ec93f9fd53a04f884f14bdfac86036d09a74053c59abc79/dj-veryfi-0.1.1.tar.gz
+[2023-07-16 02:04:03] INFO root fetch - processPackages [discovery-core]: Downloading https://files.pythonhosted.org/packages/eb/53/06c04213f73ace385c0b788db7c5b7237b27efe28976431755d0618b3f62/discovery-core-0.2.6.tar.gz
+[2023-07-16 02:04:03] INFO root fetch - processPackages [hyfi-template]: executing diffoscope
+[2023-07-16 02:04:03] INFO root fetch - processPackages [hyfi-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyfi_template-0.4.4.tar.gz tmp/hyfi_template-0.4.5.tar.gz --markdown 20230716/h/hyfi-template/0.4.4-0.4.5/diff.md --exclude *.pyd
+[2023-07-16 02:04:03] INFO root fetch - processPackages [EASYPLOT-TOOLBOX]: Downloading https://files.pythonhosted.org/packages/fb/35/9377a43a270e627bf33c5488382e9e063633c671ca791bf504e562de3e58/EASYPLOT_TOOLBOX-2023.6.tar.gz
+[2023-07-16 02:04:03] INFO root fetch - processPackages [dj-veryfi]: executing diffoscope
+[2023-07-16 02:04:03] INFO root fetch - processPackages [dj-veryfi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dj-veryfi-0.1.tar.gz tmp/dj-veryfi-0.1.1.tar.gz --markdown 20230716/d/dj-veryfi/0.1-0.1.1/diff.md --exclude *.pyd
+[2023-07-16 02:04:03] INFO root fetch - processPackages [dj-veryfi]: executing diffoscope
+[2023-07-16 02:04:03] INFO root fetch - processPackages [dj-veryfi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dj-veryfi-0.1.tar.gz tmp/dj-veryfi-0.1.1.tar.gz --markdown 20230716/d/dj-veryfi/0.1-0.1.1/diff.md --exclude *.pyd
+[2023-07-16 02:04:03] INFO root fetch - processPackages [discovery-core]: executing diffoscope
+[2023-07-16 02:04:03] INFO root fetch - processPackages [discovery-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discovery-core-0.2.5.tar.gz tmp/discovery-core-0.2.6.tar.gz --markdown 20230716/d/discovery-core/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-07-16 02:04:03] INFO root fetch - processPackages [EASYPLOT-TOOLBOX]: executing diffoscope
+[2023-07-16 02:04:03] INFO root fetch - processPackages [EASYPLOT-TOOLBOX]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EASYPLOT_TOOLBOX-2023.5.tar.gz tmp/EASYPLOT_TOOLBOX-2023.6.tar.gz --markdown 20230716/E/EASYPLOT-TOOLBOX/2023.5-2023.6/diff.md --exclude *.pyd
+[2023-07-16 02:04:04] INFO root fetch - processPackages [dj-veryfi]: Remove: archive file [/home/abi/fetcher/tmp/dj-veryfi-0.1.tar.gz]
+[2023-07-16 02:04:04] INFO root fetch - processPackages [dj-veryfi]: Remove: archive file [/home/abi/fetcher/tmp/dj-veryfi-0.1.1.tar.gz]
+[2023-07-16 02:04:04] INFO root fetch - main [MainThread]: End processing [dj-veryfi]: success
+[2023-07-16 02:04:04] INFO root fetch - processPackages [hyfi-template]: Remove: archive file [/home/abi/fetcher/tmp/hyfi_template-0.4.4.tar.gz]
+[2023-07-16 02:04:04] INFO root fetch - processPackages [hyfi-template]: Remove: archive file [/home/abi/fetcher/tmp/hyfi_template-0.4.5.tar.gz]
+[2023-07-16 02:04:04] INFO root fetch - main [MainThread]: End processing [hyfi-template]: success
+[2023-07-16 02:04:04] INFO root fetch - processPackages [discovery-core]: Remove: archive file [/home/abi/fetcher/tmp/discovery-core-0.2.5.tar.gz]
+[2023-07-16 02:04:04] INFO root fetch - processPackages [discovery-core]: Remove: archive file [/home/abi/fetcher/tmp/discovery-core-0.2.6.tar.gz]
+[2023-07-16 02:04:04] INFO root fetch - main [MainThread]: End processing [discovery-core]: success
+[2023-07-16 02:04:04] INFO root fetch - processPackages [EASYPLOT-TOOLBOX]: Remove: archive file [/home/abi/fetcher/tmp/EASYPLOT_TOOLBOX-2023.5.tar.gz]
+[2023-07-16 02:04:04] INFO root fetch - processPackages [EASYPLOT-TOOLBOX]: Remove: archive file [/home/abi/fetcher/tmp/EASYPLOT_TOOLBOX-2023.6.tar.gz]
+[2023-07-16 02:04:04] INFO root fetch - main [MainThread]: End processing [EASYPLOT-TOOLBOX]: success
+[2023-07-16 02:04:04] INFO root fetch - main [MainThread]: End processing [dj-veryfi]: success
+[2023-07-16 02:04:04] INFO root fetch - main [MainThread]: Store serial: [18903678]
