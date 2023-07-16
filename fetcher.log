@@ -14036,3 +14036,27 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-16 22:28:14] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
 [2023-07-16 22:28:14] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
 [2023-07-16 22:28:14] INFO root fetch - main [MainThread]: Store serial: [18909233]
+[2023-07-16 22:33:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18909233]
+[2023-07-16 22:33:22] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-16 22:33:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PyGameLab
+[2023-07-16 22:33:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: py-draughts
+[2023-07-16 22:33:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Artec
+[2023-07-16 22:33:22] INFO root fetch - processPackages [py-draughts]: New version: [1.1.5] Old Version: [1.1.1]
+[2023-07-16 22:33:22] INFO root fetch - processPackages [Artec]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-16 22:33:22] WARNING root fetch - processPackages [PyGameLab]: Skipping, unable to determine old version
+[2023-07-16 22:33:22] INFO root fetch - main [MainThread]: End processing [PyGameLab] error
+[2023-07-16 22:33:23] INFO root fetch - processPackages [Artec]: Downloading https://files.pythonhosted.org/packages/29/2d/2fd8fff8a69c80bef4fda435a684cc0dab2e65cf715aeb1c464cecbce79a/Artec-0.2.0.tar.gz
+[2023-07-16 22:33:23] INFO root fetch - processPackages [py-draughts]: Downloading https://files.pythonhosted.org/packages/09/97/1420a1316321d77141fe8e7f16aad84bc640093b4e29b2780fe37a122d0f/py-draughts-1.1.1.tar.gz
+[2023-07-16 22:33:23] INFO root fetch - processPackages [Artec]: Downloading https://files.pythonhosted.org/packages/ee/20/dcf84ba59b27541e7befb06e62f4511f9ac962b9705e953af4250562d5ec/Artec-0.2.1.tar.gz
+[2023-07-16 22:33:23] INFO root fetch - processPackages [py-draughts]: Downloading https://files.pythonhosted.org/packages/c3/6a/59068316ad34557aaf300ccc97628783d9bad360f520a2d979dca660b2dc/py-draughts-1.1.5.tar.gz
+[2023-07-16 22:33:23] INFO root fetch - processPackages [Artec]: executing diffoscope
+[2023-07-16 22:33:23] INFO root fetch - processPackages [Artec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Artec-0.2.0.tar.gz tmp/Artec-0.2.1.tar.gz --markdown 20230716/A/Artec/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-16 22:33:23] INFO root fetch - processPackages [py-draughts]: executing diffoscope
+[2023-07-16 22:33:23] INFO root fetch - processPackages [py-draughts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-draughts-1.1.1.tar.gz tmp/py-draughts-1.1.5.tar.gz --markdown 20230716/p/py-draughts/1.1.1-1.1.5/diff.md --exclude *.pyd
+[2023-07-16 22:33:24] INFO root fetch - processPackages [Artec]: Remove: archive file [/home/abi/fetcher/tmp/Artec-0.2.0.tar.gz]
+[2023-07-16 22:33:24] INFO root fetch - processPackages [Artec]: Remove: archive file [/home/abi/fetcher/tmp/Artec-0.2.1.tar.gz]
+[2023-07-16 22:33:24] INFO root fetch - main [MainThread]: End processing [Artec]: success
+[2023-07-16 22:33:24] INFO root fetch - processPackages [py-draughts]: Remove: archive file [/home/abi/fetcher/tmp/py-draughts-1.1.1.tar.gz]
+[2023-07-16 22:33:24] INFO root fetch - processPackages [py-draughts]: Remove: archive file [/home/abi/fetcher/tmp/py-draughts-1.1.5.tar.gz]
+[2023-07-16 22:33:24] INFO root fetch - main [MainThread]: End processing [py-draughts]: success
+[2023-07-16 22:33:24] INFO root fetch - main [MainThread]: Store serial: [18909245]
