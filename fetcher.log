@@ -1711,3 +1711,42 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-16 02:41:01] INFO root fetch - processPackages [everdrop-aws-cdk-constructs]: Remove: archive file [/home/abi/fetcher/tmp/everdrop-aws-cdk-constructs-0.0.99.tar.gz]
 [2023-07-16 02:41:01] INFO root fetch - main [MainThread]: End processing [everdrop-aws-cdk-constructs]: success
 [2023-07-16 02:41:01] INFO root fetch - main [MainThread]: Store serial: [18903944]
+[2023-07-16 02:46:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18903944]
+[2023-07-16 02:46:10] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-16 02:46:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dj-veryfi
+[2023-07-16 02:46:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk8s-plus-26
+[2023-07-16 02:46:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aeppl-nightly
+[2023-07-16 02:46:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: drf-pydantic
+[2023-07-16 02:46:10] INFO root fetch - processPackages [dj-veryfi]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-16 02:46:10] INFO root fetch - processPackages [aeppl-nightly]: New version: [0.1.5.dev20230715] Old Version: [0.1.5.dev20230714]
+[2023-07-16 02:46:10] INFO root fetch - processPackages [drf-pydantic]: New version: [0.5.0] Old Version: [0.4.1]
+[2023-07-16 02:46:10] INFO root fetch - processPackages [cdk8s-plus-26]: New version: [2.4.91] Old Version: [2.4.90]
+[2023-07-16 02:46:10] INFO root fetch - processPackages [aeppl-nightly]: Downloading https://files.pythonhosted.org/packages/3c/8f/b51bbd34a60cb7a60b9115b5ac5e2eb76627c14fb70fcd41f682c416ce35/aeppl-nightly-0.1.5.dev20230714.tar.gz
+[2023-07-16 02:46:10] INFO root fetch - processPackages [dj-veryfi]: Downloading https://files.pythonhosted.org/packages/20/4f/5aa8aa4af7e333a200d186562289ef29ae9ba22aa4da8ed66384ec1fe8eb/dj-veryfi-0.1.4.tar.gz
+[2023-07-16 02:46:10] INFO root fetch - processPackages [cdk8s-plus-26]: Downloading https://files.pythonhosted.org/packages/a6/69/9ff401791ca11e160480356ade22c995d6fc952e2303ad4c289e510021e6/cdk8s-plus-26-2.4.90.tar.gz
+[2023-07-16 02:46:10] INFO root fetch - processPackages [drf-pydantic]: Downloading https://files.pythonhosted.org/packages/d9/ac/2c8c9f474b47eed65825e3f4bd69dfdfd46658ceb8903746a29bdda12d99/drf_pydantic-0.4.1.tar.gz
+[2023-07-16 02:46:10] INFO root fetch - processPackages [aeppl-nightly]: Downloading https://files.pythonhosted.org/packages/71/7a/5043a95f38e914e29fc563136768edf4b92b79a8f835bbfba4919d686eea/aeppl-nightly-0.1.5.dev20230715.tar.gz
+[2023-07-16 02:46:10] INFO root fetch - processPackages [dj-veryfi]: Downloading https://files.pythonhosted.org/packages/ba/b3/c47f5cdde4bcb586b525f90977f4fea5ba21bc6d3423f6db9d1ae0b49f44/dj-veryfi-0.1.5.tar.gz
+[2023-07-16 02:46:10] INFO root fetch - processPackages [aeppl-nightly]: executing diffoscope
+[2023-07-16 02:46:10] INFO root fetch - processPackages [aeppl-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aeppl-nightly-0.1.5.dev20230714.tar.gz tmp/aeppl-nightly-0.1.5.dev20230715.tar.gz --markdown 20230716/a/aeppl-nightly/0.1.5.dev20230714-0.1.5.dev20230715/diff.md --exclude *.pyd
+[2023-07-16 02:46:10] INFO root fetch - processPackages [dj-veryfi]: executing diffoscope
+[2023-07-16 02:46:10] INFO root fetch - processPackages [dj-veryfi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dj-veryfi-0.1.4.tar.gz tmp/dj-veryfi-0.1.5.tar.gz --markdown 20230716/d/dj-veryfi/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-16 02:46:11] INFO root fetch - processPackages [drf-pydantic]: Downloading https://files.pythonhosted.org/packages/57/ba/8f894cc1a4817accc53d669473de62f2e8eeef58a7036a8e1de705890421/drf_pydantic-0.5.0.tar.gz
+[2023-07-16 02:46:11] INFO root fetch - processPackages [cdk8s-plus-26]: Downloading https://files.pythonhosted.org/packages/4b/71/8633505546b0d14f43d4228e2bfca04d24825c5c1dd8b51f03b59438e080/cdk8s-plus-26-2.4.91.tar.gz
+[2023-07-16 02:46:11] INFO root fetch - processPackages [cdk8s-plus-26]: executing diffoscope
+[2023-07-16 02:46:11] INFO root fetch - processPackages [cdk8s-plus-26]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-26-2.4.90.tar.gz tmp/cdk8s-plus-26-2.4.91.tar.gz --markdown 20230716/c/cdk8s-plus-26/2.4.90-2.4.91/diff.md --exclude *.pyd
+[2023-07-16 02:46:11] INFO root fetch - processPackages [drf-pydantic]: executing diffoscope
+[2023-07-16 02:46:11] INFO root fetch - processPackages [drf-pydantic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drf_pydantic-0.4.1.tar.gz tmp/drf_pydantic-0.5.0.tar.gz --markdown 20230716/d/drf-pydantic/0.4.1-0.5.0/diff.md --exclude *.pyd
+[2023-07-16 02:46:11] INFO root fetch - processPackages [dj-veryfi]: Remove: archive file [/home/abi/fetcher/tmp/dj-veryfi-0.1.4.tar.gz]
+[2023-07-16 02:46:11] INFO root fetch - processPackages [dj-veryfi]: Remove: archive file [/home/abi/fetcher/tmp/dj-veryfi-0.1.5.tar.gz]
+[2023-07-16 02:46:11] INFO root fetch - main [MainThread]: End processing [dj-veryfi]: success
+[2023-07-16 02:46:11] INFO root fetch - processPackages [aeppl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aeppl-nightly-0.1.5.dev20230714.tar.gz]
+[2023-07-16 02:46:11] INFO root fetch - processPackages [aeppl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aeppl-nightly-0.1.5.dev20230715.tar.gz]
+[2023-07-16 02:46:11] INFO root fetch - main [MainThread]: End processing [aeppl-nightly]: success
+[2023-07-16 02:46:11] INFO root fetch - processPackages [drf-pydantic]: Remove: archive file [/home/abi/fetcher/tmp/drf_pydantic-0.4.1.tar.gz]
+[2023-07-16 02:46:11] INFO root fetch - processPackages [drf-pydantic]: Remove: archive file [/home/abi/fetcher/tmp/drf_pydantic-0.5.0.tar.gz]
+[2023-07-16 02:46:11] INFO root fetch - main [MainThread]: End processing [drf-pydantic]: success
+[2023-07-16 02:46:12] INFO root fetch - processPackages [cdk8s-plus-26]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-26-2.4.90.tar.gz]
+[2023-07-16 02:46:12] INFO root fetch - processPackages [cdk8s-plus-26]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-26-2.4.91.tar.gz]
+[2023-07-16 02:46:12] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-26]: success
+[2023-07-16 02:46:12] INFO root fetch - main [MainThread]: Store serial: [18903955]
