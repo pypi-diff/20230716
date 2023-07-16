@@ -14308,3 +14308,76 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-16 22:59:18] INFO root fetch - processPackages [miniworldmaker]: Remove: archive file [/home/abi/fetcher/tmp/miniworldmaker-2.9.0.0.tar.gz]
 [2023-07-16 22:59:18] INFO root fetch - main [MainThread]: End processing [miniworldmaker]: success
 [2023-07-16 22:59:18] INFO root fetch - main [MainThread]: Store serial: [18909378]
+[2023-07-16 23:04:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18909378]
+[2023-07-16 23:04:27] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-16 23:04:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dxsp
+[2023-07-16 23:04:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: loopgpt
+[2023-07-16 23:04:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pypdf
+[2023-07-16 23:04:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: idlerich
+[2023-07-16 23:04:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aityping
+[2023-07-16 23:04:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kfsd
+[2023-07-16 23:04:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: diffdrr
+[2023-07-16 23:04:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: focus-cfe
+[2023-07-16 23:04:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gs-coordinator
+[2023-07-16 23:04:28] WARNING root fetch - processPackages [aityping]: Skipping, unable to determine old version
+[2023-07-16 23:04:28] INFO root fetch - main [MainThread]: End processing [aityping] error
+[2023-07-16 23:04:28] INFO root fetch - processPackages [gs-coordinator]: New version: [0.24.0a20230715] Old Version: [0.24.0a20230714]
+[2023-07-16 23:04:28] INFO root fetch - processPackages [focus-cfe]: New version: [0.0.dev2] Old Version: [0.0.dev1]
+[2023-07-16 23:04:28] INFO root fetch - processPackages [idlerich]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-07-16 23:04:28] INFO root fetch - processPackages [diffdrr]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-07-16 23:04:28] INFO root fetch - processPackages [loopgpt]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-07-16 23:04:28] INFO root fetch - processPackages [pypdf]: New version: [3.9.1] Old Version: [3.9.0]
+[2023-07-16 23:04:28] INFO root fetch - processPackages [kfsd]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-16 23:04:28] INFO root fetch - processPackages [dxsp]: New version: [4.0.4] Old Version: [4.0.3]
+[2023-07-16 23:04:28] INFO root fetch - processPackages [dxsp]: Downloading https://files.pythonhosted.org/packages/5b/ae/a0231c45b2e5b1585c6a376944be797586f7a2e997b85ff46c2a171c0993/dxsp-4.0.3.tar.gz
+[2023-07-16 23:04:28] INFO root fetch - processPackages [focus-cfe]: Downloading https://files.pythonhosted.org/packages/9b/12/e0745ada36eb0292a7c180544045b47785afcb678ba74ab5ca06ed5a7c73/focus-cfe-0.0.dev1.tar.gz
+[2023-07-16 23:04:28] INFO root fetch - processPackages [idlerich]: Downloading https://files.pythonhosted.org/packages/c8/36/99af7a53ac5bb763b27d82015a27475f41cb4a92e502e7fbdb22a0c58293/idlerich-0.1.0.tar.gz
+[2023-07-16 23:04:28] INFO root fetch - processPackages [kfsd]: Downloading https://files.pythonhosted.org/packages/bc/a3/f3db8d87a39f5eb8a59d2664840211b257e17b2838d141754bf65b5b99d4/kfsd-0.0.8.tar.gz
+[2023-07-16 23:04:28] INFO root fetch - processPackages [pypdf]: Downloading https://files.pythonhosted.org/packages/58/b7/63717fa462e8f54e66e460d95092e242d66d628e885773f4348e50faf0dd/pypdf-3.9.0.tar.gz
+[2023-07-16 23:04:28] INFO root fetch - processPackages [loopgpt]: Downloading https://files.pythonhosted.org/packages/61/66/99c47e13b5d18407fb1bacf705dd1818fa0146ee32a0490722c87e8a822f/loopgpt-0.0.9.tar.gz
+[2023-07-16 23:04:28] INFO root fetch - processPackages [diffdrr]: Downloading https://files.pythonhosted.org/packages/3f/ec/63ba4136d290b256628cac998d8f50654e3f6bee942f86a9079726134558/diffdrr-0.3.2.tar.gz
+[2023-07-16 23:04:28] WARNING root fetch - processPackages [diffdrr]: Skipping package: exceeds size limit 34565771>=10485760
+[2023-07-16 23:04:28] INFO root fetch - main [MainThread]: End processing [diffdrr] error
+[2023-07-16 23:04:28] INFO root fetch - processPackages [dxsp]: Downloading https://files.pythonhosted.org/packages/6b/1b/fa69ae82adefcce9de74bc579cf9a1bd05487d360c8d1dba1b470cf990fa/dxsp-4.0.4.tar.gz
+[2023-07-16 23:04:28] INFO root fetch - processPackages [idlerich]: Downloading https://files.pythonhosted.org/packages/ba/77/bea2d7a3b94ed6e8ed29a6f493dd69e053f6a92ae7258c8f9cab72637606/idlerich-0.2.0.tar.gz
+[2023-07-16 23:04:28] INFO root fetch - processPackages [focus-cfe]: Downloading https://files.pythonhosted.org/packages/8f/9f/ab53518733c4546f16beabc643dfb07848f0c4bdafcee9ac07659fcc47f3/focus-cfe-0.0.dev2.tar.gz
+[2023-07-16 23:04:28] INFO root fetch - processPackages [gs-coordinator]: Downloading https://files.pythonhosted.org/packages/a2/5a/189c4d0a2bb62aab2ab8a919fd4d74cd9098a51f833b3424cfb24c44c53c/gs_coordinator-0.24.0a20230715-py2.py3-none-macosx_11_0_x86_64.whl
+[2023-07-16 23:04:28] INFO root fetch - processPackages [dxsp]: executing diffoscope
+[2023-07-16 23:04:28] INFO root fetch - processPackages [dxsp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dxsp-4.0.3.tar.gz tmp/dxsp-4.0.4.tar.gz --markdown 20230716/d/dxsp/4.0.3-4.0.4/diff.md --exclude *.pyd
+[2023-07-16 23:04:28] INFO root fetch - processPackages [pypdf]: Downloading https://files.pythonhosted.org/packages/84/46/50c317477ccd23979b7e18847d2c58c8fca89b0db41670bc819710aab26a/pypdf-3.9.1.tar.gz
+[2023-07-16 23:04:28] INFO root fetch - processPackages [loopgpt]: Downloading https://files.pythonhosted.org/packages/2f/3e/6ea7a56f801f905e3275b959cae69a5149785afc113fefd9e1c582e14311/loopgpt-0.1.0.tar.gz
+[2023-07-16 23:04:28] INFO root fetch - processPackages [focus-cfe]: executing diffoscope
+[2023-07-16 23:04:28] INFO root fetch - processPackages [focus-cfe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/focus-cfe-0.0.dev1.tar.gz tmp/focus-cfe-0.0.dev2.tar.gz --markdown 20230716/f/focus-cfe/0.0.dev1-0.0.dev2/diff.md --exclude *.pyd
+[2023-07-16 23:04:28] INFO root fetch - processPackages [gs-coordinator]: executing diffoscope
+[2023-07-16 23:04:28] INFO root fetch - processPackages [gs-coordinator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gs_coordinator-0.24.0a20230714-py2.py3-none-macosx_11_0_x86_64.whl.zip tmp/gs_coordinator-0.24.0a20230715-py2.py3-none-macosx_11_0_x86_64.whl.zip --markdown 20230716/g/gs-coordinator/0.24.0a20230714-0.24.0a20230715/diff.md --exclude *.pyd
+[2023-07-16 23:04:28] INFO root fetch - processPackages [kfsd]: Downloading https://files.pythonhosted.org/packages/cc/18/f96c1914d54bd725df13ee5bf82870ca513b9a3c82d89aa30a7d271fa26a/kfsd-0.0.9.tar.gz
+[2023-07-16 23:04:29] INFO root fetch - processPackages [idlerich]: executing diffoscope
+[2023-07-16 23:04:29] INFO root fetch - processPackages [idlerich]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idlerich-0.1.0.tar.gz tmp/idlerich-0.2.0.tar.gz --markdown 20230716/i/idlerich/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-07-16 23:04:29] INFO root fetch - processPackages [loopgpt]: executing diffoscope
+[2023-07-16 23:04:29] INFO root fetch - processPackages [loopgpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/loopgpt-0.0.9.tar.gz tmp/loopgpt-0.1.0.tar.gz --markdown 20230716/l/loopgpt/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-07-16 23:04:29] INFO root fetch - processPackages [kfsd]: executing diffoscope
+[2023-07-16 23:04:29] INFO root fetch - processPackages [kfsd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfsd-0.0.8.tar.gz tmp/kfsd-0.0.9.tar.gz --markdown 20230716/k/kfsd/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-16 23:04:29] INFO root fetch - processPackages [pypdf]: executing diffoscope
+[2023-07-16 23:04:29] INFO root fetch - processPackages [pypdf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypdf-3.9.0.tar.gz tmp/pypdf-3.9.1.tar.gz --markdown 20230716/p/pypdf/3.9.0-3.9.1/diff.md --exclude *.pyd
+[2023-07-16 23:04:30] INFO root fetch - processPackages [idlerich]: Remove: archive file [/home/abi/fetcher/tmp/idlerich-0.1.0.tar.gz]
+[2023-07-16 23:04:30] INFO root fetch - processPackages [idlerich]: Remove: archive file [/home/abi/fetcher/tmp/idlerich-0.2.0.tar.gz]
+[2023-07-16 23:04:30] INFO root fetch - main [MainThread]: End processing [idlerich]: success
+[2023-07-16 23:04:30] INFO root fetch - processPackages [focus-cfe]: Remove: archive file [/home/abi/fetcher/tmp/focus-cfe-0.0.dev1.tar.gz]
+[2023-07-16 23:04:30] INFO root fetch - processPackages [focus-cfe]: Remove: archive file [/home/abi/fetcher/tmp/focus-cfe-0.0.dev2.tar.gz]
+[2023-07-16 23:04:30] INFO root fetch - main [MainThread]: End processing [focus-cfe]: success
+[2023-07-16 23:04:30] INFO root fetch - processPackages [dxsp]: Remove: archive file [/home/abi/fetcher/tmp/dxsp-4.0.3.tar.gz]
+[2023-07-16 23:04:30] INFO root fetch - processPackages [dxsp]: Remove: archive file [/home/abi/fetcher/tmp/dxsp-4.0.4.tar.gz]
+[2023-07-16 23:04:30] INFO root fetch - main [MainThread]: End processing [dxsp]: success
+[2023-07-16 23:04:30] INFO root fetch - processPackages [loopgpt]: Remove: archive file [/home/abi/fetcher/tmp/loopgpt-0.0.9.tar.gz]
+[2023-07-16 23:04:30] INFO root fetch - processPackages [loopgpt]: Remove: archive file [/home/abi/fetcher/tmp/loopgpt-0.1.0.tar.gz]
+[2023-07-16 23:04:30] INFO root fetch - main [MainThread]: End processing [loopgpt]: success
+[2023-07-16 23:04:30] INFO root fetch - processPackages [gs-coordinator]: Remove: archive file [/home/abi/fetcher/tmp/gs_coordinator-0.24.0a20230714-py2.py3-none-macosx_11_0_x86_64.whl.zip]
+[2023-07-16 23:04:30] INFO root fetch - processPackages [gs-coordinator]: Remove: archive file [/home/abi/fetcher/tmp/gs_coordinator-0.24.0a20230715-py2.py3-none-macosx_11_0_x86_64.whl.zip]
+[2023-07-16 23:04:30] INFO root fetch - main [MainThread]: End processing [gs-coordinator]: success
+[2023-07-16 23:04:30] INFO root fetch - processPackages [kfsd]: Remove: archive file [/home/abi/fetcher/tmp/kfsd-0.0.8.tar.gz]
+[2023-07-16 23:04:30] INFO root fetch - processPackages [kfsd]: Remove: archive file [/home/abi/fetcher/tmp/kfsd-0.0.9.tar.gz]
+[2023-07-16 23:04:30] INFO root fetch - main [MainThread]: End processing [kfsd]: success
+[2023-07-16 23:04:30] INFO root fetch - processPackages [pypdf]: Remove: archive file [/home/abi/fetcher/tmp/pypdf-3.9.0.tar.gz]
+[2023-07-16 23:04:30] INFO root fetch - processPackages [pypdf]: Remove: archive file [/home/abi/fetcher/tmp/pypdf-3.9.1.tar.gz]
+[2023-07-16 23:04:30] INFO root fetch - main [MainThread]: End processing [pypdf]: success
+[2023-07-16 23:04:30] INFO root fetch - main [MainThread]: Store serial: [18909411]
