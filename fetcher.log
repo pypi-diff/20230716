@@ -11254,3 +11254,72 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-16 18:07:46] INFO root fetch - processPackages [buckaroo]: Remove: archive file [/home/abi/fetcher/tmp/buckaroo-0.3.8.tar.gz]
 [2023-07-16 18:07:46] INFO root fetch - main [MainThread]: End processing [buckaroo]: success
 [2023-07-16 18:07:46] INFO root fetch - main [MainThread]: Store serial: [18907995]
+[2023-07-16 18:12:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18907995]
+[2023-07-16 18:12:56] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-16 18:12:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kthreading
+[2023-07-16 18:12:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: memory-efficient-attention-pytorch
+[2023-07-16 18:12:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: orso
+[2023-07-16 18:12:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: curlgoogle
+[2023-07-16 18:12:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: logger-local
+[2023-07-16 18:12:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: teapy
+[2023-07-16 18:12:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: exchanges-wrapper
+[2023-07-16 18:12:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: telegram-util
+[2023-07-16 18:12:56] INFO root fetch - processPackages [logger-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-16 18:12:56] INFO root fetch - processPackages [teapy]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-16 18:12:56] INFO root fetch - processPackages [kthreading]: New version: [0.3] Old Version: [0.2]
+[2023-07-16 18:12:56] INFO root fetch - processPackages [exchanges-wrapper]: New version: [1.3.4b0] Old Version: [1.3.3]
+[2023-07-16 18:12:56] INFO root fetch - processPackages [memory-efficient-attention-pytorch]: New version: [0.1.4] Old Version: [0.1.2]
+[2023-07-16 18:12:56] INFO root fetch - processPackages [telegram-util]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-16 18:12:56] WARNING root fetch - processPackages [curlgoogle]: Skipping, unable to determine old version
+[2023-07-16 18:12:56] INFO root fetch - main [MainThread]: End processing [curlgoogle] error
+[2023-07-16 18:12:57] INFO root fetch - processPackages [orso]: New version: [0.0.9] Old Version: [0.0.85]
+[2023-07-16 18:12:57] INFO root fetch - processPackages [logger-local]: Downloading https://files.pythonhosted.org/packages/21/e1/7a45a748162f16f488c16187a0b07c25201df5531bf12da29ff61c6d7db5/logger-local-0.0.8.tar.gz
+[2023-07-16 18:12:57] INFO root fetch - processPackages [kthreading]: Downloading https://files.pythonhosted.org/packages/33/87/32240ea0b83ddea063c24706b71b96633d5d82ca7b90b429d8603a57441c/kthreading-0.2.tar.gz
+[2023-07-16 18:12:57] INFO root fetch - processPackages [teapy]: Downloading https://files.pythonhosted.org/packages/88/ac/abf09da0c4988f80f15cd384b3e194e41bf849182b2d64e09e829d29e4b5/teapy-0.1.8.tar.gz
+[2023-07-16 18:12:57] INFO root fetch - processPackages [orso]: Downloading https://files.pythonhosted.org/packages/c6/70/3cc80f69c4b9ea0f5b2a0470856e84dc5692451a94cd2eaacbbdd6de927b/orso-0.0.85.tar.gz
+[2023-07-16 18:12:57] INFO root fetch - processPackages [telegram-util]: Downloading https://files.pythonhosted.org/packages/86/3a/79c1857e1ffef8f07c666a641fe9f7a9485cbd7fec82160e80cea6daf9ba/telegram_util-0.0.98.tar.gz
+[2023-07-16 18:12:57] INFO root fetch - processPackages [memory-efficient-attention-pytorch]: Downloading https://files.pythonhosted.org/packages/02/b3/ed45bcda0e3758afa8e0e822547c9add32e1e31b0af00da6cf67f935b0bc/memory-efficient-attention-pytorch-0.1.2.tar.gz
+[2023-07-16 18:12:57] INFO root fetch - processPackages [exchanges-wrapper]: Downloading https://files.pythonhosted.org/packages/d8/40/019a3cebf765f152a723dfbb07437a5977f75717d3d090f1af6a1c107670/exchanges_wrapper-1.3.3.tar.gz
+[2023-07-16 18:12:57] INFO root fetch - processPackages [logger-local]: Downloading https://files.pythonhosted.org/packages/2d/a9/d7815ae572e09b03370b309ad1bf127cf7c8f4c91b3ddd26fd0043a2e559/logger-local-0.0.9.tar.gz
+[2023-07-16 18:12:57] INFO root fetch - processPackages [kthreading]: Downloading https://files.pythonhosted.org/packages/50/28/0444d856783619b75e92698e759d753c18dbe2e04edbae8ae90378c4ab98/kthreading-0.3.tar.gz
+[2023-07-16 18:12:57] INFO root fetch - processPackages [logger-local]: executing diffoscope
+[2023-07-16 18:12:57] INFO root fetch - processPackages [logger-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logger-local-0.0.8.tar.gz tmp/logger-local-0.0.9.tar.gz --markdown 20230716/l/logger-local/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-16 18:12:57] INFO root fetch - processPackages [orso]: Downloading https://files.pythonhosted.org/packages/d0/a6/e427d299b4d15d22164372c94c2665865951bb26973a967eca19d3d2493c/orso-0.0.9.tar.gz
+[2023-07-16 18:12:57] INFO root fetch - processPackages [teapy]: Downloading https://files.pythonhosted.org/packages/29/2b/61110c41eb8ccc838afa9efa62d8b9fed01e07b191f1d4c069fc9c55af14/teapy-0.1.9.tar.gz
+[2023-07-16 18:12:57] INFO root fetch - processPackages [kthreading]: executing diffoscope
+[2023-07-16 18:12:57] INFO root fetch - processPackages [kthreading]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kthreading-0.2.tar.gz tmp/kthreading-0.3.tar.gz --markdown 20230716/k/kthreading/0.2-0.3/diff.md --exclude *.pyd
+[2023-07-16 18:12:57] INFO root fetch - processPackages [orso]: executing diffoscope
+[2023-07-16 18:12:57] INFO root fetch - processPackages [orso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/orso-0.0.85.tar.gz tmp/orso-0.0.9.tar.gz --markdown 20230716/o/orso/0.0.85-0.0.9/diff.md --exclude *.pyd
+[2023-07-16 18:12:57] INFO root fetch - processPackages [memory-efficient-attention-pytorch]: Downloading https://files.pythonhosted.org/packages/74/c0/f6901acd31dc3dbabe8e0cea5e190e5ed2e8c816717ec389eb7f2b1cd8a1/memory-efficient-attention-pytorch-0.1.4.tar.gz
+[2023-07-16 18:12:57] INFO root fetch - processPackages [exchanges-wrapper]: Downloading https://files.pythonhosted.org/packages/b8/c2/e7b4ee5571a2ff82abdabb0db092e90fbbd05b562b5ea2cd50afaa345763/exchanges-wrapper-1.3.4b0.tar.gz
+[2023-07-16 18:12:57] INFO root fetch - processPackages [telegram-util]: Downloading https://files.pythonhosted.org/packages/8d/9a/26431fee68d5e5a388b624025cdfa8d173f89f5ac6aa8f2f4f8ac8c3495f/telegram_util-0.0.99.tar.gz
+[2023-07-16 18:12:57] INFO root fetch - processPackages [teapy]: executing diffoscope
+[2023-07-16 18:12:57] INFO root fetch - processPackages [teapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/teapy-0.1.8.tar.gz tmp/teapy-0.1.9.tar.gz --markdown 20230716/t/teapy/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-16 18:12:57] INFO root fetch - processPackages [memory-efficient-attention-pytorch]: executing diffoscope
+[2023-07-16 18:12:57] INFO root fetch - processPackages [memory-efficient-attention-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/memory-efficient-attention-pytorch-0.1.2.tar.gz tmp/memory-efficient-attention-pytorch-0.1.4.tar.gz --markdown 20230716/m/memory-efficient-attention-pytorch/0.1.2-0.1.4/diff.md --exclude *.pyd
+[2023-07-16 18:12:57] INFO root fetch - processPackages [telegram-util]: executing diffoscope
+[2023-07-16 18:12:57] INFO root fetch - processPackages [telegram-util]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/telegram_util-0.0.98.tar.gz tmp/telegram_util-0.0.99.tar.gz --markdown 20230716/t/telegram-util/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-16 18:12:58] INFO root fetch - processPackages [exchanges-wrapper]: executing diffoscope
+[2023-07-16 18:12:58] INFO root fetch - processPackages [exchanges-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exchanges_wrapper-1.3.3.tar.gz tmp/exchanges-wrapper-1.3.4b0.tar.gz --markdown 20230716/e/exchanges-wrapper/1.3.3-1.3.4b0/diff.md --exclude *.pyd
+[2023-07-16 18:12:58] INFO root fetch - processPackages [logger-local]: Remove: archive file [/home/abi/fetcher/tmp/logger-local-0.0.8.tar.gz]
+[2023-07-16 18:12:58] INFO root fetch - processPackages [logger-local]: Remove: archive file [/home/abi/fetcher/tmp/logger-local-0.0.9.tar.gz]
+[2023-07-16 18:12:58] INFO root fetch - main [MainThread]: End processing [logger-local]: success
+[2023-07-16 18:12:58] INFO root fetch - processPackages [kthreading]: Remove: archive file [/home/abi/fetcher/tmp/kthreading-0.2.tar.gz]
+[2023-07-16 18:12:58] INFO root fetch - processPackages [kthreading]: Remove: archive file [/home/abi/fetcher/tmp/kthreading-0.3.tar.gz]
+[2023-07-16 18:12:58] INFO root fetch - main [MainThread]: End processing [kthreading]: success
+[2023-07-16 18:12:58] INFO root fetch - processPackages [orso]: Remove: archive file [/home/abi/fetcher/tmp/orso-0.0.85.tar.gz]
+[2023-07-16 18:12:58] INFO root fetch - processPackages [orso]: Remove: archive file [/home/abi/fetcher/tmp/orso-0.0.9.tar.gz]
+[2023-07-16 18:12:58] INFO root fetch - main [MainThread]: End processing [orso]: success
+[2023-07-16 18:12:59] INFO root fetch - processPackages [memory-efficient-attention-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/memory-efficient-attention-pytorch-0.1.2.tar.gz]
+[2023-07-16 18:12:59] INFO root fetch - processPackages [memory-efficient-attention-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/memory-efficient-attention-pytorch-0.1.4.tar.gz]
+[2023-07-16 18:12:59] INFO root fetch - main [MainThread]: End processing [memory-efficient-attention-pytorch]: success
+[2023-07-16 18:12:59] INFO root fetch - processPackages [telegram-util]: Remove: archive file [/home/abi/fetcher/tmp/telegram_util-0.0.98.tar.gz]
+[2023-07-16 18:12:59] INFO root fetch - processPackages [telegram-util]: Remove: archive file [/home/abi/fetcher/tmp/telegram_util-0.0.99.tar.gz]
+[2023-07-16 18:12:59] INFO root fetch - main [MainThread]: End processing [telegram-util]: success
+[2023-07-16 18:12:59] INFO root fetch - processPackages [exchanges-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/exchanges_wrapper-1.3.3.tar.gz]
+[2023-07-16 18:12:59] INFO root fetch - processPackages [exchanges-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/exchanges-wrapper-1.3.4b0.tar.gz]
+[2023-07-16 18:12:59] INFO root fetch - main [MainThread]: End processing [exchanges-wrapper]: success
+[2023-07-16 18:12:59] INFO root fetch - processPackages [teapy]: Remove: archive file [/home/abi/fetcher/tmp/teapy-0.1.8.tar.gz]
+[2023-07-16 18:12:59] INFO root fetch - processPackages [teapy]: Remove: archive file [/home/abi/fetcher/tmp/teapy-0.1.9.tar.gz]
+[2023-07-16 18:12:59] INFO root fetch - main [MainThread]: End processing [teapy]: success
+[2023-07-16 18:12:59] INFO root fetch - main [MainThread]: Store serial: [18908032]
