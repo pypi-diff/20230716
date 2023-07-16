@@ -3051,3 +3051,51 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-16 05:09:19] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20230716.tar.gz]
 [2023-07-16 05:09:19] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
 [2023-07-16 05:09:19] INFO root fetch - main [MainThread]: Store serial: [18904536]
+[2023-07-16 05:14:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18904536]
+[2023-07-16 05:14:28] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-16 05:14:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hak
+[2023-07-16 05:14:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nornir-easy-netmiko
+[2023-07-16 05:14:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nonebot-plugin-game-collection
+[2023-07-16 05:14:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyjava
+[2023-07-16 05:14:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: roblox-pyc
+[2023-07-16 05:14:28] INFO root fetch - processPackages [roblox-pyc]: New version: [1.6.6.5a0] Old Version: [1.6.6.5.4]
+[2023-07-16 05:14:28] INFO root fetch - processPackages [nornir-easy-netmiko]: New version: [1.1.7] Old Version: [1.1.6]
+[2023-07-16 05:14:28] INFO root fetch - processPackages [pyjava]: New version: [0.6.5] Old Version: [0.6.4]
+[2023-07-16 05:14:28] INFO root fetch - processPackages [hak]: New version: [0.0.9] Old Version: [0.0.84]
+[2023-07-16 05:14:28] INFO root fetch - processPackages [nonebot-plugin-game-collection]: New version: [2.3.9] Old Version: [2.3.8]
+[2023-07-16 05:14:28] INFO root fetch - processPackages [roblox-pyc]: Downloading https://files.pythonhosted.org/packages/44/ab/2c1167a2d328570fcff41305068766f10c181301f2cd7a1f64f72287fa27/roblox-pyc-1.6.6.5.4.tar.gz
+[2023-07-16 05:14:28] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Downloading https://files.pythonhosted.org/packages/51/fb/d907f05bab271d6408024397bb87d8e7e069ff91fa3152a09c37d0191aec/nonebot_plugin_game_collection-2.3.8.tar.gz
+[2023-07-16 05:14:28] INFO root fetch - processPackages [hak]: Downloading https://files.pythonhosted.org/packages/e7/d7/8493ba06d05085d6eb985bbb95597c52f5c1969a1d878959982c9c171bcd/hak-0.0.84.tar.gz
+[2023-07-16 05:14:28] INFO root fetch - processPackages [nornir-easy-netmiko]: Downloading https://files.pythonhosted.org/packages/d8/95/65e2d0491de0b238aa80192bc1392353372cccc37e256ee599782887ea3a/nornir_easy_netmiko-1.1.6.tar.gz
+[2023-07-16 05:14:28] INFO root fetch - processPackages [pyjava]: Downloading https://files.pythonhosted.org/packages/65/dc/c9b3e6e89ddc9beb423bd04ffb6fdc90c96300589aada857d71a1a851a94/pyjava-0.6.4.tar.gz
+[2023-07-16 05:14:28] INFO root fetch - processPackages [roblox-pyc]: Downloading https://files.pythonhosted.org/packages/59/75/7884ffaab86bf051065880fd8aefdfc8e3f2c34e7c9d4a8d352321ec57f8/roblox-pyc-1.6.6.5a0.tar.gz
+[2023-07-16 05:14:29] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Downloading https://files.pythonhosted.org/packages/e4/94/777d03c2f9fbba4c5835c0178b82dffa9d6007ab381b752f81e9af32ff1e/nonebot_plugin_game_collection-2.3.9.tar.gz
+[2023-07-16 05:14:29] INFO root fetch - processPackages [roblox-pyc]: executing diffoscope
+[2023-07-16 05:14:29] INFO root fetch - processPackages [roblox-pyc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roblox-pyc-1.6.6.5.4.tar.gz tmp/roblox-pyc-1.6.6.5a0.tar.gz --markdown 20230716/r/roblox-pyc/1.6.6.5.4-1.6.6.5a0/diff.md --exclude *.pyd
+[2023-07-16 05:14:29] INFO root fetch - processPackages [hak]: Downloading https://files.pythonhosted.org/packages/fd/2b/bf7b3451d5e3a84e9a674b47e9f046c4db1f582764a85a4dfc00e14ecf00/hak-0.0.9.tar.gz
+[2023-07-16 05:14:29] INFO root fetch - processPackages [nonebot-plugin-game-collection]: executing diffoscope
+[2023-07-16 05:14:29] INFO root fetch - processPackages [nonebot-plugin-game-collection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_game_collection-2.3.8.tar.gz tmp/nonebot_plugin_game_collection-2.3.9.tar.gz --markdown 20230716/n/nonebot-plugin-game-collection/2.3.8-2.3.9/diff.md --exclude *.pyd
+[2023-07-16 05:14:29] INFO root fetch - processPackages [pyjava]: Downloading https://files.pythonhosted.org/packages/46/9a/2b11803e7b8fd7de7403595f8d4fd94b64a4b33d83450c321bb70f8932f9/pyjava-0.6.5.tar.gz
+[2023-07-16 05:14:29] INFO root fetch - processPackages [hak]: executing diffoscope
+[2023-07-16 05:14:29] INFO root fetch - processPackages [hak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hak-0.0.84.tar.gz tmp/hak-0.0.9.tar.gz --markdown 20230716/h/hak/0.0.84-0.0.9/diff.md --exclude *.pyd
+[2023-07-16 05:14:29] INFO root fetch - processPackages [nornir-easy-netmiko]: Downloading https://files.pythonhosted.org/packages/1e/ad/359ac2ac415312f6d103b22073d16912bc30c0e9dd9d94e19cdc6447d500/nornir_easy_netmiko-1.1.7.tar.gz
+[2023-07-16 05:14:29] INFO root fetch - processPackages [pyjava]: executing diffoscope
+[2023-07-16 05:14:29] INFO root fetch - processPackages [pyjava]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyjava-0.6.4.tar.gz tmp/pyjava-0.6.5.tar.gz --markdown 20230716/p/pyjava/0.6.4-0.6.5/diff.md --exclude *.pyd
+[2023-07-16 05:14:29] INFO root fetch - processPackages [nornir-easy-netmiko]: executing diffoscope
+[2023-07-16 05:14:29] INFO root fetch - processPackages [nornir-easy-netmiko]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nornir_easy_netmiko-1.1.6.tar.gz tmp/nornir_easy_netmiko-1.1.7.tar.gz --markdown 20230716/n/nornir-easy-netmiko/1.1.6-1.1.7/diff.md --exclude *.pyd
+[2023-07-16 05:14:30] INFO root fetch - processPackages [roblox-pyc]: Remove: archive file [/home/abi/fetcher/tmp/roblox-pyc-1.6.6.5.4.tar.gz]
+[2023-07-16 05:14:30] INFO root fetch - processPackages [roblox-pyc]: Remove: archive file [/home/abi/fetcher/tmp/roblox-pyc-1.6.6.5a0.tar.gz]
+[2023-07-16 05:14:30] INFO root fetch - main [MainThread]: End processing [roblox-pyc]: success
+[2023-07-16 05:14:30] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_game_collection-2.3.8.tar.gz]
+[2023-07-16 05:14:30] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_game_collection-2.3.9.tar.gz]
+[2023-07-16 05:14:30] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-game-collection]: success
+[2023-07-16 05:14:30] INFO root fetch - processPackages [pyjava]: Remove: archive file [/home/abi/fetcher/tmp/pyjava-0.6.4.tar.gz]
+[2023-07-16 05:14:30] INFO root fetch - processPackages [pyjava]: Remove: archive file [/home/abi/fetcher/tmp/pyjava-0.6.5.tar.gz]
+[2023-07-16 05:14:30] INFO root fetch - main [MainThread]: End processing [pyjava]: success
+[2023-07-16 05:14:30] INFO root fetch - processPackages [nornir-easy-netmiko]: Remove: archive file [/home/abi/fetcher/tmp/nornir_easy_netmiko-1.1.6.tar.gz]
+[2023-07-16 05:14:30] INFO root fetch - processPackages [nornir-easy-netmiko]: Remove: archive file [/home/abi/fetcher/tmp/nornir_easy_netmiko-1.1.7.tar.gz]
+[2023-07-16 05:14:30] INFO root fetch - main [MainThread]: End processing [nornir-easy-netmiko]: success
+[2023-07-16 05:14:31] INFO root fetch - processPackages [hak]: Remove: archive file [/home/abi/fetcher/tmp/hak-0.0.84.tar.gz]
+[2023-07-16 05:14:31] INFO root fetch - processPackages [hak]: Remove: archive file [/home/abi/fetcher/tmp/hak-0.0.9.tar.gz]
+[2023-07-16 05:14:31] INFO root fetch - main [MainThread]: End processing [hak]: success
+[2023-07-16 05:14:31] INFO root fetch - main [MainThread]: Store serial: [18904550]
