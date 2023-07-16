@@ -6181,3 +6181,93 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-16 11:08:18] INFO root fetch - processPackages [flake8-type-checking]: Remove: archive file [/home/abi/fetcher/tmp/flake8_type_checking-2.4.1.tar.gz]
 [2023-07-16 11:08:18] INFO root fetch - main [MainThread]: End processing [flake8-type-checking]: success
 [2023-07-16 11:08:18] INFO root fetch - main [MainThread]: Store serial: [18905863]
+[2023-07-16 11:13:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18905863]
+[2023-07-16 11:13:26] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-16 11:13:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: streamlit-cropperjs
+[2023-07-16 11:13:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: valcheck
+[2023-07-16 11:13:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: homeconnect-webthing
+[2023-07-16 11:13:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: streamlit-cropperjs
+[2023-07-16 11:13:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyfrobot
+[2023-07-16 11:13:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fdfat
+[2023-07-16 11:13:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyfrobot
+[2023-07-16 11:13:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: streamlit-cropperjs
+[2023-07-16 11:13:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: talkytimes-package
+[2023-07-16 11:13:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: Coquille
+[2023-07-16 11:13:27] INFO root fetch - processPackages [pyfrobot]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-16 11:13:27] INFO root fetch - processPackages [pyfrobot]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-16 11:13:27] WARNING root fetch - processPackages [valcheck]: Skipping, unable to determine old version
+[2023-07-16 11:13:27] INFO root fetch - processPackages [valcheck]: Start processing: pyfrobot
+[2023-07-16 11:13:27] INFO root fetch - main [MainThread]: End processing [valcheck] error
+[2023-07-16 11:13:27] INFO root fetch - processPackages [streamlit-cropperjs]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-16 11:13:27] INFO root fetch - processPackages [talkytimes-package]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-07-16 11:13:27] INFO root fetch - processPackages [fdfat]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-16 11:13:27] INFO root fetch - processPackages [streamlit-cropperjs]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-16 11:13:27] INFO root fetch - processPackages [streamlit-cropperjs]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-16 11:13:27] INFO root fetch - processPackages [Coquille]: New version: [1.1.1] Old Version: [1.0.2]
+[2023-07-16 11:13:27] INFO root fetch - processPackages [pyfrobot]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-16 11:13:27] INFO root fetch - processPackages [homeconnect-webthing]: New version: [1.0.0] Old Version: [0.3.9]
+[2023-07-16 11:13:27] INFO root fetch - processPackages [pyfrobot]: Downloading https://files.pythonhosted.org/packages/69/5a/6005d6418ba17525afe6101656cee01e8f0844a4f1b6e93267169909ae07/pyfrobot-0.1.0.tar.gz
+[2023-07-16 11:13:27] INFO root fetch - processPackages [pyfrobot]: Downloading https://files.pythonhosted.org/packages/69/5a/6005d6418ba17525afe6101656cee01e8f0844a4f1b6e93267169909ae07/pyfrobot-0.1.0.tar.gz
+[2023-07-16 11:13:27] INFO root fetch - processPackages [Coquille]: Downloading https://files.pythonhosted.org/packages/b3/4e/7a32f0551ef05f4ecad5643d6702e82705f83a9d46a9d27cc7cbf13fc0f4/Coquille-1.0.2.tar.gz
+[2023-07-16 11:13:27] INFO root fetch - processPackages [fdfat]: Downloading https://files.pythonhosted.org/packages/5c/b3/7cc3e1b8eb85d08219b3dcb21f8a4e631d29cffd17b9dedae40f12b134b9/fdfat-0.1.4.tar.gz
+[2023-07-16 11:13:27] INFO root fetch - processPackages [talkytimes-package]: Downloading https://files.pythonhosted.org/packages/64/23/0dc9146a3e19d8d1d2f4c55ae83c66353a0c0c76e986b4a6d5eb05e7b907/talkytimes_package-0.2.6.tar.gz
+[2023-07-16 11:13:27] INFO root fetch - processPackages [streamlit-cropperjs]: Downloading https://files.pythonhosted.org/packages/c7/d0/3814b371f606ac48af4bd7f57ef69dd61745105acd6d1694be46c6c5e11a/streamlit-cropperjs-0.0.4.tar.gz
+[2023-07-16 11:13:27] INFO root fetch - processPackages [streamlit-cropperjs]: Downloading https://files.pythonhosted.org/packages/c7/d0/3814b371f606ac48af4bd7f57ef69dd61745105acd6d1694be46c6c5e11a/streamlit-cropperjs-0.0.4.tar.gz
+[2023-07-16 11:13:27] INFO root fetch - processPackages [streamlit-cropperjs]: Downloading https://files.pythonhosted.org/packages/c7/d0/3814b371f606ac48af4bd7f57ef69dd61745105acd6d1694be46c6c5e11a/streamlit-cropperjs-0.0.4.tar.gz
+[2023-07-16 11:13:27] INFO root fetch - processPackages [pyfrobot]: Downloading https://files.pythonhosted.org/packages/f6/53/f5ffa47d06b46540e70e6e0bbc2a07a17e53485262a97c46dc27d2f3c5ee/pyfrobot-0.1.1.tar.gz
+[2023-07-16 11:13:27] INFO root fetch - processPackages [homeconnect-webthing]: Downloading https://files.pythonhosted.org/packages/fa/54/d5eb4d99012011d9ec8d586a57f1978cd255da40806ccf16036b50725fe6/homeconnect_webthing-0.3.9.tar.gz
+[2023-07-16 11:13:27] INFO root fetch - processPackages [pyfrobot]: Downloading https://files.pythonhosted.org/packages/f6/53/f5ffa47d06b46540e70e6e0bbc2a07a17e53485262a97c46dc27d2f3c5ee/pyfrobot-0.1.1.tar.gz
+[2023-07-16 11:13:27] INFO root fetch - processPackages [pyfrobot]: executing diffoscope
+[2023-07-16 11:13:27] INFO root fetch - processPackages [pyfrobot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfrobot-0.1.0.tar.gz tmp/pyfrobot-0.1.1.tar.gz --markdown 20230716/p/pyfrobot/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-16 11:13:28] INFO root fetch - processPackages [Coquille]: Downloading https://files.pythonhosted.org/packages/46/96/02a23574ea3415975c2855ae0781d940c76fa05fe110704029c6c948857f/Coquille-1.1.1.tar.gz
+[2023-07-16 11:13:28] INFO root fetch - processPackages [pyfrobot]: executing diffoscope
+[2023-07-16 11:13:28] INFO root fetch - processPackages [pyfrobot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfrobot-0.1.0.tar.gz tmp/pyfrobot-0.1.1.tar.gz --markdown 20230716/p/pyfrobot/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-16 11:13:28] INFO root fetch - processPackages [fdfat]: Downloading https://files.pythonhosted.org/packages/4a/b5/f6fe70895f8e9cf258c00bfe55c57c2d63846fb2c979386396ebad752298/fdfat-0.1.5.tar.gz
+[2023-07-16 11:13:28] INFO root fetch - processPackages [Coquille]: executing diffoscope
+[2023-07-16 11:13:28] INFO root fetch - processPackages [Coquille]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Coquille-1.0.2.tar.gz tmp/Coquille-1.1.1.tar.gz --markdown 20230716/C/Coquille/1.0.2-1.1.1/diff.md --exclude *.pyd
+[2023-07-16 11:13:28] INFO root fetch - processPackages [talkytimes-package]: Downloading https://files.pythonhosted.org/packages/76/df/47f1560f124d6880fb4f04695ac02f6357534e677d85334fcdff316c6106/talkytimes_package-0.2.7.tar.gz
+[2023-07-16 11:13:28] INFO root fetch - processPackages [streamlit-cropperjs]: Downloading https://files.pythonhosted.org/packages/5a/43/74066414ed775b6fe02c03a7a3ad80e8ab073e843aee61339f7f3ec5c8d2/streamlit-cropperjs-0.0.5.tar.gz
+[2023-07-16 11:13:28] INFO root fetch - processPackages [streamlit-cropperjs]: Downloading https://files.pythonhosted.org/packages/5a/43/74066414ed775b6fe02c03a7a3ad80e8ab073e843aee61339f7f3ec5c8d2/streamlit-cropperjs-0.0.5.tar.gz
+[2023-07-16 11:13:28] INFO root fetch - processPackages [streamlit-cropperjs]: Downloading https://files.pythonhosted.org/packages/5a/43/74066414ed775b6fe02c03a7a3ad80e8ab073e843aee61339f7f3ec5c8d2/streamlit-cropperjs-0.0.5.tar.gz
+[2023-07-16 11:13:28] INFO root fetch - processPackages [pyfrobot]: Downloading https://files.pythonhosted.org/packages/23/3f/fa24bcd10d12fb159100bc5e4a7f94c1c6fb4db329057ab30030301d5db2/pyfrobot-0.1.2.tar.gz
+[2023-07-16 11:13:28] INFO root fetch - processPackages [fdfat]: executing diffoscope
+[2023-07-16 11:13:28] INFO root fetch - processPackages [fdfat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fdfat-0.1.4.tar.gz tmp/fdfat-0.1.5.tar.gz --markdown 20230716/f/fdfat/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-16 11:13:28] INFO root fetch - processPackages [homeconnect-webthing]: Downloading https://files.pythonhosted.org/packages/d2/27/bee2f3713231b83ca5828612d3acd80b2def7fd8e64a2008704b93fb3cb4/homeconnect_webthing-1.0.0.tar.gz
+[2023-07-16 11:13:28] INFO root fetch - processPackages [talkytimes-package]: executing diffoscope
+[2023-07-16 11:13:28] INFO root fetch - processPackages [talkytimes-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/talkytimes_package-0.2.6.tar.gz tmp/talkytimes_package-0.2.7.tar.gz --markdown 20230716/t/talkytimes-package/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-07-16 11:13:28] INFO root fetch - processPackages [streamlit-cropperjs]: executing diffoscope
+[2023-07-16 11:13:28] INFO root fetch - processPackages [streamlit-cropperjs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-cropperjs-0.0.4.tar.gz tmp/streamlit-cropperjs-0.0.5.tar.gz --markdown 20230716/s/streamlit-cropperjs/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-16 11:13:28] INFO root fetch - processPackages [streamlit-cropperjs]: executing diffoscope
+[2023-07-16 11:13:28] INFO root fetch - processPackages [streamlit-cropperjs]: executing diffoscope
+[2023-07-16 11:13:28] INFO root fetch - processPackages [streamlit-cropperjs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-cropperjs-0.0.4.tar.gz tmp/streamlit-cropperjs-0.0.5.tar.gz --markdown 20230716/s/streamlit-cropperjs/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-16 11:13:28] INFO root fetch - processPackages [streamlit-cropperjs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-cropperjs-0.0.4.tar.gz tmp/streamlit-cropperjs-0.0.5.tar.gz --markdown 20230716/s/streamlit-cropperjs/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-16 11:13:28] INFO root fetch - processPackages [homeconnect-webthing]: executing diffoscope
+[2023-07-16 11:13:28] INFO root fetch - processPackages [homeconnect-webthing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/homeconnect_webthing-0.3.9.tar.gz tmp/homeconnect_webthing-1.0.0.tar.gz --markdown 20230716/h/homeconnect-webthing/0.3.9-1.0.0/diff.md --exclude *.pyd
+[2023-07-16 11:13:28] INFO root fetch - processPackages [pyfrobot]: executing diffoscope
+[2023-07-16 11:13:28] INFO root fetch - processPackages [pyfrobot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfrobot-0.1.1.tar.gz tmp/pyfrobot-0.1.2.tar.gz --markdown 20230716/p/pyfrobot/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-16 11:13:29] INFO root fetch - processPackages [pyfrobot]: Remove: archive file [/home/abi/fetcher/tmp/pyfrobot-0.1.0.tar.gz]
+[2023-07-16 11:13:29] INFO root fetch - processPackages [pyfrobot]: Remove: archive file [/home/abi/fetcher/tmp/pyfrobot-0.1.1.tar.gz]
+[2023-07-16 11:13:29] INFO root fetch - main [MainThread]: End processing [pyfrobot]: success
+[2023-07-16 11:13:29] INFO root fetch - main [MainThread]: End processing [pyfrobot]: success
+[2023-07-16 11:13:29] ERROR root fetch - processPackages [pyfrobot]: Diffoscope failed: time="2023-07-16T11:13:28+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+/srv/diffoscope/bin/diffoscope: tmp/pyfrobot-0.1.1.tar.gz: No such file or directory
+
+[2023-07-16 11:13:29] INFO root fetch - main [MainThread]: End processing [pyfrobot] error
+[2023-07-16 11:13:29] INFO root fetch - processPackages [Coquille]: Remove: archive file [/home/abi/fetcher/tmp/Coquille-1.0.2.tar.gz]
+[2023-07-16 11:13:29] INFO root fetch - processPackages [Coquille]: Remove: archive file [/home/abi/fetcher/tmp/Coquille-1.1.1.tar.gz]
+[2023-07-16 11:13:29] INFO root fetch - main [MainThread]: End processing [Coquille]: success
+[2023-07-16 11:13:29] INFO root fetch - processPackages [talkytimes-package]: Remove: archive file [/home/abi/fetcher/tmp/talkytimes_package-0.2.6.tar.gz]
+[2023-07-16 11:13:29] INFO root fetch - processPackages [talkytimes-package]: Remove: archive file [/home/abi/fetcher/tmp/talkytimes_package-0.2.7.tar.gz]
+[2023-07-16 11:13:29] INFO root fetch - main [MainThread]: End processing [talkytimes-package]: success
+[2023-07-16 11:13:29] INFO root fetch - processPackages [fdfat]: Remove: archive file [/home/abi/fetcher/tmp/fdfat-0.1.4.tar.gz]
+[2023-07-16 11:13:29] INFO root fetch - processPackages [fdfat]: Remove: archive file [/home/abi/fetcher/tmp/fdfat-0.1.5.tar.gz]
+[2023-07-16 11:13:29] INFO root fetch - main [MainThread]: End processing [fdfat]: success
+[2023-07-16 11:13:29] INFO root fetch - processPackages [streamlit-cropperjs]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-cropperjs-0.0.4.tar.gz]
+[2023-07-16 11:13:29] INFO root fetch - processPackages [streamlit-cropperjs]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-cropperjs-0.0.5.tar.gz]
+[2023-07-16 11:13:29] INFO root fetch - main [MainThread]: End processing [streamlit-cropperjs]: success
+[2023-07-16 11:13:30] INFO root fetch - main [MainThread]: End processing [streamlit-cropperjs]: success
+[2023-07-16 11:13:30] INFO root fetch - main [MainThread]: End processing [streamlit-cropperjs]: success
+[2023-07-16 11:13:30] INFO root fetch - processPackages [homeconnect-webthing]: Remove: archive file [/home/abi/fetcher/tmp/homeconnect_webthing-0.3.9.tar.gz]
+[2023-07-16 11:13:30] INFO root fetch - processPackages [homeconnect-webthing]: Remove: archive file [/home/abi/fetcher/tmp/homeconnect_webthing-1.0.0.tar.gz]
+[2023-07-16 11:13:30] INFO root fetch - main [MainThread]: End processing [homeconnect-webthing]: success
+[2023-07-16 11:13:30] INFO root fetch - main [MainThread]: Store serial: [18905896]
