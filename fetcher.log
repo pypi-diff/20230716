@@ -11758,3 +11758,65 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-16 18:55:14] INFO root fetch - processPackages [buckaroo]: Remove: archive file [/home/abi/fetcher/tmp/buckaroo-0.3.9.tar.gz]
 [2023-07-16 18:55:14] INFO root fetch - main [MainThread]: End processing [buckaroo]: success
 [2023-07-16 18:55:14] INFO root fetch - main [MainThread]: Store serial: [18908189]
+[2023-07-16 19:00:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18908189]
+[2023-07-16 19:00:24] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-16 19:00:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: symbex
+[2023-07-16 19:00:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pymovie
+[2023-07-16 19:00:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: databend
+[2023-07-16 19:00:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: adadmire
+[2023-07-16 19:00:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lsnms
+[2023-07-16 19:00:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: robingame
+[2023-07-16 19:00:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: stream-zip
+[2023-07-16 19:00:24] INFO root fetch - processPackages [databend]: New version: [1.2.8] Old Version: [1.2.7]
+[2023-07-16 19:00:25] INFO root fetch - processPackages [symbex]: New version: [1.2] Old Version: [1.1]
+[2023-07-16 19:00:25] INFO root fetch - processPackages [robingame]: New version: [1.0.1] Old Version: [0.1.0]
+[2023-07-16 19:00:25] INFO root fetch - processPackages [adadmire]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-16 19:00:25] INFO root fetch - processPackages [stream-zip]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-16 19:00:25] INFO root fetch - processPackages [lsnms]: New version: [0.4.0] Old Version: [0.3.2]
+[2023-07-16 19:00:25] INFO root fetch - processPackages [pymovie]: New version: [3.8.1] Old Version: [3.8.0]
+[2023-07-16 19:00:25] INFO root fetch - processPackages [databend]: Downloading https://files.pythonhosted.org/packages/12/f6/b900d9db17f14e3b5b29a70678a77c9b13ec65fb952712fcc1c6868905ac/databend-1.2.7-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-16 19:00:25] INFO root fetch - processPackages [symbex]: Downloading https://files.pythonhosted.org/packages/4e/72/197389866706eb6d75f9313391de6f331d0bf90ee6dd4fae781c60cc2b99/symbex-1.1.tar.gz
+[2023-07-16 19:00:25] INFO root fetch - processPackages [robingame]: Downloading https://files.pythonhosted.org/packages/d4/ee/31111a85370d60b4a96db73c10e2da819a7933ba4987633bd042f2f8faa9/robingame-0.1.0.tar.gz
+[2023-07-16 19:00:25] WARNING root fetch - processPackages [databend]: Skipping package: exceeds size limit 31220931>=10485760
+[2023-07-16 19:00:25] INFO root fetch - main [MainThread]: End processing [databend] error
+[2023-07-16 19:00:25] INFO root fetch - processPackages [stream-zip]: Downloading https://files.pythonhosted.org/packages/4b/65/27b6998732f631a7691a5157fb51c5d5328faa138986c06684c5ae4fe771/stream-zip-0.0.8.tar.gz
+[2023-07-16 19:00:25] INFO root fetch - processPackages [pymovie]: Downloading https://files.pythonhosted.org/packages/f2/53/a14407b18473df49f05cc789650f4a712257cc02b96b31e0438b13540ba4/pymovie-3.8.0.tar.gz
+[2023-07-16 19:00:25] INFO root fetch - processPackages [adadmire]: Downloading https://files.pythonhosted.org/packages/ef/21/e30bb57557c674b0f458b6148f9968cacb74a1201c80c0c6fc74abbec860/adadmire-1.0.0.tar.gz
+[2023-07-16 19:00:25] INFO root fetch - processPackages [lsnms]: Downloading https://files.pythonhosted.org/packages/32/20/53d631a35d2d52f487faea72afd5c933fc70eb44daafd4dc5c9426e96d50/lsnms-0.3.2.tar.gz
+[2023-07-16 19:00:25] INFO root fetch - processPackages [symbex]: Downloading https://files.pythonhosted.org/packages/14/ad/33a54da57fb12c59ffabdb8c7f06baa85569b58b47379683bf04b82f845c/symbex-1.2.tar.gz
+[2023-07-16 19:00:25] INFO root fetch - processPackages [symbex]: executing diffoscope
+[2023-07-16 19:00:25] INFO root fetch - processPackages [symbex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/symbex-1.1.tar.gz tmp/symbex-1.2.tar.gz --markdown 20230716/s/symbex/1.1-1.2/diff.md --exclude *.pyd
+[2023-07-16 19:00:25] INFO root fetch - processPackages [robingame]: Downloading https://files.pythonhosted.org/packages/cf/b4/96ff19ba8b44dacfc539536b96a59c6cc174981a4e7c80e3811b3bba759f/robingame-1.0.1.tar.gz
+[2023-07-16 19:00:25] INFO root fetch - processPackages [robingame]: executing diffoscope
+[2023-07-16 19:00:25] INFO root fetch - processPackages [robingame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robingame-0.1.0.tar.gz tmp/robingame-1.0.1.tar.gz --markdown 20230716/r/robingame/0.1.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-16 19:00:25] INFO root fetch - processPackages [adadmire]: Downloading https://files.pythonhosted.org/packages/73/9b/d72051251263f77bddef01a53af7611f6aed50e4a132833a2f8bffffc552/adadmire-1.0.1.tar.gz
+[2023-07-16 19:00:25] INFO root fetch - processPackages [lsnms]: Downloading https://files.pythonhosted.org/packages/07/84/751d3d00666ecddd619e31cef6315586d4a504eff5d9a26f1469ae7f3842/lsnms-0.4.0.tar.gz
+[2023-07-16 19:00:25] INFO root fetch - processPackages [stream-zip]: Downloading https://files.pythonhosted.org/packages/0e/94/162b767659b1b6afe9241c47773d921e2b8a0f97f124d374e76c7f1d2b53/stream-zip-0.0.9.tar.gz
+[2023-07-16 19:00:25] INFO root fetch - processPackages [adadmire]: executing diffoscope
+[2023-07-16 19:00:25] INFO root fetch - processPackages [adadmire]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adadmire-1.0.0.tar.gz tmp/adadmire-1.0.1.tar.gz --markdown 20230716/a/adadmire/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-16 19:00:26] INFO root fetch - processPackages [lsnms]: executing diffoscope
+[2023-07-16 19:00:26] INFO root fetch - processPackages [lsnms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsnms-0.3.2.tar.gz tmp/lsnms-0.4.0.tar.gz --markdown 20230716/l/lsnms/0.3.2-0.4.0/diff.md --exclude *.pyd
+[2023-07-16 19:00:26] INFO root fetch - processPackages [stream-zip]: executing diffoscope
+[2023-07-16 19:00:26] INFO root fetch - processPackages [stream-zip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stream-zip-0.0.8.tar.gz tmp/stream-zip-0.0.9.tar.gz --markdown 20230716/s/stream-zip/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-16 19:00:26] INFO root fetch - processPackages [pymovie]: Downloading https://files.pythonhosted.org/packages/48/dd/1cf88f0441bfab4a7d6af20a75f6b30090b8aaf9a17c168e43eec6c5614e/pymovie-3.8.1.tar.gz
+[2023-07-16 19:00:26] INFO root fetch - processPackages [pymovie]: executing diffoscope
+[2023-07-16 19:00:26] INFO root fetch - processPackages [pymovie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymovie-3.8.0.tar.gz tmp/pymovie-3.8.1.tar.gz --markdown 20230716/p/pymovie/3.8.0-3.8.1/diff.md --exclude *.pyd
+[2023-07-16 19:00:26] INFO root fetch - processPackages [symbex]: Remove: archive file [/home/abi/fetcher/tmp/symbex-1.1.tar.gz]
+[2023-07-16 19:00:26] INFO root fetch - processPackages [symbex]: Remove: archive file [/home/abi/fetcher/tmp/symbex-1.2.tar.gz]
+[2023-07-16 19:00:26] INFO root fetch - main [MainThread]: End processing [symbex]: success
+[2023-07-16 19:00:26] INFO root fetch - processPackages [lsnms]: Remove: archive file [/home/abi/fetcher/tmp/lsnms-0.3.2.tar.gz]
+[2023-07-16 19:00:26] INFO root fetch - processPackages [lsnms]: Remove: archive file [/home/abi/fetcher/tmp/lsnms-0.4.0.tar.gz]
+[2023-07-16 19:00:26] INFO root fetch - main [MainThread]: End processing [lsnms]: success
+[2023-07-16 19:00:26] INFO root fetch - processPackages [adadmire]: Remove: archive file [/home/abi/fetcher/tmp/adadmire-1.0.0.tar.gz]
+[2023-07-16 19:00:26] INFO root fetch - processPackages [adadmire]: Remove: archive file [/home/abi/fetcher/tmp/adadmire-1.0.1.tar.gz]
+[2023-07-16 19:00:26] INFO root fetch - main [MainThread]: End processing [adadmire]: success
+[2023-07-16 19:00:27] INFO root fetch - processPackages [robingame]: Remove: archive file [/home/abi/fetcher/tmp/robingame-0.1.0.tar.gz]
+[2023-07-16 19:00:27] INFO root fetch - processPackages [robingame]: Remove: archive file [/home/abi/fetcher/tmp/robingame-1.0.1.tar.gz]
+[2023-07-16 19:00:27] INFO root fetch - main [MainThread]: End processing [robingame]: success
+[2023-07-16 19:00:27] INFO root fetch - processPackages [stream-zip]: Remove: archive file [/home/abi/fetcher/tmp/stream-zip-0.0.8.tar.gz]
+[2023-07-16 19:00:27] INFO root fetch - processPackages [stream-zip]: Remove: archive file [/home/abi/fetcher/tmp/stream-zip-0.0.9.tar.gz]
+[2023-07-16 19:00:27] INFO root fetch - main [MainThread]: End processing [stream-zip]: success
+[2023-07-16 19:00:27] INFO root fetch - processPackages [pymovie]: Remove: archive file [/home/abi/fetcher/tmp/pymovie-3.8.0.tar.gz]
+[2023-07-16 19:00:27] INFO root fetch - processPackages [pymovie]: Remove: archive file [/home/abi/fetcher/tmp/pymovie-3.8.1.tar.gz]
+[2023-07-16 19:00:27] INFO root fetch - main [MainThread]: End processing [pymovie]: success
+[2023-07-16 19:00:27] INFO root fetch - main [MainThread]: Store serial: [18908212]
