@@ -8032,3 +8032,78 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-16 14:00:27] INFO root fetch - processPackages [pyrobosim]: Remove: archive file [/home/abi/fetcher/tmp/pyrobosim-1.0.0.tar.gz]
 [2023-07-16 14:00:27] INFO root fetch - main [MainThread]: End processing [pyrobosim]: success
 [2023-07-16 14:00:27] INFO root fetch - main [MainThread]: Store serial: [18906630]
+[2023-07-16 14:05:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18906630]
+[2023-07-16 14:05:36] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-16 14:05:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: GBQM
+[2023-07-16 14:05:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hemlock-survey
+[2023-07-16 14:05:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gad-common-utils
+[2023-07-16 14:05:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: postal-coder-jp
+[2023-07-16 14:05:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sphinxcontrib-xlsxtable
+[2023-07-16 14:05:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bb-dirtree
+[2023-07-16 14:05:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: documentdataextraction
+[2023-07-16 14:05:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: braillert
+[2023-07-16 14:05:37] INFO root fetch - processPackages [sphinxcontrib-xlsxtable]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-07-16 14:05:37] INFO root fetch - processPackages [hemlock-survey]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-16 14:05:37] INFO root fetch - processPackages [GBQM]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-16 14:05:37] INFO root fetch - processPackages [bb-dirtree]: New version: [0.4.0] Old Version: [0.3.2]
+[2023-07-16 14:05:37] INFO root fetch - processPackages [postal-coder-jp]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-16 14:05:37] INFO root fetch - processPackages [gad-common-utils]: New version: [0.29] Old Version: [0.28]
+[2023-07-16 14:05:37] INFO root fetch - processPackages [documentdataextraction]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-16 14:05:37] INFO root fetch - processPackages [braillert]: New version: [2.1.6] Old Version: [2.1.5]
+[2023-07-16 14:05:37] INFO root fetch - processPackages [bb-dirtree]: Downloading https://files.pythonhosted.org/packages/1f/cb/3aad1a02e8b39f928757487af89fec041d0820b9b95bc041ba2ee20783ce/bb_dirtree-0.3.2.tar.gz
+[2023-07-16 14:05:37] INFO root fetch - processPackages [GBQM]: Downloading https://files.pythonhosted.org/packages/e9/ba/b66d63b5f915d166774456430f05237b740f0d2560edfc300a97bfeaa083/gbqm-0.0.2.tar.gz
+[2023-07-16 14:05:37] INFO root fetch - processPackages [postal-coder-jp]: Downloading https://files.pythonhosted.org/packages/8c/1a/aa92e4306e474710cd78b627afdb8e63b8d38b7f9492056ec5dbe42460c3/postal_coder_jp-0.1.0.tar.gz
+[2023-07-16 14:05:37] INFO root fetch - processPackages [sphinxcontrib-xlsxtable]: Downloading https://files.pythonhosted.org/packages/63/73/d0c4cae0f3a703ac738cabbb9c8c2d9f015923c06dab227bc9e930bad9e8/sphinxcontrib-xlsxtable-1.0.0.tar.gz
+[2023-07-16 14:05:37] INFO root fetch - processPackages [documentdataextraction]: Downloading https://files.pythonhosted.org/packages/1a/e4/1e85519ce247c6ed7c20e6c47ef38f5c09cf919ff231bf453cc23a1f0ba0/documentdataextraction-0.0.8-py3-none-any.whl
+[2023-07-16 14:05:37] INFO root fetch - processPackages [hemlock-survey]: Downloading https://files.pythonhosted.org/packages/82/0a/9991ad923176673db3523dd9056f5b4eb879d491c583cfefc28fa0ab2632/hemlock-survey-1.0.0.tar.gz
+[2023-07-16 14:05:37] INFO root fetch - processPackages [gad-common-utils]: Downloading https://files.pythonhosted.org/packages/ca/f0/fd084067e51dd9c0fc7f877da6929dc3bbbc23608ec94856845f32820d69/gad_common_utils-0.28.tar.gz
+[2023-07-16 14:05:37] INFO root fetch - processPackages [braillert]: Downloading https://files.pythonhosted.org/packages/bb/a8/7f9046f5608eb369271bcd254068ea39a275589329a473948b392888d00c/braillert-2.1.5-py3-none-any.whl
+[2023-07-16 14:05:37] INFO root fetch - processPackages [bb-dirtree]: Downloading https://files.pythonhosted.org/packages/f2/7a/34ec343fabf572526c9a03c3cc9046429d2f14f897f10268abe28f1401e3/bb_dirtree-0.4.0.tar.gz
+[2023-07-16 14:05:37] INFO root fetch - processPackages [GBQM]: Downloading https://files.pythonhosted.org/packages/cc/0b/9fb825c39b47dcaa988454775a64780b97b0693c79e39971db0038e0844e/gbqm-0.0.3.tar.gz
+[2023-07-16 14:05:37] INFO root fetch - processPackages [postal-coder-jp]: Downloading https://files.pythonhosted.org/packages/8a/76/5fe6d6fab554c5b2b624f8b555c2812a72b7d8f867a97415a45a6e008e66/postal_coder_jp-0.1.1.tar.gz
+[2023-07-16 14:05:37] INFO root fetch - processPackages [documentdataextraction]: Downloading https://files.pythonhosted.org/packages/b3/ec/eb9901e48d02bee04847cd1afe0c6b8ca7231d1a8b133261a63ae052f777/documentdataextraction-0.0.9-py3-none-any.whl
+[2023-07-16 14:05:37] INFO root fetch - processPackages [GBQM]: executing diffoscope
+[2023-07-16 14:05:37] INFO root fetch - processPackages [GBQM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gbqm-0.0.2.tar.gz tmp/gbqm-0.0.3.tar.gz --markdown 20230716/G/GBQM/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-16 14:05:37] INFO root fetch - processPackages [gad-common-utils]: Downloading https://files.pythonhosted.org/packages/e8/ae/d08f21777fb2c3676648caadad7347e39f94afae168ba71c5fb12b9c2805/gad_common_utils-0.29.tar.gz
+[2023-07-16 14:05:37] INFO root fetch - processPackages [postal-coder-jp]: executing diffoscope
+[2023-07-16 14:05:37] INFO root fetch - processPackages [postal-coder-jp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/postal_coder_jp-0.1.0.tar.gz tmp/postal_coder_jp-0.1.1.tar.gz --markdown 20230716/p/postal-coder-jp/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-16 14:05:37] INFO root fetch - processPackages [sphinxcontrib-xlsxtable]: Downloading https://files.pythonhosted.org/packages/e5/4e/66de110730562e885d99c524b22872a244c139d9f82393f8f7c1dd33aaa7/sphinxcontrib-xlsxtable-1.1.0.tar.gz
+[2023-07-16 14:05:37] INFO root fetch - processPackages [bb-dirtree]: executing diffoscope
+[2023-07-16 14:05:37] INFO root fetch - processPackages [bb-dirtree]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bb_dirtree-0.3.2.tar.gz tmp/bb_dirtree-0.4.0.tar.gz --markdown 20230716/b/bb-dirtree/0.3.2-0.4.0/diff.md --exclude *.pyd
+[2023-07-16 14:05:37] INFO root fetch - processPackages [braillert]: Downloading https://files.pythonhosted.org/packages/4e/e3/18bfadf138bfe28aaea6fdc2a5532a7164a73c1a5e5dbe4540b41290713d/braillert-2.1.6-py3-none-any.whl
+[2023-07-16 14:05:37] INFO root fetch - processPackages [hemlock-survey]: Downloading https://files.pythonhosted.org/packages/09/00/739a8b65d0a1d0d829a807a156c49e31b369991101cd9d71b0ea9960c0e9/hemlock-survey-1.0.1.tar.gz
+[2023-07-16 14:05:38] INFO root fetch - processPackages [gad-common-utils]: executing diffoscope
+[2023-07-16 14:05:38] INFO root fetch - processPackages [gad-common-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gad_common_utils-0.28.tar.gz tmp/gad_common_utils-0.29.tar.gz --markdown 20230716/g/gad-common-utils/0.28-0.29/diff.md --exclude *.pyd
+[2023-07-16 14:05:38] INFO root fetch - processPackages [sphinxcontrib-xlsxtable]: executing diffoscope
+[2023-07-16 14:05:38] INFO root fetch - processPackages [sphinxcontrib-xlsxtable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphinxcontrib-xlsxtable-1.0.0.tar.gz tmp/sphinxcontrib-xlsxtable-1.1.0.tar.gz --markdown 20230716/s/sphinxcontrib-xlsxtable/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-07-16 14:05:38] INFO root fetch - processPackages [hemlock-survey]: executing diffoscope
+[2023-07-16 14:05:38] INFO root fetch - processPackages [hemlock-survey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hemlock-survey-1.0.0.tar.gz tmp/hemlock-survey-1.0.1.tar.gz --markdown 20230716/h/hemlock-survey/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-16 14:05:38] INFO root fetch - processPackages [documentdataextraction]: executing diffoscope
+[2023-07-16 14:05:38] INFO root fetch - processPackages [documentdataextraction]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/documentdataextraction-0.0.8-py3-none-any.whl.zip tmp/documentdataextraction-0.0.9-py3-none-any.whl.zip --markdown 20230716/d/documentdataextraction/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-16 14:05:38] INFO root fetch - processPackages [braillert]: executing diffoscope
+[2023-07-16 14:05:38] INFO root fetch - processPackages [braillert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/braillert-2.1.5-py3-none-any.whl.zip tmp/braillert-2.1.6-py3-none-any.whl.zip --markdown 20230716/b/braillert/2.1.5-2.1.6/diff.md --exclude *.pyd
+[2023-07-16 14:05:39] INFO root fetch - processPackages [postal-coder-jp]: Remove: archive file [/home/abi/fetcher/tmp/postal_coder_jp-0.1.0.tar.gz]
+[2023-07-16 14:05:39] INFO root fetch - processPackages [postal-coder-jp]: Remove: archive file [/home/abi/fetcher/tmp/postal_coder_jp-0.1.1.tar.gz]
+[2023-07-16 14:05:39] INFO root fetch - main [MainThread]: End processing [postal-coder-jp]: success
+[2023-07-16 14:05:39] INFO root fetch - processPackages [bb-dirtree]: Remove: archive file [/home/abi/fetcher/tmp/bb_dirtree-0.3.2.tar.gz]
+[2023-07-16 14:05:39] INFO root fetch - processPackages [bb-dirtree]: Remove: archive file [/home/abi/fetcher/tmp/bb_dirtree-0.4.0.tar.gz]
+[2023-07-16 14:05:39] INFO root fetch - main [MainThread]: End processing [bb-dirtree]: success
+[2023-07-16 14:05:39] INFO root fetch - processPackages [GBQM]: Remove: archive file [/home/abi/fetcher/tmp/gbqm-0.0.2.tar.gz]
+[2023-07-16 14:05:39] INFO root fetch - processPackages [GBQM]: Remove: archive file [/home/abi/fetcher/tmp/gbqm-0.0.3.tar.gz]
+[2023-07-16 14:05:39] INFO root fetch - main [MainThread]: End processing [GBQM]: success
+[2023-07-16 14:05:39] INFO root fetch - processPackages [documentdataextraction]: Remove: archive file [/home/abi/fetcher/tmp/documentdataextraction-0.0.8-py3-none-any.whl.zip]
+[2023-07-16 14:05:39] INFO root fetch - processPackages [documentdataextraction]: Remove: archive file [/home/abi/fetcher/tmp/documentdataextraction-0.0.9-py3-none-any.whl.zip]
+[2023-07-16 14:05:39] INFO root fetch - main [MainThread]: End processing [documentdataextraction]: success
+[2023-07-16 14:05:39] INFO root fetch - processPackages [sphinxcontrib-xlsxtable]: Remove: archive file [/home/abi/fetcher/tmp/sphinxcontrib-xlsxtable-1.0.0.tar.gz]
+[2023-07-16 14:05:39] INFO root fetch - processPackages [sphinxcontrib-xlsxtable]: Remove: archive file [/home/abi/fetcher/tmp/sphinxcontrib-xlsxtable-1.1.0.tar.gz]
+[2023-07-16 14:05:39] INFO root fetch - main [MainThread]: End processing [sphinxcontrib-xlsxtable]: success
+[2023-07-16 14:05:39] INFO root fetch - processPackages [gad-common-utils]: Remove: archive file [/home/abi/fetcher/tmp/gad_common_utils-0.28.tar.gz]
+[2023-07-16 14:05:39] INFO root fetch - processPackages [gad-common-utils]: Remove: archive file [/home/abi/fetcher/tmp/gad_common_utils-0.29.tar.gz]
+[2023-07-16 14:05:39] INFO root fetch - main [MainThread]: End processing [gad-common-utils]: success
+[2023-07-16 14:05:39] INFO root fetch - processPackages [braillert]: Remove: archive file [/home/abi/fetcher/tmp/braillert-2.1.5-py3-none-any.whl.zip]
+[2023-07-16 14:05:39] INFO root fetch - processPackages [braillert]: Remove: archive file [/home/abi/fetcher/tmp/braillert-2.1.6-py3-none-any.whl.zip]
+[2023-07-16 14:05:39] INFO root fetch - main [MainThread]: End processing [braillert]: success
+[2023-07-16 14:05:39] INFO root fetch - processPackages [hemlock-survey]: Remove: archive file [/home/abi/fetcher/tmp/hemlock-survey-1.0.0.tar.gz]
+[2023-07-16 14:05:39] INFO root fetch - processPackages [hemlock-survey]: Remove: archive file [/home/abi/fetcher/tmp/hemlock-survey-1.0.1.tar.gz]
+[2023-07-16 14:05:39] INFO root fetch - main [MainThread]: End processing [hemlock-survey]: success
+[2023-07-16 14:05:39] INFO root fetch - main [MainThread]: Store serial: [18906658]
