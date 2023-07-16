@@ -2616,3 +2616,18 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-16 04:01:42] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: Remove: archive file [/home/abi/fetcher/tmp/scotthsieh_projen_statemachine-2.0.99.tar.gz]
 [2023-07-16 04:01:42] INFO root fetch - main [MainThread]: End processing [scotthsieh-projen-statemachine]: success
 [2023-07-16 04:01:42] INFO root fetch - main [MainThread]: Store serial: [18904386]
+[2023-07-16 04:06:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18904386]
+[2023-07-16 04:06:51] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-07-16 04:06:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: snoringness
+[2023-07-16 04:06:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: up2b
+[2023-07-16 04:06:51] INFO root fetch - processPackages [up2b]: New version: [0.7.1a4] Old Version: [0.7.1a3]
+[2023-07-16 04:06:51] WARNING root fetch - processPackages [snoringness]: Skipping, unable to determine old version
+[2023-07-16 04:06:51] INFO root fetch - main [MainThread]: End processing [snoringness] error
+[2023-07-16 04:06:51] INFO root fetch - processPackages [up2b]: Downloading https://files.pythonhosted.org/packages/af/16/aeb199ec65a90e5f0ec4be03430d5e0834de95c1e0a53fca1d8b928871fd/up2b-0.7.1a3.tar.gz
+[2023-07-16 04:06:51] INFO root fetch - processPackages [up2b]: Downloading https://files.pythonhosted.org/packages/7b/f6/fac5faadd126cd0a5300c26172981ea224af506e5af26fd863ad15a4f5f3/up2b-0.7.1a4.tar.gz
+[2023-07-16 04:06:52] INFO root fetch - processPackages [up2b]: executing diffoscope
+[2023-07-16 04:06:52] INFO root fetch - processPackages [up2b]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/up2b-0.7.1a3.tar.gz tmp/up2b-0.7.1a4.tar.gz --markdown 20230716/u/up2b/0.7.1a3-0.7.1a4/diff.md --exclude *.pyd
+[2023-07-16 04:06:52] INFO root fetch - processPackages [up2b]: Remove: archive file [/home/abi/fetcher/tmp/up2b-0.7.1a3.tar.gz]
+[2023-07-16 04:06:52] INFO root fetch - processPackages [up2b]: Remove: archive file [/home/abi/fetcher/tmp/up2b-0.7.1a4.tar.gz]
+[2023-07-16 04:06:52] INFO root fetch - main [MainThread]: End processing [up2b]: success
+[2023-07-16 04:06:52] INFO root fetch - main [MainThread]: Store serial: [18904394]
