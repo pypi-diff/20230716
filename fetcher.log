@@ -13720,3 +13720,45 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-16 21:57:05] INFO root fetch - processPackages [pikaur]: Remove: archive file [/home/abi/fetcher/tmp/pikaur-1.9.tar.gz]
 [2023-07-16 21:57:05] INFO root fetch - main [MainThread]: End processing [pikaur]: success
 [2023-07-16 21:57:05] INFO root fetch - main [MainThread]: Store serial: [18909053]
+[2023-07-16 22:02:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18909053]
+[2023-07-16 22:02:14] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-16 22:02:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pallur
+[2023-07-16 22:02:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sdock
+[2023-07-16 22:02:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tensorwrap
+[2023-07-16 22:02:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: entelecheia
+[2023-07-16 22:02:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: toolcli
+[2023-07-16 22:02:14] INFO root fetch - processPackages [entelecheia]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-07-16 22:02:14] INFO root fetch - processPackages [sdock]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-16 22:02:14] INFO root fetch - processPackages [toolcli]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-07-16 22:02:14] WARNING root fetch - processPackages [pallur]: Skipping, unable to determine old version
+[2023-07-16 22:02:14] INFO root fetch - processPackages [tensorwrap]: New version: [0.0.1.3] Old Version: [0.0.1.2]
+[2023-07-16 22:02:14] INFO root fetch - main [MainThread]: End processing [pallur] error
+[2023-07-16 22:02:14] INFO root fetch - processPackages [tensorwrap]: Downloading https://files.pythonhosted.org/packages/92/ce/f26aa704d88babdd61db319b6480523c027e695dbf791dccb13781d1fd46/tensorwrap-0.0.1.2.tar.gz
+[2023-07-16 22:02:14] INFO root fetch - processPackages [entelecheia]: Downloading https://files.pythonhosted.org/packages/ab/83/fed0173695e94ddc83b8b9d1e38ad015c80cb79c806ab33f5f8b242659b1/entelecheia-0.2.6.tar.gz
+[2023-07-16 22:02:14] INFO root fetch - processPackages [sdock]: Downloading https://files.pythonhosted.org/packages/7f/33/5950022e2c230cd5dbaf7c400419fe2e564ee9f8338e077d468dc4b64b57/sdock-0.0.98.tar.gz
+[2023-07-16 22:02:14] INFO root fetch - processPackages [toolcli]: Downloading https://files.pythonhosted.org/packages/95/0b/ed5c0e9085ae14116c76cb5a71495dfafb295f0eedb990273b6fd1fafe9f/toolcli-0.6.8.tar.gz
+[2023-07-16 22:02:14] INFO root fetch - processPackages [tensorwrap]: Downloading https://files.pythonhosted.org/packages/23/89/ba30c9ae76019708ce969d4f7dbfe3fc2515d2647f99f0a79af01ef8b5b4/tensorwrap-0.0.1.3.tar.gz
+[2023-07-16 22:02:15] INFO root fetch - processPackages [tensorwrap]: executing diffoscope
+[2023-07-16 22:02:15] INFO root fetch - processPackages [tensorwrap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorwrap-0.0.1.2.tar.gz tmp/tensorwrap-0.0.1.3.tar.gz --markdown 20230716/t/tensorwrap/0.0.1.2-0.0.1.3/diff.md --exclude *.pyd
+[2023-07-16 22:02:15] INFO root fetch - processPackages [sdock]: Downloading https://files.pythonhosted.org/packages/23/6c/7fa13013b6595e7252179b16cef3a0e62635448b6a7180dfefd732df7012/sdock-0.0.99.tar.gz
+[2023-07-16 22:02:15] INFO root fetch - processPackages [entelecheia]: Downloading https://files.pythonhosted.org/packages/44/60/75b834e8224c5580e346d864412407917e254baa80dd77169ee05fc96b29/entelecheia-0.2.7.tar.gz
+[2023-07-16 22:02:15] INFO root fetch - processPackages [toolcli]: Downloading https://files.pythonhosted.org/packages/46/36/cf6f9145b26c206c7f50a8bbed886b8b9266c93707abc261dc77530b8cdf/toolcli-0.6.9-py3-none-any.whl
+[2023-07-16 22:02:15] INFO root fetch - processPackages [sdock]: executing diffoscope
+[2023-07-16 22:02:15] INFO root fetch - processPackages [sdock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdock-0.0.98.tar.gz tmp/sdock-0.0.99.tar.gz --markdown 20230716/s/sdock/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-16 22:02:15] INFO root fetch - processPackages [entelecheia]: executing diffoscope
+[2023-07-16 22:02:15] INFO root fetch - processPackages [entelecheia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/entelecheia-0.2.6.tar.gz tmp/entelecheia-0.2.7.tar.gz --markdown 20230716/e/entelecheia/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-07-16 22:02:15] INFO root fetch - processPackages [toolcli]: executing diffoscope
+[2023-07-16 22:02:15] INFO root fetch - processPackages [toolcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/toolcli-0.6.8.tar.gz tmp/toolcli-0.6.9-py3-none-any.whl.zip --markdown 20230716/t/toolcli/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-07-16 22:02:16] INFO root fetch - processPackages [tensorwrap]: Remove: archive file [/home/abi/fetcher/tmp/tensorwrap-0.0.1.2.tar.gz]
+[2023-07-16 22:02:16] INFO root fetch - processPackages [tensorwrap]: Remove: archive file [/home/abi/fetcher/tmp/tensorwrap-0.0.1.3.tar.gz]
+[2023-07-16 22:02:16] INFO root fetch - main [MainThread]: End processing [tensorwrap]: success
+[2023-07-16 22:02:16] INFO root fetch - processPackages [sdock]: Remove: archive file [/home/abi/fetcher/tmp/sdock-0.0.98.tar.gz]
+[2023-07-16 22:02:16] INFO root fetch - processPackages [sdock]: Remove: archive file [/home/abi/fetcher/tmp/sdock-0.0.99.tar.gz]
+[2023-07-16 22:02:16] INFO root fetch - main [MainThread]: End processing [sdock]: success
+[2023-07-16 22:02:16] INFO root fetch - processPackages [toolcli]: Remove: archive file [/home/abi/fetcher/tmp/toolcli-0.6.8.tar.gz]
+[2023-07-16 22:02:16] INFO root fetch - processPackages [toolcli]: Remove: archive file [/home/abi/fetcher/tmp/toolcli-0.6.9-py3-none-any.whl.zip]
+[2023-07-16 22:02:16] INFO root fetch - main [MainThread]: End processing [toolcli]: success
+[2023-07-16 22:02:16] INFO root fetch - processPackages [entelecheia]: Remove: archive file [/home/abi/fetcher/tmp/entelecheia-0.2.6.tar.gz]
+[2023-07-16 22:02:16] INFO root fetch - processPackages [entelecheia]: Remove: archive file [/home/abi/fetcher/tmp/entelecheia-0.2.7.tar.gz]
+[2023-07-16 22:02:16] INFO root fetch - main [MainThread]: End processing [entelecheia]: success
+[2023-07-16 22:02:16] INFO root fetch - main [MainThread]: Store serial: [18909069]
