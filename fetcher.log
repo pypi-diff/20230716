@@ -4135,3 +4135,30 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-16 07:40:16] INFO root fetch - processPackages [apache-airflow-providers-google]: Remove: archive file [/home/abi/fetcher/tmp/apache-airflow-providers-google-9.0.0rc2.tar.gz]
 [2023-07-16 07:40:16] INFO root fetch - main [MainThread]: End processing [apache-airflow-providers-google]: success
 [2023-07-16 07:40:16] INFO root fetch - main [MainThread]: Store serial: [18904985]
+[2023-07-16 07:45:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18904985]
+[2023-07-16 07:45:25] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-16 07:45:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: adafri
+[2023-07-16 07:45:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: opensees
+[2023-07-16 07:45:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ibdx
+[2023-07-16 07:45:25] INFO root fetch - processPackages [opensees]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-16 07:45:25] INFO root fetch - processPackages [ibdx]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-07-16 07:45:25] INFO root fetch - processPackages [adafri]: New version: [0.0.19.35] Old Version: [0.0.19.34]
+[2023-07-16 07:45:25] INFO root fetch - processPackages [adafri]: Downloading https://files.pythonhosted.org/packages/9d/2a/b4060224d811e7b8b505ac93e85c7f6c38fd1dbdf1456838eb7af5ec9a77/adafri-0.0.19.34.tar.gz
+[2023-07-16 07:45:25] INFO root fetch - processPackages [ibdx]: Downloading https://files.pythonhosted.org/packages/4e/c7/f10bae32539684736a41cc678b29a7f772c5f267a54a2395335fc4b4161a/ibdx-0.3.1.tar.gz
+[2023-07-16 07:45:25] INFO root fetch - processPackages [opensees]: Downloading https://files.pythonhosted.org/packages/9a/43/b05787ae2e998169aa8db75ce509317ccef535b7a914658c612cef7ec841/opensees-0.0.8.tar.gz
+[2023-07-16 07:45:25] INFO root fetch - processPackages [ibdx]: Downloading https://files.pythonhosted.org/packages/36/43/6e05162219d1b61a115e604ecf169cec342d310d4b8fbc18f6686ace7da1/ibdx-0.3.2.tar.gz
+[2023-07-16 07:45:25] INFO root fetch - processPackages [adafri]: Downloading https://files.pythonhosted.org/packages/e2/a0/ccb26fb57d68b9e29c3377a082e837f6da615f0ef1513290febcdd38ecea/adafri-0.0.19.35.tar.gz
+[2023-07-16 07:45:25] INFO root fetch - processPackages [ibdx]: executing diffoscope
+[2023-07-16 07:45:25] INFO root fetch - processPackages [ibdx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ibdx-0.3.1.tar.gz tmp/ibdx-0.3.2.tar.gz --markdown 20230716/i/ibdx/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-07-16 07:45:25] INFO root fetch - processPackages [adafri]: executing diffoscope
+[2023-07-16 07:45:25] INFO root fetch - processPackages [adafri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafri-0.0.19.34.tar.gz tmp/adafri-0.0.19.35.tar.gz --markdown 20230716/a/adafri/0.0.19.34-0.0.19.35/diff.md --exclude *.pyd
+[2023-07-16 07:45:26] INFO root fetch - processPackages [ibdx]: Remove: archive file [/home/abi/fetcher/tmp/ibdx-0.3.1.tar.gz]
+[2023-07-16 07:45:26] INFO root fetch - processPackages [ibdx]: Remove: archive file [/home/abi/fetcher/tmp/ibdx-0.3.2.tar.gz]
+[2023-07-16 07:45:26] INFO root fetch - main [MainThread]: End processing [ibdx]: success
+[2023-07-16 07:45:26] INFO root fetch - processPackages [adafri]: Remove: archive file [/home/abi/fetcher/tmp/adafri-0.0.19.34.tar.gz]
+[2023-07-16 07:45:26] INFO root fetch - processPackages [adafri]: Remove: archive file [/home/abi/fetcher/tmp/adafri-0.0.19.35.tar.gz]
+[2023-07-16 07:45:26] INFO root fetch - main [MainThread]: End processing [adafri]: success
+[2023-07-16 07:45:26] INFO root fetch - processPackages [opensees]: Downloading https://files.pythonhosted.org/packages/89/07/b8f08c9d4567b2986131cfb7613ef5601c16b2a3c0ac5f22dd8e82eec99d/opensees-0.0.9.tar.gz
+[2023-07-16 07:45:27] WARNING root fetch - processPackages [opensees]: Skipping package: exceeds size limit 22392766>=10485760
+[2023-07-16 07:45:27] INFO root fetch - main [MainThread]: End processing [opensees] error
+[2023-07-16 07:45:27] INFO root fetch - main [MainThread]: Store serial: [18905010]
