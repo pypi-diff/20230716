@@ -13438,3 +13438,51 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-16 21:31:10] INFO root fetch - processPackages [poslq-simple]: Remove: archive file [/home/abi/fetcher/tmp/poslq_simple-0.1.3.tar.gz]
 [2023-07-16 21:31:10] INFO root fetch - main [MainThread]: End processing [poslq-simple]: success
 [2023-07-16 21:31:10] INFO root fetch - main [MainThread]: Store serial: [18908915]
+[2023-07-16 21:36:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18908915]
+[2023-07-16 21:36:18] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-16 21:36:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: poslq-simple
+[2023-07-16 21:36:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: database-local
+[2023-07-16 21:36:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dataclass-mapper
+[2023-07-16 21:36:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qprom
+[2023-07-16 21:36:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: adb-push-create
+[2023-07-16 21:36:19] INFO root fetch - processPackages [database-local]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-16 21:36:19] INFO root fetch - processPackages [poslq-simple]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-16 21:36:19] INFO root fetch - processPackages [dataclass-mapper]: New version: [1.8.0] Old Version: [1.7.2]
+[2023-07-16 21:36:19] INFO root fetch - processPackages [qprom]: New version: [0.5.1] Old Version: [0.5]
+[2023-07-16 21:36:19] INFO root fetch - processPackages [database-local]: Downloading https://files.pythonhosted.org/packages/a1/19/a06b95eaab679d2cf860014fec0a89b25c60e1be9a257c864b30f06fc683/database-local-0.0.7.tar.gz
+[2023-07-16 21:36:19] INFO root fetch - processPackages [adb-push-create]: New version: [0.11] Old Version: [0.10]
+[2023-07-16 21:36:19] INFO root fetch - processPackages [qprom]: Downloading https://files.pythonhosted.org/packages/f4/eb/8c2cbe54acc8bdcd0e0cbb6489a891d91f415fc5e22f5e8e8c045d150beb/qprom-0.5.tar.gz
+[2023-07-16 21:36:19] INFO root fetch - processPackages [poslq-simple]: Downloading https://files.pythonhosted.org/packages/3b/cf/3e28a5cd1ca79dc2545b1e6782602d88d7e046a8ebce2873ab3e600dcaa7/poslq_simple-0.1.2.tar.gz
+[2023-07-16 21:36:19] INFO root fetch - processPackages [dataclass-mapper]: Downloading https://files.pythonhosted.org/packages/cf/90/551ff761c801f6ded7b851b5c4f77ee9da11ce099b4c257bbf3d56977558/dataclass_mapper-1.7.2.tar.gz
+[2023-07-16 21:36:19] INFO root fetch - processPackages [adb-push-create]: Downloading https://files.pythonhosted.org/packages/9d/61/534d7ed0270270e14c69595069f073339108252b5e6f9d711b667676590b/adb_push_create-0.10.tar.gz
+[2023-07-16 21:36:19] INFO root fetch - processPackages [database-local]: Downloading https://files.pythonhosted.org/packages/03/7b/1c5e2d46da0ccb66d64998a9c3ed39c3fe3cce7a26151a680e42b0175a1e/database-local-0.0.8.tar.gz
+[2023-07-16 21:36:19] INFO root fetch - processPackages [qprom]: Downloading https://files.pythonhosted.org/packages/db/f6/514af3c55ec992f6b30afb6493d6ebe8f13f5f936fbfdb0e598bacb04387/qprom-0.5.1.tar.gz
+[2023-07-16 21:36:19] INFO root fetch - processPackages [database-local]: executing diffoscope
+[2023-07-16 21:36:19] INFO root fetch - processPackages [database-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/database-local-0.0.7.tar.gz tmp/database-local-0.0.8.tar.gz --markdown 20230716/d/database-local/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-16 21:36:19] INFO root fetch - processPackages [poslq-simple]: Downloading https://files.pythonhosted.org/packages/d4/3f/c258271b367503e9af600a311a435773512474ae31ad62c70268858748ea/poslq_simple-0.1.3.tar.gz
+[2023-07-16 21:36:19] INFO root fetch - processPackages [qprom]: executing diffoscope
+[2023-07-16 21:36:19] INFO root fetch - processPackages [qprom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qprom-0.5.tar.gz tmp/qprom-0.5.1.tar.gz --markdown 20230716/q/qprom/0.5-0.5.1/diff.md --exclude *.pyd
+[2023-07-16 21:36:19] INFO root fetch - processPackages [adb-push-create]: Downloading https://files.pythonhosted.org/packages/26/06/70dbcf7e0843045306b8a17a7c8ba6e2773675c09bc8c7f45a10ded38160/adb_push_create-0.11.tar.gz
+[2023-07-16 21:36:19] INFO root fetch - processPackages [dataclass-mapper]: Downloading https://files.pythonhosted.org/packages/86/4f/f39342323492b5af6f7d29aa2bca8ef6071ac5e2ef97e9660e3d5917d3fc/dataclass_mapper-1.8.0.tar.gz
+[2023-07-16 21:36:19] INFO root fetch - processPackages [poslq-simple]: executing diffoscope
+[2023-07-16 21:36:19] INFO root fetch - processPackages [poslq-simple]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/poslq_simple-0.1.2.tar.gz tmp/poslq_simple-0.1.3.tar.gz --markdown 20230716/p/poslq-simple/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-16 21:36:20] INFO root fetch - processPackages [adb-push-create]: executing diffoscope
+[2023-07-16 21:36:20] INFO root fetch - processPackages [adb-push-create]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adb_push_create-0.10.tar.gz tmp/adb_push_create-0.11.tar.gz --markdown 20230716/a/adb-push-create/0.10-0.11/diff.md --exclude *.pyd
+[2023-07-16 21:36:20] INFO root fetch - processPackages [dataclass-mapper]: executing diffoscope
+[2023-07-16 21:36:20] INFO root fetch - processPackages [dataclass-mapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataclass_mapper-1.7.2.tar.gz tmp/dataclass_mapper-1.8.0.tar.gz --markdown 20230716/d/dataclass-mapper/1.7.2-1.8.0/diff.md --exclude *.pyd
+[2023-07-16 21:36:20] INFO root fetch - processPackages [qprom]: Remove: archive file [/home/abi/fetcher/tmp/qprom-0.5.tar.gz]
+[2023-07-16 21:36:20] INFO root fetch - processPackages [qprom]: Remove: archive file [/home/abi/fetcher/tmp/qprom-0.5.1.tar.gz]
+[2023-07-16 21:36:20] INFO root fetch - main [MainThread]: End processing [qprom]: success
+[2023-07-16 21:36:20] INFO root fetch - processPackages [database-local]: Remove: archive file [/home/abi/fetcher/tmp/database-local-0.0.7.tar.gz]
+[2023-07-16 21:36:20] INFO root fetch - processPackages [database-local]: Remove: archive file [/home/abi/fetcher/tmp/database-local-0.0.8.tar.gz]
+[2023-07-16 21:36:20] INFO root fetch - main [MainThread]: End processing [database-local]: success
+[2023-07-16 21:36:20] INFO root fetch - processPackages [poslq-simple]: Remove: archive file [/home/abi/fetcher/tmp/poslq_simple-0.1.2.tar.gz]
+[2023-07-16 21:36:20] INFO root fetch - processPackages [poslq-simple]: Remove: archive file [/home/abi/fetcher/tmp/poslq_simple-0.1.3.tar.gz]
+[2023-07-16 21:36:20] INFO root fetch - main [MainThread]: End processing [poslq-simple]: success
+[2023-07-16 21:36:21] INFO root fetch - processPackages [dataclass-mapper]: Remove: archive file [/home/abi/fetcher/tmp/dataclass_mapper-1.7.2.tar.gz]
+[2023-07-16 21:36:21] INFO root fetch - processPackages [dataclass-mapper]: Remove: archive file [/home/abi/fetcher/tmp/dataclass_mapper-1.8.0.tar.gz]
+[2023-07-16 21:36:21] INFO root fetch - main [MainThread]: End processing [dataclass-mapper]: success
+[2023-07-16 21:36:21] INFO root fetch - processPackages [adb-push-create]: Remove: archive file [/home/abi/fetcher/tmp/adb_push_create-0.10.tar.gz]
+[2023-07-16 21:36:21] INFO root fetch - processPackages [adb-push-create]: Remove: archive file [/home/abi/fetcher/tmp/adb_push_create-0.11.tar.gz]
+[2023-07-16 21:36:21] INFO root fetch - main [MainThread]: End processing [adb-push-create]: success
+[2023-07-16 21:36:21] INFO root fetch - main [MainThread]: Store serial: [18908933]
