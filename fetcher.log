@@ -6579,3 +6579,40 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-16 11:39:46] INFO root fetch - processPackages [frictionless]: Remove: archive file [/home/abi/fetcher/tmp/frictionless-5.8.3.tar.gz]
 [2023-07-16 11:39:46] INFO root fetch - main [MainThread]: End processing [frictionless]: success
 [2023-07-16 11:39:46] INFO root fetch - main [MainThread]: Store serial: [18906018]
+[2023-07-16 11:44:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18906018]
+[2023-07-16 11:44:54] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-16 11:44:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: druhg
+[2023-07-16 11:44:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fossbill
+[2023-07-16 11:44:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyfrobot
+[2023-07-16 11:44:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyfrobot
+[2023-07-16 11:44:54] INFO root fetch - processPackages [pyfrobot]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-07-16 11:44:54] INFO root fetch - processPackages [fossbill]: New version: [1.0.0] Old Version: [0.9.2]
+[2023-07-16 11:44:54] INFO root fetch - processPackages [pyfrobot]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-07-16 11:44:54] INFO root fetch - processPackages [druhg]: New version: [1.4.1] Old Version: [1.4.0]
+[2023-07-16 11:44:54] INFO root fetch - processPackages [druhg]: Downloading https://files.pythonhosted.org/packages/0a/30/84899c5f99be02da03f27d746a2ed8489f444dd2f7716a85d70cca48632e/druhg-1.4.0.tar.gz
+[2023-07-16 11:44:55] INFO root fetch - processPackages [pyfrobot]: Downloading https://files.pythonhosted.org/packages/92/a4/c4e9731dcde83ead637a3f9a2eb299e77956ecb192892770a7f4912011e7/pyfrobot-0.1.6.tar.gz
+[2023-07-16 11:44:55] INFO root fetch - processPackages [pyfrobot]: Downloading https://files.pythonhosted.org/packages/92/a4/c4e9731dcde83ead637a3f9a2eb299e77956ecb192892770a7f4912011e7/pyfrobot-0.1.6.tar.gz
+[2023-07-16 11:44:55] INFO root fetch - processPackages [fossbill]: Downloading https://files.pythonhosted.org/packages/96/50/309395c101f67be40bd3ddb807746656afcefdb780178753138d6a2afce3/fossbill-0.9.2-py3-none-any.whl
+[2023-07-16 11:44:55] INFO root fetch - processPackages [druhg]: Downloading https://files.pythonhosted.org/packages/aa/b5/dac7ea0da1d4927f81a9cab087d8f7ae77fea8078a0cdd6a7a518af9cd15/druhg-1.4.1.tar.gz
+[2023-07-16 11:44:55] INFO root fetch - processPackages [fossbill]: Downloading https://files.pythonhosted.org/packages/7e/17/460e73e159609ef975db6c34688cccc3d0d933cfaecc11c699d48cb82b7f/fossbill-1.0.0-py3-none-any.whl
+[2023-07-16 11:44:55] INFO root fetch - processPackages [pyfrobot]: Downloading https://files.pythonhosted.org/packages/78/dd/e5b17d86f98980122e83e191c3c1f357000e7b0368a9b837d882d9dcfc3a/pyfrobot-0.1.7.tar.gz
+[2023-07-16 11:44:55] INFO root fetch - processPackages [pyfrobot]: Downloading https://files.pythonhosted.org/packages/78/dd/e5b17d86f98980122e83e191c3c1f357000e7b0368a9b837d882d9dcfc3a/pyfrobot-0.1.7.tar.gz
+[2023-07-16 11:44:55] INFO root fetch - processPackages [druhg]: executing diffoscope
+[2023-07-16 11:44:55] INFO root fetch - processPackages [druhg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/druhg-1.4.0.tar.gz tmp/druhg-1.4.1.tar.gz --markdown 20230716/d/druhg/1.4.0-1.4.1/diff.md --exclude *.pyd
+[2023-07-16 11:44:55] INFO root fetch - processPackages [fossbill]: executing diffoscope
+[2023-07-16 11:44:55] INFO root fetch - processPackages [fossbill]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fossbill-0.9.2-py3-none-any.whl.zip tmp/fossbill-1.0.0-py3-none-any.whl.zip --markdown 20230716/f/fossbill/0.9.2-1.0.0/diff.md --exclude *.pyd
+[2023-07-16 11:44:55] INFO root fetch - processPackages [pyfrobot]: executing diffoscope
+[2023-07-16 11:44:55] INFO root fetch - processPackages [pyfrobot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfrobot-0.1.6.tar.gz tmp/pyfrobot-0.1.7.tar.gz --markdown 20230716/p/pyfrobot/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-07-16 11:44:55] INFO root fetch - processPackages [pyfrobot]: executing diffoscope
+[2023-07-16 11:44:55] INFO root fetch - processPackages [pyfrobot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfrobot-0.1.6.tar.gz tmp/pyfrobot-0.1.7.tar.gz --markdown 20230716/p/pyfrobot/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-07-16 11:44:56] INFO root fetch - processPackages [pyfrobot]: Remove: archive file [/home/abi/fetcher/tmp/pyfrobot-0.1.6.tar.gz]
+[2023-07-16 11:44:56] INFO root fetch - processPackages [pyfrobot]: Remove: archive file [/home/abi/fetcher/tmp/pyfrobot-0.1.7.tar.gz]
+[2023-07-16 11:44:56] INFO root fetch - main [MainThread]: End processing [pyfrobot]: success
+[2023-07-16 11:44:56] INFO root fetch - main [MainThread]: End processing [pyfrobot]: success
+[2023-07-16 11:44:56] INFO root fetch - processPackages [fossbill]: Remove: archive file [/home/abi/fetcher/tmp/fossbill-0.9.2-py3-none-any.whl.zip]
+[2023-07-16 11:44:56] INFO root fetch - processPackages [fossbill]: Remove: archive file [/home/abi/fetcher/tmp/fossbill-1.0.0-py3-none-any.whl.zip]
+[2023-07-16 11:44:56] INFO root fetch - main [MainThread]: End processing [fossbill]: success
+[2023-07-16 11:44:57] INFO root fetch - processPackages [druhg]: Remove: archive file [/home/abi/fetcher/tmp/druhg-1.4.0.tar.gz]
+[2023-07-16 11:44:57] INFO root fetch - processPackages [druhg]: Remove: archive file [/home/abi/fetcher/tmp/druhg-1.4.1.tar.gz]
+[2023-07-16 11:44:57] INFO root fetch - main [MainThread]: End processing [druhg]: success
+[2023-07-16 11:44:57] INFO root fetch - main [MainThread]: Store serial: [18906033]
