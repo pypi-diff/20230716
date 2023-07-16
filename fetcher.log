@@ -9312,3 +9312,97 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-16 15:36:06] INFO root fetch - processPackages [foursight-core]: Remove: archive file [/home/abi/fetcher/tmp/foursight_core-4.4.0.tar.gz]
 [2023-07-16 15:36:06] INFO root fetch - main [MainThread]: End processing [foursight-core]: success
 [2023-07-16 15:36:06] INFO root fetch - main [MainThread]: Store serial: [18907212]
+[2023-07-16 15:41:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18907212]
+[2023-07-16 15:41:14] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-16 15:41:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bridgecrew
+[2023-07-16 15:41:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fbgemm-gpu-nightly
+[2023-07-16 15:41:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: foursight
+[2023-07-16 15:41:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: birdepy
+[2023-07-16 15:41:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: foursight-cgap
+[2023-07-16 15:41:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: seagoat
+[2023-07-16 15:41:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: discord-advert-framework
+[2023-07-16 15:41:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: docx-charts
+[2023-07-16 15:41:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: threads-py
+[2023-07-16 15:41:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: wiggler-studiorabota
+[2023-07-16 15:41:15] INFO root fetch - processPackages [fbgemm-gpu-nightly]: New version: [2023.7.15] Old Version: [2023.7.14]
+[2023-07-16 15:41:15] INFO root fetch - processPackages [seagoat]: New version: [0.2.0] Old Version: [0.1.2]
+[2023-07-16 15:41:15] INFO root fetch - processPackages [birdepy]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-16 15:41:15] INFO root fetch - processPackages [docx-charts]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-16 15:41:15] INFO root fetch - processPackages [threads-py]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-16 15:41:15] INFO root fetch - processPackages [discord-advert-framework]: New version: [2.9.1] Old Version: [2.9.0.4]
+[2023-07-16 15:41:15] INFO root fetch - processPackages [wiggler-studiorabota]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-16 15:41:15] INFO root fetch - processPackages [bridgecrew]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-07-16 15:41:15] INFO root fetch - processPackages [foursight]: New version: [3.6.0] Old Version: [3.5.2]
+[2023-07-16 15:41:15] INFO root fetch - processPackages [foursight-cgap]: New version: [3.6.0] Old Version: [3.5.0.2b9]
+[2023-07-16 15:41:15] INFO root fetch - processPackages [fbgemm-gpu-nightly]: Downloading https://files.pythonhosted.org/packages/e2/ab/145d6f10df5809b1d2692dba195b9348cbc9c69a514a2720445358c484b7/fbgemm_gpu_nightly-2023.7.14-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-16 15:41:15] INFO root fetch - processPackages [wiggler-studiorabota]: Downloading https://files.pythonhosted.org/packages/0d/86/d02e2203065f80a5af3e959e7e9db4e443dd80919a0ca9c31a84d751cbb1/wiggler_studiorabota-0.0.8.tar.gz
+[2023-07-16 15:41:15] INFO root fetch - processPackages [docx-charts]: Downloading https://files.pythonhosted.org/packages/12/26/7afff03f4f4189b7b4b656551cfeddef5408936871e1c030788301b629d7/docx_charts-0.1.0.tar.gz
+[2023-07-16 15:41:15] INFO root fetch - processPackages [seagoat]: Downloading https://files.pythonhosted.org/packages/f5/39/a8cff7e6823e4c0dc59854fcfd0afcea5594c040c2842c6bc9ee308068b6/seagoat-0.1.2.tar.gz
+[2023-07-16 15:41:15] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/c1/70/3267f94d196f9213b2b44a429d64b71cb1f9f3d812687dd74ff8a983a588/bridgecrew-2.3.98.tar.gz
+[2023-07-16 15:41:15] INFO root fetch - processPackages [foursight]: Downloading https://files.pythonhosted.org/packages/bd/8c/50d9da3068d59edec8eea2edea45a139cd714924728919f08b74b8300357/foursight-3.5.2.tar.gz
+[2023-07-16 15:41:15] INFO root fetch - processPackages [foursight-cgap]: Downloading https://files.pythonhosted.org/packages/5a/d1/fae5fbd3a34b8fe0ae96b6dffef5cabff912cc435426e86840806a4b4847/foursight_cgap-3.5.0.2b9.tar.gz
+[2023-07-16 15:41:15] INFO root fetch - processPackages [threads-py]: Downloading https://files.pythonhosted.org/packages/65/96/f67229b27627e37f59c3d22ea9d310acdda7d7abec330f62e8c4a373bd14/threads_py-0.0.7.tar.gz
+[2023-07-16 15:41:15] INFO root fetch - processPackages [birdepy]: Downloading https://files.pythonhosted.org/packages/f0/c3/d2995ea56ab65bc35acb53eeadb427fb89fb3ab6bd4b04aa110cb505cbe4/birdepy-0.0.8.tar.gz
+[2023-07-16 15:41:15] INFO root fetch - processPackages [discord-advert-framework]: Downloading https://files.pythonhosted.org/packages/b9/41/9d0df1bec87e02e5bf39b257f5ba959829945c885438fabd7b3223889cea/discord-advert-framework-2.9.0.4.tar.gz
+[2023-07-16 15:41:15] WARNING root fetch - processPackages [fbgemm-gpu-nightly]: Skipping package: exceeds size limit 218743387>=10485760
+[2023-07-16 15:41:15] INFO root fetch - processPackages [fbgemm-gpu-nightly]: Start processing: mobilizon-reshare
+[2023-07-16 15:41:15] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly] error
+[2023-07-16 15:41:15] WARNING root fetch - processPackages [discord-advert-framework]: Skipping package: exceeds size limit 11286844>=10485760
+[2023-07-16 15:41:15] INFO root fetch - main [MainThread]: End processing [discord-advert-framework] error
+[2023-07-16 15:41:15] INFO root fetch - processPackages [mobilizon-reshare]: New version: [0.3.6] Old Version: [0.3.5]
+[2023-07-16 15:41:15] INFO root fetch - processPackages [wiggler-studiorabota]: Downloading https://files.pythonhosted.org/packages/48/ca/d088276f8dab32bed8eb0a430fee09ee102c277df96d2e8dafe437289ac8/wiggler_studiorabota-0.0.9.tar.gz
+[2023-07-16 15:41:15] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/9e/6b/ea9cdf20d73a8621ab1f56b3ee95c8fe6b3e23cb8cd7a0f75ec041c3f16f/bridgecrew-2.3.99.tar.gz
+[2023-07-16 15:41:15] INFO root fetch - processPackages [mobilizon-reshare]: Downloading https://files.pythonhosted.org/packages/e9/ca/80316a2905133a1025ea0c9c0fed2d573f901235b3f324e93ab19c1b88e3/mobilizon-reshare-0.3.5.tar.gz
+[2023-07-16 15:41:15] INFO root fetch - processPackages [docx-charts]: Downloading https://files.pythonhosted.org/packages/4e/4b/a3e1620253491b10d3920420dc4fa3f7b1803ffe39350e0f92b98c537572/docx_charts-0.1.1.tar.gz
+[2023-07-16 15:41:15] INFO root fetch - processPackages [wiggler-studiorabota]: executing diffoscope
+[2023-07-16 15:41:15] INFO root fetch - processPackages [wiggler-studiorabota]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wiggler_studiorabota-0.0.8.tar.gz tmp/wiggler_studiorabota-0.0.9.tar.gz --markdown 20230716/w/wiggler-studiorabota/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-16 15:41:16] INFO root fetch - processPackages [foursight-cgap]: Downloading https://files.pythonhosted.org/packages/c4/4b/03d66e816d149dfd1b600937c909c4a6c9c1f0faa97125fc2a12c41b4b1b/foursight_cgap-3.6.0.tar.gz
+[2023-07-16 15:41:16] INFO root fetch - processPackages [foursight]: Downloading https://files.pythonhosted.org/packages/fc/5c/6fdd0d1cd9d2c91c139890530ee5d14f6fe3ae5bf2fe47c6194f7de466e3/foursight-3.6.0.tar.gz
+[2023-07-16 15:41:16] INFO root fetch - processPackages [seagoat]: Downloading https://files.pythonhosted.org/packages/93/fc/8538382ce7e9b76b871e38986f4cb0b91bad13833710e07086cdf4c6bd84/seagoat-0.2.0.tar.gz
+[2023-07-16 15:41:16] INFO root fetch - processPackages [threads-py]: Downloading https://files.pythonhosted.org/packages/51/41/805490da688ab8487e9680f7ca3f7aa6d2d10b02cf5af309c64bd9c4a549/threads_py-0.0.8.tar.gz
+[2023-07-16 15:41:16] INFO root fetch - processPackages [bridgecrew]: executing diffoscope
+[2023-07-16 15:41:16] INFO root fetch - processPackages [bridgecrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bridgecrew-2.3.98.tar.gz tmp/bridgecrew-2.3.99.tar.gz --markdown 20230716/b/bridgecrew/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-07-16 15:41:16] INFO root fetch - processPackages [birdepy]: Downloading https://files.pythonhosted.org/packages/19/34/577c6303cd69a8ff0ecf8f5ba49e7eb6faa2ea03c7f1e46b1dd8b0999336/birdepy-0.0.9.tar.gz
+[2023-07-16 15:41:16] INFO root fetch - processPackages [seagoat]: executing diffoscope
+[2023-07-16 15:41:16] INFO root fetch - processPackages [seagoat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seagoat-0.1.2.tar.gz tmp/seagoat-0.2.0.tar.gz --markdown 20230716/s/seagoat/0.1.2-0.2.0/diff.md --exclude *.pyd
+[2023-07-16 15:41:16] INFO root fetch - processPackages [docx-charts]: executing diffoscope
+[2023-07-16 15:41:16] INFO root fetch - processPackages [docx-charts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docx_charts-0.1.0.tar.gz tmp/docx_charts-0.1.1.tar.gz --markdown 20230716/d/docx-charts/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-16 15:41:16] INFO root fetch - processPackages [foursight]: executing diffoscope
+[2023-07-16 15:41:16] INFO root fetch - processPackages [foursight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foursight-3.5.2.tar.gz tmp/foursight-3.6.0.tar.gz --markdown 20230716/f/foursight/3.5.2-3.6.0/diff.md --exclude *.pyd
+[2023-07-16 15:41:16] INFO root fetch - processPackages [threads-py]: executing diffoscope
+[2023-07-16 15:41:16] INFO root fetch - processPackages [threads-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threads_py-0.0.7.tar.gz tmp/threads_py-0.0.8.tar.gz --markdown 20230716/t/threads-py/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-16 15:41:16] INFO root fetch - processPackages [mobilizon-reshare]: Downloading https://files.pythonhosted.org/packages/2f/07/3d1adcc906cc461ad9e77ebba772b6aa53788aa5737483618c6d4ed43724/mobilizon-reshare-0.3.6.tar.gz
+[2023-07-16 15:41:16] INFO root fetch - processPackages [birdepy]: executing diffoscope
+[2023-07-16 15:41:16] INFO root fetch - processPackages [birdepy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/birdepy-0.0.8.tar.gz tmp/birdepy-0.0.9.tar.gz --markdown 20230716/b/birdepy/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-16 15:41:16] INFO root fetch - processPackages [foursight-cgap]: executing diffoscope
+[2023-07-16 15:41:16] INFO root fetch - processPackages [foursight-cgap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foursight_cgap-3.5.0.2b9.tar.gz tmp/foursight_cgap-3.6.0.tar.gz --markdown 20230716/f/foursight-cgap/3.5.0.2b9-3.6.0/diff.md --exclude *.pyd
+[2023-07-16 15:41:16] INFO root fetch - processPackages [mobilizon-reshare]: executing diffoscope
+[2023-07-16 15:41:16] INFO root fetch - processPackages [mobilizon-reshare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mobilizon-reshare-0.3.5.tar.gz tmp/mobilizon-reshare-0.3.6.tar.gz --markdown 20230716/m/mobilizon-reshare/0.3.5-0.3.6/diff.md --exclude *.pyd
+[2023-07-16 15:41:17] INFO root fetch - processPackages [wiggler-studiorabota]: Remove: archive file [/home/abi/fetcher/tmp/wiggler_studiorabota-0.0.8.tar.gz]
+[2023-07-16 15:41:17] INFO root fetch - processPackages [wiggler-studiorabota]: Remove: archive file [/home/abi/fetcher/tmp/wiggler_studiorabota-0.0.9.tar.gz]
+[2023-07-16 15:41:17] INFO root fetch - main [MainThread]: End processing [wiggler-studiorabota]: success
+[2023-07-16 15:41:17] INFO root fetch - processPackages [bridgecrew]: Remove: archive file [/home/abi/fetcher/tmp/bridgecrew-2.3.98.tar.gz]
+[2023-07-16 15:41:17] INFO root fetch - processPackages [bridgecrew]: Remove: archive file [/home/abi/fetcher/tmp/bridgecrew-2.3.99.tar.gz]
+[2023-07-16 15:41:17] INFO root fetch - main [MainThread]: End processing [bridgecrew]: success
+[2023-07-16 15:41:17] INFO root fetch - processPackages [docx-charts]: Remove: archive file [/home/abi/fetcher/tmp/docx_charts-0.1.0.tar.gz]
+[2023-07-16 15:41:17] INFO root fetch - processPackages [docx-charts]: Remove: archive file [/home/abi/fetcher/tmp/docx_charts-0.1.1.tar.gz]
+[2023-07-16 15:41:17] INFO root fetch - main [MainThread]: End processing [docx-charts]: success
+[2023-07-16 15:41:17] INFO root fetch - processPackages [seagoat]: Remove: archive file [/home/abi/fetcher/tmp/seagoat-0.1.2.tar.gz]
+[2023-07-16 15:41:17] INFO root fetch - processPackages [seagoat]: Remove: archive file [/home/abi/fetcher/tmp/seagoat-0.2.0.tar.gz]
+[2023-07-16 15:41:17] INFO root fetch - main [MainThread]: End processing [seagoat]: success
+[2023-07-16 15:41:17] INFO root fetch - processPackages [threads-py]: Remove: archive file [/home/abi/fetcher/tmp/threads_py-0.0.7.tar.gz]
+[2023-07-16 15:41:17] INFO root fetch - processPackages [threads-py]: Remove: archive file [/home/abi/fetcher/tmp/threads_py-0.0.8.tar.gz]
+[2023-07-16 15:41:17] INFO root fetch - main [MainThread]: End processing [threads-py]: success
+[2023-07-16 15:41:17] INFO root fetch - processPackages [foursight]: Remove: archive file [/home/abi/fetcher/tmp/foursight-3.5.2.tar.gz]
+[2023-07-16 15:41:17] INFO root fetch - processPackages [foursight]: Remove: archive file [/home/abi/fetcher/tmp/foursight-3.6.0.tar.gz]
+[2023-07-16 15:41:17] INFO root fetch - main [MainThread]: End processing [foursight]: success
+[2023-07-16 15:41:17] INFO root fetch - processPackages [foursight-cgap]: Remove: archive file [/home/abi/fetcher/tmp/foursight_cgap-3.5.0.2b9.tar.gz]
+[2023-07-16 15:41:17] INFO root fetch - processPackages [foursight-cgap]: Remove: archive file [/home/abi/fetcher/tmp/foursight_cgap-3.6.0.tar.gz]
+[2023-07-16 15:41:17] INFO root fetch - main [MainThread]: End processing [foursight-cgap]: success
+[2023-07-16 15:41:18] INFO root fetch - processPackages [mobilizon-reshare]: Remove: archive file [/home/abi/fetcher/tmp/mobilizon-reshare-0.3.5.tar.gz]
+[2023-07-16 15:41:18] INFO root fetch - processPackages [mobilizon-reshare]: Remove: archive file [/home/abi/fetcher/tmp/mobilizon-reshare-0.3.6.tar.gz]
+[2023-07-16 15:41:18] INFO root fetch - main [MainThread]: End processing [mobilizon-reshare]: success
+[2023-07-16 15:41:18] INFO root fetch - processPackages [birdepy]: Remove: archive file [/home/abi/fetcher/tmp/birdepy-0.0.8.tar.gz]
+[2023-07-16 15:41:18] INFO root fetch - processPackages [birdepy]: Remove: archive file [/home/abi/fetcher/tmp/birdepy-0.0.9.tar.gz]
+[2023-07-16 15:41:18] INFO root fetch - main [MainThread]: End processing [birdepy]: success
+[2023-07-16 15:41:18] INFO root fetch - main [MainThread]: Store serial: [18907244]
