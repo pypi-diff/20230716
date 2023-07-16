@@ -10259,3 +10259,84 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-16 16:54:32] INFO root fetch - processPackages [presentpy]: Remove: archive file [/home/abi/fetcher/tmp/presentpy-0.8.0.tar.gz]
 [2023-07-16 16:54:32] INFO root fetch - main [MainThread]: End processing [presentpy]: success
 [2023-07-16 16:54:32] INFO root fetch - main [MainThread]: Store serial: [18907588]
+[2023-07-16 16:59:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18907588]
+[2023-07-16 16:59:41] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-16 16:59:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: birdepy
+[2023-07-16 16:59:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: biliup
+[2023-07-16 16:59:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: py-astrolab
+[2023-07-16 16:59:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bge-python-sdk
+[2023-07-16 16:59:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: philbot-voice
+[2023-07-16 16:59:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: langchain-model
+[2023-07-16 16:59:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: indipydriver
+[2023-07-16 16:59:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pymetard
+[2023-07-16 16:59:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: kaiju-tasks
+[2023-07-16 16:59:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pipedrive-wrapper
+[2023-07-16 16:59:41] INFO root fetch - processPackages [bge-python-sdk]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-07-16 16:59:41] INFO root fetch - processPackages [birdepy]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-16 16:59:41] INFO root fetch - processPackages [py-astrolab]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-07-16 16:59:41] INFO root fetch - processPackages [indipydriver]: New version: [1.0.0] Old Version: [0.0.7]
+[2023-07-16 16:59:41] INFO root fetch - processPackages [philbot-voice]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-07-16 16:59:41] INFO root fetch - processPackages [biliup]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-07-16 16:59:41] WARNING root fetch - processPackages [langchain-model]: Skipping, unable to determine old version
+[2023-07-16 16:59:41] INFO root fetch - main [MainThread]: End processing [langchain-model] error
+[2023-07-16 16:59:41] ERROR root fetch - processPackages [kaiju-tasks]: Unable to get metadata: No such project 'kaiju-tasks'
+[2023-07-16 16:59:41] INFO root fetch - main [MainThread]: End processing [kaiju-tasks] error
+[2023-07-16 16:59:41] INFO root fetch - processPackages [pipedrive-wrapper]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-16 16:59:41] INFO root fetch - processPackages [pymetard]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-16 16:59:41] INFO root fetch - processPackages [birdepy]: Downloading https://files.pythonhosted.org/packages/f0/c3/d2995ea56ab65bc35acb53eeadb427fb89fb3ab6bd4b04aa110cb505cbe4/birdepy-0.0.8.tar.gz
+[2023-07-16 16:59:41] INFO root fetch - processPackages [pipedrive-wrapper]: Downloading https://files.pythonhosted.org/packages/ec/4b/fffb4c1046db126344aec29d206bb7c150bbb278414945b51425a1d30015/pipedrive-wrapper-1.0.1.tar.gz
+[2023-07-16 16:59:41] INFO root fetch - processPackages [py-astrolab]: Downloading https://files.pythonhosted.org/packages/e7/19/4fc463b32e6243eab9c1774cad505fb8e6dc9ede56da58f11f497de6875c/py_astrolab-0.2.2.tar.gz
+[2023-07-16 16:59:41] INFO root fetch - processPackages [bge-python-sdk]: Downloading https://files.pythonhosted.org/packages/b0/0f/739ff872f1bb5a8c3ea6a43fe48eb3d85f31a4628a30af3f1c07626c337c/bge-python-sdk-0.5.1.tar.gz
+[2023-07-16 16:59:41] INFO root fetch - processPackages [philbot-voice]: Downloading https://files.pythonhosted.org/packages/05/bb/01605bb60fce0733760899cdc771b31c44c401248bd2c28398c5ce9e9df5/philbot_voice-1.9.8.tar.gz
+[2023-07-16 16:59:41] INFO root fetch - processPackages [indipydriver]: Downloading https://files.pythonhosted.org/packages/b1/b2/2c3b7ba4ea5d23c3f7bab399dd6381ad32c5cd569e4522807d83fe7d0fb4/indipydriver-0.0.7.tar.gz
+[2023-07-16 16:59:41] INFO root fetch - processPackages [biliup]: Downloading https://files.pythonhosted.org/packages/33/26/87446b9e80024414938248abd6d5d23524d52b9a0e07980909695db33a0a/biliup-0.4.8.tar.gz
+[2023-07-16 16:59:41] INFO root fetch - processPackages [pymetard]: Downloading https://files.pythonhosted.org/packages/61/b2/62c96d6a13660c39b02221bf5307c17323e2350e9f65b8cdd30666f4ae9f/pymetard-0.0.1.tar.gz
+[2023-07-16 16:59:41] INFO root fetch - processPackages [pipedrive-wrapper]: Downloading https://files.pythonhosted.org/packages/07/bc/bb4ef6e1ca8ceb2b5394300310271683bc7f78f6430cf54b50062facf2f8/pipedrive-wrapper-1.0.2.tar.gz
+[2023-07-16 16:59:41] INFO root fetch - processPackages [py-astrolab]: Downloading https://files.pythonhosted.org/packages/90/82/c3785a3b5b52136bcfe7930ae876ff1348c45b93379ce6ab9f0bf8899182/py_astrolab-0.2.3.tar.gz
+[2023-07-16 16:59:42] INFO root fetch - processPackages [philbot-voice]: Downloading https://files.pythonhosted.org/packages/3b/a7/1895e6c9d15fef6a2e8afcf48baeacca3915011fbe849f600b6b3dac7afb/philbot_voice-1.9.9.tar.gz
+[2023-07-16 16:59:42] INFO root fetch - processPackages [indipydriver]: Downloading https://files.pythonhosted.org/packages/84/b3/9ee04f1849731ebaa2b7f5fdb97a28ded9ecc8a07e2dac9be23d8157688d/indipydriver-1.0.0.tar.gz
+[2023-07-16 16:59:42] INFO root fetch - processPackages [pipedrive-wrapper]: executing diffoscope
+[2023-07-16 16:59:42] INFO root fetch - processPackages [pipedrive-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipedrive-wrapper-1.0.1.tar.gz tmp/pipedrive-wrapper-1.0.2.tar.gz --markdown 20230716/p/pipedrive-wrapper/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-16 16:59:42] INFO root fetch - processPackages [bge-python-sdk]: Downloading https://files.pythonhosted.org/packages/d7/0a/5a01663090f6b4d0d89c7be5401c3300fb7af04c7ae017d548edfb9d108a/bge-python-sdk-0.5.2.tar.gz
+[2023-07-16 16:59:42] INFO root fetch - processPackages [py-astrolab]: executing diffoscope
+[2023-07-16 16:59:42] INFO root fetch - processPackages [py-astrolab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_astrolab-0.2.2.tar.gz tmp/py_astrolab-0.2.3.tar.gz --markdown 20230716/p/py-astrolab/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-07-16 16:59:42] INFO root fetch - processPackages [birdepy]: Downloading https://files.pythonhosted.org/packages/19/34/577c6303cd69a8ff0ecf8f5ba49e7eb6faa2ea03c7f1e46b1dd8b0999336/birdepy-0.0.9.tar.gz
+[2023-07-16 16:59:42] INFO root fetch - processPackages [philbot-voice]: executing diffoscope
+[2023-07-16 16:59:42] INFO root fetch - processPackages [philbot-voice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/philbot_voice-1.9.8.tar.gz tmp/philbot_voice-1.9.9.tar.gz --markdown 20230716/p/philbot-voice/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-07-16 16:59:42] INFO root fetch - processPackages [indipydriver]: executing diffoscope
+[2023-07-16 16:59:42] INFO root fetch - processPackages [indipydriver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/indipydriver-0.0.7.tar.gz tmp/indipydriver-1.0.0.tar.gz --markdown 20230716/i/indipydriver/0.0.7-1.0.0/diff.md --exclude *.pyd
+[2023-07-16 16:59:42] INFO root fetch - processPackages [biliup]: Downloading https://files.pythonhosted.org/packages/ca/50/28c81627954370eeba7075b44c9ef20597ed8f140a1390c814dd976e6c70/biliup-0.4.9.tar.gz
+[2023-07-16 16:59:42] INFO root fetch - processPackages [bge-python-sdk]: executing diffoscope
+[2023-07-16 16:59:42] INFO root fetch - processPackages [bge-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bge-python-sdk-0.5.1.tar.gz tmp/bge-python-sdk-0.5.2.tar.gz --markdown 20230716/b/bge-python-sdk/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-07-16 16:59:42] INFO root fetch - processPackages [pymetard]: Downloading https://files.pythonhosted.org/packages/5a/95/886cc8333722dd1a3fd1e9472ca8a3761fa02c638f7f149448bda82a60ba/pymetard-0.0.2.tar.gz
+[2023-07-16 16:59:42] INFO root fetch - processPackages [pymetard]: executing diffoscope
+[2023-07-16 16:59:42] INFO root fetch - processPackages [pymetard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymetard-0.0.1.tar.gz tmp/pymetard-0.0.2.tar.gz --markdown 20230716/p/pymetard/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-16 16:59:42] INFO root fetch - processPackages [biliup]: executing diffoscope
+[2023-07-16 16:59:42] INFO root fetch - processPackages [biliup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biliup-0.4.8.tar.gz tmp/biliup-0.4.9.tar.gz --markdown 20230716/b/biliup/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-07-16 16:59:42] INFO root fetch - processPackages [birdepy]: executing diffoscope
+[2023-07-16 16:59:42] INFO root fetch - processPackages [birdepy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/birdepy-0.0.8.tar.gz tmp/birdepy-0.0.9.tar.gz --markdown 20230716/b/birdepy/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-16 16:59:43] INFO root fetch - processPackages [pipedrive-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/pipedrive-wrapper-1.0.1.tar.gz]
+[2023-07-16 16:59:43] INFO root fetch - processPackages [pipedrive-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/pipedrive-wrapper-1.0.2.tar.gz]
+[2023-07-16 16:59:43] INFO root fetch - main [MainThread]: End processing [pipedrive-wrapper]: success
+[2023-07-16 16:59:43] INFO root fetch - processPackages [philbot-voice]: Remove: archive file [/home/abi/fetcher/tmp/philbot_voice-1.9.8.tar.gz]
+[2023-07-16 16:59:43] INFO root fetch - processPackages [philbot-voice]: Remove: archive file [/home/abi/fetcher/tmp/philbot_voice-1.9.9.tar.gz]
+[2023-07-16 16:59:43] INFO root fetch - main [MainThread]: End processing [philbot-voice]: success
+[2023-07-16 16:59:43] INFO root fetch - processPackages [indipydriver]: Remove: archive file [/home/abi/fetcher/tmp/indipydriver-0.0.7.tar.gz]
+[2023-07-16 16:59:43] INFO root fetch - processPackages [indipydriver]: Remove: archive file [/home/abi/fetcher/tmp/indipydriver-1.0.0.tar.gz]
+[2023-07-16 16:59:43] INFO root fetch - main [MainThread]: End processing [indipydriver]: success
+[2023-07-16 16:59:43] INFO root fetch - processPackages [py-astrolab]: Remove: archive file [/home/abi/fetcher/tmp/py_astrolab-0.2.2.tar.gz]
+[2023-07-16 16:59:43] INFO root fetch - processPackages [py-astrolab]: Remove: archive file [/home/abi/fetcher/tmp/py_astrolab-0.2.3.tar.gz]
+[2023-07-16 16:59:43] INFO root fetch - main [MainThread]: End processing [py-astrolab]: success
+[2023-07-16 16:59:43] INFO root fetch - processPackages [pymetard]: Remove: archive file [/home/abi/fetcher/tmp/pymetard-0.0.1.tar.gz]
+[2023-07-16 16:59:43] INFO root fetch - processPackages [pymetard]: Remove: archive file [/home/abi/fetcher/tmp/pymetard-0.0.2.tar.gz]
+[2023-07-16 16:59:43] INFO root fetch - main [MainThread]: End processing [pymetard]: success
+[2023-07-16 16:59:43] INFO root fetch - processPackages [bge-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/bge-python-sdk-0.5.1.tar.gz]
+[2023-07-16 16:59:43] INFO root fetch - processPackages [bge-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/bge-python-sdk-0.5.2.tar.gz]
+[2023-07-16 16:59:43] INFO root fetch - main [MainThread]: End processing [bge-python-sdk]: success
+[2023-07-16 16:59:43] INFO root fetch - processPackages [biliup]: Remove: archive file [/home/abi/fetcher/tmp/biliup-0.4.8.tar.gz]
+[2023-07-16 16:59:43] INFO root fetch - processPackages [biliup]: Remove: archive file [/home/abi/fetcher/tmp/biliup-0.4.9.tar.gz]
+[2023-07-16 16:59:43] INFO root fetch - main [MainThread]: End processing [biliup]: success
+[2023-07-16 16:59:44] INFO root fetch - processPackages [birdepy]: Remove: archive file [/home/abi/fetcher/tmp/birdepy-0.0.8.tar.gz]
+[2023-07-16 16:59:44] INFO root fetch - processPackages [birdepy]: Remove: archive file [/home/abi/fetcher/tmp/birdepy-0.0.9.tar.gz]
+[2023-07-16 16:59:44] INFO root fetch - main [MainThread]: End processing [birdepy]: success
+[2023-07-16 16:59:44] INFO root fetch - main [MainThread]: Store serial: [18907625]
