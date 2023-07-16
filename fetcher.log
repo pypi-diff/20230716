@@ -3771,3 +3771,36 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-16 06:53:27] INFO root fetch - processPackages [j2config]: Remove: archive file [/home/abi/fetcher/tmp/j2config-0.0.6.tar.gz]
 [2023-07-16 06:53:27] INFO root fetch - main [MainThread]: End processing [j2config]: success
 [2023-07-16 06:53:27] INFO root fetch - main [MainThread]: Store serial: [18904830]
+[2023-07-16 06:58:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18904830]
+[2023-07-16 06:58:35] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-16 06:58:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: py-tldr
+[2023-07-16 06:58:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: noelgram
+[2023-07-16 06:58:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: revealjs
+[2023-07-16 06:58:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: omnixai
+[2023-07-16 06:58:35] INFO root fetch - processPackages [revealjs]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-16 06:58:35] WARNING root fetch - processPackages [noelgram]: Skipping, unable to determine old version
+[2023-07-16 06:58:35] INFO root fetch - main [MainThread]: End processing [noelgram] error
+[2023-07-16 06:58:35] INFO root fetch - processPackages [py-tldr]: New version: [0.8.0] Old Version: [0.7.0]
+[2023-07-16 06:58:35] INFO root fetch - processPackages [omnixai]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-07-16 06:58:35] INFO root fetch - processPackages [revealjs]: Downloading https://files.pythonhosted.org/packages/5a/fa/ad1ae0cc1ecf09245f8a034639685eefdbeb5be20a365630da561b2abe4e/revealjs-0.0.4.tar.gz
+[2023-07-16 06:58:36] INFO root fetch - processPackages [py-tldr]: Downloading https://files.pythonhosted.org/packages/97/4d/03f41c6871c74cf5cca70b7844df70eccc7aa2b8c8da295731ef7528604d/py-tldr-0.7.0.tar.gz
+[2023-07-16 06:58:36] INFO root fetch - processPackages [omnixai]: Downloading https://files.pythonhosted.org/packages/a0/5a/f6e44316e5f517cf84f27c61e8081c871828f1af20d6970ed57dbb16304b/omnixai-1.3.0.tar.gz
+[2023-07-16 06:58:36] INFO root fetch - processPackages [revealjs]: Downloading https://files.pythonhosted.org/packages/48/9b/20856eed9f2d43c368b24cbe5067bc9d90176e56396d4b6f2ba2d5013b0b/revealjs-0.0.5.tar.gz
+[2023-07-16 06:58:36] INFO root fetch - processPackages [revealjs]: executing diffoscope
+[2023-07-16 06:58:36] INFO root fetch - processPackages [revealjs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/revealjs-0.0.4.tar.gz tmp/revealjs-0.0.5.tar.gz --markdown 20230716/r/revealjs/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-16 06:58:36] INFO root fetch - processPackages [py-tldr]: Downloading https://files.pythonhosted.org/packages/28/92/c7439b6ede7fd62c49871368d701bb1aa58a2eb2914c7c5efd86b820b00b/py-tldr-0.8.0.tar.gz
+[2023-07-16 06:58:36] INFO root fetch - processPackages [py-tldr]: executing diffoscope
+[2023-07-16 06:58:36] INFO root fetch - processPackages [py-tldr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-tldr-0.7.0.tar.gz tmp/py-tldr-0.8.0.tar.gz --markdown 20230716/p/py-tldr/0.7.0-0.8.0/diff.md --exclude *.pyd
+[2023-07-16 06:58:36] INFO root fetch - processPackages [omnixai]: Downloading https://files.pythonhosted.org/packages/c7/94/84c0c7d3da7eaf9bde857b9c47865ed7e52b22af9ac6c64e75a82a6411a7/omnixai-1.3.1.tar.gz
+[2023-07-16 06:58:36] INFO root fetch - processPackages [omnixai]: executing diffoscope
+[2023-07-16 06:58:36] INFO root fetch - processPackages [omnixai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnixai-1.3.0.tar.gz tmp/omnixai-1.3.1.tar.gz --markdown 20230716/o/omnixai/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-07-16 06:58:37] INFO root fetch - processPackages [revealjs]: Remove: archive file [/home/abi/fetcher/tmp/revealjs-0.0.4.tar.gz]
+[2023-07-16 06:58:37] INFO root fetch - processPackages [revealjs]: Remove: archive file [/home/abi/fetcher/tmp/revealjs-0.0.5.tar.gz]
+[2023-07-16 06:58:37] INFO root fetch - main [MainThread]: End processing [revealjs]: success
+[2023-07-16 06:58:37] INFO root fetch - processPackages [py-tldr]: Remove: archive file [/home/abi/fetcher/tmp/py-tldr-0.7.0.tar.gz]
+[2023-07-16 06:58:37] INFO root fetch - processPackages [py-tldr]: Remove: archive file [/home/abi/fetcher/tmp/py-tldr-0.8.0.tar.gz]
+[2023-07-16 06:58:37] INFO root fetch - main [MainThread]: End processing [py-tldr]: success
+[2023-07-16 06:58:38] INFO root fetch - processPackages [omnixai]: Remove: archive file [/home/abi/fetcher/tmp/omnixai-1.3.0.tar.gz]
+[2023-07-16 06:58:38] INFO root fetch - processPackages [omnixai]: Remove: archive file [/home/abi/fetcher/tmp/omnixai-1.3.1.tar.gz]
+[2023-07-16 06:58:38] INFO root fetch - main [MainThread]: End processing [omnixai]: success
+[2023-07-16 06:58:38] INFO root fetch - main [MainThread]: Store serial: [18904844]
