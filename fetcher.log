@@ -14381,3 +14381,147 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-16 23:04:30] INFO root fetch - processPackages [pypdf]: Remove: archive file [/home/abi/fetcher/tmp/pypdf-3.9.1.tar.gz]
 [2023-07-16 23:04:30] INFO root fetch - main [MainThread]: End processing [pypdf]: success
 [2023-07-16 23:04:30] INFO root fetch - main [MainThread]: Store serial: [18909411]
+[2023-07-16 23:09:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18909411]
+[2023-07-16 23:09:39] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-16 23:09:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gs-coordinator
+[2023-07-16 23:09:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gs-engine
+[2023-07-16 23:09:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gs-include
+[2023-07-16 23:09:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dice-mc
+[2023-07-16 23:09:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: proxy-maker
+[2023-07-16 23:09:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: EscribaLogger
+[2023-07-16 23:09:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: simple2encrypt
+[2023-07-16 23:09:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: scrapypi
+[2023-07-16 23:09:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: qrlew-datasets
+[2023-07-16 23:09:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sstar
+[2023-07-16 23:09:39] INFO root fetch - processPackages [simple2encrypt]: New version: [1.2] Old Version: [1.1]
+[2023-07-16 23:09:39] INFO root fetch - processPackages [gs-coordinator]: New version: [0.24.0a20230716] Old Version: [0.24.0a20230715]
+[2023-07-16 23:09:39] INFO root fetch - processPackages [dice-mc]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-16 23:09:39] WARNING root fetch - processPackages [EscribaLogger]: Skipping, unable to determine old version
+[2023-07-16 23:09:39] INFO root fetch - processPackages [EscribaLogger]: Start processing: cudagrad
+[2023-07-16 23:09:39] INFO root fetch - main [MainThread]: End processing [EscribaLogger] error
+[2023-07-16 23:09:39] INFO root fetch - processPackages [gs-include]: New version: [0.24.0a20230716] Old Version: [0.24.0a20230715]
+[2023-07-16 23:09:39] INFO root fetch - processPackages [scrapypi]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-16 23:09:39] WARNING root fetch - processPackages [proxy-maker]: Skipping, unable to determine old version
+[2023-07-16 23:09:39] INFO root fetch - processPackages [proxy-maker]: Start processing: coconut-develop
+[2023-07-16 23:09:39] INFO root fetch - main [MainThread]: End processing [proxy-maker] error
+[2023-07-16 23:09:39] INFO root fetch - processPackages [sstar]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-07-16 23:09:39] WARNING root fetch - processPackages [qrlew-datasets]: Skipping, unable to determine old version
+[2023-07-16 23:09:39] INFO root fetch - main [MainThread]: End processing [qrlew-datasets] error
+[2023-07-16 23:09:39] INFO root fetch - processPackages [gs-engine]: New version: [0.24.0a20230716] Old Version: [0.24.0a20230715]
+[2023-07-16 23:09:39] INFO root fetch - processPackages [cudagrad]: New version: [0.0.2] Old Version: [0.0.10]
+[2023-07-16 23:09:40] INFO root fetch - processPackages [scrapypi]: Downloading https://files.pythonhosted.org/packages/1f/7a/8769026257e34f7614007ee5e73dcc1436df4749047d2ff9d797a8c9e8d1/scrapypi-0.0.1.tar.gz
+[2023-07-16 23:09:40] INFO root fetch - processPackages [simple2encrypt]: Downloading https://files.pythonhosted.org/packages/46/ba/25740720736b012c39a42ae9325b00ac68fd293954208d1ba86c672f171d/simple2encrypt-1.1.tar.gz
+[2023-07-16 23:09:40] INFO root fetch - processPackages [coconut-develop]: New version: [3.0.2.post0.dev9] Old Version: [3.0.2.post0.dev8]
+[2023-07-16 23:09:40] INFO root fetch - processPackages [dice-mc]: Downloading https://files.pythonhosted.org/packages/f0/8e/4c33830f654d128629461adb0c41f85454e277b253d018af71411af0224b/dice-mc-0.1.0.tar.gz
+[2023-07-16 23:09:40] INFO root fetch - processPackages [cudagrad]: Downloading https://files.pythonhosted.org/packages/16/aa/e224474c93fe686d09370e3f701783f208cdbefae36f5a33b43dde046737/cudagrad-0.0.10.tar.gz
+[2023-07-16 23:09:40] INFO root fetch - processPackages [gs-coordinator]: Downloading https://files.pythonhosted.org/packages/a2/5a/189c4d0a2bb62aab2ab8a919fd4d74cd9098a51f833b3424cfb24c44c53c/gs_coordinator-0.24.0a20230715-py2.py3-none-macosx_11_0_x86_64.whl
+[2023-07-16 23:09:40] INFO root fetch - processPackages [gs-include]: Downloading https://files.pythonhosted.org/packages/30/c9/81bb6d594ced34c3f5f033d0aaee7721db5ce85e68411e9e4a3fdd866345/gs_include-0.24.0a20230715-py2.py3-none-macosx_11_0_x86_64.whl
+[2023-07-16 23:09:40] INFO root fetch - processPackages [sstar]: Downloading https://files.pythonhosted.org/packages/5f/62/02a0ace834c054a7ff380e60cfd4b78406681746f5171bc02987b288d6a4/sstar-1.1.2.tar.gz
+[2023-07-16 23:09:40] INFO root fetch - processPackages [gs-engine]: Downloading https://files.pythonhosted.org/packages/2a/23/67fc7354c17d522331511b34ccd7bf4c0d41eb394ad0a39476ea7b2d6b89/gs_engine-0.24.0a20230715-py2.py3-none-macosx_11_0_x86_64.whl
+[2023-07-16 23:09:40] INFO root fetch - processPackages [coconut-develop]: Downloading https://files.pythonhosted.org/packages/76/ba/83f4a7e45967086c125a6525e086526f469362e3a1327a44f8df15d67400/coconut-develop-3.0.2.post0.dev8.tar.gz
+[2023-07-16 23:09:40] WARNING root fetch - processPackages [gs-include]: Skipping package: exceeds size limit 32290234>=10485760
+[2023-07-16 23:09:40] INFO root fetch - main [MainThread]: End processing [gs-include] error
+[2023-07-16 23:09:40] INFO root fetch - processPackages [cudagrad]: Downloading https://files.pythonhosted.org/packages/57/f3/d7e753c2890989b22f26afd14d0fb2833511f9831d32f97b4c5af670bf37/cudagrad-0.0.2.tar.gz
+[2023-07-16 23:09:40] INFO root fetch - processPackages [simple2encrypt]: Downloading https://files.pythonhosted.org/packages/48/03/6076d049606286849a776e11714595d1c68953ca91c209718c2f9697dc79/simple2encrypt-1.2.tar.gz
+[2023-07-16 23:09:40] INFO root fetch - processPackages [dice-mc]: Downloading https://files.pythonhosted.org/packages/8a/58/f666b8f7b2b7d9d2b12461b4a5d47543ad3382fcf6020f8765f65e5aca33/dice-mc-0.1.1.tar.gz
+[2023-07-16 23:09:40] INFO root fetch - processPackages [scrapypi]: Downloading https://files.pythonhosted.org/packages/33/bc/436f19352115cf0769e4b0bf7e2542f2959e83e556f14c8f800f7332eb59/scrapypi-0.0.2.tar.gz
+[2023-07-16 23:09:40] INFO root fetch - processPackages [coconut-develop]: Downloading https://files.pythonhosted.org/packages/d7/8d/949a59bb813ee853bbb1d03d15a3f5a3de89562602ada8e1a9cca581a8d5/coconut-develop-3.0.2.post0.dev9.tar.gz
+[2023-07-16 23:09:40] INFO root fetch - processPackages [gs-coordinator]: Downloading https://files.pythonhosted.org/packages/35/1f/47411c2fc842bc7a01e3ffdc220eb0348991d8e45e5f59618f0c496ecd79/gs_coordinator-0.24.0a20230716-py2.py3-none-any.whl
+[2023-07-16 23:09:40] INFO root fetch - processPackages [cudagrad]: executing diffoscope
+[2023-07-16 23:09:40] INFO root fetch - processPackages [cudagrad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cudagrad-0.0.10.tar.gz tmp/cudagrad-0.0.2.tar.gz --markdown 20230716/c/cudagrad/0.0.10-0.0.2/diff.md --exclude *.pyd
+[2023-07-16 23:09:40] INFO root fetch - processPackages [sstar]: Downloading https://files.pythonhosted.org/packages/23/6f/0a7bcd6a80165e0d7118f36c17743215eeaa5e98eb972c383f1f850527cf/sstar-1.1.3.tar.gz
+[2023-07-16 23:09:40] INFO root fetch - processPackages [gs-engine]: Downloading https://files.pythonhosted.org/packages/da/f1/9c551c5b8947b5f6bb95a72a5c5f01f6b1e76d0adff0c57fa3fcd8f56774/gs_engine-0.24.0a20230716-py2.py3-none-any.whl
+[2023-07-16 23:09:40] INFO root fetch - processPackages [simple2encrypt]: executing diffoscope
+[2023-07-16 23:09:40] INFO root fetch - processPackages [simple2encrypt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simple2encrypt-1.1.tar.gz tmp/simple2encrypt-1.2.tar.gz --markdown 20230716/s/simple2encrypt/1.1-1.2/diff.md --exclude *.pyd
+[2023-07-16 23:09:40] INFO root fetch - processPackages [dice-mc]: executing diffoscope
+[2023-07-16 23:09:40] INFO root fetch - processPackages [dice-mc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dice-mc-0.1.0.tar.gz tmp/dice-mc-0.1.1.tar.gz --markdown 20230716/d/dice-mc/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-16 23:09:40] INFO root fetch - processPackages [coconut-develop]: executing diffoscope
+[2023-07-16 23:09:40] INFO root fetch - processPackages [coconut-develop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coconut-develop-3.0.2.post0.dev8.tar.gz tmp/coconut-develop-3.0.2.post0.dev9.tar.gz --markdown 20230716/c/coconut-develop/3.0.2.post0.dev8-3.0.2.post0.dev9/diff.md --exclude *.pyd
+[2023-07-16 23:09:40] INFO root fetch - processPackages [scrapypi]: executing diffoscope
+[2023-07-16 23:09:40] INFO root fetch - processPackages [scrapypi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrapypi-0.0.1.tar.gz tmp/scrapypi-0.0.2.tar.gz --markdown 20230716/s/scrapypi/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-16 23:09:41] INFO root fetch - processPackages [gs-engine]: executing diffoscope
+[2023-07-16 23:09:41] INFO root fetch - processPackages [gs-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gs_engine-0.24.0a20230715-py2.py3-none-macosx_11_0_x86_64.whl.zip tmp/gs_engine-0.24.0a20230716-py2.py3-none-any.whl.zip --markdown 20230716/g/gs-engine/0.24.0a20230715-0.24.0a20230716/diff.md --exclude *.pyd
+[2023-07-16 23:09:41] INFO root fetch - processPackages [gs-coordinator]: executing diffoscope
+[2023-07-16 23:09:41] INFO root fetch - processPackages [gs-coordinator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gs_coordinator-0.24.0a20230715-py2.py3-none-macosx_11_0_x86_64.whl.zip tmp/gs_coordinator-0.24.0a20230716-py2.py3-none-any.whl.zip --markdown 20230716/g/gs-coordinator/0.24.0a20230715-0.24.0a20230716/diff.md --exclude *.pyd
+[2023-07-16 23:09:41] INFO root fetch - processPackages [sstar]: executing diffoscope
+[2023-07-16 23:09:41] INFO root fetch - processPackages [sstar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sstar-1.1.2.tar.gz tmp/sstar-1.1.3.tar.gz --markdown 20230716/s/sstar/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-07-16 23:09:42] INFO root fetch - processPackages [cudagrad]: Remove: archive file [/home/abi/fetcher/tmp/cudagrad-0.0.10.tar.gz]
+[2023-07-16 23:09:42] INFO root fetch - processPackages [cudagrad]: Remove: archive file [/home/abi/fetcher/tmp/cudagrad-0.0.2.tar.gz]
+[2023-07-16 23:09:42] INFO root fetch - main [MainThread]: End processing [cudagrad]: success
+[2023-07-16 23:09:42] INFO root fetch - processPackages [simple2encrypt]: Remove: archive file [/home/abi/fetcher/tmp/simple2encrypt-1.1.tar.gz]
+[2023-07-16 23:09:42] INFO root fetch - processPackages [simple2encrypt]: Remove: archive file [/home/abi/fetcher/tmp/simple2encrypt-1.2.tar.gz]
+[2023-07-16 23:09:42] INFO root fetch - main [MainThread]: End processing [simple2encrypt]: success
+[2023-07-16 23:09:42] INFO root fetch - processPackages [dice-mc]: Remove: archive file [/home/abi/fetcher/tmp/dice-mc-0.1.0.tar.gz]
+[2023-07-16 23:09:42] INFO root fetch - processPackages [dice-mc]: Remove: archive file [/home/abi/fetcher/tmp/dice-mc-0.1.1.tar.gz]
+[2023-07-16 23:09:42] INFO root fetch - main [MainThread]: End processing [dice-mc]: success
+[2023-07-16 23:09:42] INFO root fetch - processPackages [gs-engine]: Remove: archive file [/home/abi/fetcher/tmp/gs_engine-0.24.0a20230715-py2.py3-none-macosx_11_0_x86_64.whl.zip]
+[2023-07-16 23:09:42] INFO root fetch - processPackages [gs-engine]: Remove: archive file [/home/abi/fetcher/tmp/gs_engine-0.24.0a20230716-py2.py3-none-any.whl.zip]
+[2023-07-16 23:09:42] INFO root fetch - processPackages [scrapypi]: Remove: archive file [/home/abi/fetcher/tmp/scrapypi-0.0.1.tar.gz]
+[2023-07-16 23:09:42] INFO root fetch - main [MainThread]: End processing [gs-engine]: success
+[2023-07-16 23:09:42] INFO root fetch - processPackages [scrapypi]: Remove: archive file [/home/abi/fetcher/tmp/scrapypi-0.0.2.tar.gz]
+[2023-07-16 23:09:42] INFO root fetch - main [MainThread]: End processing [scrapypi]: success
+[2023-07-16 23:09:42] INFO root fetch - processPackages [sstar]: Remove: archive file [/home/abi/fetcher/tmp/sstar-1.1.2.tar.gz]
+[2023-07-16 23:09:42] INFO root fetch - processPackages [sstar]: Remove: archive file [/home/abi/fetcher/tmp/sstar-1.1.3.tar.gz]
+[2023-07-16 23:09:42] INFO root fetch - main [MainThread]: End processing [sstar]: success
+[2023-07-16 23:09:42] ERROR root fetch - processPackages [gs-coordinator]: Diffoscope failed: time="2023-07-16T23:09:41+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 217, in compare
+    x = super().compare(other, source)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 217, in compare
+    x = super().compare(other, source)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 138, in compare_files
+    and (file1.as_container is None or file2.as_container is None)
+         ^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 285, in as_container
+    self._as_container = klass(self)
+                         ^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/archive.py", line 43, in __init__
+    self._archive = self.open_archive()
+                    ^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 179, in open_archive
+    return zipfile.ZipFile(self.source.path, "r")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/zipfile.py", line 1299, in __init__
+    self._RealGetContents()
+  File "/usr/lib/python3.11/zipfile.py", line 1366, in _RealGetContents
+    raise BadZipFile("File is not a zip file")
+zipfile.BadZipFile: File is not a zip file
+
+[2023-07-16 23:09:42] INFO root fetch - main [MainThread]: End processing [gs-coordinator] error
+[2023-07-16 23:09:42] INFO root fetch - processPackages [coconut-develop]: Remove: archive file [/home/abi/fetcher/tmp/coconut-develop-3.0.2.post0.dev8.tar.gz]
+[2023-07-16 23:09:42] INFO root fetch - processPackages [coconut-develop]: Remove: archive file [/home/abi/fetcher/tmp/coconut-develop-3.0.2.post0.dev9.tar.gz]
+[2023-07-16 23:09:42] INFO root fetch - main [MainThread]: End processing [coconut-develop]: success
+[2023-07-16 23:09:42] INFO root fetch - main [MainThread]: Store serial: [18909449]
