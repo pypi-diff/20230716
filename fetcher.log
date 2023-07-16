@@ -12025,3 +12025,55 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-16 19:21:13] INFO root fetch - processPackages [ai-services]: Remove: archive file [/home/abi/fetcher/tmp/ai_services-0.5.0rc9.tar.gz]
 [2023-07-16 19:21:13] INFO root fetch - main [MainThread]: End processing [ai-services]: success
 [2023-07-16 19:21:13] INFO root fetch - main [MainThread]: Store serial: [18908299]
+[2023-07-16 19:26:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18908299]
+[2023-07-16 19:26:22] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-16 19:26:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyosutools
+[2023-07-16 19:26:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spanishconjugator
+[2023-07-16 19:26:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gpforecaster
+[2023-07-16 19:26:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spanishconjugator
+[2023-07-16 19:26:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: birdroid.aws-secure-bucket
+[2023-07-16 19:26:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: paramBundle
+[2023-07-16 19:26:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: simple-test-cx104305
+[2023-07-16 19:26:22] INFO root fetch - processPackages [birdroid.aws-secure-bucket]: New version: [0.8.2] Old Version: [0.8.1]
+[2023-07-16 19:26:22] INFO root fetch - processPackages [pyosutools]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-07-16 19:26:23] INFO root fetch - processPackages [gpforecaster]: New version: [0.3.9] Old Version: [0.3.88]
+[2023-07-16 19:26:23] INFO root fetch - processPackages [birdroid.aws-secure-bucket]: Downloading https://files.pythonhosted.org/packages/16/72/541f33173c504f0d248eaec01e19b8f7a2ae0d921cec2d38a4f0e785c6c4/birdroid.aws-secure-bucket-0.8.1.tar.gz
+[2023-07-16 19:26:23] WARNING root fetch - processPackages [simple-test-cx104305]: Skipping, unable to determine old version
+[2023-07-16 19:26:23] INFO root fetch - main [MainThread]: End processing [simple-test-cx104305] error
+[2023-07-16 19:26:23] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-07-16 19:26:23] WARNING root fetch - processPackages [paramBundle]: Skipping, unable to determine old version
+[2023-07-16 19:26:23] INFO root fetch - main [MainThread]: End processing [paramBundle] error
+[2023-07-16 19:26:23] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-07-16 19:26:23] INFO root fetch - processPackages [gpforecaster]: Downloading https://files.pythonhosted.org/packages/50/8c/9d4ae5abb42f6ae388f64f4cb3d4a10ffb3edcb19aa8ea602269f4681041/gpforecaster-0.3.88.tar.gz
+[2023-07-16 19:26:23] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-07-16 19:26:23] INFO root fetch - processPackages [pyosutools]: Downloading https://files.pythonhosted.org/packages/f2/bf/f64fc9b59dcb8e15a767f454ce7fa6aa960ef43f9eae82481979bf230ff0/pyosutools-0.2.2.tar.gz
+[2023-07-16 19:26:23] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-07-16 19:26:23] INFO root fetch - processPackages [birdroid.aws-secure-bucket]: Downloading https://files.pythonhosted.org/packages/1e/b5/862b53972c415d83a9731e5a396eb9ecca2c6943fd69d990f8729effee00/birdroid.aws-secure-bucket-0.8.2.tar.gz
+[2023-07-16 19:26:23] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-07-16 19:26:23] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-07-16 19:26:23] INFO root fetch - processPackages [birdroid.aws-secure-bucket]: executing diffoscope
+[2023-07-16 19:26:23] INFO root fetch - processPackages [birdroid.aws-secure-bucket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/birdroid.aws-secure-bucket-0.8.1.tar.gz tmp/birdroid.aws-secure-bucket-0.8.2.tar.gz --markdown 20230716/b/birdroid.aws-secure-bucket/0.8.1-0.8.2/diff.md --exclude *.pyd
+[2023-07-16 19:26:23] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-07-16 19:26:23] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230716/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-07-16 19:26:23] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-07-16 19:26:23] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230716/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-07-16 19:26:23] INFO root fetch - processPackages [pyosutools]: Downloading https://files.pythonhosted.org/packages/d5/e4/58adc23556e6b014a22158918e4ef67259cb5b14e8809697c06ce57449f9/pyosutools-0.2.3.tar.gz
+[2023-07-16 19:26:23] INFO root fetch - processPackages [gpforecaster]: Downloading https://files.pythonhosted.org/packages/92/5f/ac0cce7d644b9cf855fde3021fe913db55e05b3641325229c5df912c2f36/gpforecaster-0.3.9.tar.gz
+[2023-07-16 19:26:23] INFO root fetch - processPackages [pyosutools]: executing diffoscope
+[2023-07-16 19:26:23] INFO root fetch - processPackages [pyosutools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyosutools-0.2.2.tar.gz tmp/pyosutools-0.2.3.tar.gz --markdown 20230716/p/pyosutools/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-07-16 19:26:24] INFO root fetch - processPackages [gpforecaster]: executing diffoscope
+[2023-07-16 19:26:24] INFO root fetch - processPackages [gpforecaster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpforecaster-0.3.88.tar.gz tmp/gpforecaster-0.3.9.tar.gz --markdown 20230716/g/gpforecaster/0.3.88-0.3.9/diff.md --exclude *.pyd
+[2023-07-16 19:26:24] INFO root fetch - processPackages [birdroid.aws-secure-bucket]: Remove: archive file [/home/abi/fetcher/tmp/birdroid.aws-secure-bucket-0.8.1.tar.gz]
+[2023-07-16 19:26:24] INFO root fetch - processPackages [birdroid.aws-secure-bucket]: Remove: archive file [/home/abi/fetcher/tmp/birdroid.aws-secure-bucket-0.8.2.tar.gz]
+[2023-07-16 19:26:24] INFO root fetch - main [MainThread]: End processing [birdroid.aws-secure-bucket]: success
+[2023-07-16 19:26:24] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2023-07-16 19:26:24] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2023-07-16 19:26:24] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-07-16 19:26:24] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-07-16 19:26:24] INFO root fetch - processPackages [gpforecaster]: Remove: archive file [/home/abi/fetcher/tmp/gpforecaster-0.3.88.tar.gz]
+[2023-07-16 19:26:24] INFO root fetch - processPackages [gpforecaster]: Remove: archive file [/home/abi/fetcher/tmp/gpforecaster-0.3.9.tar.gz]
+[2023-07-16 19:26:24] INFO root fetch - main [MainThread]: End processing [gpforecaster]: success
+[2023-07-16 19:26:24] INFO root fetch - processPackages [pyosutools]: Remove: archive file [/home/abi/fetcher/tmp/pyosutools-0.2.2.tar.gz]
+[2023-07-16 19:26:24] INFO root fetch - processPackages [pyosutools]: Remove: archive file [/home/abi/fetcher/tmp/pyosutools-0.2.3.tar.gz]
+[2023-07-16 19:26:24] INFO root fetch - main [MainThread]: End processing [pyosutools]: success
+[2023-07-16 19:26:24] INFO root fetch - main [MainThread]: Store serial: [18908323]
