@@ -6495,3 +6495,27 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-16 11:29:19] INFO root fetch - processPackages [ipylivebash]: Remove: archive file [/home/abi/fetcher/tmp/ipylivebash-0.2.0a2.tar.gz]
 [2023-07-16 11:29:19] INFO root fetch - main [MainThread]: End processing [ipylivebash]: success
 [2023-07-16 11:29:19] INFO root fetch - main [MainThread]: Store serial: [18905978]
+[2023-07-16 11:34:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18905978]
+[2023-07-16 11:34:28] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-16 11:34:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: python-benedict
+[2023-07-16 11:34:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yourlastfriend
+[2023-07-16 11:34:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: noelgram1
+[2023-07-16 11:34:29] INFO root fetch - processPackages [noelgram1]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-16 11:34:29] WARNING root fetch - processPackages [yourlastfriend]: Skipping, unable to determine old version
+[2023-07-16 11:34:29] INFO root fetch - main [MainThread]: End processing [yourlastfriend] error
+[2023-07-16 11:34:29] INFO root fetch - processPackages [python-benedict]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-16 11:34:29] INFO root fetch - processPackages [noelgram1]: Downloading https://files.pythonhosted.org/packages/0f/3c/b31623ee76bda420934ba71909c1a3e4d29ab7cf2af2c0c710631cdb4b67/noelgram1-0.0.2.tar.gz
+[2023-07-16 11:34:29] INFO root fetch - processPackages [noelgram1]: Downloading https://files.pythonhosted.org/packages/67/3c/d3b73ec55caa5a5c2fe43922ee9329c58c19eb9bebe3c850334a1be2f721/noelgram1-0.0.3.tar.gz
+[2023-07-16 11:34:29] INFO root fetch - processPackages [python-benedict]: Downloading https://files.pythonhosted.org/packages/ca/01/a5df1dbaaea3f3dc79d59b241499f7b4cae5aa5e1eb3fcac8c3b71b9e4b4/python-benedict-0.8.0.tar.gz
+[2023-07-16 11:34:29] INFO root fetch - processPackages [noelgram1]: executing diffoscope
+[2023-07-16 11:34:29] INFO root fetch - processPackages [noelgram1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/noelgram1-0.0.2.tar.gz tmp/noelgram1-0.0.3.tar.gz --markdown 20230716/n/noelgram1/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-16 11:34:30] INFO root fetch - processPackages [python-benedict]: Downloading https://files.pythonhosted.org/packages/c9/63/552d76504237f413c99d89933f68b6d940a6675fa6edb3c69e7ab5ab2ac8/python-benedict-0.9.0.tar.gz
+[2023-07-16 11:34:30] INFO root fetch - processPackages [python-benedict]: executing diffoscope
+[2023-07-16 11:34:30] INFO root fetch - processPackages [python-benedict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-benedict-0.8.0.tar.gz tmp/python-benedict-0.9.0.tar.gz --markdown 20230716/p/python-benedict/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-16 11:34:31] INFO root fetch - processPackages [python-benedict]: Remove: archive file [/home/abi/fetcher/tmp/python-benedict-0.8.0.tar.gz]
+[2023-07-16 11:34:31] INFO root fetch - processPackages [python-benedict]: Remove: archive file [/home/abi/fetcher/tmp/python-benedict-0.9.0.tar.gz]
+[2023-07-16 11:34:31] INFO root fetch - main [MainThread]: End processing [python-benedict]: success
+[2023-07-16 11:34:33] INFO root fetch - processPackages [noelgram1]: Remove: archive file [/home/abi/fetcher/tmp/noelgram1-0.0.2.tar.gz]
+[2023-07-16 11:34:33] INFO root fetch - processPackages [noelgram1]: Remove: archive file [/home/abi/fetcher/tmp/noelgram1-0.0.3.tar.gz]
+[2023-07-16 11:34:33] INFO root fetch - main [MainThread]: End processing [noelgram1]: success
+[2023-07-16 11:34:33] INFO root fetch - main [MainThread]: Store serial: [18905993]
