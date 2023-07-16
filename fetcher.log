@@ -8176,3 +8176,39 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-16 14:10:50] INFO root fetch - processPackages [dtn7zero]: Remove: archive file [/home/abi/fetcher/tmp/dtn7zero-0.0.8.tar.gz]
 [2023-07-16 14:10:50] INFO root fetch - main [MainThread]: End processing [dtn7zero]: success
 [2023-07-16 14:10:50] INFO root fetch - main [MainThread]: Store serial: [18906700]
+[2023-07-16 14:15:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18906700]
+[2023-07-16 14:15:59] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-16 14:15:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: encryption-utils
+[2023-07-16 14:15:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: birdepy
+[2023-07-16 14:15:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyfsig
+[2023-07-16 14:15:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: redis
+[2023-07-16 14:15:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gasearch
+[2023-07-16 14:15:59] WARNING root fetch - processPackages [gasearch]: Skipping, unable to determine old version
+[2023-07-16 14:15:59] INFO root fetch - processPackages [birdepy]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-16 14:15:59] INFO root fetch - main [MainThread]: End processing [gasearch] error
+[2023-07-16 14:15:59] ERROR root fetch - processPackages [encryption-utils]: Unable to get metadata: No such project 'encryption-utils'
+[2023-07-16 14:15:59] INFO root fetch - main [MainThread]: End processing [encryption-utils] error
+[2023-07-16 14:15:59] INFO root fetch - processPackages [pyfsig]: New version: [0.8.2] Old Version: [0.7.2]
+[2023-07-16 14:15:59] INFO root fetch - processPackages [redis]: New version: [5.0.0rc2] Old Version: [5.0.0rc1]
+[2023-07-16 14:16:00] INFO root fetch - processPackages [pyfsig]: Downloading https://files.pythonhosted.org/packages/bf/15/a30890ed52cadb9aa8a9f5e82c69945553341598305b64fe49a2d50e0810/pyfsig-0.7.2.tar.gz
+[2023-07-16 14:16:00] INFO root fetch - processPackages [birdepy]: Downloading https://files.pythonhosted.org/packages/f0/c3/d2995ea56ab65bc35acb53eeadb427fb89fb3ab6bd4b04aa110cb505cbe4/birdepy-0.0.8.tar.gz
+[2023-07-16 14:16:00] INFO root fetch - processPackages [redis]: Downloading https://files.pythonhosted.org/packages/ad/d9/a77accff5fe29869ce6b170b7a6ce00b0c8e20a49c92edd80ee0164922b2/redis-5.0.0rc1.tar.gz
+[2023-07-16 14:16:00] INFO root fetch - processPackages [pyfsig]: Downloading https://files.pythonhosted.org/packages/8a/3a/1b56eda93bf19792860101320dd97b18488ff20b9c8dd6a3ddcb26677c41/pyfsig-0.8.2.tar.gz
+[2023-07-16 14:16:00] INFO root fetch - processPackages [pyfsig]: executing diffoscope
+[2023-07-16 14:16:00] INFO root fetch - processPackages [pyfsig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfsig-0.7.2.tar.gz tmp/pyfsig-0.8.2.tar.gz --markdown 20230716/p/pyfsig/0.7.2-0.8.2/diff.md --exclude *.pyd
+[2023-07-16 14:16:00] INFO root fetch - processPackages [redis]: Downloading https://files.pythonhosted.org/packages/d0/7e/72eb4ab5fe6abb46a358404adc38f3e2f8f16b18a29061f0e89483255a43/redis-5.0.0rc2.tar.gz
+[2023-07-16 14:16:01] INFO root fetch - processPackages [pyfsig]: Remove: archive file [/home/abi/fetcher/tmp/pyfsig-0.7.2.tar.gz]
+[2023-07-16 14:16:01] INFO root fetch - processPackages [pyfsig]: Remove: archive file [/home/abi/fetcher/tmp/pyfsig-0.8.2.tar.gz]
+[2023-07-16 14:16:01] INFO root fetch - main [MainThread]: End processing [pyfsig]: success
+[2023-07-16 14:16:01] INFO root fetch - processPackages [birdepy]: Downloading https://files.pythonhosted.org/packages/19/34/577c6303cd69a8ff0ecf8f5ba49e7eb6faa2ea03c7f1e46b1dd8b0999336/birdepy-0.0.9.tar.gz
+[2023-07-16 14:16:01] INFO root fetch - processPackages [redis]: executing diffoscope
+[2023-07-16 14:16:01] INFO root fetch - processPackages [redis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redis-5.0.0rc1.tar.gz tmp/redis-5.0.0rc2.tar.gz --markdown 20230716/r/redis/5.0.0rc1-5.0.0rc2/diff.md --exclude *.pyd
+[2023-07-16 14:16:02] INFO root fetch - processPackages [birdepy]: executing diffoscope
+[2023-07-16 14:16:02] INFO root fetch - processPackages [birdepy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/birdepy-0.0.8.tar.gz tmp/birdepy-0.0.9.tar.gz --markdown 20230716/b/birdepy/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-16 14:16:03] INFO root fetch - processPackages [birdepy]: Remove: archive file [/home/abi/fetcher/tmp/birdepy-0.0.8.tar.gz]
+[2023-07-16 14:16:03] INFO root fetch - processPackages [birdepy]: Remove: archive file [/home/abi/fetcher/tmp/birdepy-0.0.9.tar.gz]
+[2023-07-16 14:16:03] INFO root fetch - main [MainThread]: End processing [birdepy]: success
+[2023-07-16 14:16:03] INFO root fetch - processPackages [redis]: Remove: archive file [/home/abi/fetcher/tmp/redis-5.0.0rc1.tar.gz]
+[2023-07-16 14:16:03] INFO root fetch - processPackages [redis]: Remove: archive file [/home/abi/fetcher/tmp/redis-5.0.0rc2.tar.gz]
+[2023-07-16 14:16:03] INFO root fetch - main [MainThread]: End processing [redis]: success
+[2023-07-16 14:16:03] INFO root fetch - main [MainThread]: Store serial: [18906718]
