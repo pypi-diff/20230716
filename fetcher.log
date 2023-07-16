@@ -6909,3 +6909,41 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-16 12:16:04] INFO root fetch - processPackages [chempy]: Remove: archive file [/home/abi/fetcher/tmp/chempy-0.8.3.tar.gz]
 [2023-07-16 12:16:04] INFO root fetch - main [MainThread]: End processing [chempy]: success
 [2023-07-16 12:16:04] INFO root fetch - main [MainThread]: Store serial: [18906129]
+[2023-07-16 12:21:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18906129]
+[2023-07-16 12:21:13] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-16 12:21:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ipynbcompress
+[2023-07-16 12:21:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: crypto-screening
+[2023-07-16 12:21:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: element-sdk
+[2023-07-16 12:21:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nitaq
+[2023-07-16 12:21:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bayesflow
+[2023-07-16 12:21:13] INFO root fetch - processPackages [element-sdk]: New version: [0.2.5] Old Version: [0.2.10]
+[2023-07-16 12:21:13] INFO root fetch - processPackages [bayesflow]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-07-16 12:21:13] WARNING root fetch - processPackages [nitaq]: Skipping, unable to determine old version
+[2023-07-16 12:21:13] INFO root fetch - main [MainThread]: End processing [nitaq] error
+[2023-07-16 12:21:13] INFO root fetch - processPackages [ipynbcompress]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-07-16 12:21:13] INFO root fetch - processPackages [crypto-screening]: New version: [5.2.3] Old Version: [5.2.2]
+[2023-07-16 12:21:13] INFO root fetch - processPackages [crypto-screening]: Downloading https://files.pythonhosted.org/packages/73/1e/acb697b21718f0deffce4cb236ca87608bdca127f884ed59c7193d2abeac/crypto-screening-5.2.2.tar.gz
+[2023-07-16 12:21:13] INFO root fetch - processPackages [element-sdk]: Downloading https://files.pythonhosted.org/packages/aa/c7/1f68a36df5dfa314d56046aaa1cdfa87da765c3d0caca2d389fd70e80b4b/element_sdk-0.2.10-py3.9.egg
+[2023-07-16 12:21:13] INFO root fetch - processPackages [bayesflow]: Downloading https://files.pythonhosted.org/packages/32/b0/63036bb1774e456756db0d72a616e3f0fd9a2f60511a27a6221d9f5e5b9e/bayesflow-1.1.1.tar.gz
+[2023-07-16 12:21:13] INFO root fetch - processPackages [ipynbcompress]: Downloading https://files.pythonhosted.org/packages/b4/6a/75df36459e181f17f566f157ecebc320293e9fb3f9233f258e942ae3783f/ipynbcompress-0.4.0.tar.gz
+[2023-07-16 12:21:13] WARNING root fetch - processPackages [bayesflow]: Skipping package: exceeds size limit 18579275>=10485760
+[2023-07-16 12:21:13] INFO root fetch - main [MainThread]: End processing [bayesflow] error
+[2023-07-16 12:21:13] INFO root fetch - processPackages [crypto-screening]: Downloading https://files.pythonhosted.org/packages/cb/a6/2c1f3eb1671d76022162296be86fa82453978b36be79c4ba92d616470877/crypto-screening-5.2.3.tar.gz
+[2023-07-16 12:21:14] INFO root fetch - processPackages [crypto-screening]: executing diffoscope
+[2023-07-16 12:21:14] INFO root fetch - processPackages [crypto-screening]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crypto-screening-5.2.2.tar.gz tmp/crypto-screening-5.2.3.tar.gz --markdown 20230716/c/crypto-screening/5.2.2-5.2.3/diff.md --exclude *.pyd
+[2023-07-16 12:21:14] INFO root fetch - processPackages [element-sdk]: Downloading https://files.pythonhosted.org/packages/f2/4d/c95d4c47adad10e508c25d91eda0f0a0452b41f52b66830336f39f757655/element-sdk-0.2.5.tar.gz
+[2023-07-16 12:21:14] INFO root fetch - processPackages [element-sdk]: executing diffoscope
+[2023-07-16 12:21:14] INFO root fetch - processPackages [element-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/element_sdk-0.2.10-py3.9.egg tmp/element-sdk-0.2.5.tar.gz --markdown 20230716/e/element-sdk/0.2.10-0.2.5/diff.md --exclude *.pyd
+[2023-07-16 12:21:14] INFO root fetch - processPackages [element-sdk]: Remove: archive file [/home/abi/fetcher/tmp/element_sdk-0.2.10-py3.9.egg]
+[2023-07-16 12:21:14] INFO root fetch - processPackages [element-sdk]: Remove: archive file [/home/abi/fetcher/tmp/element-sdk-0.2.5.tar.gz]
+[2023-07-16 12:21:14] INFO root fetch - main [MainThread]: End processing [element-sdk]: success
+[2023-07-16 12:21:15] INFO root fetch - processPackages [ipynbcompress]: Downloading https://files.pythonhosted.org/packages/fc/4c/14fa91d45f713bcaf8a6e65e54f9eebee19bc4a465e1be12032b641787f8/ipynbcompress-0.5.0.tar.gz
+[2023-07-16 12:21:15] INFO root fetch - processPackages [crypto-screening]: Remove: archive file [/home/abi/fetcher/tmp/crypto-screening-5.2.2.tar.gz]
+[2023-07-16 12:21:15] INFO root fetch - processPackages [crypto-screening]: Remove: archive file [/home/abi/fetcher/tmp/crypto-screening-5.2.3.tar.gz]
+[2023-07-16 12:21:15] INFO root fetch - main [MainThread]: End processing [crypto-screening]: success
+[2023-07-16 12:21:15] INFO root fetch - processPackages [ipynbcompress]: executing diffoscope
+[2023-07-16 12:21:15] INFO root fetch - processPackages [ipynbcompress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipynbcompress-0.4.0.tar.gz tmp/ipynbcompress-0.5.0.tar.gz --markdown 20230716/i/ipynbcompress/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-07-16 12:21:16] INFO root fetch - processPackages [ipynbcompress]: Remove: archive file [/home/abi/fetcher/tmp/ipynbcompress-0.4.0.tar.gz]
+[2023-07-16 12:21:16] INFO root fetch - processPackages [ipynbcompress]: Remove: archive file [/home/abi/fetcher/tmp/ipynbcompress-0.5.0.tar.gz]
+[2023-07-16 12:21:16] INFO root fetch - main [MainThread]: End processing [ipynbcompress]: success
+[2023-07-16 12:21:16] INFO root fetch - main [MainThread]: Store serial: [18906151]
