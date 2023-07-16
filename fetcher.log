@@ -12900,3 +12900,67 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-16 20:39:11] INFO root fetch - processPackages [gramps-webapi]: Remove: archive file [/home/abi/fetcher/tmp/gramps-webapi-1.1.2.tar.gz]
 [2023-07-16 20:39:11] INFO root fetch - main [MainThread]: End processing [gramps-webapi]: success
 [2023-07-16 20:39:11] INFO root fetch - main [MainThread]: Store serial: [18908700]
+[2023-07-16 20:44:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18908700]
+[2023-07-16 20:44:20] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-16 20:44:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: antsibull-docs
+[2023-07-16 20:44:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: emergenet
+[2023-07-16 20:44:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zint
+[2023-07-16 20:44:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: antsibull-docs
+[2023-07-16 20:44:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: FinanceTrackerCLI
+[2023-07-16 20:44:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kcli
+[2023-07-16 20:44:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: vector-quantize-pytorch
+[2023-07-16 20:44:20] INFO root fetch - processPackages [vector-quantize-pytorch]: New version: [1.6.9] Old Version: [1.6.7]
+[2023-07-16 20:44:20] INFO root fetch - processPackages [zint]: New version: [1.4] Old Version: [1.2]
+[2023-07-16 20:44:20] INFO root fetch - processPackages [antsibull-docs]: New version: [2.3.1] Old Version: [2.3.0.post0]
+[2023-07-16 20:44:20] INFO root fetch - processPackages [emergenet]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-16 20:44:20] INFO root fetch - processPackages [FinanceTrackerCLI]: New version: [1.3.0.9] Old Version: [1.3.0.8]
+[2023-07-16 20:44:20] INFO root fetch - processPackages [antsibull-docs]: New version: [2.3.1] Old Version: [2.3.0.post0]
+[2023-07-16 20:44:20] INFO root fetch - processPackages [kcli]: New version: [99.0.202307161842] Old Version: [99.0.202307161508]
+[2023-07-16 20:44:20] INFO root fetch - processPackages [FinanceTrackerCLI]: Downloading https://files.pythonhosted.org/packages/b7/f1/0595c34363e69b58cbbb2491b0c5e9efaa2e35831068ba5b5a8ad8931d70/FinanceTrackerCLI-1.3.0.8.tar.gz
+[2023-07-16 20:44:20] INFO root fetch - processPackages [vector-quantize-pytorch]: Downloading https://files.pythonhosted.org/packages/f9/64/771c9abd337a81ba6dfe0e6a0132b5a43e24b2640538385a01dc17b972f5/vector_quantize_pytorch-1.6.7.tar.gz
+[2023-07-16 20:44:20] INFO root fetch - processPackages [zint]: Downloading https://files.pythonhosted.org/packages/b1/0a/e1e26a5ee7f3cb29b81551bfdc1a697afa3b64ed61a0ccf3db1661a0a561/zint-1.2.tar.gz
+[2023-07-16 20:44:21] INFO root fetch - processPackages [emergenet]: Downloading https://files.pythonhosted.org/packages/01/89/383d61e6f1dad8986f99498987337f0dd51e603ef3d2daee7e550d748120/emergenet-0.0.8.tar.gz
+[2023-07-16 20:44:21] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/ff/e7/d13d32fd54b79b4026a046a8f53def54204908aafa963e29f8b63e55f56a/kcli-99.0.202307161508-py3-none-any.whl
+[2023-07-16 20:44:21] INFO root fetch - processPackages [antsibull-docs]: Downloading https://files.pythonhosted.org/packages/50/72/61f73e04445d36dda8df124d4f9c878ed7140a9a5762105db4c35bc3ec15/antsibull_docs-2.3.0.post0.tar.gz
+[2023-07-16 20:44:21] INFO root fetch - processPackages [antsibull-docs]: Downloading https://files.pythonhosted.org/packages/50/72/61f73e04445d36dda8df124d4f9c878ed7140a9a5762105db4c35bc3ec15/antsibull_docs-2.3.0.post0.tar.gz
+[2023-07-16 20:44:21] INFO root fetch - processPackages [emergenet]: Downloading https://files.pythonhosted.org/packages/64/cd/356b4a467f17df337330223342d19dfc1ce7bb82435213ef9b59c2b7fbbd/emergenet-0.0.9.tar.gz
+[2023-07-16 20:44:21] INFO root fetch - processPackages [vector-quantize-pytorch]: Downloading https://files.pythonhosted.org/packages/59/2f/a0f5b7e39fdec57501b5b479d9b4fac9c2c81adc65b2ed6f30dd4dbfd3ab/vector_quantize_pytorch-1.6.9.tar.gz
+[2023-07-16 20:44:21] INFO root fetch - processPackages [zint]: Downloading https://files.pythonhosted.org/packages/c9/52/819b4d3d16d6de67d3220b9d1b0c2dd9055f0d7f9b00e779791cfc986890/zint-1.4.tar.gz
+[2023-07-16 20:44:21] INFO root fetch - processPackages [FinanceTrackerCLI]: Downloading https://files.pythonhosted.org/packages/37/5c/55b9b45fffb108a03558125a7a9ae3574958082b6766dafa815defa5414a/FinanceTrackerCLI-1.3.0.9.tar.gz
+[2023-07-16 20:44:21] INFO root fetch - processPackages [emergenet]: executing diffoscope
+[2023-07-16 20:44:21] INFO root fetch - processPackages [emergenet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emergenet-0.0.8.tar.gz tmp/emergenet-0.0.9.tar.gz --markdown 20230716/e/emergenet/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-16 20:44:21] INFO root fetch - processPackages [vector-quantize-pytorch]: executing diffoscope
+[2023-07-16 20:44:21] INFO root fetch - processPackages [vector-quantize-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vector_quantize_pytorch-1.6.7.tar.gz tmp/vector_quantize_pytorch-1.6.9.tar.gz --markdown 20230716/v/vector-quantize-pytorch/1.6.7-1.6.9/diff.md --exclude *.pyd
+[2023-07-16 20:44:21] INFO root fetch - processPackages [antsibull-docs]: Downloading https://files.pythonhosted.org/packages/cb/22/1afa6b2097d526f99d02130d6a2c66ade23619f190d07b3c4b7e93779ded/antsibull_docs-2.3.1.tar.gz
+[2023-07-16 20:44:21] INFO root fetch - processPackages [zint]: executing diffoscope
+[2023-07-16 20:44:21] INFO root fetch - processPackages [zint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zint-1.2.tar.gz tmp/zint-1.4.tar.gz --markdown 20230716/z/zint/1.2-1.4/diff.md --exclude *.pyd
+[2023-07-16 20:44:21] INFO root fetch - processPackages [antsibull-docs]: Downloading https://files.pythonhosted.org/packages/cb/22/1afa6b2097d526f99d02130d6a2c66ade23619f190d07b3c4b7e93779ded/antsibull_docs-2.3.1.tar.gz
+[2023-07-16 20:44:21] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/3a/f6/fb2a8e3df1e34ddced4dcae2d649d356d48dafd996a5b745304477c703e4/kcli-99.0.202307161842-py3-none-any.whl
+[2023-07-16 20:44:21] INFO root fetch - processPackages [FinanceTrackerCLI]: executing diffoscope
+[2023-07-16 20:44:21] INFO root fetch - processPackages [FinanceTrackerCLI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FinanceTrackerCLI-1.3.0.8.tar.gz tmp/FinanceTrackerCLI-1.3.0.9.tar.gz --markdown 20230716/F/FinanceTrackerCLI/1.3.0.8-1.3.0.9/diff.md --exclude *.pyd
+[2023-07-16 20:44:21] INFO root fetch - processPackages [antsibull-docs]: executing diffoscope
+[2023-07-16 20:44:21] INFO root fetch - processPackages [antsibull-docs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antsibull_docs-2.3.0.post0.tar.gz tmp/antsibull_docs-2.3.1.tar.gz --markdown 20230716/a/antsibull-docs/2.3.0.post0-2.3.1/diff.md --exclude *.pyd
+[2023-07-16 20:44:21] INFO root fetch - processPackages [antsibull-docs]: executing diffoscope
+[2023-07-16 20:44:21] INFO root fetch - processPackages [antsibull-docs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antsibull_docs-2.3.0.post0.tar.gz tmp/antsibull_docs-2.3.1.tar.gz --markdown 20230716/a/antsibull-docs/2.3.0.post0-2.3.1/diff.md --exclude *.pyd
+[2023-07-16 20:44:21] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-07-16 20:44:21] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202307161508-py3-none-any.whl.zip tmp/kcli-99.0.202307161842-py3-none-any.whl.zip --markdown 20230716/k/kcli/99.0.202307161508-99.0.202307161842/diff.md --exclude *.pyd
+[2023-07-16 20:44:22] INFO root fetch - processPackages [emergenet]: Remove: archive file [/home/abi/fetcher/tmp/emergenet-0.0.8.tar.gz]
+[2023-07-16 20:44:22] INFO root fetch - processPackages [emergenet]: Remove: archive file [/home/abi/fetcher/tmp/emergenet-0.0.9.tar.gz]
+[2023-07-16 20:44:22] INFO root fetch - main [MainThread]: End processing [emergenet]: success
+[2023-07-16 20:44:22] INFO root fetch - processPackages [vector-quantize-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/vector_quantize_pytorch-1.6.7.tar.gz]
+[2023-07-16 20:44:22] INFO root fetch - processPackages [vector-quantize-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/vector_quantize_pytorch-1.6.9.tar.gz]
+[2023-07-16 20:44:22] INFO root fetch - main [MainThread]: End processing [vector-quantize-pytorch]: success
+[2023-07-16 20:44:22] INFO root fetch - processPackages [zint]: Remove: archive file [/home/abi/fetcher/tmp/zint-1.2.tar.gz]
+[2023-07-16 20:44:22] INFO root fetch - processPackages [zint]: Remove: archive file [/home/abi/fetcher/tmp/zint-1.4.tar.gz]
+[2023-07-16 20:44:22] INFO root fetch - main [MainThread]: End processing [zint]: success
+[2023-07-16 20:44:22] INFO root fetch - processPackages [FinanceTrackerCLI]: Remove: archive file [/home/abi/fetcher/tmp/FinanceTrackerCLI-1.3.0.8.tar.gz]
+[2023-07-16 20:44:22] INFO root fetch - processPackages [FinanceTrackerCLI]: Remove: archive file [/home/abi/fetcher/tmp/FinanceTrackerCLI-1.3.0.9.tar.gz]
+[2023-07-16 20:44:22] INFO root fetch - main [MainThread]: End processing [FinanceTrackerCLI]: success
+[2023-07-16 20:44:25] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202307161508-py3-none-any.whl.zip]
+[2023-07-16 20:44:25] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202307161842-py3-none-any.whl.zip]
+[2023-07-16 20:44:25] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-07-16 20:44:25] INFO root fetch - processPackages [antsibull-docs]: Remove: archive file [/home/abi/fetcher/tmp/antsibull_docs-2.3.0.post0.tar.gz]
+[2023-07-16 20:44:25] INFO root fetch - processPackages [antsibull-docs]: Remove: archive file [/home/abi/fetcher/tmp/antsibull_docs-2.3.1.tar.gz]
+[2023-07-16 20:44:25] INFO root fetch - main [MainThread]: End processing [antsibull-docs]: success
+[2023-07-16 20:44:25] INFO root fetch - main [MainThread]: End processing [antsibull-docs]: success
+[2023-07-16 20:44:25] INFO root fetch - main [MainThread]: Store serial: [18908722]
