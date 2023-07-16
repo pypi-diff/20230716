@@ -4640,3 +4640,61 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-16 08:42:39] INFO root fetch - processPackages [jeng]: Remove: archive file [/home/abi/fetcher/tmp/jeng-1.0.0-py3-none-any.whl.zip]
 [2023-07-16 08:42:39] INFO root fetch - main [MainThread]: End processing [jeng]: success
 [2023-07-16 08:42:39] INFO root fetch - main [MainThread]: Store serial: [18905260]
+[2023-07-16 08:47:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18905260]
+[2023-07-16 08:47:47] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-16 08:47:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bb-apputils
+[2023-07-16 08:47:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tf2-sku-to-name
+[2023-07-16 08:47:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hezar
+[2023-07-16 08:47:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: talkytimes-package
+[2023-07-16 08:47:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: labeled-lda
+[2023-07-16 08:47:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyblip
+[2023-07-16 08:47:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bb-apputils
+[2023-07-16 08:47:48] INFO root fetch - processPackages [tf2-sku-to-name]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-07-16 08:47:48] INFO root fetch - processPackages [hezar]: New version: [0.15.0] Old Version: [0.14.3]
+[2023-07-16 08:47:48] INFO root fetch - processPackages [bb-apputils]: New version: [0.3.94] Old Version: [0.3.93]
+[2023-07-16 08:47:48] INFO root fetch - processPackages [talkytimes-package]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-16 08:47:48] WARNING root fetch - processPackages [labeled-lda]: Skipping, unable to determine old version
+[2023-07-16 08:47:48] INFO root fetch - main [MainThread]: End processing [labeled-lda] error
+[2023-07-16 08:47:48] INFO root fetch - processPackages [pyblip]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-07-16 08:47:48] INFO root fetch - processPackages [bb-apputils]: New version: [0.3.94] Old Version: [0.3.93]
+[2023-07-16 08:47:48] INFO root fetch - processPackages [pyblip]: Downloading https://files.pythonhosted.org/packages/61/75/4d36ed8dd143f90d70007440592133aef979ed03b955e27b2fc2de607454/pyblip-0.4.1.tar.gz
+[2023-07-16 08:47:48] INFO root fetch - processPackages [hezar]: Downloading https://files.pythonhosted.org/packages/8b/c9/2e4a203a5318242933323a81a67ed14e90bffeb3f7b00e5c55aaf246820d/hezar-0.14.3.tar.gz
+[2023-07-16 08:47:48] INFO root fetch - processPackages [tf2-sku-to-name]: Downloading https://files.pythonhosted.org/packages/00/5f/4a2f461bff463e953706ea051bdc78ba90c8f5a95372229ea27c8eae31d4/tf2-sku-to-name-1.0.4.tar.gz
+[2023-07-16 08:47:48] INFO root fetch - processPackages [talkytimes-package]: Downloading https://files.pythonhosted.org/packages/37/65/cafaca0c95fc8a5a23d719578881c7cd22bb50b152e847f81b2003a7022f/talkytimes_package-0.1.1.tar.gz
+[2023-07-16 08:47:48] INFO root fetch - processPackages [bb-apputils]: Downloading https://files.pythonhosted.org/packages/97/32/83477ddc887fdc2c71d3065cc38b2e1a7e5d670c176af3ec75ee89395ea8/bb_apputils-0.3.93.tar.gz
+[2023-07-16 08:47:48] INFO root fetch - processPackages [bb-apputils]: Downloading https://files.pythonhosted.org/packages/97/32/83477ddc887fdc2c71d3065cc38b2e1a7e5d670c176af3ec75ee89395ea8/bb_apputils-0.3.93.tar.gz
+[2023-07-16 08:47:48] INFO root fetch - processPackages [talkytimes-package]: Downloading https://files.pythonhosted.org/packages/27/bc/8d0d9a63333b1308ffeb7236c8cdc3a7f17ee667b4d5a3fd29646cfbc50d/talkytimes_package-0.1.2.tar.gz
+[2023-07-16 08:47:48] INFO root fetch - processPackages [tf2-sku-to-name]: Downloading https://files.pythonhosted.org/packages/8c/9c/6db5bd0a2376e2e3011ed106c911a7b72e66e6c7c8422c25abd956b3ce37/tf2-sku-to-name-1.0.5.tar.gz
+[2023-07-16 08:47:48] INFO root fetch - processPackages [bb-apputils]: Downloading https://files.pythonhosted.org/packages/2a/0e/f0fb8cfcc3d67073f763e6545dec433e5601c374c7fbb8ba18b77d1dd846/bb_apputils-0.3.94.tar.gz
+[2023-07-16 08:47:48] INFO root fetch - processPackages [bb-apputils]: Downloading https://files.pythonhosted.org/packages/2a/0e/f0fb8cfcc3d67073f763e6545dec433e5601c374c7fbb8ba18b77d1dd846/bb_apputils-0.3.94.tar.gz
+[2023-07-16 08:47:48] INFO root fetch - processPackages [pyblip]: Downloading https://files.pythonhosted.org/packages/39/49/faefd7fc26a3c7b4002ee45a2dfb4f673d0d6c22d1ba113395d1fe64c769/pyblip-0.4.2.tar.gz
+[2023-07-16 08:47:48] INFO root fetch - processPackages [hezar]: Downloading https://files.pythonhosted.org/packages/47/29/c9771bdabff05bbc13057108677af8c0141348fff12a3fbd99a80215a999/hezar-0.15.0.tar.gz
+[2023-07-16 08:47:49] INFO root fetch - processPackages [talkytimes-package]: executing diffoscope
+[2023-07-16 08:47:49] INFO root fetch - processPackages [talkytimes-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/talkytimes_package-0.1.1.tar.gz tmp/talkytimes_package-0.1.2.tar.gz --markdown 20230716/t/talkytimes-package/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-16 08:47:49] INFO root fetch - processPackages [bb-apputils]: executing diffoscope
+[2023-07-16 08:47:49] INFO root fetch - processPackages [bb-apputils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bb_apputils-0.3.93.tar.gz tmp/bb_apputils-0.3.94.tar.gz --markdown 20230716/b/bb-apputils/0.3.93-0.3.94/diff.md --exclude *.pyd
+[2023-07-16 08:47:49] INFO root fetch - processPackages [bb-apputils]: executing diffoscope
+[2023-07-16 08:47:49] INFO root fetch - processPackages [bb-apputils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bb_apputils-0.3.93.tar.gz tmp/bb_apputils-0.3.94.tar.gz --markdown 20230716/b/bb-apputils/0.3.93-0.3.94/diff.md --exclude *.pyd
+[2023-07-16 08:47:49] INFO root fetch - processPackages [tf2-sku-to-name]: executing diffoscope
+[2023-07-16 08:47:49] INFO root fetch - processPackages [tf2-sku-to-name]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf2-sku-to-name-1.0.4.tar.gz tmp/tf2-sku-to-name-1.0.5.tar.gz --markdown 20230716/t/tf2-sku-to-name/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-07-16 08:47:49] INFO root fetch - processPackages [hezar]: executing diffoscope
+[2023-07-16 08:47:49] INFO root fetch - processPackages [hezar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hezar-0.14.3.tar.gz tmp/hezar-0.15.0.tar.gz --markdown 20230716/h/hezar/0.14.3-0.15.0/diff.md --exclude *.pyd
+[2023-07-16 08:47:49] INFO root fetch - processPackages [pyblip]: executing diffoscope
+[2023-07-16 08:47:49] INFO root fetch - processPackages [pyblip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyblip-0.4.1.tar.gz tmp/pyblip-0.4.2.tar.gz --markdown 20230716/p/pyblip/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-07-16 08:47:50] INFO root fetch - processPackages [bb-apputils]: Remove: archive file [/home/abi/fetcher/tmp/bb_apputils-0.3.93.tar.gz]
+[2023-07-16 08:47:50] INFO root fetch - processPackages [bb-apputils]: Remove: archive file [/home/abi/fetcher/tmp/bb_apputils-0.3.94.tar.gz]
+[2023-07-16 08:47:50] INFO root fetch - main [MainThread]: End processing [bb-apputils]: success
+[2023-07-16 08:47:50] INFO root fetch - processPackages [talkytimes-package]: Remove: archive file [/home/abi/fetcher/tmp/talkytimes_package-0.1.1.tar.gz]
+[2023-07-16 08:47:50] INFO root fetch - processPackages [talkytimes-package]: Remove: archive file [/home/abi/fetcher/tmp/talkytimes_package-0.1.2.tar.gz]
+[2023-07-16 08:47:50] INFO root fetch - main [MainThread]: End processing [talkytimes-package]: success
+[2023-07-16 08:47:50] INFO root fetch - main [MainThread]: End processing [bb-apputils]: success
+[2023-07-16 08:47:50] INFO root fetch - processPackages [hezar]: Remove: archive file [/home/abi/fetcher/tmp/hezar-0.14.3.tar.gz]
+[2023-07-16 08:47:50] INFO root fetch - processPackages [hezar]: Remove: archive file [/home/abi/fetcher/tmp/hezar-0.15.0.tar.gz]
+[2023-07-16 08:47:50] INFO root fetch - main [MainThread]: End processing [hezar]: success
+[2023-07-16 08:47:50] INFO root fetch - processPackages [tf2-sku-to-name]: Remove: archive file [/home/abi/fetcher/tmp/tf2-sku-to-name-1.0.4.tar.gz]
+[2023-07-16 08:47:50] INFO root fetch - processPackages [tf2-sku-to-name]: Remove: archive file [/home/abi/fetcher/tmp/tf2-sku-to-name-1.0.5.tar.gz]
+[2023-07-16 08:47:50] INFO root fetch - main [MainThread]: End processing [tf2-sku-to-name]: success
+[2023-07-16 08:47:51] INFO root fetch - processPackages [pyblip]: Remove: archive file [/home/abi/fetcher/tmp/pyblip-0.4.1.tar.gz]
+[2023-07-16 08:47:51] INFO root fetch - processPackages [pyblip]: Remove: archive file [/home/abi/fetcher/tmp/pyblip-0.4.2.tar.gz]
+[2023-07-16 08:47:51] INFO root fetch - main [MainThread]: End processing [pyblip]: success
+[2023-07-16 08:47:51] INFO root fetch - main [MainThread]: Store serial: [18905281]
