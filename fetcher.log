@@ -15014,3 +15014,33 @@ zipfile.BadZipFile: File is not a zip file
 [2023-07-16 23:46:59] INFO root fetch - processPackages [picaso]: Remove: archive file [/home/abi/fetcher/tmp/picaso-3.1.1.tar.gz]
 [2023-07-16 23:46:59] INFO root fetch - main [MainThread]: End processing [picaso]: success
 [2023-07-16 23:46:59] INFO root fetch - main [MainThread]: Store serial: [18909641]
+[2023-07-16 23:52:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18909641]
+[2023-07-16 23:52:07] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-16 23:52:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: album-sender
+[2023-07-16 23:52:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qrlew-datasets
+[2023-07-16 23:52:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: AutoCarver
+[2023-07-16 23:52:08] INFO root fetch - processPackages [album-sender]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-16 23:52:08] INFO root fetch - processPackages [AutoCarver]: New version: [5.1.2] Old Version: [5.1.1]
+[2023-07-16 23:52:08] INFO root fetch - processPackages [qrlew-datasets]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-16 23:52:08] INFO root fetch - processPackages [qrlew-datasets]: Downloading https://files.pythonhosted.org/packages/e0/5b/2e904f288c00aa4d97ca8016c4c94e13a54f489fcb500871f11b2323e79f/qrlew_datasets-0.2.0.tar.gz
+[2023-07-16 23:52:08] INFO root fetch - processPackages [album-sender]: Downloading https://files.pythonhosted.org/packages/72/90/a5e804bd6c1ecf26050b552365080edb0ff4e57f9b474941d1b3e8c956f2/album_sender-0.0.8.tar.gz
+[2023-07-16 23:52:08] INFO root fetch - processPackages [AutoCarver]: Downloading https://files.pythonhosted.org/packages/2c/e2/d980bbbc2fca0aa3190495d5cf7bd99d696979ef216df9b0444df9df5dd1/AutoCarver-5.1.1.tar.gz
+[2023-07-16 23:52:08] INFO root fetch - processPackages [qrlew-datasets]: Downloading https://files.pythonhosted.org/packages/66/b9/14aeaaff8e1680c0a324412bd1e0ee828b135f17bb604f1aa6094f6d2e1c/qrlew_datasets-0.2.1.tar.gz
+[2023-07-16 23:52:08] INFO root fetch - processPackages [qrlew-datasets]: executing diffoscope
+[2023-07-16 23:52:08] INFO root fetch - processPackages [qrlew-datasets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qrlew_datasets-0.2.0.tar.gz tmp/qrlew_datasets-0.2.1.tar.gz --markdown 20230716/q/qrlew-datasets/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-16 23:52:08] INFO root fetch - processPackages [AutoCarver]: Downloading https://files.pythonhosted.org/packages/39/cc/2267ab188aa36c2e0a7c8c40fcc119ce9009e9c42d2331bee9c453d1d000/AutoCarver-5.1.2.tar.gz
+[2023-07-16 23:52:08] INFO root fetch - processPackages [album-sender]: Downloading https://files.pythonhosted.org/packages/a6/b0/b73dab7d1275705a49c4160beb9cf5cd8fb5aab7e889c7b606e81f425bac/album_sender-0.0.9.tar.gz
+[2023-07-16 23:52:08] INFO root fetch - processPackages [album-sender]: executing diffoscope
+[2023-07-16 23:52:08] INFO root fetch - processPackages [album-sender]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/album_sender-0.0.8.tar.gz tmp/album_sender-0.0.9.tar.gz --markdown 20230716/a/album-sender/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-16 23:52:08] INFO root fetch - processPackages [AutoCarver]: executing diffoscope
+[2023-07-16 23:52:08] INFO root fetch - processPackages [AutoCarver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AutoCarver-5.1.1.tar.gz tmp/AutoCarver-5.1.2.tar.gz --markdown 20230716/A/AutoCarver/5.1.1-5.1.2/diff.md --exclude *.pyd
+[2023-07-16 23:52:09] INFO root fetch - processPackages [album-sender]: Remove: archive file [/home/abi/fetcher/tmp/album_sender-0.0.8.tar.gz]
+[2023-07-16 23:52:09] INFO root fetch - processPackages [album-sender]: Remove: archive file [/home/abi/fetcher/tmp/album_sender-0.0.9.tar.gz]
+[2023-07-16 23:52:09] INFO root fetch - main [MainThread]: End processing [album-sender]: success
+[2023-07-16 23:52:09] INFO root fetch - processPackages [qrlew-datasets]: Remove: archive file [/home/abi/fetcher/tmp/qrlew_datasets-0.2.0.tar.gz]
+[2023-07-16 23:52:09] INFO root fetch - processPackages [qrlew-datasets]: Remove: archive file [/home/abi/fetcher/tmp/qrlew_datasets-0.2.1.tar.gz]
+[2023-07-16 23:52:09] INFO root fetch - main [MainThread]: End processing [qrlew-datasets]: success
+[2023-07-16 23:52:09] INFO root fetch - processPackages [AutoCarver]: Remove: archive file [/home/abi/fetcher/tmp/AutoCarver-5.1.1.tar.gz]
+[2023-07-16 23:52:09] INFO root fetch - processPackages [AutoCarver]: Remove: archive file [/home/abi/fetcher/tmp/AutoCarver-5.1.2.tar.gz]
+[2023-07-16 23:52:09] INFO root fetch - main [MainThread]: End processing [AutoCarver]: success
+[2023-07-16 23:52:09] INFO root fetch - main [MainThread]: Store serial: [18909652]
