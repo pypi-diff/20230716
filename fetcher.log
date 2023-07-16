@@ -4451,3 +4451,59 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-16 08:16:35] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.4.0.dev20230715.tar.gz]
 [2023-07-16 08:16:35] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
 [2023-07-16 08:16:35] INFO root fetch - main [MainThread]: Store serial: [18905196]
+[2023-07-16 08:21:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18905196]
+[2023-07-16 08:21:43] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-16 08:21:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ssh-terminal-manager
+[2023-07-16 08:21:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: deltalake-redis-lock
+[2023-07-16 08:21:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bookbot
+[2023-07-16 08:21:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bookbot
+[2023-07-16 08:21:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bookbot
+[2023-07-16 08:21:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mlrun
+[2023-07-16 08:21:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sgml2dict
+[2023-07-16 08:21:44] WARNING root fetch - processPackages [sgml2dict]: Skipping, unable to determine old version
+[2023-07-16 08:21:44] INFO root fetch - main [MainThread]: End processing [sgml2dict] error
+[2023-07-16 08:21:44] INFO root fetch - processPackages [deltalake-redis-lock]: New version: [0.0.1a4] Old Version: [0.0.1a3]
+[2023-07-16 08:21:44] INFO root fetch - processPackages [bookbot]: New version: [1.0.dev2] Old Version: [1.0.dev1]
+[2023-07-16 08:21:44] INFO root fetch - processPackages [ssh-terminal-manager]: New version: [0.7.0] Old Version: [0.6.0]
+[2023-07-16 08:21:44] INFO root fetch - processPackages [bookbot]: New version: [1.0.dev2] Old Version: [1.0.dev1]
+[2023-07-16 08:21:44] INFO root fetch - processPackages [mlrun]: New version: [1.4.0rc9] Old Version: [1.4.0rc8]
+[2023-07-16 08:21:44] INFO root fetch - processPackages [bookbot]: New version: [1.0.dev2] Old Version: [1.0.dev1]
+[2023-07-16 08:21:44] INFO root fetch - processPackages [deltalake-redis-lock]: Downloading https://files.pythonhosted.org/packages/e0/59/2d81fbb4954a0b62ad2ca2f68bb784f22206c946ace9aa8598bfc146f23f/deltalake-redis-lock-0.0.1a3.tar.gz
+[2023-07-16 08:21:44] INFO root fetch - processPackages [bookbot]: Downloading https://files.pythonhosted.org/packages/cc/8c/4f84dd9886970ccf901e790e3ae342f56ab23be32ecc2f66085db3566942/bookbot-1.0.dev1.tar.gz
+[2023-07-16 08:21:44] INFO root fetch - processPackages [ssh-terminal-manager]: Downloading https://files.pythonhosted.org/packages/5c/e6/f4f66a0b14c9a14a24f7fa0475d806d82cda4d94c4b902d8b364c0e7bd25/ssh_terminal_manager-0.6.0.tar.gz
+[2023-07-16 08:21:44] INFO root fetch - processPackages [bookbot]: Downloading https://files.pythonhosted.org/packages/cc/8c/4f84dd9886970ccf901e790e3ae342f56ab23be32ecc2f66085db3566942/bookbot-1.0.dev1.tar.gz
+[2023-07-16 08:21:44] INFO root fetch - processPackages [bookbot]: Downloading https://files.pythonhosted.org/packages/cc/8c/4f84dd9886970ccf901e790e3ae342f56ab23be32ecc2f66085db3566942/bookbot-1.0.dev1.tar.gz
+[2023-07-16 08:21:44] INFO root fetch - processPackages [mlrun]: Downloading https://files.pythonhosted.org/packages/53/ab/c4b6cba1b681d59d469058b913e88a639eebd1952ee11b561f5fd2dc06f6/mlrun-1.4.0rc8-py3-none-any.whl
+[2023-07-16 08:21:44] INFO root fetch - processPackages [deltalake-redis-lock]: Downloading https://files.pythonhosted.org/packages/5d/b9/a25329134ad2268d9fbf9ba303db17fd164157c3605c6b90957f48c2e22a/deltalake-redis-lock-0.0.1a4.tar.gz
+[2023-07-16 08:21:44] INFO root fetch - processPackages [bookbot]: Downloading https://files.pythonhosted.org/packages/22/60/389165025942e029064a27c7dd57b34aed8d906f215165b15b93c6bfa59b/bookbot-1.0.dev2.tar.gz
+[2023-07-16 08:21:44] INFO root fetch - processPackages [bookbot]: Downloading https://files.pythonhosted.org/packages/22/60/389165025942e029064a27c7dd57b34aed8d906f215165b15b93c6bfa59b/bookbot-1.0.dev2.tar.gz
+[2023-07-16 08:21:44] INFO root fetch - processPackages [bookbot]: Downloading https://files.pythonhosted.org/packages/22/60/389165025942e029064a27c7dd57b34aed8d906f215165b15b93c6bfa59b/bookbot-1.0.dev2.tar.gz
+[2023-07-16 08:21:44] INFO root fetch - processPackages [ssh-terminal-manager]: Downloading https://files.pythonhosted.org/packages/21/d4/c86e05b30e8aa3d07799731177a354fee67e413be480f96013cba06e1a48/ssh_terminal_manager-0.7.0.tar.gz
+[2023-07-16 08:21:44] INFO root fetch - processPackages [deltalake-redis-lock]: executing diffoscope
+[2023-07-16 08:21:44] INFO root fetch - processPackages [deltalake-redis-lock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deltalake-redis-lock-0.0.1a3.tar.gz tmp/deltalake-redis-lock-0.0.1a4.tar.gz --markdown 20230716/d/deltalake-redis-lock/0.0.1a3-0.0.1a4/diff.md --exclude *.pyd
+[2023-07-16 08:21:44] INFO root fetch - processPackages [bookbot]: executing diffoscope
+[2023-07-16 08:21:44] INFO root fetch - processPackages [bookbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bookbot-1.0.dev1.tar.gz tmp/bookbot-1.0.dev2.tar.gz --markdown 20230716/b/bookbot/1.0.dev1-1.0.dev2/diff.md --exclude *.pyd
+[2023-07-16 08:21:44] INFO root fetch - processPackages [bookbot]: executing diffoscope
+[2023-07-16 08:21:44] INFO root fetch - processPackages [bookbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bookbot-1.0.dev1.tar.gz tmp/bookbot-1.0.dev2.tar.gz --markdown 20230716/b/bookbot/1.0.dev1-1.0.dev2/diff.md --exclude *.pyd
+[2023-07-16 08:21:44] INFO root fetch - processPackages [bookbot]: executing diffoscope
+[2023-07-16 08:21:44] INFO root fetch - processPackages [bookbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bookbot-1.0.dev1.tar.gz tmp/bookbot-1.0.dev2.tar.gz --markdown 20230716/b/bookbot/1.0.dev1-1.0.dev2/diff.md --exclude *.pyd
+[2023-07-16 08:21:45] INFO root fetch - processPackages [ssh-terminal-manager]: executing diffoscope
+[2023-07-16 08:21:45] INFO root fetch - processPackages [ssh-terminal-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ssh_terminal_manager-0.6.0.tar.gz tmp/ssh_terminal_manager-0.7.0.tar.gz --markdown 20230716/s/ssh-terminal-manager/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2023-07-16 08:21:45] INFO root fetch - processPackages [mlrun]: Downloading https://files.pythonhosted.org/packages/eb/ad/9f5f871fcad9f8cb844bb52b41819c7f2f0813f9ea4390a2c38a5ed6f6b9/mlrun-1.4.0rc9-py3-none-any.whl
+[2023-07-16 08:21:45] INFO root fetch - processPackages [mlrun]: executing diffoscope
+[2023-07-16 08:21:45] INFO root fetch - processPackages [mlrun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlrun-1.4.0rc8-py3-none-any.whl.zip tmp/mlrun-1.4.0rc9-py3-none-any.whl.zip --markdown 20230716/m/mlrun/1.4.0rc8-1.4.0rc9/diff.md --exclude *.pyd
+[2023-07-16 08:21:46] INFO root fetch - processPackages [bookbot]: Remove: archive file [/home/abi/fetcher/tmp/bookbot-1.0.dev1.tar.gz]
+[2023-07-16 08:21:46] INFO root fetch - processPackages [bookbot]: Remove: archive file [/home/abi/fetcher/tmp/bookbot-1.0.dev2.tar.gz]
+[2023-07-16 08:21:46] INFO root fetch - main [MainThread]: End processing [bookbot]: success
+[2023-07-16 08:21:46] INFO root fetch - main [MainThread]: End processing [bookbot]: success
+[2023-07-16 08:21:46] INFO root fetch - processPackages [deltalake-redis-lock]: Remove: archive file [/home/abi/fetcher/tmp/deltalake-redis-lock-0.0.1a3.tar.gz]
+[2023-07-16 08:21:46] INFO root fetch - processPackages [deltalake-redis-lock]: Remove: archive file [/home/abi/fetcher/tmp/deltalake-redis-lock-0.0.1a4.tar.gz]
+[2023-07-16 08:21:46] INFO root fetch - main [MainThread]: End processing [deltalake-redis-lock]: success
+[2023-07-16 08:21:46] INFO root fetch - main [MainThread]: End processing [bookbot]: success
+[2023-07-16 08:21:46] INFO root fetch - processPackages [ssh-terminal-manager]: Remove: archive file [/home/abi/fetcher/tmp/ssh_terminal_manager-0.6.0.tar.gz]
+[2023-07-16 08:21:46] INFO root fetch - processPackages [ssh-terminal-manager]: Remove: archive file [/home/abi/fetcher/tmp/ssh_terminal_manager-0.7.0.tar.gz]
+[2023-07-16 08:21:46] INFO root fetch - main [MainThread]: End processing [ssh-terminal-manager]: success
+[2023-07-16 08:21:48] INFO root fetch - processPackages [mlrun]: Remove: archive file [/home/abi/fetcher/tmp/mlrun-1.4.0rc8-py3-none-any.whl.zip]
+[2023-07-16 08:21:48] INFO root fetch - processPackages [mlrun]: Remove: archive file [/home/abi/fetcher/tmp/mlrun-1.4.0rc9-py3-none-any.whl.zip]
+[2023-07-16 08:21:48] INFO root fetch - main [MainThread]: End processing [mlrun]: success
+[2023-07-16 08:21:48] INFO root fetch - main [MainThread]: Store serial: [18905219]
