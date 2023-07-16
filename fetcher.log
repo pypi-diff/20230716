@@ -13207,3 +13207,36 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-16 21:10:25] INFO root fetch - processPackages [roblox-pyc]: Remove: archive file [/home/abi/fetcher/tmp/roblox-pyc-1.6.6.5a0.tar.gz]
 [2023-07-16 21:10:25] INFO root fetch - main [MainThread]: End processing [roblox-pyc]: success
 [2023-07-16 21:10:25] INFO root fetch - main [MainThread]: Store serial: [18908827]
+[2023-07-16 21:15:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18908827]
+[2023-07-16 21:15:34] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-16 21:15:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rds-core
+[2023-07-16 21:15:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: carica-dynamodb-tools
+[2023-07-16 21:15:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ez-a-sync
+[2023-07-16 21:15:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: poetry-env-plugin
+[2023-07-16 21:15:34] INFO root fetch - processPackages [rds-core]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-16 21:15:34] INFO root fetch - processPackages [carica-dynamodb-tools]: New version: [1.6] Old Version: [1.5]
+[2023-07-16 21:15:34] INFO root fetch - processPackages [ez-a-sync]: New version: [0.6.2.dev8] Old Version: [0.6.2.dev6]
+[2023-07-16 21:15:34] WARNING root fetch - processPackages [poetry-env-plugin]: Skipping, unable to determine old version
+[2023-07-16 21:15:34] INFO root fetch - main [MainThread]: End processing [poetry-env-plugin] error
+[2023-07-16 21:15:34] INFO root fetch - processPackages [carica-dynamodb-tools]: Downloading https://files.pythonhosted.org/packages/ed/45/4b3ca990f1bb7ec090fc57696907f7dc88c0ffae34f9cacc85502f0f2d40/carica_dynamodb_tools-1.5.tar.gz
+[2023-07-16 21:15:34] INFO root fetch - processPackages [ez-a-sync]: Downloading https://files.pythonhosted.org/packages/02/3d/e3219bfab12f6b254737e721d1aedfea5b6f735d27b2d04de7d9b6e90076/ez-a-sync-0.6.2.dev6.tar.gz
+[2023-07-16 21:15:34] INFO root fetch - processPackages [rds-core]: Downloading https://files.pythonhosted.org/packages/66/07/58132860ebcacfbe31498ee6687f3d1be40ded7db888fc9d123672f85c72/rds-core-0.2.1.tar.gz
+[2023-07-16 21:15:34] INFO root fetch - processPackages [ez-a-sync]: Downloading https://files.pythonhosted.org/packages/68/87/94caff2cb3d90d65618c2332a1721cc76d6d5bcbd2f394b94e62354ab14d/ez-a-sync-0.6.2.dev8.tar.gz
+[2023-07-16 21:15:34] INFO root fetch - processPackages [carica-dynamodb-tools]: Downloading https://files.pythonhosted.org/packages/95/85/dbc2c371d34fda311362ae25a9288f0642dba323e4598090a81f072ac1df/carica_dynamodb_tools-1.6.tar.gz
+[2023-07-16 21:15:34] INFO root fetch - processPackages [rds-core]: Downloading https://files.pythonhosted.org/packages/bc/b8/38ea67f3259a69c3f0b7d44627cd3632e45f303558c3cc13548c1a8f5a64/rds-core-0.2.2.tar.gz
+[2023-07-16 21:15:34] INFO root fetch - processPackages [carica-dynamodb-tools]: executing diffoscope
+[2023-07-16 21:15:34] INFO root fetch - processPackages [carica-dynamodb-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/carica_dynamodb_tools-1.5.tar.gz tmp/carica_dynamodb_tools-1.6.tar.gz --markdown 20230716/c/carica-dynamodb-tools/1.5-1.6/diff.md --exclude *.pyd
+[2023-07-16 21:15:34] INFO root fetch - processPackages [ez-a-sync]: executing diffoscope
+[2023-07-16 21:15:34] INFO root fetch - processPackages [ez-a-sync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ez-a-sync-0.6.2.dev6.tar.gz tmp/ez-a-sync-0.6.2.dev8.tar.gz --markdown 20230716/e/ez-a-sync/0.6.2.dev6-0.6.2.dev8/diff.md --exclude *.pyd
+[2023-07-16 21:15:34] INFO root fetch - processPackages [rds-core]: executing diffoscope
+[2023-07-16 21:15:34] INFO root fetch - processPackages [rds-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rds-core-0.2.1.tar.gz tmp/rds-core-0.2.2.tar.gz --markdown 20230716/r/rds-core/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-16 21:15:35] INFO root fetch - processPackages [ez-a-sync]: Remove: archive file [/home/abi/fetcher/tmp/ez-a-sync-0.6.2.dev6.tar.gz]
+[2023-07-16 21:15:35] INFO root fetch - processPackages [ez-a-sync]: Remove: archive file [/home/abi/fetcher/tmp/ez-a-sync-0.6.2.dev8.tar.gz]
+[2023-07-16 21:15:35] INFO root fetch - main [MainThread]: End processing [ez-a-sync]: success
+[2023-07-16 21:15:35] INFO root fetch - processPackages [carica-dynamodb-tools]: Remove: archive file [/home/abi/fetcher/tmp/carica_dynamodb_tools-1.5.tar.gz]
+[2023-07-16 21:15:35] INFO root fetch - processPackages [carica-dynamodb-tools]: Remove: archive file [/home/abi/fetcher/tmp/carica_dynamodb_tools-1.6.tar.gz]
+[2023-07-16 21:15:35] INFO root fetch - main [MainThread]: End processing [carica-dynamodb-tools]: success
+[2023-07-16 21:15:35] INFO root fetch - processPackages [rds-core]: Remove: archive file [/home/abi/fetcher/tmp/rds-core-0.2.1.tar.gz]
+[2023-07-16 21:15:35] INFO root fetch - processPackages [rds-core]: Remove: archive file [/home/abi/fetcher/tmp/rds-core-0.2.2.tar.gz]
+[2023-07-16 21:15:35] INFO root fetch - main [MainThread]: End processing [rds-core]: success
+[2023-07-16 21:15:35] INFO root fetch - main [MainThread]: Store serial: [18908849]
