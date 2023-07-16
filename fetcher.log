@@ -5164,3 +5164,51 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-16 09:39:52] INFO root fetch - processPackages [pdfly]: Remove: archive file [/home/abi/fetcher/tmp/pdfly-0.2.9.tar.gz]
 [2023-07-16 09:39:52] INFO root fetch - main [MainThread]: End processing [pdfly]: success
 [2023-07-16 09:39:52] INFO root fetch - main [MainThread]: Store serial: [18905474]
+[2023-07-16 09:44:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18905474]
+[2023-07-16 09:45:01] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-16 09:45:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-url-tokenizer
+[2023-07-16 09:45:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: TPython
+[2023-07-16 09:45:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: iamlistening
+[2023-07-16 09:45:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vnpy-spreadtrading
+[2023-07-16 09:45:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dothttp-req-wasm
+[2023-07-16 09:45:01] INFO root fetch - processPackages [vnpy-spreadtrading]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-07-16 09:45:01] INFO root fetch - processPackages [TPython]: New version: [1.8.3] Old Version: [1.8.2]
+[2023-07-16 09:45:01] INFO root fetch - processPackages [django-url-tokenizer]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-16 09:45:01] INFO root fetch - processPackages [iamlistening]: New version: [1.1.0] Old Version: [1.0.1]
+[2023-07-16 09:45:01] INFO root fetch - processPackages [django-url-tokenizer]: Downloading https://files.pythonhosted.org/packages/58/fc/c297e12ea86d40bc35c3034412e468c38bef18667e6adfe0b24802b0e417/django-url-tokenizer-0.0.8.tar.gz
+[2023-07-16 09:45:01] INFO root fetch - processPackages [iamlistening]: Downloading https://files.pythonhosted.org/packages/aa/d6/b1d235b866d47a09411783786e84b9a171d03a49da8d6bab72d1e9972078/iamlistening-1.0.1.tar.gz
+[2023-07-16 09:45:01] INFO root fetch - processPackages [dothttp-req-wasm]: New version: [0.0.42a8] Old Version: [0.0.42a7]
+[2023-07-16 09:45:01] INFO root fetch - processPackages [TPython]: Downloading https://files.pythonhosted.org/packages/33/b8/254d5d5e5b869ce728a50f7e6e4bb322b39315b2dec8342cfc2769e8a03b/TPython-1.8.2-py2.py3-none-any.whl
+[2023-07-16 09:45:01] INFO root fetch - processPackages [vnpy-spreadtrading]: Downloading https://files.pythonhosted.org/packages/23/eb/d2d409895a62b9408fd6f2db2da49ceaf95f0344cd8a69a26f36624ff7bd/vnpy_spreadtrading-1.1.8.tar.gz
+[2023-07-16 09:45:02] INFO root fetch - processPackages [dothttp-req-wasm]: Downloading https://files.pythonhosted.org/packages/19/48/af357eb1af88c258fc08a31f7d33e1b054ae881a27ba2bb09982902fff6f/dothttp_req-wasm-0.0.42a7.tar.gz
+[2023-07-16 09:45:02] INFO root fetch - processPackages [django-url-tokenizer]: Downloading https://files.pythonhosted.org/packages/c5/13/df27d1141ec44b1c35f247440fc5cb506efe40a15cbed84328a82cab2d67/django-url-tokenizer-0.0.9.tar.gz
+[2023-07-16 09:45:02] INFO root fetch - processPackages [iamlistening]: Downloading https://files.pythonhosted.org/packages/ad/dd/85a6ef0636546cf1bc7172fe7d68b0436908a62be600e0ffa7667b62ed7c/iamlistening-1.1.0.tar.gz
+[2023-07-16 09:45:02] INFO root fetch - processPackages [vnpy-spreadtrading]: Downloading https://files.pythonhosted.org/packages/71/22/87f3188f73717400d6ecbc17f7538a679689c3cb5008d123a8ed9637f6e8/vnpy_spreadtrading-1.1.9.tar.gz
+[2023-07-16 09:45:02] INFO root fetch - processPackages [django-url-tokenizer]: executing diffoscope
+[2023-07-16 09:45:02] INFO root fetch - processPackages [django-url-tokenizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-url-tokenizer-0.0.8.tar.gz tmp/django-url-tokenizer-0.0.9.tar.gz --markdown 20230716/d/django-url-tokenizer/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-16 09:45:02] INFO root fetch - processPackages [TPython]: Downloading https://files.pythonhosted.org/packages/bc/47/fc1024c08cfaa1986527b34c321b6650faf1d2114bae95c22bd3e3ddbc50/TPython-1.8.3-py2.py3-none-any.whl
+[2023-07-16 09:45:02] INFO root fetch - processPackages [iamlistening]: executing diffoscope
+[2023-07-16 09:45:02] INFO root fetch - processPackages [iamlistening]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iamlistening-1.0.1.tar.gz tmp/iamlistening-1.1.0.tar.gz --markdown 20230716/i/iamlistening/1.0.1-1.1.0/diff.md --exclude *.pyd
+[2023-07-16 09:45:02] INFO root fetch - processPackages [dothttp-req-wasm]: Downloading https://files.pythonhosted.org/packages/38/ae/d152d93e33c3aedfb9c30208ac5dd2ce83bb6bcc86e37b456c643ade5719/dothttp_req-wasm-0.0.42a8.tar.gz
+[2023-07-16 09:45:02] INFO root fetch - processPackages [vnpy-spreadtrading]: executing diffoscope
+[2023-07-16 09:45:02] INFO root fetch - processPackages [vnpy-spreadtrading]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vnpy_spreadtrading-1.1.8.tar.gz tmp/vnpy_spreadtrading-1.1.9.tar.gz --markdown 20230716/v/vnpy-spreadtrading/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-07-16 09:45:02] INFO root fetch - processPackages [TPython]: executing diffoscope
+[2023-07-16 09:45:02] INFO root fetch - processPackages [TPython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TPython-1.8.2-py2.py3-none-any.whl.zip tmp/TPython-1.8.3-py2.py3-none-any.whl.zip --markdown 20230716/T/TPython/1.8.2-1.8.3/diff.md --exclude *.pyd
+[2023-07-16 09:45:02] INFO root fetch - processPackages [dothttp-req-wasm]: executing diffoscope
+[2023-07-16 09:45:02] INFO root fetch - processPackages [dothttp-req-wasm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dothttp_req-wasm-0.0.42a7.tar.gz tmp/dothttp_req-wasm-0.0.42a8.tar.gz --markdown 20230716/d/dothttp-req-wasm/0.0.42a7-0.0.42a8/diff.md --exclude *.pyd
+[2023-07-16 09:45:03] INFO root fetch - processPackages [django-url-tokenizer]: Remove: archive file [/home/abi/fetcher/tmp/django-url-tokenizer-0.0.8.tar.gz]
+[2023-07-16 09:45:03] INFO root fetch - processPackages [django-url-tokenizer]: Remove: archive file [/home/abi/fetcher/tmp/django-url-tokenizer-0.0.9.tar.gz]
+[2023-07-16 09:45:03] INFO root fetch - main [MainThread]: End processing [django-url-tokenizer]: success
+[2023-07-16 09:45:03] INFO root fetch - processPackages [iamlistening]: Remove: archive file [/home/abi/fetcher/tmp/iamlistening-1.0.1.tar.gz]
+[2023-07-16 09:45:03] INFO root fetch - processPackages [iamlistening]: Remove: archive file [/home/abi/fetcher/tmp/iamlistening-1.1.0.tar.gz]
+[2023-07-16 09:45:03] INFO root fetch - main [MainThread]: End processing [iamlistening]: success
+[2023-07-16 09:45:03] INFO root fetch - processPackages [TPython]: Remove: archive file [/home/abi/fetcher/tmp/TPython-1.8.2-py2.py3-none-any.whl.zip]
+[2023-07-16 09:45:03] INFO root fetch - processPackages [TPython]: Remove: archive file [/home/abi/fetcher/tmp/TPython-1.8.3-py2.py3-none-any.whl.zip]
+[2023-07-16 09:45:03] INFO root fetch - main [MainThread]: End processing [TPython]: success
+[2023-07-16 09:45:03] INFO root fetch - processPackages [vnpy-spreadtrading]: Remove: archive file [/home/abi/fetcher/tmp/vnpy_spreadtrading-1.1.8.tar.gz]
+[2023-07-16 09:45:03] INFO root fetch - processPackages [vnpy-spreadtrading]: Remove: archive file [/home/abi/fetcher/tmp/vnpy_spreadtrading-1.1.9.tar.gz]
+[2023-07-16 09:45:03] INFO root fetch - main [MainThread]: End processing [vnpy-spreadtrading]: success
+[2023-07-16 09:45:03] INFO root fetch - processPackages [dothttp-req-wasm]: Remove: archive file [/home/abi/fetcher/tmp/dothttp_req-wasm-0.0.42a7.tar.gz]
+[2023-07-16 09:45:03] INFO root fetch - processPackages [dothttp-req-wasm]: Remove: archive file [/home/abi/fetcher/tmp/dothttp_req-wasm-0.0.42a8.tar.gz]
+[2023-07-16 09:45:03] INFO root fetch - main [MainThread]: End processing [dothttp-req-wasm]: success
+[2023-07-16 09:45:03] INFO root fetch - main [MainThread]: Store serial: [18905491]
