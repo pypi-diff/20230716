@@ -13168,3 +13168,30 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-16 21:00:04] INFO root fetch - processPackages [forecastmanager]: Remove: archive file [/home/abi/fetcher/tmp/forecastmanager-0.1.1.tar.gz]
 [2023-07-16 21:00:04] INFO root fetch - main [MainThread]: End processing [forecastmanager]: success
 [2023-07-16 21:00:04] INFO root fetch - main [MainThread]: Store serial: [18908812]
+[2023-07-16 21:05:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18908812]
+[2023-07-16 21:05:13] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-16 21:05:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qalita
+[2023-07-16 21:05:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: litenai
+[2023-07-16 21:05:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: discminer
+[2023-07-16 21:05:13] INFO root fetch - processPackages [litenai]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-16 21:05:13] INFO root fetch - processPackages [qalita]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-07-16 21:05:13] INFO root fetch - processPackages [discminer]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-16 21:05:13] INFO root fetch - processPackages [qalita]: Downloading https://files.pythonhosted.org/packages/f7/78/67334c6c2b9a1110bfa3159c392079424dd9bc3f17ac8b1487c455984db5/qalita-1.0.5.tar.gz
+[2023-07-16 21:05:13] INFO root fetch - processPackages [litenai]: Downloading https://files.pythonhosted.org/packages/ee/0a/b493a7e866437371601a04923a7554b1a61624afdd9be69b6bf9d022f7ab/litenai-0.0.6.tar.gz
+[2023-07-16 21:05:13] INFO root fetch - processPackages [discminer]: Downloading https://files.pythonhosted.org/packages/08/c0/c01ceb9d46bb9939d426785c6c516af3ecc85ea2eaa96ef786ac90d375da/discminer-0.2.8.tar.gz
+[2023-07-16 21:05:13] INFO root fetch - processPackages [qalita]: Downloading https://files.pythonhosted.org/packages/a0/d6/77c61b493e4e93649d3cac66c992d32e59d6a87c6d078072a8740f62e5cf/qalita-1.0.6.tar.gz
+[2023-07-16 21:05:14] INFO root fetch - processPackages [qalita]: executing diffoscope
+[2023-07-16 21:05:14] INFO root fetch - processPackages [qalita]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qalita-1.0.5.tar.gz tmp/qalita-1.0.6.tar.gz --markdown 20230716/q/qalita/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-07-16 21:05:14] INFO root fetch - processPackages [litenai]: Downloading https://files.pythonhosted.org/packages/88/40/7db929e77473d947a03a4361d855637f09cf40b1b0a7db24c5945f480be6/litenai-0.0.7.tar.gz
+[2023-07-16 21:05:14] INFO root fetch - processPackages [discminer]: Downloading https://files.pythonhosted.org/packages/82/25/c05cbcbaea7b51dcc80bf33dbe97400f612e7521d9e0a7c767f170087a8c/discminer-0.2.9.tar.gz
+[2023-07-16 21:05:14] INFO root fetch - processPackages [litenai]: executing diffoscope
+[2023-07-16 21:05:14] INFO root fetch - processPackages [litenai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/litenai-0.0.6.tar.gz tmp/litenai-0.0.7.tar.gz --markdown 20230716/l/litenai/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-16 21:05:14] WARNING root fetch - processPackages [discminer]: Skipping package: exceeds size limit 11323881>=10485760
+[2023-07-16 21:05:14] INFO root fetch - main [MainThread]: End processing [discminer] error
+[2023-07-16 21:05:14] INFO root fetch - processPackages [qalita]: Remove: archive file [/home/abi/fetcher/tmp/qalita-1.0.5.tar.gz]
+[2023-07-16 21:05:14] INFO root fetch - processPackages [qalita]: Remove: archive file [/home/abi/fetcher/tmp/qalita-1.0.6.tar.gz]
+[2023-07-16 21:05:14] INFO root fetch - main [MainThread]: End processing [qalita]: success
+[2023-07-16 21:05:15] INFO root fetch - processPackages [litenai]: Remove: archive file [/home/abi/fetcher/tmp/litenai-0.0.6.tar.gz]
+[2023-07-16 21:05:15] INFO root fetch - processPackages [litenai]: Remove: archive file [/home/abi/fetcher/tmp/litenai-0.0.7.tar.gz]
+[2023-07-16 21:05:15] INFO root fetch - main [MainThread]: End processing [litenai]: success
+[2023-07-16 21:05:15] INFO root fetch - main [MainThread]: Store serial: [18908821]
