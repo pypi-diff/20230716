@@ -8107,3 +8107,72 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-16 14:05:39] INFO root fetch - processPackages [hemlock-survey]: Remove: archive file [/home/abi/fetcher/tmp/hemlock-survey-1.0.1.tar.gz]
 [2023-07-16 14:05:39] INFO root fetch - main [MainThread]: End processing [hemlock-survey]: success
 [2023-07-16 14:05:39] INFO root fetch - main [MainThread]: Store serial: [18906658]
+[2023-07-16 14:10:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18906658]
+[2023-07-16 14:10:48] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-16 14:10:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: python-injection
+[2023-07-16 14:10:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nutanix-api
+[2023-07-16 14:10:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: attune-project-api
+[2023-07-16 14:10:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bb-dirtree
+[2023-07-16 14:10:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dtn7zero
+[2023-07-16 14:10:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: encryption-utils
+[2023-07-16 14:10:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fsrs4anki-optimizer
+[2023-07-16 14:10:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: wiggler-studiorabota
+[2023-07-16 14:10:48] WARNING root fetch - processPackages [encryption-utils]: Skipping, unable to determine old version
+[2023-07-16 14:10:48] INFO root fetch - main [MainThread]: End processing [encryption-utils] error
+[2023-07-16 14:10:48] INFO root fetch - processPackages [python-injection]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-16 14:10:48] INFO root fetch - processPackages [nutanix-api]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-16 14:10:48] INFO root fetch - processPackages [dtn7zero]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-16 14:10:48] INFO root fetch - processPackages [bb-dirtree]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-07-16 14:10:48] INFO root fetch - processPackages [fsrs4anki-optimizer]: New version: [4.0.4] Old Version: [4.0.3]
+[2023-07-16 14:10:48] INFO root fetch - processPackages [wiggler-studiorabota]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-16 14:10:48] INFO root fetch - processPackages [attune-project-api]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-16 14:10:48] INFO root fetch - processPackages [python-injection]: Downloading https://files.pythonhosted.org/packages/11/48/3d3f20e4c4481758ff5b3dd1643d6c9ecd76210a56a5f62f76574f4f70ee/python_injection-0.2.1.tar.gz
+[2023-07-16 14:10:48] INFO root fetch - processPackages [bb-dirtree]: Downloading https://files.pythonhosted.org/packages/f2/7a/34ec343fabf572526c9a03c3cc9046429d2f14f897f10268abe28f1401e3/bb_dirtree-0.4.0.tar.gz
+[2023-07-16 14:10:48] INFO root fetch - processPackages [wiggler-studiorabota]: Downloading https://files.pythonhosted.org/packages/0d/86/d02e2203065f80a5af3e959e7e9db4e443dd80919a0ca9c31a84d751cbb1/wiggler_studiorabota-0.0.8.tar.gz
+[2023-07-16 14:10:48] INFO root fetch - processPackages [attune-project-api]: Downloading https://files.pythonhosted.org/packages/d7/f8/ced67fc9acf12de675f2d634457c7373e34106fd88baa6288503685dd4d6/attune-project-api-0.9.8.tar.gz
+[2023-07-16 14:10:48] INFO root fetch - processPackages [dtn7zero]: Downloading https://files.pythonhosted.org/packages/ab/0b/8e65dc39064582900b4daaf51a236b39231019d2ab42ab2cd24281ad02b6/dtn7zero-0.0.7.tar.gz
+[2023-07-16 14:10:48] INFO root fetch - processPackages [nutanix-api]: Downloading https://files.pythonhosted.org/packages/85/84/4ffd2aa319d6616c65dc08807077eee9c39868ed9c74187fd59caa8ed8cf/nutanix-api-0.0.8.tar.gz
+[2023-07-16 14:10:48] INFO root fetch - processPackages [fsrs4anki-optimizer]: Downloading https://files.pythonhosted.org/packages/94/cd/0622854ed0e67dc93895cec2b5c241191dd09e975b70fcd51170a38279a5/fsrs4anki_optimizer-4.0.3.tar.gz
+[2023-07-16 14:10:49] INFO root fetch - processPackages [wiggler-studiorabota]: Downloading https://files.pythonhosted.org/packages/48/ca/d088276f8dab32bed8eb0a430fee09ee102c277df96d2e8dafe437289ac8/wiggler_studiorabota-0.0.9.tar.gz
+[2023-07-16 14:10:49] INFO root fetch - processPackages [attune-project-api]: Downloading https://files.pythonhosted.org/packages/c7/16/d44eb9ceaa1f24e93d7e0ef5a7cc8f16ca2354efe09e1f3d05025fa94147/attune-project-api-0.9.9.tar.gz
+[2023-07-16 14:10:49] INFO root fetch - processPackages [bb-dirtree]: Downloading https://files.pythonhosted.org/packages/4c/b6/b80a268446f341eda6f7d4f842a3fba977dc028c34547d4ace2ba6f95478/bb_dirtree-0.4.1.tar.gz
+[2023-07-16 14:10:49] INFO root fetch - processPackages [python-injection]: Downloading https://files.pythonhosted.org/packages/51/5f/3fda8ff6fe2cd7319c66b60f183ec0652a7faa967d9bb63592b2e13cd339/python_injection-0.2.2.tar.gz
+[2023-07-16 14:10:49] INFO root fetch - processPackages [fsrs4anki-optimizer]: Downloading https://files.pythonhosted.org/packages/ca/0e/4fde403eab1d44d4c7a2d7da8b272ab2d10cbe5080fa9c2ccc666db24de0/fsrs4anki_optimizer-4.0.4.tar.gz
+[2023-07-16 14:10:49] INFO root fetch - processPackages [attune-project-api]: executing diffoscope
+[2023-07-16 14:10:49] INFO root fetch - processPackages [attune-project-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/attune-project-api-0.9.8.tar.gz tmp/attune-project-api-0.9.9.tar.gz --markdown 20230716/a/attune-project-api/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-16 14:10:49] INFO root fetch - processPackages [wiggler-studiorabota]: executing diffoscope
+[2023-07-16 14:10:49] INFO root fetch - processPackages [wiggler-studiorabota]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wiggler_studiorabota-0.0.8.tar.gz tmp/wiggler_studiorabota-0.0.9.tar.gz --markdown 20230716/w/wiggler-studiorabota/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-16 14:10:49] INFO root fetch - processPackages [python-injection]: executing diffoscope
+[2023-07-16 14:10:49] INFO root fetch - processPackages [python-injection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_injection-0.2.1.tar.gz tmp/python_injection-0.2.2.tar.gz --markdown 20230716/p/python-injection/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-16 14:10:49] INFO root fetch - processPackages [dtn7zero]: Downloading https://files.pythonhosted.org/packages/91/0c/17d4669b92c48f7f2523402a268f422ad2bb4161d3b1d0b8cba7f28ed0cf/dtn7zero-0.0.8.tar.gz
+[2023-07-16 14:10:49] INFO root fetch - processPackages [nutanix-api]: Downloading https://files.pythonhosted.org/packages/38/33/549974652dce6b561691eea98a5f999cc5595d29509b257f0df29e46451a/nutanix-api-0.0.9.tar.gz
+[2023-07-16 14:10:49] INFO root fetch - processPackages [bb-dirtree]: executing diffoscope
+[2023-07-16 14:10:49] INFO root fetch - processPackages [bb-dirtree]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bb_dirtree-0.4.0.tar.gz tmp/bb_dirtree-0.4.1.tar.gz --markdown 20230716/b/bb-dirtree/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-07-16 14:10:49] INFO root fetch - processPackages [fsrs4anki-optimizer]: executing diffoscope
+[2023-07-16 14:10:49] INFO root fetch - processPackages [fsrs4anki-optimizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fsrs4anki_optimizer-4.0.3.tar.gz tmp/fsrs4anki_optimizer-4.0.4.tar.gz --markdown 20230716/f/fsrs4anki-optimizer/4.0.3-4.0.4/diff.md --exclude *.pyd
+[2023-07-16 14:10:49] INFO root fetch - processPackages [dtn7zero]: executing diffoscope
+[2023-07-16 14:10:49] INFO root fetch - processPackages [dtn7zero]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dtn7zero-0.0.7.tar.gz tmp/dtn7zero-0.0.8.tar.gz --markdown 20230716/d/dtn7zero/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-16 14:10:49] INFO root fetch - processPackages [nutanix-api]: executing diffoscope
+[2023-07-16 14:10:49] INFO root fetch - processPackages [nutanix-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nutanix-api-0.0.8.tar.gz tmp/nutanix-api-0.0.9.tar.gz --markdown 20230716/n/nutanix-api/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-16 14:10:50] INFO root fetch - processPackages [python-injection]: Remove: archive file [/home/abi/fetcher/tmp/python_injection-0.2.1.tar.gz]
+[2023-07-16 14:10:50] INFO root fetch - processPackages [python-injection]: Remove: archive file [/home/abi/fetcher/tmp/python_injection-0.2.2.tar.gz]
+[2023-07-16 14:10:50] INFO root fetch - main [MainThread]: End processing [python-injection]: success
+[2023-07-16 14:10:50] INFO root fetch - processPackages [wiggler-studiorabota]: Remove: archive file [/home/abi/fetcher/tmp/wiggler_studiorabota-0.0.8.tar.gz]
+[2023-07-16 14:10:50] INFO root fetch - processPackages [wiggler-studiorabota]: Remove: archive file [/home/abi/fetcher/tmp/wiggler_studiorabota-0.0.9.tar.gz]
+[2023-07-16 14:10:50] INFO root fetch - main [MainThread]: End processing [wiggler-studiorabota]: success
+[2023-07-16 14:10:50] INFO root fetch - processPackages [bb-dirtree]: Remove: archive file [/home/abi/fetcher/tmp/bb_dirtree-0.4.0.tar.gz]
+[2023-07-16 14:10:50] INFO root fetch - processPackages [bb-dirtree]: Remove: archive file [/home/abi/fetcher/tmp/bb_dirtree-0.4.1.tar.gz]
+[2023-07-16 14:10:50] INFO root fetch - main [MainThread]: End processing [bb-dirtree]: success
+[2023-07-16 14:10:50] INFO root fetch - processPackages [fsrs4anki-optimizer]: Remove: archive file [/home/abi/fetcher/tmp/fsrs4anki_optimizer-4.0.3.tar.gz]
+[2023-07-16 14:10:50] INFO root fetch - processPackages [fsrs4anki-optimizer]: Remove: archive file [/home/abi/fetcher/tmp/fsrs4anki_optimizer-4.0.4.tar.gz]
+[2023-07-16 14:10:50] INFO root fetch - main [MainThread]: End processing [fsrs4anki-optimizer]: success
+[2023-07-16 14:10:50] INFO root fetch - processPackages [attune-project-api]: Remove: archive file [/home/abi/fetcher/tmp/attune-project-api-0.9.8.tar.gz]
+[2023-07-16 14:10:50] INFO root fetch - processPackages [attune-project-api]: Remove: archive file [/home/abi/fetcher/tmp/attune-project-api-0.9.9.tar.gz]
+[2023-07-16 14:10:50] INFO root fetch - main [MainThread]: End processing [attune-project-api]: success
+[2023-07-16 14:10:50] INFO root fetch - processPackages [nutanix-api]: Remove: archive file [/home/abi/fetcher/tmp/nutanix-api-0.0.8.tar.gz]
+[2023-07-16 14:10:50] INFO root fetch - processPackages [nutanix-api]: Remove: archive file [/home/abi/fetcher/tmp/nutanix-api-0.0.9.tar.gz]
+[2023-07-16 14:10:50] INFO root fetch - main [MainThread]: End processing [nutanix-api]: success
+[2023-07-16 14:10:50] INFO root fetch - processPackages [dtn7zero]: Remove: archive file [/home/abi/fetcher/tmp/dtn7zero-0.0.7.tar.gz]
+[2023-07-16 14:10:50] INFO root fetch - processPackages [dtn7zero]: Remove: archive file [/home/abi/fetcher/tmp/dtn7zero-0.0.8.tar.gz]
+[2023-07-16 14:10:50] INFO root fetch - main [MainThread]: End processing [dtn7zero]: success
+[2023-07-16 14:10:50] INFO root fetch - main [MainThread]: Store serial: [18906700]
