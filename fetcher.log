@@ -13762,3 +13762,60 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-16 22:02:16] INFO root fetch - processPackages [entelecheia]: Remove: archive file [/home/abi/fetcher/tmp/entelecheia-0.2.7.tar.gz]
 [2023-07-16 22:02:16] INFO root fetch - main [MainThread]: End processing [entelecheia]: success
 [2023-07-16 22:02:16] INFO root fetch - main [MainThread]: Store serial: [18909069]
+[2023-07-16 22:07:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18909069]
+[2023-07-16 22:07:24] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-16 22:07:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fa-models
+[2023-07-16 22:07:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nillip
+[2023-07-16 22:07:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: MLXpress
+[2023-07-16 22:07:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: quadkey-boosted
+[2023-07-16 22:07:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: simple2encrypt
+[2023-07-16 22:07:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: AlgoVision-Quant-Research
+[2023-07-16 22:07:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdxbasics
+[2023-07-16 22:07:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: capeditor
+[2023-07-16 22:07:25] WARNING root fetch - processPackages [AlgoVision-Quant-Research]: Skipping, unable to determine old version
+[2023-07-16 22:07:25] INFO root fetch - main [MainThread]: End processing [AlgoVision-Quant-Research] error
+[2023-07-16 22:07:25] INFO root fetch - processPackages [MLXpress]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-16 22:07:25] INFO root fetch - processPackages [nillip]: New version: [1.36] Old Version: [1.31]
+[2023-07-16 22:07:25] INFO root fetch - processPackages [fa-models]: New version: [1.0.78] Old Version: [1.0.77]
+[2023-07-16 22:07:25] WARNING root fetch - processPackages [quadkey-boosted]: Skipping, unable to determine old version
+[2023-07-16 22:07:25] INFO root fetch - main [MainThread]: End processing [quadkey-boosted] error
+[2023-07-16 22:07:25] WARNING root fetch - processPackages [simple2encrypt]: Skipping, unable to determine old version
+[2023-07-16 22:07:25] INFO root fetch - main [MainThread]: End processing [simple2encrypt] error
+[2023-07-16 22:07:25] INFO root fetch - processPackages [cdxbasics]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-16 22:07:25] INFO root fetch - processPackages [nillip]: Downloading https://files.pythonhosted.org/packages/5f/20/fa2d35beeedd58332af537546d506744509a9c4239fb17ef0c71de77556c/nillip-1.31.tar.gz
+[2023-07-16 22:07:25] INFO root fetch - processPackages [capeditor]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-16 22:07:25] INFO root fetch - processPackages [MLXpress]: Downloading https://files.pythonhosted.org/packages/c7/82/08cd33451ac638c674c7bb0a3804869644271fdc961a5b5a3ab3e02b94ae/MLXpress-0.1.2-py3-none-any.whl
+[2023-07-16 22:07:25] INFO root fetch - processPackages [cdxbasics]: Downloading https://files.pythonhosted.org/packages/44/bf/adf4351223f4cd638d1bb79229170666b0915f3adf1e0e9189ee6769224f/cdxbasics-0.2.8.tar.gz
+[2023-07-16 22:07:25] INFO root fetch - processPackages [fa-models]: Downloading https://files.pythonhosted.org/packages/6c/b5/b4349b42bedd383823c988c2cd8887e5247a750a43839896705b7aedb968/fa-models-1.0.77.tar.gz
+[2023-07-16 22:07:25] INFO root fetch - processPackages [capeditor]: Downloading https://files.pythonhosted.org/packages/7c/a3/294b7fe06e3254819b97982884a695dbf9f03691dbdbe35347f3cd8fe4e3/capeditor-0.2.8.tar.gz
+[2023-07-16 22:07:25] INFO root fetch - processPackages [cdxbasics]: Downloading https://files.pythonhosted.org/packages/70/b4/020ddadf0e041dbe964c3ee126f0ced6d699d6a5c6d0e256f1e532782902/cdxbasics-0.2.9.tar.gz
+[2023-07-16 22:07:25] INFO root fetch - processPackages [nillip]: Downloading https://files.pythonhosted.org/packages/1e/97/c8aa672990d5db7e9ed8a485d9d2e3fd64db3af5c92e89042d7edd0a5a2b/nillip-1.36.tar.gz
+[2023-07-16 22:07:25] INFO root fetch - processPackages [MLXpress]: Downloading https://files.pythonhosted.org/packages/9d/08/95bb0115286c27cf56342bbab91d22ba5e1f2fc3dcdfa2c24b7cea051348/MLXpress-0.1.3-py3-none-any.whl
+[2023-07-16 22:07:25] INFO root fetch - processPackages [fa-models]: Downloading https://files.pythonhosted.org/packages/45/4e/3597c8f3c6f8b316875446c9460cf0e066a63d8c3ff02e1589a47703d72c/fa-models-1.0.78.tar.gz
+[2023-07-16 22:07:25] INFO root fetch - processPackages [cdxbasics]: executing diffoscope
+[2023-07-16 22:07:25] INFO root fetch - processPackages [cdxbasics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdxbasics-0.2.8.tar.gz tmp/cdxbasics-0.2.9.tar.gz --markdown 20230716/c/cdxbasics/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-16 22:07:25] INFO root fetch - processPackages [nillip]: executing diffoscope
+[2023-07-16 22:07:25] INFO root fetch - processPackages [nillip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nillip-1.31.tar.gz tmp/nillip-1.36.tar.gz --markdown 20230716/n/nillip/1.31-1.36/diff.md --exclude *.pyd
+[2023-07-16 22:07:26] INFO root fetch - processPackages [MLXpress]: executing diffoscope
+[2023-07-16 22:07:26] INFO root fetch - processPackages [MLXpress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MLXpress-0.1.2-py3-none-any.whl.zip tmp/MLXpress-0.1.3-py3-none-any.whl.zip --markdown 20230716/M/MLXpress/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-16 22:07:26] INFO root fetch - processPackages [capeditor]: Downloading https://files.pythonhosted.org/packages/7a/2b/1ab0eeead79287b160a50b922aa8a2ae8a7adacfe356fea71d529c9a566c/capeditor-0.2.9.tar.gz
+[2023-07-16 22:07:26] INFO root fetch - processPackages [fa-models]: executing diffoscope
+[2023-07-16 22:07:26] INFO root fetch - processPackages [fa-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fa-models-1.0.77.tar.gz tmp/fa-models-1.0.78.tar.gz --markdown 20230716/f/fa-models/1.0.77-1.0.78/diff.md --exclude *.pyd
+[2023-07-16 22:07:26] INFO root fetch - processPackages [capeditor]: executing diffoscope
+[2023-07-16 22:07:26] INFO root fetch - processPackages [capeditor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/capeditor-0.2.8.tar.gz tmp/capeditor-0.2.9.tar.gz --markdown 20230716/c/capeditor/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-16 22:07:26] INFO root fetch - processPackages [nillip]: Remove: archive file [/home/abi/fetcher/tmp/nillip-1.31.tar.gz]
+[2023-07-16 22:07:26] INFO root fetch - processPackages [nillip]: Remove: archive file [/home/abi/fetcher/tmp/nillip-1.36.tar.gz]
+[2023-07-16 22:07:26] INFO root fetch - main [MainThread]: End processing [nillip]: success
+[2023-07-16 22:07:26] INFO root fetch - processPackages [cdxbasics]: Remove: archive file [/home/abi/fetcher/tmp/cdxbasics-0.2.8.tar.gz]
+[2023-07-16 22:07:26] INFO root fetch - processPackages [cdxbasics]: Remove: archive file [/home/abi/fetcher/tmp/cdxbasics-0.2.9.tar.gz]
+[2023-07-16 22:07:26] INFO root fetch - main [MainThread]: End processing [cdxbasics]: success
+[2023-07-16 22:07:27] INFO root fetch - processPackages [MLXpress]: Remove: archive file [/home/abi/fetcher/tmp/MLXpress-0.1.2-py3-none-any.whl.zip]
+[2023-07-16 22:07:27] INFO root fetch - processPackages [MLXpress]: Remove: archive file [/home/abi/fetcher/tmp/MLXpress-0.1.3-py3-none-any.whl.zip]
+[2023-07-16 22:07:27] INFO root fetch - main [MainThread]: End processing [MLXpress]: success
+[2023-07-16 22:07:27] INFO root fetch - processPackages [fa-models]: Remove: archive file [/home/abi/fetcher/tmp/fa-models-1.0.77.tar.gz]
+[2023-07-16 22:07:27] INFO root fetch - processPackages [fa-models]: Remove: archive file [/home/abi/fetcher/tmp/fa-models-1.0.78.tar.gz]
+[2023-07-16 22:07:27] INFO root fetch - main [MainThread]: End processing [fa-models]: success
+[2023-07-16 22:07:27] INFO root fetch - processPackages [capeditor]: Remove: archive file [/home/abi/fetcher/tmp/capeditor-0.2.8.tar.gz]
+[2023-07-16 22:07:27] INFO root fetch - processPackages [capeditor]: Remove: archive file [/home/abi/fetcher/tmp/capeditor-0.2.9.tar.gz]
+[2023-07-16 22:07:27] INFO root fetch - main [MainThread]: End processing [capeditor]: success
+[2023-07-16 22:07:27] INFO root fetch - main [MainThread]: Store serial: [18909103]
