@@ -2258,3 +2258,149 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-16 03:38:56] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.2.99.tar.gz]
 [2023-07-16 03:38:56] INFO root fetch - main [MainThread]: End processing [cdk-sops-secrets]: success
 [2023-07-16 03:38:56] INFO root fetch - main [MainThread]: Store serial: [18904258]
+[2023-07-16 03:44:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18904258]
+[2023-07-16 03:44:05] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-07-16 03:44:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sweetrpg-model-core
+[2023-07-16 03:44:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nbdev-pandas
+[2023-07-16 03:44:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PySolidState
+[2023-07-16 03:44:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nbdev-pytorch
+[2023-07-16 03:44:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nonebot-plugin-gocqhttp
+[2023-07-16 03:44:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sweetrpg-web-core
+[2023-07-16 03:44:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ast-grep-cli
+[2023-07-16 03:44:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sweetrpg-catalog-objects
+[2023-07-16 03:44:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fiftyone-location
+[2023-07-16 03:44:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sweetrpg-api-core
+[2023-07-16 03:44:05] INFO root fetch - processPackages [sweetrpg-catalog-objects]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-16 03:44:05] INFO root fetch - processPackages [sweetrpg-model-core]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-16 03:44:05] INFO root fetch - processPackages [nbdev-pytorch]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-16 03:44:05] INFO root fetch - processPackages [nonebot-plugin-gocqhttp]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-07-16 03:44:05] INFO root fetch - processPackages [PySolidState]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-16 03:44:05] INFO root fetch - processPackages [sweetrpg-api-core]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-16 03:44:05] INFO root fetch - processPackages [ast-grep-cli]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-16 03:44:05] INFO root fetch - processPackages [fiftyone-location]: New version: [4.4.5.0] Old Version: [4.4.4.0]
+[2023-07-16 03:44:05] INFO root fetch - processPackages [nbdev-pandas]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-16 03:44:05] INFO root fetch - processPackages [sweetrpg-web-core]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-16 03:44:05] INFO root fetch - processPackages [sweetrpg-catalog-objects]: Downloading https://files.pythonhosted.org/packages/b2/9d/335df59defca47c3e1eef71f66e6cc55b871c883a810bd40090af4142d9c/sweetrpg-catalog-objects-0.0.2.tar.gz
+[2023-07-16 03:44:05] INFO root fetch - processPackages [PySolidState]: Downloading https://files.pythonhosted.org/packages/d8/6a/13c8223641c1ab36fb5c6fba508bf992eb2e62796f8065dee2eccd8bc9a7/PySolidState-0.0.4.tar.gz
+[2023-07-16 03:44:05] INFO root fetch - processPackages [sweetrpg-api-core]: Downloading https://files.pythonhosted.org/packages/5d/9d/2398efc534be1a806373637db31588bc65727faee8d3d4ad1e210310552e/sweetrpg-api-core-0.0.98.tar.gz
+[2023-07-16 03:44:06] INFO root fetch - processPackages [sweetrpg-model-core]: Downloading https://files.pythonhosted.org/packages/2b/a9/f6d12795fc3f52981f5476c74fd485c2b56fe1911b278640171d94d92bc1/sweetrpg-model-core-0.0.98.tar.gz
+[2023-07-16 03:44:06] INFO root fetch - processPackages [ast-grep-cli]: Downloading https://files.pythonhosted.org/packages/48/16/181289165ee8da49e3eaddd0f00d0467fc7a45d78a99b2d8eaef90457e06/ast_grep_cli-0.8.0.tar.gz
+[2023-07-16 03:44:06] INFO root fetch - processPackages [nbdev-pytorch]: Downloading https://files.pythonhosted.org/packages/f8/45/4613a0137d296a1960d76ded45b0af15a8fd578bf48df103c50675b49136/nbdev-pytorch-0.0.98.tar.gz
+[2023-07-16 03:44:06] INFO root fetch - processPackages [sweetrpg-web-core]: Downloading https://files.pythonhosted.org/packages/10/78/7e4ec24c92190fa564c9ba8a1797ccda0c7472064d109da37e0d283f94d2/sweetrpg-web-core-0.0.98.tar.gz
+[2023-07-16 03:44:06] INFO root fetch - processPackages [nbdev-pandas]: Downloading https://files.pythonhosted.org/packages/e4/e4/cd3df65f7d13a8e8dfa1592e08d78574793d38384b1c92993ce920dcd0df/nbdev-pandas-0.0.98.tar.gz
+[2023-07-16 03:44:06] INFO root fetch - processPackages [nonebot-plugin-gocqhttp]: Downloading https://files.pythonhosted.org/packages/07/43/ef3b60c4bdbdfe5e656bdb7f43516619bc45db3d055d8bff9eda82bbf292/nonebot_plugin_gocqhttp-0.6.8.tar.gz
+[2023-07-16 03:44:06] INFO root fetch - processPackages [fiftyone-location]: Downloading https://files.pythonhosted.org/packages/b7/61/68c4a44ab43ae974e5f4c8686d66699bc65e98ec0c7dccc125415149ddc3/fiftyone_location-4.4.4.0.tar.gz
+[2023-07-16 03:44:06] INFO root fetch - processPackages [PySolidState]: Downloading https://files.pythonhosted.org/packages/47/72/65cfefd659abf64b46d69886fa1d36610778084068976760c6bebefea248/PySolidState-0.0.5.tar.gz
+[2023-07-16 03:44:06] INFO root fetch - processPackages [sweetrpg-catalog-objects]: Downloading https://files.pythonhosted.org/packages/a1/a6/5d8eea97d0de8641d2596b40fb424d13945e30631b26bae058692d19a69f/sweetrpg-catalog-objects-0.0.3.tar.gz
+[2023-07-16 03:44:06] INFO root fetch - processPackages [nbdev-pytorch]: Downloading https://files.pythonhosted.org/packages/b0/37/5921f26bef4d07ebb5599f7ccb4d57ab1a847950edaa615ebcf9ef228690/nbdev-pytorch-0.0.99.tar.gz
+[2023-07-16 03:44:06] INFO root fetch - processPackages [nbdev-pandas]: Downloading https://files.pythonhosted.org/packages/cf/b5/493c8e89c5cb4fcc7db248f99868f931ca6389f6e411e63c97bb22c6f1b0/nbdev-pandas-0.0.99.tar.gz
+[2023-07-16 03:44:06] INFO root fetch - processPackages [sweetrpg-api-core]: Downloading https://files.pythonhosted.org/packages/bf/6c/3cd8f95074a8f63967790523ccf02ffe9aef45c9c675b0a443c0371e8e04/sweetrpg-api-core-0.0.99.tar.gz
+[2023-07-16 03:44:06] INFO root fetch - processPackages [ast-grep-cli]: Downloading https://files.pythonhosted.org/packages/95/5e/217925d9a643a41a9daed8caa2610e96139bbeeb0ecfd3bb6d410701ef82/ast_grep_cli-0.9.0.tar.gz
+[2023-07-16 03:44:06] INFO root fetch - processPackages [PySolidState]: executing diffoscope
+[2023-07-16 03:44:06] INFO root fetch - processPackages [PySolidState]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PySolidState-0.0.4.tar.gz tmp/PySolidState-0.0.5.tar.gz --markdown 20230716/P/PySolidState/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-16 03:44:06] INFO root fetch - processPackages [sweetrpg-model-core]: Downloading https://files.pythonhosted.org/packages/45/2f/72ea3ec101547d659b6522d0efd329d98807f3f70bd531b7c55e48836946/sweetrpg-model-core-0.0.99.tar.gz
+[2023-07-16 03:44:06] INFO root fetch - processPackages [sweetrpg-catalog-objects]: executing diffoscope
+[2023-07-16 03:44:06] INFO root fetch - processPackages [sweetrpg-catalog-objects]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sweetrpg-catalog-objects-0.0.2.tar.gz tmp/sweetrpg-catalog-objects-0.0.3.tar.gz --markdown 20230716/s/sweetrpg-catalog-objects/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-16 03:44:06] INFO root fetch - processPackages [nbdev-pytorch]: executing diffoscope
+[2023-07-16 03:44:06] INFO root fetch - processPackages [nbdev-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pytorch-0.0.98.tar.gz tmp/nbdev-pytorch-0.0.99.tar.gz --markdown 20230716/n/nbdev-pytorch/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-16 03:44:06] INFO root fetch - processPackages [fiftyone-location]: Downloading https://files.pythonhosted.org/packages/89/24/4b3d4b8e0e81a9efd97d9ff62549f7fc6590759bdb3b6afd159cee1fbf6a/fiftyone_location-4.4.5.0.tar.gz
+[2023-07-16 03:44:06] INFO root fetch - processPackages [nbdev-pandas]: executing diffoscope
+[2023-07-16 03:44:06] INFO root fetch - processPackages [nbdev-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pandas-0.0.98.tar.gz tmp/nbdev-pandas-0.0.99.tar.gz --markdown 20230716/n/nbdev-pandas/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-16 03:44:06] INFO root fetch - processPackages [ast-grep-cli]: executing diffoscope
+[2023-07-16 03:44:06] INFO root fetch - processPackages [ast-grep-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ast_grep_cli-0.8.0.tar.gz tmp/ast_grep_cli-0.9.0.tar.gz --markdown 20230716/a/ast-grep-cli/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-16 03:44:06] INFO root fetch - processPackages [fiftyone-location]: executing diffoscope
+[2023-07-16 03:44:06] INFO root fetch - processPackages [fiftyone-location]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fiftyone_location-4.4.4.0.tar.gz tmp/fiftyone_location-4.4.5.0.tar.gz --markdown 20230716/f/fiftyone-location/4.4.4.0-4.4.5.0/diff.md --exclude *.pyd
+[2023-07-16 03:44:06] INFO root fetch - processPackages [sweetrpg-api-core]: executing diffoscope
+[2023-07-16 03:44:06] INFO root fetch - processPackages [sweetrpg-api-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sweetrpg-api-core-0.0.98.tar.gz tmp/sweetrpg-api-core-0.0.99.tar.gz --markdown 20230716/s/sweetrpg-api-core/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-16 03:44:06] INFO root fetch - processPackages [sweetrpg-model-core]: executing diffoscope
+[2023-07-16 03:44:06] INFO root fetch - processPackages [sweetrpg-model-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sweetrpg-model-core-0.0.98.tar.gz tmp/sweetrpg-model-core-0.0.99.tar.gz --markdown 20230716/s/sweetrpg-model-core/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-16 03:44:06] INFO root fetch - processPackages [sweetrpg-web-core]: Downloading https://files.pythonhosted.org/packages/bd/15/72a761101e501277066578a42896229ae4a254ecf7602e2e15f38b35310d/sweetrpg-web-core-0.0.99.tar.gz
+[2023-07-16 03:44:07] INFO root fetch - processPackages [sweetrpg-web-core]: executing diffoscope
+[2023-07-16 03:44:07] INFO root fetch - processPackages [sweetrpg-web-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sweetrpg-web-core-0.0.98.tar.gz tmp/sweetrpg-web-core-0.0.99.tar.gz --markdown 20230716/s/sweetrpg-web-core/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-16 03:44:07] INFO root fetch - processPackages [nonebot-plugin-gocqhttp]: Downloading https://files.pythonhosted.org/packages/15/ca/08e6941bad80f3c2f6bdefd3c0c6712bf079e14a7ca053b8c84c57012a0f/nonebot_plugin_gocqhttp-0.6.9.tar.gz
+[2023-07-16 03:44:08] INFO root fetch - processPackages [PySolidState]: Remove: archive file [/home/abi/fetcher/tmp/PySolidState-0.0.4.tar.gz]
+[2023-07-16 03:44:08] INFO root fetch - processPackages [PySolidState]: Remove: archive file [/home/abi/fetcher/tmp/PySolidState-0.0.5.tar.gz]
+[2023-07-16 03:44:08] INFO root fetch - processPackages [PySolidState]: Start processing: sweetrpg-library-objects
+[2023-07-16 03:44:08] INFO root fetch - main [MainThread]: End processing [PySolidState]: success
+[2023-07-16 03:44:08] INFO root fetch - processPackages [sweetrpg-library-objects]: New version: [0.0.86] Old Version: [0.0.85]
+[2023-07-16 03:44:08] INFO root fetch - processPackages [nbdev-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pytorch-0.0.98.tar.gz]
+[2023-07-16 03:44:08] INFO root fetch - processPackages [nbdev-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pytorch-0.0.99.tar.gz]
+[2023-07-16 03:44:08] INFO root fetch - processPackages [nbdev-pytorch]: Start processing: sweetrpg-db
+[2023-07-16 03:44:08] INFO root fetch - main [MainThread]: End processing [nbdev-pytorch]: success
+[2023-07-16 03:44:08] INFO root fetch - processPackages [sweetrpg-catalog-objects]: Remove: archive file [/home/abi/fetcher/tmp/sweetrpg-catalog-objects-0.0.2.tar.gz]
+[2023-07-16 03:44:08] INFO root fetch - processPackages [sweetrpg-catalog-objects]: Remove: archive file [/home/abi/fetcher/tmp/sweetrpg-catalog-objects-0.0.3.tar.gz]
+[2023-07-16 03:44:08] INFO root fetch - processPackages [sweetrpg-catalog-objects]: Start processing: bioregistry
+[2023-07-16 03:44:08] INFO root fetch - main [MainThread]: End processing [sweetrpg-catalog-objects]: success
+[2023-07-16 03:44:08] INFO root fetch - processPackages [nbdev-pandas]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pandas-0.0.98.tar.gz]
+[2023-07-16 03:44:08] INFO root fetch - processPackages [nbdev-pandas]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pandas-0.0.99.tar.gz]
+[2023-07-16 03:44:08] INFO root fetch - processPackages [nbdev-pandas]: Start processing: proactive
+[2023-07-16 03:44:08] INFO root fetch - main [MainThread]: End processing [nbdev-pandas]: success
+[2023-07-16 03:44:08] INFO root fetch - processPackages [fiftyone-location]: Remove: archive file [/home/abi/fetcher/tmp/fiftyone_location-4.4.4.0.tar.gz]
+[2023-07-16 03:44:08] INFO root fetch - processPackages [fiftyone-location]: Remove: archive file [/home/abi/fetcher/tmp/fiftyone_location-4.4.5.0.tar.gz]
+[2023-07-16 03:44:08] INFO root fetch - processPackages [fiftyone-location]: Start processing: arctix
+[2023-07-16 03:44:08] INFO root fetch - main [MainThread]: End processing [fiftyone-location]: success
+[2023-07-16 03:44:08] INFO root fetch - processPackages [sweetrpg-model-core]: Remove: archive file [/home/abi/fetcher/tmp/sweetrpg-model-core-0.0.98.tar.gz]
+[2023-07-16 03:44:08] INFO root fetch - processPackages [sweetrpg-model-core]: Remove: archive file [/home/abi/fetcher/tmp/sweetrpg-model-core-0.0.99.tar.gz]
+[2023-07-16 03:44:08] INFO root fetch - processPackages [sweetrpg-model-core]: Start processing: neuralken
+[2023-07-16 03:44:08] INFO root fetch - main [MainThread]: End processing [sweetrpg-model-core]: success
+[2023-07-16 03:44:08] INFO root fetch - processPackages [sweetrpg-db]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-16 03:44:08] INFO root fetch - processPackages [arctix]: New version: [0.0.0a19] Old Version: [0.0.0a14]
+[2023-07-16 03:44:08] INFO root fetch - processPackages [sweetrpg-library-objects]: Downloading https://files.pythonhosted.org/packages/3b/8f/5bc5b1bf1cbb2bd23cd2883844aade1e32b222ebf1f95ad4be614a5a5fab/sweetrpg-library-objects-0.0.85.tar.gz
+[2023-07-16 03:44:08] INFO root fetch - processPackages [bioregistry]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-16 03:44:08] WARNING root fetch - processPackages [neuralken]: Skipping, unable to determine old version
+[2023-07-16 03:44:08] INFO root fetch - processPackages [neuralken]: Start processing: nbdev-scipy
+[2023-07-16 03:44:08] INFO root fetch - main [MainThread]: End processing [neuralken] error
+[2023-07-16 03:44:08] INFO root fetch - processPackages [sweetrpg-db]: Downloading https://files.pythonhosted.org/packages/a9/8d/3d3cba136965ab00c0338cfe26c6389ebecbad7a6f919918dee83c8706be/sweetrpg-db-0.0.98.tar.gz
+[2023-07-16 03:44:08] INFO root fetch - processPackages [sweetrpg-web-core]: Remove: archive file [/home/abi/fetcher/tmp/sweetrpg-web-core-0.0.98.tar.gz]
+[2023-07-16 03:44:08] INFO root fetch - processPackages [sweetrpg-web-core]: Remove: archive file [/home/abi/fetcher/tmp/sweetrpg-web-core-0.0.99.tar.gz]
+[2023-07-16 03:44:08] INFO root fetch - main [MainThread]: End processing [sweetrpg-web-core]: success
+[2023-07-16 03:44:08] INFO root fetch - processPackages [arctix]: Downloading https://files.pythonhosted.org/packages/69/eb/818027eff77b484f02059dc412d38be89b230ea1e392a62c9df5560d1c97/arctix-0.0.0a14.tar.gz
+[2023-07-16 03:44:08] INFO root fetch - processPackages [sweetrpg-api-core]: Remove: archive file [/home/abi/fetcher/tmp/sweetrpg-api-core-0.0.98.tar.gz]
+[2023-07-16 03:44:08] INFO root fetch - processPackages [sweetrpg-api-core]: Remove: archive file [/home/abi/fetcher/tmp/sweetrpg-api-core-0.0.99.tar.gz]
+[2023-07-16 03:44:08] INFO root fetch - processPackages [proactive]: New version: [8.4.11] Old Version: [8.4.10]
+[2023-07-16 03:44:08] INFO root fetch - main [MainThread]: End processing [sweetrpg-api-core]: success
+[2023-07-16 03:44:08] INFO root fetch - processPackages [nbdev-scipy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-16 03:44:08] INFO root fetch - processPackages [sweetrpg-library-objects]: Downloading https://files.pythonhosted.org/packages/5e/9f/6f76023a2ce599dcc8f9336e4ca97d11bf333da43274c8193887a32463aa/sweetrpg-library-objects-0.0.86.tar.gz
+[2023-07-16 03:44:08] INFO root fetch - processPackages [proactive]: Downloading https://files.pythonhosted.org/packages/36/67/8f2441cbc911f3a57a2168b0e419b0751450a04c18791e6ba642af1085d8/proactive-8.4.10.zip
+[2023-07-16 03:44:08] INFO root fetch - processPackages [nbdev-scipy]: Downloading https://files.pythonhosted.org/packages/94/a7/9596b1506d5fc0b0ceb265f8bbd5e0919fc146eb6df0916b4e546e9f074f/nbdev-scipy-0.0.98.tar.gz
+[2023-07-16 03:44:08] INFO root fetch - processPackages [ast-grep-cli]: Remove: archive file [/home/abi/fetcher/tmp/ast_grep_cli-0.8.0.tar.gz]
+[2023-07-16 03:44:08] INFO root fetch - processPackages [ast-grep-cli]: Remove: archive file [/home/abi/fetcher/tmp/ast_grep_cli-0.9.0.tar.gz]
+[2023-07-16 03:44:08] INFO root fetch - main [MainThread]: End processing [ast-grep-cli]: success
+[2023-07-16 03:44:08] INFO root fetch - processPackages [sweetrpg-db]: Downloading https://files.pythonhosted.org/packages/cd/b0/462b503c41bce59517535ee1abde52ec10f2d1d9cfecfa361efd1369becb/sweetrpg-db-0.0.99.tar.gz
+[2023-07-16 03:44:08] INFO root fetch - processPackages [bioregistry]: Downloading https://files.pythonhosted.org/packages/4e/f6/973ccd4316a05888c3eb85264c9bad233e8f486e3bd1d3ed06d5c5e3504c/bioregistry-0.9.8.tar.gz
+[2023-07-16 03:44:08] INFO root fetch - processPackages [arctix]: Downloading https://files.pythonhosted.org/packages/28/ae/c3f8fdb8a06bc6fd339f1bb8825a08e7e7a23653847c798c6a612e7f092a/arctix-0.0.0a19.tar.gz
+[2023-07-16 03:44:08] INFO root fetch - processPackages [sweetrpg-library-objects]: executing diffoscope
+[2023-07-16 03:44:08] INFO root fetch - processPackages [sweetrpg-library-objects]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sweetrpg-library-objects-0.0.85.tar.gz tmp/sweetrpg-library-objects-0.0.86.tar.gz --markdown 20230716/s/sweetrpg-library-objects/0.0.85-0.0.86/diff.md --exclude *.pyd
+[2023-07-16 03:44:08] INFO root fetch - processPackages [sweetrpg-db]: executing diffoscope
+[2023-07-16 03:44:08] INFO root fetch - processPackages [sweetrpg-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sweetrpg-db-0.0.98.tar.gz tmp/sweetrpg-db-0.0.99.tar.gz --markdown 20230716/s/sweetrpg-db/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-16 03:44:08] INFO root fetch - processPackages [arctix]: executing diffoscope
+[2023-07-16 03:44:08] INFO root fetch - processPackages [arctix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arctix-0.0.0a14.tar.gz tmp/arctix-0.0.0a19.tar.gz --markdown 20230716/a/arctix/0.0.0a14-0.0.0a19/diff.md --exclude *.pyd
+[2023-07-16 03:44:08] INFO root fetch - processPackages [nbdev-scipy]: Downloading https://files.pythonhosted.org/packages/d4/25/482f9160692bdd2d374401b19f8b4700ae91c179761991cee076e37aae0d/nbdev-scipy-0.0.99.tar.gz
+[2023-07-16 03:44:08] INFO root fetch - processPackages [nbdev-scipy]: executing diffoscope
+[2023-07-16 03:44:08] INFO root fetch - processPackages [nbdev-scipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-scipy-0.0.98.tar.gz tmp/nbdev-scipy-0.0.99.tar.gz --markdown 20230716/n/nbdev-scipy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-16 03:44:09] INFO root fetch - processPackages [bioregistry]: Downloading https://files.pythonhosted.org/packages/5b/a2/66d69f3acb3d998356aaa7ccffe5395fb3221c2f99dd12100c6abf1826b4/bioregistry-0.9.9.tar.gz
+[2023-07-16 03:44:09] INFO root fetch - processPackages [nonebot-plugin-gocqhttp]: executing diffoscope
+[2023-07-16 03:44:09] INFO root fetch - processPackages [nonebot-plugin-gocqhttp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_gocqhttp-0.6.8.tar.gz tmp/nonebot_plugin_gocqhttp-0.6.9.tar.gz --markdown 20230716/n/nonebot-plugin-gocqhttp/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-07-16 03:44:09] WARNING root fetch - processPackages [proactive]: Skipping package: exceeds size limit 18979361>=10485760
+[2023-07-16 03:44:09] INFO root fetch - main [MainThread]: End processing [proactive] error
+[2023-07-16 03:44:09] INFO root fetch - processPackages [sweetrpg-db]: Remove: archive file [/home/abi/fetcher/tmp/sweetrpg-db-0.0.98.tar.gz]
+[2023-07-16 03:44:09] INFO root fetch - processPackages [sweetrpg-db]: Remove: archive file [/home/abi/fetcher/tmp/sweetrpg-db-0.0.99.tar.gz]
+[2023-07-16 03:44:09] INFO root fetch - main [MainThread]: End processing [sweetrpg-db]: success
+[2023-07-16 03:44:09] INFO root fetch - processPackages [arctix]: Remove: archive file [/home/abi/fetcher/tmp/arctix-0.0.0a14.tar.gz]
+[2023-07-16 03:44:09] INFO root fetch - processPackages [arctix]: Remove: archive file [/home/abi/fetcher/tmp/arctix-0.0.0a19.tar.gz]
+[2023-07-16 03:44:09] INFO root fetch - main [MainThread]: End processing [arctix]: success
+[2023-07-16 03:44:09] INFO root fetch - processPackages [sweetrpg-library-objects]: Remove: archive file [/home/abi/fetcher/tmp/sweetrpg-library-objects-0.0.85.tar.gz]
+[2023-07-16 03:44:09] INFO root fetch - processPackages [sweetrpg-library-objects]: Remove: archive file [/home/abi/fetcher/tmp/sweetrpg-library-objects-0.0.86.tar.gz]
+[2023-07-16 03:44:09] INFO root fetch - main [MainThread]: End processing [sweetrpg-library-objects]: success
+[2023-07-16 03:44:09] INFO root fetch - processPackages [nbdev-scipy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-scipy-0.0.98.tar.gz]
+[2023-07-16 03:44:09] INFO root fetch - processPackages [nbdev-scipy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-scipy-0.0.99.tar.gz]
+[2023-07-16 03:44:09] INFO root fetch - main [MainThread]: End processing [nbdev-scipy]: success
+[2023-07-16 03:44:10] INFO root fetch - processPackages [bioregistry]: executing diffoscope
+[2023-07-16 03:44:10] INFO root fetch - processPackages [bioregistry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioregistry-0.9.8.tar.gz tmp/bioregistry-0.9.9.tar.gz --markdown 20230716/b/bioregistry/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-16 03:44:15] INFO root fetch - processPackages [nonebot-plugin-gocqhttp]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_gocqhttp-0.6.8.tar.gz]
+[2023-07-16 03:44:15] INFO root fetch - processPackages [nonebot-plugin-gocqhttp]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_gocqhttp-0.6.9.tar.gz]
+[2023-07-16 03:44:15] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-gocqhttp]: success
+[2023-07-16 03:46:05] INFO root fetch - processPackages [bioregistry]: Remove: archive file [/home/abi/fetcher/tmp/bioregistry-0.9.8.tar.gz]
+[2023-07-16 03:46:05] INFO root fetch - processPackages [bioregistry]: Remove: archive file [/home/abi/fetcher/tmp/bioregistry-0.9.9.tar.gz]
+[2023-07-16 03:46:05] INFO root fetch - main [MainThread]: End processing [bioregistry]: success
+[2023-07-16 03:46:05] INFO root fetch - main [MainThread]: Store serial: [18904313]
