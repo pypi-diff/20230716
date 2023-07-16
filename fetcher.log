@@ -2117,3 +2117,87 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-16 03:28:18] INFO root fetch - processPackages [supSMSGecko]: Remove: archive file [/home/abi/fetcher/tmp/supSMSGecko-0.1.0a5.tar.gz]
 [2023-07-16 03:28:18] INFO root fetch - main [MainThread]: End processing [supSMSGecko]: success
 [2023-07-16 03:28:18] INFO root fetch - main [MainThread]: Store serial: [18904205]
+[2023-07-16 03:33:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18904205]
+[2023-07-16 03:33:28] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-16 03:33:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PySolidState
+[2023-07-16 03:33:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spark-quality-rules-tools
+[2023-07-16 03:33:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: unigui
+[2023-07-16 03:33:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sweetrpg-api-core
+[2023-07-16 03:33:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sweetrpg-web-core
+[2023-07-16 03:33:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: shiba-mysql
+[2023-07-16 03:33:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyjamas-rfglab
+[2023-07-16 03:33:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdk-hugo-deploy
+[2023-07-16 03:33:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: xsget
+[2023-07-16 03:33:28] INFO root fetch - processPackages [unigui]: New version: [1.8.3] Old Version: [1.8.2]
+[2023-07-16 03:33:28] INFO root fetch - processPackages [sweetrpg-api-core]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-16 03:33:28] INFO root fetch - processPackages [spark-quality-rules-tools]: New version: [0.8.5] Old Version: [0.8.0]
+[2023-07-16 03:33:28] INFO root fetch - processPackages [PySolidState]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-16 03:33:28] INFO root fetch - processPackages [shiba-mysql]: New version: [1.1.1] Old Version: [1.0.0]
+[2023-07-16 03:33:28] INFO root fetch - processPackages [sweetrpg-web-core]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-16 03:33:28] INFO root fetch - processPackages [pyjamas-rfglab]: New version: [2023.7.4] Old Version: [2023.7.3]
+[2023-07-16 03:33:28] INFO root fetch - processPackages [cdk-hugo-deploy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-16 03:33:28] INFO root fetch - processPackages [xsget]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-16 03:33:28] INFO root fetch - processPackages [spark-quality-rules-tools]: Downloading https://files.pythonhosted.org/packages/50/5a/c352aa1a466c165b4351c375f1d48ae65fc216eca01924ce25829da2840d/spark_quality_rules_tools-0.8.0.tar.gz
+[2023-07-16 03:33:28] INFO root fetch - processPackages [sweetrpg-api-core]: Downloading https://files.pythonhosted.org/packages/5d/9d/2398efc534be1a806373637db31588bc65727faee8d3d4ad1e210310552e/sweetrpg-api-core-0.0.98.tar.gz
+[2023-07-16 03:33:28] INFO root fetch - processPackages [PySolidState]: Downloading https://files.pythonhosted.org/packages/40/ef/fd76421d6bd98d8aedb3e3563cad0aad012209a85a8a5cd5b5b63e5cd4f9/PySolidState-0.0.2.tar.gz
+[2023-07-16 03:33:28] INFO root fetch - processPackages [sweetrpg-web-core]: Downloading https://files.pythonhosted.org/packages/10/78/7e4ec24c92190fa564c9ba8a1797ccda0c7472064d109da37e0d283f94d2/sweetrpg-web-core-0.0.98.tar.gz
+[2023-07-16 03:33:28] INFO root fetch - processPackages [pyjamas-rfglab]: Downloading https://files.pythonhosted.org/packages/30/b6/06aec4f9e94e81711d832c1ce71437fe5d8e5fc5fefdf51606ba6328d9d9/pyjamas-rfglab-2023.7.3.tar.gz
+[2023-07-16 03:33:28] INFO root fetch - processPackages [shiba-mysql]: Downloading https://files.pythonhosted.org/packages/79/10/2cc593226c593d2757608d656cdd24238a9041758dd56515b68463e17e9c/shiba_mysql-1.0.0.tar.gz
+[2023-07-16 03:33:28] INFO root fetch - processPackages [unigui]: Downloading https://files.pythonhosted.org/packages/68/9c/2894192ccd5d32c81ad9ecf251a5b231e288dd3e0bf71b89d50c162c9f45/unigui-1.8.2.tar.gz
+[2023-07-16 03:33:28] INFO root fetch - processPackages [cdk-hugo-deploy]: Downloading https://files.pythonhosted.org/packages/33/a0/02c1c61c08488072b10045f13351cac91a6dc5b3b289a3a38fb162ac9cfa/cdk-hugo-deploy-0.0.98.tar.gz
+[2023-07-16 03:33:28] INFO root fetch - processPackages [xsget]: Downloading https://files.pythonhosted.org/packages/96/a6/b71d9512c97667916e557dd9cd533b70e8ca6a55dab9074d6f5358957fa3/xsget-0.1.8.tar.gz
+[2023-07-16 03:33:29] INFO root fetch - processPackages [sweetrpg-api-core]: Downloading https://files.pythonhosted.org/packages/bf/6c/3cd8f95074a8f63967790523ccf02ffe9aef45c9c675b0a443c0371e8e04/sweetrpg-api-core-0.0.99.tar.gz
+[2023-07-16 03:33:29] INFO root fetch - processPackages [sweetrpg-web-core]: Downloading https://files.pythonhosted.org/packages/bd/15/72a761101e501277066578a42896229ae4a254ecf7602e2e15f38b35310d/sweetrpg-web-core-0.0.99.tar.gz
+[2023-07-16 03:33:29] INFO root fetch - processPackages [PySolidState]: Downloading https://files.pythonhosted.org/packages/4d/a8/f7ce5045a87deb65b196a98e1f7d5bb5eab113eed9c1d19e48295a56f9d0/PySolidState-0.0.3.tar.gz
+[2023-07-16 03:33:29] INFO root fetch - processPackages [spark-quality-rules-tools]: Downloading https://files.pythonhosted.org/packages/f7/6e/30aa34580ecfdaea3f42cafda9f15e2c2ce3daaec4283918b54988f494f1/spark_quality_rules_tools-0.8.5.tar.gz
+[2023-07-16 03:33:29] INFO root fetch - processPackages [shiba-mysql]: Downloading https://files.pythonhosted.org/packages/e0/eb/04dcccfdd9734d5e39327f68dff71785e49c325ba269c9f4aa6109aaf5aa/shiba_mysql-1.1.1.tar.gz
+[2023-07-16 03:33:29] INFO root fetch - processPackages [sweetrpg-api-core]: executing diffoscope
+[2023-07-16 03:33:29] INFO root fetch - processPackages [sweetrpg-api-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sweetrpg-api-core-0.0.98.tar.gz tmp/sweetrpg-api-core-0.0.99.tar.gz --markdown 20230716/s/sweetrpg-api-core/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-16 03:33:29] INFO root fetch - processPackages [pyjamas-rfglab]: Downloading https://files.pythonhosted.org/packages/1c/3d/e0e1352a19dc94a0ce1940423f515ddf420a6caf1dcf8704ed1aeb8cfd1c/pyjamas-rfglab-2023.7.4.tar.gz
+[2023-07-16 03:33:29] INFO root fetch - processPackages [sweetrpg-web-core]: executing diffoscope
+[2023-07-16 03:33:29] INFO root fetch - processPackages [sweetrpg-web-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sweetrpg-web-core-0.0.98.tar.gz tmp/sweetrpg-web-core-0.0.99.tar.gz --markdown 20230716/s/sweetrpg-web-core/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-16 03:33:29] INFO root fetch - processPackages [spark-quality-rules-tools]: executing diffoscope
+[2023-07-16 03:33:29] INFO root fetch - processPackages [spark-quality-rules-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spark_quality_rules_tools-0.8.0.tar.gz tmp/spark_quality_rules_tools-0.8.5.tar.gz --markdown 20230716/s/spark-quality-rules-tools/0.8.0-0.8.5/diff.md --exclude *.pyd
+[2023-07-16 03:33:29] INFO root fetch - processPackages [PySolidState]: executing diffoscope
+[2023-07-16 03:33:29] INFO root fetch - processPackages [PySolidState]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PySolidState-0.0.2.tar.gz tmp/PySolidState-0.0.3.tar.gz --markdown 20230716/P/PySolidState/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-16 03:33:29] INFO root fetch - processPackages [shiba-mysql]: executing diffoscope
+[2023-07-16 03:33:29] INFO root fetch - processPackages [shiba-mysql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shiba_mysql-1.0.0.tar.gz tmp/shiba_mysql-1.1.1.tar.gz --markdown 20230716/s/shiba-mysql/1.0.0-1.1.1/diff.md --exclude *.pyd
+[2023-07-16 03:33:29] INFO root fetch - processPackages [unigui]: Downloading https://files.pythonhosted.org/packages/f9/db/a21def4f1bfa59bbac6854069b1f7cd9499640e6d7bf421c29c727a645f1/unigui-1.8.3.tar.gz
+[2023-07-16 03:33:29] INFO root fetch - processPackages [xsget]: Downloading https://files.pythonhosted.org/packages/66/35/2c898bac16a5b69022653501992a8126b1dbc5ab40174c24a13824b786fa/xsget-0.1.9.tar.gz
+[2023-07-16 03:33:29] INFO root fetch - processPackages [cdk-hugo-deploy]: Downloading https://files.pythonhosted.org/packages/69/65/61cf4e2d01ce9f811649f2d5a9b579e9603a4b6257774c90a60bc13109ee/cdk-hugo-deploy-0.0.99.tar.gz
+[2023-07-16 03:33:29] INFO root fetch - processPackages [pyjamas-rfglab]: executing diffoscope
+[2023-07-16 03:33:29] INFO root fetch - processPackages [pyjamas-rfglab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyjamas-rfglab-2023.7.3.tar.gz tmp/pyjamas-rfglab-2023.7.4.tar.gz --markdown 20230716/p/pyjamas-rfglab/2023.7.3-2023.7.4/diff.md --exclude *.pyd
+[2023-07-16 03:33:29] INFO root fetch - processPackages [cdk-hugo-deploy]: executing diffoscope
+[2023-07-16 03:33:29] INFO root fetch - processPackages [cdk-hugo-deploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-hugo-deploy-0.0.98.tar.gz tmp/cdk-hugo-deploy-0.0.99.tar.gz --markdown 20230716/c/cdk-hugo-deploy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-16 03:33:29] INFO root fetch - processPackages [xsget]: executing diffoscope
+[2023-07-16 03:33:29] INFO root fetch - processPackages [xsget]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xsget-0.1.8.tar.gz tmp/xsget-0.1.9.tar.gz --markdown 20230716/x/xsget/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-16 03:33:29] INFO root fetch - processPackages [unigui]: executing diffoscope
+[2023-07-16 03:33:29] INFO root fetch - processPackages [unigui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unigui-1.8.2.tar.gz tmp/unigui-1.8.3.tar.gz --markdown 20230716/u/unigui/1.8.2-1.8.3/diff.md --exclude *.pyd
+[2023-07-16 03:33:30] INFO root fetch - processPackages [sweetrpg-api-core]: Remove: archive file [/home/abi/fetcher/tmp/sweetrpg-api-core-0.0.98.tar.gz]
+[2023-07-16 03:33:30] INFO root fetch - processPackages [sweetrpg-api-core]: Remove: archive file [/home/abi/fetcher/tmp/sweetrpg-api-core-0.0.99.tar.gz]
+[2023-07-16 03:33:30] INFO root fetch - main [MainThread]: End processing [sweetrpg-api-core]: success
+[2023-07-16 03:33:30] INFO root fetch - processPackages [sweetrpg-web-core]: Remove: archive file [/home/abi/fetcher/tmp/sweetrpg-web-core-0.0.98.tar.gz]
+[2023-07-16 03:33:30] INFO root fetch - processPackages [sweetrpg-web-core]: Remove: archive file [/home/abi/fetcher/tmp/sweetrpg-web-core-0.0.99.tar.gz]
+[2023-07-16 03:33:30] INFO root fetch - main [MainThread]: End processing [sweetrpg-web-core]: success
+[2023-07-16 03:33:30] INFO root fetch - processPackages [PySolidState]: Remove: archive file [/home/abi/fetcher/tmp/PySolidState-0.0.2.tar.gz]
+[2023-07-16 03:33:30] INFO root fetch - processPackages [PySolidState]: Remove: archive file [/home/abi/fetcher/tmp/PySolidState-0.0.3.tar.gz]
+[2023-07-16 03:33:30] INFO root fetch - main [MainThread]: End processing [PySolidState]: success
+[2023-07-16 03:33:30] INFO root fetch - processPackages [spark-quality-rules-tools]: Remove: archive file [/home/abi/fetcher/tmp/spark_quality_rules_tools-0.8.0.tar.gz]
+[2023-07-16 03:33:30] INFO root fetch - processPackages [spark-quality-rules-tools]: Remove: archive file [/home/abi/fetcher/tmp/spark_quality_rules_tools-0.8.5.tar.gz]
+[2023-07-16 03:33:30] INFO root fetch - main [MainThread]: End processing [spark-quality-rules-tools]: success
+[2023-07-16 03:33:30] INFO root fetch - processPackages [shiba-mysql]: Remove: archive file [/home/abi/fetcher/tmp/shiba_mysql-1.0.0.tar.gz]
+[2023-07-16 03:33:30] INFO root fetch - processPackages [shiba-mysql]: Remove: archive file [/home/abi/fetcher/tmp/shiba_mysql-1.1.1.tar.gz]
+[2023-07-16 03:33:30] INFO root fetch - main [MainThread]: End processing [shiba-mysql]: success
+[2023-07-16 03:33:30] INFO root fetch - processPackages [cdk-hugo-deploy]: Remove: archive file [/home/abi/fetcher/tmp/cdk-hugo-deploy-0.0.98.tar.gz]
+[2023-07-16 03:33:30] INFO root fetch - processPackages [cdk-hugo-deploy]: Remove: archive file [/home/abi/fetcher/tmp/cdk-hugo-deploy-0.0.99.tar.gz]
+[2023-07-16 03:33:30] INFO root fetch - main [MainThread]: End processing [cdk-hugo-deploy]: success
+[2023-07-16 03:33:31] INFO root fetch - processPackages [xsget]: Remove: archive file [/home/abi/fetcher/tmp/xsget-0.1.8.tar.gz]
+[2023-07-16 03:33:31] INFO root fetch - processPackages [xsget]: Remove: archive file [/home/abi/fetcher/tmp/xsget-0.1.9.tar.gz]
+[2023-07-16 03:33:31] INFO root fetch - main [MainThread]: End processing [xsget]: success
+[2023-07-16 03:33:31] INFO root fetch - processPackages [pyjamas-rfglab]: Remove: archive file [/home/abi/fetcher/tmp/pyjamas-rfglab-2023.7.3.tar.gz]
+[2023-07-16 03:33:31] INFO root fetch - processPackages [pyjamas-rfglab]: Remove: archive file [/home/abi/fetcher/tmp/pyjamas-rfglab-2023.7.4.tar.gz]
+[2023-07-16 03:33:31] INFO root fetch - main [MainThread]: End processing [pyjamas-rfglab]: success
+[2023-07-16 03:33:45] INFO root fetch - processPackages [unigui]: Remove: archive file [/home/abi/fetcher/tmp/unigui-1.8.2.tar.gz]
+[2023-07-16 03:33:45] INFO root fetch - processPackages [unigui]: Remove: archive file [/home/abi/fetcher/tmp/unigui-1.8.3.tar.gz]
+[2023-07-16 03:33:45] INFO root fetch - main [MainThread]: End processing [unigui]: success
+[2023-07-16 03:33:45] INFO root fetch - main [MainThread]: Store serial: [18904242]
