@@ -5138,3 +5138,29 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-16 09:34:43] INFO root fetch - processPackages [propan]: Remove: archive file [/home/abi/fetcher/tmp/propan-0.1.5.9.tar.gz]
 [2023-07-16 09:34:43] INFO root fetch - main [MainThread]: End processing [propan]: success
 [2023-07-16 09:34:43] INFO root fetch - main [MainThread]: Store serial: [18905452]
+[2023-07-16 09:39:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18905452]
+[2023-07-16 09:39:51] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-16 09:39:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pdfly
+[2023-07-16 09:39:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lalsuite
+[2023-07-16 09:39:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: talkytimes-package
+[2023-07-16 09:39:51] INFO root fetch - processPackages [talkytimes-package]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-16 09:39:51] INFO root fetch - processPackages [pdfly]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-16 09:39:51] INFO root fetch - processPackages [lalsuite]: New version: [7.9] Old Version: [7.8]
+[2023-07-16 09:39:51] INFO root fetch - processPackages [talkytimes-package]: Downloading https://files.pythonhosted.org/packages/c6/62/22801f146cbf20aa75d1874b29b888b7da6e057872d39d2e27cc4554126f/talkytimes_package-0.1.5.tar.gz
+[2023-07-16 09:39:51] INFO root fetch - processPackages [pdfly]: Downloading https://files.pythonhosted.org/packages/b0/d0/7c4eb4bb3d9e11c800633313e072e95f5c59d7c29d2d45ff9985d8734120/pdfly-0.2.8.tar.gz
+[2023-07-16 09:39:51] INFO root fetch - processPackages [lalsuite]: Downloading https://files.pythonhosted.org/packages/53/92/fc43211ca56b7c5532fc1b47c701a564c7ddcaf866c62ae45acbfdc34f23/lalsuite-7.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-16 09:39:51] WARNING root fetch - processPackages [lalsuite]: Skipping package: exceeds size limit 48394251>=10485760
+[2023-07-16 09:39:51] INFO root fetch - main [MainThread]: End processing [lalsuite] error
+[2023-07-16 09:39:51] INFO root fetch - processPackages [talkytimes-package]: Downloading https://files.pythonhosted.org/packages/d2/01/c994c99fdded57a1ca5fae84bc2fc43c0b58af30250ff1ac6f3df0781e3b/talkytimes_package-0.1.6.tar.gz
+[2023-07-16 09:39:52] INFO root fetch - processPackages [pdfly]: Downloading https://files.pythonhosted.org/packages/1d/1f/bfdb38be9ab7c52c02bf818ef6bc3b094a25619fd66377280c7f74823c6c/pdfly-0.2.9.tar.gz
+[2023-07-16 09:39:52] INFO root fetch - processPackages [talkytimes-package]: executing diffoscope
+[2023-07-16 09:39:52] INFO root fetch - processPackages [talkytimes-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/talkytimes_package-0.1.5.tar.gz tmp/talkytimes_package-0.1.6.tar.gz --markdown 20230716/t/talkytimes-package/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-16 09:39:52] INFO root fetch - processPackages [pdfly]: executing diffoscope
+[2023-07-16 09:39:52] INFO root fetch - processPackages [pdfly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdfly-0.2.8.tar.gz tmp/pdfly-0.2.9.tar.gz --markdown 20230716/p/pdfly/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-16 09:39:52] INFO root fetch - processPackages [talkytimes-package]: Remove: archive file [/home/abi/fetcher/tmp/talkytimes_package-0.1.5.tar.gz]
+[2023-07-16 09:39:52] INFO root fetch - processPackages [talkytimes-package]: Remove: archive file [/home/abi/fetcher/tmp/talkytimes_package-0.1.6.tar.gz]
+[2023-07-16 09:39:52] INFO root fetch - main [MainThread]: End processing [talkytimes-package]: success
+[2023-07-16 09:39:52] INFO root fetch - processPackages [pdfly]: Remove: archive file [/home/abi/fetcher/tmp/pdfly-0.2.8.tar.gz]
+[2023-07-16 09:39:52] INFO root fetch - processPackages [pdfly]: Remove: archive file [/home/abi/fetcher/tmp/pdfly-0.2.9.tar.gz]
+[2023-07-16 09:39:52] INFO root fetch - main [MainThread]: End processing [pdfly]: success
+[2023-07-16 09:39:52] INFO root fetch - main [MainThread]: Store serial: [18905474]
