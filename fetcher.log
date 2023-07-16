@@ -12077,3 +12077,40 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-16 19:26:24] INFO root fetch - processPackages [pyosutools]: Remove: archive file [/home/abi/fetcher/tmp/pyosutools-0.2.3.tar.gz]
 [2023-07-16 19:26:24] INFO root fetch - main [MainThread]: End processing [pyosutools]: success
 [2023-07-16 19:26:24] INFO root fetch - main [MainThread]: Store serial: [18908323]
+[2023-07-16 19:31:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18908323]
+[2023-07-16 19:31:33] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-16 19:31:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: RapidMangaDL
+[2023-07-16 19:31:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bhfutils
+[2023-07-16 19:31:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: crazy-thursday
+[2023-07-16 19:31:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: RapidMangaDL
+[2023-07-16 19:31:33] INFO root fetch - processPackages [bhfutils]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-16 19:31:33] INFO root fetch - processPackages [RapidMangaDL]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-16 19:31:33] INFO root fetch - processPackages [RapidMangaDL]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-16 19:31:33] INFO root fetch - processPackages [crazy-thursday]: New version: [2023.7.9.1] Old Version: [2023.7.9.0]
+[2023-07-16 19:31:34] INFO root fetch - processPackages [RapidMangaDL]: Downloading https://files.pythonhosted.org/packages/7e/f1/1030296e9e394e17c6b341f1639f3749d27c3fb5469bff1c1fddc9be2c16/RapidMangaDL-0.0.1.tar.gz
+[2023-07-16 19:31:34] INFO root fetch - processPackages [RapidMangaDL]: Downloading https://files.pythonhosted.org/packages/7e/f1/1030296e9e394e17c6b341f1639f3749d27c3fb5469bff1c1fddc9be2c16/RapidMangaDL-0.0.1.tar.gz
+[2023-07-16 19:31:34] INFO root fetch - processPackages [bhfutils]: Downloading https://files.pythonhosted.org/packages/75/5d/bd467d062eb618aaba3a3570942c7f6605e03e8f12341882475813c6a981/bhfutils-0.0.98.tar.gz
+[2023-07-16 19:31:34] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/6a/c9/15f9add630932cf1d361c73bada17a4fe2e962fe6ae5ac9e61297aedec22/crazy-thursday-2023.7.9.0.tar.gz
+[2023-07-16 19:31:34] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/8d/ea/65adb6d9f2ff058a84add9a25d8423ef870914ed904a071fcd26e8e9ba74/crazy-thursday-2023.7.9.1.tar.gz
+[2023-07-16 19:31:34] INFO root fetch - processPackages [RapidMangaDL]: Downloading https://files.pythonhosted.org/packages/e0/1a/262496f94597c473654f3da272308460babb22543f67ac5214d9cb897c87/RapidMangaDL-0.0.2.tar.gz
+[2023-07-16 19:31:34] INFO root fetch - processPackages [RapidMangaDL]: Downloading https://files.pythonhosted.org/packages/e0/1a/262496f94597c473654f3da272308460babb22543f67ac5214d9cb897c87/RapidMangaDL-0.0.2.tar.gz
+[2023-07-16 19:31:34] INFO root fetch - processPackages [crazy-thursday]: executing diffoscope
+[2023-07-16 19:31:34] INFO root fetch - processPackages [crazy-thursday]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crazy-thursday-2023.7.9.0.tar.gz tmp/crazy-thursday-2023.7.9.1.tar.gz --markdown 20230716/c/crazy-thursday/2023.7.9.0-2023.7.9.1/diff.md --exclude *.pyd
+[2023-07-16 19:31:34] INFO root fetch - processPackages [bhfutils]: Downloading https://files.pythonhosted.org/packages/7e/b5/54ec37847def6d118ee896211d1b9f8b1908178a7f77638d5fa6262d96ce/bhfutils-0.0.99.tar.gz
+[2023-07-16 19:31:34] INFO root fetch - processPackages [RapidMangaDL]: executing diffoscope
+[2023-07-16 19:31:34] INFO root fetch - processPackages [RapidMangaDL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RapidMangaDL-0.0.1.tar.gz tmp/RapidMangaDL-0.0.2.tar.gz --markdown 20230716/R/RapidMangaDL/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-16 19:31:34] INFO root fetch - processPackages [RapidMangaDL]: executing diffoscope
+[2023-07-16 19:31:34] INFO root fetch - processPackages [RapidMangaDL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RapidMangaDL-0.0.1.tar.gz tmp/RapidMangaDL-0.0.2.tar.gz --markdown 20230716/R/RapidMangaDL/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-16 19:31:34] INFO root fetch - processPackages [bhfutils]: executing diffoscope
+[2023-07-16 19:31:34] INFO root fetch - processPackages [bhfutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bhfutils-0.0.98.tar.gz tmp/bhfutils-0.0.99.tar.gz --markdown 20230716/b/bhfutils/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-16 19:31:35] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy-thursday-2023.7.9.0.tar.gz]
+[2023-07-16 19:31:35] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy-thursday-2023.7.9.1.tar.gz]
+[2023-07-16 19:31:35] INFO root fetch - main [MainThread]: End processing [crazy-thursday]: success
+[2023-07-16 19:31:35] INFO root fetch - processPackages [RapidMangaDL]: Remove: archive file [/home/abi/fetcher/tmp/RapidMangaDL-0.0.1.tar.gz]
+[2023-07-16 19:31:35] INFO root fetch - processPackages [RapidMangaDL]: Remove: archive file [/home/abi/fetcher/tmp/RapidMangaDL-0.0.2.tar.gz]
+[2023-07-16 19:31:35] INFO root fetch - main [MainThread]: End processing [RapidMangaDL]: success
+[2023-07-16 19:31:35] INFO root fetch - main [MainThread]: End processing [RapidMangaDL]: success
+[2023-07-16 19:31:36] INFO root fetch - processPackages [bhfutils]: Remove: archive file [/home/abi/fetcher/tmp/bhfutils-0.0.98.tar.gz]
+[2023-07-16 19:31:36] INFO root fetch - processPackages [bhfutils]: Remove: archive file [/home/abi/fetcher/tmp/bhfutils-0.0.99.tar.gz]
+[2023-07-16 19:31:36] INFO root fetch - main [MainThread]: End processing [bhfutils]: success
+[2023-07-16 19:31:36] INFO root fetch - main [MainThread]: Store serial: [18908338]
