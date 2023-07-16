@@ -8866,3 +8866,137 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-16 15:09:09] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/fbgemm_gpu_nightly_cpu-2023.7.16-cp39-cp39-manylinux2014_x86_64.whl.zip]
 [2023-07-16 15:09:09] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly-cpu]: success
 [2023-07-16 15:09:09] INFO root fetch - main [MainThread]: Store serial: [18907057]
+[2023-07-16 15:14:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18907057]
+[2023-07-16 15:14:25] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-07-16 15:14:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nbdev-stdlib
+[2023-07-16 15:14:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mad8-pandas
+[2023-07-16 15:14:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mad8-pandas
+[2023-07-16 15:14:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nbdev-numpy
+[2023-07-16 15:14:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: foursight-core
+[2023-07-16 15:14:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tablestring
+[2023-07-16 15:14:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nbdev-pandas
+[2023-07-16 15:14:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mad8-pandas
+[2023-07-16 15:14:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: birdepy
+[2023-07-16 15:14:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nbdev-pytorch
+[2023-07-16 15:14:25] INFO root fetch - processPackages [mad8-pandas]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-07-16 15:14:25] INFO root fetch - processPackages [nbdev-pandas]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-16 15:14:25] INFO root fetch - processPackages [mad8-pandas]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-07-16 15:14:25] INFO root fetch - processPackages [tablestring]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-16 15:14:25] INFO root fetch - processPackages [birdepy]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-16 15:14:25] INFO root fetch - processPackages [mad8-pandas]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-07-16 15:14:25] INFO root fetch - processPackages [foursight-core]: New version: [4.3.0.2b6] Old Version: [4.3.0.2b5]
+[2023-07-16 15:14:25] INFO root fetch - processPackages [nbdev-numpy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-16 15:14:25] INFO root fetch - processPackages [nbdev-stdlib]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-16 15:14:25] INFO root fetch - processPackages [nbdev-pytorch]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-16 15:14:25] INFO root fetch - processPackages [nbdev-pandas]: Downloading https://files.pythonhosted.org/packages/e4/e4/cd3df65f7d13a8e8dfa1592e08d78574793d38384b1c92993ce920dcd0df/nbdev-pandas-0.0.98.tar.gz
+[2023-07-16 15:14:25] INFO root fetch - processPackages [birdepy]: Downloading https://files.pythonhosted.org/packages/f0/c3/d2995ea56ab65bc35acb53eeadb427fb89fb3ab6bd4b04aa110cb505cbe4/birdepy-0.0.8.tar.gz
+[2023-07-16 15:14:25] INFO root fetch - processPackages [tablestring]: Downloading https://files.pythonhosted.org/packages/ef/ac/1a816f402c082900e650d63f38ea2c64f9e8c57542ed8bc4b3a4ce8744d6/tablestring-0.0.3.tar.gz
+[2023-07-16 15:14:25] INFO root fetch - processPackages [foursight-core]: Downloading https://files.pythonhosted.org/packages/78/61/0773950f952853d36c5de7f66aff525d6684d99f22738a38cce3a5b5fd9d/foursight_core-4.3.0.2b5.tar.gz
+[2023-07-16 15:14:25] INFO root fetch - processPackages [mad8-pandas]: Downloading https://files.pythonhosted.org/packages/cd/41/320bb62ee368f592c7d33ae6f0103c2ab8dd7aee556a1311dbe33c780f56/mad8-pandas-1.1.0.tar.gz
+[2023-07-16 15:14:26] INFO root fetch - processPackages [mad8-pandas]: Downloading https://files.pythonhosted.org/packages/cd/41/320bb62ee368f592c7d33ae6f0103c2ab8dd7aee556a1311dbe33c780f56/mad8-pandas-1.1.0.tar.gz
+[2023-07-16 15:14:26] INFO root fetch - processPackages [mad8-pandas]: Downloading https://files.pythonhosted.org/packages/cd/41/320bb62ee368f592c7d33ae6f0103c2ab8dd7aee556a1311dbe33c780f56/mad8-pandas-1.1.0.tar.gz
+[2023-07-16 15:14:26] INFO root fetch - processPackages [nbdev-pytorch]: Downloading https://files.pythonhosted.org/packages/f8/45/4613a0137d296a1960d76ded45b0af15a8fd578bf48df103c50675b49136/nbdev-pytorch-0.0.98.tar.gz
+[2023-07-16 15:14:26] INFO root fetch - processPackages [nbdev-numpy]: Downloading https://files.pythonhosted.org/packages/73/28/26429c7dd7dcf4c45025b55facc2688943de2ab2ec4851cc073f81f31e65/nbdev-numpy-0.0.98.tar.gz
+[2023-07-16 15:14:26] INFO root fetch - processPackages [nbdev-stdlib]: Downloading https://files.pythonhosted.org/packages/e8/48/ed43dbfa0bd5ca86a6a3f6ae0500b0cffb413b2c3f118e82da24ef3488f1/nbdev-stdlib-0.0.98.tar.gz
+[2023-07-16 15:14:26] INFO root fetch - processPackages [nbdev-pandas]: Downloading https://files.pythonhosted.org/packages/cf/b5/493c8e89c5cb4fcc7db248f99868f931ca6389f6e411e63c97bb22c6f1b0/nbdev-pandas-0.0.99.tar.gz
+[2023-07-16 15:14:26] INFO root fetch - processPackages [nbdev-pytorch]: Downloading https://files.pythonhosted.org/packages/b0/37/5921f26bef4d07ebb5599f7ccb4d57ab1a847950edaa615ebcf9ef228690/nbdev-pytorch-0.0.99.tar.gz
+[2023-07-16 15:14:26] INFO root fetch - processPackages [foursight-core]: Downloading https://files.pythonhosted.org/packages/64/b4/ccdf0031ed0cc891e581ea20b02cb1535f3577a2942e7938f8e39a9266c4/foursight_core-4.3.0.2b6.tar.gz
+[2023-07-16 15:14:26] INFO root fetch - processPackages [mad8-pandas]: Downloading https://files.pythonhosted.org/packages/46/84/4059d754ab3d7827c8bb28ee1e711bf49a9ee2a10e49d9353efabd10f350/mad8-pandas-1.1.1.tar.gz
+[2023-07-16 15:14:26] INFO root fetch - processPackages [nbdev-numpy]: Downloading https://files.pythonhosted.org/packages/ea/78/0c0ef1d69ad517e7123dd810dda3cf8c0863af031c2cbb78ac3dae878b48/nbdev-numpy-0.0.99.tar.gz
+[2023-07-16 15:14:26] INFO root fetch - processPackages [mad8-pandas]: Downloading https://files.pythonhosted.org/packages/46/84/4059d754ab3d7827c8bb28ee1e711bf49a9ee2a10e49d9353efabd10f350/mad8-pandas-1.1.1.tar.gz
+[2023-07-16 15:14:26] INFO root fetch - processPackages [mad8-pandas]: Downloading https://files.pythonhosted.org/packages/46/84/4059d754ab3d7827c8bb28ee1e711bf49a9ee2a10e49d9353efabd10f350/mad8-pandas-1.1.1.tar.gz
+[2023-07-16 15:14:26] INFO root fetch - processPackages [tablestring]: Downloading https://files.pythonhosted.org/packages/00/05/4022ad245dea48d78fb7581c93dde597d1a867047c0dde5b8d4a769765b0/tablestring-0.0.4.tar.gz
+[2023-07-16 15:14:26] INFO root fetch - processPackages [birdepy]: Downloading https://files.pythonhosted.org/packages/19/34/577c6303cd69a8ff0ecf8f5ba49e7eb6faa2ea03c7f1e46b1dd8b0999336/birdepy-0.0.9.tar.gz
+[2023-07-16 15:14:26] INFO root fetch - processPackages [nbdev-pandas]: executing diffoscope
+[2023-07-16 15:14:26] INFO root fetch - processPackages [nbdev-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pandas-0.0.98.tar.gz tmp/nbdev-pandas-0.0.99.tar.gz --markdown 20230716/n/nbdev-pandas/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-16 15:14:26] INFO root fetch - processPackages [nbdev-pytorch]: executing diffoscope
+[2023-07-16 15:14:26] INFO root fetch - processPackages [nbdev-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pytorch-0.0.98.tar.gz tmp/nbdev-pytorch-0.0.99.tar.gz --markdown 20230716/n/nbdev-pytorch/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-16 15:14:26] INFO root fetch - processPackages [nbdev-stdlib]: Downloading https://files.pythonhosted.org/packages/9b/0f/42944508859f820e43bf894814c5e9dbc7920a0caceef1828a31a9e5b599/nbdev-stdlib-0.0.99.tar.gz
+[2023-07-16 15:14:26] INFO root fetch - processPackages [foursight-core]: executing diffoscope
+[2023-07-16 15:14:26] INFO root fetch - processPackages [foursight-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foursight_core-4.3.0.2b5.tar.gz tmp/foursight_core-4.3.0.2b6.tar.gz --markdown 20230716/f/foursight-core/4.3.0.2b5-4.3.0.2b6/diff.md --exclude *.pyd
+[2023-07-16 15:14:26] INFO root fetch - processPackages [nbdev-numpy]: executing diffoscope
+[2023-07-16 15:14:26] INFO root fetch - processPackages [nbdev-numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-numpy-0.0.98.tar.gz tmp/nbdev-numpy-0.0.99.tar.gz --markdown 20230716/n/nbdev-numpy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-16 15:14:26] INFO root fetch - processPackages [mad8-pandas]: executing diffoscope
+[2023-07-16 15:14:26] INFO root fetch - processPackages [mad8-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mad8-pandas-1.1.0.tar.gz tmp/mad8-pandas-1.1.1.tar.gz --markdown 20230716/m/mad8-pandas/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-07-16 15:14:26] INFO root fetch - processPackages [mad8-pandas]: executing diffoscope
+[2023-07-16 15:14:26] INFO root fetch - processPackages [mad8-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mad8-pandas-1.1.0.tar.gz tmp/mad8-pandas-1.1.1.tar.gz --markdown 20230716/m/mad8-pandas/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-07-16 15:14:26] INFO root fetch - processPackages [tablestring]: executing diffoscope
+[2023-07-16 15:14:26] INFO root fetch - processPackages [tablestring]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tablestring-0.0.3.tar.gz tmp/tablestring-0.0.4.tar.gz --markdown 20230716/t/tablestring/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-16 15:14:26] INFO root fetch - processPackages [mad8-pandas]: executing diffoscope
+[2023-07-16 15:14:26] INFO root fetch - processPackages [mad8-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mad8-pandas-1.1.0.tar.gz tmp/mad8-pandas-1.1.1.tar.gz --markdown 20230716/m/mad8-pandas/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-07-16 15:14:27] INFO root fetch - processPackages [birdepy]: executing diffoscope
+[2023-07-16 15:14:27] INFO root fetch - processPackages [birdepy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/birdepy-0.0.8.tar.gz tmp/birdepy-0.0.9.tar.gz --markdown 20230716/b/birdepy/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-16 15:14:27] INFO root fetch - processPackages [nbdev-stdlib]: executing diffoscope
+[2023-07-16 15:14:27] INFO root fetch - processPackages [nbdev-stdlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-stdlib-0.0.98.tar.gz tmp/nbdev-stdlib-0.0.99.tar.gz --markdown 20230716/n/nbdev-stdlib/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-16 15:14:28] INFO root fetch - processPackages [nbdev-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pytorch-0.0.98.tar.gz]
+[2023-07-16 15:14:28] INFO root fetch - processPackages [nbdev-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pytorch-0.0.99.tar.gz]
+[2023-07-16 15:14:28] INFO root fetch - processPackages [nbdev-pytorch]: Start processing: foursight-cgap
+[2023-07-16 15:14:28] INFO root fetch - main [MainThread]: End processing [nbdev-pytorch]: success
+[2023-07-16 15:14:28] INFO root fetch - processPackages [foursight-cgap]: New version: [3.5.0.2b9] Old Version: [3.5.0.2b8]
+[2023-07-16 15:14:28] INFO root fetch - processPackages [nbdev-pandas]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pandas-0.0.98.tar.gz]
+[2023-07-16 15:14:28] INFO root fetch - processPackages [nbdev-pandas]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pandas-0.0.99.tar.gz]
+[2023-07-16 15:14:28] INFO root fetch - processPackages [nbdev-pandas]: Start processing: foursight
+[2023-07-16 15:14:28] INFO root fetch - main [MainThread]: End processing [nbdev-pandas]: success
+[2023-07-16 15:14:28] INFO root fetch - processPackages [foursight-cgap]: Downloading https://files.pythonhosted.org/packages/f8/41/724e22fd0406bf8c08bdb1354bddbea9628503a4eac144d5e5ba28753a7b/foursight_cgap-3.5.0.2b8.tar.gz
+[2023-07-16 15:14:28] INFO root fetch - processPackages [foursight]: New version: [3.5.2] Old Version: [3.5.0.2b9]
+[2023-07-16 15:14:28] INFO root fetch - processPackages [nbdev-numpy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-numpy-0.0.98.tar.gz]
+[2023-07-16 15:14:28] INFO root fetch - processPackages [nbdev-numpy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-numpy-0.0.99.tar.gz]
+[2023-07-16 15:14:28] INFO root fetch - processPackages [nbdev-numpy]: Start processing: bigdl-nano
+[2023-07-16 15:14:28] INFO root fetch - main [MainThread]: End processing [nbdev-numpy]: success
+[2023-07-16 15:14:28] INFO root fetch - processPackages [mad8-pandas]: Remove: archive file [/home/abi/fetcher/tmp/mad8-pandas-1.1.0.tar.gz]
+[2023-07-16 15:14:28] INFO root fetch - processPackages [mad8-pandas]: Remove: archive file [/home/abi/fetcher/tmp/mad8-pandas-1.1.1.tar.gz]
+[2023-07-16 15:14:28] INFO root fetch - processPackages [mad8-pandas]: Start processing: bigdl-llm
+[2023-07-16 15:14:28] INFO root fetch - main [MainThread]: End processing [mad8-pandas]: success
+[2023-07-16 15:14:28] INFO root fetch - processPackages [bigdl-nano]: New version: [2.4.0b20230715] Old Version: [2.4.0b20230714]
+[2023-07-16 15:14:28] INFO root fetch - processPackages [nbdev-stdlib]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-stdlib-0.0.98.tar.gz]
+[2023-07-16 15:14:28] INFO root fetch - processPackages [nbdev-stdlib]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-stdlib-0.0.99.tar.gz]
+[2023-07-16 15:14:28] INFO root fetch - processPackages [nbdev-stdlib]: Start processing: bigdl-chronos
+[2023-07-16 15:14:28] INFO root fetch - main [MainThread]: End processing [nbdev-stdlib]: success
+[2023-07-16 15:14:28] INFO root fetch - processPackages [foursight]: Downloading https://files.pythonhosted.org/packages/2f/ea/4ffd61289baca905acc5b266ec269ba6a6a5af5a83d90b64dd3715b8ba73/foursight-3.5.0.2b9.tar.gz
+[2023-07-16 15:14:28] INFO root fetch - processPackages [bigdl-llm]: New version: [2.4.0b20230715] Old Version: [2.4.0b20230714]
+[2023-07-16 15:14:28] INFO root fetch - processPackages [tablestring]: Remove: archive file [/home/abi/fetcher/tmp/tablestring-0.0.3.tar.gz]
+[2023-07-16 15:14:28] INFO root fetch - processPackages [tablestring]: Remove: archive file [/home/abi/fetcher/tmp/tablestring-0.0.4.tar.gz]
+[2023-07-16 15:14:28] INFO root fetch - main [MainThread]: End processing [tablestring]: success
+[2023-07-16 15:14:28] INFO root fetch - main [MainThread]: End processing [mad8-pandas]: success
+[2023-07-16 15:14:28] INFO root fetch - main [MainThread]: End processing [mad8-pandas]: success
+[2023-07-16 15:14:28] INFO root fetch - processPackages [bigdl-llm]: Downloading https://files.pythonhosted.org/packages/7e/11/9cf956899dba2c1888411e15ec9f7a0a97ecd4149e693ccb1ad5b75a85ec/bigdl_llm-2.4.0b20230714-py3-none-win_amd64.whl
+[2023-07-16 15:14:28] INFO root fetch - processPackages [bigdl-chronos]: New version: [2.4.0b20230715] Old Version: [2.4.0b20230714]
+[2023-07-16 15:14:28] INFO root fetch - processPackages [foursight-cgap]: Downloading https://files.pythonhosted.org/packages/5a/d1/fae5fbd3a34b8fe0ae96b6dffef5cabff912cc435426e86840806a4b4847/foursight_cgap-3.5.0.2b9.tar.gz
+[2023-07-16 15:14:28] INFO root fetch - processPackages [foursight-cgap]: executing diffoscope
+[2023-07-16 15:14:28] INFO root fetch - processPackages [foursight-cgap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foursight_cgap-3.5.0.2b8.tar.gz tmp/foursight_cgap-3.5.0.2b9.tar.gz --markdown 20230716/f/foursight-cgap/3.5.0.2b8-3.5.0.2b9/diff.md --exclude *.pyd
+[2023-07-16 15:14:28] INFO root fetch - processPackages [bigdl-chronos]: Downloading https://files.pythonhosted.org/packages/9c/d5/80ff9f600afc9c3be08a0766ae68123f498d99f5769e85c4603341874d9e/bigdl_chronos-2.4.0b20230714-py3-none-win_amd64.whl
+[2023-07-16 15:14:29] INFO root fetch - processPackages [foursight]: Downloading https://files.pythonhosted.org/packages/bd/8c/50d9da3068d59edec8eea2edea45a139cd714924728919f08b74b8300357/foursight-3.5.2.tar.gz
+[2023-07-16 15:14:29] INFO root fetch - processPackages [bigdl-llm]: Downloading https://files.pythonhosted.org/packages/24/73/b5c260b66e25ac518d73c0edd6980a8d54c82532de03dffdc785bd821708/bigdl_llm-2.4.0b20230715-py3-none-win_amd64.whl
+[2023-07-16 15:14:29] INFO root fetch - processPackages [foursight]: executing diffoscope
+[2023-07-16 15:14:29] INFO root fetch - processPackages [foursight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foursight-3.5.0.2b9.tar.gz tmp/foursight-3.5.2.tar.gz --markdown 20230716/f/foursight/3.5.0.2b9-3.5.2/diff.md --exclude *.pyd
+[2023-07-16 15:14:29] INFO root fetch - processPackages [bigdl-nano]: Downloading https://files.pythonhosted.org/packages/45/5d/10a91974b0d198657672ea8dbae8987eaac1028612cb568060218ed396bd/bigdl_nano-2.4.0b20230714-py3-none-win_amd64.whl
+[2023-07-16 15:14:29] INFO root fetch - processPackages [bigdl-chronos]: Downloading https://files.pythonhosted.org/packages/47/ec/e98e94b39365c526dace777e815e130dc326fe645aff9efc42e4a3948311/bigdl_chronos-2.4.0b20230715-py3-none-win_amd64.whl
+[2023-07-16 15:14:29] INFO root fetch - processPackages [bigdl-llm]: executing diffoscope
+[2023-07-16 15:14:29] INFO root fetch - processPackages [bigdl-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_llm-2.4.0b20230714-py3-none-win_amd64.whl.zip tmp/bigdl_llm-2.4.0b20230715-py3-none-win_amd64.whl.zip --markdown 20230716/b/bigdl-llm/2.4.0b20230714-2.4.0b20230715/diff.md --exclude *.pyd
+[2023-07-16 15:14:29] INFO root fetch - processPackages [birdepy]: Remove: archive file [/home/abi/fetcher/tmp/birdepy-0.0.8.tar.gz]
+[2023-07-16 15:14:29] INFO root fetch - processPackages [birdepy]: Remove: archive file [/home/abi/fetcher/tmp/birdepy-0.0.9.tar.gz]
+[2023-07-16 15:14:29] INFO root fetch - main [MainThread]: End processing [birdepy]: success
+[2023-07-16 15:14:29] INFO root fetch - processPackages [bigdl-chronos]: executing diffoscope
+[2023-07-16 15:14:29] INFO root fetch - processPackages [bigdl-chronos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_chronos-2.4.0b20230714-py3-none-win_amd64.whl.zip tmp/bigdl_chronos-2.4.0b20230715-py3-none-win_amd64.whl.zip --markdown 20230716/b/bigdl-chronos/2.4.0b20230714-2.4.0b20230715/diff.md --exclude *.pyd
+[2023-07-16 15:14:29] INFO root fetch - processPackages [foursight-cgap]: Remove: archive file [/home/abi/fetcher/tmp/foursight_cgap-3.5.0.2b8.tar.gz]
+[2023-07-16 15:14:29] INFO root fetch - processPackages [foursight-cgap]: Remove: archive file [/home/abi/fetcher/tmp/foursight_cgap-3.5.0.2b9.tar.gz]
+[2023-07-16 15:14:29] INFO root fetch - main [MainThread]: End processing [foursight-cgap]: success
+[2023-07-16 15:14:30] INFO root fetch - processPackages [bigdl-nano]: Downloading https://files.pythonhosted.org/packages/0f/63/3ad28e2a923e3140424a7a21cec3d101b805c20f3a7b54ec81c0f2fc5170/bigdl_nano-2.4.0b20230715-py3-none-win_amd64.whl
+[2023-07-16 15:14:30] INFO root fetch - processPackages [foursight]: Remove: archive file [/home/abi/fetcher/tmp/foursight-3.5.0.2b9.tar.gz]
+[2023-07-16 15:14:30] INFO root fetch - processPackages [foursight]: Remove: archive file [/home/abi/fetcher/tmp/foursight-3.5.2.tar.gz]
+[2023-07-16 15:14:30] INFO root fetch - main [MainThread]: End processing [foursight]: success
+[2023-07-16 15:14:30] INFO root fetch - processPackages [bigdl-nano]: executing diffoscope
+[2023-07-16 15:14:30] INFO root fetch - processPackages [bigdl-nano]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_nano-2.4.0b20230714-py3-none-win_amd64.whl.zip tmp/bigdl_nano-2.4.0b20230715-py3-none-win_amd64.whl.zip --markdown 20230716/b/bigdl-nano/2.4.0b20230714-2.4.0b20230715/diff.md --exclude *.pyd
+[2023-07-16 15:14:31] INFO root fetch - processPackages [bigdl-chronos]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos-2.4.0b20230714-py3-none-win_amd64.whl.zip]
+[2023-07-16 15:14:31] INFO root fetch - processPackages [bigdl-chronos]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos-2.4.0b20230715-py3-none-win_amd64.whl.zip]
+[2023-07-16 15:14:31] INFO root fetch - main [MainThread]: End processing [bigdl-chronos]: success
+[2023-07-16 15:14:31] INFO root fetch - processPackages [bigdl-nano]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_nano-2.4.0b20230714-py3-none-win_amd64.whl.zip]
+[2023-07-16 15:14:31] INFO root fetch - processPackages [bigdl-nano]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_nano-2.4.0b20230715-py3-none-win_amd64.whl.zip]
+[2023-07-16 15:14:31] INFO root fetch - main [MainThread]: End processing [bigdl-nano]: success
+[2023-07-16 15:14:36] INFO root fetch - processPackages [bigdl-llm]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_llm-2.4.0b20230714-py3-none-win_amd64.whl.zip]
+[2023-07-16 15:14:36] INFO root fetch - processPackages [bigdl-llm]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_llm-2.4.0b20230715-py3-none-win_amd64.whl.zip]
+[2023-07-16 15:14:36] INFO root fetch - main [MainThread]: End processing [bigdl-llm]: success
+[2023-07-16 15:14:41] INFO root fetch - processPackages [foursight-core]: Remove: archive file [/home/abi/fetcher/tmp/foursight_core-4.3.0.2b5.tar.gz]
+[2023-07-16 15:14:41] INFO root fetch - processPackages [foursight-core]: Remove: archive file [/home/abi/fetcher/tmp/foursight_core-4.3.0.2b6.tar.gz]
+[2023-07-16 15:14:41] INFO root fetch - main [MainThread]: End processing [foursight-core]: success
+[2023-07-16 15:14:41] INFO root fetch - main [MainThread]: Store serial: [18907100]
