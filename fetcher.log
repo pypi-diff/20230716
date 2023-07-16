@@ -3759,3 +3759,15 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-16 06:48:17] INFO root fetch - processPackages [ibdx]: Remove: archive file [/home/abi/fetcher/tmp/ibdx-0.3.1.tar.gz]
 [2023-07-16 06:48:17] INFO root fetch - main [MainThread]: End processing [ibdx]: success
 [2023-07-16 06:48:17] INFO root fetch - main [MainThread]: Store serial: [18904827]
+[2023-07-16 06:53:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18904827]
+[2023-07-16 06:53:25] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2023-07-16 06:53:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: j2config
+[2023-07-16 06:53:25] INFO root fetch - processPackages [j2config]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-16 06:53:25] INFO root fetch - processPackages [j2config]: Downloading https://files.pythonhosted.org/packages/a7/50/7d1b63e0bb073a2e92dd53dee39f385900c1c30a9051f42c40e2beabf891/j2config-0.0.5.tar.gz
+[2023-07-16 06:53:26] INFO root fetch - processPackages [j2config]: Downloading https://files.pythonhosted.org/packages/24/6c/4f9d5f0e23ca90be0edfc9fef19a9463be309d18e58927a785ae2eb6d252/j2config-0.0.6.tar.gz
+[2023-07-16 06:53:26] INFO root fetch - processPackages [j2config]: executing diffoscope
+[2023-07-16 06:53:26] INFO root fetch - processPackages [j2config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/j2config-0.0.5.tar.gz tmp/j2config-0.0.6.tar.gz --markdown 20230716/j/j2config/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-16 06:53:27] INFO root fetch - processPackages [j2config]: Remove: archive file [/home/abi/fetcher/tmp/j2config-0.0.5.tar.gz]
+[2023-07-16 06:53:27] INFO root fetch - processPackages [j2config]: Remove: archive file [/home/abi/fetcher/tmp/j2config-0.0.6.tar.gz]
+[2023-07-16 06:53:27] INFO root fetch - main [MainThread]: End processing [j2config]: success
+[2023-07-16 06:53:27] INFO root fetch - main [MainThread]: Store serial: [18904830]
