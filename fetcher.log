@@ -8553,3 +8553,118 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-16 14:47:19] INFO root fetch - processPackages [frictionless]: Remove: archive file [/home/abi/fetcher/tmp/frictionless-5.8.3.tar.gz]
 [2023-07-16 14:47:19] INFO root fetch - main [MainThread]: End processing [frictionless]: success
 [2023-07-16 14:47:19] INFO root fetch - main [MainThread]: Store serial: [18906927]
+[2023-07-16 14:52:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18906927]
+[2023-07-16 14:52:28] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-07-16 14:52:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tensorcircuit-nightly
+[2023-07-16 14:52:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: autosrt
+[2023-07-16 14:52:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: types-aiobotocore-dynamodb
+[2023-07-16 14:52:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aider-chat
+[2023-07-16 14:52:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lolcatt
+[2023-07-16 14:52:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: examon-repo-1
+[2023-07-16 14:52:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: DataProperty
+[2023-07-16 14:52:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: manticore
+[2023-07-16 14:52:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: types-aiobotocore-dynamodb
+[2023-07-16 14:52:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: postal-coder-jp
+[2023-07-16 14:52:28] INFO root fetch - processPackages [types-aiobotocore-dynamodb]: New version: [2.5.2.post2] Old Version: [2.5.2.post1]
+[2023-07-16 14:52:29] INFO root fetch - processPackages [aider-chat]: New version: [0.9.0] Old Version: [0.8.3]
+[2023-07-16 14:52:29] INFO root fetch - processPackages [lolcatt]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-07-16 14:52:29] INFO root fetch - processPackages [postal-coder-jp]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-16 14:52:29] INFO root fetch - processPackages [types-aiobotocore-dynamodb]: New version: [2.5.2.post2] Old Version: [2.5.2.post1]
+[2023-07-16 14:52:29] INFO root fetch - processPackages [autosrt]: New version: [1.4.7] Old Version: [1.4.6]
+[2023-07-16 14:52:29] INFO root fetch - processPackages [DataProperty]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-16 14:52:29] INFO root fetch - processPackages [manticore]: New version: [0.3.8.dev230716] Old Version: [0.3.8.dev230715]
+[2023-07-16 14:52:29] WARNING root fetch - processPackages [examon-repo-1]: Skipping, unable to determine old version
+[2023-07-16 14:52:29] INFO root fetch - processPackages [examon-repo-1]: Start processing: lichenggong
+[2023-07-16 14:52:29] INFO root fetch - main [MainThread]: End processing [examon-repo-1] error
+[2023-07-16 14:52:29] INFO root fetch - processPackages [tensorcircuit-nightly]: New version: [0.9.1.dev20230608] Old Version: [0.9.1.dev20230607]
+[2023-07-16 14:52:29] INFO root fetch - processPackages [lichenggong]: New version: [0.3.1.0] Old Version: [0.3.0.8]
+[2023-07-16 14:52:29] INFO root fetch - processPackages [types-aiobotocore-dynamodb]: Downloading https://files.pythonhosted.org/packages/6e/f4/c538a89b005d2cbe84d26afd9b6bc132ef25086032d3aa2a6c5e4207fbac/types-aiobotocore-dynamodb-2.5.2.post1.tar.gz
+[2023-07-16 14:52:29] INFO root fetch - processPackages [postal-coder-jp]: Downloading https://files.pythonhosted.org/packages/e4/1f/7f1b5ac6d605d8cd6846a0aaba79e2a8a4fc8c64dff11a4a70cbfee235cb/postal_coder_jp-0.1.2.tar.gz
+[2023-07-16 14:52:29] INFO root fetch - processPackages [lolcatt]: Downloading https://files.pythonhosted.org/packages/ea/03/5b4106c1a0233aa8fe70d2f36df342aecdc9c202cbed26be121d13871cf8/lolcatt-0.2.2.tar.gz
+[2023-07-16 14:52:29] INFO root fetch - processPackages [manticore]: Downloading https://files.pythonhosted.org/packages/04/75/e07913d99208e1fc94c419170b64ba999576a84aebd97f9592cb108a165a/manticore-0.3.8.dev230715.tar.gz
+[2023-07-16 14:52:29] INFO root fetch - processPackages [types-aiobotocore-dynamodb]: Downloading https://files.pythonhosted.org/packages/6e/f4/c538a89b005d2cbe84d26afd9b6bc132ef25086032d3aa2a6c5e4207fbac/types-aiobotocore-dynamodb-2.5.2.post1.tar.gz
+[2023-07-16 14:52:29] INFO root fetch - processPackages [aider-chat]: Downloading https://files.pythonhosted.org/packages/97/6d/6e7b681204d0890d7a1d07928f1168e3e15b16856958c5b3934aa123f438/aider-chat-0.8.3.tar.gz
+[2023-07-16 14:52:29] INFO root fetch - processPackages [autosrt]: Downloading https://files.pythonhosted.org/packages/76/50/4e6191f498f51e994eb36f54365bf74eb6563b2834ec5233fbbcf1dc018b/autosrt-1.4.6.tar.gz
+[2023-07-16 14:52:29] INFO root fetch - processPackages [DataProperty]: Downloading https://files.pythonhosted.org/packages/40/11/eac1206a8ea46eb6e1b6b20eb4eec454d41887cfd2396d1f87f50d03a483/DataProperty-1.0.0.tar.gz
+[2023-07-16 14:52:29] INFO root fetch - processPackages [lichenggong]: Downloading https://files.pythonhosted.org/packages/88/9f/fd0b603e0c70611c106a441e0823246a096262fd144724df36ce5f1ee886/lichenggong-0.3.0.8.tar.gz
+[2023-07-16 14:52:29] INFO root fetch - processPackages [tensorcircuit-nightly]: Downloading https://files.pythonhosted.org/packages/79/2a/50740b6f8b7e1d0c4223c72c789f41baca7a4e77f32e8f52bd91e7ebff20/tensorcircuit-nightly-0.9.1.dev20230607.tar.gz
+[2023-07-16 14:52:29] INFO root fetch - processPackages [types-aiobotocore-dynamodb]: Downloading https://files.pythonhosted.org/packages/98/32/a5743aff92512de9f0d040a7a5ee608d0fdf35125d9dd27334039511d88f/types-aiobotocore-dynamodb-2.5.2.post2.tar.gz
+[2023-07-16 14:52:29] INFO root fetch - processPackages [types-aiobotocore-dynamodb]: Downloading https://files.pythonhosted.org/packages/98/32/a5743aff92512de9f0d040a7a5ee608d0fdf35125d9dd27334039511d88f/types-aiobotocore-dynamodb-2.5.2.post2.tar.gz
+[2023-07-16 14:52:29] INFO root fetch - processPackages [postal-coder-jp]: Downloading https://files.pythonhosted.org/packages/e6/66/8ed6553da383271b6d34123187b0b82f63eaa452e23d371ec46bf38bc793/postal_coder_jp-0.1.3.tar.gz
+[2023-07-16 14:52:29] INFO root fetch - processPackages [lolcatt]: Downloading https://files.pythonhosted.org/packages/65/7b/7544879edbd9ee3f1c3f7bd5b80187d9ed741bd660d11eb8b39edb58dcb2/lolcatt-0.2.3.tar.gz
+[2023-07-16 14:52:29] INFO root fetch - processPackages [autosrt]: Downloading https://files.pythonhosted.org/packages/cb/bb/570ba70635ce68fa0d30f93105dd858f8b397085f511e0fe0e7b337cddc3/autosrt-1.4.7.tar.gz
+[2023-07-16 14:52:29] INFO root fetch - processPackages [DataProperty]: Downloading https://files.pythonhosted.org/packages/48/e2/31ffb67d2a9ab4ff70b106e08ad01a3e7696f8d409457042d1eb18244f82/DataProperty-1.0.1.tar.gz
+[2023-07-16 14:52:29] INFO root fetch - processPackages [manticore]: Downloading https://files.pythonhosted.org/packages/43/96/25d5aa68eabd7c746b7baf5bfa606f7fb08878bd0e473f7bcd2fdfae7614/manticore-0.3.8.dev230716.tar.gz
+[2023-07-16 14:52:29] INFO root fetch - processPackages [lichenggong]: Downloading https://files.pythonhosted.org/packages/23/49/5a8f555033be6fb042d9b05cb179a294d01f3eecbfd09647e6407b7cfb5f/lichenggong-0.3.1.0.tar.gz
+[2023-07-16 14:52:30] INFO root fetch - processPackages [aider-chat]: Downloading https://files.pythonhosted.org/packages/27/f3/89e2047247691d2f850711b47e321bccb308fdcd459ee406fc6fd652d143/aider-chat-0.9.0.tar.gz
+[2023-07-16 14:52:30] INFO root fetch - processPackages [types-aiobotocore-dynamodb]: executing diffoscope
+[2023-07-16 14:52:30] INFO root fetch - processPackages [types-aiobotocore-dynamodb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-aiobotocore-dynamodb-2.5.2.post1.tar.gz tmp/types-aiobotocore-dynamodb-2.5.2.post2.tar.gz --markdown 20230716/t/types-aiobotocore-dynamodb/2.5.2.post1-2.5.2.post2/diff.md --exclude *.pyd
+[2023-07-16 14:52:30] INFO root fetch - processPackages [types-aiobotocore-dynamodb]: executing diffoscope
+[2023-07-16 14:52:30] INFO root fetch - processPackages [types-aiobotocore-dynamodb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-aiobotocore-dynamodb-2.5.2.post1.tar.gz tmp/types-aiobotocore-dynamodb-2.5.2.post2.tar.gz --markdown 20230716/t/types-aiobotocore-dynamodb/2.5.2.post1-2.5.2.post2/diff.md --exclude *.pyd
+[2023-07-16 14:52:30] INFO root fetch - processPackages [postal-coder-jp]: executing diffoscope
+[2023-07-16 14:52:30] INFO root fetch - processPackages [postal-coder-jp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/postal_coder_jp-0.1.2.tar.gz tmp/postal_coder_jp-0.1.3.tar.gz --markdown 20230716/p/postal-coder-jp/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-16 14:52:30] INFO root fetch - processPackages [tensorcircuit-nightly]: Downloading https://files.pythonhosted.org/packages/2f/cc/671276320457670987d1eb503de15ee19924e63c7ec9c99b14c240d5aa18/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz
+[2023-07-16 14:52:30] INFO root fetch - processPackages [autosrt]: executing diffoscope
+[2023-07-16 14:52:30] INFO root fetch - processPackages [autosrt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autosrt-1.4.6.tar.gz tmp/autosrt-1.4.7.tar.gz --markdown 20230716/a/autosrt/1.4.6-1.4.7/diff.md --exclude *.pyd
+[2023-07-16 14:52:30] INFO root fetch - processPackages [lolcatt]: executing diffoscope
+[2023-07-16 14:52:30] INFO root fetch - processPackages [lolcatt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lolcatt-0.2.2.tar.gz tmp/lolcatt-0.2.3.tar.gz --markdown 20230716/l/lolcatt/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-07-16 14:52:30] INFO root fetch - processPackages [DataProperty]: executing diffoscope
+[2023-07-16 14:52:30] INFO root fetch - processPackages [DataProperty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DataProperty-1.0.0.tar.gz tmp/DataProperty-1.0.1.tar.gz --markdown 20230716/D/DataProperty/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-16 14:52:30] INFO root fetch - processPackages [lichenggong]: executing diffoscope
+[2023-07-16 14:52:30] INFO root fetch - processPackages [lichenggong]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lichenggong-0.3.0.8.tar.gz tmp/lichenggong-0.3.1.0.tar.gz --markdown 20230716/l/lichenggong/0.3.0.8-0.3.1.0/diff.md --exclude *.pyd
+[2023-07-16 14:52:30] INFO root fetch - processPackages [aider-chat]: executing diffoscope
+[2023-07-16 14:52:30] INFO root fetch - processPackages [aider-chat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aider-chat-0.8.3.tar.gz tmp/aider-chat-0.9.0.tar.gz --markdown 20230716/a/aider-chat/0.8.3-0.9.0/diff.md --exclude *.pyd
+[2023-07-16 14:52:30] INFO root fetch - processPackages [tensorcircuit-nightly]: executing diffoscope
+[2023-07-16 14:52:30] INFO root fetch - processPackages [tensorcircuit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorcircuit-nightly-0.9.1.dev20230607.tar.gz tmp/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz --markdown 20230716/t/tensorcircuit-nightly/0.9.1.dev20230607-0.9.1.dev20230608/diff.md --exclude *.pyd
+[2023-07-16 14:52:30] INFO root fetch - processPackages [manticore]: executing diffoscope
+[2023-07-16 14:52:30] INFO root fetch - processPackages [manticore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/manticore-0.3.8.dev230715.tar.gz tmp/manticore-0.3.8.dev230716.tar.gz --markdown 20230716/m/manticore/0.3.8.dev230715-0.3.8.dev230716/diff.md --exclude *.pyd
+[2023-07-16 14:52:31] INFO root fetch - processPackages [postal-coder-jp]: Remove: archive file [/home/abi/fetcher/tmp/postal_coder_jp-0.1.2.tar.gz]
+[2023-07-16 14:52:31] INFO root fetch - processPackages [postal-coder-jp]: Remove: archive file [/home/abi/fetcher/tmp/postal_coder_jp-0.1.3.tar.gz]
+[2023-07-16 14:52:31] INFO root fetch - processPackages [postal-coder-jp]: Start processing: kaisia
+[2023-07-16 14:52:31] INFO root fetch - main [MainThread]: End processing [postal-coder-jp]: success
+[2023-07-16 14:52:31] INFO root fetch - processPackages [autosrt]: Remove: archive file [/home/abi/fetcher/tmp/autosrt-1.4.6.tar.gz]
+[2023-07-16 14:52:31] INFO root fetch - processPackages [autosrt]: Remove: archive file [/home/abi/fetcher/tmp/autosrt-1.4.7.tar.gz]
+[2023-07-16 14:52:31] INFO root fetch - processPackages [autosrt]: Start processing: model-diagnostics
+[2023-07-16 14:52:31] INFO root fetch - main [MainThread]: End processing [autosrt]: success
+[2023-07-16 14:52:31] WARNING root fetch - processPackages [kaisia]: Skipping, unable to determine old version
+[2023-07-16 14:52:31] INFO root fetch - processPackages [kaisia]: Start processing: simplekivy
+[2023-07-16 14:52:31] INFO root fetch - main [MainThread]: End processing [kaisia] error
+[2023-07-16 14:52:31] INFO root fetch - processPackages [model-diagnostics]: New version: [1.0.0rc0] Old Version: [0.2.0]
+[2023-07-16 14:52:31] INFO root fetch - processPackages [types-aiobotocore-dynamodb]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-dynamodb-2.5.2.post1.tar.gz]
+[2023-07-16 14:52:31] INFO root fetch - processPackages [types-aiobotocore-dynamodb]: Remove: archive file [/home/abi/fetcher/tmp/types-aiobotocore-dynamodb-2.5.2.post2.tar.gz]
+[2023-07-16 14:52:31] INFO root fetch - main [MainThread]: End processing [types-aiobotocore-dynamodb]: success
+[2023-07-16 14:52:31] INFO root fetch - processPackages [simplekivy]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-16 14:52:31] INFO root fetch - processPackages [model-diagnostics]: Downloading https://files.pythonhosted.org/packages/f6/0a/b054f73efc09fff843c0aac55b65713bfd00e19993edac5d3db1548227ac/model_diagnostics-0.2.0.tar.gz
+[2023-07-16 14:52:31] INFO root fetch - main [MainThread]: End processing [types-aiobotocore-dynamodb]: success
+[2023-07-16 14:52:31] INFO root fetch - processPackages [lolcatt]: Remove: archive file [/home/abi/fetcher/tmp/lolcatt-0.2.2.tar.gz]
+[2023-07-16 14:52:31] INFO root fetch - processPackages [lolcatt]: Remove: archive file [/home/abi/fetcher/tmp/lolcatt-0.2.3.tar.gz]
+[2023-07-16 14:52:31] INFO root fetch - main [MainThread]: End processing [lolcatt]: success
+[2023-07-16 14:52:32] INFO root fetch - processPackages [DataProperty]: Remove: archive file [/home/abi/fetcher/tmp/DataProperty-1.0.0.tar.gz]
+[2023-07-16 14:52:32] INFO root fetch - processPackages [DataProperty]: Remove: archive file [/home/abi/fetcher/tmp/DataProperty-1.0.1.tar.gz]
+[2023-07-16 14:52:32] INFO root fetch - main [MainThread]: End processing [DataProperty]: success
+[2023-07-16 14:52:32] INFO root fetch - processPackages [lichenggong]: Remove: archive file [/home/abi/fetcher/tmp/lichenggong-0.3.0.8.tar.gz]
+[2023-07-16 14:52:32] INFO root fetch - processPackages [lichenggong]: Remove: archive file [/home/abi/fetcher/tmp/lichenggong-0.3.1.0.tar.gz]
+[2023-07-16 14:52:32] INFO root fetch - main [MainThread]: End processing [lichenggong]: success
+[2023-07-16 14:52:32] INFO root fetch - processPackages [simplekivy]: Downloading https://files.pythonhosted.org/packages/6a/33/c10a50f5fda1832393f078748fdaabd0e37b201f5eb78648ef345b07d915/simplekivy-0.0.3.tar.gz
+[2023-07-16 14:52:32] INFO root fetch - processPackages [model-diagnostics]: Downloading https://files.pythonhosted.org/packages/ed/16/06a4739931fe7711169f184d3d9b784f593a9a41fd4e8bb42c0987452e8c/model_diagnostics-1.0.0rc0.tar.gz
+[2023-07-16 14:52:32] INFO root fetch - processPackages [aider-chat]: Remove: archive file [/home/abi/fetcher/tmp/aider-chat-0.8.3.tar.gz]
+[2023-07-16 14:52:32] INFO root fetch - processPackages [aider-chat]: Remove: archive file [/home/abi/fetcher/tmp/aider-chat-0.9.0.tar.gz]
+[2023-07-16 14:52:32] INFO root fetch - main [MainThread]: End processing [aider-chat]: success
+[2023-07-16 14:52:32] INFO root fetch - processPackages [model-diagnostics]: executing diffoscope
+[2023-07-16 14:52:32] INFO root fetch - processPackages [model-diagnostics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/model_diagnostics-0.2.0.tar.gz tmp/model_diagnostics-1.0.0rc0.tar.gz --markdown 20230716/m/model-diagnostics/0.2.0-1.0.0rc0/diff.md --exclude *.pyd
+[2023-07-16 14:52:32] INFO root fetch - processPackages [manticore]: Remove: archive file [/home/abi/fetcher/tmp/manticore-0.3.8.dev230715.tar.gz]
+[2023-07-16 14:52:32] INFO root fetch - processPackages [manticore]: Remove: archive file [/home/abi/fetcher/tmp/manticore-0.3.8.dev230716.tar.gz]
+[2023-07-16 14:52:32] INFO root fetch - main [MainThread]: End processing [manticore]: success
+[2023-07-16 14:52:32] INFO root fetch - processPackages [simplekivy]: Downloading https://files.pythonhosted.org/packages/2f/d4/6ae55d1d810dac2da1233ad7dce0a879023c51b55b52f38c4dee64ec7101/simplekivy-0.0.4.tar.gz
+[2023-07-16 14:52:32] INFO root fetch - processPackages [tensorcircuit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensorcircuit-nightly-0.9.1.dev20230607.tar.gz]
+[2023-07-16 14:52:32] INFO root fetch - processPackages [tensorcircuit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz]
+[2023-07-16 14:52:32] INFO root fetch - main [MainThread]: End processing [tensorcircuit-nightly]: success
+[2023-07-16 14:52:32] INFO root fetch - processPackages [simplekivy]: executing diffoscope
+[2023-07-16 14:52:32] INFO root fetch - processPackages [simplekivy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simplekivy-0.0.3.tar.gz tmp/simplekivy-0.0.4.tar.gz --markdown 20230716/s/simplekivy/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-16 14:52:33] INFO root fetch - processPackages [simplekivy]: Remove: archive file [/home/abi/fetcher/tmp/simplekivy-0.0.3.tar.gz]
+[2023-07-16 14:52:33] INFO root fetch - processPackages [simplekivy]: Remove: archive file [/home/abi/fetcher/tmp/simplekivy-0.0.4.tar.gz]
+[2023-07-16 14:52:33] INFO root fetch - main [MainThread]: End processing [simplekivy]: success
+[2023-07-16 14:52:34] INFO root fetch - processPackages [model-diagnostics]: Remove: archive file [/home/abi/fetcher/tmp/model_diagnostics-0.2.0.tar.gz]
+[2023-07-16 14:52:34] INFO root fetch - processPackages [model-diagnostics]: Remove: archive file [/home/abi/fetcher/tmp/model_diagnostics-1.0.0rc0.tar.gz]
+[2023-07-16 14:52:34] INFO root fetch - main [MainThread]: End processing [model-diagnostics]: success
+[2023-07-16 14:52:34] INFO root fetch - main [MainThread]: Store serial: [18906975]
