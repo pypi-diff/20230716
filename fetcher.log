@@ -5686,3 +5686,22 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-16 10:26:43] INFO root fetch - processPackages [tf-model-optimization-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_model_optimization_nightly-0.7.5.dev20230715-py2.py3-none-any.whl.zip]
 [2023-07-16 10:26:43] INFO root fetch - main [MainThread]: End processing [tf-model-optimization-nightly]: success
 [2023-07-16 10:26:43] INFO root fetch - main [MainThread]: Store serial: [18905670]
+[2023-07-16 10:31:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18905670]
+[2023-07-16 10:31:51] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-07-16 10:31:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: clustutils4r
+[2023-07-16 10:31:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: clustutils4r
+[2023-07-16 10:31:51] INFO root fetch - processPackages [clustutils4r]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-16 10:31:51] INFO root fetch - processPackages [clustutils4r]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-16 10:31:51] INFO root fetch - processPackages [clustutils4r]: Downloading https://files.pythonhosted.org/packages/60/87/9e1da2e67a365cc2962cc183f14e8b48e627365e9198593b3e4bb9118571/clustutils4r-0.0.7.tar.gz
+[2023-07-16 10:31:51] INFO root fetch - processPackages [clustutils4r]: Downloading https://files.pythonhosted.org/packages/60/87/9e1da2e67a365cc2962cc183f14e8b48e627365e9198593b3e4bb9118571/clustutils4r-0.0.7.tar.gz
+[2023-07-16 10:31:51] INFO root fetch - processPackages [clustutils4r]: Downloading https://files.pythonhosted.org/packages/7a/0f/eb56423b75579c0e02dd3b609c2708cc0ba74031006335d26eca2fea3667/clustutils4r-0.0.8.tar.gz
+[2023-07-16 10:31:52] INFO root fetch - processPackages [clustutils4r]: Downloading https://files.pythonhosted.org/packages/7a/0f/eb56423b75579c0e02dd3b609c2708cc0ba74031006335d26eca2fea3667/clustutils4r-0.0.8.tar.gz
+[2023-07-16 10:31:52] INFO root fetch - processPackages [clustutils4r]: executing diffoscope
+[2023-07-16 10:31:52] INFO root fetch - processPackages [clustutils4r]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clustutils4r-0.0.7.tar.gz tmp/clustutils4r-0.0.8.tar.gz --markdown 20230716/c/clustutils4r/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-16 10:31:52] INFO root fetch - processPackages [clustutils4r]: executing diffoscope
+[2023-07-16 10:31:52] INFO root fetch - processPackages [clustutils4r]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clustutils4r-0.0.7.tar.gz tmp/clustutils4r-0.0.8.tar.gz --markdown 20230716/c/clustutils4r/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-16 10:31:52] INFO root fetch - processPackages [clustutils4r]: Remove: archive file [/home/abi/fetcher/tmp/clustutils4r-0.0.7.tar.gz]
+[2023-07-16 10:31:52] INFO root fetch - processPackages [clustutils4r]: Remove: archive file [/home/abi/fetcher/tmp/clustutils4r-0.0.8.tar.gz]
+[2023-07-16 10:31:52] INFO root fetch - main [MainThread]: End processing [clustutils4r]: success
+[2023-07-16 10:31:52] INFO root fetch - main [MainThread]: End processing [clustutils4r]: success
+[2023-07-16 10:31:52] INFO root fetch - main [MainThread]: Store serial: [18905679]
