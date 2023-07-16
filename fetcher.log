@@ -9727,3 +9727,70 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-16 16:02:38] INFO root fetch - processPackages [fastestimator-nightly]: Remove: archive file [/home/abi/fetcher/tmp/fastestimator-nightly-1.6.0.dev202307151357.tar.gz]
 [2023-07-16 16:02:38] INFO root fetch - main [MainThread]: End processing [fastestimator-nightly]: success
 [2023-07-16 16:02:38] INFO root fetch - main [MainThread]: Store serial: [18907388]
+[2023-07-16 16:07:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18907388]
+[2023-07-16 16:07:47] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-16 16:07:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyVIA
+[2023-07-16 16:07:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zit
+[2023-07-16 16:07:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nonebot-plugin-bilichat
+[2023-07-16 16:07:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qq.py
+[2023-07-16 16:07:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: py-astrolab
+[2023-07-16 16:07:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyVIA
+[2023-07-16 16:07:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: xiaomi-ble
+[2023-07-16 16:07:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fhzz
+[2023-07-16 16:07:47] INFO root fetch - processPackages [zit]: New version: [0.0.3a9] Old Version: [0.0.3a8]
+[2023-07-16 16:07:47] INFO root fetch - processPackages [pyVIA]: New version: [0.1.9] Old Version: [0.1.85]
+[2023-07-16 16:07:47] INFO root fetch - processPackages [nonebot-plugin-bilichat]: New version: [2.9.1] Old Version: [2.9.0]
+[2023-07-16 16:07:47] INFO root fetch - processPackages [py-astrolab]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-16 16:07:47] INFO root fetch - processPackages [pyVIA]: New version: [0.1.9] Old Version: [0.1.85]
+[2023-07-16 16:07:47] INFO root fetch - processPackages [qq.py]: New version: [1.2.8] Old Version: [1.2.7]
+[2023-07-16 16:07:47] INFO root fetch - processPackages [xiaomi-ble]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-07-16 16:07:47] WARNING root fetch - processPackages [fhzz]: Skipping, unable to determine old version
+[2023-07-16 16:07:47] INFO root fetch - main [MainThread]: End processing [fhzz] error
+[2023-07-16 16:07:47] INFO root fetch - processPackages [zit]: Downloading https://files.pythonhosted.org/packages/9d/b1/feab52c6188b15e420bc52c41b2e6bca0dbd342cf5b12a4e575ae0726fee/zit-0.0.3a8.tar.gz
+[2023-07-16 16:07:47] INFO root fetch - processPackages [pyVIA]: Downloading https://files.pythonhosted.org/packages/60/79/2ab9b7d69e7e78ea01b1f409ffebba6fd56da8e092d7ea59242c70e85a83/pyVIA-0.1.85.tar.gz
+[2023-07-16 16:07:47] INFO root fetch - processPackages [pyVIA]: Downloading https://files.pythonhosted.org/packages/60/79/2ab9b7d69e7e78ea01b1f409ffebba6fd56da8e092d7ea59242c70e85a83/pyVIA-0.1.85.tar.gz
+[2023-07-16 16:07:47] INFO root fetch - processPackages [nonebot-plugin-bilichat]: Downloading https://files.pythonhosted.org/packages/47/8e/394ab4c66a3c5fb9c446076756afcb14c47bbd6395f25d80e21efad816da/nonebot_plugin_bilichat-2.9.0.tar.gz
+[2023-07-16 16:07:47] INFO root fetch - processPackages [py-astrolab]: Downloading https://files.pythonhosted.org/packages/96/51/6588dee3363429d360f2ab789425706d1a7837812ec2e1eebb7d3f39a075/py_astrolab-0.2.1.tar.gz
+[2023-07-16 16:07:47] INFO root fetch - processPackages [xiaomi-ble]: Downloading https://files.pythonhosted.org/packages/88/f2/12299e377e2573298346c8b5aafba862a8dc6ee519042614a545dd7681ec/xiaomi-ble-0.9.2.tar.gz
+[2023-07-16 16:07:47] INFO root fetch - processPackages [qq.py]: Downloading https://files.pythonhosted.org/packages/1a/38/f28f558411bd2c03273daf9c886f06f76f841f5e011cfeb2ed59d75f3db2/qq.py-1.2.7.tar.gz
+[2023-07-16 16:07:47] INFO root fetch - processPackages [zit]: Downloading https://files.pythonhosted.org/packages/0b/29/dd47bcd69f0c0c4481944f323918be890bb8afe3b32336f509edfc597748/zit-0.0.3a9.tar.gz
+[2023-07-16 16:07:47] INFO root fetch - processPackages [zit]: executing diffoscope
+[2023-07-16 16:07:47] INFO root fetch - processPackages [zit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zit-0.0.3a8.tar.gz tmp/zit-0.0.3a9.tar.gz --markdown 20230716/z/zit/0.0.3a8-0.0.3a9/diff.md --exclude *.pyd
+[2023-07-16 16:07:47] INFO root fetch - processPackages [pyVIA]: Downloading https://files.pythonhosted.org/packages/bd/5d/14b0cba02cfede3b95cd9d5da09d97df025ef9b2e4a6efd991707631f113/pyVIA-0.1.9.tar.gz
+[2023-07-16 16:07:47] INFO root fetch - processPackages [pyVIA]: Downloading https://files.pythonhosted.org/packages/bd/5d/14b0cba02cfede3b95cd9d5da09d97df025ef9b2e4a6efd991707631f113/pyVIA-0.1.9.tar.gz
+[2023-07-16 16:07:47] INFO root fetch - processPackages [py-astrolab]: Downloading https://files.pythonhosted.org/packages/e7/19/4fc463b32e6243eab9c1774cad505fb8e6dc9ede56da58f11f497de6875c/py_astrolab-0.2.2.tar.gz
+[2023-07-16 16:07:48] INFO root fetch - processPackages [pyVIA]: executing diffoscope
+[2023-07-16 16:07:48] INFO root fetch - processPackages [pyVIA]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyVIA-0.1.85.tar.gz tmp/pyVIA-0.1.9.tar.gz --markdown 20230716/p/pyVIA/0.1.85-0.1.9/diff.md --exclude *.pyd
+[2023-07-16 16:07:48] INFO root fetch - processPackages [pyVIA]: executing diffoscope
+[2023-07-16 16:07:48] INFO root fetch - processPackages [pyVIA]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyVIA-0.1.85.tar.gz tmp/pyVIA-0.1.9.tar.gz --markdown 20230716/p/pyVIA/0.1.85-0.1.9/diff.md --exclude *.pyd
+[2023-07-16 16:07:48] INFO root fetch - processPackages [xiaomi-ble]: Downloading https://files.pythonhosted.org/packages/f6/49/a91b790de545fe1a61c57fb016733518e3c312802b3ec64610f44c81ee11/xiaomi-ble-0.9.3.tar.gz
+[2023-07-16 16:07:48] INFO root fetch - processPackages [qq.py]: Downloading https://files.pythonhosted.org/packages/0a/d9/8a472afa91013ce6bfe61b225d088b676508a5c2bc19dea28be199bbadd1/qq.py-1.2.8.tar.gz
+[2023-07-16 16:07:48] INFO root fetch - processPackages [py-astrolab]: executing diffoscope
+[2023-07-16 16:07:48] INFO root fetch - processPackages [py-astrolab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_astrolab-0.2.1.tar.gz tmp/py_astrolab-0.2.2.tar.gz --markdown 20230716/p/py-astrolab/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-16 16:07:48] INFO root fetch - processPackages [nonebot-plugin-bilichat]: Downloading https://files.pythonhosted.org/packages/b4/3c/8f5b12dd594cc0001f59a7b4bce5d99d5d145553c4cd12eaef65109a5d78/nonebot_plugin_bilichat-2.9.1.tar.gz
+[2023-07-16 16:07:48] INFO root fetch - processPackages [xiaomi-ble]: executing diffoscope
+[2023-07-16 16:07:48] INFO root fetch - processPackages [xiaomi-ble]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xiaomi-ble-0.9.2.tar.gz tmp/xiaomi-ble-0.9.3.tar.gz --markdown 20230716/x/xiaomi-ble/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-07-16 16:07:48] INFO root fetch - processPackages [nonebot-plugin-bilichat]: executing diffoscope
+[2023-07-16 16:07:48] INFO root fetch - processPackages [nonebot-plugin-bilichat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_bilichat-2.9.0.tar.gz tmp/nonebot_plugin_bilichat-2.9.1.tar.gz --markdown 20230716/n/nonebot-plugin-bilichat/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2023-07-16 16:07:48] INFO root fetch - processPackages [qq.py]: executing diffoscope
+[2023-07-16 16:07:48] INFO root fetch - processPackages [qq.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qq.py-1.2.7.tar.gz tmp/qq.py-1.2.8.tar.gz --markdown 20230716/q/qq.py/1.2.7-1.2.8/diff.md --exclude *.pyd
+[2023-07-16 16:07:48] INFO root fetch - processPackages [zit]: Remove: archive file [/home/abi/fetcher/tmp/zit-0.0.3a8.tar.gz]
+[2023-07-16 16:07:48] INFO root fetch - processPackages [zit]: Remove: archive file [/home/abi/fetcher/tmp/zit-0.0.3a9.tar.gz]
+[2023-07-16 16:07:48] INFO root fetch - main [MainThread]: End processing [zit]: success
+[2023-07-16 16:07:49] INFO root fetch - processPackages [pyVIA]: Remove: archive file [/home/abi/fetcher/tmp/pyVIA-0.1.85.tar.gz]
+[2023-07-16 16:07:49] INFO root fetch - processPackages [pyVIA]: Remove: archive file [/home/abi/fetcher/tmp/pyVIA-0.1.9.tar.gz]
+[2023-07-16 16:07:49] INFO root fetch - main [MainThread]: End processing [pyVIA]: success
+[2023-07-16 16:07:49] INFO root fetch - main [MainThread]: End processing [pyVIA]: success
+[2023-07-16 16:07:49] INFO root fetch - processPackages [py-astrolab]: Remove: archive file [/home/abi/fetcher/tmp/py_astrolab-0.2.1.tar.gz]
+[2023-07-16 16:07:49] INFO root fetch - processPackages [py-astrolab]: Remove: archive file [/home/abi/fetcher/tmp/py_astrolab-0.2.2.tar.gz]
+[2023-07-16 16:07:49] INFO root fetch - main [MainThread]: End processing [py-astrolab]: success
+[2023-07-16 16:07:49] INFO root fetch - processPackages [xiaomi-ble]: Remove: archive file [/home/abi/fetcher/tmp/xiaomi-ble-0.9.2.tar.gz]
+[2023-07-16 16:07:49] INFO root fetch - processPackages [xiaomi-ble]: Remove: archive file [/home/abi/fetcher/tmp/xiaomi-ble-0.9.3.tar.gz]
+[2023-07-16 16:07:49] INFO root fetch - main [MainThread]: End processing [xiaomi-ble]: success
+[2023-07-16 16:07:49] INFO root fetch - processPackages [nonebot-plugin-bilichat]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_bilichat-2.9.0.tar.gz]
+[2023-07-16 16:07:49] INFO root fetch - processPackages [nonebot-plugin-bilichat]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_bilichat-2.9.1.tar.gz]
+[2023-07-16 16:07:49] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-bilichat]: success
+[2023-07-16 16:07:50] INFO root fetch - processPackages [qq.py]: Remove: archive file [/home/abi/fetcher/tmp/qq.py-1.2.7.tar.gz]
+[2023-07-16 16:07:50] INFO root fetch - processPackages [qq.py]: Remove: archive file [/home/abi/fetcher/tmp/qq.py-1.2.8.tar.gz]
+[2023-07-16 16:07:50] INFO root fetch - main [MainThread]: End processing [qq.py]: success
+[2023-07-16 16:07:50] INFO root fetch - main [MainThread]: Store serial: [18907413]
