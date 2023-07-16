@@ -11719,3 +11719,42 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-16 18:49:52] INFO root fetch - processPackages [masterpass]: Remove: archive file [/home/abi/fetcher/tmp/masterpass-0.2.2.tar.gz]
 [2023-07-16 18:49:52] INFO root fetch - main [MainThread]: End processing [masterpass]: success
 [2023-07-16 18:49:52] INFO root fetch - main [MainThread]: Store serial: [18908177]
+[2023-07-16 18:54:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18908177]
+[2023-07-16 18:55:01] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-16 18:55:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mirutil
+[2023-07-16 18:55:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lollms
+[2023-07-16 18:55:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: buckaroo
+[2023-07-16 18:55:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: planqk-quantum
+[2023-07-16 18:55:01] INFO root fetch - processPackages [buckaroo]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-16 18:55:01] INFO root fetch - processPackages [planqk-quantum]: New version: [1.9.0] Old Version: [1.8.6]
+[2023-07-16 18:55:01] INFO root fetch - processPackages [mirutil]: New version: [9.4.0] Old Version: [9.3.1]
+[2023-07-16 18:55:01] INFO root fetch - processPackages [lollms]: New version: [2.1.9] Old Version: [2.1.8]
+[2023-07-16 18:55:01] INFO root fetch - processPackages [buckaroo]: Downloading https://files.pythonhosted.org/packages/06/1d/f1d551d2b97fd6f278757ed06abe2eaa396eca8eb79ae206a203fa155f75/buckaroo-0.3.8.tar.gz
+[2023-07-16 18:55:01] INFO root fetch - processPackages [lollms]: Downloading https://files.pythonhosted.org/packages/55/8e/c10a453677812ff66a65c459737c99f6b99cc00da8cc2e27f3a1f924faa0/lollms-2.1.8.tar.gz
+[2023-07-16 18:55:01] INFO root fetch - processPackages [planqk-quantum]: Downloading https://files.pythonhosted.org/packages/3b/a2/2283b7561efc1f28847bda5663a94ecf7f878f29f7b3a1590a79b839125d/planqk-quantum-1.8.6.tar.gz
+[2023-07-16 18:55:01] INFO root fetch - processPackages [mirutil]: Downloading https://files.pythonhosted.org/packages/38/6e/e3b08382149307a94ff2b014f554aa4dedaad5e3cc7b3b4e2fd1d21e0de1/mirutil-9.3.1.tar.gz
+[2023-07-16 18:55:02] INFO root fetch - processPackages [lollms]: Downloading https://files.pythonhosted.org/packages/6a/83/7745db4a743155e7a857ec418630027696e10e7fb67dfd6805a2496bdb64/lollms-2.1.9.tar.gz
+[2023-07-16 18:55:02] INFO root fetch - processPackages [buckaroo]: Downloading https://files.pythonhosted.org/packages/c8/c3/a7154d2a9eef69d162d68d71d7580507073050126912ab25eff8d832d3b9/buckaroo-0.3.9.tar.gz
+[2023-07-16 18:55:02] INFO root fetch - processPackages [lollms]: executing diffoscope
+[2023-07-16 18:55:02] INFO root fetch - processPackages [lollms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lollms-2.1.8.tar.gz tmp/lollms-2.1.9.tar.gz --markdown 20230716/l/lollms/2.1.8-2.1.9/diff.md --exclude *.pyd
+[2023-07-16 18:55:02] INFO root fetch - processPackages [planqk-quantum]: Downloading https://files.pythonhosted.org/packages/a3/13/7cd24d3b8a0478841e1fa07648a7156ac8b299a7e39addc247212e1e8a60/planqk-quantum-1.9.0.tar.gz
+[2023-07-16 18:55:02] INFO root fetch - processPackages [mirutil]: Downloading https://files.pythonhosted.org/packages/e4/5c/8356dc3abf52622922240b5a0df981f63d2ca98d2685eff43ea7a6c5d6c0/mirutil-9.4.0.tar.gz
+[2023-07-16 18:55:02] INFO root fetch - processPackages [buckaroo]: executing diffoscope
+[2023-07-16 18:55:02] INFO root fetch - processPackages [buckaroo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/buckaroo-0.3.8.tar.gz tmp/buckaroo-0.3.9.tar.gz --markdown 20230716/b/buckaroo/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-16 18:55:02] INFO root fetch - processPackages [mirutil]: executing diffoscope
+[2023-07-16 18:55:02] INFO root fetch - processPackages [mirutil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mirutil-9.3.1.tar.gz tmp/mirutil-9.4.0.tar.gz --markdown 20230716/m/mirutil/9.3.1-9.4.0/diff.md --exclude *.pyd
+[2023-07-16 18:55:02] INFO root fetch - processPackages [planqk-quantum]: executing diffoscope
+[2023-07-16 18:55:02] INFO root fetch - processPackages [planqk-quantum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/planqk-quantum-1.8.6.tar.gz tmp/planqk-quantum-1.9.0.tar.gz --markdown 20230716/p/planqk-quantum/1.8.6-1.9.0/diff.md --exclude *.pyd
+[2023-07-16 18:55:03] INFO root fetch - processPackages [planqk-quantum]: Remove: archive file [/home/abi/fetcher/tmp/planqk-quantum-1.8.6.tar.gz]
+[2023-07-16 18:55:03] INFO root fetch - processPackages [planqk-quantum]: Remove: archive file [/home/abi/fetcher/tmp/planqk-quantum-1.9.0.tar.gz]
+[2023-07-16 18:55:03] INFO root fetch - main [MainThread]: End processing [planqk-quantum]: success
+[2023-07-16 18:55:03] INFO root fetch - processPackages [mirutil]: Remove: archive file [/home/abi/fetcher/tmp/mirutil-9.3.1.tar.gz]
+[2023-07-16 18:55:03] INFO root fetch - processPackages [mirutil]: Remove: archive file [/home/abi/fetcher/tmp/mirutil-9.4.0.tar.gz]
+[2023-07-16 18:55:03] INFO root fetch - main [MainThread]: End processing [mirutil]: success
+[2023-07-16 18:55:03] INFO root fetch - processPackages [lollms]: Remove: archive file [/home/abi/fetcher/tmp/lollms-2.1.8.tar.gz]
+[2023-07-16 18:55:03] INFO root fetch - processPackages [lollms]: Remove: archive file [/home/abi/fetcher/tmp/lollms-2.1.9.tar.gz]
+[2023-07-16 18:55:03] INFO root fetch - main [MainThread]: End processing [lollms]: success
+[2023-07-16 18:55:14] INFO root fetch - processPackages [buckaroo]: Remove: archive file [/home/abi/fetcher/tmp/buckaroo-0.3.8.tar.gz]
+[2023-07-16 18:55:14] INFO root fetch - processPackages [buckaroo]: Remove: archive file [/home/abi/fetcher/tmp/buckaroo-0.3.9.tar.gz]
+[2023-07-16 18:55:14] INFO root fetch - main [MainThread]: End processing [buckaroo]: success
+[2023-07-16 18:55:14] INFO root fetch - main [MainThread]: Store serial: [18908189]
