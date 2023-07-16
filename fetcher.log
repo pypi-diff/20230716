@@ -12533,3 +12533,69 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-16 20:13:10] INFO root fetch - processPackages [Algo-Vi]: Remove: archive file [/home/abi/fetcher/tmp/Algo-Vi-1.0.3.tar.gz]
 [2023-07-16 20:13:10] INFO root fetch - main [MainThread]: End processing [Algo-Vi]: success
 [2023-07-16 20:13:10] INFO root fetch - main [MainThread]: Store serial: [18908566]
+[2023-07-16 20:18:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18908566]
+[2023-07-16 20:18:18] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-16 20:18:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: approval-utilities
+[2023-07-16 20:18:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: approvaltests
+[2023-07-16 20:18:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: approvaltests-minimal
+[2023-07-16 20:18:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: promptlink
+[2023-07-16 20:18:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aws-secure-log-bucket
+[2023-07-16 20:18:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: samus-logging
+[2023-07-16 20:18:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: FinanceTrackerCLI
+[2023-07-16 20:18:18] INFO root fetch - processPackages [FinanceTrackerCLI]: New version: [1.3.0.6] Old Version: [1.3.0.5]
+[2023-07-16 20:18:18] INFO root fetch - processPackages [promptlink]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-16 20:18:18] INFO root fetch - processPackages [aws-secure-log-bucket]: New version: [0.8.3] Old Version: [0.8.2]
+[2023-07-16 20:18:18] INFO root fetch - processPackages [approvaltests]: New version: [8.4.0] Old Version: [8.3.1]
+[2023-07-16 20:18:18] INFO root fetch - processPackages [samus-logging]: New version: [0.1.94] Old Version: [0.1.93]
+[2023-07-16 20:18:18] INFO root fetch - processPackages [approvaltests-minimal]: New version: [8.4.0] Old Version: [8.3.1]
+[2023-07-16 20:18:18] INFO root fetch - processPackages [approval-utilities]: New version: [8.4.0] Old Version: [8.3.1]
+[2023-07-16 20:18:19] INFO root fetch - processPackages [FinanceTrackerCLI]: Downloading https://files.pythonhosted.org/packages/78/4e/cb54b7c17d74b735231eab66c8a3ad45bddf04167b25ae4000c3f1399be3/FinanceTrackerCLI-1.3.0.5.tar.gz
+[2023-07-16 20:18:19] INFO root fetch - processPackages [promptlink]: Downloading https://files.pythonhosted.org/packages/f1/38/78e1755fbc218f5c05a9562dbe9093b5094d0f1878ef277940ecd6f4daf4/promptlink-0.1.2.tar.gz
+[2023-07-16 20:18:19] INFO root fetch - processPackages [aws-secure-log-bucket]: Downloading https://files.pythonhosted.org/packages/e3/72/5dcd1ca7860907e2a3359691dc2ba592d80fd4ace31993b045bfcf7a5f8c/aws-secure-log-bucket-0.8.2.tar.gz
+[2023-07-16 20:18:19] INFO root fetch - processPackages [samus-logging]: Downloading https://files.pythonhosted.org/packages/a1/90/f9ce85a751f558f3fc2e7343e2f37d0c0035626d720a3b72453b06c51c59/samus-logging-0.1.93.tar.gz
+[2023-07-16 20:18:19] INFO root fetch - processPackages [approvaltests]: Downloading https://files.pythonhosted.org/packages/a5/b1/af448234f25c72026af2a41687b5af948d7f99374eabcc7606bebd7db68f/approvaltests-8.3.1.tar.gz
+[2023-07-16 20:18:19] INFO root fetch - processPackages [approvaltests-minimal]: Downloading https://files.pythonhosted.org/packages/66/f5/85eca075b17a85c214d223d77e994850d5f4993f202ba52713bafc421027/approvaltests-minimal-8.3.1.tar.gz
+[2023-07-16 20:18:19] INFO root fetch - processPackages [approval-utilities]: Downloading https://files.pythonhosted.org/packages/cc/56/363ee5681899c0ed639df97529a33e2874c7d7d3c18d452cff3a0975da74/approval_utilities-8.3.1.tar.gz
+[2023-07-16 20:18:19] INFO root fetch - processPackages [FinanceTrackerCLI]: Downloading https://files.pythonhosted.org/packages/19/ac/35e3549569ceb875f0f835318eb482d4b929a3ecf94aa5829602f98934b4/FinanceTrackerCLI-1.3.0.6.tar.gz
+[2023-07-16 20:18:19] INFO root fetch - processPackages [promptlink]: Downloading https://files.pythonhosted.org/packages/c5/b0/59b199e99417ef3951af65a049612e1bd7972fb91b8a2483607789e9b913/promptlink-0.1.3.tar.gz
+[2023-07-16 20:18:19] INFO root fetch - processPackages [FinanceTrackerCLI]: executing diffoscope
+[2023-07-16 20:18:19] INFO root fetch - processPackages [FinanceTrackerCLI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FinanceTrackerCLI-1.3.0.5.tar.gz tmp/FinanceTrackerCLI-1.3.0.6.tar.gz --markdown 20230716/F/FinanceTrackerCLI/1.3.0.5-1.3.0.6/diff.md --exclude *.pyd
+[2023-07-16 20:18:19] INFO root fetch - processPackages [aws-secure-log-bucket]: Downloading https://files.pythonhosted.org/packages/df/a8/a928f5dec27190079cb1b1530e0e663bfddb3f44df6f3e6dec75e2a94908/aws-secure-log-bucket-0.8.3.tar.gz
+[2023-07-16 20:18:19] INFO root fetch - processPackages [samus-logging]: Downloading https://files.pythonhosted.org/packages/60/82/0f0c2bbe6ce34a0f747dbf64f6b853f116251c89e6b261c9c2cf719c1ef5/samus-logging-0.1.94.tar.gz
+[2023-07-16 20:18:19] INFO root fetch - processPackages [promptlink]: executing diffoscope
+[2023-07-16 20:18:19] INFO root fetch - processPackages [promptlink]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/promptlink-0.1.2.tar.gz tmp/promptlink-0.1.3.tar.gz --markdown 20230716/p/promptlink/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-16 20:18:19] INFO root fetch - processPackages [approvaltests]: Downloading https://files.pythonhosted.org/packages/4c/8c/7b86cabdcfe100ef0ab840c71f4dffda99fea48069abc0076098a77014a9/approvaltests-8.4.0.tar.gz
+[2023-07-16 20:18:19] INFO root fetch - processPackages [approval-utilities]: Downloading https://files.pythonhosted.org/packages/31/62/ec6b63292939b83a9ca765c0f7345ea53dd27729f9cea96c3f63f7aebbf2/approval_utilities-8.4.0.tar.gz
+[2023-07-16 20:18:19] INFO root fetch - processPackages [approvaltests-minimal]: Downloading https://files.pythonhosted.org/packages/11/bb/0aa23ec4fa4152561d14392844dd665061329cd9eac7ae5db2847265187f/approvaltests-minimal-8.4.0.tar.gz
+[2023-07-16 20:18:19] INFO root fetch - processPackages [samus-logging]: executing diffoscope
+[2023-07-16 20:18:19] INFO root fetch - processPackages [samus-logging]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/samus-logging-0.1.93.tar.gz tmp/samus-logging-0.1.94.tar.gz --markdown 20230716/s/samus-logging/0.1.93-0.1.94/diff.md --exclude *.pyd
+[2023-07-16 20:18:19] INFO root fetch - processPackages [aws-secure-log-bucket]: executing diffoscope
+[2023-07-16 20:18:19] INFO root fetch - processPackages [aws-secure-log-bucket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-secure-log-bucket-0.8.2.tar.gz tmp/aws-secure-log-bucket-0.8.3.tar.gz --markdown 20230716/a/aws-secure-log-bucket/0.8.2-0.8.3/diff.md --exclude *.pyd
+[2023-07-16 20:18:19] INFO root fetch - processPackages [approval-utilities]: executing diffoscope
+[2023-07-16 20:18:19] INFO root fetch - processPackages [approval-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/approval_utilities-8.3.1.tar.gz tmp/approval_utilities-8.4.0.tar.gz --markdown 20230716/a/approval-utilities/8.3.1-8.4.0/diff.md --exclude *.pyd
+[2023-07-16 20:18:19] INFO root fetch - processPackages [approvaltests]: executing diffoscope
+[2023-07-16 20:18:19] INFO root fetch - processPackages [approvaltests]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/approvaltests-8.3.1.tar.gz tmp/approvaltests-8.4.0.tar.gz --markdown 20230716/a/approvaltests/8.3.1-8.4.0/diff.md --exclude *.pyd
+[2023-07-16 20:18:19] INFO root fetch - processPackages [approvaltests-minimal]: executing diffoscope
+[2023-07-16 20:18:19] INFO root fetch - processPackages [approvaltests-minimal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/approvaltests-minimal-8.3.1.tar.gz tmp/approvaltests-minimal-8.4.0.tar.gz --markdown 20230716/a/approvaltests-minimal/8.3.1-8.4.0/diff.md --exclude *.pyd
+[2023-07-16 20:18:20] INFO root fetch - processPackages [FinanceTrackerCLI]: Remove: archive file [/home/abi/fetcher/tmp/FinanceTrackerCLI-1.3.0.5.tar.gz]
+[2023-07-16 20:18:20] INFO root fetch - processPackages [FinanceTrackerCLI]: Remove: archive file [/home/abi/fetcher/tmp/FinanceTrackerCLI-1.3.0.6.tar.gz]
+[2023-07-16 20:18:20] INFO root fetch - main [MainThread]: End processing [FinanceTrackerCLI]: success
+[2023-07-16 20:18:20] INFO root fetch - processPackages [promptlink]: Remove: archive file [/home/abi/fetcher/tmp/promptlink-0.1.2.tar.gz]
+[2023-07-16 20:18:20] INFO root fetch - processPackages [promptlink]: Remove: archive file [/home/abi/fetcher/tmp/promptlink-0.1.3.tar.gz]
+[2023-07-16 20:18:20] INFO root fetch - main [MainThread]: End processing [promptlink]: success
+[2023-07-16 20:18:20] INFO root fetch - processPackages [samus-logging]: Remove: archive file [/home/abi/fetcher/tmp/samus-logging-0.1.93.tar.gz]
+[2023-07-16 20:18:20] INFO root fetch - processPackages [samus-logging]: Remove: archive file [/home/abi/fetcher/tmp/samus-logging-0.1.94.tar.gz]
+[2023-07-16 20:18:20] INFO root fetch - main [MainThread]: End processing [samus-logging]: success
+[2023-07-16 20:18:21] INFO root fetch - processPackages [approval-utilities]: Remove: archive file [/home/abi/fetcher/tmp/approval_utilities-8.3.1.tar.gz]
+[2023-07-16 20:18:21] INFO root fetch - processPackages [approval-utilities]: Remove: archive file [/home/abi/fetcher/tmp/approval_utilities-8.4.0.tar.gz]
+[2023-07-16 20:18:21] INFO root fetch - main [MainThread]: End processing [approval-utilities]: success
+[2023-07-16 20:18:21] INFO root fetch - processPackages [aws-secure-log-bucket]: Remove: archive file [/home/abi/fetcher/tmp/aws-secure-log-bucket-0.8.2.tar.gz]
+[2023-07-16 20:18:21] INFO root fetch - processPackages [aws-secure-log-bucket]: Remove: archive file [/home/abi/fetcher/tmp/aws-secure-log-bucket-0.8.3.tar.gz]
+[2023-07-16 20:18:21] INFO root fetch - main [MainThread]: End processing [aws-secure-log-bucket]: success
+[2023-07-16 20:18:21] INFO root fetch - processPackages [approvaltests]: Remove: archive file [/home/abi/fetcher/tmp/approvaltests-8.3.1.tar.gz]
+[2023-07-16 20:18:21] INFO root fetch - processPackages [approvaltests]: Remove: archive file [/home/abi/fetcher/tmp/approvaltests-8.4.0.tar.gz]
+[2023-07-16 20:18:21] INFO root fetch - main [MainThread]: End processing [approvaltests]: success
+[2023-07-16 20:18:21] INFO root fetch - processPackages [approvaltests-minimal]: Remove: archive file [/home/abi/fetcher/tmp/approvaltests-minimal-8.3.1.tar.gz]
+[2023-07-16 20:18:21] INFO root fetch - processPackages [approvaltests-minimal]: Remove: archive file [/home/abi/fetcher/tmp/approvaltests-minimal-8.4.0.tar.gz]
+[2023-07-16 20:18:21] INFO root fetch - main [MainThread]: End processing [approvaltests-minimal]: success
+[2023-07-16 20:18:21] INFO root fetch - main [MainThread]: Store serial: [18908593]
