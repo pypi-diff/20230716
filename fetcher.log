@@ -12114,3 +12114,66 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-16 19:31:36] INFO root fetch - processPackages [bhfutils]: Remove: archive file [/home/abi/fetcher/tmp/bhfutils-0.0.99.tar.gz]
 [2023-07-16 19:31:36] INFO root fetch - main [MainThread]: End processing [bhfutils]: success
 [2023-07-16 19:31:36] INFO root fetch - main [MainThread]: Store serial: [18908338]
+[2023-07-16 19:36:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18908338]
+[2023-07-16 19:36:44] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-16 19:36:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: secret-checker
+[2023-07-16 19:36:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: FinanceTrackerCLI
+[2023-07-16 19:36:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cryptographyComplements
+[2023-07-16 19:36:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lazrs
+[2023-07-16 19:36:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: EyeTrackFatigue
+[2023-07-16 19:36:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: RapidMangaDL
+[2023-07-16 19:36:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gpyt
+[2023-07-16 19:36:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ome-types
+[2023-07-16 19:36:44] INFO root fetch - processPackages [secret-checker]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-16 19:36:44] INFO root fetch - processPackages [gpyt]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-16 19:36:44] INFO root fetch - processPackages [lazrs]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-07-16 19:36:44] WARNING root fetch - processPackages [EyeTrackFatigue]: Skipping, unable to determine old version
+[2023-07-16 19:36:44] INFO root fetch - main [MainThread]: End processing [EyeTrackFatigue] error
+[2023-07-16 19:36:44] WARNING root fetch - processPackages [FinanceTrackerCLI]: Skipping, unable to determine old version
+[2023-07-16 19:36:44] INFO root fetch - main [MainThread]: End processing [FinanceTrackerCLI] error
+[2023-07-16 19:36:44] INFO root fetch - processPackages [cryptographyComplements]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-07-16 19:36:44] INFO root fetch - processPackages [RapidMangaDL]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-16 19:36:44] INFO root fetch - processPackages [RapidMangaDL]: Downloading https://files.pythonhosted.org/packages/e0/1a/262496f94597c473654f3da272308460babb22543f67ac5214d9cb897c87/RapidMangaDL-0.0.2.tar.gz
+[2023-07-16 19:36:44] INFO root fetch - processPackages [ome-types]: New version: [0.4.0rc4] Old Version: [0.4.0rc3]
+[2023-07-16 19:36:44] INFO root fetch - processPackages [secret-checker]: Downloading https://files.pythonhosted.org/packages/c4/16/68da6d5c1613c199db45849726f08e65682faea95ef94dbdbb2bf556e871/secret_checker-1.0.2.tar.gz
+[2023-07-16 19:36:44] INFO root fetch - processPackages [lazrs]: Downloading https://files.pythonhosted.org/packages/74/ce/ced254fd11361709e3c71b6fe0e2a444ed55a84ffd784a6c6ff7a3e1dc74/lazrs-0.5.0.tar.gz
+[2023-07-16 19:36:44] INFO root fetch - processPackages [gpyt]: Downloading https://files.pythonhosted.org/packages/7f/d3/b17aac5e24d33b266c17f2b984cbf3b796885c37c9c4d83f5686d0710a85/gpyt-0.2.8.tar.gz
+[2023-07-16 19:36:44] INFO root fetch - processPackages [cryptographyComplements]: Downloading https://files.pythonhosted.org/packages/d5/54/10ccd4cc8fe37abc64fcfc1d046458dd78752cee72f315c7d8c8b51414b6/cryptographyComplements-0.3.2.tar.gz
+[2023-07-16 19:36:45] INFO root fetch - processPackages [ome-types]: Downloading https://files.pythonhosted.org/packages/7c/b5/adbde70233f64ef4633555bff503ee66e71dbd0e815e5ddfba2280d40a9f/ome_types-0.4.0rc3.tar.gz
+[2023-07-16 19:36:45] INFO root fetch - processPackages [secret-checker]: Downloading https://files.pythonhosted.org/packages/02/a4/5073c8f29f4022b411ec31a0750c5d11231127ada92cfd579cd3bfe8a70f/secret_checker-1.0.3.tar.gz
+[2023-07-16 19:36:45] INFO root fetch - processPackages [RapidMangaDL]: Downloading https://files.pythonhosted.org/packages/0e/fb/abae3ba8047db03368d5ac92882da2e7e1f3cc2af6bde15e2c5b6fa071a8/RapidMangaDL-0.0.3.tar.gz
+[2023-07-16 19:36:45] INFO root fetch - processPackages [cryptographyComplements]: Downloading https://files.pythonhosted.org/packages/77/98/febd24a1a876412c8698ceced919f61589c3b471a1ca96550dd1cfbf8faf/cryptographyComplements-0.3.3.tar.gz
+[2023-07-16 19:36:45] INFO root fetch - processPackages [lazrs]: Downloading https://files.pythonhosted.org/packages/82/a2/ede57dbda64630a2936b617591b58ff51866f3cc5c01e8b9d1a43af12b4d/lazrs-0.5.1.tar.gz
+[2023-07-16 19:36:45] INFO root fetch - processPackages [secret-checker]: executing diffoscope
+[2023-07-16 19:36:45] INFO root fetch - processPackages [secret-checker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/secret_checker-1.0.2.tar.gz tmp/secret_checker-1.0.3.tar.gz --markdown 20230716/s/secret-checker/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-16 19:36:45] INFO root fetch - processPackages [gpyt]: Downloading https://files.pythonhosted.org/packages/a9/66/b60384915b7d030e84c5815bb2d3e307e2d6014f31c06cb7c3195f75d1fd/gpyt-0.2.9.tar.gz
+[2023-07-16 19:36:45] INFO root fetch - processPackages [ome-types]: Downloading https://files.pythonhosted.org/packages/91/19/873d16bdbcc4405338d82ef25d6f1237397f404b8850d60cab1fa73af4f6/ome_types-0.4.0rc4.tar.gz
+[2023-07-16 19:36:45] INFO root fetch - processPackages [cryptographyComplements]: executing diffoscope
+[2023-07-16 19:36:45] INFO root fetch - processPackages [cryptographyComplements]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cryptographyComplements-0.3.2.tar.gz tmp/cryptographyComplements-0.3.3.tar.gz --markdown 20230716/c/cryptographyComplements/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-07-16 19:36:45] INFO root fetch - processPackages [RapidMangaDL]: executing diffoscope
+[2023-07-16 19:36:45] INFO root fetch - processPackages [RapidMangaDL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RapidMangaDL-0.0.2.tar.gz tmp/RapidMangaDL-0.0.3.tar.gz --markdown 20230716/R/RapidMangaDL/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-16 19:36:45] INFO root fetch - processPackages [gpyt]: executing diffoscope
+[2023-07-16 19:36:45] INFO root fetch - processPackages [gpyt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpyt-0.2.8.tar.gz tmp/gpyt-0.2.9.tar.gz --markdown 20230716/g/gpyt/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-16 19:36:45] INFO root fetch - processPackages [lazrs]: executing diffoscope
+[2023-07-16 19:36:45] INFO root fetch - processPackages [lazrs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazrs-0.5.0.tar.gz tmp/lazrs-0.5.1.tar.gz --markdown 20230716/l/lazrs/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-07-16 19:36:46] INFO root fetch - processPackages [secret-checker]: Remove: archive file [/home/abi/fetcher/tmp/secret_checker-1.0.2.tar.gz]
+[2023-07-16 19:36:46] INFO root fetch - processPackages [secret-checker]: Remove: archive file [/home/abi/fetcher/tmp/secret_checker-1.0.3.tar.gz]
+[2023-07-16 19:36:46] INFO root fetch - main [MainThread]: End processing [secret-checker]: success
+[2023-07-16 19:36:46] INFO root fetch - processPackages [ome-types]: executing diffoscope
+[2023-07-16 19:36:46] INFO root fetch - processPackages [ome-types]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ome_types-0.4.0rc3.tar.gz tmp/ome_types-0.4.0rc4.tar.gz --markdown 20230716/o/ome-types/0.4.0rc3-0.4.0rc4/diff.md --exclude *.pyd
+[2023-07-16 19:36:46] INFO root fetch - processPackages [gpyt]: Remove: archive file [/home/abi/fetcher/tmp/gpyt-0.2.8.tar.gz]
+[2023-07-16 19:36:46] INFO root fetch - processPackages [gpyt]: Remove: archive file [/home/abi/fetcher/tmp/gpyt-0.2.9.tar.gz]
+[2023-07-16 19:36:46] INFO root fetch - main [MainThread]: End processing [gpyt]: success
+[2023-07-16 19:36:46] INFO root fetch - processPackages [cryptographyComplements]: Remove: archive file [/home/abi/fetcher/tmp/cryptographyComplements-0.3.2.tar.gz]
+[2023-07-16 19:36:46] INFO root fetch - processPackages [cryptographyComplements]: Remove: archive file [/home/abi/fetcher/tmp/cryptographyComplements-0.3.3.tar.gz]
+[2023-07-16 19:36:46] INFO root fetch - main [MainThread]: End processing [cryptographyComplements]: success
+[2023-07-16 19:36:46] INFO root fetch - processPackages [RapidMangaDL]: Remove: archive file [/home/abi/fetcher/tmp/RapidMangaDL-0.0.2.tar.gz]
+[2023-07-16 19:36:46] INFO root fetch - processPackages [RapidMangaDL]: Remove: archive file [/home/abi/fetcher/tmp/RapidMangaDL-0.0.3.tar.gz]
+[2023-07-16 19:36:46] INFO root fetch - main [MainThread]: End processing [RapidMangaDL]: success
+[2023-07-16 19:36:46] INFO root fetch - processPackages [lazrs]: Remove: archive file [/home/abi/fetcher/tmp/lazrs-0.5.0.tar.gz]
+[2023-07-16 19:36:46] INFO root fetch - processPackages [lazrs]: Remove: archive file [/home/abi/fetcher/tmp/lazrs-0.5.1.tar.gz]
+[2023-07-16 19:36:46] INFO root fetch - main [MainThread]: End processing [lazrs]: success
+[2023-07-16 19:36:47] INFO root fetch - processPackages [ome-types]: Remove: archive file [/home/abi/fetcher/tmp/ome_types-0.4.0rc3.tar.gz]
+[2023-07-16 19:36:47] INFO root fetch - processPackages [ome-types]: Remove: archive file [/home/abi/fetcher/tmp/ome_types-0.4.0rc4.tar.gz]
+[2023-07-16 19:36:47] INFO root fetch - main [MainThread]: End processing [ome-types]: success
+[2023-07-16 19:36:47] INFO root fetch - main [MainThread]: Store serial: [18908386]
