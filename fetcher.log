@@ -14864,3 +14864,75 @@ zipfile.BadZipFile: File is not a zip file
 [2023-07-16 23:36:35] INFO root fetch - processPackages [epyk]: Remove: archive file [/home/abi/fetcher/tmp/epyk-1.9.9-py3-none-any.whl.zip]
 [2023-07-16 23:36:35] INFO root fetch - main [MainThread]: End processing [epyk]: success
 [2023-07-16 23:36:35] INFO root fetch - main [MainThread]: Store serial: [18909579]
+[2023-07-16 23:41:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18909579]
+[2023-07-16 23:41:43] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-16 23:41:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: instagrader
+[2023-07-16 23:41:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flake8-aaa
+[2023-07-16 23:41:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bloark
+[2023-07-16 23:41:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cellpy
+[2023-07-16 23:41:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aicodebot
+[2023-07-16 23:41:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: emergenet
+[2023-07-16 23:41:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: float-table
+[2023-07-16 23:41:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: invenhost-core
+[2023-07-16 23:41:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pavio
+[2023-07-16 23:41:44] INFO root fetch - processPackages [float-table]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-16 23:41:44] INFO root fetch - processPackages [bloark]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-07-16 23:41:44] WARNING root fetch - processPackages [instagrader]: Skipping, unable to determine old version
+[2023-07-16 23:41:44] INFO root fetch - main [MainThread]: End processing [instagrader] error
+[2023-07-16 23:41:44] INFO root fetch - processPackages [aicodebot]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-07-16 23:41:44] INFO root fetch - processPackages [emergenet]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-16 23:41:44] INFO root fetch - processPackages [flake8-aaa]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-07-16 23:41:44] INFO root fetch - processPackages [invenhost-core]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-07-16 23:41:44] INFO root fetch - processPackages [cellpy]: New version: [1.0.0b1] Old Version: [1.0.0b0]
+[2023-07-16 23:41:44] WARNING root fetch - processPackages [pavio]: Skipping, unable to determine old version
+[2023-07-16 23:41:44] INFO root fetch - main [MainThread]: End processing [pavio] error
+[2023-07-16 23:41:44] INFO root fetch - processPackages [emergenet]: Downloading https://files.pythonhosted.org/packages/01/89/383d61e6f1dad8986f99498987337f0dd51e603ef3d2daee7e550d748120/emergenet-0.0.8.tar.gz
+[2023-07-16 23:41:44] INFO root fetch - processPackages [float-table]: Downloading https://files.pythonhosted.org/packages/e3/38/4756bd80dd1aea42c5c9a97cc0228c907957ce12e95442065efc2f452c88/float_table-0.1.3.tar.gz
+[2023-07-16 23:41:44] INFO root fetch - processPackages [cellpy]: Downloading https://files.pythonhosted.org/packages/52/b6/39ef928d9d647fb3a001929c7de701d707729dc6f9b03ad21f6223548d1d/cellpy-1.0.0b0.tar.gz
+[2023-07-16 23:41:44] INFO root fetch - processPackages [invenhost-core]: Downloading https://files.pythonhosted.org/packages/df/f5/a6c309f997eb261299f110b1defa4f3064febaafe0bdb4810b75e0504808/invenhost-core-0.1.0.tar.gz
+[2023-07-16 23:41:44] INFO root fetch - processPackages [aicodebot]: Downloading https://files.pythonhosted.org/packages/de/93/5893654a616bad8ecf7cff940e452492ff5cadede0c121a0b836015603f8/aicodebot-0.9.5.tar.gz
+[2023-07-16 23:41:44] INFO root fetch - processPackages [bloark]: Downloading https://files.pythonhosted.org/packages/af/7e/dd77efceaea0feb69c11b558dd77fc27f8b51849ec79ed8f579dc8ccae09/bloark-2.0.1.tar.gz
+[2023-07-16 23:41:44] INFO root fetch - processPackages [flake8-aaa]: Downloading https://files.pythonhosted.org/packages/69/a0/4ddc52c2c7412b0817e689adfaa37cf3d778aef178e30bcd1ce7f8ce7e08/flake8-aaa-0.8.1.tar.gz
+[2023-07-16 23:41:44] INFO root fetch - processPackages [emergenet]: Downloading https://files.pythonhosted.org/packages/64/cd/356b4a467f17df337330223342d19dfc1ce7bb82435213ef9b59c2b7fbbd/emergenet-0.0.9.tar.gz
+[2023-07-16 23:41:44] INFO root fetch - processPackages [float-table]: Downloading https://files.pythonhosted.org/packages/18/48/ed6a0d855348026b3fc661fcf7fa94d838aaf969a24cefc64fec7e2fb1d4/float_table-0.1.4.tar.gz
+[2023-07-16 23:41:44] INFO root fetch - processPackages [aicodebot]: Downloading https://files.pythonhosted.org/packages/f0/54/b7976dc18a7bd9ee80ceff88ce124d243c375fa58db5ebe25e50df423f49/aicodebot-0.9.6.tar.gz
+[2023-07-16 23:41:44] INFO root fetch - processPackages [emergenet]: executing diffoscope
+[2023-07-16 23:41:44] INFO root fetch - processPackages [emergenet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emergenet-0.0.8.tar.gz tmp/emergenet-0.0.9.tar.gz --markdown 20230716/e/emergenet/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-16 23:41:44] INFO root fetch - processPackages [cellpy]: Downloading https://files.pythonhosted.org/packages/13/d3/210235701a4f5cf565a5b7b80a11319e7ed4fbdfdff5c083a9f35d54b975/cellpy-1.0.0b1.tar.gz
+[2023-07-16 23:41:44] INFO root fetch - processPackages [invenhost-core]: Downloading https://files.pythonhosted.org/packages/d5/b2/ce1c221cbdc22bc2617f87df91e573c66b20a889c3b4fc918dced7e24f40/invenhost-core-0.2.0.tar.gz
+[2023-07-16 23:41:44] INFO root fetch - processPackages [bloark]: Downloading https://files.pythonhosted.org/packages/33/f4/21f02a098ae076f42d9c6824ed7d63680c8879674c11e0b5a32adeadd93e/bloark-2.0.2.tar.gz
+[2023-07-16 23:41:44] INFO root fetch - processPackages [aicodebot]: executing diffoscope
+[2023-07-16 23:41:44] INFO root fetch - processPackages [aicodebot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aicodebot-0.9.5.tar.gz tmp/aicodebot-0.9.6.tar.gz --markdown 20230716/a/aicodebot/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-07-16 23:41:44] INFO root fetch - processPackages [float-table]: executing diffoscope
+[2023-07-16 23:41:44] INFO root fetch - processPackages [float-table]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/float_table-0.1.3.tar.gz tmp/float_table-0.1.4.tar.gz --markdown 20230716/f/float-table/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-16 23:41:45] INFO root fetch - processPackages [flake8-aaa]: Downloading https://files.pythonhosted.org/packages/53/c8/700462c3cb69d9c4fb728c4384746082fc9494a6da20a7d36bba7da8c31d/flake8-aaa-0.9.0.tar.gz
+[2023-07-16 23:41:45] INFO root fetch - processPackages [invenhost-core]: executing diffoscope
+[2023-07-16 23:41:45] INFO root fetch - processPackages [invenhost-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invenhost-core-0.1.0.tar.gz tmp/invenhost-core-0.2.0.tar.gz --markdown 20230716/i/invenhost-core/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-07-16 23:41:45] INFO root fetch - processPackages [bloark]: executing diffoscope
+[2023-07-16 23:41:45] INFO root fetch - processPackages [bloark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bloark-2.0.1.tar.gz tmp/bloark-2.0.2.tar.gz --markdown 20230716/b/bloark/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-07-16 23:41:45] INFO root fetch - processPackages [cellpy]: executing diffoscope
+[2023-07-16 23:41:45] INFO root fetch - processPackages [cellpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cellpy-1.0.0b0.tar.gz tmp/cellpy-1.0.0b1.tar.gz --markdown 20230716/c/cellpy/1.0.0b0-1.0.0b1/diff.md --exclude *.pyd
+[2023-07-16 23:41:45] INFO root fetch - processPackages [flake8-aaa]: executing diffoscope
+[2023-07-16 23:41:45] INFO root fetch - processPackages [flake8-aaa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flake8-aaa-0.8.1.tar.gz tmp/flake8-aaa-0.9.0.tar.gz --markdown 20230716/f/flake8-aaa/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-07-16 23:41:45] INFO root fetch - processPackages [emergenet]: Remove: archive file [/home/abi/fetcher/tmp/emergenet-0.0.8.tar.gz]
+[2023-07-16 23:41:45] INFO root fetch - processPackages [emergenet]: Remove: archive file [/home/abi/fetcher/tmp/emergenet-0.0.9.tar.gz]
+[2023-07-16 23:41:45] INFO root fetch - main [MainThread]: End processing [emergenet]: success
+[2023-07-16 23:41:46] INFO root fetch - processPackages [float-table]: Remove: archive file [/home/abi/fetcher/tmp/float_table-0.1.3.tar.gz]
+[2023-07-16 23:41:46] INFO root fetch - processPackages [float-table]: Remove: archive file [/home/abi/fetcher/tmp/float_table-0.1.4.tar.gz]
+[2023-07-16 23:41:46] INFO root fetch - main [MainThread]: End processing [float-table]: success
+[2023-07-16 23:41:46] INFO root fetch - processPackages [aicodebot]: Remove: archive file [/home/abi/fetcher/tmp/aicodebot-0.9.5.tar.gz]
+[2023-07-16 23:41:46] INFO root fetch - processPackages [aicodebot]: Remove: archive file [/home/abi/fetcher/tmp/aicodebot-0.9.6.tar.gz]
+[2023-07-16 23:41:46] INFO root fetch - main [MainThread]: End processing [aicodebot]: success
+[2023-07-16 23:41:46] INFO root fetch - processPackages [bloark]: Remove: archive file [/home/abi/fetcher/tmp/bloark-2.0.1.tar.gz]
+[2023-07-16 23:41:46] INFO root fetch - processPackages [bloark]: Remove: archive file [/home/abi/fetcher/tmp/bloark-2.0.2.tar.gz]
+[2023-07-16 23:41:46] INFO root fetch - main [MainThread]: End processing [bloark]: success
+[2023-07-16 23:41:46] INFO root fetch - processPackages [flake8-aaa]: Remove: archive file [/home/abi/fetcher/tmp/flake8-aaa-0.8.1.tar.gz]
+[2023-07-16 23:41:46] INFO root fetch - processPackages [flake8-aaa]: Remove: archive file [/home/abi/fetcher/tmp/flake8-aaa-0.9.0.tar.gz]
+[2023-07-16 23:41:46] INFO root fetch - main [MainThread]: End processing [flake8-aaa]: success
+[2023-07-16 23:41:46] INFO root fetch - processPackages [invenhost-core]: Remove: archive file [/home/abi/fetcher/tmp/invenhost-core-0.1.0.tar.gz]
+[2023-07-16 23:41:46] INFO root fetch - processPackages [invenhost-core]: Remove: archive file [/home/abi/fetcher/tmp/invenhost-core-0.2.0.tar.gz]
+[2023-07-16 23:41:46] INFO root fetch - main [MainThread]: End processing [invenhost-core]: success
+[2023-07-16 23:41:47] INFO root fetch - processPackages [cellpy]: Remove: archive file [/home/abi/fetcher/tmp/cellpy-1.0.0b0.tar.gz]
+[2023-07-16 23:41:47] INFO root fetch - processPackages [cellpy]: Remove: archive file [/home/abi/fetcher/tmp/cellpy-1.0.0b1.tar.gz]
+[2023-07-16 23:41:47] INFO root fetch - main [MainThread]: End processing [cellpy]: success
+[2023-07-16 23:41:47] INFO root fetch - main [MainThread]: Store serial: [18909610]
