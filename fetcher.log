@@ -3232,3 +3232,31 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-16 05:24:56] INFO root fetch - processPackages [hak]: Remove: archive file [/home/abi/fetcher/tmp/hak-0.0.9.tar.gz]
 [2023-07-16 05:24:56] INFO root fetch - main [MainThread]: End processing [hak]: success
 [2023-07-16 05:24:56] INFO root fetch - main [MainThread]: Store serial: [18904596]
+[2023-07-16 05:30:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18904596]
+[2023-07-16 05:30:05] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-16 05:30:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mynacode
+[2023-07-16 05:30:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fdfat
+[2023-07-16 05:30:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mynacode
+[2023-07-16 05:30:05] INFO root fetch - processPackages [fdfat]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-16 05:30:05] INFO root fetch - processPackages [mynacode]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-07-16 05:30:05] INFO root fetch - processPackages [mynacode]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-07-16 05:30:05] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/1d/24/3d4ef0a0a267fb47bcbac68ff9b760a9b892095f2ee727874f0286d600c3/mynacode-1.0.98-py3-none-any.whl
+[2023-07-16 05:30:05] INFO root fetch - processPackages [fdfat]: Downloading https://files.pythonhosted.org/packages/c0/12/0211c73f1d4c4004a74fc667c1ac4df82f825081340b00c1edcaa2dd8b8f/fdfat-0.1.1.tar.gz
+[2023-07-16 05:30:05] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/1d/24/3d4ef0a0a267fb47bcbac68ff9b760a9b892095f2ee727874f0286d600c3/mynacode-1.0.98-py3-none-any.whl
+[2023-07-16 05:30:06] INFO root fetch - processPackages [fdfat]: Downloading https://files.pythonhosted.org/packages/24/d3/44e6cf267a714890c316e32796b3862317ea7045dbf4c7328c660aa85a91/fdfat-0.1.2.tar.gz
+[2023-07-16 05:30:06] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/38/32/362f7abef6d28b78afa03843fa2eadc7bb1454ef66bde894a08e281d5bfb/mynacode-1.0.99-py3-none-any.whl
+[2023-07-16 05:30:06] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/38/32/362f7abef6d28b78afa03843fa2eadc7bb1454ef66bde894a08e281d5bfb/mynacode-1.0.99-py3-none-any.whl
+[2023-07-16 05:30:06] INFO root fetch - processPackages [fdfat]: executing diffoscope
+[2023-07-16 05:30:06] INFO root fetch - processPackages [fdfat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fdfat-0.1.1.tar.gz tmp/fdfat-0.1.2.tar.gz --markdown 20230716/f/fdfat/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-16 05:30:06] INFO root fetch - processPackages [mynacode]: executing diffoscope
+[2023-07-16 05:30:06] INFO root fetch - processPackages [mynacode]: executing diffoscope
+[2023-07-16 05:30:06] INFO root fetch - processPackages [mynacode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mynacode-1.0.98-py3-none-any.whl.zip tmp/mynacode-1.0.99-py3-none-any.whl.zip --markdown 20230716/m/mynacode/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-07-16 05:30:06] INFO root fetch - processPackages [mynacode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mynacode-1.0.98-py3-none-any.whl.zip tmp/mynacode-1.0.99-py3-none-any.whl.zip --markdown 20230716/m/mynacode/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-07-16 05:30:07] INFO root fetch - processPackages [fdfat]: Remove: archive file [/home/abi/fetcher/tmp/fdfat-0.1.1.tar.gz]
+[2023-07-16 05:30:07] INFO root fetch - processPackages [fdfat]: Remove: archive file [/home/abi/fetcher/tmp/fdfat-0.1.2.tar.gz]
+[2023-07-16 05:30:07] INFO root fetch - main [MainThread]: End processing [fdfat]: success
+[2023-07-16 05:30:07] INFO root fetch - processPackages [mynacode]: Remove: archive file [/home/abi/fetcher/tmp/mynacode-1.0.98-py3-none-any.whl.zip]
+[2023-07-16 05:30:07] INFO root fetch - processPackages [mynacode]: Remove: archive file [/home/abi/fetcher/tmp/mynacode-1.0.99-py3-none-any.whl.zip]
+[2023-07-16 05:30:07] INFO root fetch - main [MainThread]: End processing [mynacode]: success
+[2023-07-16 05:30:07] INFO root fetch - main [MainThread]: End processing [mynacode]: success
+[2023-07-16 05:30:07] INFO root fetch - main [MainThread]: Store serial: [18904603]
