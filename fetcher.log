@@ -11423,3 +11423,60 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-16 18:23:23] INFO root fetch - processPackages [martin-binance]: Remove: archive file [/home/abi/fetcher/tmp/martin-binance-1.3.4b0.tar.gz]
 [2023-07-16 18:23:23] INFO root fetch - main [MainThread]: End processing [martin-binance]: success
 [2023-07-16 18:23:23] INFO root fetch - main [MainThread]: Store serial: [18908071]
+[2023-07-16 18:28:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18908071]
+[2023-07-16 18:28:32] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-16 18:28:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: htagweb
+[2023-07-16 18:28:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: longalpha-utils
+[2023-07-16 18:28:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wcferry
+[2023-07-16 18:28:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: telegram-util
+[2023-07-16 18:28:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wcfhttp
+[2023-07-16 18:28:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: SudReg
+[2023-07-16 18:28:32] INFO root fetch - processPackages [wcferry]: New version: [39.0.2.0] Old Version: [39.0.1.0]
+[2023-07-16 18:28:32] INFO root fetch - processPackages [wcfhttp]: New version: [39.0.2.0] Old Version: [39.0.0.1]
+[2023-07-16 18:28:32] INFO root fetch - processPackages [htagweb]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-16 18:28:32] INFO root fetch - processPackages [SudReg]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-16 18:28:32] INFO root fetch - processPackages [longalpha-utils]: New version: [0.63] Old Version: [0.62]
+[2023-07-16 18:28:32] INFO root fetch - processPackages [telegram-util]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-16 18:28:32] INFO root fetch - processPackages [wcferry]: Downloading https://files.pythonhosted.org/packages/3e/e9/7dffd0bcbe7101d2f8c8fe17fcef865627455c3158a1a706a37d73d65a1a/wcferry-39.0.1.0.tar.gz
+[2023-07-16 18:28:32] INFO root fetch - processPackages [telegram-util]: Downloading https://files.pythonhosted.org/packages/86/3a/79c1857e1ffef8f07c666a641fe9f7a9485cbd7fec82160e80cea6daf9ba/telegram_util-0.0.98.tar.gz
+[2023-07-16 18:28:32] INFO root fetch - processPackages [wcfhttp]: Downloading https://files.pythonhosted.org/packages/7b/e2/158c066d7530446452a4d404eb8789b4be0498874e16120797af98295a7d/wcfhttp-39.0.0.1.tar.gz
+[2023-07-16 18:28:32] INFO root fetch - processPackages [longalpha-utils]: Downloading https://files.pythonhosted.org/packages/37/ed/91c8e0cdcb24f8e323e810763e0a5530fe14452954fad6152ef36622c728/longalpha_utils-0.62.tar.gz
+[2023-07-16 18:28:32] INFO root fetch - processPackages [SudReg]: Downloading https://files.pythonhosted.org/packages/9c/be/548501507c1f2c7c44b8f921672bd31e1c636492ab58f8316a3c757ec0a6/SudReg-1.0.1.tar.gz
+[2023-07-16 18:28:32] INFO root fetch - processPackages [htagweb]: Downloading https://files.pythonhosted.org/packages/09/8e/fc65a237dffa9afca2546b27a1dcd070579d4614531f55ce9549bcf8fcb4/htagweb-0.3.0.tar.gz
+[2023-07-16 18:28:32] INFO root fetch - processPackages [telegram-util]: Downloading https://files.pythonhosted.org/packages/8d/9a/26431fee68d5e5a388b624025cdfa8d173f89f5ac6aa8f2f4f8ac8c3495f/telegram_util-0.0.99.tar.gz
+[2023-07-16 18:28:33] INFO root fetch - processPackages [telegram-util]: executing diffoscope
+[2023-07-16 18:28:33] INFO root fetch - processPackages [telegram-util]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/telegram_util-0.0.98.tar.gz tmp/telegram_util-0.0.99.tar.gz --markdown 20230716/t/telegram-util/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-16 18:28:33] INFO root fetch - processPackages [wcferry]: Downloading https://files.pythonhosted.org/packages/17/1a/523bf44852d883cc24d067bc8ae1b8206746b983e1ab0da24dd91c2d9d64/wcferry-39.0.2.0.tar.gz
+[2023-07-16 18:28:33] INFO root fetch - processPackages [wcfhttp]: Downloading https://files.pythonhosted.org/packages/10/9e/1ae1c3b7c71530912928ea62e9a6620aeb66f1986520a4cbec9047eda9d9/wcfhttp-39.0.2.0.tar.gz
+[2023-07-16 18:28:33] INFO root fetch - processPackages [htagweb]: Downloading https://files.pythonhosted.org/packages/93/47/e5018f24de07cf7f584fca868bfbd9aada5eac47ff91b0e8099217e66362/htagweb-0.3.1.tar.gz
+[2023-07-16 18:28:33] INFO root fetch - processPackages [longalpha-utils]: Downloading https://files.pythonhosted.org/packages/a9/31/182f40d43f708beac6cd0b7e0d45567e9a5db4f55f0f95f9bca3c07f519a/longalpha_utils-0.63.tar.gz
+[2023-07-16 18:28:33] INFO root fetch - processPackages [SudReg]: Downloading https://files.pythonhosted.org/packages/44/fd/ca0f08cdfb666e88fc2cbd609f3985f5a46d411c4f55f9a408f318ec670e/SudReg-1.0.2.tar.gz
+[2023-07-16 18:28:33] INFO root fetch - processPackages [htagweb]: executing diffoscope
+[2023-07-16 18:28:33] INFO root fetch - processPackages [htagweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/htagweb-0.3.0.tar.gz tmp/htagweb-0.3.1.tar.gz --markdown 20230716/h/htagweb/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-16 18:28:33] INFO root fetch - processPackages [wcfhttp]: executing diffoscope
+[2023-07-16 18:28:33] INFO root fetch - processPackages [wcfhttp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wcfhttp-39.0.0.1.tar.gz tmp/wcfhttp-39.0.2.0.tar.gz --markdown 20230716/w/wcfhttp/39.0.0.1-39.0.2.0/diff.md --exclude *.pyd
+[2023-07-16 18:28:33] INFO root fetch - processPackages [wcferry]: executing diffoscope
+[2023-07-16 18:28:33] INFO root fetch - processPackages [wcferry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wcferry-39.0.1.0.tar.gz tmp/wcferry-39.0.2.0.tar.gz --markdown 20230716/w/wcferry/39.0.1.0-39.0.2.0/diff.md --exclude *.pyd
+[2023-07-16 18:28:33] INFO root fetch - processPackages [SudReg]: executing diffoscope
+[2023-07-16 18:28:33] INFO root fetch - processPackages [longalpha-utils]: executing diffoscope
+[2023-07-16 18:28:33] INFO root fetch - processPackages [SudReg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SudReg-1.0.1.tar.gz tmp/SudReg-1.0.2.tar.gz --markdown 20230716/S/SudReg/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-16 18:28:33] INFO root fetch - processPackages [longalpha-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/longalpha_utils-0.62.tar.gz tmp/longalpha_utils-0.63.tar.gz --markdown 20230716/l/longalpha-utils/0.62-0.63/diff.md --exclude *.pyd
+[2023-07-16 18:28:34] INFO root fetch - processPackages [telegram-util]: Remove: archive file [/home/abi/fetcher/tmp/telegram_util-0.0.98.tar.gz]
+[2023-07-16 18:28:34] INFO root fetch - processPackages [telegram-util]: Remove: archive file [/home/abi/fetcher/tmp/telegram_util-0.0.99.tar.gz]
+[2023-07-16 18:28:34] INFO root fetch - main [MainThread]: End processing [telegram-util]: success
+[2023-07-16 18:28:34] INFO root fetch - processPackages [htagweb]: Remove: archive file [/home/abi/fetcher/tmp/htagweb-0.3.0.tar.gz]
+[2023-07-16 18:28:34] INFO root fetch - processPackages [htagweb]: Remove: archive file [/home/abi/fetcher/tmp/htagweb-0.3.1.tar.gz]
+[2023-07-16 18:28:34] INFO root fetch - main [MainThread]: End processing [htagweb]: success
+[2023-07-16 18:28:34] INFO root fetch - processPackages [longalpha-utils]: Remove: archive file [/home/abi/fetcher/tmp/longalpha_utils-0.62.tar.gz]
+[2023-07-16 18:28:34] INFO root fetch - processPackages [longalpha-utils]: Remove: archive file [/home/abi/fetcher/tmp/longalpha_utils-0.63.tar.gz]
+[2023-07-16 18:28:34] INFO root fetch - main [MainThread]: End processing [longalpha-utils]: success
+[2023-07-16 18:28:34] INFO root fetch - processPackages [wcfhttp]: Remove: archive file [/home/abi/fetcher/tmp/wcfhttp-39.0.0.1.tar.gz]
+[2023-07-16 18:28:34] INFO root fetch - processPackages [wcfhttp]: Remove: archive file [/home/abi/fetcher/tmp/wcfhttp-39.0.2.0.tar.gz]
+[2023-07-16 18:28:34] INFO root fetch - main [MainThread]: End processing [wcfhttp]: success
+[2023-07-16 18:28:34] INFO root fetch - processPackages [SudReg]: Remove: archive file [/home/abi/fetcher/tmp/SudReg-1.0.1.tar.gz]
+[2023-07-16 18:28:34] INFO root fetch - processPackages [SudReg]: Remove: archive file [/home/abi/fetcher/tmp/SudReg-1.0.2.tar.gz]
+[2023-07-16 18:28:34] INFO root fetch - main [MainThread]: End processing [SudReg]: success
+[2023-07-16 18:28:34] INFO root fetch - processPackages [wcferry]: Remove: archive file [/home/abi/fetcher/tmp/wcferry-39.0.1.0.tar.gz]
+[2023-07-16 18:28:34] INFO root fetch - processPackages [wcferry]: Remove: archive file [/home/abi/fetcher/tmp/wcferry-39.0.2.0.tar.gz]
+[2023-07-16 18:28:34] INFO root fetch - main [MainThread]: End processing [wcferry]: success
+[2023-07-16 18:28:34] INFO root fetch - main [MainThread]: Store serial: [18908089]
