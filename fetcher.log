@@ -11597,3 +11597,95 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-16 18:39:00] INFO root fetch - processPackages [muspectre]: Remove: archive file [/home/abi/fetcher/tmp/muspectre-0.26.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2023-07-16 18:39:00] INFO root fetch - main [MainThread]: End processing [muspectre]: success
 [2023-07-16 18:39:00] INFO root fetch - main [MainThread]: Store serial: [18908126]
+[2023-07-16 18:44:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18908126]
+[2023-07-16 18:44:09] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-16 18:44:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: muspectre
+[2023-07-16 18:44:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xpystac
+[2023-07-16 18:44:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: i8-terminal
+[2023-07-16 18:44:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: libquery
+[2023-07-16 18:44:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mirutil
+[2023-07-16 18:44:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: target-s3-delta
+[2023-07-16 18:44:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: feathub-nightly
+[2023-07-16 18:44:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: npe2
+[2023-07-16 18:44:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cthulhucli
+[2023-07-16 18:44:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: summo
+[2023-07-16 18:44:09] INFO root fetch - processPackages [cthulhucli]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-07-16 18:44:09] INFO root fetch - processPackages [muspectre]: New version: [0.26.3] Old Version: [0.26.1]
+[2023-07-16 18:44:09] INFO root fetch - processPackages [target-s3-delta]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-16 18:44:09] INFO root fetch - processPackages [npe2]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-07-16 18:44:09] INFO root fetch - processPackages [summo]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-16 18:44:09] WARNING root fetch - processPackages [libquery]: Skipping, unable to determine old version
+[2023-07-16 18:44:09] INFO root fetch - processPackages [libquery]: Start processing: longalpha-utils
+[2023-07-16 18:44:09] INFO root fetch - processPackages [feathub-nightly]: New version: [0.1.dev20230715] Old Version: [0.1.dev20230714]
+[2023-07-16 18:44:09] INFO root fetch - main [MainThread]: End processing [libquery] error
+[2023-07-16 18:44:09] INFO root fetch - processPackages [xpystac]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-16 18:44:09] INFO root fetch - processPackages [i8-terminal]: New version: [0.2.99] Old Version: [0.2.98]
+[2023-07-16 18:44:09] INFO root fetch - processPackages [mirutil]: New version: [9.4.0] Old Version: [9.3.1]
+[2023-07-16 18:44:09] INFO root fetch - processPackages [longalpha-utils]: New version: [0.64] Old Version: [0.63]
+[2023-07-16 18:44:09] INFO root fetch - processPackages [xpystac]: Downloading https://files.pythonhosted.org/packages/f8/45/70468feb81c9f599292084b97d5c7de3474ff59c403220c9e2b8bb2b803b/xpystac-0.1.1.tar.gz
+[2023-07-16 18:44:09] INFO root fetch - processPackages [i8-terminal]: Downloading https://files.pythonhosted.org/packages/73/6b/1f17514655bb325e4dd1d803628b471e37e46f47d02c13ddf52f64dcf516/i8-terminal-0.2.98.tar.gz
+[2023-07-16 18:44:09] INFO root fetch - processPackages [npe2]: Downloading https://files.pythonhosted.org/packages/a9/08/5f30a5123ac7a0c8e1643c6544d4197a3ad5ced925decfc91150bc50bc72/npe2-0.7.0.tar.gz
+[2023-07-16 18:44:09] INFO root fetch - processPackages [summo]: Downloading https://files.pythonhosted.org/packages/86/cb/92418d30f8438e77d843abe86c49bfcc27944943f9666f77729e6c23252b/summo-0.0.5.tar.gz
+[2023-07-16 18:44:09] INFO root fetch - processPackages [target-s3-delta]: Downloading https://files.pythonhosted.org/packages/6e/50/6609962e0ce887f6c841f96a73f490fe61ec69bc79eed9c6942d332cbd98/target_s3_delta-0.0.8.tar.gz
+[2023-07-16 18:44:09] INFO root fetch - processPackages [longalpha-utils]: Downloading https://files.pythonhosted.org/packages/a9/31/182f40d43f708beac6cd0b7e0d45567e9a5db4f55f0f95f9bca3c07f519a/longalpha_utils-0.63.tar.gz
+[2023-07-16 18:44:09] INFO root fetch - processPackages [feathub-nightly]: Downloading https://files.pythonhosted.org/packages/d4/5a/76ff953504bf6b53756bfde82f07cdce447afbcedb936fdf43e4af762503/feathub_nightly-0.1.dev20230714-py3-none-any.whl
+[2023-07-16 18:44:09] INFO root fetch - processPackages [cthulhucli]: Downloading https://files.pythonhosted.org/packages/a9/c5/12931e4c372b783afb55202cebe1854be6359af7ac32a5b743fec36a378b/cthulhucli-0.1.0-py3-none-any.whl
+[2023-07-16 18:44:09] INFO root fetch - processPackages [muspectre]: Downloading https://files.pythonhosted.org/packages/41/7b/bfafc326aa05ad3d097dc7a14436e6781d0f3635ef6bdb9a5a3fd2d62b83/muspectre-0.26.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-16 18:44:09] INFO root fetch - processPackages [mirutil]: Downloading https://files.pythonhosted.org/packages/38/6e/e3b08382149307a94ff2b014f554aa4dedaad5e3cc7b3b4e2fd1d21e0de1/mirutil-9.3.1.tar.gz
+[2023-07-16 18:44:09] WARNING root fetch - processPackages [feathub-nightly]: Skipping package: exceeds size limit 12211640>=10485760
+[2023-07-16 18:44:09] INFO root fetch - main [MainThread]: End processing [feathub-nightly] error
+[2023-07-16 18:44:10] INFO root fetch - processPackages [xpystac]: Downloading https://files.pythonhosted.org/packages/4a/43/d9d8e46cd3191fda5d957b927ce7fc5ee828577c467510db576d66eafacd/xpystac-0.1.2.tar.gz
+[2023-07-16 18:44:10] INFO root fetch - processPackages [i8-terminal]: Downloading https://files.pythonhosted.org/packages/0d/9b/1163b714a690548e552246c039246a258470d53b0e1257bfffce97b31a43/i8-terminal-0.2.99.tar.gz
+[2023-07-16 18:44:10] INFO root fetch - processPackages [summo]: Downloading https://files.pythonhosted.org/packages/5b/2b/eff8d2ad5b7e712f881b0aab6bae4bb8d915e39d8c42696a1501ce3d12e3/summo-0.0.6.tar.gz
+[2023-07-16 18:44:10] INFO root fetch - processPackages [longalpha-utils]: Downloading https://files.pythonhosted.org/packages/45/ba/6e40d31fd0e3362d5bf4b937ca1329902bfcf6e1683776c502d9e3fb467b/longalpha_utils-0.64.tar.gz
+[2023-07-16 18:44:10] INFO root fetch - processPackages [npe2]: Downloading https://files.pythonhosted.org/packages/44/8d/c2039356b9c86d2f367f76284be0249beaf2c8d9fc9697dc29b17c93b9bf/npe2-0.7.1.tar.gz
+[2023-07-16 18:44:10] INFO root fetch - processPackages [xpystac]: executing diffoscope
+[2023-07-16 18:44:10] INFO root fetch - processPackages [xpystac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xpystac-0.1.1.tar.gz tmp/xpystac-0.1.2.tar.gz --markdown 20230716/x/xpystac/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-16 18:44:10] INFO root fetch - processPackages [cthulhucli]: Downloading https://files.pythonhosted.org/packages/a0/e7/1f278c475fbd74f45575b906685eb85432776d6517a8f23f3910334778a6/cthulhucli-0.2.0-py3-none-any.whl
+[2023-07-16 18:44:10] INFO root fetch - processPackages [mirutil]: Downloading https://files.pythonhosted.org/packages/e4/5c/8356dc3abf52622922240b5a0df981f63d2ca98d2685eff43ea7a6c5d6c0/mirutil-9.4.0.tar.gz
+[2023-07-16 18:44:10] INFO root fetch - processPackages [target-s3-delta]: Downloading https://files.pythonhosted.org/packages/fb/f8/26c91f2455b8afd469305bcff50568a081c15ba427ed9957fa9c40f0067f/target_s3_delta-0.0.9.tar.gz
+[2023-07-16 18:44:10] INFO root fetch - processPackages [i8-terminal]: executing diffoscope
+[2023-07-16 18:44:10] INFO root fetch - processPackages [i8-terminal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/i8-terminal-0.2.98.tar.gz tmp/i8-terminal-0.2.99.tar.gz --markdown 20230716/i/i8-terminal/0.2.98-0.2.99/diff.md --exclude *.pyd
+[2023-07-16 18:44:10] INFO root fetch - processPackages [summo]: executing diffoscope
+[2023-07-16 18:44:10] INFO root fetch - processPackages [summo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/summo-0.0.5.tar.gz tmp/summo-0.0.6.tar.gz --markdown 20230716/s/summo/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-16 18:44:10] INFO root fetch - processPackages [longalpha-utils]: executing diffoscope
+[2023-07-16 18:44:10] INFO root fetch - processPackages [longalpha-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/longalpha_utils-0.63.tar.gz tmp/longalpha_utils-0.64.tar.gz --markdown 20230716/l/longalpha-utils/0.63-0.64/diff.md --exclude *.pyd
+[2023-07-16 18:44:10] INFO root fetch - processPackages [mirutil]: executing diffoscope
+[2023-07-16 18:44:10] INFO root fetch - processPackages [mirutil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mirutil-9.3.1.tar.gz tmp/mirutil-9.4.0.tar.gz --markdown 20230716/m/mirutil/9.3.1-9.4.0/diff.md --exclude *.pyd
+[2023-07-16 18:44:10] INFO root fetch - processPackages [target-s3-delta]: executing diffoscope
+[2023-07-16 18:44:10] INFO root fetch - processPackages [target-s3-delta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/target_s3_delta-0.0.8.tar.gz tmp/target_s3_delta-0.0.9.tar.gz --markdown 20230716/t/target-s3-delta/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-16 18:44:10] INFO root fetch - processPackages [npe2]: executing diffoscope
+[2023-07-16 18:44:10] INFO root fetch - processPackages [npe2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/npe2-0.7.0.tar.gz tmp/npe2-0.7.1.tar.gz --markdown 20230716/n/npe2/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-07-16 18:44:10] INFO root fetch - processPackages [cthulhucli]: executing diffoscope
+[2023-07-16 18:44:10] INFO root fetch - processPackages [cthulhucli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cthulhucli-0.1.0-py3-none-any.whl.zip tmp/cthulhucli-0.2.0-py3-none-any.whl.zip --markdown 20230716/c/cthulhucli/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-07-16 18:44:10] INFO root fetch - processPackages [muspectre]: Downloading https://files.pythonhosted.org/packages/6b/5f/08c38029b78ff8e211fd8b46b7f515691b5248f774c0524bcf01a1737649/muspectre-0.26.3.tar.gz
+[2023-07-16 18:44:11] INFO root fetch - processPackages [xpystac]: Remove: archive file [/home/abi/fetcher/tmp/xpystac-0.1.1.tar.gz]
+[2023-07-16 18:44:11] INFO root fetch - processPackages [xpystac]: Remove: archive file [/home/abi/fetcher/tmp/xpystac-0.1.2.tar.gz]
+[2023-07-16 18:44:11] INFO root fetch - main [MainThread]: End processing [xpystac]: success
+[2023-07-16 18:44:11] INFO root fetch - processPackages [summo]: Remove: archive file [/home/abi/fetcher/tmp/summo-0.0.5.tar.gz]
+[2023-07-16 18:44:11] INFO root fetch - processPackages [summo]: Remove: archive file [/home/abi/fetcher/tmp/summo-0.0.6.tar.gz]
+[2023-07-16 18:44:11] INFO root fetch - main [MainThread]: End processing [summo]: success
+[2023-07-16 18:44:11] INFO root fetch - processPackages [longalpha-utils]: Remove: archive file [/home/abi/fetcher/tmp/longalpha_utils-0.63.tar.gz]
+[2023-07-16 18:44:11] INFO root fetch - processPackages [longalpha-utils]: Remove: archive file [/home/abi/fetcher/tmp/longalpha_utils-0.64.tar.gz]
+[2023-07-16 18:44:11] INFO root fetch - main [MainThread]: End processing [longalpha-utils]: success
+[2023-07-16 18:44:11] INFO root fetch - processPackages [mirutil]: Remove: archive file [/home/abi/fetcher/tmp/mirutil-9.3.1.tar.gz]
+[2023-07-16 18:44:11] INFO root fetch - processPackages [mirutil]: Remove: archive file [/home/abi/fetcher/tmp/mirutil-9.4.0.tar.gz]
+[2023-07-16 18:44:11] INFO root fetch - main [MainThread]: End processing [mirutil]: success
+[2023-07-16 18:44:11] INFO root fetch - processPackages [target-s3-delta]: Remove: archive file [/home/abi/fetcher/tmp/target_s3_delta-0.0.8.tar.gz]
+[2023-07-16 18:44:11] INFO root fetch - processPackages [target-s3-delta]: Remove: archive file [/home/abi/fetcher/tmp/target_s3_delta-0.0.9.tar.gz]
+[2023-07-16 18:44:11] INFO root fetch - main [MainThread]: End processing [target-s3-delta]: success
+[2023-07-16 18:44:11] INFO root fetch - processPackages [cthulhucli]: Remove: archive file [/home/abi/fetcher/tmp/cthulhucli-0.1.0-py3-none-any.whl.zip]
+[2023-07-16 18:44:11] INFO root fetch - processPackages [cthulhucli]: Remove: archive file [/home/abi/fetcher/tmp/cthulhucli-0.2.0-py3-none-any.whl.zip]
+[2023-07-16 18:44:11] INFO root fetch - main [MainThread]: End processing [cthulhucli]: success
+[2023-07-16 18:44:12] INFO root fetch - processPackages [i8-terminal]: Remove: archive file [/home/abi/fetcher/tmp/i8-terminal-0.2.98.tar.gz]
+[2023-07-16 18:44:12] INFO root fetch - processPackages [i8-terminal]: Remove: archive file [/home/abi/fetcher/tmp/i8-terminal-0.2.99.tar.gz]
+[2023-07-16 18:44:12] INFO root fetch - main [MainThread]: End processing [i8-terminal]: success
+[2023-07-16 18:44:12] INFO root fetch - processPackages [npe2]: Remove: archive file [/home/abi/fetcher/tmp/npe2-0.7.0.tar.gz]
+[2023-07-16 18:44:12] INFO root fetch - processPackages [npe2]: Remove: archive file [/home/abi/fetcher/tmp/npe2-0.7.1.tar.gz]
+[2023-07-16 18:44:12] INFO root fetch - main [MainThread]: End processing [npe2]: success
+[2023-07-16 18:44:12] INFO root fetch - processPackages [muspectre]: executing diffoscope
+[2023-07-16 18:44:12] INFO root fetch - processPackages [muspectre]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/muspectre-0.26.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/muspectre-0.26.3.tar.gz --markdown 20230716/m/muspectre/0.26.1-0.26.3/diff.md --exclude *.pyd
+[2023-07-16 18:44:18] INFO root fetch - processPackages [muspectre]: Remove: archive file [/home/abi/fetcher/tmp/muspectre-0.26.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-16 18:44:18] INFO root fetch - processPackages [muspectre]: Remove: archive file [/home/abi/fetcher/tmp/muspectre-0.26.3.tar.gz]
+[2023-07-16 18:44:18] INFO root fetch - main [MainThread]: End processing [muspectre]: success
+[2023-07-16 18:44:18] INFO root fetch - main [MainThread]: Store serial: [18908170]
