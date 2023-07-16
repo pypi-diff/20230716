@@ -6519,3 +6519,63 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-16 11:34:33] INFO root fetch - processPackages [noelgram1]: Remove: archive file [/home/abi/fetcher/tmp/noelgram1-0.0.3.tar.gz]
 [2023-07-16 11:34:33] INFO root fetch - main [MainThread]: End processing [noelgram1]: success
 [2023-07-16 11:34:33] INFO root fetch - main [MainThread]: Store serial: [18905993]
+[2023-07-16 11:39:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18905993]
+[2023-07-16 11:39:42] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-16 11:39:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: basictdf
+[2023-07-16 11:39:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lichenggong
+[2023-07-16 11:39:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: asmysql
+[2023-07-16 11:39:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jsonschema2md
+[2023-07-16 11:39:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jsonschema2md2
+[2023-07-16 11:39:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: frictionless
+[2023-07-16 11:39:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: popyrous
+[2023-07-16 11:39:42] INFO root fetch - processPackages [popyrous]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-16 11:39:42] INFO root fetch - processPackages [frictionless]: New version: [5.8.3] Old Version: [5.8.2]
+[2023-07-16 11:39:42] WARNING root fetch - processPackages [asmysql]: Skipping, unable to determine old version
+[2023-07-16 11:39:42] INFO root fetch - main [MainThread]: End processing [asmysql] error
+[2023-07-16 11:39:42] INFO root fetch - processPackages [lichenggong]: New version: [0.3.0.5] Old Version: [0.2.3.4]
+[2023-07-16 11:39:42] INFO root fetch - processPackages [jsonschema2md]: New version: [0.9.0] Old Version: [0.4.0]
+[2023-07-16 11:39:42] INFO root fetch - processPackages [basictdf]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-16 11:39:42] INFO root fetch - processPackages [jsonschema2md2]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-16 11:39:42] INFO root fetch - processPackages [popyrous]: Downloading https://files.pythonhosted.org/packages/98/6a/ccaa2cc3e8960ebb7a979395438e0283ac54b0d000b1951c77fd55015936/popyrous-0.0.8.tar.gz
+[2023-07-16 11:39:42] INFO root fetch - processPackages [frictionless]: Downloading https://files.pythonhosted.org/packages/64/ee/14733c5b1fcd9a121c750af080aa978bfe1e801a9de882afa8cfe53382a6/frictionless-5.8.2.tar.gz
+[2023-07-16 11:39:43] INFO root fetch - processPackages [lichenggong]: Downloading https://files.pythonhosted.org/packages/0a/0a/12c8974b90b5737b46f07e9f1bae9533f42da9e90851debcb2c8d4580855/lichenggong-0.2.3.4.tar.gz
+[2023-07-16 11:39:43] INFO root fetch - processPackages [basictdf]: Downloading https://files.pythonhosted.org/packages/3b/a9/fbec2ad692e5ab21375943cb44df353433a632545467da499466d521be74/basictdf-0.1.8.tar.gz
+[2023-07-16 11:39:43] INFO root fetch - processPackages [jsonschema2md2]: Downloading https://files.pythonhosted.org/packages/a8/e3/4b4106c3b4cd3992d5e99731c9922d0417897b27f2a981474bfb4ad3b14d/jsonschema2md2-0.8.0.tar.gz
+[2023-07-16 11:39:43] INFO root fetch - processPackages [jsonschema2md]: Downloading https://files.pythonhosted.org/packages/c1/89/eaad555a0ef50b9462cfd390282bf2b0c185e12062c8fe7c6fc69aa7ea00/jsonschema2md-0.4.0.tar.gz
+[2023-07-16 11:39:43] INFO root fetch - processPackages [popyrous]: Downloading https://files.pythonhosted.org/packages/5c/4d/ac8c6c46cd97649cc05f5158bba04c92e5bb9cc4274fdc429f7db0657901/popyrous-0.0.9.tar.gz
+[2023-07-16 11:39:43] INFO root fetch - processPackages [frictionless]: Downloading https://files.pythonhosted.org/packages/90/d2/f85c7cedee239a748294362c4c36984bc70e846a057ecc7f4ed136298a34/frictionless-5.8.3.tar.gz
+[2023-07-16 11:39:43] INFO root fetch - processPackages [popyrous]: executing diffoscope
+[2023-07-16 11:39:43] INFO root fetch - processPackages [popyrous]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/popyrous-0.0.8.tar.gz tmp/popyrous-0.0.9.tar.gz --markdown 20230716/p/popyrous/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-16 11:39:43] INFO root fetch - processPackages [frictionless]: executing diffoscope
+[2023-07-16 11:39:43] INFO root fetch - processPackages [frictionless]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frictionless-5.8.2.tar.gz tmp/frictionless-5.8.3.tar.gz --markdown 20230716/f/frictionless/5.8.2-5.8.3/diff.md --exclude *.pyd
+[2023-07-16 11:39:43] INFO root fetch - processPackages [basictdf]: Downloading https://files.pythonhosted.org/packages/ab/ab/9beae8dbfb33ef4cf31cb6add7cdf551732dddd3f86ed6379ac1882081f2/basictdf-0.1.9.tar.gz
+[2023-07-16 11:39:43] INFO root fetch - processPackages [lichenggong]: Downloading https://files.pythonhosted.org/packages/35/10/c8ea43c050a4ed904ea421cd6da94ba567850f6f4812620ed470fd51cfc0/lichenggong-0.3.0.5.tar.gz
+[2023-07-16 11:39:43] INFO root fetch - processPackages [jsonschema2md]: Downloading https://files.pythonhosted.org/packages/99/e1/0d2295ce2254924d6c662236e44f511d570b7e9ddeeb7b04afe0b7617e4b/jsonschema2md-0.9.0.tar.gz
+[2023-07-16 11:39:43] INFO root fetch - processPackages [lichenggong]: executing diffoscope
+[2023-07-16 11:39:43] INFO root fetch - processPackages [jsonschema2md2]: Downloading https://files.pythonhosted.org/packages/0d/f5/77954e71b1deac0da13b9aab43deeeb7a437f7c9c1e817fb6fb8c09eccd8/jsonschema2md2-0.9.0.tar.gz
+[2023-07-16 11:39:43] INFO root fetch - processPackages [lichenggong]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lichenggong-0.2.3.4.tar.gz tmp/lichenggong-0.3.0.5.tar.gz --markdown 20230716/l/lichenggong/0.2.3.4-0.3.0.5/diff.md --exclude *.pyd
+[2023-07-16 11:39:43] INFO root fetch - processPackages [basictdf]: executing diffoscope
+[2023-07-16 11:39:43] INFO root fetch - processPackages [basictdf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/basictdf-0.1.8.tar.gz tmp/basictdf-0.1.9.tar.gz --markdown 20230716/b/basictdf/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-16 11:39:43] INFO root fetch - processPackages [jsonschema2md2]: executing diffoscope
+[2023-07-16 11:39:43] INFO root fetch - processPackages [jsonschema2md2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jsonschema2md2-0.8.0.tar.gz tmp/jsonschema2md2-0.9.0.tar.gz --markdown 20230716/j/jsonschema2md2/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-16 11:39:43] INFO root fetch - processPackages [jsonschema2md]: executing diffoscope
+[2023-07-16 11:39:43] INFO root fetch - processPackages [jsonschema2md]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jsonschema2md-0.4.0.tar.gz tmp/jsonschema2md-0.9.0.tar.gz --markdown 20230716/j/jsonschema2md/0.4.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-16 11:39:44] INFO root fetch - processPackages [popyrous]: Remove: archive file [/home/abi/fetcher/tmp/popyrous-0.0.8.tar.gz]
+[2023-07-16 11:39:44] INFO root fetch - processPackages [popyrous]: Remove: archive file [/home/abi/fetcher/tmp/popyrous-0.0.9.tar.gz]
+[2023-07-16 11:39:44] INFO root fetch - main [MainThread]: End processing [popyrous]: success
+[2023-07-16 11:39:44] INFO root fetch - processPackages [lichenggong]: Remove: archive file [/home/abi/fetcher/tmp/lichenggong-0.2.3.4.tar.gz]
+[2023-07-16 11:39:44] INFO root fetch - processPackages [lichenggong]: Remove: archive file [/home/abi/fetcher/tmp/lichenggong-0.3.0.5.tar.gz]
+[2023-07-16 11:39:44] INFO root fetch - main [MainThread]: End processing [lichenggong]: success
+[2023-07-16 11:39:44] INFO root fetch - processPackages [basictdf]: Remove: archive file [/home/abi/fetcher/tmp/basictdf-0.1.8.tar.gz]
+[2023-07-16 11:39:44] INFO root fetch - processPackages [basictdf]: Remove: archive file [/home/abi/fetcher/tmp/basictdf-0.1.9.tar.gz]
+[2023-07-16 11:39:44] INFO root fetch - main [MainThread]: End processing [basictdf]: success
+[2023-07-16 11:39:44] INFO root fetch - processPackages [jsonschema2md2]: Remove: archive file [/home/abi/fetcher/tmp/jsonschema2md2-0.8.0.tar.gz]
+[2023-07-16 11:39:44] INFO root fetch - processPackages [jsonschema2md2]: Remove: archive file [/home/abi/fetcher/tmp/jsonschema2md2-0.9.0.tar.gz]
+[2023-07-16 11:39:44] INFO root fetch - main [MainThread]: End processing [jsonschema2md2]: success
+[2023-07-16 11:39:44] INFO root fetch - processPackages [jsonschema2md]: Remove: archive file [/home/abi/fetcher/tmp/jsonschema2md-0.4.0.tar.gz]
+[2023-07-16 11:39:44] INFO root fetch - processPackages [jsonschema2md]: Remove: archive file [/home/abi/fetcher/tmp/jsonschema2md-0.9.0.tar.gz]
+[2023-07-16 11:39:44] INFO root fetch - main [MainThread]: End processing [jsonschema2md]: success
+[2023-07-16 11:39:46] INFO root fetch - processPackages [frictionless]: Remove: archive file [/home/abi/fetcher/tmp/frictionless-5.8.2.tar.gz]
+[2023-07-16 11:39:46] INFO root fetch - processPackages [frictionless]: Remove: archive file [/home/abi/fetcher/tmp/frictionless-5.8.3.tar.gz]
+[2023-07-16 11:39:46] INFO root fetch - main [MainThread]: End processing [frictionless]: success
+[2023-07-16 11:39:46] INFO root fetch - main [MainThread]: Store serial: [18906018]
