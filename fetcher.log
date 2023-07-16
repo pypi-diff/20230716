@@ -5320,3 +5320,60 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-16 09:55:28] INFO root fetch - processPackages [plapperkasten]: Remove: archive file [/home/abi/fetcher/tmp/plapperkasten-0.5.3.tar.gz]
 [2023-07-16 09:55:28] INFO root fetch - main [MainThread]: End processing [plapperkasten]: success
 [2023-07-16 09:55:28] INFO root fetch - main [MainThread]: Store serial: [18905527]
+[2023-07-16 10:00:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18905527]
+[2023-07-16 10:00:36] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-16 10:00:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sgml2dict
+[2023-07-16 10:00:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: package-smoke-test
+[2023-07-16 10:00:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: stigg-api-client
+[2023-07-16 10:00:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: stigg-api-client-v2
+[2023-07-16 10:00:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: readtome
+[2023-07-16 10:00:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pdfly
+[2023-07-16 10:00:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: adafri
+[2023-07-16 10:00:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ppyNotion
+[2023-07-16 10:00:36] WARNING root fetch - processPackages [readtome]: Skipping, unable to determine old version
+[2023-07-16 10:00:36] INFO root fetch - main [MainThread]: End processing [readtome] error
+[2023-07-16 10:00:36] WARNING root fetch - processPackages [ppyNotion]: Skipping, unable to determine old version
+[2023-07-16 10:00:36] INFO root fetch - main [MainThread]: End processing [ppyNotion] error
+[2023-07-16 10:00:36] WARNING root fetch - processPackages [package-smoke-test]: Skipping, unable to determine old version
+[2023-07-16 10:00:36] INFO root fetch - main [MainThread]: End processing [package-smoke-test] error
+[2023-07-16 10:00:36] INFO root fetch - processPackages [sgml2dict]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-16 10:00:36] INFO root fetch - processPackages [stigg-api-client-v2]: New version: [0.487.0] Old Version: [0.486.0]
+[2023-07-16 10:00:36] INFO root fetch - processPackages [adafri]: New version: [0.0.19.38] Old Version: [0.0.19.37]
+[2023-07-16 10:00:36] INFO root fetch - processPackages [pdfly]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-16 10:00:36] INFO root fetch - processPackages [stigg-api-client]: New version: [0.5.0] Old Version: [0.487.0]
+[2023-07-16 10:00:36] INFO root fetch - processPackages [adafri]: Downloading https://files.pythonhosted.org/packages/67/30/678a0badaf62e07e2cca59654f8dfe1b54c51c7a510c1e27f1b1ce9f0257/adafri-0.0.19.37.tar.gz
+[2023-07-16 10:00:37] INFO root fetch - processPackages [sgml2dict]: Downloading https://files.pythonhosted.org/packages/13/9e/249da5581af9016d1638d4a03a1f546a48d02284ba2cab5bd32a5b502e2d/sgml2dict-0.0.4.tar.gz
+[2023-07-16 10:00:37] INFO root fetch - processPackages [pdfly]: Downloading https://files.pythonhosted.org/packages/b0/d0/7c4eb4bb3d9e11c800633313e072e95f5c59d7c29d2d45ff9985d8734120/pdfly-0.2.8.tar.gz
+[2023-07-16 10:00:37] INFO root fetch - processPackages [stigg-api-client]: Downloading https://files.pythonhosted.org/packages/b3/27/39e894937799bf9e033e4b9107ad6826f8ab452510a58d1f1d701e8773cb/stigg_api_client-0.487.0.tar.gz
+[2023-07-16 10:00:37] INFO root fetch - processPackages [stigg-api-client-v2]: Downloading https://files.pythonhosted.org/packages/99/37/750b9bc6cebbb1838f702edc71e7045d18bc10141393f1114a530e61aa18/stigg_api_client_v2-0.486.0.tar.gz
+[2023-07-16 10:00:37] INFO root fetch - processPackages [pdfly]: Downloading https://files.pythonhosted.org/packages/1d/1f/bfdb38be9ab7c52c02bf818ef6bc3b094a25619fd66377280c7f74823c6c/pdfly-0.2.9.tar.gz
+[2023-07-16 10:00:37] INFO root fetch - processPackages [adafri]: Downloading https://files.pythonhosted.org/packages/4d/ad/ad343539210a4ffa31aaecc3f1f053d3e139710d5b2fb672e6ddb0a6aa8a/adafri-0.0.19.38.tar.gz
+[2023-07-16 10:00:37] INFO root fetch - processPackages [sgml2dict]: Downloading https://files.pythonhosted.org/packages/09/90/aed9bb713e0fe1208dce9dec8d7b958bb192b58b264fbfe871af44f0e3e6/sgml2dict-0.0.5.tar.gz
+[2023-07-16 10:00:37] INFO root fetch - processPackages [stigg-api-client-v2]: Downloading https://files.pythonhosted.org/packages/ac/37/6f9d892915ae472d991dba5736e1998b9b6bdf3b5ca02b06648a83f876a7/stigg_api_client_v2-0.487.0.tar.gz
+[2023-07-16 10:00:37] INFO root fetch - processPackages [pdfly]: executing diffoscope
+[2023-07-16 10:00:37] INFO root fetch - processPackages [pdfly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdfly-0.2.8.tar.gz tmp/pdfly-0.2.9.tar.gz --markdown 20230716/p/pdfly/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-16 10:00:37] INFO root fetch - processPackages [stigg-api-client]: Downloading https://files.pythonhosted.org/packages/6f/d2/ae3138d8e73b06a33bdd8d29d234ac4387d7bf23217c13b557d497089bbf/stigg_api_client-0.5.0.tar.gz
+[2023-07-16 10:00:37] INFO root fetch - processPackages [adafri]: executing diffoscope
+[2023-07-16 10:00:37] INFO root fetch - processPackages [adafri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafri-0.0.19.37.tar.gz tmp/adafri-0.0.19.38.tar.gz --markdown 20230716/a/adafri/0.0.19.37-0.0.19.38/diff.md --exclude *.pyd
+[2023-07-16 10:00:37] INFO root fetch - processPackages [stigg-api-client-v2]: executing diffoscope
+[2023-07-16 10:00:37] INFO root fetch - processPackages [stigg-api-client-v2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stigg_api_client_v2-0.486.0.tar.gz tmp/stigg_api_client_v2-0.487.0.tar.gz --markdown 20230716/s/stigg-api-client-v2/0.486.0-0.487.0/diff.md --exclude *.pyd
+[2023-07-16 10:00:37] INFO root fetch - processPackages [sgml2dict]: executing diffoscope
+[2023-07-16 10:00:37] INFO root fetch - processPackages [sgml2dict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sgml2dict-0.0.4.tar.gz tmp/sgml2dict-0.0.5.tar.gz --markdown 20230716/s/sgml2dict/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-16 10:00:37] INFO root fetch - processPackages [stigg-api-client]: executing diffoscope
+[2023-07-16 10:00:37] INFO root fetch - processPackages [stigg-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stigg_api_client-0.487.0.tar.gz tmp/stigg_api_client-0.5.0.tar.gz --markdown 20230716/s/stigg-api-client/0.487.0-0.5.0/diff.md --exclude *.pyd
+[2023-07-16 10:00:38] INFO root fetch - processPackages [pdfly]: Remove: archive file [/home/abi/fetcher/tmp/pdfly-0.2.8.tar.gz]
+[2023-07-16 10:00:38] INFO root fetch - processPackages [pdfly]: Remove: archive file [/home/abi/fetcher/tmp/pdfly-0.2.9.tar.gz]
+[2023-07-16 10:00:38] INFO root fetch - main [MainThread]: End processing [pdfly]: success
+[2023-07-16 10:00:38] INFO root fetch - processPackages [sgml2dict]: Remove: archive file [/home/abi/fetcher/tmp/sgml2dict-0.0.4.tar.gz]
+[2023-07-16 10:00:38] INFO root fetch - processPackages [sgml2dict]: Remove: archive file [/home/abi/fetcher/tmp/sgml2dict-0.0.5.tar.gz]
+[2023-07-16 10:00:38] INFO root fetch - main [MainThread]: End processing [sgml2dict]: success
+[2023-07-16 10:00:38] INFO root fetch - processPackages [adafri]: Remove: archive file [/home/abi/fetcher/tmp/adafri-0.0.19.37.tar.gz]
+[2023-07-16 10:00:38] INFO root fetch - processPackages [adafri]: Remove: archive file [/home/abi/fetcher/tmp/adafri-0.0.19.38.tar.gz]
+[2023-07-16 10:00:38] INFO root fetch - main [MainThread]: End processing [adafri]: success
+[2023-07-16 10:00:38] INFO root fetch - processPackages [stigg-api-client]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client-0.487.0.tar.gz]
+[2023-07-16 10:00:38] INFO root fetch - processPackages [stigg-api-client]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client-0.5.0.tar.gz]
+[2023-07-16 10:00:38] INFO root fetch - main [MainThread]: End processing [stigg-api-client]: success
+[2023-07-16 10:00:38] INFO root fetch - processPackages [stigg-api-client-v2]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client_v2-0.486.0.tar.gz]
+[2023-07-16 10:00:38] INFO root fetch - processPackages [stigg-api-client-v2]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client_v2-0.487.0.tar.gz]
+[2023-07-16 10:00:38] INFO root fetch - main [MainThread]: End processing [stigg-api-client-v2]: success
+[2023-07-16 10:00:38] INFO root fetch - main [MainThread]: Store serial: [18905561]
