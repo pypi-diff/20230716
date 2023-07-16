@@ -6616,3 +6616,60 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-16 11:44:57] INFO root fetch - processPackages [druhg]: Remove: archive file [/home/abi/fetcher/tmp/druhg-1.4.1.tar.gz]
 [2023-07-16 11:44:57] INFO root fetch - main [MainThread]: End processing [druhg]: success
 [2023-07-16 11:44:57] INFO root fetch - main [MainThread]: Store serial: [18906033]
+[2023-07-16 11:50:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18906033]
+[2023-07-16 11:50:05] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-16 11:50:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: python-alist-api
+[2023-07-16 11:50:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spark-sdk
+[2023-07-16 11:50:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: basictdf
+[2023-07-16 11:50:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nonebot-plugin-l4d2-server
+[2023-07-16 11:50:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ps-optimize
+[2023-07-16 11:50:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyfrobot
+[2023-07-16 11:50:05] INFO root fetch - processPackages [pyfrobot]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-07-16 11:50:05] INFO root fetch - processPackages [basictdf]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-16 11:50:05] INFO root fetch - processPackages [nonebot-plugin-l4d2-server]: New version: [0.6.0] Old Version: [0.5.9.2]
+[2023-07-16 11:50:05] INFO root fetch - processPackages [python-alist-api]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-16 11:50:05] INFO root fetch - processPackages [ps-optimize]: New version: [2.0.4] Old Version: [2.0.3]
+[2023-07-16 11:50:05] INFO root fetch - processPackages [spark-sdk]: New version: [0.4.9] Old Version: [0.4.23rc6]
+[2023-07-16 11:50:05] INFO root fetch - processPackages [pyfrobot]: Downloading https://files.pythonhosted.org/packages/78/dd/e5b17d86f98980122e83e191c3c1f357000e7b0368a9b837d882d9dcfc3a/pyfrobot-0.1.7.tar.gz
+[2023-07-16 11:50:05] INFO root fetch - processPackages [basictdf]: Downloading https://files.pythonhosted.org/packages/3b/a9/fbec2ad692e5ab21375943cb44df353433a632545467da499466d521be74/basictdf-0.1.8.tar.gz
+[2023-07-16 11:50:05] INFO root fetch - processPackages [ps-optimize]: Downloading https://files.pythonhosted.org/packages/77/ff/702feebc373d9cd91dc678e9fc1c83ed08ec08501464141f94fa01cb1dcf/ps-optimize-2.0.3.tar.gz
+[2023-07-16 11:50:06] INFO root fetch - processPackages [python-alist-api]: Downloading https://files.pythonhosted.org/packages/cc/a7/0cfae831ce655d0b8db553fb4c33e2e4a534e1449112920c4a7ea2514d99/python-alist-api-0.0.2.tar.gz
+[2023-07-16 11:50:06] INFO root fetch - processPackages [spark-sdk]: Downloading https://files.pythonhosted.org/packages/99/4e/e0655403ac91819a2b94dfd1c14871c15f19a3c30a91fe06307b38083d54/spark_sdk-0.4.23rc6-py3-none-any.whl
+[2023-07-16 11:50:06] INFO root fetch - processPackages [nonebot-plugin-l4d2-server]: Downloading https://files.pythonhosted.org/packages/70/aa/00eb66f5187c064749fcc629b81214c0f67e15c99ec91e41ff36c5461dde/nonebot_plugin_l4d2_server-0.5.9.2.tar.gz
+[2023-07-16 11:50:06] INFO root fetch - processPackages [basictdf]: Downloading https://files.pythonhosted.org/packages/ab/ab/9beae8dbfb33ef4cf31cb6add7cdf551732dddd3f86ed6379ac1882081f2/basictdf-0.1.9.tar.gz
+[2023-07-16 11:50:06] INFO root fetch - processPackages [pyfrobot]: Downloading https://files.pythonhosted.org/packages/47/d8/4eff931acd80eb8b05f05c88112d1850849146f9915175d6eadf35df14ef/pyfrobot-0.1.8.tar.gz
+[2023-07-16 11:50:06] INFO root fetch - processPackages [ps-optimize]: Downloading https://files.pythonhosted.org/packages/03/2c/f3a8e57729473759ffbc397a4f43dcf4f3661a5bc6b31dcea3b910a40917/ps-optimize-2.0.4.tar.gz
+[2023-07-16 11:50:06] INFO root fetch - processPackages [spark-sdk]: Downloading https://files.pythonhosted.org/packages/78/ef/a94fc9e735951687c8ae5c09971b47a197f864afe848bd3c4ada1591b88a/spark_sdk-0.4.9-py3-none-any.whl
+[2023-07-16 11:50:06] INFO root fetch - processPackages [basictdf]: executing diffoscope
+[2023-07-16 11:50:06] INFO root fetch - processPackages [basictdf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/basictdf-0.1.8.tar.gz tmp/basictdf-0.1.9.tar.gz --markdown 20230716/b/basictdf/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-16 11:50:06] INFO root fetch - processPackages [python-alist-api]: Downloading https://files.pythonhosted.org/packages/9a/7c/9cc607b0f868d31055d4e1c23b96b729369003525704158afc4c7e71b66c/python-alist-api-0.0.3.tar.gz
+[2023-07-16 11:50:06] INFO root fetch - processPackages [spark-sdk]: executing diffoscope
+[2023-07-16 11:50:06] INFO root fetch - processPackages [spark-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spark_sdk-0.4.23rc6-py3-none-any.whl.zip tmp/spark_sdk-0.4.9-py3-none-any.whl.zip --markdown 20230716/s/spark-sdk/0.4.23rc6-0.4.9/diff.md --exclude *.pyd
+[2023-07-16 11:50:06] INFO root fetch - processPackages [python-alist-api]: executing diffoscope
+[2023-07-16 11:50:06] INFO root fetch - processPackages [python-alist-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-alist-api-0.0.2.tar.gz tmp/python-alist-api-0.0.3.tar.gz --markdown 20230716/p/python-alist-api/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-16 11:50:06] INFO root fetch - processPackages [pyfrobot]: executing diffoscope
+[2023-07-16 11:50:06] INFO root fetch - processPackages [pyfrobot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfrobot-0.1.7.tar.gz tmp/pyfrobot-0.1.8.tar.gz --markdown 20230716/p/pyfrobot/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-07-16 11:50:06] INFO root fetch - processPackages [ps-optimize]: executing diffoscope
+[2023-07-16 11:50:06] INFO root fetch - processPackages [ps-optimize]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ps-optimize-2.0.3.tar.gz tmp/ps-optimize-2.0.4.tar.gz --markdown 20230716/p/ps-optimize/2.0.3-2.0.4/diff.md --exclude *.pyd
+[2023-07-16 11:50:06] INFO root fetch - processPackages [nonebot-plugin-l4d2-server]: Downloading https://files.pythonhosted.org/packages/7d/d0/5f1fe481ffb4de30ada9e0e5f80b541c3e889d5289a1c9e6cab47659fe14/nonebot_plugin_l4d2_server-0.6.0.tar.gz
+[2023-07-16 11:50:07] INFO root fetch - processPackages [nonebot-plugin-l4d2-server]: executing diffoscope
+[2023-07-16 11:50:07] INFO root fetch - processPackages [nonebot-plugin-l4d2-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_l4d2_server-0.5.9.2.tar.gz tmp/nonebot_plugin_l4d2_server-0.6.0.tar.gz --markdown 20230716/n/nonebot-plugin-l4d2-server/0.5.9.2-0.6.0/diff.md --exclude *.pyd
+[2023-07-16 11:50:07] INFO root fetch - processPackages [pyfrobot]: Remove: archive file [/home/abi/fetcher/tmp/pyfrobot-0.1.7.tar.gz]
+[2023-07-16 11:50:07] INFO root fetch - processPackages [pyfrobot]: Remove: archive file [/home/abi/fetcher/tmp/pyfrobot-0.1.8.tar.gz]
+[2023-07-16 11:50:07] INFO root fetch - main [MainThread]: End processing [pyfrobot]: success
+[2023-07-16 11:50:07] INFO root fetch - processPackages [basictdf]: Remove: archive file [/home/abi/fetcher/tmp/basictdf-0.1.8.tar.gz]
+[2023-07-16 11:50:07] INFO root fetch - processPackages [basictdf]: Remove: archive file [/home/abi/fetcher/tmp/basictdf-0.1.9.tar.gz]
+[2023-07-16 11:50:07] INFO root fetch - main [MainThread]: End processing [basictdf]: success
+[2023-07-16 11:50:07] INFO root fetch - processPackages [ps-optimize]: Remove: archive file [/home/abi/fetcher/tmp/ps-optimize-2.0.3.tar.gz]
+[2023-07-16 11:50:07] INFO root fetch - processPackages [ps-optimize]: Remove: archive file [/home/abi/fetcher/tmp/ps-optimize-2.0.4.tar.gz]
+[2023-07-16 11:50:07] INFO root fetch - main [MainThread]: End processing [ps-optimize]: success
+[2023-07-16 11:50:07] INFO root fetch - processPackages [python-alist-api]: Remove: archive file [/home/abi/fetcher/tmp/python-alist-api-0.0.2.tar.gz]
+[2023-07-16 11:50:07] INFO root fetch - processPackages [python-alist-api]: Remove: archive file [/home/abi/fetcher/tmp/python-alist-api-0.0.3.tar.gz]
+[2023-07-16 11:50:07] INFO root fetch - main [MainThread]: End processing [python-alist-api]: success
+[2023-07-16 11:50:07] INFO root fetch - processPackages [spark-sdk]: Remove: archive file [/home/abi/fetcher/tmp/spark_sdk-0.4.23rc6-py3-none-any.whl.zip]
+[2023-07-16 11:50:07] INFO root fetch - processPackages [spark-sdk]: Remove: archive file [/home/abi/fetcher/tmp/spark_sdk-0.4.9-py3-none-any.whl.zip]
+[2023-07-16 11:50:07] INFO root fetch - main [MainThread]: End processing [spark-sdk]: success
+[2023-07-16 11:50:08] INFO root fetch - processPackages [nonebot-plugin-l4d2-server]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_l4d2_server-0.5.9.2.tar.gz]
+[2023-07-16 11:50:08] INFO root fetch - processPackages [nonebot-plugin-l4d2-server]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_l4d2_server-0.6.0.tar.gz]
+[2023-07-16 11:50:08] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-l4d2-server]: success
+[2023-07-16 11:50:08] INFO root fetch - main [MainThread]: Store serial: [18906050]
