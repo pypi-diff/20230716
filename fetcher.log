@@ -8335,3 +8335,60 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-16 14:26:30] INFO root fetch - processPackages [birdepy]: Remove: archive file [/home/abi/fetcher/tmp/birdepy-0.0.9.tar.gz]
 [2023-07-16 14:26:30] INFO root fetch - main [MainThread]: End processing [birdepy]: success
 [2023-07-16 14:26:30] INFO root fetch - main [MainThread]: Store serial: [18906782]
+[2023-07-16 14:31:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18906782]
+[2023-07-16 14:31:38] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-16 14:31:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: GBQM
+[2023-07-16 14:31:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wquality0
+[2023-07-16 14:31:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: anyon
+[2023-07-16 14:31:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sql-database-zoutigewolf
+[2023-07-16 14:31:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pymcabc
+[2023-07-16 14:31:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nonebot-plugin-sayoroll
+[2023-07-16 14:31:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: eznet-keras
+[2023-07-16 14:31:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: qcloud-user
+[2023-07-16 14:31:39] WARNING root fetch - processPackages [wquality0]: Skipping, unable to determine old version
+[2023-07-16 14:31:39] INFO root fetch - main [MainThread]: End processing [wquality0] error
+[2023-07-16 14:31:39] INFO root fetch - processPackages [pymcabc]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-16 14:31:39] INFO root fetch - processPackages [nonebot-plugin-sayoroll]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-07-16 14:31:39] INFO root fetch - processPackages [qcloud-user]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-16 14:31:39] WARNING root fetch - processPackages [GBQM]: Skipping, unable to determine old version
+[2023-07-16 14:31:39] INFO root fetch - main [MainThread]: End processing [GBQM] error
+[2023-07-16 14:31:39] INFO root fetch - processPackages [anyon]: New version: [3.7.8] Old Version: [3.7.7]
+[2023-07-16 14:31:39] INFO root fetch - processPackages [nonebot-plugin-sayoroll]: Downloading https://files.pythonhosted.org/packages/01/43/7955a0dd9ed87d4209f97c1bcc1f87c18c80793905112f80494915b20319/nonebot-plugin-sayoroll-0.2.2.tar.gz
+[2023-07-16 14:31:39] INFO root fetch - processPackages [eznet-keras]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-16 14:31:39] WARNING root fetch - processPackages [sql-database-zoutigewolf]: Skipping, unable to determine old version
+[2023-07-16 14:31:39] INFO root fetch - main [MainThread]: End processing [sql-database-zoutigewolf] error
+[2023-07-16 14:31:39] INFO root fetch - processPackages [pymcabc]: Downloading https://files.pythonhosted.org/packages/8a/b8/7dbd9ee69c2dca0bb701847ea65b0a5828c6d6c6b341d2f76a033895a553/pymcabc-0.8.0.tar.gz
+[2023-07-16 14:31:39] INFO root fetch - processPackages [qcloud-user]: Downloading https://files.pythonhosted.org/packages/50/4d/c6099baf130005333ec3c5b069c427109704dfc9696b7377ab1c3f1804de/qcloud_user-1.0.1.tar.gz
+[2023-07-16 14:31:39] INFO root fetch - processPackages [eznet-keras]: Downloading https://files.pythonhosted.org/packages/7a/05/62024262849e98c17c4ddd09d62303adea1aa1a9065618d82078feb4518c/eznet_keras-1.0.1.tar.gz
+[2023-07-16 14:31:39] INFO root fetch - processPackages [anyon]: Downloading https://files.pythonhosted.org/packages/2f/f0/7908e643c56975be54affd1dde71a30fedee2ab459e920706cc00c6382e7/anyon-3.7.7-cp311-none-win_amd64.whl
+[2023-07-16 14:31:39] INFO root fetch - processPackages [qcloud-user]: Downloading https://files.pythonhosted.org/packages/17/ba/f1bc2b867d1ab85b647db12d4ddcb5d01878ce4e2afb7b46dc79771f8e72/qcloud_user-1.0.2.tar.gz
+[2023-07-16 14:31:39] INFO root fetch - processPackages [nonebot-plugin-sayoroll]: Downloading https://files.pythonhosted.org/packages/89/42/6428a4f536396cc3aeb60ee7f60eaa2a536251c2bc3cf6c8810d5b1138dd/nonebot-plugin-sayoroll-0.2.3.tar.gz
+[2023-07-16 14:31:39] INFO root fetch - processPackages [pymcabc]: Downloading https://files.pythonhosted.org/packages/6c/7b/6ba9c20495aa7f1e6a35653e26a0759a59d289c20174ea7810275a940d2e/pymcabc-0.9.0.tar.gz
+[2023-07-16 14:31:39] INFO root fetch - processPackages [qcloud-user]: executing diffoscope
+[2023-07-16 14:31:39] INFO root fetch - processPackages [qcloud-user]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qcloud_user-1.0.1.tar.gz tmp/qcloud_user-1.0.2.tar.gz --markdown 20230716/q/qcloud-user/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-16 14:31:40] INFO root fetch - processPackages [anyon]: Downloading https://files.pythonhosted.org/packages/ec/5f/f7c0ec2cfa9ac016d72e36dbe27b4aea661c0b38af4738738509e1db8a69/anyon-3.7.8-cp311-none-win_amd64.whl
+[2023-07-16 14:31:40] INFO root fetch - processPackages [pymcabc]: executing diffoscope
+[2023-07-16 14:31:40] INFO root fetch - processPackages [pymcabc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymcabc-0.8.0.tar.gz tmp/pymcabc-0.9.0.tar.gz --markdown 20230716/p/pymcabc/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-16 14:31:40] INFO root fetch - processPackages [eznet-keras]: Downloading https://files.pythonhosted.org/packages/f7/95/bd9c53ec6989bd60aa882ac384d3388e3ad3a5c108ecb914c9a735f5a370/eznet_keras-1.0.2.tar.gz
+[2023-07-16 14:31:40] INFO root fetch - processPackages [nonebot-plugin-sayoroll]: executing diffoscope
+[2023-07-16 14:31:40] INFO root fetch - processPackages [nonebot-plugin-sayoroll]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot-plugin-sayoroll-0.2.2.tar.gz tmp/nonebot-plugin-sayoroll-0.2.3.tar.gz --markdown 20230716/n/nonebot-plugin-sayoroll/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-07-16 14:31:40] INFO root fetch - processPackages [eznet-keras]: executing diffoscope
+[2023-07-16 14:31:40] INFO root fetch - processPackages [eznet-keras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eznet_keras-1.0.1.tar.gz tmp/eznet_keras-1.0.2.tar.gz --markdown 20230716/e/eznet-keras/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-16 14:31:40] INFO root fetch - processPackages [anyon]: executing diffoscope
+[2023-07-16 14:31:40] INFO root fetch - processPackages [anyon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anyon-3.7.7-cp311-none-win_amd64.whl.zip tmp/anyon-3.7.8-cp311-none-win_amd64.whl.zip --markdown 20230716/a/anyon/3.7.7-3.7.8/diff.md --exclude *.pyd
+[2023-07-16 14:31:41] INFO root fetch - processPackages [pymcabc]: Remove: archive file [/home/abi/fetcher/tmp/pymcabc-0.8.0.tar.gz]
+[2023-07-16 14:31:41] INFO root fetch - processPackages [pymcabc]: Remove: archive file [/home/abi/fetcher/tmp/pymcabc-0.9.0.tar.gz]
+[2023-07-16 14:31:41] INFO root fetch - main [MainThread]: End processing [pymcabc]: success
+[2023-07-16 14:31:41] INFO root fetch - processPackages [qcloud-user]: Remove: archive file [/home/abi/fetcher/tmp/qcloud_user-1.0.1.tar.gz]
+[2023-07-16 14:31:41] INFO root fetch - processPackages [qcloud-user]: Remove: archive file [/home/abi/fetcher/tmp/qcloud_user-1.0.2.tar.gz]
+[2023-07-16 14:31:41] INFO root fetch - main [MainThread]: End processing [qcloud-user]: success
+[2023-07-16 14:31:41] INFO root fetch - processPackages [nonebot-plugin-sayoroll]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-sayoroll-0.2.2.tar.gz]
+[2023-07-16 14:31:41] INFO root fetch - processPackages [nonebot-plugin-sayoroll]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-sayoroll-0.2.3.tar.gz]
+[2023-07-16 14:31:41] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-sayoroll]: success
+[2023-07-16 14:31:41] INFO root fetch - processPackages [anyon]: Remove: archive file [/home/abi/fetcher/tmp/anyon-3.7.7-cp311-none-win_amd64.whl.zip]
+[2023-07-16 14:31:41] INFO root fetch - processPackages [anyon]: Remove: archive file [/home/abi/fetcher/tmp/anyon-3.7.8-cp311-none-win_amd64.whl.zip]
+[2023-07-16 14:31:41] INFO root fetch - main [MainThread]: End processing [anyon]: success
+[2023-07-16 14:31:41] INFO root fetch - processPackages [eznet-keras]: Remove: archive file [/home/abi/fetcher/tmp/eznet_keras-1.0.1.tar.gz]
+[2023-07-16 14:31:41] INFO root fetch - processPackages [eznet-keras]: Remove: archive file [/home/abi/fetcher/tmp/eznet_keras-1.0.2.tar.gz]
+[2023-07-16 14:31:41] INFO root fetch - main [MainThread]: End processing [eznet-keras]: success
+[2023-07-16 14:31:41] INFO root fetch - main [MainThread]: Store serial: [18906813]
