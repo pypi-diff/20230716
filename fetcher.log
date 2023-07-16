@@ -7002,3 +7002,33 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-16 12:26:40] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-2.3.99.tar.gz]
 [2023-07-16 12:26:40] INFO root fetch - main [MainThread]: End processing [checkov]: success
 [2023-07-16 12:26:40] INFO root fetch - main [MainThread]: Store serial: [18906176]
+[2023-07-16 12:31:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18906176]
+[2023-07-16 12:31:49] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-16 12:31:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: citizenk
+[2023-07-16 12:31:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nitaq
+[2023-07-16 12:31:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sklearn-pmml-model
+[2023-07-16 12:31:49] INFO root fetch - processPackages [citizenk]: New version: [0.1.50] Old Version: [0.1.49]
+[2023-07-16 12:31:49] INFO root fetch - processPackages [nitaq]: New version: [1.2.0] Old Version: [1.0.0]
+[2023-07-16 12:31:49] INFO root fetch - processPackages [sklearn-pmml-model]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-16 12:31:49] INFO root fetch - processPackages [citizenk]: Downloading https://files.pythonhosted.org/packages/87/bd/1425eed24e329f591a2454e922cebc488f8524178d8b56af0594e18a1324/citizenk-0.1.49.tar.gz
+[2023-07-16 12:31:49] INFO root fetch - processPackages [nitaq]: Downloading https://files.pythonhosted.org/packages/30/75/030b0f59ddc2da34fd74028561ad5bfc42079927caa8619d01b9494ee9ed/nitaq-1.0.0.tar.gz
+[2023-07-16 12:31:49] INFO root fetch - processPackages [sklearn-pmml-model]: Downloading https://files.pythonhosted.org/packages/68/cf/bc5268d2cf1b85af368edb66aa69c1b7f0f1fe8c21f3cf77daeefe708802/sklearn-pmml-model-1.0.2.tar.gz
+[2023-07-16 12:31:50] INFO root fetch - processPackages [citizenk]: Downloading https://files.pythonhosted.org/packages/32/d9/d313e3f713bb5e3a7fa64776ddc195acaf65c9f4ff4970d30fc39efdc867/citizenk-0.1.50.tar.gz
+[2023-07-16 12:31:50] INFO root fetch - processPackages [nitaq]: Downloading https://files.pythonhosted.org/packages/0a/58/b7a4cffed6f6b8656cc1b28291e403151e6f7cb90cdd41ed299e050a7621/nitaq-1.2.0.tar.gz
+[2023-07-16 12:31:50] INFO root fetch - processPackages [citizenk]: executing diffoscope
+[2023-07-16 12:31:50] INFO root fetch - processPackages [citizenk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/citizenk-0.1.49.tar.gz tmp/citizenk-0.1.50.tar.gz --markdown 20230716/c/citizenk/0.1.49-0.1.50/diff.md --exclude *.pyd
+[2023-07-16 12:31:50] INFO root fetch - processPackages [nitaq]: executing diffoscope
+[2023-07-16 12:31:50] INFO root fetch - processPackages [nitaq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nitaq-1.0.0.tar.gz tmp/nitaq-1.2.0.tar.gz --markdown 20230716/n/nitaq/1.0.0-1.2.0/diff.md --exclude *.pyd
+[2023-07-16 12:31:50] INFO root fetch - processPackages [sklearn-pmml-model]: Downloading https://files.pythonhosted.org/packages/49/bf/afc80a1ad648aa1e79f752091a2b588442e5643004275ac41c9816c87043/sklearn-pmml-model-1.0.3.tar.gz
+[2023-07-16 12:31:50] INFO root fetch - processPackages [sklearn-pmml-model]: executing diffoscope
+[2023-07-16 12:31:50] INFO root fetch - processPackages [sklearn-pmml-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sklearn-pmml-model-1.0.2.tar.gz tmp/sklearn-pmml-model-1.0.3.tar.gz --markdown 20230716/s/sklearn-pmml-model/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-16 12:31:50] INFO root fetch - processPackages [nitaq]: Remove: archive file [/home/abi/fetcher/tmp/nitaq-1.0.0.tar.gz]
+[2023-07-16 12:31:50] INFO root fetch - processPackages [nitaq]: Remove: archive file [/home/abi/fetcher/tmp/nitaq-1.2.0.tar.gz]
+[2023-07-16 12:31:50] INFO root fetch - main [MainThread]: End processing [nitaq]: success
+[2023-07-16 12:31:51] INFO root fetch - processPackages [citizenk]: Remove: archive file [/home/abi/fetcher/tmp/citizenk-0.1.49.tar.gz]
+[2023-07-16 12:31:51] INFO root fetch - processPackages [citizenk]: Remove: archive file [/home/abi/fetcher/tmp/citizenk-0.1.50.tar.gz]
+[2023-07-16 12:31:51] INFO root fetch - main [MainThread]: End processing [citizenk]: success
+[2023-07-16 12:31:52] INFO root fetch - processPackages [sklearn-pmml-model]: Remove: archive file [/home/abi/fetcher/tmp/sklearn-pmml-model-1.0.2.tar.gz]
+[2023-07-16 12:31:52] INFO root fetch - processPackages [sklearn-pmml-model]: Remove: archive file [/home/abi/fetcher/tmp/sklearn-pmml-model-1.0.3.tar.gz]
+[2023-07-16 12:31:52] INFO root fetch - main [MainThread]: End processing [sklearn-pmml-model]: success
+[2023-07-16 12:31:52] INFO root fetch - main [MainThread]: Store serial: [18906219]
