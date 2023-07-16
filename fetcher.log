@@ -900,3 +900,75 @@
 [2023-07-16 02:04:04] INFO root fetch - main [MainThread]: End processing [EASYPLOT-TOOLBOX]: success
 [2023-07-16 02:04:04] INFO root fetch - main [MainThread]: End processing [dj-veryfi]: success
 [2023-07-16 02:04:04] INFO root fetch - main [MainThread]: Store serial: [18903678]
+[2023-07-16 02:09:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18903678]
+[2023-07-16 02:09:12] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-16 02:09:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ibis-framework
+[2023-07-16 02:09:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: torchdatasets-nightly
+[2023-07-16 02:09:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jaxkern-nightly
+[2023-07-16 02:09:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mct-nightly
+[2023-07-16 02:09:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: agentloop
+[2023-07-16 02:09:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jaxutils-nightly
+[2023-07-16 02:09:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dj-veryfi
+[2023-07-16 02:09:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pa-tools-airflow
+[2023-07-16 02:09:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ml-compiler-opt
+[2023-07-16 02:09:13] INFO root fetch - processPackages [jaxutils-nightly]: New version: [0.0.8.dev20230715] Old Version: [0.0.8.dev20230714]
+[2023-07-16 02:09:13] ERROR root fetch - processPackages [pa-tools-airflow]: Unable to get metadata: No such project 'pa-tools-airflow'
+[2023-07-16 02:09:13] INFO root fetch - main [MainThread]: End processing [pa-tools-airflow] error
+[2023-07-16 02:09:13] WARNING root fetch - processPackages [agentloop]: Skipping, unable to determine old version
+[2023-07-16 02:09:13] INFO root fetch - processPackages [dj-veryfi]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-16 02:09:13] INFO root fetch - main [MainThread]: End processing [agentloop] error
+[2023-07-16 02:09:13] INFO root fetch - processPackages [ibis-framework]: New version: [v0.6.0] Old Version: [6.0.1.dev58]
+[2023-07-16 02:09:13] INFO root fetch - processPackages [ml-compiler-opt]: New version: [0.0.1.dev202307160008] Old Version: [0.0.1.dev202307150007]
+[2023-07-16 02:09:13] INFO root fetch - processPackages [mct-nightly]: New version: [1.9.0.20230715.post417] Old Version: [1.9.0.20230714.post447]
+[2023-07-16 02:09:13] INFO root fetch - processPackages [jaxkern-nightly]: New version: [0.dev20221222] Old Version: [0.dev20221221]
+[2023-07-16 02:09:13] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/87/83/6ca35aa61131ff1cab121c405fc4f1bb325cf5118267529e7e03b1425d0c/jaxutils-nightly-0.0.8.dev20230714.tar.gz
+[2023-07-16 02:09:13] INFO root fetch - processPackages [torchdatasets-nightly]: New version: [1689465836] Old Version: [1689379423]
+[2023-07-16 02:09:13] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/d1/89/9b196aa0cfe84afe91316bac44dc3a2bd0e916f70d0652c7575fb7e117ea/mct-nightly-1.9.0.20230714.post447.tar.gz
+[2023-07-16 02:09:13] INFO root fetch - processPackages [dj-veryfi]: Downloading https://files.pythonhosted.org/packages/10/42/07dd3d81cf4f4ec93f9fd53a04f884f14bdfac86036d09a74053c59abc79/dj-veryfi-0.1.1.tar.gz
+[2023-07-16 02:09:13] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/76/55/ef13835e3e8e1570e91b3bc7235725e556f183e3222d5e7e66ac8de58ba0/jaxkern-nightly-0.dev20221221.tar.gz
+[2023-07-16 02:09:13] INFO root fetch - processPackages [ibis-framework]: Downloading https://files.pythonhosted.org/packages/b5/79/5f5caec00f07f4860d4ec997a12f51ba5216a44d089cb8114beac844a94d/ibis_framework-6.0.1.dev58.tar.gz
+[2023-07-16 02:09:13] INFO root fetch - processPackages [ml-compiler-opt]: Downloading https://files.pythonhosted.org/packages/98/5e/f410a175e1a1f89ae536337bd9b91251a536eba78ace31c3c7aa349926da/ml-compiler-opt-0.0.1.dev202307150007.tar.gz
+[2023-07-16 02:09:13] INFO root fetch - processPackages [torchdatasets-nightly]: Downloading https://files.pythonhosted.org/packages/0e/d1/cb6299ecd10d17511e71a4057cc6acfb14109093db55d44c1e00b084fca2/torchdatasets-nightly-1689379423.tar.gz
+[2023-07-16 02:09:13] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/82/80/f7e6e4c36a9a5c7f8c2c9b319187063fe2b58a7205144ed37757a90a285f/jaxutils-nightly-0.0.8.dev20230715.tar.gz
+[2023-07-16 02:09:13] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/ea/b1/fbac44f07e48f8800aada2de8e9114775baf3f3d605ee80382db18a1c728/jaxkern-nightly-0.dev20221222.tar.gz
+[2023-07-16 02:09:13] INFO root fetch - processPackages [dj-veryfi]: Downloading https://files.pythonhosted.org/packages/e6/1e/45339f84eabbd3e17031246c062912be4f17c93e1f7605d8c05bde62b641/dj-veryfi-0.1.2.tar.gz
+[2023-07-16 02:09:13] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/41/e0/a2fdd805bc852aa74f9b12b569e95887e918adda8033d51163d4fe9478d9/mct-nightly-1.9.0.20230715.post417.tar.gz
+[2023-07-16 02:09:13] INFO root fetch - processPackages [jaxutils-nightly]: executing diffoscope
+[2023-07-16 02:09:13] INFO root fetch - processPackages [jaxutils-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxutils-nightly-0.0.8.dev20230714.tar.gz tmp/jaxutils-nightly-0.0.8.dev20230715.tar.gz --markdown 20230716/j/jaxutils-nightly/0.0.8.dev20230714-0.0.8.dev20230715/diff.md --exclude *.pyd
+[2023-07-16 02:09:13] INFO root fetch - processPackages [ml-compiler-opt]: Downloading https://files.pythonhosted.org/packages/b3/b6/52f19a914f04bf970217e6cf8fa1b62be3c6fbb3c6e1506069d29ae5efb3/ml-compiler-opt-0.0.1.dev202307160008.tar.gz
+[2023-07-16 02:09:13] INFO root fetch - processPackages [jaxkern-nightly]: executing diffoscope
+[2023-07-16 02:09:13] INFO root fetch - processPackages [jaxkern-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxkern-nightly-0.dev20221221.tar.gz tmp/jaxkern-nightly-0.dev20221222.tar.gz --markdown 20230716/j/jaxkern-nightly/0.dev20221221-0.dev20221222/diff.md --exclude *.pyd
+[2023-07-16 02:09:13] INFO root fetch - processPackages [dj-veryfi]: executing diffoscope
+[2023-07-16 02:09:13] INFO root fetch - processPackages [dj-veryfi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dj-veryfi-0.1.1.tar.gz tmp/dj-veryfi-0.1.2.tar.gz --markdown 20230716/d/dj-veryfi/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-16 02:09:13] INFO root fetch - processPackages [torchdatasets-nightly]: Downloading https://files.pythonhosted.org/packages/14/22/ed342876ff0fcdd478aeeb778d9deeb7df37f833fac3d698476e3d5f90de/torchdatasets-nightly-1689465836.tar.gz
+[2023-07-16 02:09:14] INFO root fetch - processPackages [mct-nightly]: executing diffoscope
+[2023-07-16 02:09:14] INFO root fetch - processPackages [mct-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-nightly-1.9.0.20230714.post447.tar.gz tmp/mct-nightly-1.9.0.20230715.post417.tar.gz --markdown 20230716/m/mct-nightly/1.9.0.20230714.post447-1.9.0.20230715.post417/diff.md --exclude *.pyd
+[2023-07-16 02:09:14] INFO root fetch - processPackages [ibis-framework]: Downloading https://files.pythonhosted.org/packages/0b/3d/fbf4278e9e436717a6fe476a81d1abec511869bba1cf642b601472bf6408/ibis-framework-v0.6.0.tar.gz
+[2023-07-16 02:09:14] INFO root fetch - processPackages [torchdatasets-nightly]: executing diffoscope
+[2023-07-16 02:09:14] INFO root fetch - processPackages [torchdatasets-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchdatasets-nightly-1689379423.tar.gz tmp/torchdatasets-nightly-1689465836.tar.gz --markdown 20230716/t/torchdatasets-nightly/1689379423-1689465836/diff.md --exclude *.pyd
+[2023-07-16 02:09:14] INFO root fetch - processPackages [ml-compiler-opt]: executing diffoscope
+[2023-07-16 02:09:14] INFO root fetch - processPackages [ml-compiler-opt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml-compiler-opt-0.0.1.dev202307150007.tar.gz tmp/ml-compiler-opt-0.0.1.dev202307160008.tar.gz --markdown 20230716/m/ml-compiler-opt/0.0.1.dev202307150007-0.0.1.dev202307160008/diff.md --exclude *.pyd
+[2023-07-16 02:09:14] INFO root fetch - processPackages [ibis-framework]: executing diffoscope
+[2023-07-16 02:09:14] INFO root fetch - processPackages [ibis-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ibis_framework-6.0.1.dev58.tar.gz tmp/ibis-framework-v0.6.0.tar.gz --markdown 20230716/i/ibis-framework/6.0.1.dev58-v0.6.0/diff.md --exclude *.pyd
+[2023-07-16 02:09:14] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20230714.tar.gz]
+[2023-07-16 02:09:14] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20230715.tar.gz]
+[2023-07-16 02:09:14] INFO root fetch - main [MainThread]: End processing [jaxutils-nightly]: success
+[2023-07-16 02:09:14] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221221.tar.gz]
+[2023-07-16 02:09:14] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221222.tar.gz]
+[2023-07-16 02:09:14] INFO root fetch - main [MainThread]: End processing [jaxkern-nightly]: success
+[2023-07-16 02:09:15] INFO root fetch - processPackages [dj-veryfi]: Remove: archive file [/home/abi/fetcher/tmp/dj-veryfi-0.1.1.tar.gz]
+[2023-07-16 02:09:15] INFO root fetch - processPackages [dj-veryfi]: Remove: archive file [/home/abi/fetcher/tmp/dj-veryfi-0.1.2.tar.gz]
+[2023-07-16 02:09:15] INFO root fetch - main [MainThread]: End processing [dj-veryfi]: success
+[2023-07-16 02:09:15] INFO root fetch - processPackages [torchdatasets-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchdatasets-nightly-1689379423.tar.gz]
+[2023-07-16 02:09:15] INFO root fetch - processPackages [torchdatasets-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchdatasets-nightly-1689465836.tar.gz]
+[2023-07-16 02:09:15] INFO root fetch - main [MainThread]: End processing [torchdatasets-nightly]: success
+[2023-07-16 02:09:15] INFO root fetch - processPackages [ml-compiler-opt]: Remove: archive file [/home/abi/fetcher/tmp/ml-compiler-opt-0.0.1.dev202307150007.tar.gz]
+[2023-07-16 02:09:15] INFO root fetch - processPackages [ml-compiler-opt]: Remove: archive file [/home/abi/fetcher/tmp/ml-compiler-opt-0.0.1.dev202307160008.tar.gz]
+[2023-07-16 02:09:15] INFO root fetch - main [MainThread]: End processing [ml-compiler-opt]: success
+[2023-07-16 02:09:16] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-1.9.0.20230714.post447.tar.gz]
+[2023-07-16 02:09:16] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-1.9.0.20230715.post417.tar.gz]
+[2023-07-16 02:09:16] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
+[2023-07-16 02:09:17] INFO root fetch - processPackages [ibis-framework]: Remove: archive file [/home/abi/fetcher/tmp/ibis_framework-6.0.1.dev58.tar.gz]
+[2023-07-16 02:09:17] INFO root fetch - processPackages [ibis-framework]: Remove: archive file [/home/abi/fetcher/tmp/ibis-framework-v0.6.0.tar.gz]
+[2023-07-16 02:09:17] INFO root fetch - main [MainThread]: End processing [ibis-framework]: success
+[2023-07-16 02:09:17] INFO root fetch - main [MainThread]: Store serial: [18903708]
