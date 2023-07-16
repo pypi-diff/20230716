@@ -13240,3 +13240,84 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-16 21:15:35] INFO root fetch - processPackages [rds-core]: Remove: archive file [/home/abi/fetcher/tmp/rds-core-0.2.2.tar.gz]
 [2023-07-16 21:15:35] INFO root fetch - main [MainThread]: End processing [rds-core]: success
 [2023-07-16 21:15:35] INFO root fetch - main [MainThread]: Store serial: [18908849]
+[2023-07-16 21:20:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18908849]
+[2023-07-16 21:20:44] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-16 21:20:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xythontools
+[2023-07-16 21:20:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: MLXpress
+[2023-07-16 21:20:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aws-rds-database-running-scheduler
+[2023-07-16 21:20:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: clean-base
+[2023-07-16 21:20:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aws-spy
+[2023-07-16 21:20:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aws-ec2-auto-scaling-instance-running-scheduler
+[2023-07-16 21:20:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: poetry-template-plugin
+[2023-07-16 21:20:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aws-ec2-instance-running-scheduler
+[2023-07-16 21:20:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ml-starter
+[2023-07-16 21:20:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: liqa
+[2023-07-16 21:20:44] INFO root fetch - processPackages [liqa]: New version: [1.3.3] Old Version: [1.3.2]
+[2023-07-16 21:20:44] WARNING root fetch - processPackages [MLXpress]: Skipping, unable to determine old version
+[2023-07-16 21:20:44] INFO root fetch - main [MainThread]: End processing [MLXpress] error
+[2023-07-16 21:20:45] INFO root fetch - processPackages [clean-base]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-16 21:20:45] INFO root fetch - processPackages [poetry-template-plugin]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-16 21:20:45] INFO root fetch - processPackages [aws-rds-database-running-scheduler]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-07-16 21:20:45] INFO root fetch - processPackages [aws-ec2-instance-running-scheduler]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-07-16 21:20:45] INFO root fetch - processPackages [aws-ec2-auto-scaling-instance-running-scheduler]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-07-16 21:20:45] INFO root fetch - processPackages [aws-spy]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-16 21:20:45] INFO root fetch - processPackages [ml-starter]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-16 21:20:45] WARNING root fetch - processPackages [xythontools]: Skipping, unable to determine old version
+[2023-07-16 21:20:45] INFO root fetch - main [MainThread]: End processing [xythontools] error
+[2023-07-16 21:20:45] INFO root fetch - processPackages [liqa]: Downloading https://files.pythonhosted.org/packages/a6/e0/ba390193348e50fe51b3b61fef0a5d936500d71178896bc621fcc92a8aff/liqa-1.3.2.tar.gz
+[2023-07-16 21:20:45] INFO root fetch - processPackages [aws-rds-database-running-scheduler]: Downloading https://files.pythonhosted.org/packages/2e/03/af5d9fb09b559dddee71e3580a52647d62864c6dd25bcd492e41a8625de2/aws-rds-database-running-scheduler-0.3.3.tar.gz
+[2023-07-16 21:20:45] INFO root fetch - processPackages [aws-ec2-auto-scaling-instance-running-scheduler]: Downloading https://files.pythonhosted.org/packages/c6/07/897f42e62c5536f6653e1754aba5a5633d8fb29dbd66019b7dcea28a7789/aws-ec2-auto-scaling-instance-running-scheduler-0.2.3.tar.gz
+[2023-07-16 21:20:45] INFO root fetch - processPackages [ml-starter]: Downloading https://files.pythonhosted.org/packages/f1/6e/ab5edbd173735efb035421e439282ab35dea267430a8049f476e1d08ff16/ml-starter-0.1.8.tar.gz
+[2023-07-16 21:20:45] INFO root fetch - processPackages [clean-base]: Downloading https://files.pythonhosted.org/packages/6d/1f/d970aa46182cde04ddbdc93abda2736ba33d73e69f6bda8b4601f479310d/clean_base-0.1.0.tar.gz
+[2023-07-16 21:20:45] INFO root fetch - processPackages [aws-ec2-instance-running-scheduler]: Downloading https://files.pythonhosted.org/packages/27/97/e3e676059ac49d5e234aed76439dab9d8a1190c731806b01a9becb3561cb/aws-ec2-instance-running-scheduler-0.3.3.tar.gz
+[2023-07-16 21:20:45] INFO root fetch - processPackages [poetry-template-plugin]: Downloading https://files.pythonhosted.org/packages/85/d6/b233f2309db764ddbe79c1db98116aca331036ff7c5a644901c8a53e1db0/poetry_template_plugin-0.1.8.tar.gz
+[2023-07-16 21:20:45] INFO root fetch - processPackages [aws-spy]: Downloading https://files.pythonhosted.org/packages/ac/d8/905bd848213e368f1a3b35fc042398707bec40ef118774c7b2bfcc49e6f8/aws_spy-0.2.8.tar.gz
+[2023-07-16 21:20:45] INFO root fetch - processPackages [liqa]: Downloading https://files.pythonhosted.org/packages/d0/a1/3ba08e49506738ecef839de10facd61a94c90b209fe24655521750924b68/liqa-1.3.3.tar.gz
+[2023-07-16 21:20:45] INFO root fetch - processPackages [aws-rds-database-running-scheduler]: Downloading https://files.pythonhosted.org/packages/8b/53/64c795585e3c75a43692f1570f3a091cbe43b5d3f5661c6484faf1e1bc2f/aws-rds-database-running-scheduler-0.3.4.tar.gz
+[2023-07-16 21:20:45] INFO root fetch - processPackages [ml-starter]: Downloading https://files.pythonhosted.org/packages/44/9f/ffb6ae287f30a52a4bcc5aae269e948d3ffcd9bd7ab6aafda6ce73f567c8/ml-starter-0.1.9.tar.gz
+[2023-07-16 21:20:45] INFO root fetch - processPackages [liqa]: executing diffoscope
+[2023-07-16 21:20:45] INFO root fetch - processPackages [liqa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liqa-1.3.2.tar.gz tmp/liqa-1.3.3.tar.gz --markdown 20230716/l/liqa/1.3.2-1.3.3/diff.md --exclude *.pyd
+[2023-07-16 21:20:45] INFO root fetch - processPackages [aws-ec2-auto-scaling-instance-running-scheduler]: Downloading https://files.pythonhosted.org/packages/bf/b9/ef760f8bede6c4ccfd517935befe1598ec10bf9638ee49a1b03a4e2e6cee/aws-ec2-auto-scaling-instance-running-scheduler-0.2.4.tar.gz
+[2023-07-16 21:20:45] INFO root fetch - processPackages [clean-base]: Downloading https://files.pythonhosted.org/packages/85/9d/b519627ca0f9285a394a571228ce5cb62a55a1cbc6628f87b0234081b50a/clean_base-0.1.1.tar.gz
+[2023-07-16 21:20:45] INFO root fetch - processPackages [aws-ec2-instance-running-scheduler]: Downloading https://files.pythonhosted.org/packages/8a/0a/bf835cf293f0c39705fed7e3a577dff45c723c1636cffd5d484963583246/aws-ec2-instance-running-scheduler-0.3.4.tar.gz
+[2023-07-16 21:20:45] INFO root fetch - processPackages [aws-rds-database-running-scheduler]: executing diffoscope
+[2023-07-16 21:20:45] INFO root fetch - processPackages [aws-rds-database-running-scheduler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-rds-database-running-scheduler-0.3.3.tar.gz tmp/aws-rds-database-running-scheduler-0.3.4.tar.gz --markdown 20230716/a/aws-rds-database-running-scheduler/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-07-16 21:20:45] INFO root fetch - processPackages [ml-starter]: executing diffoscope
+[2023-07-16 21:20:45] INFO root fetch - processPackages [ml-starter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml-starter-0.1.8.tar.gz tmp/ml-starter-0.1.9.tar.gz --markdown 20230716/m/ml-starter/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-16 21:20:45] INFO root fetch - processPackages [aws-ec2-auto-scaling-instance-running-scheduler]: executing diffoscope
+[2023-07-16 21:20:45] INFO root fetch - processPackages [aws-ec2-auto-scaling-instance-running-scheduler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-ec2-auto-scaling-instance-running-scheduler-0.2.3.tar.gz tmp/aws-ec2-auto-scaling-instance-running-scheduler-0.2.4.tar.gz --markdown 20230716/a/aws-ec2-auto-scaling-instance-running-scheduler/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-07-16 21:20:45] INFO root fetch - processPackages [aws-ec2-instance-running-scheduler]: executing diffoscope
+[2023-07-16 21:20:45] INFO root fetch - processPackages [aws-ec2-instance-running-scheduler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-ec2-instance-running-scheduler-0.3.3.tar.gz tmp/aws-ec2-instance-running-scheduler-0.3.4.tar.gz --markdown 20230716/a/aws-ec2-instance-running-scheduler/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-07-16 21:20:45] INFO root fetch - processPackages [clean-base]: executing diffoscope
+[2023-07-16 21:20:45] INFO root fetch - processPackages [poetry-template-plugin]: Downloading https://files.pythonhosted.org/packages/72/2a/369b7f06387879f3b2025a727145ef89b469694ad4fc0ef42631fbdb5c63/poetry_template_plugin-0.1.9.tar.gz
+[2023-07-16 21:20:45] INFO root fetch - processPackages [clean-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clean_base-0.1.0.tar.gz tmp/clean_base-0.1.1.tar.gz --markdown 20230716/c/clean-base/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-16 21:20:45] INFO root fetch - processPackages [poetry-template-plugin]: executing diffoscope
+[2023-07-16 21:20:45] INFO root fetch - processPackages [poetry-template-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/poetry_template_plugin-0.1.8.tar.gz tmp/poetry_template_plugin-0.1.9.tar.gz --markdown 20230716/p/poetry-template-plugin/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-16 21:20:46] INFO root fetch - processPackages [aws-spy]: Downloading https://files.pythonhosted.org/packages/fa/fb/7264c6b32402fc2a284a39163748686d86d0b0772b9664dc2fef35d84db3/aws_spy-0.2.9.tar.gz
+[2023-07-16 21:20:46] INFO root fetch - processPackages [aws-spy]: executing diffoscope
+[2023-07-16 21:20:46] INFO root fetch - processPackages [aws-spy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_spy-0.2.8.tar.gz tmp/aws_spy-0.2.9.tar.gz --markdown 20230716/a/aws-spy/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-16 21:20:46] INFO root fetch - processPackages [liqa]: Remove: archive file [/home/abi/fetcher/tmp/liqa-1.3.2.tar.gz]
+[2023-07-16 21:20:46] INFO root fetch - processPackages [liqa]: Remove: archive file [/home/abi/fetcher/tmp/liqa-1.3.3.tar.gz]
+[2023-07-16 21:20:46] INFO root fetch - main [MainThread]: End processing [liqa]: success
+[2023-07-16 21:20:46] INFO root fetch - processPackages [aws-rds-database-running-scheduler]: Remove: archive file [/home/abi/fetcher/tmp/aws-rds-database-running-scheduler-0.3.3.tar.gz]
+[2023-07-16 21:20:46] INFO root fetch - processPackages [aws-rds-database-running-scheduler]: Remove: archive file [/home/abi/fetcher/tmp/aws-rds-database-running-scheduler-0.3.4.tar.gz]
+[2023-07-16 21:20:46] INFO root fetch - main [MainThread]: End processing [aws-rds-database-running-scheduler]: success
+[2023-07-16 21:20:47] INFO root fetch - processPackages [clean-base]: Remove: archive file [/home/abi/fetcher/tmp/clean_base-0.1.0.tar.gz]
+[2023-07-16 21:20:47] INFO root fetch - processPackages [clean-base]: Remove: archive file [/home/abi/fetcher/tmp/clean_base-0.1.1.tar.gz]
+[2023-07-16 21:20:47] INFO root fetch - main [MainThread]: End processing [clean-base]: success
+[2023-07-16 21:20:47] INFO root fetch - processPackages [aws-ec2-instance-running-scheduler]: Remove: archive file [/home/abi/fetcher/tmp/aws-ec2-instance-running-scheduler-0.3.3.tar.gz]
+[2023-07-16 21:20:47] INFO root fetch - processPackages [aws-ec2-instance-running-scheduler]: Remove: archive file [/home/abi/fetcher/tmp/aws-ec2-instance-running-scheduler-0.3.4.tar.gz]
+[2023-07-16 21:20:47] INFO root fetch - main [MainThread]: End processing [aws-ec2-instance-running-scheduler]: success
+[2023-07-16 21:20:47] INFO root fetch - processPackages [poetry-template-plugin]: Remove: archive file [/home/abi/fetcher/tmp/poetry_template_plugin-0.1.8.tar.gz]
+[2023-07-16 21:20:47] INFO root fetch - processPackages [poetry-template-plugin]: Remove: archive file [/home/abi/fetcher/tmp/poetry_template_plugin-0.1.9.tar.gz]
+[2023-07-16 21:20:47] INFO root fetch - main [MainThread]: End processing [poetry-template-plugin]: success
+[2023-07-16 21:20:47] INFO root fetch - processPackages [aws-ec2-auto-scaling-instance-running-scheduler]: Remove: archive file [/home/abi/fetcher/tmp/aws-ec2-auto-scaling-instance-running-scheduler-0.2.3.tar.gz]
+[2023-07-16 21:20:47] INFO root fetch - processPackages [aws-ec2-auto-scaling-instance-running-scheduler]: Remove: archive file [/home/abi/fetcher/tmp/aws-ec2-auto-scaling-instance-running-scheduler-0.2.4.tar.gz]
+[2023-07-16 21:20:47] INFO root fetch - main [MainThread]: End processing [aws-ec2-auto-scaling-instance-running-scheduler]: success
+[2023-07-16 21:20:47] INFO root fetch - processPackages [ml-starter]: Remove: archive file [/home/abi/fetcher/tmp/ml-starter-0.1.8.tar.gz]
+[2023-07-16 21:20:47] INFO root fetch - processPackages [ml-starter]: Remove: archive file [/home/abi/fetcher/tmp/ml-starter-0.1.9.tar.gz]
+[2023-07-16 21:20:47] INFO root fetch - main [MainThread]: End processing [ml-starter]: success
+[2023-07-16 21:20:47] INFO root fetch - processPackages [aws-spy]: Remove: archive file [/home/abi/fetcher/tmp/aws_spy-0.2.8.tar.gz]
+[2023-07-16 21:20:47] INFO root fetch - processPackages [aws-spy]: Remove: archive file [/home/abi/fetcher/tmp/aws_spy-0.2.9.tar.gz]
+[2023-07-16 21:20:47] INFO root fetch - main [MainThread]: End processing [aws-spy]: success
+[2023-07-16 21:20:47] INFO root fetch - main [MainThread]: Store serial: [18908881]
