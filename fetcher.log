@@ -3854,3 +3854,38 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-16 07:08:59] INFO root fetch - processPackages [dask-cuda]: Remove: archive file [/home/abi/fetcher/tmp/dask-cuda-23.8.0a230716.tar.gz]
 [2023-07-16 07:08:59] INFO root fetch - main [MainThread]: End processing [dask-cuda]: success
 [2023-07-16 07:08:59] INFO root fetch - main [MainThread]: Store serial: [18904866]
+[2023-07-16 07:14:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18904866]
+[2023-07-16 07:14:07] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-16 07:14:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: revealjs
+[2023-07-16 07:14:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hak
+[2023-07-16 07:14:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tflite-support-nightly
+[2023-07-16 07:14:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: roblox-pyc
+[2023-07-16 07:14:07] INFO root fetch - processPackages [roblox-pyc]: New version: [1.6.6.5a0] Old Version: [1.6.6.5.4]
+[2023-07-16 07:14:07] INFO root fetch - processPackages [revealjs]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-16 07:14:07] INFO root fetch - processPackages [hak]: New version: [0.0.90] Old Version: [0.0.9]
+[2023-07-16 07:14:07] INFO root fetch - processPackages [tflite-support-nightly]: New version: [0.4.4.dev20230715] Old Version: [0.4.4.dev20230714]
+[2023-07-16 07:14:07] INFO root fetch - processPackages [roblox-pyc]: Downloading https://files.pythonhosted.org/packages/44/ab/2c1167a2d328570fcff41305068766f10c181301f2cd7a1f64f72287fa27/roblox-pyc-1.6.6.5.4.tar.gz
+[2023-07-16 07:14:07] INFO root fetch - processPackages [revealjs]: Downloading https://files.pythonhosted.org/packages/48/9b/20856eed9f2d43c368b24cbe5067bc9d90176e56396d4b6f2ba2d5013b0b/revealjs-0.0.5.tar.gz
+[2023-07-16 07:14:07] INFO root fetch - processPackages [hak]: Downloading https://files.pythonhosted.org/packages/fd/2b/bf7b3451d5e3a84e9a674b47e9f046c4db1f582764a85a4dfc00e14ecf00/hak-0.0.9.tar.gz
+[2023-07-16 07:14:08] INFO root fetch - processPackages [tflite-support-nightly]: Downloading https://files.pythonhosted.org/packages/4b/35/2726b241f4c924fd99e3e0d3c56d6e59ba87ad954914e6d5f5e18f3ac959/tflite_support_nightly-0.4.4.dev20230714-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-16 07:14:08] WARNING root fetch - processPackages [tflite-support-nightly]: Skipping package: exceeds size limit 60815122>=10485760
+[2023-07-16 07:14:08] INFO root fetch - main [MainThread]: End processing [tflite-support-nightly] error
+[2023-07-16 07:14:08] INFO root fetch - processPackages [roblox-pyc]: Downloading https://files.pythonhosted.org/packages/59/75/7884ffaab86bf051065880fd8aefdfc8e3f2c34e7c9d4a8d352321ec57f8/roblox-pyc-1.6.6.5a0.tar.gz
+[2023-07-16 07:14:08] INFO root fetch - processPackages [hak]: Downloading https://files.pythonhosted.org/packages/b4/4a/9bfd3f28ea5bb32d1adca0344d4c66858f789c10b1cd9a4855c146f31dd9/hak-0.0.90.tar.gz
+[2023-07-16 07:14:08] INFO root fetch - processPackages [roblox-pyc]: executing diffoscope
+[2023-07-16 07:14:08] INFO root fetch - processPackages [roblox-pyc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roblox-pyc-1.6.6.5.4.tar.gz tmp/roblox-pyc-1.6.6.5a0.tar.gz --markdown 20230716/r/roblox-pyc/1.6.6.5.4-1.6.6.5a0/diff.md --exclude *.pyd
+[2023-07-16 07:14:08] INFO root fetch - processPackages [revealjs]: Downloading https://files.pythonhosted.org/packages/dc/93/17e9bc620ba5cbda81cf7dbdda9cb32235ff4fcfa70c2bd49c34bc193e98/revealjs-0.0.6.tar.gz
+[2023-07-16 07:14:08] INFO root fetch - processPackages [hak]: executing diffoscope
+[2023-07-16 07:14:08] INFO root fetch - processPackages [hak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hak-0.0.9.tar.gz tmp/hak-0.0.90.tar.gz --markdown 20230716/h/hak/0.0.9-0.0.90/diff.md --exclude *.pyd
+[2023-07-16 07:14:08] INFO root fetch - processPackages [revealjs]: executing diffoscope
+[2023-07-16 07:14:08] INFO root fetch - processPackages [revealjs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/revealjs-0.0.5.tar.gz tmp/revealjs-0.0.6.tar.gz --markdown 20230716/r/revealjs/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-16 07:14:09] INFO root fetch - processPackages [roblox-pyc]: Remove: archive file [/home/abi/fetcher/tmp/roblox-pyc-1.6.6.5.4.tar.gz]
+[2023-07-16 07:14:09] INFO root fetch - processPackages [roblox-pyc]: Remove: archive file [/home/abi/fetcher/tmp/roblox-pyc-1.6.6.5a0.tar.gz]
+[2023-07-16 07:14:09] INFO root fetch - main [MainThread]: End processing [roblox-pyc]: success
+[2023-07-16 07:14:09] INFO root fetch - processPackages [revealjs]: Remove: archive file [/home/abi/fetcher/tmp/revealjs-0.0.5.tar.gz]
+[2023-07-16 07:14:09] INFO root fetch - processPackages [revealjs]: Remove: archive file [/home/abi/fetcher/tmp/revealjs-0.0.6.tar.gz]
+[2023-07-16 07:14:09] INFO root fetch - main [MainThread]: End processing [revealjs]: success
+[2023-07-16 07:14:10] INFO root fetch - processPackages [hak]: Remove: archive file [/home/abi/fetcher/tmp/hak-0.0.9.tar.gz]
+[2023-07-16 07:14:10] INFO root fetch - processPackages [hak]: Remove: archive file [/home/abi/fetcher/tmp/hak-0.0.90.tar.gz]
+[2023-07-16 07:14:10] INFO root fetch - main [MainThread]: End processing [hak]: success
+[2023-07-16 07:14:10] INFO root fetch - main [MainThread]: Store serial: [18904879]
