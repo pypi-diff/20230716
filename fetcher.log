@@ -7686,3 +7686,54 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-16 13:29:17] INFO root fetch - processPackages [torchrl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrl_nightly-2023.7.9-cp39-cp39-win_amd64.whl.zip]
 [2023-07-16 13:29:17] INFO root fetch - main [MainThread]: End processing [torchrl-nightly]: success
 [2023-07-16 13:29:17] INFO root fetch - main [MainThread]: Store serial: [18906479]
+[2023-07-16 13:34:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18906479]
+[2023-07-16 13:34:26] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-16 13:34:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: py40kie
+[2023-07-16 13:34:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hyfi-template
+[2023-07-16 13:34:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fakesnow
+[2023-07-16 13:34:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spacy-partial-tagger
+[2023-07-16 13:34:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: greenai
+[2023-07-16 13:34:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: suod
+[2023-07-16 13:34:26] INFO root fetch - processPackages [fakesnow]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-07-16 13:34:26] INFO root fetch - processPackages [py40kie]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-16 13:34:26] INFO root fetch - processPackages [spacy-partial-tagger]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-07-16 13:34:26] INFO root fetch - processPackages [hyfi-template]: New version: [0.4.6] Old Version: [0.4.5]
+[2023-07-16 13:34:26] WARNING root fetch - processPackages [greenai]: Skipping, unable to determine old version
+[2023-07-16 13:34:26] INFO root fetch - main [MainThread]: End processing [greenai] error
+[2023-07-16 13:34:26] INFO root fetch - processPackages [suod]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-16 13:34:26] INFO root fetch - processPackages [hyfi-template]: Downloading https://files.pythonhosted.org/packages/bc/45/2dd387819d1ee2730759e9c42cd85e3430c839dcce85fdf66a28b1e55bd9/hyfi_template-0.4.5.tar.gz
+[2023-07-16 13:34:26] INFO root fetch - processPackages [py40kie]: Downloading https://files.pythonhosted.org/packages/23/03/6bedef3e5213cee6aab167c0c86c4ec3d44892c0e2857052547c99271e34/py40kie-0.1.0.tar.gz
+[2023-07-16 13:34:26] INFO root fetch - processPackages [fakesnow]: Downloading https://files.pythonhosted.org/packages/db/f7/0c81ad38decbb43eeabea5a49d44424b2a2fd43528f1822662af78cad41f/fakesnow-0.3.0.tar.gz
+[2023-07-16 13:34:26] INFO root fetch - processPackages [spacy-partial-tagger]: Downloading https://files.pythonhosted.org/packages/26/a2/d2c993ac5dbe7491072834d8e2a7c8f13342a1479bef774d4e7d481155f9/spacy_partial_tagger-0.9.3.tar.gz
+[2023-07-16 13:34:26] INFO root fetch - processPackages [suod]: Downloading https://files.pythonhosted.org/packages/7b/a5/a5f833f425d7f07c38dcf03cb7c39285b383c64da856fc7239948ab38809/suod-0.0.8.tar.gz
+[2023-07-16 13:34:26] INFO root fetch - processPackages [hyfi-template]: Downloading https://files.pythonhosted.org/packages/bc/14/8f586d0f7f3d2347febe81013e24a80239c9b3d58d875b3803de57833f63/hyfi_template-0.4.6.tar.gz
+[2023-07-16 13:34:26] INFO root fetch - processPackages [fakesnow]: Downloading https://files.pythonhosted.org/packages/e2/51/740355ee9e8a233d1bfc47d86a86efbc430b71b3c3107bcfa6b6bfa9dc53/fakesnow-0.4.0.tar.gz
+[2023-07-16 13:34:26] INFO root fetch - processPackages [py40kie]: Downloading https://files.pythonhosted.org/packages/1a/c6/c2ab91b5c5e7fecdd2b190412622cdc575102d18f8a2f672575a7b88f533/py40kie-0.1.1.tar.gz
+[2023-07-16 13:34:27] INFO root fetch - processPackages [hyfi-template]: executing diffoscope
+[2023-07-16 13:34:27] INFO root fetch - processPackages [hyfi-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyfi_template-0.4.5.tar.gz tmp/hyfi_template-0.4.6.tar.gz --markdown 20230716/h/hyfi-template/0.4.5-0.4.6/diff.md --exclude *.pyd
+[2023-07-16 13:34:27] INFO root fetch - processPackages [spacy-partial-tagger]: Downloading https://files.pythonhosted.org/packages/43/84/6e6226915e369f471cac4ebd7f252c6c93871af3c7248a3133b43366f8df/spacy_partial_tagger-0.9.4.tar.gz
+[2023-07-16 13:34:27] INFO root fetch - processPackages [fakesnow]: executing diffoscope
+[2023-07-16 13:34:27] INFO root fetch - processPackages [fakesnow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fakesnow-0.3.0.tar.gz tmp/fakesnow-0.4.0.tar.gz --markdown 20230716/f/fakesnow/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-07-16 13:34:27] INFO root fetch - processPackages [py40kie]: executing diffoscope
+[2023-07-16 13:34:27] INFO root fetch - processPackages [py40kie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py40kie-0.1.0.tar.gz tmp/py40kie-0.1.1.tar.gz --markdown 20230716/p/py40kie/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-16 13:34:27] INFO root fetch - processPackages [spacy-partial-tagger]: executing diffoscope
+[2023-07-16 13:34:27] INFO root fetch - processPackages [spacy-partial-tagger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spacy_partial_tagger-0.9.3.tar.gz tmp/spacy_partial_tagger-0.9.4.tar.gz --markdown 20230716/s/spacy-partial-tagger/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-07-16 13:34:27] INFO root fetch - processPackages [suod]: Downloading https://files.pythonhosted.org/packages/05/04/7d09bacca723b638b0b76f61ceac9e624d24a23d655fc8172d14380702f5/suod-0.0.9.tar.gz
+[2023-07-16 13:34:27] INFO root fetch - processPackages [hyfi-template]: Remove: archive file [/home/abi/fetcher/tmp/hyfi_template-0.4.5.tar.gz]
+[2023-07-16 13:34:27] INFO root fetch - processPackages [hyfi-template]: Remove: archive file [/home/abi/fetcher/tmp/hyfi_template-0.4.6.tar.gz]
+[2023-07-16 13:34:27] INFO root fetch - main [MainThread]: End processing [hyfi-template]: success
+[2023-07-16 13:34:28] INFO root fetch - processPackages [fakesnow]: Remove: archive file [/home/abi/fetcher/tmp/fakesnow-0.3.0.tar.gz]
+[2023-07-16 13:34:28] INFO root fetch - processPackages [fakesnow]: Remove: archive file [/home/abi/fetcher/tmp/fakesnow-0.4.0.tar.gz]
+[2023-07-16 13:34:28] INFO root fetch - main [MainThread]: End processing [fakesnow]: success
+[2023-07-16 13:34:28] INFO root fetch - processPackages [py40kie]: Remove: archive file [/home/abi/fetcher/tmp/py40kie-0.1.0.tar.gz]
+[2023-07-16 13:34:28] INFO root fetch - processPackages [py40kie]: Remove: archive file [/home/abi/fetcher/tmp/py40kie-0.1.1.tar.gz]
+[2023-07-16 13:34:28] INFO root fetch - main [MainThread]: End processing [py40kie]: success
+[2023-07-16 13:34:28] INFO root fetch - processPackages [spacy-partial-tagger]: Remove: archive file [/home/abi/fetcher/tmp/spacy_partial_tagger-0.9.3.tar.gz]
+[2023-07-16 13:34:28] INFO root fetch - processPackages [spacy-partial-tagger]: Remove: archive file [/home/abi/fetcher/tmp/spacy_partial_tagger-0.9.4.tar.gz]
+[2023-07-16 13:34:28] INFO root fetch - main [MainThread]: End processing [spacy-partial-tagger]: success
+[2023-07-16 13:34:28] INFO root fetch - processPackages [suod]: executing diffoscope
+[2023-07-16 13:34:28] INFO root fetch - processPackages [suod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/suod-0.0.8.tar.gz tmp/suod-0.0.9.tar.gz --markdown 20230716/s/suod/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-16 13:34:29] INFO root fetch - processPackages [suod]: Remove: archive file [/home/abi/fetcher/tmp/suod-0.0.8.tar.gz]
+[2023-07-16 13:34:29] INFO root fetch - processPackages [suod]: Remove: archive file [/home/abi/fetcher/tmp/suod-0.0.9.tar.gz]
+[2023-07-16 13:34:29] INFO root fetch - main [MainThread]: End processing [suod]: success
+[2023-07-16 13:34:29] INFO root fetch - main [MainThread]: Store serial: [18906504]
