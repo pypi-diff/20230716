@@ -13501,3 +13501,72 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-16 21:41:31] INFO root fetch - processPackages [MLXpress]: Remove: archive file [/home/abi/fetcher/tmp/MLXpress-0.1.1-py3-none-any.whl.zip]
 [2023-07-16 21:41:31] INFO root fetch - main [MainThread]: End processing [MLXpress]: success
 [2023-07-16 21:41:31] INFO root fetch - main [MainThread]: Store serial: [18908946]
+[2023-07-16 21:46:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18908946]
+[2023-07-16 21:46:39] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-16 21:46:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qalita
+[2023-07-16 21:46:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nillip
+[2023-07-16 21:46:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bookit
+[2023-07-16 21:46:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mysql-replication
+[2023-07-16 21:46:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: float-table
+[2023-07-16 21:46:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: customnotifs
+[2023-07-16 21:46:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: faasmctl
+[2023-07-16 21:46:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cjm-yolox-pytorch
+[2023-07-16 21:46:39] INFO root fetch - processPackages [nillip]: New version: [1.31] Old Version: [1.2]
+[2023-07-16 21:46:39] INFO root fetch - processPackages [float-table]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-16 21:46:39] INFO root fetch - processPackages [mysql-replication]: New version: [0.9] Old Version: [0.8]
+[2023-07-16 21:46:39] INFO root fetch - processPackages [bookit]: New version: [0.0.5] Old Version: [0.0.3]
+[2023-07-16 21:46:39] INFO root fetch - processPackages [faasmctl]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-16 21:46:39] INFO root fetch - processPackages [qalita]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-07-16 21:46:39] WARNING root fetch - processPackages [customnotifs]: Skipping, unable to determine old version
+[2023-07-16 21:46:39] INFO root fetch - main [MainThread]: End processing [customnotifs] error
+[2023-07-16 21:46:39] INFO root fetch - processPackages [cjm-yolox-pytorch]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-16 21:46:39] INFO root fetch - processPackages [qalita]: Downloading https://files.pythonhosted.org/packages/f9/4f/d3d6704600d2a991c2de3a70455576d997aed86685d7c11d988d33f765f0/qalita-1.0.7.tar.gz
+[2023-07-16 21:46:40] INFO root fetch - processPackages [float-table]: Downloading https://files.pythonhosted.org/packages/c4/f0/c73c4c9a83e90586eb8ee3ecd5df6ad587f325abacbe2df287cd33df9064/float_table-0.1.0.tar.gz
+[2023-07-16 21:46:40] INFO root fetch - processPackages [nillip]: Downloading https://files.pythonhosted.org/packages/84/6b/2322669e20a8cc61daaee4e6a91b82627423fbe688340e90841a11593c82/nillip-1.2.tar.gz
+[2023-07-16 21:46:40] INFO root fetch - processPackages [faasmctl]: Downloading https://files.pythonhosted.org/packages/f6/70/43c183de96913153b808f25cef8e4525721ad236a31a871e313340e7d996/faasmctl-0.3.8.tar.gz
+[2023-07-16 21:46:40] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/c2/bc/1e51fa8009ac3b9bd8b49a4a63b9db3584cf5f4025074c91590c5e33e061/cjm-yolox-pytorch-0.0.98.tar.gz
+[2023-07-16 21:46:40] INFO root fetch - processPackages [bookit]: Downloading https://files.pythonhosted.org/packages/9a/14/8e5a104a37d808b468e8ee5338650b28181b99a3a5f22ad352b1c9476d6d/bookit-0.0.3.tar.gz
+[2023-07-16 21:46:40] INFO root fetch - processPackages [mysql-replication]: Downloading https://files.pythonhosted.org/packages/6e/e0/cea8648ecf06e88aa0c894b32751513dd26d00434017a2a5cec1c3d95c83/mysql-replication-0.8.tar.gz
+[2023-07-16 21:46:40] INFO root fetch - processPackages [faasmctl]: Downloading https://files.pythonhosted.org/packages/2a/af/c324ec8be631a4af16c72c5b21851f91cbbab8232fcc4fc58a24f7911959/faasmctl-0.3.9.tar.gz
+[2023-07-16 21:46:40] INFO root fetch - processPackages [qalita]: Downloading https://files.pythonhosted.org/packages/44/70/8f7408a84e22c14b5106c760c49de206293dd740246f0917417b443513f5/qalita-1.0.8.tar.gz
+[2023-07-16 21:46:40] INFO root fetch - processPackages [nillip]: Downloading https://files.pythonhosted.org/packages/5f/20/fa2d35beeedd58332af537546d506744509a9c4239fb17ef0c71de77556c/nillip-1.31.tar.gz
+[2023-07-16 21:46:40] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/48/c0/c61aa048df93a11ff930d1680535fee96bb684ff0e7e76a755726ebcf9e1/cjm-yolox-pytorch-0.0.99.tar.gz
+[2023-07-16 21:46:40] INFO root fetch - processPackages [float-table]: Downloading https://files.pythonhosted.org/packages/ed/8f/d66f9aa188d56febd0c986744c010dd2b0a0068286917f078cfcf1cc47bf/float_table-0.1.1.tar.gz
+[2023-07-16 21:46:40] INFO root fetch - processPackages [faasmctl]: executing diffoscope
+[2023-07-16 21:46:40] INFO root fetch - processPackages [faasmctl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/faasmctl-0.3.8.tar.gz tmp/faasmctl-0.3.9.tar.gz --markdown 20230716/f/faasmctl/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-16 21:46:40] INFO root fetch - processPackages [nillip]: executing diffoscope
+[2023-07-16 21:46:40] INFO root fetch - processPackages [nillip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nillip-1.2.tar.gz tmp/nillip-1.31.tar.gz --markdown 20230716/n/nillip/1.2-1.31/diff.md --exclude *.pyd
+[2023-07-16 21:46:40] INFO root fetch - processPackages [qalita]: executing diffoscope
+[2023-07-16 21:46:40] INFO root fetch - processPackages [qalita]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qalita-1.0.7.tar.gz tmp/qalita-1.0.8.tar.gz --markdown 20230716/q/qalita/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-07-16 21:46:40] INFO root fetch - processPackages [cjm-yolox-pytorch]: executing diffoscope
+[2023-07-16 21:46:40] INFO root fetch - processPackages [cjm-yolox-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cjm-yolox-pytorch-0.0.98.tar.gz tmp/cjm-yolox-pytorch-0.0.99.tar.gz --markdown 20230716/c/cjm-yolox-pytorch/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-16 21:46:40] INFO root fetch - processPackages [mysql-replication]: Downloading https://files.pythonhosted.org/packages/d6/e8/7c4105691668684e3f94cdd223a8f6fa31af67e90092ddee835e4a7d69a1/mysql-replication-0.9.tar.gz
+[2023-07-16 21:46:40] INFO root fetch - processPackages [float-table]: executing diffoscope
+[2023-07-16 21:46:40] INFO root fetch - processPackages [float-table]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/float_table-0.1.0.tar.gz tmp/float_table-0.1.1.tar.gz --markdown 20230716/f/float-table/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-16 21:46:40] INFO root fetch - processPackages [bookit]: Downloading https://files.pythonhosted.org/packages/60/f9/a4dba7f458f03ca64ef86dc570d581a981d6763dae7e5f88f2872987a28c/bookit-0.0.5.tar.gz
+[2023-07-16 21:46:40] INFO root fetch - processPackages [bookit]: executing diffoscope
+[2023-07-16 21:46:40] INFO root fetch - processPackages [bookit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bookit-0.0.3.tar.gz tmp/bookit-0.0.5.tar.gz --markdown 20230716/b/bookit/0.0.3-0.0.5/diff.md --exclude *.pyd
+[2023-07-16 21:46:40] INFO root fetch - processPackages [mysql-replication]: executing diffoscope
+[2023-07-16 21:46:40] INFO root fetch - processPackages [mysql-replication]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mysql-replication-0.8.tar.gz tmp/mysql-replication-0.9.tar.gz --markdown 20230716/m/mysql-replication/0.8-0.9/diff.md --exclude *.pyd
+[2023-07-16 21:46:41] INFO root fetch - processPackages [qalita]: Remove: archive file [/home/abi/fetcher/tmp/qalita-1.0.7.tar.gz]
+[2023-07-16 21:46:41] INFO root fetch - processPackages [qalita]: Remove: archive file [/home/abi/fetcher/tmp/qalita-1.0.8.tar.gz]
+[2023-07-16 21:46:41] INFO root fetch - main [MainThread]: End processing [qalita]: success
+[2023-07-16 21:46:41] INFO root fetch - processPackages [nillip]: Remove: archive file [/home/abi/fetcher/tmp/nillip-1.2.tar.gz]
+[2023-07-16 21:46:41] INFO root fetch - processPackages [nillip]: Remove: archive file [/home/abi/fetcher/tmp/nillip-1.31.tar.gz]
+[2023-07-16 21:46:41] INFO root fetch - main [MainThread]: End processing [nillip]: success
+[2023-07-16 21:46:41] INFO root fetch - processPackages [cjm-yolox-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/cjm-yolox-pytorch-0.0.98.tar.gz]
+[2023-07-16 21:46:41] INFO root fetch - processPackages [cjm-yolox-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/cjm-yolox-pytorch-0.0.99.tar.gz]
+[2023-07-16 21:46:41] INFO root fetch - main [MainThread]: End processing [cjm-yolox-pytorch]: success
+[2023-07-16 21:46:41] INFO root fetch - processPackages [faasmctl]: Remove: archive file [/home/abi/fetcher/tmp/faasmctl-0.3.8.tar.gz]
+[2023-07-16 21:46:41] INFO root fetch - processPackages [float-table]: Remove: archive file [/home/abi/fetcher/tmp/float_table-0.1.0.tar.gz]
+[2023-07-16 21:46:41] INFO root fetch - processPackages [faasmctl]: Remove: archive file [/home/abi/fetcher/tmp/faasmctl-0.3.9.tar.gz]
+[2023-07-16 21:46:41] INFO root fetch - processPackages [float-table]: Remove: archive file [/home/abi/fetcher/tmp/float_table-0.1.1.tar.gz]
+[2023-07-16 21:46:41] INFO root fetch - main [MainThread]: End processing [faasmctl]: success
+[2023-07-16 21:46:41] INFO root fetch - main [MainThread]: End processing [float-table]: success
+[2023-07-16 21:46:42] INFO root fetch - processPackages [mysql-replication]: Remove: archive file [/home/abi/fetcher/tmp/mysql-replication-0.8.tar.gz]
+[2023-07-16 21:46:42] INFO root fetch - processPackages [mysql-replication]: Remove: archive file [/home/abi/fetcher/tmp/mysql-replication-0.9.tar.gz]
+[2023-07-16 21:46:42] INFO root fetch - main [MainThread]: End processing [mysql-replication]: success
+[2023-07-16 21:46:42] INFO root fetch - processPackages [bookit]: Remove: archive file [/home/abi/fetcher/tmp/bookit-0.0.3.tar.gz]
+[2023-07-16 21:46:42] INFO root fetch - processPackages [bookit]: Remove: archive file [/home/abi/fetcher/tmp/bookit-0.0.5.tar.gz]
+[2023-07-16 21:46:42] INFO root fetch - main [MainThread]: End processing [bookit]: success
+[2023-07-16 21:46:42] INFO root fetch - main [MainThread]: Store serial: [18908983]
