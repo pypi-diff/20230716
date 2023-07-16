@@ -4000,3 +4000,27 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-16 07:29:43] INFO root fetch - processPackages [sigils]: Remove: archive file [/home/abi/fetcher/tmp/sigils-0.3.1.tar.gz]
 [2023-07-16 07:29:43] INFO root fetch - main [MainThread]: End processing [sigils]: success
 [2023-07-16 07:29:43] INFO root fetch - main [MainThread]: Store serial: [18904933]
+[2023-07-16 07:34:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18904933]
+[2023-07-16 07:34:52] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-16 07:34:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: crazy-thursday
+[2023-07-16 07:34:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ekarpiuk-calculator
+[2023-07-16 07:34:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: LangChainAgentFactory
+[2023-07-16 07:34:52] WARNING root fetch - processPackages [ekarpiuk-calculator]: Skipping, unable to determine old version
+[2023-07-16 07:34:52] INFO root fetch - main [MainThread]: End processing [ekarpiuk-calculator] error
+[2023-07-16 07:34:52] INFO root fetch - processPackages [LangChainAgentFactory]: New version: [0.3] Old Version: [0.2]
+[2023-07-16 07:34:52] INFO root fetch - processPackages [crazy-thursday]: New version: [2023.7.9.1] Old Version: [2023.7.9.0]
+[2023-07-16 07:34:52] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/6a/c9/15f9add630932cf1d361c73bada17a4fe2e962fe6ae5ac9e61297aedec22/crazy-thursday-2023.7.9.0.tar.gz
+[2023-07-16 07:34:52] INFO root fetch - processPackages [LangChainAgentFactory]: Downloading https://files.pythonhosted.org/packages/a3/96/277ca2d36722a6ae2a52ffafc61332f714357c2a2d351e8befc1ea6ec45c/LangChainAgentFactory-0.2.tar.gz
+[2023-07-16 07:34:52] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/8d/ea/65adb6d9f2ff058a84add9a25d8423ef870914ed904a071fcd26e8e9ba74/crazy-thursday-2023.7.9.1.tar.gz
+[2023-07-16 07:34:52] INFO root fetch - processPackages [LangChainAgentFactory]: Downloading https://files.pythonhosted.org/packages/00/56/7961a111255df42e97bd66d7c6d28bc0dbeae2da2fa971e5174463dd225e/LangChainAgentFactory-0.3.tar.gz
+[2023-07-16 07:34:52] INFO root fetch - processPackages [crazy-thursday]: executing diffoscope
+[2023-07-16 07:34:52] INFO root fetch - processPackages [crazy-thursday]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crazy-thursday-2023.7.9.0.tar.gz tmp/crazy-thursday-2023.7.9.1.tar.gz --markdown 20230716/c/crazy-thursday/2023.7.9.0-2023.7.9.1/diff.md --exclude *.pyd
+[2023-07-16 07:34:53] INFO root fetch - processPackages [LangChainAgentFactory]: executing diffoscope
+[2023-07-16 07:34:53] INFO root fetch - processPackages [LangChainAgentFactory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LangChainAgentFactory-0.2.tar.gz tmp/LangChainAgentFactory-0.3.tar.gz --markdown 20230716/L/LangChainAgentFactory/0.2-0.3/diff.md --exclude *.pyd
+[2023-07-16 07:34:53] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy-thursday-2023.7.9.0.tar.gz]
+[2023-07-16 07:34:53] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy-thursday-2023.7.9.1.tar.gz]
+[2023-07-16 07:34:53] INFO root fetch - main [MainThread]: End processing [crazy-thursday]: success
+[2023-07-16 07:34:53] INFO root fetch - processPackages [LangChainAgentFactory]: Remove: archive file [/home/abi/fetcher/tmp/LangChainAgentFactory-0.2.tar.gz]
+[2023-07-16 07:34:53] INFO root fetch - processPackages [LangChainAgentFactory]: Remove: archive file [/home/abi/fetcher/tmp/LangChainAgentFactory-0.3.tar.gz]
+[2023-07-16 07:34:53] INFO root fetch - main [MainThread]: End processing [LangChainAgentFactory]: success
+[2023-07-16 07:34:53] INFO root fetch - main [MainThread]: Store serial: [18904947]
