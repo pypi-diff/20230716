@@ -5497,3 +5497,78 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-16 10:11:01] INFO root fetch - processPackages [druhg]: Remove: archive file [/home/abi/fetcher/tmp/druhg-1.4.0.tar.gz]
 [2023-07-16 10:11:01] INFO root fetch - main [MainThread]: End processing [druhg]: success
 [2023-07-16 10:11:01] INFO root fetch - main [MainThread]: Store serial: [18905608]
+[2023-07-16 10:16:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18905608]
+[2023-07-16 10:16:10] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-16 10:16:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: applyx
+[2023-07-16 10:16:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: instawow
+[2023-07-16 10:16:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wiggler-studiorabota
+[2023-07-16 10:16:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: talkytimes-package
+[2023-07-16 10:16:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyrsm
+[2023-07-16 10:16:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: spark-sdk
+[2023-07-16 10:16:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nvfuser-cu121
+[2023-07-16 10:16:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nvfuser-cu118
+[2023-07-16 10:16:10] INFO root fetch - processPackages [nvfuser-cu118]: New version: [0.0.9.dev20230515] Old Version: [0.0.9.dev20230514]
+[2023-07-16 10:16:10] INFO root fetch - processPackages [spark-sdk]: New version: [0.4.9] Old Version: [0.4.23rc4]
+[2023-07-16 10:16:10] INFO root fetch - processPackages [nvfuser-cu121]: New version: [0.0.9.dev20230515] Old Version: [0.0.9.dev20230514]
+[2023-07-16 10:16:10] INFO root fetch - processPackages [wiggler-studiorabota]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-16 10:16:10] INFO root fetch - processPackages [instawow]: New version: [3.0.1] Old Version: [3.0.0]
+[2023-07-16 10:16:10] INFO root fetch - processPackages [pyrsm]: New version: [0.8.6] Old Version: [0.8.5]
+[2023-07-16 10:16:10] INFO root fetch - processPackages [talkytimes-package]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-07-16 10:16:10] INFO root fetch - processPackages [applyx]: New version: [0.2.9] Old Version: [0.2.7]
+[2023-07-16 10:16:10] INFO root fetch - processPackages [nvfuser-cu118]: Downloading https://files.pythonhosted.org/packages/4b/cd/4c428ce97d9be97932eb85eb49ce89f8833a6daf4081080607d7a4dd07d9/nvfuser_cu118-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-16 10:16:10] INFO root fetch - processPackages [nvfuser-cu121]: Downloading https://files.pythonhosted.org/packages/b3/bf/667bd4aad6c776a5e62ad2f63da6dd5bb51f013f1ff3284d04efbf109991/nvfuser_cu121-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-16 10:16:10] INFO root fetch - processPackages [wiggler-studiorabota]: Downloading https://files.pythonhosted.org/packages/0d/86/d02e2203065f80a5af3e959e7e9db4e443dd80919a0ca9c31a84d751cbb1/wiggler_studiorabota-0.0.8.tar.gz
+[2023-07-16 10:16:10] INFO root fetch - processPackages [spark-sdk]: Downloading https://files.pythonhosted.org/packages/04/4a/3b8746c70455ecd4792faa10bcdf8bf198d8d1714d375c354bccb4d2a9c2/spark_sdk-0.4.23rc4-py3-none-any.whl
+[2023-07-16 10:16:10] INFO root fetch - processPackages [talkytimes-package]: Downloading https://files.pythonhosted.org/packages/57/24/0b9fbcf952377bb052e9a8275bf33b5521e2fe1e6783db504f61cd3c34c5/talkytimes_package-0.1.9.tar.gz
+[2023-07-16 10:16:10] INFO root fetch - processPackages [instawow]: Downloading https://files.pythonhosted.org/packages/e0/b2/b23cb453a5988a9e399a1afcd44b392487ea3b93225fd6cc2608b060079f/instawow-3.0.0.tar.gz
+[2023-07-16 10:16:10] INFO root fetch - processPackages [pyrsm]: Downloading https://files.pythonhosted.org/packages/7c/fe/9d2e0609844492bc3ea2f233c3bdb46b4cc74ba7de81117c74ae7d532394/pyrsm-0.8.5.tar.gz
+[2023-07-16 10:16:10] INFO root fetch - processPackages [applyx]: Downloading https://files.pythonhosted.org/packages/30/96/bf00ea1d25d2d488fbefc1ff443a118a6c42de1422b84c2c517bf582d16c/applyx-0.2.7-py3-none-any.whl
+[2023-07-16 10:16:10] INFO root fetch - processPackages [wiggler-studiorabota]: Downloading https://files.pythonhosted.org/packages/48/ca/d088276f8dab32bed8eb0a430fee09ee102c277df96d2e8dafe437289ac8/wiggler_studiorabota-0.0.9.tar.gz
+[2023-07-16 10:16:10] INFO root fetch - processPackages [spark-sdk]: Downloading https://files.pythonhosted.org/packages/78/ef/a94fc9e735951687c8ae5c09971b47a197f864afe848bd3c4ada1591b88a/spark_sdk-0.4.9-py3-none-any.whl
+[2023-07-16 10:16:10] INFO root fetch - processPackages [wiggler-studiorabota]: executing diffoscope
+[2023-07-16 10:16:10] INFO root fetch - processPackages [wiggler-studiorabota]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wiggler_studiorabota-0.0.8.tar.gz tmp/wiggler_studiorabota-0.0.9.tar.gz --markdown 20230716/w/wiggler-studiorabota/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-16 10:16:11] INFO root fetch - processPackages [talkytimes-package]: Downloading https://files.pythonhosted.org/packages/df/d9/743fdaa2d1f399f5686706c169b3d741d116c9664d9a147ea4de67644a6f/talkytimes_package-0.2.0.tar.gz
+[2023-07-16 10:16:11] INFO root fetch - processPackages [talkytimes-package]: executing diffoscope
+[2023-07-16 10:16:11] INFO root fetch - processPackages [talkytimes-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/talkytimes_package-0.1.9.tar.gz tmp/talkytimes_package-0.2.0.tar.gz --markdown 20230716/t/talkytimes-package/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-07-16 10:16:11] INFO root fetch - processPackages [pyrsm]: Downloading https://files.pythonhosted.org/packages/e0/fc/66eaeae4e12b2555fbec734779d2eec4593bad61a57db1839c9098f55e11/pyrsm-0.8.6.tar.gz
+[2023-07-16 10:16:11] INFO root fetch - processPackages [spark-sdk]: executing diffoscope
+[2023-07-16 10:16:11] INFO root fetch - processPackages [spark-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spark_sdk-0.4.23rc4-py3-none-any.whl.zip tmp/spark_sdk-0.4.9-py3-none-any.whl.zip --markdown 20230716/s/spark-sdk/0.4.23rc4-0.4.9/diff.md --exclude *.pyd
+[2023-07-16 10:16:11] INFO root fetch - processPackages [pyrsm]: executing diffoscope
+[2023-07-16 10:16:11] INFO root fetch - processPackages [pyrsm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrsm-0.8.5.tar.gz tmp/pyrsm-0.8.6.tar.gz --markdown 20230716/p/pyrsm/0.8.5-0.8.6/diff.md --exclude *.pyd
+[2023-07-16 10:16:11] INFO root fetch - processPackages [instawow]: Downloading https://files.pythonhosted.org/packages/b3/9c/a5da1f8de4199dbcf87e2bb679728984ece17689f6951202ff9a67161ec9/instawow-3.0.1.tar.gz
+[2023-07-16 10:16:11] INFO root fetch - processPackages [nvfuser-cu118]: Downloading https://files.pythonhosted.org/packages/b4/43/b31a00b4452d0b5904b6a1613a4dc7aa7a262ccdc4d4f61614f466008980/nvfuser_cu118-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-16 10:16:11] INFO root fetch - processPackages [applyx]: Downloading https://files.pythonhosted.org/packages/55/82/e3be3f202f0a3163a1550c0b5b78be1aea8301a9ac6459c4ad6c5d2f7499/applyx-0.2.9-py3-none-any.whl
+[2023-07-16 10:16:11] INFO root fetch - processPackages [instawow]: executing diffoscope
+[2023-07-16 10:16:11] INFO root fetch - processPackages [instawow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/instawow-3.0.0.tar.gz tmp/instawow-3.0.1.tar.gz --markdown 20230716/i/instawow/3.0.0-3.0.1/diff.md --exclude *.pyd
+[2023-07-16 10:16:11] INFO root fetch - processPackages [applyx]: executing diffoscope
+[2023-07-16 10:16:11] INFO root fetch - processPackages [applyx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/applyx-0.2.7-py3-none-any.whl.zip tmp/applyx-0.2.9-py3-none-any.whl.zip --markdown 20230716/a/applyx/0.2.7-0.2.9/diff.md --exclude *.pyd
+[2023-07-16 10:16:11] INFO root fetch - processPackages [wiggler-studiorabota]: Remove: archive file [/home/abi/fetcher/tmp/wiggler_studiorabota-0.0.8.tar.gz]
+[2023-07-16 10:16:11] INFO root fetch - processPackages [wiggler-studiorabota]: Remove: archive file [/home/abi/fetcher/tmp/wiggler_studiorabota-0.0.9.tar.gz]
+[2023-07-16 10:16:11] INFO root fetch - main [MainThread]: End processing [wiggler-studiorabota]: success
+[2023-07-16 10:16:12] INFO root fetch - processPackages [talkytimes-package]: Remove: archive file [/home/abi/fetcher/tmp/talkytimes_package-0.1.9.tar.gz]
+[2023-07-16 10:16:12] INFO root fetch - processPackages [talkytimes-package]: Remove: archive file [/home/abi/fetcher/tmp/talkytimes_package-0.2.0.tar.gz]
+[2023-07-16 10:16:12] INFO root fetch - main [MainThread]: End processing [talkytimes-package]: success
+[2023-07-16 10:16:12] INFO root fetch - processPackages [spark-sdk]: Remove: archive file [/home/abi/fetcher/tmp/spark_sdk-0.4.23rc4-py3-none-any.whl.zip]
+[2023-07-16 10:16:12] INFO root fetch - processPackages [spark-sdk]: Remove: archive file [/home/abi/fetcher/tmp/spark_sdk-0.4.9-py3-none-any.whl.zip]
+[2023-07-16 10:16:12] INFO root fetch - main [MainThread]: End processing [spark-sdk]: success
+[2023-07-16 10:16:12] INFO root fetch - processPackages [nvfuser-cu118]: executing diffoscope
+[2023-07-16 10:16:12] INFO root fetch - processPackages [nvfuser-cu118]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvfuser_cu118-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/nvfuser_cu118-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230716/n/nvfuser-cu118/0.0.9.dev20230514-0.0.9.dev20230515/diff.md --exclude *.pyd
+[2023-07-16 10:16:12] INFO root fetch - processPackages [nvfuser-cu121]: Downloading https://files.pythonhosted.org/packages/05/3d/6c84b5f07a9f69349df1b20f64065b4cbd84158521710f47bb31051a8ee9/nvfuser_cu121-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-16 10:16:12] INFO root fetch - processPackages [pyrsm]: Remove: archive file [/home/abi/fetcher/tmp/pyrsm-0.8.5.tar.gz]
+[2023-07-16 10:16:12] INFO root fetch - processPackages [pyrsm]: Remove: archive file [/home/abi/fetcher/tmp/pyrsm-0.8.6.tar.gz]
+[2023-07-16 10:16:12] INFO root fetch - main [MainThread]: End processing [pyrsm]: success
+[2023-07-16 10:16:12] INFO root fetch - processPackages [applyx]: Remove: archive file [/home/abi/fetcher/tmp/applyx-0.2.7-py3-none-any.whl.zip]
+[2023-07-16 10:16:12] INFO root fetch - processPackages [applyx]: Remove: archive file [/home/abi/fetcher/tmp/applyx-0.2.9-py3-none-any.whl.zip]
+[2023-07-16 10:16:12] INFO root fetch - main [MainThread]: End processing [applyx]: success
+[2023-07-16 10:16:13] INFO root fetch - processPackages [nvfuser-cu118]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu118-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-16 10:16:13] INFO root fetch - processPackages [nvfuser-cu118]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu118-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-16 10:16:13] INFO root fetch - main [MainThread]: End processing [nvfuser-cu118]: success
+[2023-07-16 10:16:14] INFO root fetch - processPackages [nvfuser-cu121]: executing diffoscope
+[2023-07-16 10:16:14] INFO root fetch - processPackages [nvfuser-cu121]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvfuser_cu121-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/nvfuser_cu121-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230716/n/nvfuser-cu121/0.0.9.dev20230514-0.0.9.dev20230515/diff.md --exclude *.pyd
+[2023-07-16 10:16:15] INFO root fetch - processPackages [nvfuser-cu121]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu121-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-16 10:16:15] INFO root fetch - processPackages [nvfuser-cu121]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu121-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-16 10:16:15] INFO root fetch - main [MainThread]: End processing [nvfuser-cu121]: success
+[2023-07-16 10:16:17] INFO root fetch - processPackages [instawow]: Remove: archive file [/home/abi/fetcher/tmp/instawow-3.0.0.tar.gz]
+[2023-07-16 10:16:17] INFO root fetch - processPackages [instawow]: Remove: archive file [/home/abi/fetcher/tmp/instawow-3.0.1.tar.gz]
+[2023-07-16 10:16:17] INFO root fetch - main [MainThread]: End processing [instawow]: success
+[2023-07-16 10:16:17] INFO root fetch - main [MainThread]: Store serial: [18905634]
