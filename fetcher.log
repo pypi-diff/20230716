@@ -10213,3 +10213,49 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-16 16:49:20] INFO root fetch - processPackages [areixlib]: Remove: archive file [/home/abi/fetcher/tmp/areixlib-0.1.9.tar.gz]
 [2023-07-16 16:49:20] INFO root fetch - main [MainThread]: End processing [areixlib]: success
 [2023-07-16 16:49:20] INFO root fetch - main [MainThread]: Store serial: [18907571]
+[2023-07-16 16:54:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18907571]
+[2023-07-16 16:54:29] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-16 16:54:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: presentpy
+[2023-07-16 16:54:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pipedrive-wrapper
+[2023-07-16 16:54:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: AshCrypt
+[2023-07-16 16:54:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: docx-charts
+[2023-07-16 16:54:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pipedrive-wrapper
+[2023-07-16 16:54:29] INFO root fetch - processPackages [docx-charts]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-16 16:54:29] INFO root fetch - processPackages [pipedrive-wrapper]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-16 16:54:29] INFO root fetch - processPackages [pipedrive-wrapper]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-16 16:54:29] INFO root fetch - processPackages [AshCrypt]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-07-16 16:54:29] INFO root fetch - processPackages [presentpy]: New version: [0.8.0] Old Version: [0.5.0]
+[2023-07-16 16:54:29] INFO root fetch - processPackages [docx-charts]: Downloading https://files.pythonhosted.org/packages/46/86/50af6ce1fe4f032c6470cc2c9b5b6dcb463809fe9440f72e069e4d29a64c/docx_charts-0.1.4.tar.gz
+[2023-07-16 16:54:29] INFO root fetch - processPackages [AshCrypt]: Downloading https://files.pythonhosted.org/packages/6e/a9/06968a55cfaaca7749b9bada3f1d16ee12cc93b2c169fcf5b6b8cc96029c/AshCrypt-2.0.0.tar.gz
+[2023-07-16 16:54:30] INFO root fetch - processPackages [pipedrive-wrapper]: Downloading https://files.pythonhosted.org/packages/e8/ca/b7d92ec2590d5cf2fbf02bcc2f316980fa4d3e02f7b9c683cc4a6772cdcd/pipedrive-wrapper-1.0.0.tar.gz
+[2023-07-16 16:54:30] INFO root fetch - processPackages [pipedrive-wrapper]: Downloading https://files.pythonhosted.org/packages/e8/ca/b7d92ec2590d5cf2fbf02bcc2f316980fa4d3e02f7b9c683cc4a6772cdcd/pipedrive-wrapper-1.0.0.tar.gz
+[2023-07-16 16:54:30] INFO root fetch - processPackages [presentpy]: Downloading https://files.pythonhosted.org/packages/2a/0b/e0781c541080ea650503a6b1cba70e74255b5f9396e74e50f559a2164d9b/presentpy-0.5.0.tar.gz
+[2023-07-16 16:54:30] INFO root fetch - processPackages [AshCrypt]: Downloading https://files.pythonhosted.org/packages/ef/f5/ed412ed62f02fe0f014183dd80adadab9f4e12508aebc4f7f9eb898cef07/AshCrypt-2.0.1.tar.gz
+[2023-07-16 16:54:30] INFO root fetch - processPackages [docx-charts]: Downloading https://files.pythonhosted.org/packages/2a/c8/18b56247900c009f63f49cf8a0ab599e70ee09686a0b87940b554833047b/docx_charts-0.1.5.tar.gz
+[2023-07-16 16:54:30] INFO root fetch - processPackages [pipedrive-wrapper]: Downloading https://files.pythonhosted.org/packages/ec/4b/fffb4c1046db126344aec29d206bb7c150bbb278414945b51425a1d30015/pipedrive-wrapper-1.0.1.tar.gz
+[2023-07-16 16:54:30] INFO root fetch - processPackages [pipedrive-wrapper]: Downloading https://files.pythonhosted.org/packages/ec/4b/fffb4c1046db126344aec29d206bb7c150bbb278414945b51425a1d30015/pipedrive-wrapper-1.0.1.tar.gz
+[2023-07-16 16:54:30] INFO root fetch - processPackages [AshCrypt]: executing diffoscope
+[2023-07-16 16:54:30] INFO root fetch - processPackages [AshCrypt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AshCrypt-2.0.0.tar.gz tmp/AshCrypt-2.0.1.tar.gz --markdown 20230716/A/AshCrypt/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-07-16 16:54:30] INFO root fetch - processPackages [docx-charts]: executing diffoscope
+[2023-07-16 16:54:30] INFO root fetch - processPackages [docx-charts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docx_charts-0.1.4.tar.gz tmp/docx_charts-0.1.5.tar.gz --markdown 20230716/d/docx-charts/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-16 16:54:30] INFO root fetch - processPackages [pipedrive-wrapper]: executing diffoscope
+[2023-07-16 16:54:30] INFO root fetch - processPackages [pipedrive-wrapper]: executing diffoscope
+[2023-07-16 16:54:30] INFO root fetch - processPackages [pipedrive-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipedrive-wrapper-1.0.0.tar.gz tmp/pipedrive-wrapper-1.0.1.tar.gz --markdown 20230716/p/pipedrive-wrapper/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-16 16:54:30] INFO root fetch - processPackages [pipedrive-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipedrive-wrapper-1.0.0.tar.gz tmp/pipedrive-wrapper-1.0.1.tar.gz --markdown 20230716/p/pipedrive-wrapper/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-16 16:54:30] INFO root fetch - processPackages [presentpy]: Downloading https://files.pythonhosted.org/packages/c3/b7/21ee6f8aad06c682198f7e6406b697d7c933477b7e21c0e9f9d8a1b4d50e/presentpy-0.8.0.tar.gz
+[2023-07-16 16:54:30] INFO root fetch - processPackages [presentpy]: executing diffoscope
+[2023-07-16 16:54:30] INFO root fetch - processPackages [presentpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/presentpy-0.5.0.tar.gz tmp/presentpy-0.8.0.tar.gz --markdown 20230716/p/presentpy/0.5.0-0.8.0/diff.md --exclude *.pyd
+[2023-07-16 16:54:31] INFO root fetch - processPackages [docx-charts]: Remove: archive file [/home/abi/fetcher/tmp/docx_charts-0.1.4.tar.gz]
+[2023-07-16 16:54:31] INFO root fetch - processPackages [docx-charts]: Remove: archive file [/home/abi/fetcher/tmp/docx_charts-0.1.5.tar.gz]
+[2023-07-16 16:54:31] INFO root fetch - main [MainThread]: End processing [docx-charts]: success
+[2023-07-16 16:54:31] INFO root fetch - processPackages [AshCrypt]: Remove: archive file [/home/abi/fetcher/tmp/AshCrypt-2.0.0.tar.gz]
+[2023-07-16 16:54:31] INFO root fetch - processPackages [AshCrypt]: Remove: archive file [/home/abi/fetcher/tmp/AshCrypt-2.0.1.tar.gz]
+[2023-07-16 16:54:31] INFO root fetch - main [MainThread]: End processing [AshCrypt]: success
+[2023-07-16 16:54:31] INFO root fetch - processPackages [pipedrive-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/pipedrive-wrapper-1.0.0.tar.gz]
+[2023-07-16 16:54:31] INFO root fetch - processPackages [pipedrive-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/pipedrive-wrapper-1.0.1.tar.gz]
+[2023-07-16 16:54:31] INFO root fetch - main [MainThread]: End processing [pipedrive-wrapper]: success
+[2023-07-16 16:54:31] INFO root fetch - main [MainThread]: End processing [pipedrive-wrapper]: success
+[2023-07-16 16:54:32] INFO root fetch - processPackages [presentpy]: Remove: archive file [/home/abi/fetcher/tmp/presentpy-0.5.0.tar.gz]
+[2023-07-16 16:54:32] INFO root fetch - processPackages [presentpy]: Remove: archive file [/home/abi/fetcher/tmp/presentpy-0.8.0.tar.gz]
+[2023-07-16 16:54:32] INFO root fetch - main [MainThread]: End processing [presentpy]: success
+[2023-07-16 16:54:32] INFO root fetch - main [MainThread]: Store serial: [18907588]
