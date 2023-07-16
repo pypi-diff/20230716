@@ -13051,3 +13051,72 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-16 20:49:37] INFO root fetch - processPackages [ast-grep-cli]: Remove: archive file [/home/abi/fetcher/tmp/ast_grep_cli-0.9.1.tar.gz]
 [2023-07-16 20:49:37] INFO root fetch - main [MainThread]: End processing [ast-grep-cli]: success
 [2023-07-16 20:49:37] INFO root fetch - main [MainThread]: Store serial: [18908771]
+[2023-07-16 20:54:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18908771]
+[2023-07-16 20:54:46] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-16 20:54:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: airportsdata
+[2023-07-16 20:54:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: philbot-voice
+[2023-07-16 20:54:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: py-draughts
+[2023-07-16 20:54:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wcag-abbreviations
+[2023-07-16 20:54:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: forecastmanager
+[2023-07-16 20:54:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ez-a-sync
+[2023-07-16 20:54:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Dowell-secure-github-repository
+[2023-07-16 20:54:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: maxwell
+[2023-07-16 20:54:46] INFO root fetch - processPackages [ez-a-sync]: New version: [0.6.2.dev6] Old Version: [0.6.2.dev4]
+[2023-07-16 20:54:46] INFO root fetch - processPackages [forecastmanager]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-16 20:54:46] INFO root fetch - processPackages [Dowell-secure-github-repository]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-07-16 20:54:46] INFO root fetch - processPackages [airportsdata]: New version: [20230716] Old Version: [20230630]
+[2023-07-16 20:54:46] INFO root fetch - processPackages [py-draughts]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-07-16 20:54:46] INFO root fetch - processPackages [philbot-voice]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-07-16 20:54:46] WARNING root fetch - processPackages [wcag-abbreviations]: Skipping, unable to determine old version
+[2023-07-16 20:54:46] INFO root fetch - main [MainThread]: End processing [wcag-abbreviations] error
+[2023-07-16 20:54:46] INFO root fetch - processPackages [maxwell]: New version: [0.2.2] Old Version: [0.2.0.post2]
+[2023-07-16 20:54:46] INFO root fetch - processPackages [Dowell-secure-github-repository]: Downloading https://files.pythonhosted.org/packages/f3/45/733734b46802199dd1cdd61c9090e80d9e634657db60c5767e74b962dcee/Dowell%20secure%20github%20repository-0.5.0.tar.gz
+[2023-07-16 20:54:46] INFO root fetch - processPackages [forecastmanager]: Downloading https://files.pythonhosted.org/packages/ae/4a/267fc8ce50934e1498687d529c8e078848b5723078d7ddba8cde16513763/forecastmanager-0.1.0.tar.gz
+[2023-07-16 20:54:46] INFO root fetch - processPackages [philbot-voice]: Downloading https://files.pythonhosted.org/packages/05/bb/01605bb60fce0733760899cdc771b31c44c401248bd2c28398c5ce9e9df5/philbot_voice-1.9.8.tar.gz
+[2023-07-16 20:54:46] INFO root fetch - processPackages [py-draughts]: Downloading https://files.pythonhosted.org/packages/7e/88/55fa510902d59946f0fe5fa1d8d0f95a0c0fc7729c3c4b1608c440c7932f/py-draughts-1.1.0.tar.gz
+[2023-07-16 20:54:46] INFO root fetch - processPackages [ez-a-sync]: Downloading https://files.pythonhosted.org/packages/01/6d/436319f219d27e6558ee27527ba2bb9dd041bdd46c0bb6bb6add99bf0f17/ez-a-sync-0.6.2.dev4.tar.gz
+[2023-07-16 20:54:46] INFO root fetch - processPackages [airportsdata]: Downloading https://files.pythonhosted.org/packages/b1/39/6c900e7185f27bf9064a02c14cdd6c5dce2569b55f19dcbda826d4015a43/airportsdata-20230630.tar.gz
+[2023-07-16 20:54:46] INFO root fetch - processPackages [maxwell]: Downloading https://files.pythonhosted.org/packages/97/86/bc17baa4db429c57d29b2d8f613bd7d486873021e475fab0cc5cc64abec0/maxwell-0.2.0.post2.tar.gz
+[2023-07-16 20:54:46] INFO root fetch - processPackages [philbot-voice]: Downloading https://files.pythonhosted.org/packages/3b/a7/1895e6c9d15fef6a2e8afcf48baeacca3915011fbe849f600b6b3dac7afb/philbot_voice-1.9.9.tar.gz
+[2023-07-16 20:54:46] INFO root fetch - processPackages [Dowell-secure-github-repository]: Downloading https://files.pythonhosted.org/packages/5c/59/fcbd2ea687701e70b63e0fd1e593b2c35277e7e88e3a4089823cf2a61568/Dowell%20secure%20github%20repository-0.6.0.tar.gz
+[2023-07-16 20:54:46] INFO root fetch - processPackages [py-draughts]: Downloading https://files.pythonhosted.org/packages/09/97/1420a1316321d77141fe8e7f16aad84bc640093b4e29b2780fe37a122d0f/py-draughts-1.1.1.tar.gz
+[2023-07-16 20:54:47] INFO root fetch - processPackages [philbot-voice]: executing diffoscope
+[2023-07-16 20:54:47] INFO root fetch - processPackages [philbot-voice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/philbot_voice-1.9.8.tar.gz tmp/philbot_voice-1.9.9.tar.gz --markdown 20230716/p/philbot-voice/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-07-16 20:54:47] INFO root fetch - processPackages [ez-a-sync]: Downloading https://files.pythonhosted.org/packages/02/3d/e3219bfab12f6b254737e721d1aedfea5b6f735d27b2d04de7d9b6e90076/ez-a-sync-0.6.2.dev6.tar.gz
+[2023-07-16 20:54:47] INFO root fetch - processPackages [forecastmanager]: Downloading https://files.pythonhosted.org/packages/ab/74/c6f29a895c5e144fef715667bc307cabc376f5661223f85b3e661b7e19db/forecastmanager-0.1.1.tar.gz
+[2023-07-16 20:54:47] INFO root fetch - processPackages [Dowell-secure-github-repository]: executing diffoscope
+[2023-07-16 20:54:47] INFO root fetch - processPackages [Dowell-secure-github-repository]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Dowell secure github repository-0.5.0.tar.gz tmp/Dowell secure github repository-0.6.0.tar.gz --markdown 20230716/D/Dowell-secure-github-repository/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-07-16 20:54:47] INFO root fetch - processPackages [airportsdata]: Downloading https://files.pythonhosted.org/packages/d0/d5/5f8db1c55af26ddd2dd2500e007bfe1d1f1ec5a690e8034c66ad432b5835/airportsdata-20230716.tar.gz
+[2023-07-16 20:54:47] INFO root fetch - processPackages [maxwell]: Downloading https://files.pythonhosted.org/packages/c3/3f/ae46f9392b1ec9e08c0802faf5cc12fb8ad4caeaf8e6f777561d68c830a2/maxwell-0.2.2.tar.gz
+[2023-07-16 20:54:47] INFO root fetch - processPackages [py-draughts]: executing diffoscope
+[2023-07-16 20:54:47] INFO root fetch - processPackages [py-draughts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-draughts-1.1.0.tar.gz tmp/py-draughts-1.1.1.tar.gz --markdown 20230716/p/py-draughts/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-07-16 20:54:47] INFO root fetch - processPackages [ez-a-sync]: executing diffoscope
+[2023-07-16 20:54:47] INFO root fetch - processPackages [ez-a-sync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ez-a-sync-0.6.2.dev4.tar.gz tmp/ez-a-sync-0.6.2.dev6.tar.gz --markdown 20230716/e/ez-a-sync/0.6.2.dev4-0.6.2.dev6/diff.md --exclude *.pyd
+[2023-07-16 20:54:47] INFO root fetch - processPackages [airportsdata]: executing diffoscope
+[2023-07-16 20:54:47] INFO root fetch - processPackages [airportsdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airportsdata-20230630.tar.gz tmp/airportsdata-20230716.tar.gz --markdown 20230716/a/airportsdata/20230630-20230716/diff.md --exclude *.pyd
+[2023-07-16 20:54:47] INFO root fetch - processPackages [forecastmanager]: executing diffoscope
+[2023-07-16 20:54:47] INFO root fetch - processPackages [forecastmanager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/forecastmanager-0.1.0.tar.gz tmp/forecastmanager-0.1.1.tar.gz --markdown 20230716/f/forecastmanager/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-16 20:54:47] INFO root fetch - processPackages [maxwell]: executing diffoscope
+[2023-07-16 20:54:47] INFO root fetch - processPackages [maxwell]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maxwell-0.2.0.post2.tar.gz tmp/maxwell-0.2.2.tar.gz --markdown 20230716/m/maxwell/0.2.0.post2-0.2.2/diff.md --exclude *.pyd
+[2023-07-16 20:54:48] INFO root fetch - processPackages [philbot-voice]: Remove: archive file [/home/abi/fetcher/tmp/philbot_voice-1.9.8.tar.gz]
+[2023-07-16 20:54:48] INFO root fetch - processPackages [philbot-voice]: Remove: archive file [/home/abi/fetcher/tmp/philbot_voice-1.9.9.tar.gz]
+[2023-07-16 20:54:48] INFO root fetch - main [MainThread]: End processing [philbot-voice]: success
+[2023-07-16 20:54:48] INFO root fetch - processPackages [Dowell-secure-github-repository]: Remove: archive file [/home/abi/fetcher/tmp/Dowell secure github repository-0.5.0.tar.gz]
+[2023-07-16 20:54:48] INFO root fetch - processPackages [Dowell-secure-github-repository]: Remove: archive file [/home/abi/fetcher/tmp/Dowell secure github repository-0.6.0.tar.gz]
+[2023-07-16 20:54:48] INFO root fetch - main [MainThread]: End processing [Dowell-secure-github-repository]: success
+[2023-07-16 20:54:48] INFO root fetch - processPackages [py-draughts]: Remove: archive file [/home/abi/fetcher/tmp/py-draughts-1.1.0.tar.gz]
+[2023-07-16 20:54:48] INFO root fetch - processPackages [py-draughts]: Remove: archive file [/home/abi/fetcher/tmp/py-draughts-1.1.1.tar.gz]
+[2023-07-16 20:54:48] INFO root fetch - main [MainThread]: End processing [py-draughts]: success
+[2023-07-16 20:54:48] INFO root fetch - processPackages [ez-a-sync]: Remove: archive file [/home/abi/fetcher/tmp/ez-a-sync-0.6.2.dev4.tar.gz]
+[2023-07-16 20:54:48] INFO root fetch - processPackages [ez-a-sync]: Remove: archive file [/home/abi/fetcher/tmp/ez-a-sync-0.6.2.dev6.tar.gz]
+[2023-07-16 20:54:48] INFO root fetch - main [MainThread]: End processing [ez-a-sync]: success
+[2023-07-16 20:54:48] INFO root fetch - processPackages [maxwell]: Remove: archive file [/home/abi/fetcher/tmp/maxwell-0.2.0.post2.tar.gz]
+[2023-07-16 20:54:48] INFO root fetch - processPackages [maxwell]: Remove: archive file [/home/abi/fetcher/tmp/maxwell-0.2.2.tar.gz]
+[2023-07-16 20:54:48] INFO root fetch - main [MainThread]: End processing [maxwell]: success
+[2023-07-16 20:54:48] INFO root fetch - processPackages [forecastmanager]: Remove: archive file [/home/abi/fetcher/tmp/forecastmanager-0.1.0.tar.gz]
+[2023-07-16 20:54:48] INFO root fetch - processPackages [forecastmanager]: Remove: archive file [/home/abi/fetcher/tmp/forecastmanager-0.1.1.tar.gz]
+[2023-07-16 20:54:48] INFO root fetch - main [MainThread]: End processing [forecastmanager]: success
+[2023-07-16 20:54:49] INFO root fetch - processPackages [airportsdata]: Remove: archive file [/home/abi/fetcher/tmp/airportsdata-20230630.tar.gz]
+[2023-07-16 20:54:49] INFO root fetch - processPackages [airportsdata]: Remove: archive file [/home/abi/fetcher/tmp/airportsdata-20230716.tar.gz]
+[2023-07-16 20:54:49] INFO root fetch - main [MainThread]: End processing [airportsdata]: success
+[2023-07-16 20:54:49] INFO root fetch - main [MainThread]: Store serial: [18908797]
