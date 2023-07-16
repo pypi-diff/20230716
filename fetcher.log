@@ -6760,3 +6760,40 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-16 12:00:30] INFO root fetch - processPackages [mass-composition]: Remove: archive file [/home/abi/fetcher/tmp/mass_composition-0.1.9.tar.gz]
 [2023-07-16 12:00:30] INFO root fetch - main [MainThread]: End processing [mass-composition]: success
 [2023-07-16 12:00:30] INFO root fetch - main [MainThread]: Store serial: [18906079]
+[2023-07-16 12:05:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18906079]
+[2023-07-16 12:05:40] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-16 12:05:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: torch4keras
+[2023-07-16 12:05:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyfrobot
+[2023-07-16 12:05:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyfrobot
+[2023-07-16 12:05:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: deovi
+[2023-07-16 12:05:40] INFO root fetch - processPackages [deovi]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-07-16 12:05:40] INFO root fetch - processPackages [pyfrobot]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-16 12:05:40] INFO root fetch - processPackages [torch4keras]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-16 12:05:40] INFO root fetch - processPackages [pyfrobot]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-16 12:05:41] INFO root fetch - processPackages [pyfrobot]: Downloading https://files.pythonhosted.org/packages/47/d8/4eff931acd80eb8b05f05c88112d1850849146f9915175d6eadf35df14ef/pyfrobot-0.1.8.tar.gz
+[2023-07-16 12:05:41] INFO root fetch - processPackages [pyfrobot]: Downloading https://files.pythonhosted.org/packages/47/d8/4eff931acd80eb8b05f05c88112d1850849146f9915175d6eadf35df14ef/pyfrobot-0.1.8.tar.gz
+[2023-07-16 12:05:41] INFO root fetch - processPackages [torch4keras]: Downloading https://files.pythonhosted.org/packages/70/c8/f3049c9a518b0e61f4dd0ffcb4b594db717ea554a3e4bece33b35bd836e1/torch4keras-0.0.8.tar.gz
+[2023-07-16 12:05:41] INFO root fetch - processPackages [deovi]: Downloading https://files.pythonhosted.org/packages/ce/30/baeb9d5648e799a8b20494f2ea39cd87ffeb745643c5affec2c4f48190bf/deovi-0.6.0.tar.gz
+[2023-07-16 12:05:41] INFO root fetch - processPackages [pyfrobot]: Downloading https://files.pythonhosted.org/packages/a5/a7/c91a44b101557e88b0c525fd1fbcc9ee6e7a1d4fe9318da83243b9481ac4/pyfrobot-0.1.9.tar.gz
+[2023-07-16 12:05:41] INFO root fetch - processPackages [pyfrobot]: Downloading https://files.pythonhosted.org/packages/a5/a7/c91a44b101557e88b0c525fd1fbcc9ee6e7a1d4fe9318da83243b9481ac4/pyfrobot-0.1.9.tar.gz
+[2023-07-16 12:05:41] INFO root fetch - processPackages [pyfrobot]: executing diffoscope
+[2023-07-16 12:05:41] INFO root fetch - processPackages [pyfrobot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfrobot-0.1.8.tar.gz tmp/pyfrobot-0.1.9.tar.gz --markdown 20230716/p/pyfrobot/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-16 12:05:41] INFO root fetch - processPackages [pyfrobot]: executing diffoscope
+[2023-07-16 12:05:41] INFO root fetch - processPackages [pyfrobot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfrobot-0.1.8.tar.gz tmp/pyfrobot-0.1.9.tar.gz --markdown 20230716/p/pyfrobot/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-16 12:05:41] INFO root fetch - processPackages [deovi]: Downloading https://files.pythonhosted.org/packages/9a/42/4540ab7c516fa99817b10cc3d57232d1a0efc4fb92858b218a7e27e48d53/deovi-0.6.1.tar.gz
+[2023-07-16 12:05:41] INFO root fetch - processPackages [torch4keras]: Downloading https://files.pythonhosted.org/packages/4e/03/6d03992425b2ad7085ea5eb57ec388d130c591b4aafe47dcfe485a9c06ce/torch4keras-0.0.9.tar.gz
+[2023-07-16 12:05:41] INFO root fetch - processPackages [deovi]: executing diffoscope
+[2023-07-16 12:05:41] INFO root fetch - processPackages [deovi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deovi-0.6.0.tar.gz tmp/deovi-0.6.1.tar.gz --markdown 20230716/d/deovi/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-07-16 12:05:41] INFO root fetch - processPackages [torch4keras]: executing diffoscope
+[2023-07-16 12:05:41] INFO root fetch - processPackages [torch4keras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch4keras-0.0.8.tar.gz tmp/torch4keras-0.0.9.tar.gz --markdown 20230716/t/torch4keras/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-16 12:05:42] INFO root fetch - processPackages [pyfrobot]: Remove: archive file [/home/abi/fetcher/tmp/pyfrobot-0.1.8.tar.gz]
+[2023-07-16 12:05:42] INFO root fetch - processPackages [pyfrobot]: Remove: archive file [/home/abi/fetcher/tmp/pyfrobot-0.1.9.tar.gz]
+[2023-07-16 12:05:42] INFO root fetch - main [MainThread]: End processing [pyfrobot]: success
+[2023-07-16 12:05:42] INFO root fetch - main [MainThread]: End processing [pyfrobot]: success
+[2023-07-16 12:05:42] INFO root fetch - processPackages [torch4keras]: Remove: archive file [/home/abi/fetcher/tmp/torch4keras-0.0.8.tar.gz]
+[2023-07-16 12:05:42] INFO root fetch - processPackages [torch4keras]: Remove: archive file [/home/abi/fetcher/tmp/torch4keras-0.0.9.tar.gz]
+[2023-07-16 12:05:42] INFO root fetch - main [MainThread]: End processing [torch4keras]: success
+[2023-07-16 12:05:42] INFO root fetch - processPackages [deovi]: Remove: archive file [/home/abi/fetcher/tmp/deovi-0.6.0.tar.gz]
+[2023-07-16 12:05:42] INFO root fetch - processPackages [deovi]: Remove: archive file [/home/abi/fetcher/tmp/deovi-0.6.1.tar.gz]
+[2023-07-16 12:05:42] INFO root fetch - main [MainThread]: End processing [deovi]: success
+[2023-07-16 12:05:42] INFO root fetch - main [MainThread]: Store serial: [18906091]
