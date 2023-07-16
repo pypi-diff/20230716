@@ -12452,3 +12452,36 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-16 20:02:44] INFO root fetch - processPackages [netbox-data-flows]: Remove: archive file [/home/abi/fetcher/tmp/netbox-data-flows-0.7.1.tar.gz]
 [2023-07-16 20:02:44] INFO root fetch - main [MainThread]: End processing [netbox-data-flows]: success
 [2023-07-16 20:02:44] INFO root fetch - main [MainThread]: Store serial: [18908540]
+[2023-07-16 20:07:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18908540]
+[2023-07-16 20:07:53] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-16 20:07:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aioabcpapi
+[2023-07-16 20:07:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: piperider-nightly
+[2023-07-16 20:07:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tasks-genrator
+[2023-07-16 20:07:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gigagan-pytorch
+[2023-07-16 20:07:53] INFO root fetch - processPackages [aioabcpapi]: New version: [2.0.6] Old Version: [2.0.5]
+[2023-07-16 20:07:53] WARNING root fetch - processPackages [tasks-genrator]: Skipping, unable to determine old version
+[2023-07-16 20:07:53] INFO root fetch - main [MainThread]: End processing [tasks-genrator] error
+[2023-07-16 20:07:53] INFO root fetch - processPackages [gigagan-pytorch]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-16 20:07:53] INFO root fetch - processPackages [piperider-nightly]: New version: [0.9.0.20220921] Old Version: [0.9.0.20220920]
+[2023-07-16 20:07:53] INFO root fetch - processPackages [aioabcpapi]: Downloading https://files.pythonhosted.org/packages/49/7c/4fe25d510fe7ce4dc11c68e78bfaec79e7e7babeb28033df6b569b92a6dd/aioabcpapi-2.0.5.tar.gz
+[2023-07-16 20:07:53] INFO root fetch - processPackages [gigagan-pytorch]: Downloading https://files.pythonhosted.org/packages/c0/aa/26bf6b7a863fb9525dd2ca84ff5122173d9bcd4d108b07c4aa8bb92431c7/gigagan-pytorch-0.0.8.tar.gz
+[2023-07-16 20:07:53] INFO root fetch - processPackages [piperider-nightly]: Downloading https://files.pythonhosted.org/packages/ed/93/38dc4b24d947f1ec271781bdb47a50b77ff762d7a701730c6786ca4ec303/piperider-nightly-0.9.0.20220920.tar.gz
+[2023-07-16 20:07:54] INFO root fetch - processPackages [gigagan-pytorch]: Downloading https://files.pythonhosted.org/packages/88/15/d88c491945eed450311a7b87b5c2fc81ce2bdeb29f0c7c042a11e387769b/gigagan-pytorch-0.0.9.tar.gz
+[2023-07-16 20:07:54] INFO root fetch - processPackages [aioabcpapi]: Downloading https://files.pythonhosted.org/packages/e5/54/53f6a4f69323127aeb92361a5bbb95499330c0ca5d143928cdd12956deef/aioabcpapi-2.0.6.tar.gz
+[2023-07-16 20:07:54] INFO root fetch - processPackages [gigagan-pytorch]: executing diffoscope
+[2023-07-16 20:07:54] INFO root fetch - processPackages [gigagan-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gigagan-pytorch-0.0.8.tar.gz tmp/gigagan-pytorch-0.0.9.tar.gz --markdown 20230716/g/gigagan-pytorch/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-16 20:07:54] INFO root fetch - processPackages [aioabcpapi]: executing diffoscope
+[2023-07-16 20:07:54] INFO root fetch - processPackages [aioabcpapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aioabcpapi-2.0.5.tar.gz tmp/aioabcpapi-2.0.6.tar.gz --markdown 20230716/a/aioabcpapi/2.0.5-2.0.6/diff.md --exclude *.pyd
+[2023-07-16 20:07:54] INFO root fetch - processPackages [gigagan-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/gigagan-pytorch-0.0.8.tar.gz]
+[2023-07-16 20:07:54] INFO root fetch - processPackages [gigagan-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/gigagan-pytorch-0.0.9.tar.gz]
+[2023-07-16 20:07:54] INFO root fetch - main [MainThread]: End processing [gigagan-pytorch]: success
+[2023-07-16 20:07:55] INFO root fetch - processPackages [aioabcpapi]: Remove: archive file [/home/abi/fetcher/tmp/aioabcpapi-2.0.5.tar.gz]
+[2023-07-16 20:07:55] INFO root fetch - processPackages [aioabcpapi]: Remove: archive file [/home/abi/fetcher/tmp/aioabcpapi-2.0.6.tar.gz]
+[2023-07-16 20:07:55] INFO root fetch - main [MainThread]: End processing [aioabcpapi]: success
+[2023-07-16 20:07:55] INFO root fetch - processPackages [piperider-nightly]: Downloading https://files.pythonhosted.org/packages/a4/47/99354233feb8a6a201731f0992c5656ca2eb5728a26eae7fd09fc5e04b4c/piperider-nightly-0.9.0.20220921.tar.gz
+[2023-07-16 20:07:56] INFO root fetch - processPackages [piperider-nightly]: executing diffoscope
+[2023-07-16 20:07:56] INFO root fetch - processPackages [piperider-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/piperider-nightly-0.9.0.20220920.tar.gz tmp/piperider-nightly-0.9.0.20220921.tar.gz --markdown 20230716/p/piperider-nightly/0.9.0.20220920-0.9.0.20220921/diff.md --exclude *.pyd
+[2023-07-16 20:07:58] INFO root fetch - processPackages [piperider-nightly]: Remove: archive file [/home/abi/fetcher/tmp/piperider-nightly-0.9.0.20220920.tar.gz]
+[2023-07-16 20:07:58] INFO root fetch - processPackages [piperider-nightly]: Remove: archive file [/home/abi/fetcher/tmp/piperider-nightly-0.9.0.20220921.tar.gz]
+[2023-07-16 20:07:58] INFO root fetch - main [MainThread]: End processing [piperider-nightly]: success
+[2023-07-16 20:07:58] INFO root fetch - main [MainThread]: Store serial: [18908553]
