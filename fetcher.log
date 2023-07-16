@@ -3732,3 +3732,30 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-16 06:43:06] INFO root fetch - processPackages [llama-index]: Remove: archive file [/home/abi/fetcher/tmp/llama_index-0.7.9.tar.gz]
 [2023-07-16 06:43:06] INFO root fetch - main [MainThread]: End processing [llama-index]: success
 [2023-07-16 06:43:06] INFO root fetch - main [MainThread]: Store serial: [18904812]
+[2023-07-16 06:48:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18904812]
+[2023-07-16 06:48:15] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-16 06:48:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: datachecks
+[2023-07-16 06:48:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ibdx
+[2023-07-16 06:48:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-url-tokenizer
+[2023-07-16 06:48:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Python-Rocinante
+[2023-07-16 06:48:16] WARNING root fetch - processPackages [datachecks]: Skipping, unable to determine old version
+[2023-07-16 06:48:16] INFO root fetch - main [MainThread]: End processing [datachecks] error
+[2023-07-16 06:48:16] INFO root fetch - processPackages [ibdx]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-16 06:48:16] INFO root fetch - processPackages [django-url-tokenizer]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-16 06:48:16] WARNING root fetch - processPackages [Python-Rocinante]: Skipping, unable to determine old version
+[2023-07-16 06:48:16] INFO root fetch - main [MainThread]: End processing [Python-Rocinante] error
+[2023-07-16 06:48:16] INFO root fetch - processPackages [django-url-tokenizer]: Downloading https://files.pythonhosted.org/packages/58/fc/c297e12ea86d40bc35c3034412e468c38bef18667e6adfe0b24802b0e417/django-url-tokenizer-0.0.8.tar.gz
+[2023-07-16 06:48:16] INFO root fetch - processPackages [ibdx]: Downloading https://files.pythonhosted.org/packages/97/3d/9d212eb104aa79cbe9021813580f2c0627d68654fec06426fad62b00f08e/ibdx-0.3.0.tar.gz
+[2023-07-16 06:48:16] INFO root fetch - processPackages [django-url-tokenizer]: Downloading https://files.pythonhosted.org/packages/c5/13/df27d1141ec44b1c35f247440fc5cb506efe40a15cbed84328a82cab2d67/django-url-tokenizer-0.0.9.tar.gz
+[2023-07-16 06:48:16] INFO root fetch - processPackages [django-url-tokenizer]: executing diffoscope
+[2023-07-16 06:48:16] INFO root fetch - processPackages [django-url-tokenizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-url-tokenizer-0.0.8.tar.gz tmp/django-url-tokenizer-0.0.9.tar.gz --markdown 20230716/d/django-url-tokenizer/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-16 06:48:16] INFO root fetch - processPackages [ibdx]: Downloading https://files.pythonhosted.org/packages/4e/c7/f10bae32539684736a41cc678b29a7f772c5f267a54a2395335fc4b4161a/ibdx-0.3.1.tar.gz
+[2023-07-16 06:48:16] INFO root fetch - processPackages [ibdx]: executing diffoscope
+[2023-07-16 06:48:16] INFO root fetch - processPackages [ibdx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ibdx-0.3.0.tar.gz tmp/ibdx-0.3.1.tar.gz --markdown 20230716/i/ibdx/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-16 06:48:17] INFO root fetch - processPackages [django-url-tokenizer]: Remove: archive file [/home/abi/fetcher/tmp/django-url-tokenizer-0.0.8.tar.gz]
+[2023-07-16 06:48:17] INFO root fetch - processPackages [django-url-tokenizer]: Remove: archive file [/home/abi/fetcher/tmp/django-url-tokenizer-0.0.9.tar.gz]
+[2023-07-16 06:48:17] INFO root fetch - main [MainThread]: End processing [django-url-tokenizer]: success
+[2023-07-16 06:48:17] INFO root fetch - processPackages [ibdx]: Remove: archive file [/home/abi/fetcher/tmp/ibdx-0.3.0.tar.gz]
+[2023-07-16 06:48:17] INFO root fetch - processPackages [ibdx]: Remove: archive file [/home/abi/fetcher/tmp/ibdx-0.3.1.tar.gz]
+[2023-07-16 06:48:17] INFO root fetch - main [MainThread]: End processing [ibdx]: success
+[2023-07-16 06:48:17] INFO root fetch - main [MainThread]: Store serial: [18904827]
