@@ -11143,3 +11143,48 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-16 17:57:23] INFO root fetch - processPackages [talkytimes-package]: Remove: archive file [/home/abi/fetcher/tmp/talkytimes_package-0.3.0.tar.gz]
 [2023-07-16 17:57:23] INFO root fetch - main [MainThread]: End processing [talkytimes-package]: success
 [2023-07-16 17:57:23] INFO root fetch - main [MainThread]: Store serial: [18907955]
+[2023-07-16 18:02:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18907955]
+[2023-07-16 18:02:31] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-16 18:02:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: python-drawio
+[2023-07-16 18:02:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nndescent
+[2023-07-16 18:02:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tf-keras
+[2023-07-16 18:02:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gitopenlib
+[2023-07-16 18:02:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: langchain-model
+[2023-07-16 18:02:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: talkytimes-package
+[2023-07-16 18:02:32] INFO root fetch - processPackages [gitopenlib]: New version: [0.2.8.28] Old Version: [0.2.7.28]
+[2023-07-16 18:02:32] WARNING root fetch - processPackages [tf-keras]: Skipping, unable to determine old version
+[2023-07-16 18:02:32] INFO root fetch - main [MainThread]: End processing [tf-keras] error
+[2023-07-16 18:02:32] INFO root fetch - processPackages [talkytimes-package]: New version: [0.3.0] Old Version: [0.2.9]
+[2023-07-16 18:02:32] INFO root fetch - processPackages [nndescent]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-16 18:02:32] WARNING root fetch - processPackages [python-drawio]: Skipping, unable to determine old version
+[2023-07-16 18:02:32] INFO root fetch - main [MainThread]: End processing [python-drawio] error
+[2023-07-16 18:02:32] INFO root fetch - processPackages [langchain-model]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-16 18:02:32] INFO root fetch - processPackages [talkytimes-package]: Downloading https://files.pythonhosted.org/packages/a2/35/d9c0663ee1295df540e83891d09caa96cf33f08569b2efe177a473af5406/talkytimes_package-0.2.9.tar.gz
+[2023-07-16 18:02:32] INFO root fetch - processPackages [langchain-model]: Downloading https://files.pythonhosted.org/packages/84/bb/9250fbcffc9d0d6c1ebf52ce3c34c064a5250f84414ccc4a73e40d105bfd/langchain_model-0.0.4.tar.gz
+[2023-07-16 18:02:32] INFO root fetch - processPackages [nndescent]: Downloading https://files.pythonhosted.org/packages/d5/d0/e7ebbf1262f7ffb0014fe56813a719a1628c56139532a4d2a14baf2b4688/nndescent-1.0.3.tar.gz
+[2023-07-16 18:02:32] INFO root fetch - processPackages [gitopenlib]: Downloading https://files.pythonhosted.org/packages/48/74/590f5be409b770795c16d674e400c8995a8061e00d4e779cd4a7be76b06d/gitopenlib-0.2.7.28.tar.gz
+[2023-07-16 18:02:32] INFO root fetch - processPackages [talkytimes-package]: Downloading https://files.pythonhosted.org/packages/37/2e/cfe298a0cae0053387d3672c2b327f8ef7f4eb0242addf1b570c8bbb099f/talkytimes_package-0.3.0.tar.gz
+[2023-07-16 18:02:32] INFO root fetch - processPackages [talkytimes-package]: executing diffoscope
+[2023-07-16 18:02:32] INFO root fetch - processPackages [talkytimes-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/talkytimes_package-0.2.9.tar.gz tmp/talkytimes_package-0.3.0.tar.gz --markdown 20230716/t/talkytimes-package/0.2.9-0.3.0/diff.md --exclude *.pyd
+[2023-07-16 18:02:32] INFO root fetch - processPackages [langchain-model]: Downloading https://files.pythonhosted.org/packages/4e/25/6594c4953c3dce7154f84942618aa1cbbda6e0c9eed86bcf76bf56f0b54c/langchain_model-0.0.5.tar.gz
+[2023-07-16 18:02:32] INFO root fetch - processPackages [nndescent]: Downloading https://files.pythonhosted.org/packages/26/24/cccc96ed7911fa438f9ad6682484f76231089707a01455cfd9516f6f8c3e/nndescent-1.0.4.tar.gz
+[2023-07-16 18:02:32] INFO root fetch - processPackages [langchain-model]: executing diffoscope
+[2023-07-16 18:02:32] INFO root fetch - processPackages [langchain-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain_model-0.0.4.tar.gz tmp/langchain_model-0.0.5.tar.gz --markdown 20230716/l/langchain-model/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-16 18:02:32] INFO root fetch - processPackages [gitopenlib]: Downloading https://files.pythonhosted.org/packages/95/54/4a4292733061b582887b760f5ab036ac4b7f126b55956419de3015c0a1fa/gitopenlib-0.2.8.28.tar.gz
+[2023-07-16 18:02:32] INFO root fetch - processPackages [nndescent]: executing diffoscope
+[2023-07-16 18:02:32] INFO root fetch - processPackages [nndescent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nndescent-1.0.3.tar.gz tmp/nndescent-1.0.4.tar.gz --markdown 20230716/n/nndescent/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-16 18:02:33] INFO root fetch - processPackages [gitopenlib]: executing diffoscope
+[2023-07-16 18:02:33] INFO root fetch - processPackages [gitopenlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitopenlib-0.2.7.28.tar.gz tmp/gitopenlib-0.2.8.28.tar.gz --markdown 20230716/g/gitopenlib/0.2.7.28-0.2.8.28/diff.md --exclude *.pyd
+[2023-07-16 18:02:33] INFO root fetch - processPackages [talkytimes-package]: Remove: archive file [/home/abi/fetcher/tmp/talkytimes_package-0.2.9.tar.gz]
+[2023-07-16 18:02:33] INFO root fetch - processPackages [talkytimes-package]: Remove: archive file [/home/abi/fetcher/tmp/talkytimes_package-0.3.0.tar.gz]
+[2023-07-16 18:02:33] INFO root fetch - main [MainThread]: End processing [talkytimes-package]: success
+[2023-07-16 18:02:33] INFO root fetch - processPackages [langchain-model]: Remove: archive file [/home/abi/fetcher/tmp/langchain_model-0.0.4.tar.gz]
+[2023-07-16 18:02:33] INFO root fetch - processPackages [langchain-model]: Remove: archive file [/home/abi/fetcher/tmp/langchain_model-0.0.5.tar.gz]
+[2023-07-16 18:02:33] INFO root fetch - main [MainThread]: End processing [langchain-model]: success
+[2023-07-16 18:02:33] INFO root fetch - processPackages [nndescent]: Remove: archive file [/home/abi/fetcher/tmp/nndescent-1.0.3.tar.gz]
+[2023-07-16 18:02:33] INFO root fetch - processPackages [nndescent]: Remove: archive file [/home/abi/fetcher/tmp/nndescent-1.0.4.tar.gz]
+[2023-07-16 18:02:33] INFO root fetch - main [MainThread]: End processing [nndescent]: success
+[2023-07-16 18:02:33] INFO root fetch - processPackages [gitopenlib]: Remove: archive file [/home/abi/fetcher/tmp/gitopenlib-0.2.7.28.tar.gz]
+[2023-07-16 18:02:33] INFO root fetch - processPackages [gitopenlib]: Remove: archive file [/home/abi/fetcher/tmp/gitopenlib-0.2.8.28.tar.gz]
+[2023-07-16 18:02:33] INFO root fetch - main [MainThread]: End processing [gitopenlib]: success
+[2023-07-16 18:02:33] INFO root fetch - main [MainThread]: Store serial: [18907975]
