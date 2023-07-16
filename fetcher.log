@@ -8668,3 +8668,57 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-16 14:52:34] INFO root fetch - processPackages [model-diagnostics]: Remove: archive file [/home/abi/fetcher/tmp/model_diagnostics-1.0.0rc0.tar.gz]
 [2023-07-16 14:52:34] INFO root fetch - main [MainThread]: End processing [model-diagnostics]: success
 [2023-07-16 14:52:34] INFO root fetch - main [MainThread]: Store serial: [18906975]
+[2023-07-16 14:57:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18906975]
+[2023-07-16 14:57:43] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-16 14:57:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: quarter-lib
+[2023-07-16 14:57:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tablestring
+[2023-07-16 14:57:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: climatePy
+[2023-07-16 14:57:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tmailor
+[2023-07-16 14:57:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: volstreet
+[2023-07-16 14:57:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ConversationAgent
+[2023-07-16 14:57:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: postal-coder-jp
+[2023-07-16 14:57:43] INFO root fetch - processPackages [volstreet]: New version: [1.0.0] Old Version: [0.9.9]
+[2023-07-16 14:57:43] INFO root fetch - processPackages [ConversationAgent]: New version: [0.6.0] Old Version: [0.5.9]
+[2023-07-16 14:57:43] INFO root fetch - processPackages [quarter-lib]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-16 14:57:43] WARNING root fetch - processPackages [tmailor]: Skipping, unable to determine old version
+[2023-07-16 14:57:43] INFO root fetch - main [MainThread]: End processing [tmailor] error
+[2023-07-16 14:57:43] WARNING root fetch - processPackages [tablestring]: Skipping, unable to determine old version
+[2023-07-16 14:57:43] INFO root fetch - main [MainThread]: End processing [tablestring] error
+[2023-07-16 14:57:44] INFO root fetch - processPackages [postal-coder-jp]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-16 14:57:44] INFO root fetch - processPackages [climatePy]: New version: [0.4.32] Old Version: [0.4.31]
+[2023-07-16 14:57:44] INFO root fetch - processPackages [climatePy]: Downloading https://files.pythonhosted.org/packages/fa/a5/9407b5465420587f62e3984fb5a0e22ea5d53debe8dbd7619700786dc54e/climatePy-0.4.31.tar.gz
+[2023-07-16 14:57:44] INFO root fetch - processPackages [quarter-lib]: Downloading https://files.pythonhosted.org/packages/9b/2c/e3bb99ac668b35c7fa2b66ee8d36052b84861b367a38bd7089b64806de1f/quarter_lib-0.0.8.tar.gz
+[2023-07-16 14:57:44] INFO root fetch - processPackages [postal-coder-jp]: Downloading https://files.pythonhosted.org/packages/e6/66/8ed6553da383271b6d34123187b0b82f63eaa452e23d371ec46bf38bc793/postal_coder_jp-0.1.3.tar.gz
+[2023-07-16 14:57:44] INFO root fetch - processPackages [ConversationAgent]: Downloading https://files.pythonhosted.org/packages/f1/00/fc556edc232f496715059af7c1b62bd3ac7f568563bae1818e0e5621c0af/ConversationAgent-0.5.9.tar.gz
+[2023-07-16 14:57:44] INFO root fetch - processPackages [volstreet]: Downloading https://files.pythonhosted.org/packages/a5/69/6d1420893bf88a95ed704efafd8a06fb46a548122583cb93e4d6a4f085a0/volstreet-0.9.9.tar.gz
+[2023-07-16 14:57:44] INFO root fetch - processPackages [quarter-lib]: Downloading https://files.pythonhosted.org/packages/de/35/0aa9b114fe985dd877df8c9134b9ee9dff07682aa29d20ca67048428916c/quarter_lib-0.0.9.tar.gz
+[2023-07-16 14:57:44] INFO root fetch - processPackages [postal-coder-jp]: Downloading https://files.pythonhosted.org/packages/44/94/a85a4d352fe2358776bd6330b45575cc29440b68f5ad708fa30a13d94b76/postal_coder_jp-0.1.4.tar.gz
+[2023-07-16 14:57:44] INFO root fetch - processPackages [climatePy]: Downloading https://files.pythonhosted.org/packages/53/51/f1a4c1f338ccdddbd3b825be87e77495c1f78e45e4f4823c272667e786d9/climatePy-0.4.32.tar.gz
+[2023-07-16 14:57:44] INFO root fetch - processPackages [volstreet]: Downloading https://files.pythonhosted.org/packages/ab/48/5237a5e46997126e0cd8c54c0b3031aa08e31d3fcec89b2414b18315ef45/volstreet-1.0.0.tar.gz
+[2023-07-16 14:57:44] INFO root fetch - processPackages [quarter-lib]: executing diffoscope
+[2023-07-16 14:57:44] INFO root fetch - processPackages [quarter-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quarter_lib-0.0.8.tar.gz tmp/quarter_lib-0.0.9.tar.gz --markdown 20230716/q/quarter-lib/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-16 14:57:44] INFO root fetch - processPackages [climatePy]: executing diffoscope
+[2023-07-16 14:57:44] INFO root fetch - processPackages [climatePy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/climatePy-0.4.31.tar.gz tmp/climatePy-0.4.32.tar.gz --markdown 20230716/c/climatePy/0.4.31-0.4.32/diff.md --exclude *.pyd
+[2023-07-16 14:57:44] INFO root fetch - processPackages [postal-coder-jp]: executing diffoscope
+[2023-07-16 14:57:44] INFO root fetch - processPackages [postal-coder-jp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/postal_coder_jp-0.1.3.tar.gz tmp/postal_coder_jp-0.1.4.tar.gz --markdown 20230716/p/postal-coder-jp/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-16 14:57:44] INFO root fetch - processPackages [volstreet]: executing diffoscope
+[2023-07-16 14:57:44] INFO root fetch - processPackages [volstreet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volstreet-0.9.9.tar.gz tmp/volstreet-1.0.0.tar.gz --markdown 20230716/v/volstreet/0.9.9-1.0.0/diff.md --exclude *.pyd
+[2023-07-16 14:57:45] INFO root fetch - processPackages [ConversationAgent]: Downloading https://files.pythonhosted.org/packages/f8/d6/eca5e61aafc97c33c0f3d7f8d907bab247a15b50c46c349a9843e3239dc9/ConversationAgent-0.6.0.tar.gz
+[2023-07-16 14:57:45] INFO root fetch - processPackages [ConversationAgent]: executing diffoscope
+[2023-07-16 14:57:45] INFO root fetch - processPackages [ConversationAgent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ConversationAgent-0.5.9.tar.gz tmp/ConversationAgent-0.6.0.tar.gz --markdown 20230716/C/ConversationAgent/0.5.9-0.6.0/diff.md --exclude *.pyd
+[2023-07-16 14:57:45] INFO root fetch - processPackages [quarter-lib]: Remove: archive file [/home/abi/fetcher/tmp/quarter_lib-0.0.8.tar.gz]
+[2023-07-16 14:57:45] INFO root fetch - processPackages [postal-coder-jp]: Remove: archive file [/home/abi/fetcher/tmp/postal_coder_jp-0.1.3.tar.gz]
+[2023-07-16 14:57:45] INFO root fetch - processPackages [quarter-lib]: Remove: archive file [/home/abi/fetcher/tmp/quarter_lib-0.0.9.tar.gz]
+[2023-07-16 14:57:45] INFO root fetch - processPackages [postal-coder-jp]: Remove: archive file [/home/abi/fetcher/tmp/postal_coder_jp-0.1.4.tar.gz]
+[2023-07-16 14:57:45] INFO root fetch - main [MainThread]: End processing [quarter-lib]: success
+[2023-07-16 14:57:45] INFO root fetch - main [MainThread]: End processing [postal-coder-jp]: success
+[2023-07-16 14:57:45] INFO root fetch - processPackages [volstreet]: Remove: archive file [/home/abi/fetcher/tmp/volstreet-0.9.9.tar.gz]
+[2023-07-16 14:57:45] INFO root fetch - processPackages [volstreet]: Remove: archive file [/home/abi/fetcher/tmp/volstreet-1.0.0.tar.gz]
+[2023-07-16 14:57:45] INFO root fetch - main [MainThread]: End processing [volstreet]: success
+[2023-07-16 14:57:47] INFO root fetch - processPackages [ConversationAgent]: Remove: archive file [/home/abi/fetcher/tmp/ConversationAgent-0.5.9.tar.gz]
+[2023-07-16 14:57:47] INFO root fetch - processPackages [ConversationAgent]: Remove: archive file [/home/abi/fetcher/tmp/ConversationAgent-0.6.0.tar.gz]
+[2023-07-16 14:57:47] INFO root fetch - main [MainThread]: End processing [ConversationAgent]: success
+[2023-07-16 14:57:47] INFO root fetch - processPackages [climatePy]: Remove: archive file [/home/abi/fetcher/tmp/climatePy-0.4.31.tar.gz]
+[2023-07-16 14:57:47] INFO root fetch - processPackages [climatePy]: Remove: archive file [/home/abi/fetcher/tmp/climatePy-0.4.32.tar.gz]
+[2023-07-16 14:57:47] INFO root fetch - main [MainThread]: End processing [climatePy]: success
+[2023-07-16 14:57:47] INFO root fetch - main [MainThread]: Store serial: [18907002]
