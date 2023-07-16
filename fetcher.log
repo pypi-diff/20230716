@@ -7597,3 +7597,92 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-16 13:24:05] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip]
 [2023-07-16 13:24:05] INFO root fetch - main [MainThread]: End processing [tb-nightly]: success
 [2023-07-16 13:24:05] INFO root fetch - main [MainThread]: Store serial: [18906448]
+[2023-07-16 13:29:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18906448]
+[2023-07-16 13:29:13] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-16 13:29:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: torchrl-nightly
+[2023-07-16 13:29:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: frontengine
+[2023-07-16 13:29:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: for-testing
+[2023-07-16 13:29:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rosa-python-client
+[2023-07-16 13:29:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: torchserve-nightly
+[2023-07-16 13:29:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: torch-model-archiver-nightly
+[2023-07-16 13:29:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: torch-workflow-archiver-nightly
+[2023-07-16 13:29:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: django-expanded-test-cases
+[2023-07-16 13:29:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: vyxal
+[2023-07-16 13:29:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: PyNINA
+[2023-07-16 13:29:14] INFO root fetch - processPackages [torch-model-archiver-nightly]: New version: [2023.7.9] Old Version: [2023.7.8]
+[2023-07-16 13:29:14] INFO root fetch - processPackages [frontengine]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-16 13:29:14] INFO root fetch - processPackages [django-expanded-test-cases]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-07-16 13:29:14] INFO root fetch - processPackages [rosa-python-client]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-16 13:29:14] INFO root fetch - processPackages [for-testing]: New version: [49.0.0b1] Old Version: [49.0.0b0]
+[2023-07-16 13:29:14] INFO root fetch - processPackages [vyxal]: New version: [2.9.1] Old Version: [2.9.0]
+[2023-07-16 13:29:14] INFO root fetch - processPackages [torchserve-nightly]: New version: [2023.7.9] Old Version: [2023.7.8]
+[2023-07-16 13:29:14] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: New version: [2023.7.9] Old Version: [2023.7.8]
+[2023-07-16 13:29:14] INFO root fetch - processPackages [torch-model-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/fc/e9/cb5f596703c31d7f2e9bf2501c71de3a97dd6f54385926ea9d621de36d48/torch_model_archiver_nightly-2023.7.8-py3-none-any.whl
+[2023-07-16 13:29:14] INFO root fetch - processPackages [PyNINA]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-16 13:29:14] INFO root fetch - processPackages [for-testing]: Downloading https://files.pythonhosted.org/packages/90/3e/869205b4d8a90984906a51938157bf2825898b6e32f62fba06a24df9bf0f/for-testing-49.0.0b0.tar.gz
+[2023-07-16 13:29:14] INFO root fetch - processPackages [torchserve-nightly]: Downloading https://files.pythonhosted.org/packages/d6/b2/b77948f318b41f4c30bce37021e5eaab04bf7c8abae416af053b02be3370/torchserve_nightly-2023.7.8-py3-none-any.whl
+[2023-07-16 13:29:14] INFO root fetch - processPackages [torchrl-nightly]: New version: [2023.7.9] Old Version: [2023.7.8]
+[2023-07-16 13:29:14] INFO root fetch - processPackages [frontengine]: Downloading https://files.pythonhosted.org/packages/62/88/6d99d7b463365da48db6f37c9bde41e7f7f20eeb1a13653a273586e81d3a/frontengine-0.0.8.tar.gz
+[2023-07-16 13:29:14] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/44/8a/225f6757d5df77a706853e7f70981e785e26693e9c5529b1725322da94ee/torch_workflow_archiver_nightly-2023.7.8-py3-none-any.whl
+[2023-07-16 13:29:14] INFO root fetch - processPackages [rosa-python-client]: Downloading https://files.pythonhosted.org/packages/9d/3d/13a352dc8b1b3b85a795352b1cee6cd40ca9d5cb9e015f6174830f9ffb0e/rosa_python_client-1.0.8.tar.gz
+[2023-07-16 13:29:14] INFO root fetch - processPackages [django-expanded-test-cases]: Downloading https://files.pythonhosted.org/packages/df/9b/8b63b6e04f6fd0f65e94e3714ef42e3b4da9908305df051a88d17345ab6f/django-expanded-test-cases-0.4.0.tar.gz
+[2023-07-16 13:29:14] WARNING root fetch - processPackages [torchserve-nightly]: Skipping package: exceeds size limit 23750079>=10485760
+[2023-07-16 13:29:14] INFO root fetch - main [MainThread]: End processing [torchserve-nightly] error
+[2023-07-16 13:29:14] INFO root fetch - processPackages [vyxal]: Downloading https://files.pythonhosted.org/packages/df/34/a9313887f0e45965697911af82da491ce6ab3d9b9692419bc9d28e55edae/vyxal-2.9.0.tar.gz
+[2023-07-16 13:29:14] INFO root fetch - processPackages [torch-model-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/fa/aa/2acd3c1df69eef6cb2f42f54b0fd7b1c220c14c65ccebdf7f555bda0304d/torch_model_archiver_nightly-2023.7.9-py3-none-any.whl
+[2023-07-16 13:29:14] INFO root fetch - processPackages [PyNINA]: Downloading https://files.pythonhosted.org/packages/24/d7/c670692e49818a3f6a13b724ae2058117d92497c1aa5de67878ff12c40fc/PyNINA-0.3.0.tar.gz
+[2023-07-16 13:29:14] INFO root fetch - processPackages [torch-model-archiver-nightly]: executing diffoscope
+[2023-07-16 13:29:14] INFO root fetch - processPackages [torch-model-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_model_archiver_nightly-2023.7.8-py3-none-any.whl.zip tmp/torch_model_archiver_nightly-2023.7.9-py3-none-any.whl.zip --markdown 20230716/t/torch-model-archiver-nightly/2023.7.8-2023.7.9/diff.md --exclude *.pyd
+[2023-07-16 13:29:15] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/fe/e1/e410f517fa560296c172a15440f705636cb42246e81398b27edb5a7c072f/torch_workflow_archiver_nightly-2023.7.9-py3-none-any.whl
+[2023-07-16 13:29:15] INFO root fetch - processPackages [torchrl-nightly]: Downloading https://files.pythonhosted.org/packages/38/33/59a88ceafbd8e349b7f261de4859c91912b883bd14249422d344f09ba9ed/torchrl_nightly-2023.7.8-cp39-cp39-win_amd64.whl
+[2023-07-16 13:29:15] INFO root fetch - processPackages [for-testing]: Downloading https://files.pythonhosted.org/packages/28/f7/5fc85057052269f513c0e73dc1714cd9600bb5b69064685d2bd22778ea32/for-testing-49.0.0b1.tar.gz
+[2023-07-16 13:29:15] INFO root fetch - processPackages [rosa-python-client]: Downloading https://files.pythonhosted.org/packages/57/71/77aa94783e126449ad00cda27a853d3161809a6117e0e34f7ab67ade9050/rosa_python_client-1.0.9.tar.gz
+[2023-07-16 13:29:15] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: executing diffoscope
+[2023-07-16 13:29:15] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_workflow_archiver_nightly-2023.7.8-py3-none-any.whl.zip tmp/torch_workflow_archiver_nightly-2023.7.9-py3-none-any.whl.zip --markdown 20230716/t/torch-workflow-archiver-nightly/2023.7.8-2023.7.9/diff.md --exclude *.pyd
+[2023-07-16 13:29:15] INFO root fetch - processPackages [PyNINA]: Downloading https://files.pythonhosted.org/packages/cc/b2/d057807a6ed393a40d47a98ae34111ec604bfed4b87122cc32e672189ac3/PyNINA-0.3.1.tar.gz
+[2023-07-16 13:29:15] INFO root fetch - processPackages [frontengine]: Downloading https://files.pythonhosted.org/packages/a5/8e/4bb92b2db27649b96b46469f263e2fdd091c8283ff06a24534624c34be9d/frontengine-0.0.9.tar.gz
+[2023-07-16 13:29:15] INFO root fetch - processPackages [rosa-python-client]: executing diffoscope
+[2023-07-16 13:29:15] INFO root fetch - processPackages [rosa-python-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rosa_python_client-1.0.8.tar.gz tmp/rosa_python_client-1.0.9.tar.gz --markdown 20230716/r/rosa-python-client/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-16 13:29:15] INFO root fetch - processPackages [django-expanded-test-cases]: Downloading https://files.pythonhosted.org/packages/87/59/49863d02fc61c5070f41608c684f4a4ca7ebddfb46f2a4768a2999935ab1/django-expanded-test-cases-0.5.0.tar.gz
+[2023-07-16 13:29:15] INFO root fetch - processPackages [for-testing]: executing diffoscope
+[2023-07-16 13:29:15] INFO root fetch - processPackages [for-testing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/for-testing-49.0.0b0.tar.gz tmp/for-testing-49.0.0b1.tar.gz --markdown 20230716/f/for-testing/49.0.0b0-49.0.0b1/diff.md --exclude *.pyd
+[2023-07-16 13:29:15] INFO root fetch - processPackages [vyxal]: Downloading https://files.pythonhosted.org/packages/50/63/1746c2cccb187042ae5cc09caa52fd1fb83b4e37b2533d5d7dbcf041841a/vyxal-2.9.1.tar.gz
+[2023-07-16 13:29:15] INFO root fetch - processPackages [frontengine]: executing diffoscope
+[2023-07-16 13:29:15] INFO root fetch - processPackages [frontengine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frontengine-0.0.8.tar.gz tmp/frontengine-0.0.9.tar.gz --markdown 20230716/f/frontengine/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-16 13:29:15] INFO root fetch - processPackages [PyNINA]: executing diffoscope
+[2023-07-16 13:29:15] INFO root fetch - processPackages [PyNINA]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyNINA-0.3.0.tar.gz tmp/PyNINA-0.3.1.tar.gz --markdown 20230716/P/PyNINA/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-16 13:29:15] INFO root fetch - processPackages [torchrl-nightly]: Downloading https://files.pythonhosted.org/packages/22/59/298ac6427c9497e554f2b3ba5d253603250fe69672e94a74affda6a5613c/torchrl_nightly-2023.7.9-cp39-cp39-win_amd64.whl
+[2023-07-16 13:29:15] INFO root fetch - processPackages [vyxal]: executing diffoscope
+[2023-07-16 13:29:15] INFO root fetch - processPackages [vyxal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vyxal-2.9.0.tar.gz tmp/vyxal-2.9.1.tar.gz --markdown 20230716/v/vyxal/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2023-07-16 13:29:15] INFO root fetch - processPackages [django-expanded-test-cases]: executing diffoscope
+[2023-07-16 13:29:15] INFO root fetch - processPackages [django-expanded-test-cases]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-expanded-test-cases-0.4.0.tar.gz tmp/django-expanded-test-cases-0.5.0.tar.gz --markdown 20230716/d/django-expanded-test-cases/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-07-16 13:29:15] INFO root fetch - processPackages [torchrl-nightly]: executing diffoscope
+[2023-07-16 13:29:15] INFO root fetch - processPackages [torchrl-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchrl_nightly-2023.7.8-cp39-cp39-win_amd64.whl.zip tmp/torchrl_nightly-2023.7.9-cp39-cp39-win_amd64.whl.zip --markdown 20230716/t/torchrl-nightly/2023.7.8-2023.7.9/diff.md --exclude *.pyd
+[2023-07-16 13:29:16] INFO root fetch - processPackages [torch-model-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_archiver_nightly-2023.7.8-py3-none-any.whl.zip]
+[2023-07-16 13:29:16] INFO root fetch - processPackages [torch-model-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_archiver_nightly-2023.7.9-py3-none-any.whl.zip]
+[2023-07-16 13:29:16] INFO root fetch - main [MainThread]: End processing [torch-model-archiver-nightly]: success
+[2023-07-16 13:29:16] INFO root fetch - processPackages [rosa-python-client]: Remove: archive file [/home/abi/fetcher/tmp/rosa_python_client-1.0.8.tar.gz]
+[2023-07-16 13:29:16] INFO root fetch - processPackages [rosa-python-client]: Remove: archive file [/home/abi/fetcher/tmp/rosa_python_client-1.0.9.tar.gz]
+[2023-07-16 13:29:16] INFO root fetch - main [MainThread]: End processing [rosa-python-client]: success
+[2023-07-16 13:29:16] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_workflow_archiver_nightly-2023.7.8-py3-none-any.whl.zip]
+[2023-07-16 13:29:16] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_workflow_archiver_nightly-2023.7.9-py3-none-any.whl.zip]
+[2023-07-16 13:29:16] INFO root fetch - main [MainThread]: End processing [torch-workflow-archiver-nightly]: success
+[2023-07-16 13:29:16] INFO root fetch - processPackages [for-testing]: Remove: archive file [/home/abi/fetcher/tmp/for-testing-49.0.0b0.tar.gz]
+[2023-07-16 13:29:16] INFO root fetch - processPackages [for-testing]: Remove: archive file [/home/abi/fetcher/tmp/for-testing-49.0.0b1.tar.gz]
+[2023-07-16 13:29:16] INFO root fetch - main [MainThread]: End processing [for-testing]: success
+[2023-07-16 13:29:16] INFO root fetch - processPackages [frontengine]: Remove: archive file [/home/abi/fetcher/tmp/frontengine-0.0.8.tar.gz]
+[2023-07-16 13:29:16] INFO root fetch - processPackages [frontengine]: Remove: archive file [/home/abi/fetcher/tmp/frontengine-0.0.9.tar.gz]
+[2023-07-16 13:29:16] INFO root fetch - main [MainThread]: End processing [frontengine]: success
+[2023-07-16 13:29:16] INFO root fetch - processPackages [PyNINA]: Remove: archive file [/home/abi/fetcher/tmp/PyNINA-0.3.0.tar.gz]
+[2023-07-16 13:29:16] INFO root fetch - processPackages [PyNINA]: Remove: archive file [/home/abi/fetcher/tmp/PyNINA-0.3.1.tar.gz]
+[2023-07-16 13:29:16] INFO root fetch - main [MainThread]: End processing [PyNINA]: success
+[2023-07-16 13:29:17] INFO root fetch - processPackages [vyxal]: Remove: archive file [/home/abi/fetcher/tmp/vyxal-2.9.0.tar.gz]
+[2023-07-16 13:29:17] INFO root fetch - processPackages [vyxal]: Remove: archive file [/home/abi/fetcher/tmp/vyxal-2.9.1.tar.gz]
+[2023-07-16 13:29:17] INFO root fetch - main [MainThread]: End processing [vyxal]: success
+[2023-07-16 13:29:17] INFO root fetch - processPackages [django-expanded-test-cases]: Remove: archive file [/home/abi/fetcher/tmp/django-expanded-test-cases-0.4.0.tar.gz]
+[2023-07-16 13:29:17] INFO root fetch - processPackages [django-expanded-test-cases]: Remove: archive file [/home/abi/fetcher/tmp/django-expanded-test-cases-0.5.0.tar.gz]
+[2023-07-16 13:29:17] INFO root fetch - main [MainThread]: End processing [django-expanded-test-cases]: success
+[2023-07-16 13:29:17] INFO root fetch - processPackages [torchrl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrl_nightly-2023.7.8-cp39-cp39-win_amd64.whl.zip]
+[2023-07-16 13:29:17] INFO root fetch - processPackages [torchrl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrl_nightly-2023.7.9-cp39-cp39-win_amd64.whl.zip]
+[2023-07-16 13:29:17] INFO root fetch - main [MainThread]: End processing [torchrl-nightly]: success
+[2023-07-16 13:29:17] INFO root fetch - main [MainThread]: Store serial: [18906479]
