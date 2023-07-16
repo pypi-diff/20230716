@@ -9955,3 +9955,45 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-16 16:23:25] INFO root fetch - main [MainThread]: End processing [crypto-screening]: success
 [2023-07-16 16:23:25] INFO root fetch - main [MainThread]: End processing [dsa-for-all]: success
 [2023-07-16 16:23:25] INFO root fetch - main [MainThread]: Store serial: [18907473]
+[2023-07-16 16:28:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18907473]
+[2023-07-16 16:28:34] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-16 16:28:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spanishconjugator
+[2023-07-16 16:28:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: noun-decomposition
+[2023-07-16 16:28:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: foreverbull
+[2023-07-16 16:28:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: g2p_zh_en
+[2023-07-16 16:28:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: crypto-screening
+[2023-07-16 16:28:35] INFO root fetch - processPackages [noun-decomposition]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-16 16:28:35] INFO root fetch - processPackages [foreverbull]: New version: [0.0.0.99.20230610094209] Old Version: [0.0.0.92]
+[2023-07-16 16:28:35] INFO root fetch - processPackages [crypto-screening]: New version: [5.3.0] Old Version: [5.2.3]
+[2023-07-16 16:28:35] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-07-16 16:28:35] WARNING root fetch - processPackages [g2p_zh_en]: Skipping, unable to determine old version
+[2023-07-16 16:28:35] INFO root fetch - main [MainThread]: End processing [g2p_zh_en] error
+[2023-07-16 16:28:35] INFO root fetch - processPackages [noun-decomposition]: Downloading https://files.pythonhosted.org/packages/53/7c/3a73031fb1878845a9ddca497561da856ec9c06b21e66c1b13bca5e79a60/noun-decomposition-0.0.7.tar.gz
+[2023-07-16 16:28:35] INFO root fetch - processPackages [crypto-screening]: Downloading https://files.pythonhosted.org/packages/cb/a6/2c1f3eb1671d76022162296be86fa82453978b36be79c4ba92d616470877/crypto-screening-5.2.3.tar.gz
+[2023-07-16 16:28:35] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-07-16 16:28:35] INFO root fetch - processPackages [foreverbull]: Downloading https://files.pythonhosted.org/packages/83/5e/402b3d8e197a33b59ae5994459465f8027f487cad42df3747b300fe53dc4/foreverbull-0.0.0.92.tar.gz
+[2023-07-16 16:28:35] INFO root fetch - processPackages [crypto-screening]: Downloading https://files.pythonhosted.org/packages/db/57/dbf44e86fd2e15d67e67470cad2603b9a16f54a2a6dc3308e3fc67a3d34c/crypto-screening-5.3.0.tar.gz
+[2023-07-16 16:28:35] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-07-16 16:28:35] INFO root fetch - processPackages [noun-decomposition]: Downloading https://files.pythonhosted.org/packages/8a/72/7a586aa29777590b5776c660e73e5ac6112c5318a42949ebe851375bd0c5/noun-decomposition-0.0.8.tar.gz
+[2023-07-16 16:28:35] INFO root fetch - processPackages [crypto-screening]: executing diffoscope
+[2023-07-16 16:28:35] INFO root fetch - processPackages [crypto-screening]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crypto-screening-5.2.3.tar.gz tmp/crypto-screening-5.3.0.tar.gz --markdown 20230716/c/crypto-screening/5.2.3-5.3.0/diff.md --exclude *.pyd
+[2023-07-16 16:28:35] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-07-16 16:28:35] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230716/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-07-16 16:28:35] INFO root fetch - processPackages [noun-decomposition]: executing diffoscope
+[2023-07-16 16:28:35] INFO root fetch - processPackages [noun-decomposition]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/noun-decomposition-0.0.7.tar.gz tmp/noun-decomposition-0.0.8.tar.gz --markdown 20230716/n/noun-decomposition/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-16 16:28:35] INFO root fetch - processPackages [foreverbull]: Downloading https://files.pythonhosted.org/packages/6e/c3/cf13499a255fd30c5d6ccd05686ba0af46cbde2f1cb23b7a4e121a7e23ee/foreverbull-0.0.0.99.20230610094209.tar.gz
+[2023-07-16 16:28:36] INFO root fetch - processPackages [foreverbull]: executing diffoscope
+[2023-07-16 16:28:36] INFO root fetch - processPackages [foreverbull]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foreverbull-0.0.0.92.tar.gz tmp/foreverbull-0.0.0.99.20230610094209.tar.gz --markdown 20230716/f/foreverbull/0.0.0.92-0.0.0.99.20230610094209/diff.md --exclude *.pyd
+[2023-07-16 16:28:36] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2023-07-16 16:28:36] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2023-07-16 16:28:36] INFO root fetch - processPackages [noun-decomposition]: Remove: archive file [/home/abi/fetcher/tmp/noun-decomposition-0.0.7.tar.gz]
+[2023-07-16 16:28:36] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-07-16 16:28:36] INFO root fetch - processPackages [noun-decomposition]: Remove: archive file [/home/abi/fetcher/tmp/noun-decomposition-0.0.8.tar.gz]
+[2023-07-16 16:28:36] INFO root fetch - main [MainThread]: End processing [noun-decomposition]: success
+[2023-07-16 16:28:36] INFO root fetch - processPackages [crypto-screening]: Remove: archive file [/home/abi/fetcher/tmp/crypto-screening-5.2.3.tar.gz]
+[2023-07-16 16:28:36] INFO root fetch - processPackages [crypto-screening]: Remove: archive file [/home/abi/fetcher/tmp/crypto-screening-5.3.0.tar.gz]
+[2023-07-16 16:28:36] INFO root fetch - main [MainThread]: End processing [crypto-screening]: success
+[2023-07-16 16:28:36] INFO root fetch - processPackages [foreverbull]: Remove: archive file [/home/abi/fetcher/tmp/foreverbull-0.0.0.92.tar.gz]
+[2023-07-16 16:28:36] INFO root fetch - processPackages [foreverbull]: Remove: archive file [/home/abi/fetcher/tmp/foreverbull-0.0.0.99.20230610094209.tar.gz]
+[2023-07-16 16:28:36] INFO root fetch - main [MainThread]: End processing [foreverbull]: success
+[2023-07-16 16:28:36] INFO root fetch - main [MainThread]: Store serial: [18907490]
