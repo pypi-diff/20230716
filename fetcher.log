@@ -2664,3 +2664,15 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-16 04:17:13] INFO root fetch - processPackages [nonebot-plugin-cp-broadcast]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_cp_broadcast-1.1.1.tar.gz]
 [2023-07-16 04:17:13] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-cp-broadcast]: success
 [2023-07-16 04:17:13] INFO root fetch - main [MainThread]: Store serial: [18904403]
+[2023-07-16 04:22:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18904403]
+[2023-07-16 04:22:21] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2023-07-16 04:22:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: circuitpython-uplot
+[2023-07-16 04:22:21] INFO root fetch - processPackages [circuitpython-uplot]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-07-16 04:22:21] INFO root fetch - processPackages [circuitpython-uplot]: Downloading https://files.pythonhosted.org/packages/1d/57/734bb4fe2a5f70070960b2cb8cd2200d924a82d4e0a6fa215e3e95a2122d/circuitpython-uplot-0.9.3.tar.gz
+[2023-07-16 04:22:22] INFO root fetch - processPackages [circuitpython-uplot]: Downloading https://files.pythonhosted.org/packages/d9/0f/137307a70ee54fe6b12bf2685f8d7c1a95d4488a5bed4c0ae82f1c3bda38/circuitpython-uplot-0.9.4.tar.gz
+[2023-07-16 04:22:22] INFO root fetch - processPackages [circuitpython-uplot]: executing diffoscope
+[2023-07-16 04:22:22] INFO root fetch - processPackages [circuitpython-uplot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/circuitpython-uplot-0.9.3.tar.gz tmp/circuitpython-uplot-0.9.4.tar.gz --markdown 20230716/c/circuitpython-uplot/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-07-16 04:22:23] INFO root fetch - processPackages [circuitpython-uplot]: Remove: archive file [/home/abi/fetcher/tmp/circuitpython-uplot-0.9.3.tar.gz]
+[2023-07-16 04:22:23] INFO root fetch - processPackages [circuitpython-uplot]: Remove: archive file [/home/abi/fetcher/tmp/circuitpython-uplot-0.9.4.tar.gz]
+[2023-07-16 04:22:23] INFO root fetch - main [MainThread]: End processing [circuitpython-uplot]: success
+[2023-07-16 04:22:23] INFO root fetch - main [MainThread]: Store serial: [18904408]
