@@ -11820,3 +11820,42 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-16 19:00:27] INFO root fetch - processPackages [pymovie]: Remove: archive file [/home/abi/fetcher/tmp/pymovie-3.8.1.tar.gz]
 [2023-07-16 19:00:27] INFO root fetch - main [MainThread]: End processing [pymovie]: success
 [2023-07-16 19:00:27] INFO root fetch - main [MainThread]: Store serial: [18908212]
+[2023-07-16 19:05:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18908212]
+[2023-07-16 19:05:36] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-16 19:05:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: brickblock
+[2023-07-16 19:05:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: talkytimes-package
+[2023-07-16 19:05:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gma
+[2023-07-16 19:05:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: DiscordAlertsTrader
+[2023-07-16 19:05:36] INFO root fetch - processPackages [DiscordAlertsTrader]: New version: [1.0.0] Old Version: [0.9.1]
+[2023-07-16 19:05:36] INFO root fetch - processPackages [brickblock]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-16 19:05:36] INFO root fetch - processPackages [gma]: New version: [2.0.0a3] Old Version: [2.0.0a2]
+[2023-07-16 19:05:36] INFO root fetch - processPackages [talkytimes-package]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-07-16 19:05:36] INFO root fetch - processPackages [brickblock]: Downloading https://files.pythonhosted.org/packages/19/57/98895d348ea420f37253e76a8024df3be422ad7766af4e8d66dbccef0d35/brickblock-0.1.1.tar.gz
+[2023-07-16 19:05:36] INFO root fetch - processPackages [talkytimes-package]: Downloading https://files.pythonhosted.org/packages/d7/f5/f2bba16c7d3e47d983c4e92c79b8b1fc7a46b37526903b746509569c4ca9/talkytimes_package-0.3.1.tar.gz
+[2023-07-16 19:05:36] INFO root fetch - processPackages [DiscordAlertsTrader]: Downloading https://files.pythonhosted.org/packages/81/16/3578fc9ab685ca9b26d8fb62a60f8022913a5abf8cfaf91c0991e606bfb6/DiscordAlertsTrader-0.9.1.tar.gz
+[2023-07-16 19:05:36] INFO root fetch - processPackages [gma]: Downloading https://files.pythonhosted.org/packages/88/04/2c219eb93b5e2997bbf8b1cd3a66cee48d7d36a79c6f59d3b25570ff5dfe/gma-2.0.0a2-cp39-cp39-win_amd64.whl
+[2023-07-16 19:05:37] INFO root fetch - processPackages [brickblock]: Downloading https://files.pythonhosted.org/packages/9b/63/6f82ae7fb6b73728803434f25e3f9292f1f758433138c2f8982b6781ec57/brickblock-0.1.2.tar.gz
+[2023-07-16 19:05:37] INFO root fetch - processPackages [DiscordAlertsTrader]: Downloading https://files.pythonhosted.org/packages/f7/fb/09e9882cbcc19cd8ca53ae09d091f22ab2bb75a29c7bb9bd145ca9d74028/DiscordAlertsTrader-1.0.0.tar.gz
+[2023-07-16 19:05:37] INFO root fetch - processPackages [talkytimes-package]: Downloading https://files.pythonhosted.org/packages/d2/28/8cf220fcd0cdb54b4d3d893bb7beafe7a444a52c51717bab68579e1ab21b/talkytimes_package-0.3.2.tar.gz
+[2023-07-16 19:05:37] INFO root fetch - processPackages [brickblock]: executing diffoscope
+[2023-07-16 19:05:37] INFO root fetch - processPackages [brickblock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brickblock-0.1.1.tar.gz tmp/brickblock-0.1.2.tar.gz --markdown 20230716/b/brickblock/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-16 19:05:37] INFO root fetch - processPackages [talkytimes-package]: executing diffoscope
+[2023-07-16 19:05:37] INFO root fetch - processPackages [talkytimes-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/talkytimes_package-0.3.1.tar.gz tmp/talkytimes_package-0.3.2.tar.gz --markdown 20230716/t/talkytimes-package/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-07-16 19:05:37] INFO root fetch - processPackages [DiscordAlertsTrader]: executing diffoscope
+[2023-07-16 19:05:37] INFO root fetch - processPackages [DiscordAlertsTrader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DiscordAlertsTrader-0.9.1.tar.gz tmp/DiscordAlertsTrader-1.0.0.tar.gz --markdown 20230716/D/DiscordAlertsTrader/0.9.1-1.0.0/diff.md --exclude *.pyd
+[2023-07-16 19:05:37] INFO root fetch - processPackages [gma]: Downloading https://files.pythonhosted.org/packages/aa/cd/ff7f097f337e7210483b3859741c0aa1e9be517728b0166cd0db3ef25a92/gma-2.0.0a3-cp39-cp39-win_amd64.whl
+[2023-07-16 19:05:38] INFO root fetch - processPackages [talkytimes-package]: Remove: archive file [/home/abi/fetcher/tmp/talkytimes_package-0.3.1.tar.gz]
+[2023-07-16 19:05:38] INFO root fetch - processPackages [talkytimes-package]: Remove: archive file [/home/abi/fetcher/tmp/talkytimes_package-0.3.2.tar.gz]
+[2023-07-16 19:05:38] INFO root fetch - main [MainThread]: End processing [talkytimes-package]: success
+[2023-07-16 19:05:38] INFO root fetch - processPackages [brickblock]: Remove: archive file [/home/abi/fetcher/tmp/brickblock-0.1.1.tar.gz]
+[2023-07-16 19:05:38] INFO root fetch - processPackages [brickblock]: Remove: archive file [/home/abi/fetcher/tmp/brickblock-0.1.2.tar.gz]
+[2023-07-16 19:05:38] INFO root fetch - main [MainThread]: End processing [brickblock]: success
+[2023-07-16 19:05:38] INFO root fetch - processPackages [DiscordAlertsTrader]: Remove: archive file [/home/abi/fetcher/tmp/DiscordAlertsTrader-0.9.1.tar.gz]
+[2023-07-16 19:05:38] INFO root fetch - processPackages [DiscordAlertsTrader]: Remove: archive file [/home/abi/fetcher/tmp/DiscordAlertsTrader-1.0.0.tar.gz]
+[2023-07-16 19:05:38] INFO root fetch - main [MainThread]: End processing [DiscordAlertsTrader]: success
+[2023-07-16 19:05:38] INFO root fetch - processPackages [gma]: executing diffoscope
+[2023-07-16 19:05:38] INFO root fetch - processPackages [gma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gma-2.0.0a2-cp39-cp39-win_amd64.whl.zip tmp/gma-2.0.0a3-cp39-cp39-win_amd64.whl.zip --markdown 20230716/g/gma/2.0.0a2-2.0.0a3/diff.md --exclude *.pyd
+[2023-07-16 19:05:39] INFO root fetch - processPackages [gma]: Remove: archive file [/home/abi/fetcher/tmp/gma-2.0.0a2-cp39-cp39-win_amd64.whl.zip]
+[2023-07-16 19:05:39] INFO root fetch - processPackages [gma]: Remove: archive file [/home/abi/fetcher/tmp/gma-2.0.0a3-cp39-cp39-win_amd64.whl.zip]
+[2023-07-16 19:05:39] INFO root fetch - main [MainThread]: End processing [gma]: success
+[2023-07-16 19:05:39] INFO root fetch - main [MainThread]: Store serial: [18908228]
