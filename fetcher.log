@@ -10566,3 +10566,96 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-16 17:15:21] INFO root fetch - processPackages [pyatmos]: Remove: archive file [/home/abi/fetcher/tmp/pyatmos-1.2.5-py3-none-any.whl.zip]
 [2023-07-16 17:15:21] INFO root fetch - main [MainThread]: End processing [pyatmos]: success
 [2023-07-16 17:15:21] INFO root fetch - main [MainThread]: Store serial: [18907727]
+[2023-07-16 17:20:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18907727]
+[2023-07-16 17:20:29] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-16 17:20:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kaiju-files
+[2023-07-16 17:20:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: llm-inference
+[2023-07-16 17:20:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: x-transformers
+[2023-07-16 17:20:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: deepl-translator-selenium
+[2023-07-16 17:20:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyqrack
+[2023-07-16 17:20:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: langchain-plantuml
+[2023-07-16 17:20:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aicodebot
+[2023-07-16 17:20:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: terminal-in-colors
+[2023-07-16 17:20:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: alphaclopsv1
+[2023-07-16 17:20:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: miauw-base-service
+[2023-07-16 17:20:29] INFO root fetch - processPackages [terminal-in-colors]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-16 17:20:29] INFO root fetch - processPackages [langchain-plantuml]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-16 17:20:29] INFO root fetch - processPackages [llm-inference]: New version: [0.0.6] Old Version: [0.0.5.dev0]
+[2023-07-16 17:20:29] WARNING root fetch - processPackages [alphaclopsv1]: Skipping, unable to determine old version
+[2023-07-16 17:20:29] INFO root fetch - processPackages [alphaclopsv1]: Start processing: impose-cli
+[2023-07-16 17:20:29] INFO root fetch - main [MainThread]: End processing [alphaclopsv1] error
+[2023-07-16 17:20:29] WARNING root fetch - processPackages [kaiju-files]: Skipping, unable to determine old version
+[2023-07-16 17:20:29] INFO root fetch - processPackages [kaiju-files]: Start processing: pytest-discord
+[2023-07-16 17:20:29] INFO root fetch - main [MainThread]: End processing [kaiju-files] error
+[2023-07-16 17:20:29] INFO root fetch - processPackages [miauw-base-service]: New version: [1.8.0] Old Version: [1.7.2]
+[2023-07-16 17:20:29] WARNING root fetch - processPackages [deepl-translator-selenium]: Skipping, unable to determine old version
+[2023-07-16 17:20:29] INFO root fetch - main [MainThread]: End processing [deepl-translator-selenium] error
+[2023-07-16 17:20:29] INFO root fetch - processPackages [aicodebot]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-07-16 17:20:29] INFO root fetch - processPackages [pyqrack]: New version: [1.9.6] Old Version: [1.9.5]
+[2023-07-16 17:20:29] INFO root fetch - processPackages [x-transformers]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-07-16 17:20:29] INFO root fetch - processPackages [pytest-discord]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-16 17:20:29] INFO root fetch - processPackages [impose-cli]: New version: [0.3.7] Old Version: [0.3.6]
+[2023-07-16 17:20:29] INFO root fetch - processPackages [miauw-base-service]: Downloading https://files.pythonhosted.org/packages/ea/eb/778bdac160f5f8f2b761e2685f8e123876029acc4ffddaa7ca49d9b9606a/miauw-base-service-1.7.2.tar.gz
+[2023-07-16 17:20:29] INFO root fetch - processPackages [pyqrack]: Downloading https://files.pythonhosted.org/packages/28/29/f16cb84b71504321dc06c36eb231f91bd576824fb0425d18edef846c9e14/pyqrack-1.9.5.tar.gz
+[2023-07-16 17:20:29] INFO root fetch - processPackages [langchain-plantuml]: Downloading https://files.pythonhosted.org/packages/bb/7e/e44fea29acd354d216af90b1f1c039dbd2b06fe505aa5a98eaaad73cb657/langchain_plantuml-0.0.1.tar.gz
+[2023-07-16 17:20:29] INFO root fetch - processPackages [impose-cli]: Downloading https://files.pythonhosted.org/packages/43/d7/757a7aa92f8c04c64e499dc770d818a7507a532ce42d8d6365405e35db33/impose-cli-0.3.6.tar.gz
+[2023-07-16 17:20:29] INFO root fetch - processPackages [aicodebot]: Downloading https://files.pythonhosted.org/packages/de/93/5893654a616bad8ecf7cff940e452492ff5cadede0c121a0b836015603f8/aicodebot-0.9.5.tar.gz
+[2023-07-16 17:20:30] INFO root fetch - processPackages [terminal-in-colors]: Downloading https://files.pythonhosted.org/packages/25/cb/c8a445c12ba7c5159a547268eacf47fb6a42ca6b8b8a841dd02fa26b906b/terminal_in_colors-0.1.0.tar.gz
+[2023-07-16 17:20:30] INFO root fetch - processPackages [llm-inference]: Downloading https://files.pythonhosted.org/packages/d6/3f/47454518415e406e67e3b4f6ade659ddbc0e36ddfe04d2e1f8c57e4fd848/llm_inference-0.0.5.dev0.tar.gz
+[2023-07-16 17:20:30] INFO root fetch - processPackages [pytest-discord]: Downloading https://files.pythonhosted.org/packages/49/89/a1d51effa4d1bf092e8a756c234c2ebc03c6a7f0ac720df184dfabcb49b8/pytest-discord-0.1.2.tar.gz
+[2023-07-16 17:20:30] INFO root fetch - processPackages [x-transformers]: Downloading https://files.pythonhosted.org/packages/4c/e4/1f4432d217a1facf7a79aa2e2a08ffdbcf411f13bef9bd9bd3307a99a1af/x-transformers-1.9.1.tar.gz
+[2023-07-16 17:20:30] INFO root fetch - processPackages [miauw-base-service]: Downloading https://files.pythonhosted.org/packages/c2/c6/4a511802217cfeccfe706d985e42fc998ef547eb723932caf47a4201fecc/miauw-base-service-1.8.0.tar.gz
+[2023-07-16 17:20:30] INFO root fetch - processPackages [pyqrack]: Downloading https://files.pythonhosted.org/packages/34/a1/c6968107745c3dcebdaf556a582d8f63f49943f43c90a7d33e04b0397f53/pyqrack-1.9.6.tar.gz
+[2023-07-16 17:20:30] INFO root fetch - processPackages [aicodebot]: Downloading https://files.pythonhosted.org/packages/f0/54/b7976dc18a7bd9ee80ceff88ce124d243c375fa58db5ebe25e50df423f49/aicodebot-0.9.6.tar.gz
+[2023-07-16 17:20:30] INFO root fetch - processPackages [impose-cli]: Downloading https://files.pythonhosted.org/packages/46/84/e0e3ca2e0220c2d1b796be82b8327d5db3be998249be9a3a6a2596c17afd/impose-cli-0.3.7.tar.gz
+[2023-07-16 17:20:30] INFO root fetch - processPackages [pytest-discord]: Downloading https://files.pythonhosted.org/packages/80/d9/47784475017c6c5c171979106bf5b8f901c3521957c7fba41f17c0dd445a/pytest-discord-0.1.3.tar.gz
+[2023-07-16 17:20:30] INFO root fetch - processPackages [langchain-plantuml]: Downloading https://files.pythonhosted.org/packages/b9/72/2dafdc151188840523dbb8740bc309c41e98059cd6a26ad7140891b1419f/langchain_plantuml-0.0.2.tar.gz
+[2023-07-16 17:20:30] INFO root fetch - processPackages [terminal-in-colors]: Downloading https://files.pythonhosted.org/packages/fe/60/c4b6bac9f245a0543d68ca8bac47530605a8fb484d8ef0255b42e0385220/terminal_in_colors-0.1.1.tar.gz
+[2023-07-16 17:20:30] INFO root fetch - processPackages [llm-inference]: Downloading https://files.pythonhosted.org/packages/54/17/56ce7b12de3af15ae7acf9358760ad9689e36392da2491888fa7299ad6b5/llm_inference-0.0.6.tar.gz
+[2023-07-16 17:20:30] INFO root fetch - processPackages [miauw-base-service]: executing diffoscope
+[2023-07-16 17:20:30] INFO root fetch - processPackages [miauw-base-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/miauw-base-service-1.7.2.tar.gz tmp/miauw-base-service-1.8.0.tar.gz --markdown 20230716/m/miauw-base-service/1.7.2-1.8.0/diff.md --exclude *.pyd
+[2023-07-16 17:20:30] INFO root fetch - processPackages [pyqrack]: executing diffoscope
+[2023-07-16 17:20:30] INFO root fetch - processPackages [pyqrack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyqrack-1.9.5.tar.gz tmp/pyqrack-1.9.6.tar.gz --markdown 20230716/p/pyqrack/1.9.5-1.9.6/diff.md --exclude *.pyd
+[2023-07-16 17:20:30] INFO root fetch - processPackages [x-transformers]: Downloading https://files.pythonhosted.org/packages/ce/c4/a338a8fcfd77c21d7b28960180987b186017522eb0ad53cfdce2ad6c59f5/x-transformers-1.9.2.tar.gz
+[2023-07-16 17:20:30] INFO root fetch - processPackages [pytest-discord]: executing diffoscope
+[2023-07-16 17:20:30] INFO root fetch - processPackages [pytest-discord]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-discord-0.1.2.tar.gz tmp/pytest-discord-0.1.3.tar.gz --markdown 20230716/p/pytest-discord/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-16 17:20:30] INFO root fetch - processPackages [aicodebot]: executing diffoscope
+[2023-07-16 17:20:30] INFO root fetch - processPackages [aicodebot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aicodebot-0.9.5.tar.gz tmp/aicodebot-0.9.6.tar.gz --markdown 20230716/a/aicodebot/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-07-16 17:20:30] INFO root fetch - processPackages [terminal-in-colors]: executing diffoscope
+[2023-07-16 17:20:30] INFO root fetch - processPackages [terminal-in-colors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/terminal_in_colors-0.1.0.tar.gz tmp/terminal_in_colors-0.1.1.tar.gz --markdown 20230716/t/terminal-in-colors/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-16 17:20:30] INFO root fetch - processPackages [impose-cli]: executing diffoscope
+[2023-07-16 17:20:30] INFO root fetch - processPackages [impose-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/impose-cli-0.3.6.tar.gz tmp/impose-cli-0.3.7.tar.gz --markdown 20230716/i/impose-cli/0.3.6-0.3.7/diff.md --exclude *.pyd
+[2023-07-16 17:20:30] INFO root fetch - processPackages [langchain-plantuml]: executing diffoscope
+[2023-07-16 17:20:30] INFO root fetch - processPackages [langchain-plantuml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain_plantuml-0.0.1.tar.gz tmp/langchain_plantuml-0.0.2.tar.gz --markdown 20230716/l/langchain-plantuml/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-16 17:20:30] INFO root fetch - processPackages [llm-inference]: executing diffoscope
+[2023-07-16 17:20:30] INFO root fetch - processPackages [llm-inference]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llm_inference-0.0.5.dev0.tar.gz tmp/llm_inference-0.0.6.tar.gz --markdown 20230716/l/llm-inference/0.0.5.dev0-0.0.6/diff.md --exclude *.pyd
+[2023-07-16 17:20:30] INFO root fetch - processPackages [x-transformers]: executing diffoscope
+[2023-07-16 17:20:30] INFO root fetch - processPackages [x-transformers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/x-transformers-1.9.1.tar.gz tmp/x-transformers-1.9.2.tar.gz --markdown 20230716/x/x-transformers/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-07-16 17:20:31] INFO root fetch - processPackages [miauw-base-service]: Remove: archive file [/home/abi/fetcher/tmp/miauw-base-service-1.7.2.tar.gz]
+[2023-07-16 17:20:31] INFO root fetch - processPackages [miauw-base-service]: Remove: archive file [/home/abi/fetcher/tmp/miauw-base-service-1.8.0.tar.gz]
+[2023-07-16 17:20:31] INFO root fetch - main [MainThread]: End processing [miauw-base-service]: success
+[2023-07-16 17:20:32] INFO root fetch - processPackages [aicodebot]: Remove: archive file [/home/abi/fetcher/tmp/aicodebot-0.9.5.tar.gz]
+[2023-07-16 17:20:32] INFO root fetch - processPackages [aicodebot]: Remove: archive file [/home/abi/fetcher/tmp/aicodebot-0.9.6.tar.gz]
+[2023-07-16 17:20:32] INFO root fetch - main [MainThread]: End processing [aicodebot]: success
+[2023-07-16 17:20:32] INFO root fetch - processPackages [impose-cli]: Remove: archive file [/home/abi/fetcher/tmp/impose-cli-0.3.6.tar.gz]
+[2023-07-16 17:20:32] INFO root fetch - processPackages [impose-cli]: Remove: archive file [/home/abi/fetcher/tmp/impose-cli-0.3.7.tar.gz]
+[2023-07-16 17:20:32] INFO root fetch - main [MainThread]: End processing [impose-cli]: success
+[2023-07-16 17:20:32] INFO root fetch - processPackages [llm-inference]: Remove: archive file [/home/abi/fetcher/tmp/llm_inference-0.0.5.dev0.tar.gz]
+[2023-07-16 17:20:32] INFO root fetch - processPackages [llm-inference]: Remove: archive file [/home/abi/fetcher/tmp/llm_inference-0.0.6.tar.gz]
+[2023-07-16 17:20:32] INFO root fetch - main [MainThread]: End processing [llm-inference]: success
+[2023-07-16 17:20:32] INFO root fetch - processPackages [terminal-in-colors]: Remove: archive file [/home/abi/fetcher/tmp/terminal_in_colors-0.1.0.tar.gz]
+[2023-07-16 17:20:32] INFO root fetch - processPackages [terminal-in-colors]: Remove: archive file [/home/abi/fetcher/tmp/terminal_in_colors-0.1.1.tar.gz]
+[2023-07-16 17:20:32] INFO root fetch - main [MainThread]: End processing [terminal-in-colors]: success
+[2023-07-16 17:20:32] INFO root fetch - processPackages [x-transformers]: Remove: archive file [/home/abi/fetcher/tmp/x-transformers-1.9.1.tar.gz]
+[2023-07-16 17:20:32] INFO root fetch - processPackages [x-transformers]: Remove: archive file [/home/abi/fetcher/tmp/x-transformers-1.9.2.tar.gz]
+[2023-07-16 17:20:32] INFO root fetch - main [MainThread]: End processing [x-transformers]: success
+[2023-07-16 17:20:32] INFO root fetch - processPackages [pytest-discord]: Remove: archive file [/home/abi/fetcher/tmp/pytest-discord-0.1.2.tar.gz]
+[2023-07-16 17:20:32] INFO root fetch - processPackages [pytest-discord]: Remove: archive file [/home/abi/fetcher/tmp/pytest-discord-0.1.3.tar.gz]
+[2023-07-16 17:20:32] INFO root fetch - main [MainThread]: End processing [pytest-discord]: success
+[2023-07-16 17:20:32] INFO root fetch - processPackages [pyqrack]: Remove: archive file [/home/abi/fetcher/tmp/pyqrack-1.9.5.tar.gz]
+[2023-07-16 17:20:32] INFO root fetch - processPackages [pyqrack]: Remove: archive file [/home/abi/fetcher/tmp/pyqrack-1.9.6.tar.gz]
+[2023-07-16 17:20:32] INFO root fetch - main [MainThread]: End processing [pyqrack]: success
+[2023-07-16 17:20:32] INFO root fetch - processPackages [langchain-plantuml]: Remove: archive file [/home/abi/fetcher/tmp/langchain_plantuml-0.0.1.tar.gz]
+[2023-07-16 17:20:32] INFO root fetch - processPackages [langchain-plantuml]: Remove: archive file [/home/abi/fetcher/tmp/langchain_plantuml-0.0.2.tar.gz]
+[2023-07-16 17:20:32] INFO root fetch - main [MainThread]: End processing [langchain-plantuml]: success
+[2023-07-16 17:20:32] INFO root fetch - main [MainThread]: Store serial: [18907774]
