@@ -5931,3 +5931,112 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-16 10:57:50] INFO root fetch - processPackages [pyrsm]: Remove: archive file [/home/abi/fetcher/tmp/pyrsm-0.8.7.tar.gz]
 [2023-07-16 10:57:50] INFO root fetch - main [MainThread]: End processing [pyrsm]: success
 [2023-07-16 10:57:50] INFO root fetch - main [MainThread]: Store serial: [18905768]
+[2023-07-16 11:02:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18905768]
+[2023-07-16 11:02:59] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-07-16 11:02:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: malware-detector-NTUST-isLab
+[2023-07-16 11:02:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: win-ih2torrent
+[2023-07-16 11:02:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tarvis-common
+[2023-07-16 11:02:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: srai-core
+[2023-07-16 11:02:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: myds
+[2023-07-16 11:02:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: truegrad
+[2023-07-16 11:02:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pytorch-partial-tagger
+[2023-07-16 11:02:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hedgesql
+[2023-07-16 11:02:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: trustedtwin
+[2023-07-16 11:02:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ppyNotion
+[2023-07-16 11:03:00] INFO root fetch - processPackages [ppyNotion]: New version: [0.0.2.1] Old Version: [0.0.1.1]
+[2023-07-16 11:03:00] WARNING root fetch - processPackages [win-ih2torrent]: Skipping, unable to determine old version
+[2023-07-16 11:03:00] INFO root fetch - processPackages [win-ih2torrent]: Start processing: ppyNotion
+[2023-07-16 11:03:00] INFO root fetch - main [MainThread]: End processing [win-ih2torrent] error
+[2023-07-16 11:03:00] INFO root fetch - processPackages [srai-core]: New version: [0.5.0] Old Version: [0.4.1]
+[2023-07-16 11:03:00] WARNING root fetch - processPackages [myds]: Skipping, unable to determine old version
+[2023-07-16 11:03:00] INFO root fetch - processPackages [myds]: Start processing: statute-utils
+[2023-07-16 11:03:00] INFO root fetch - main [MainThread]: End processing [myds] error
+[2023-07-16 11:03:00] INFO root fetch - processPackages [tarvis-common]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-16 11:03:00] INFO root fetch - processPackages [trustedtwin]: New version: [3.3.20230716090132] Old Version: [3.3.20230715090125]
+[2023-07-16 11:03:00] INFO root fetch - processPackages [hedgesql]: New version: [1.3.1] Old Version: [1.3]
+[2023-07-16 11:03:00] WARNING root fetch - processPackages [malware-detector-NTUST-isLab]: Skipping, unable to determine old version
+[2023-07-16 11:03:00] INFO root fetch - processPackages [malware-detector-NTUST-isLab]: Start processing: talkytimes-package
+[2023-07-16 11:03:00] INFO root fetch - main [MainThread]: End processing [malware-detector-NTUST-isLab] error
+[2023-07-16 11:03:00] INFO root fetch - processPackages [truegrad]: New version: [4.0.3] Old Version: [4.0.2]
+[2023-07-16 11:03:00] INFO root fetch - processPackages [pytorch-partial-tagger]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-16 11:03:00] INFO root fetch - processPackages [ppyNotion]: New version: [0.0.2.1] Old Version: [0.0.1.1]
+[2023-07-16 11:03:00] INFO root fetch - processPackages [talkytimes-package]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-07-16 11:03:00] INFO root fetch - processPackages [srai-core]: Downloading https://files.pythonhosted.org/packages/d2/10/2ceb54753fc70769ac9450f21b9db0ccf4d74b60292f8af5697e26194922/srai-core-0.4.1.tar.gz
+[2023-07-16 11:03:00] INFO root fetch - processPackages [statute-utils]: New version: [0.6.0] Old Version: [0.5.9]
+[2023-07-16 11:03:00] INFO root fetch - processPackages [ppyNotion]: Downloading https://files.pythonhosted.org/packages/00/6c/9aa3a43daab6f3b0447b0d722457f9b77b66dc24f0d2f92e8424e84576b7/ppyNotion-0.0.1.1.tar.gz
+[2023-07-16 11:03:00] INFO root fetch - processPackages [trustedtwin]: Downloading https://files.pythonhosted.org/packages/b5/29/b5e8aecf8cf2901c6b8c450123e545e61600874ec358150ef48e51c368f1/trustedtwin-3.3.20230715090125.tar.gz
+[2023-07-16 11:03:00] INFO root fetch - processPackages [ppyNotion]: Downloading https://files.pythonhosted.org/packages/00/6c/9aa3a43daab6f3b0447b0d722457f9b77b66dc24f0d2f92e8424e84576b7/ppyNotion-0.0.1.1.tar.gz
+[2023-07-16 11:03:00] INFO root fetch - processPackages [tarvis-common]: Downloading https://files.pythonhosted.org/packages/68/d3/d8cef235562d5bd6af29087b75ae5254c3be57c64680f48d1a4d2e5c5b46/tarvis-common-0.9.8.tar.gz
+[2023-07-16 11:03:00] INFO root fetch - processPackages [talkytimes-package]: Downloading https://files.pythonhosted.org/packages/eb/0b/86bbb5956139c42673522aa25a0c20c59bd8ff973674fc3c53e89972720f/talkytimes_package-0.2.3.tar.gz
+[2023-07-16 11:03:00] INFO root fetch - processPackages [truegrad]: Downloading https://files.pythonhosted.org/packages/f3/fb/5bfcd5a86f2d12a4e52dc55cd84e131308f441733eac808efd7f87615886/truegrad-4.0.2.tar.gz
+[2023-07-16 11:03:00] INFO root fetch - processPackages [hedgesql]: Downloading https://files.pythonhosted.org/packages/e2/e5/fa00203d14f639f412a46c982d2b848a2d943fc218f5ee48f0fe671c46d3/hedgesql-1.3.tar.gz
+[2023-07-16 11:03:00] INFO root fetch - processPackages [pytorch-partial-tagger]: Downloading https://files.pythonhosted.org/packages/7e/6b/8561317788fc781412ab58417fb7bf871bd1e912c27d44fce5274dca36a5/pytorch_partial_tagger-0.1.8.tar.gz
+[2023-07-16 11:03:00] INFO root fetch - processPackages [statute-utils]: Downloading https://files.pythonhosted.org/packages/96/7d/b10d4e77b1f8cd355da255965b1ec1296caaf5272aa2a4695285cf23e123/statute_utils-0.5.9.tar.gz
+[2023-07-16 11:03:01] INFO root fetch - processPackages [srai-core]: Downloading https://files.pythonhosted.org/packages/0e/61/5aed83001523afb86fb68e703084d04f19f1800a1a89c0563ea015a78458/srai-core-0.5.0.tar.gz
+[2023-07-16 11:03:01] INFO root fetch - processPackages [talkytimes-package]: Downloading https://files.pythonhosted.org/packages/c9/6a/f49c439f1f861e414deeb7f2cdf32bfead1629c37f0e7831ac13592224eb/talkytimes_package-0.2.4.tar.gz
+[2023-07-16 11:03:01] INFO root fetch - processPackages [ppyNotion]: Downloading https://files.pythonhosted.org/packages/3f/d0/00bb04e1e0317aaf80d973730787fabbf37bef750a13dc7a6658981ad697/ppyNotion-0.0.2.1.tar.gz
+[2023-07-16 11:03:01] INFO root fetch - processPackages [trustedtwin]: Downloading https://files.pythonhosted.org/packages/56/5a/1054e6289a215bb80ec6c33275e2caa6e0fb2d0a810d67d4a4d136f4313f/trustedtwin-3.3.20230716090132.tar.gz
+[2023-07-16 11:03:01] INFO root fetch - processPackages [ppyNotion]: Downloading https://files.pythonhosted.org/packages/3f/d0/00bb04e1e0317aaf80d973730787fabbf37bef750a13dc7a6658981ad697/ppyNotion-0.0.2.1.tar.gz
+[2023-07-16 11:03:01] INFO root fetch - processPackages [srai-core]: executing diffoscope
+[2023-07-16 11:03:01] INFO root fetch - processPackages [srai-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/srai-core-0.4.1.tar.gz tmp/srai-core-0.5.0.tar.gz --markdown 20230716/s/srai-core/0.4.1-0.5.0/diff.md --exclude *.pyd
+[2023-07-16 11:03:01] INFO root fetch - processPackages [talkytimes-package]: executing diffoscope
+[2023-07-16 11:03:01] INFO root fetch - processPackages [talkytimes-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/talkytimes_package-0.2.3.tar.gz tmp/talkytimes_package-0.2.4.tar.gz --markdown 20230716/t/talkytimes-package/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-07-16 11:03:01] INFO root fetch - processPackages [tarvis-common]: Downloading https://files.pythonhosted.org/packages/ef/1e/75a1e3a7561cc00ef6d25a9330b8870a5a7fdca7402e502c04219846a9ab/tarvis-common-0.9.9.tar.gz
+[2023-07-16 11:03:01] INFO root fetch - processPackages [ppyNotion]: executing diffoscope
+[2023-07-16 11:03:01] INFO root fetch - processPackages [ppyNotion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ppyNotion-0.0.1.1.tar.gz tmp/ppyNotion-0.0.2.1.tar.gz --markdown 20230716/p/ppyNotion/0.0.1.1-0.0.2.1/diff.md --exclude *.pyd
+[2023-07-16 11:03:01] INFO root fetch - processPackages [trustedtwin]: executing diffoscope
+[2023-07-16 11:03:01] INFO root fetch - processPackages [trustedtwin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trustedtwin-3.3.20230715090125.tar.gz tmp/trustedtwin-3.3.20230716090132.tar.gz --markdown 20230716/t/trustedtwin/3.3.20230715090125-3.3.20230716090132/diff.md --exclude *.pyd
+[2023-07-16 11:03:01] INFO root fetch - processPackages [ppyNotion]: executing diffoscope
+[2023-07-16 11:03:01] INFO root fetch - processPackages [ppyNotion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ppyNotion-0.0.1.1.tar.gz tmp/ppyNotion-0.0.2.1.tar.gz --markdown 20230716/p/ppyNotion/0.0.1.1-0.0.2.1/diff.md --exclude *.pyd
+[2023-07-16 11:03:01] INFO root fetch - processPackages [truegrad]: Downloading https://files.pythonhosted.org/packages/5f/cc/d4c6d5e646f70a6f541a44bd7613d1a635ac64114d17edece25fc7c57771/truegrad-4.0.3.tar.gz
+[2023-07-16 11:03:01] INFO root fetch - processPackages [hedgesql]: Downloading https://files.pythonhosted.org/packages/ec/bb/b690d167ee5be12bb947bc381f45d98f3543b1f72cb74b21bd110c71d7f3/hedgesql-1.3.1.tar.gz
+[2023-07-16 11:03:01] INFO root fetch - processPackages [tarvis-common]: executing diffoscope
+[2023-07-16 11:03:01] INFO root fetch - processPackages [tarvis-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tarvis-common-0.9.8.tar.gz tmp/tarvis-common-0.9.9.tar.gz --markdown 20230716/t/tarvis-common/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-16 11:03:01] INFO root fetch - processPackages [statute-utils]: Downloading https://files.pythonhosted.org/packages/7d/a4/93ecbf940dd9be8c60f298294b7f95f39bbe307ee808eed0e3d95434e3ad/statute_utils-0.6.0.tar.gz
+[2023-07-16 11:03:01] INFO root fetch - processPackages [truegrad]: executing diffoscope
+[2023-07-16 11:03:01] INFO root fetch - processPackages [truegrad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/truegrad-4.0.2.tar.gz tmp/truegrad-4.0.3.tar.gz --markdown 20230716/t/truegrad/4.0.2-4.0.3/diff.md --exclude *.pyd
+[2023-07-16 11:03:01] INFO root fetch - processPackages [hedgesql]: executing diffoscope
+[2023-07-16 11:03:01] INFO root fetch - processPackages [hedgesql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hedgesql-1.3.tar.gz tmp/hedgesql-1.3.1.tar.gz --markdown 20230716/h/hedgesql/1.3-1.3.1/diff.md --exclude *.pyd
+[2023-07-16 11:03:01] INFO root fetch - processPackages [pytorch-partial-tagger]: Downloading https://files.pythonhosted.org/packages/08/d7/0f085c0799a05d076d4b7e0bada51e7b26039693b77577c29c1afae45260/pytorch_partial_tagger-0.1.9.tar.gz
+[2023-07-16 11:03:01] INFO root fetch - processPackages [statute-utils]: executing diffoscope
+[2023-07-16 11:03:01] INFO root fetch - processPackages [pytorch-partial-tagger]: executing diffoscope
+[2023-07-16 11:03:01] INFO root fetch - processPackages [statute-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/statute_utils-0.5.9.tar.gz tmp/statute_utils-0.6.0.tar.gz --markdown 20230716/s/statute-utils/0.5.9-0.6.0/diff.md --exclude *.pyd
+[2023-07-16 11:03:01] INFO root fetch - processPackages [pytorch-partial-tagger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytorch_partial_tagger-0.1.8.tar.gz tmp/pytorch_partial_tagger-0.1.9.tar.gz --markdown 20230716/p/pytorch-partial-tagger/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-16 11:03:02] INFO root fetch - processPackages [ppyNotion]: Remove: archive file [/home/abi/fetcher/tmp/ppyNotion-0.0.1.1.tar.gz]
+[2023-07-16 11:03:02] INFO root fetch - processPackages [ppyNotion]: Remove: archive file [/home/abi/fetcher/tmp/ppyNotion-0.0.2.1.tar.gz]
+[2023-07-16 11:03:02] INFO root fetch - processPackages [ppyNotion]: Start processing: iman
+[2023-07-16 11:03:02] INFO root fetch - main [MainThread]: End processing [ppyNotion]: success
+[2023-07-16 11:03:02] INFO root fetch - main [MainThread]: End processing [ppyNotion]: success
+[2023-07-16 11:03:02] INFO root fetch - processPackages [srai-core]: Remove: archive file [/home/abi/fetcher/tmp/srai-core-0.4.1.tar.gz]
+[2023-07-16 11:03:02] INFO root fetch - processPackages [srai-core]: Remove: archive file [/home/abi/fetcher/tmp/srai-core-0.5.0.tar.gz]
+[2023-07-16 11:03:02] INFO root fetch - main [MainThread]: End processing [srai-core]: success
+[2023-07-16 11:03:02] INFO root fetch - processPackages [talkytimes-package]: Remove: archive file [/home/abi/fetcher/tmp/talkytimes_package-0.2.3.tar.gz]
+[2023-07-16 11:03:02] INFO root fetch - processPackages [talkytimes-package]: Remove: archive file [/home/abi/fetcher/tmp/talkytimes_package-0.2.4.tar.gz]
+[2023-07-16 11:03:02] INFO root fetch - main [MainThread]: End processing [talkytimes-package]: success
+[2023-07-16 11:03:02] INFO root fetch - processPackages [iman]: New version: [0.0.9] Old Version: [0.0.84]
+[2023-07-16 11:03:03] INFO root fetch - processPackages [trustedtwin]: Remove: archive file [/home/abi/fetcher/tmp/trustedtwin-3.3.20230715090125.tar.gz]
+[2023-07-16 11:03:03] INFO root fetch - processPackages [trustedtwin]: Remove: archive file [/home/abi/fetcher/tmp/trustedtwin-3.3.20230716090132.tar.gz]
+[2023-07-16 11:03:03] INFO root fetch - main [MainThread]: End processing [trustedtwin]: success
+[2023-07-16 11:03:03] INFO root fetch - processPackages [truegrad]: Remove: archive file [/home/abi/fetcher/tmp/truegrad-4.0.2.tar.gz]
+[2023-07-16 11:03:03] INFO root fetch - processPackages [truegrad]: Remove: archive file [/home/abi/fetcher/tmp/truegrad-4.0.3.tar.gz]
+[2023-07-16 11:03:03] INFO root fetch - main [MainThread]: End processing [truegrad]: success
+[2023-07-16 11:03:03] INFO root fetch - processPackages [statute-utils]: Remove: archive file [/home/abi/fetcher/tmp/statute_utils-0.5.9.tar.gz]
+[2023-07-16 11:03:03] INFO root fetch - processPackages [statute-utils]: Remove: archive file [/home/abi/fetcher/tmp/statute_utils-0.6.0.tar.gz]
+[2023-07-16 11:03:03] INFO root fetch - main [MainThread]: End processing [statute-utils]: success
+[2023-07-16 11:03:03] INFO root fetch - processPackages [iman]: Downloading https://files.pythonhosted.org/packages/7f/b9/5e6deff3c4ef7bf3606fc0cff71b003e802a28c31c0ac06fd1b9f343217f/iman-0.0.84.tar.gz
+[2023-07-16 11:03:03] INFO root fetch - processPackages [hedgesql]: Remove: archive file [/home/abi/fetcher/tmp/hedgesql-1.3.tar.gz]
+[2023-07-16 11:03:03] INFO root fetch - processPackages [hedgesql]: Remove: archive file [/home/abi/fetcher/tmp/hedgesql-1.3.1.tar.gz]
+[2023-07-16 11:03:03] INFO root fetch - main [MainThread]: End processing [hedgesql]: success
+[2023-07-16 11:03:03] INFO root fetch - processPackages [tarvis-common]: Remove: archive file [/home/abi/fetcher/tmp/tarvis-common-0.9.8.tar.gz]
+[2023-07-16 11:03:03] INFO root fetch - processPackages [tarvis-common]: Remove: archive file [/home/abi/fetcher/tmp/tarvis-common-0.9.9.tar.gz]
+[2023-07-16 11:03:03] INFO root fetch - main [MainThread]: End processing [tarvis-common]: success
+[2023-07-16 11:03:03] INFO root fetch - processPackages [iman]: Downloading https://files.pythonhosted.org/packages/30/17/389821fbd85328fbda7e038746aa1d02011502958e2d9589ede98d2f5b0b/iman-0.0.9.tar.gz
+[2023-07-16 11:03:03] INFO root fetch - processPackages [iman]: executing diffoscope
+[2023-07-16 11:03:03] INFO root fetch - processPackages [iman]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iman-0.0.84.tar.gz tmp/iman-0.0.9.tar.gz --markdown 20230716/i/iman/0.0.84-0.0.9/diff.md --exclude *.pyd
+[2023-07-16 11:03:04] INFO root fetch - processPackages [pytorch-partial-tagger]: Remove: archive file [/home/abi/fetcher/tmp/pytorch_partial_tagger-0.1.8.tar.gz]
+[2023-07-16 11:03:04] INFO root fetch - processPackages [pytorch-partial-tagger]: Remove: archive file [/home/abi/fetcher/tmp/pytorch_partial_tagger-0.1.9.tar.gz]
+[2023-07-16 11:03:04] INFO root fetch - main [MainThread]: End processing [pytorch-partial-tagger]: success
+[2023-07-16 11:03:04] INFO root fetch - processPackages [iman]: Remove: archive file [/home/abi/fetcher/tmp/iman-0.0.84.tar.gz]
+[2023-07-16 11:03:04] INFO root fetch - processPackages [iman]: Remove: archive file [/home/abi/fetcher/tmp/iman-0.0.9.tar.gz]
+[2023-07-16 11:03:04] INFO root fetch - main [MainThread]: End processing [iman]: success
+[2023-07-16 11:03:04] INFO root fetch - main [MainThread]: Store serial: [18905812]
