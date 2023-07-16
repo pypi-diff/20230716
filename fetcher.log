@@ -14171,3 +14171,61 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-16 22:48:54] INFO root fetch - processPackages [mercury-sync]: Remove: archive file [/home/abi/fetcher/tmp/mercury-sync-0.4.2.tar.gz]
 [2023-07-16 22:48:54] INFO root fetch - main [MainThread]: End processing [mercury-sync]: success
 [2023-07-16 22:48:54] INFO root fetch - main [MainThread]: Store serial: [18909319]
+[2023-07-16 22:53:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18909319]
+[2023-07-16 22:54:03] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-16 22:54:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: database-local
+[2023-07-16 22:54:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ciscomn
+[2023-07-16 22:54:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: examon-beginners-package
+[2023-07-16 22:54:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cash-balance
+[2023-07-16 22:54:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ciscomn
+[2023-07-16 22:54:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hotsos
+[2023-07-16 22:54:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mirutil
+[2023-07-16 22:54:03] INFO root fetch - processPackages [examon-beginners-package]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-16 22:54:03] INFO root fetch - processPackages [ciscomn]: New version: [3.0] Old Version: [2.0]
+[2023-07-16 22:54:03] INFO root fetch - processPackages [database-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-16 22:54:03] INFO root fetch - processPackages [ciscomn]: New version: [3.0] Old Version: [2.0]
+[2023-07-16 22:54:03] WARNING root fetch - processPackages [cash-balance]: Skipping, unable to determine old version
+[2023-07-16 22:54:03] INFO root fetch - main [MainThread]: End processing [cash-balance] error
+[2023-07-16 22:54:03] INFO root fetch - processPackages [hotsos]: New version: [1.15.post9] Old Version: [1.15.post8]
+[2023-07-16 22:54:03] INFO root fetch - processPackages [examon-beginners-package]: Downloading https://files.pythonhosted.org/packages/26/67/1c7a611a264f7f689c52e8f5dd1877c5ca7b02e4c4ddcaad0051b66dc216/examon_beginners_package-0.0.2.tar.gz
+[2023-07-16 22:54:03] INFO root fetch - processPackages [mirutil]: New version: [9.4.0] Old Version: [9.3.1]
+[2023-07-16 22:54:03] INFO root fetch - processPackages [database-local]: Downloading https://files.pythonhosted.org/packages/03/7b/1c5e2d46da0ccb66d64998a9c3ed39c3fe3cce7a26151a680e42b0175a1e/database-local-0.0.8.tar.gz
+[2023-07-16 22:54:03] INFO root fetch - processPackages [ciscomn]: Downloading https://files.pythonhosted.org/packages/62/22/6562b48c2742583aae1a63af0ef0f33f8c34a1f4ab67df45fc700468659f/ciscomn-2.0-py3-none-any.whl
+[2023-07-16 22:54:03] INFO root fetch - processPackages [ciscomn]: Downloading https://files.pythonhosted.org/packages/62/22/6562b48c2742583aae1a63af0ef0f33f8c34a1f4ab67df45fc700468659f/ciscomn-2.0-py3-none-any.whl
+[2023-07-16 22:54:03] INFO root fetch - processPackages [hotsos]: Downloading https://files.pythonhosted.org/packages/6c/94/3ba9896275fcb90a0882e18dded1aa5187fdaa3205439cfa182e93bfe705/hotsos-1.15.post8.tar.gz
+[2023-07-16 22:54:04] INFO root fetch - processPackages [mirutil]: Downloading https://files.pythonhosted.org/packages/38/6e/e3b08382149307a94ff2b014f554aa4dedaad5e3cc7b3b4e2fd1d21e0de1/mirutil-9.3.1.tar.gz
+[2023-07-16 22:54:04] INFO root fetch - processPackages [examon-beginners-package]: Downloading https://files.pythonhosted.org/packages/4d/30/2ee9802dcad9cce201ebb63563204d5f59ed26332c5789fd43362a231c0d/examon_beginners_package-0.0.3.tar.gz
+[2023-07-16 22:54:04] INFO root fetch - processPackages [database-local]: Downloading https://files.pythonhosted.org/packages/b9/51/eea3270871a9f17ab154524ab1452c86db900153cc54dac8716b41069a53/database-local-0.0.9.tar.gz
+[2023-07-16 22:54:04] INFO root fetch - processPackages [ciscomn]: Downloading https://files.pythonhosted.org/packages/33/7a/ea5360445f4f7f5cb52a682d26c70dc2d5cf4e51566eed3968b65e24b343/ciscomn-3.0-py3-none-any.whl
+[2023-07-16 22:54:04] INFO root fetch - processPackages [ciscomn]: Downloading https://files.pythonhosted.org/packages/33/7a/ea5360445f4f7f5cb52a682d26c70dc2d5cf4e51566eed3968b65e24b343/ciscomn-3.0-py3-none-any.whl
+[2023-07-16 22:54:04] INFO root fetch - processPackages [hotsos]: Downloading https://files.pythonhosted.org/packages/9e/aa/b69b0f93a27db3078303013f872f6e6f370375ec9e51c9b73ecf676110fb/hotsos-1.15.post9.tar.gz
+[2023-07-16 22:54:04] INFO root fetch - processPackages [examon-beginners-package]: executing diffoscope
+[2023-07-16 22:54:04] INFO root fetch - processPackages [examon-beginners-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/examon_beginners_package-0.0.2.tar.gz tmp/examon_beginners_package-0.0.3.tar.gz --markdown 20230716/e/examon-beginners-package/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-16 22:54:04] INFO root fetch - processPackages [database-local]: executing diffoscope
+[2023-07-16 22:54:04] INFO root fetch - processPackages [database-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/database-local-0.0.8.tar.gz tmp/database-local-0.0.9.tar.gz --markdown 20230716/d/database-local/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-16 22:54:04] INFO root fetch - processPackages [mirutil]: Downloading https://files.pythonhosted.org/packages/e4/5c/8356dc3abf52622922240b5a0df981f63d2ca98d2685eff43ea7a6c5d6c0/mirutil-9.4.0.tar.gz
+[2023-07-16 22:54:04] INFO root fetch - processPackages [ciscomn]: executing diffoscope
+[2023-07-16 22:54:04] INFO root fetch - processPackages [ciscomn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ciscomn-2.0-py3-none-any.whl.zip tmp/ciscomn-3.0-py3-none-any.whl.zip --markdown 20230716/c/ciscomn/2.0-3.0/diff.md --exclude *.pyd
+[2023-07-16 22:54:04] INFO root fetch - processPackages [ciscomn]: executing diffoscope
+[2023-07-16 22:54:04] INFO root fetch - processPackages [ciscomn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ciscomn-2.0-py3-none-any.whl.zip tmp/ciscomn-3.0-py3-none-any.whl.zip --markdown 20230716/c/ciscomn/2.0-3.0/diff.md --exclude *.pyd
+[2023-07-16 22:54:04] INFO root fetch - processPackages [mirutil]: executing diffoscope
+[2023-07-16 22:54:04] INFO root fetch - processPackages [mirutil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mirutil-9.3.1.tar.gz tmp/mirutil-9.4.0.tar.gz --markdown 20230716/m/mirutil/9.3.1-9.4.0/diff.md --exclude *.pyd
+[2023-07-16 22:54:04] INFO root fetch - processPackages [hotsos]: executing diffoscope
+[2023-07-16 22:54:04] INFO root fetch - processPackages [hotsos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hotsos-1.15.post8.tar.gz tmp/hotsos-1.15.post9.tar.gz --markdown 20230716/h/hotsos/1.15.post8-1.15.post9/diff.md --exclude *.pyd
+[2023-07-16 22:54:05] INFO root fetch - processPackages [examon-beginners-package]: Remove: archive file [/home/abi/fetcher/tmp/examon_beginners_package-0.0.2.tar.gz]
+[2023-07-16 22:54:05] INFO root fetch - processPackages [examon-beginners-package]: Remove: archive file [/home/abi/fetcher/tmp/examon_beginners_package-0.0.3.tar.gz]
+[2023-07-16 22:54:05] INFO root fetch - main [MainThread]: End processing [examon-beginners-package]: success
+[2023-07-16 22:54:05] INFO root fetch - processPackages [database-local]: Remove: archive file [/home/abi/fetcher/tmp/database-local-0.0.8.tar.gz]
+[2023-07-16 22:54:05] INFO root fetch - processPackages [database-local]: Remove: archive file [/home/abi/fetcher/tmp/database-local-0.0.9.tar.gz]
+[2023-07-16 22:54:05] INFO root fetch - main [MainThread]: End processing [database-local]: success
+[2023-07-16 22:54:05] INFO root fetch - processPackages [ciscomn]: Remove: archive file [/home/abi/fetcher/tmp/ciscomn-2.0-py3-none-any.whl.zip]
+[2023-07-16 22:54:05] INFO root fetch - processPackages [ciscomn]: Remove: archive file [/home/abi/fetcher/tmp/ciscomn-3.0-py3-none-any.whl.zip]
+[2023-07-16 22:54:05] INFO root fetch - main [MainThread]: End processing [ciscomn]: success
+[2023-07-16 22:54:05] INFO root fetch - main [MainThread]: End processing [ciscomn]: success
+[2023-07-16 22:54:05] INFO root fetch - processPackages [mirutil]: Remove: archive file [/home/abi/fetcher/tmp/mirutil-9.3.1.tar.gz]
+[2023-07-16 22:54:05] INFO root fetch - processPackages [mirutil]: Remove: archive file [/home/abi/fetcher/tmp/mirutil-9.4.0.tar.gz]
+[2023-07-16 22:54:05] INFO root fetch - main [MainThread]: End processing [mirutil]: success
+[2023-07-16 22:54:06] INFO root fetch - processPackages [hotsos]: Remove: archive file [/home/abi/fetcher/tmp/hotsos-1.15.post8.tar.gz]
+[2023-07-16 22:54:06] INFO root fetch - processPackages [hotsos]: Remove: archive file [/home/abi/fetcher/tmp/hotsos-1.15.post9.tar.gz]
+[2023-07-16 22:54:06] INFO root fetch - main [MainThread]: End processing [hotsos]: success
+[2023-07-16 22:54:06] INFO root fetch - main [MainThread]: Store serial: [18909342]
