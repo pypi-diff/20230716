@@ -6673,3 +6673,69 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-16 11:50:08] INFO root fetch - processPackages [nonebot-plugin-l4d2-server]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_l4d2_server-0.6.0.tar.gz]
 [2023-07-16 11:50:08] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-l4d2-server]: success
 [2023-07-16 11:50:08] INFO root fetch - main [MainThread]: Store serial: [18906050]
+[2023-07-16 11:55:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18906050]
+[2023-07-16 11:55:17] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-16 11:55:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gchar
+[2023-07-16 11:55:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: posco-lp
+[2023-07-16 11:55:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kuro2sudachi
+[2023-07-16 11:55:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fastl2lir
+[2023-07-16 11:55:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyfrobot
+[2023-07-16 11:55:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: agency
+[2023-07-16 11:55:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: prospr
+[2023-07-16 11:55:17] INFO root fetch - processPackages [posco-lp]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-07-16 11:55:17] INFO root fetch - processPackages [prospr]: New version: [1.0] Old Version: [0.2a9]
+[2023-07-16 11:55:17] INFO root fetch - processPackages [agency]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-07-16 11:55:17] INFO root fetch - processPackages [fastl2lir]: New version: [0.9] Old Version: [0.8]
+[2023-07-16 11:55:17] INFO root fetch - processPackages [kuro2sudachi]: New version: [0.4.2] Old Version: [0.4.0]
+[2023-07-16 11:55:17] INFO root fetch - processPackages [gchar]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-16 11:55:17] INFO root fetch - processPackages [pyfrobot]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-16 11:55:17] INFO root fetch - processPackages [pyfrobot]: Downloading https://files.pythonhosted.org/packages/47/d8/4eff931acd80eb8b05f05c88112d1850849146f9915175d6eadf35df14ef/pyfrobot-0.1.8.tar.gz
+[2023-07-16 11:55:17] INFO root fetch - processPackages [posco-lp]: Downloading https://files.pythonhosted.org/packages/c5/a5/fd36a6bb4cd9c172f40b8421aa1ca81da9a49b2583d68b899f7aa4ec8ccd/posco-lp-1.1.0.tar.gz
+[2023-07-16 11:55:17] INFO root fetch - processPackages [prospr]: Downloading https://files.pythonhosted.org/packages/41/7b/c267fc17cefbffea67be48793930c2182ef6a798e042d1b44282e9a61e89/prospr-0.2a9.tar.gz
+[2023-07-16 11:55:17] INFO root fetch - processPackages [agency]: Downloading https://files.pythonhosted.org/packages/aa/45/b7b7df82b1732b90996a838ecb15d6e08c3862d0825db07761f405840add/agency-1.2.1.tar.gz
+[2023-07-16 11:55:17] INFO root fetch - processPackages [kuro2sudachi]: Downloading https://files.pythonhosted.org/packages/fe/bb/1ae6c170630d9e28a3a072e4c100b2970830d39e51a1c9899064c74de20c/kuro2sudachi-0.4.0.tar.gz
+[2023-07-16 11:55:17] INFO root fetch - processPackages [fastl2lir]: Downloading https://files.pythonhosted.org/packages/e1/0a/83721a1091aff1b8ccffdbc1bf676420f4f4eb691ebc42285667f50bf3c5/fastl2lir-0.8-py2.py3-none-any.whl
+[2023-07-16 11:55:17] INFO root fetch - processPackages [gchar]: Downloading https://files.pythonhosted.org/packages/ea/1e/60e722805151b036c5d7e834fbf86de6496975910d0d0a911e79b39b3a75/gchar-0.1.0.tar.gz
+[2023-07-16 11:55:17] INFO root fetch - processPackages [pyfrobot]: Downloading https://files.pythonhosted.org/packages/a5/a7/c91a44b101557e88b0c525fd1fbcc9ee6e7a1d4fe9318da83243b9481ac4/pyfrobot-0.1.9.tar.gz
+[2023-07-16 11:55:17] INFO root fetch - processPackages [posco-lp]: Downloading https://files.pythonhosted.org/packages/18/07/649518fd643254e74bc9c93170f819f2776163e7fb9f6ebeb1be0e9fd925/posco-lp-1.1.1.tar.gz
+[2023-07-16 11:55:18] INFO root fetch - processPackages [pyfrobot]: executing diffoscope
+[2023-07-16 11:55:18] INFO root fetch - processPackages [pyfrobot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfrobot-0.1.8.tar.gz tmp/pyfrobot-0.1.9.tar.gz --markdown 20230716/p/pyfrobot/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-16 11:55:18] INFO root fetch - processPackages [kuro2sudachi]: Downloading https://files.pythonhosted.org/packages/c4/9e/46302253402d52b5e2c6394c2b42396ec455480628fe94d2edf6f4f5b890/kuro2sudachi-0.4.2.tar.gz
+[2023-07-16 11:55:18] INFO root fetch - processPackages [gchar]: Downloading https://files.pythonhosted.org/packages/7e/17/c1d28330cce1db1cba29f49546e32a5b30b4987b7c3fff1951f1ddb9462a/gchar-0.1.1.tar.gz
+[2023-07-16 11:55:18] INFO root fetch - processPackages [agency]: Downloading https://files.pythonhosted.org/packages/2c/f1/eae8e18c8a792acfc1e9f9c10ef86e4e42cac22ef55daed38b10534e9b76/agency-1.2.2.tar.gz
+[2023-07-16 11:55:18] INFO root fetch - processPackages [posco-lp]: executing diffoscope
+[2023-07-16 11:55:18] INFO root fetch - processPackages [posco-lp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/posco-lp-1.1.0.tar.gz tmp/posco-lp-1.1.1.tar.gz --markdown 20230716/p/posco-lp/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-07-16 11:55:18] INFO root fetch - processPackages [fastl2lir]: Downloading https://files.pythonhosted.org/packages/92/1a/fb6edb6d8d01db2429825efdc75613cf9697ff316d0a3beca944d02312b2/fastl2lir-0.9-py2.py3-none-any.whl
+[2023-07-16 11:55:18] INFO root fetch - processPackages [kuro2sudachi]: executing diffoscope
+[2023-07-16 11:55:18] INFO root fetch - processPackages [kuro2sudachi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kuro2sudachi-0.4.0.tar.gz tmp/kuro2sudachi-0.4.2.tar.gz --markdown 20230716/k/kuro2sudachi/0.4.0-0.4.2/diff.md --exclude *.pyd
+[2023-07-16 11:55:18] INFO root fetch - processPackages [fastl2lir]: executing diffoscope
+[2023-07-16 11:55:18] INFO root fetch - processPackages [fastl2lir]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastl2lir-0.8-py2.py3-none-any.whl.zip tmp/fastl2lir-0.9-py2.py3-none-any.whl.zip --markdown 20230716/f/fastl2lir/0.8-0.9/diff.md --exclude *.pyd
+[2023-07-16 11:55:18] INFO root fetch - processPackages [gchar]: executing diffoscope
+[2023-07-16 11:55:18] INFO root fetch - processPackages [gchar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gchar-0.1.0.tar.gz tmp/gchar-0.1.1.tar.gz --markdown 20230716/g/gchar/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-16 11:55:18] INFO root fetch - processPackages [agency]: executing diffoscope
+[2023-07-16 11:55:18] INFO root fetch - processPackages [agency]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agency-1.2.1.tar.gz tmp/agency-1.2.2.tar.gz --markdown 20230716/a/agency/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-07-16 11:55:18] INFO root fetch - processPackages [prospr]: Downloading https://files.pythonhosted.org/packages/75/e9/7cae76737980d82ac77c9c7f42c58dce3a2683c7f5a5bc0af44411a2311a/prospr-1.0.tar.gz
+[2023-07-16 11:55:18] INFO root fetch - processPackages [prospr]: executing diffoscope
+[2023-07-16 11:55:18] INFO root fetch - processPackages [prospr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prospr-0.2a9.tar.gz tmp/prospr-1.0.tar.gz --markdown 20230716/p/prospr/0.2a9-1.0/diff.md --exclude *.pyd
+[2023-07-16 11:55:19] INFO root fetch - processPackages [pyfrobot]: Remove: archive file [/home/abi/fetcher/tmp/pyfrobot-0.1.8.tar.gz]
+[2023-07-16 11:55:19] INFO root fetch - processPackages [pyfrobot]: Remove: archive file [/home/abi/fetcher/tmp/pyfrobot-0.1.9.tar.gz]
+[2023-07-16 11:55:19] INFO root fetch - main [MainThread]: End processing [pyfrobot]: success
+[2023-07-16 11:55:19] INFO root fetch - processPackages [posco-lp]: Remove: archive file [/home/abi/fetcher/tmp/posco-lp-1.1.0.tar.gz]
+[2023-07-16 11:55:19] INFO root fetch - processPackages [posco-lp]: Remove: archive file [/home/abi/fetcher/tmp/posco-lp-1.1.1.tar.gz]
+[2023-07-16 11:55:19] INFO root fetch - main [MainThread]: End processing [posco-lp]: success
+[2023-07-16 11:55:19] INFO root fetch - processPackages [kuro2sudachi]: Remove: archive file [/home/abi/fetcher/tmp/kuro2sudachi-0.4.0.tar.gz]
+[2023-07-16 11:55:19] INFO root fetch - processPackages [kuro2sudachi]: Remove: archive file [/home/abi/fetcher/tmp/kuro2sudachi-0.4.2.tar.gz]
+[2023-07-16 11:55:19] INFO root fetch - main [MainThread]: End processing [kuro2sudachi]: success
+[2023-07-16 11:55:19] INFO root fetch - processPackages [fastl2lir]: Remove: archive file [/home/abi/fetcher/tmp/fastl2lir-0.8-py2.py3-none-any.whl.zip]
+[2023-07-16 11:55:19] INFO root fetch - processPackages [fastl2lir]: Remove: archive file [/home/abi/fetcher/tmp/fastl2lir-0.9-py2.py3-none-any.whl.zip]
+[2023-07-16 11:55:19] INFO root fetch - main [MainThread]: End processing [fastl2lir]: success
+[2023-07-16 11:55:19] INFO root fetch - processPackages [agency]: Remove: archive file [/home/abi/fetcher/tmp/agency-1.2.1.tar.gz]
+[2023-07-16 11:55:19] INFO root fetch - processPackages [agency]: Remove: archive file [/home/abi/fetcher/tmp/agency-1.2.2.tar.gz]
+[2023-07-16 11:55:19] INFO root fetch - main [MainThread]: End processing [agency]: success
+[2023-07-16 11:55:19] INFO root fetch - processPackages [gchar]: Remove: archive file [/home/abi/fetcher/tmp/gchar-0.1.0.tar.gz]
+[2023-07-16 11:55:19] INFO root fetch - processPackages [gchar]: Remove: archive file [/home/abi/fetcher/tmp/gchar-0.1.1.tar.gz]
+[2023-07-16 11:55:19] INFO root fetch - main [MainThread]: End processing [gchar]: success
+[2023-07-16 11:55:20] INFO root fetch - processPackages [prospr]: Remove: archive file [/home/abi/fetcher/tmp/prospr-0.2a9.tar.gz]
+[2023-07-16 11:55:20] INFO root fetch - processPackages [prospr]: Remove: archive file [/home/abi/fetcher/tmp/prospr-1.0.tar.gz]
+[2023-07-16 11:55:20] INFO root fetch - main [MainThread]: End processing [prospr]: success
+[2023-07-16 11:55:20] INFO root fetch - main [MainThread]: Store serial: [18906072]
