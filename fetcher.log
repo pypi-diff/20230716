@@ -3889,3 +3889,45 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-16 07:14:10] INFO root fetch - processPackages [hak]: Remove: archive file [/home/abi/fetcher/tmp/hak-0.0.90.tar.gz]
 [2023-07-16 07:14:10] INFO root fetch - main [MainThread]: End processing [hak]: success
 [2023-07-16 07:14:10] INFO root fetch - main [MainThread]: Store serial: [18904879]
+[2023-07-16 07:19:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18904879]
+[2023-07-16 07:19:18] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-16 07:19:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tflite-runtime-nightly
+[2023-07-16 07:19:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rec-pangu
+[2023-07-16 07:19:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ossapi
+[2023-07-16 07:19:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rapidpe-rift-pipe
+[2023-07-16 07:19:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: universeparticle
+[2023-07-16 07:19:19] INFO root fetch - processPackages [ossapi]: New version: [3.3.0] Old Version: [3.2.0]
+[2023-07-16 07:19:19] INFO root fetch - processPackages [rec-pangu]: New version: [0.4.0] Old Version: [0.3.9]
+[2023-07-16 07:19:19] INFO root fetch - processPackages [rapidpe-rift-pipe]: New version: [0.5.4.dev20230716] Old Version: [0.5.4.dev20230715]
+[2023-07-16 07:19:19] INFO root fetch - processPackages [rapidpe-rift-pipe]: Downloading https://files.pythonhosted.org/packages/1c/a0/36cce3de3ccf20dcbe1a722db6752078bd7f36c07148da3ce7246b215239/rapidpe_rift_pipe-0.5.4.dev20230715.tar.gz
+[2023-07-16 07:19:19] INFO root fetch - processPackages [tflite-runtime-nightly]: New version: [2.14.0.dev20230715] Old Version: [2.14.0.dev20230714]
+[2023-07-16 07:19:19] WARNING root fetch - processPackages [universeparticle]: Skipping, unable to determine old version
+[2023-07-16 07:19:19] INFO root fetch - main [MainThread]: End processing [universeparticle] error
+[2023-07-16 07:19:19] INFO root fetch - processPackages [ossapi]: Downloading https://files.pythonhosted.org/packages/69/a7/799a5c064c993c5d78229fb7110bddd9b81b87c5e63b3c360832cb9bcb3d/ossapi-3.2.0.tar.gz
+[2023-07-16 07:19:19] INFO root fetch - processPackages [rec-pangu]: Downloading https://files.pythonhosted.org/packages/30/09/4fff957e1ffec6a6a2da04857180b2460af1aa88262898e85736de1db4da/rec_pangu-0.3.9-py3-none-any.whl
+[2023-07-16 07:19:19] INFO root fetch - processPackages [tflite-runtime-nightly]: Downloading https://files.pythonhosted.org/packages/25/84/7b2ea2036aa5ecff7210b0610483c7346619e243d37bd8ae460dca956109/tflite_runtime_nightly-2.14.0.dev20230714-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-16 07:19:19] INFO root fetch - processPackages [rapidpe-rift-pipe]: Downloading https://files.pythonhosted.org/packages/82/63/f2d59a703598918db18f9fc1b0669a67f2ecc16ad0cc21d5a95331e0fa4d/rapidpe_rift_pipe-0.5.4.dev20230716.tar.gz
+[2023-07-16 07:19:19] INFO root fetch - processPackages [rec-pangu]: Downloading https://files.pythonhosted.org/packages/54/34/91db69bb13d3a50e2744931b3799c9d51f8588c41f4a16e214aee666ceaf/rec_pangu-0.4.0-py3-none-any.whl
+[2023-07-16 07:19:19] INFO root fetch - processPackages [ossapi]: Downloading https://files.pythonhosted.org/packages/57/ae/ed4abe3cf2126480e9925532dfe58fdca6ce136b7b0a0554b74e80c53f24/ossapi-3.3.0.tar.gz
+[2023-07-16 07:19:19] INFO root fetch - processPackages [rec-pangu]: executing diffoscope
+[2023-07-16 07:19:19] INFO root fetch - processPackages [rec-pangu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rec_pangu-0.3.9-py3-none-any.whl.zip tmp/rec_pangu-0.4.0-py3-none-any.whl.zip --markdown 20230716/r/rec-pangu/0.3.9-0.4.0/diff.md --exclude *.pyd
+[2023-07-16 07:19:19] INFO root fetch - processPackages [rapidpe-rift-pipe]: executing diffoscope
+[2023-07-16 07:19:19] INFO root fetch - processPackages [rapidpe-rift-pipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapidpe_rift_pipe-0.5.4.dev20230715.tar.gz tmp/rapidpe_rift_pipe-0.5.4.dev20230716.tar.gz --markdown 20230716/r/rapidpe-rift-pipe/0.5.4.dev20230715-0.5.4.dev20230716/diff.md --exclude *.pyd
+[2023-07-16 07:19:19] INFO root fetch - processPackages [ossapi]: executing diffoscope
+[2023-07-16 07:19:19] INFO root fetch - processPackages [ossapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ossapi-3.2.0.tar.gz tmp/ossapi-3.3.0.tar.gz --markdown 20230716/o/ossapi/3.2.0-3.3.0/diff.md --exclude *.pyd
+[2023-07-16 07:19:20] INFO root fetch - processPackages [tflite-runtime-nightly]: Downloading https://files.pythonhosted.org/packages/56/f7/1ae91b95ff72d03710e52a5bcddbd56695e74c5a49171915564248cfcdde/tflite_runtime_nightly-2.14.0.dev20230715-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-16 07:19:20] INFO root fetch - processPackages [rapidpe-rift-pipe]: Remove: archive file [/home/abi/fetcher/tmp/rapidpe_rift_pipe-0.5.4.dev20230715.tar.gz]
+[2023-07-16 07:19:20] INFO root fetch - processPackages [rapidpe-rift-pipe]: Remove: archive file [/home/abi/fetcher/tmp/rapidpe_rift_pipe-0.5.4.dev20230716.tar.gz]
+[2023-07-16 07:19:20] INFO root fetch - main [MainThread]: End processing [rapidpe-rift-pipe]: success
+[2023-07-16 07:19:20] INFO root fetch - processPackages [tflite-runtime-nightly]: executing diffoscope
+[2023-07-16 07:19:20] INFO root fetch - processPackages [tflite-runtime-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tflite_runtime_nightly-2.14.0.dev20230714-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/tflite_runtime_nightly-2.14.0.dev20230715-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230716/t/tflite-runtime-nightly/2.14.0.dev20230714-2.14.0.dev20230715/diff.md --exclude *.pyd
+[2023-07-16 07:19:20] INFO root fetch - processPackages [ossapi]: Remove: archive file [/home/abi/fetcher/tmp/ossapi-3.2.0.tar.gz]
+[2023-07-16 07:19:20] INFO root fetch - processPackages [ossapi]: Remove: archive file [/home/abi/fetcher/tmp/ossapi-3.3.0.tar.gz]
+[2023-07-16 07:19:20] INFO root fetch - main [MainThread]: End processing [ossapi]: success
+[2023-07-16 07:19:20] INFO root fetch - processPackages [rec-pangu]: Remove: archive file [/home/abi/fetcher/tmp/rec_pangu-0.3.9-py3-none-any.whl.zip]
+[2023-07-16 07:19:20] INFO root fetch - processPackages [rec-pangu]: Remove: archive file [/home/abi/fetcher/tmp/rec_pangu-0.4.0-py3-none-any.whl.zip]
+[2023-07-16 07:19:20] INFO root fetch - main [MainThread]: End processing [rec-pangu]: success
+[2023-07-16 07:19:21] INFO root fetch - processPackages [tflite-runtime-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite_runtime_nightly-2.14.0.dev20230714-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-07-16 07:19:21] INFO root fetch - processPackages [tflite-runtime-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite_runtime_nightly-2.14.0.dev20230715-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-07-16 07:19:21] INFO root fetch - main [MainThread]: End processing [tflite-runtime-nightly]: success
+[2023-07-16 07:19:21] INFO root fetch - main [MainThread]: Store serial: [18904905]
