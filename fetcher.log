@@ -8287,3 +8287,51 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-16 14:21:18] INFO root fetch - processPackages [volvopy]: Remove: archive file [/home/abi/fetcher/tmp/volvopy-0.1.7.tar.gz]
 [2023-07-16 14:21:18] INFO root fetch - main [MainThread]: End processing [volvopy]: success
 [2023-07-16 14:21:18] INFO root fetch - main [MainThread]: Store serial: [18906758]
+[2023-07-16 14:26:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18906758]
+[2023-07-16 14:26:27] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-16 14:26:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: telebot-components
+[2023-07-16 14:26:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: birdepy
+[2023-07-16 14:26:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: etm-dgraham
+[2023-07-16 14:26:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mdnet
+[2023-07-16 14:26:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pykinect-recorder
+[2023-07-16 14:26:27] INFO root fetch - processPackages [telebot-components]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-07-16 14:26:27] INFO root fetch - processPackages [mdnet]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-16 14:26:27] INFO root fetch - processPackages [pykinect-recorder]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-07-16 14:26:27] INFO root fetch - processPackages [birdepy]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-16 14:26:27] INFO root fetch - processPackages [etm-dgraham]: New version: [5.1.8] Old Version: [5.1.7]
+[2023-07-16 14:26:27] INFO root fetch - processPackages [birdepy]: Downloading https://files.pythonhosted.org/packages/f0/c3/d2995ea56ab65bc35acb53eeadb427fb89fb3ab6bd4b04aa110cb505cbe4/birdepy-0.0.8.tar.gz
+[2023-07-16 14:26:27] INFO root fetch - processPackages [pykinect-recorder]: Downloading https://files.pythonhosted.org/packages/34/fc/835fa92962e90e8e09ed621573ff0b2846c16ad33317e83fcc6e5e4d40a9/pykinect_recorder-0.9.2.tar.gz
+[2023-07-16 14:26:27] INFO root fetch - processPackages [mdnet]: Downloading https://files.pythonhosted.org/packages/c0/2e/914c6421e58fdb1920c284dc2d622731f1ad6794ab079a508baa2dfb00b7/mdnet-0.1.0.tar.gz
+[2023-07-16 14:26:27] INFO root fetch - processPackages [telebot-components]: Downloading https://files.pythonhosted.org/packages/fb/23/cd5704df83fc37ad6b64b1565fd12e1c10aab201ef5cbc5801bc47d77b3e/telebot_components-0.8.8.tar.gz
+[2023-07-16 14:26:27] INFO root fetch - processPackages [etm-dgraham]: Downloading https://files.pythonhosted.org/packages/e6/1a/1f5ce6765c58a81511d98e32fbc099c2444e47972984d7725f79c2dda8a4/etm-dgraham-5.1.7.tar.gz
+[2023-07-16 14:26:28] INFO root fetch - processPackages [mdnet]: Downloading https://files.pythonhosted.org/packages/af/1e/8b91170cc33fbc93a531da1f037f286115eaae8d2ac505a55772c5abe141/mdnet-0.1.1.tar.gz
+[2023-07-16 14:26:28] INFO root fetch - processPackages [pykinect-recorder]: Downloading https://files.pythonhosted.org/packages/ad/56/1ac25d36b51700136f1b773b1d49231801fa7e95bbdbc739a3a61519bd2e/pykinect_recorder-0.9.3.tar.gz
+[2023-07-16 14:26:28] INFO root fetch - processPackages [birdepy]: Downloading https://files.pythonhosted.org/packages/19/34/577c6303cd69a8ff0ecf8f5ba49e7eb6faa2ea03c7f1e46b1dd8b0999336/birdepy-0.0.9.tar.gz
+[2023-07-16 14:26:28] INFO root fetch - processPackages [telebot-components]: Downloading https://files.pythonhosted.org/packages/3a/da/e1a7548f1c8197cc3f9e3f2536ffb60ff45538ac1b8299ad48cbc0442a41/telebot_components-0.8.9.tar.gz
+[2023-07-16 14:26:28] INFO root fetch - processPackages [telebot-components]: executing diffoscope
+[2023-07-16 14:26:28] INFO root fetch - processPackages [telebot-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/telebot_components-0.8.8.tar.gz tmp/telebot_components-0.8.9.tar.gz --markdown 20230716/t/telebot-components/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-07-16 14:26:28] INFO root fetch - processPackages [mdnet]: executing diffoscope
+[2023-07-16 14:26:28] INFO root fetch - processPackages [mdnet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mdnet-0.1.0.tar.gz tmp/mdnet-0.1.1.tar.gz --markdown 20230716/m/mdnet/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-16 14:26:28] INFO root fetch - processPackages [birdepy]: executing diffoscope
+[2023-07-16 14:26:28] INFO root fetch - processPackages [birdepy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/birdepy-0.0.8.tar.gz tmp/birdepy-0.0.9.tar.gz --markdown 20230716/b/birdepy/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-16 14:26:28] INFO root fetch - processPackages [pykinect-recorder]: executing diffoscope
+[2023-07-16 14:26:28] INFO root fetch - processPackages [pykinect-recorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pykinect_recorder-0.9.2.tar.gz tmp/pykinect_recorder-0.9.3.tar.gz --markdown 20230716/p/pykinect-recorder/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-07-16 14:26:28] INFO root fetch - processPackages [etm-dgraham]: Downloading https://files.pythonhosted.org/packages/d8/33/3caf9dd340c0ee2a4e2f985d371a29616473dc128585eb2496056b48de6c/etm-dgraham-5.1.8.tar.gz
+[2023-07-16 14:26:28] INFO root fetch - processPackages [etm-dgraham]: executing diffoscope
+[2023-07-16 14:26:28] INFO root fetch - processPackages [etm-dgraham]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/etm-dgraham-5.1.7.tar.gz tmp/etm-dgraham-5.1.8.tar.gz --markdown 20230716/e/etm-dgraham/5.1.7-5.1.8/diff.md --exclude *.pyd
+[2023-07-16 14:26:29] INFO root fetch - processPackages [mdnet]: Remove: archive file [/home/abi/fetcher/tmp/mdnet-0.1.0.tar.gz]
+[2023-07-16 14:26:29] INFO root fetch - processPackages [mdnet]: Remove: archive file [/home/abi/fetcher/tmp/mdnet-0.1.1.tar.gz]
+[2023-07-16 14:26:29] INFO root fetch - main [MainThread]: End processing [mdnet]: success
+[2023-07-16 14:26:29] INFO root fetch - processPackages [telebot-components]: Remove: archive file [/home/abi/fetcher/tmp/telebot_components-0.8.8.tar.gz]
+[2023-07-16 14:26:29] INFO root fetch - processPackages [telebot-components]: Remove: archive file [/home/abi/fetcher/tmp/telebot_components-0.8.9.tar.gz]
+[2023-07-16 14:26:29] INFO root fetch - main [MainThread]: End processing [telebot-components]: success
+[2023-07-16 14:26:29] INFO root fetch - processPackages [pykinect-recorder]: Remove: archive file [/home/abi/fetcher/tmp/pykinect_recorder-0.9.2.tar.gz]
+[2023-07-16 14:26:29] INFO root fetch - processPackages [pykinect-recorder]: Remove: archive file [/home/abi/fetcher/tmp/pykinect_recorder-0.9.3.tar.gz]
+[2023-07-16 14:26:29] INFO root fetch - main [MainThread]: End processing [pykinect-recorder]: success
+[2023-07-16 14:26:29] INFO root fetch - processPackages [etm-dgraham]: Remove: archive file [/home/abi/fetcher/tmp/etm-dgraham-5.1.7.tar.gz]
+[2023-07-16 14:26:29] INFO root fetch - processPackages [etm-dgraham]: Remove: archive file [/home/abi/fetcher/tmp/etm-dgraham-5.1.8.tar.gz]
+[2023-07-16 14:26:29] INFO root fetch - main [MainThread]: End processing [etm-dgraham]: success
+[2023-07-16 14:26:30] INFO root fetch - processPackages [birdepy]: Remove: archive file [/home/abi/fetcher/tmp/birdepy-0.0.8.tar.gz]
+[2023-07-16 14:26:30] INFO root fetch - processPackages [birdepy]: Remove: archive file [/home/abi/fetcher/tmp/birdepy-0.0.9.tar.gz]
+[2023-07-16 14:26:30] INFO root fetch - main [MainThread]: End processing [birdepy]: success
+[2023-07-16 14:26:30] INFO root fetch - main [MainThread]: Store serial: [18906782]
