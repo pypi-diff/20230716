@@ -3375,3 +3375,54 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-16 05:45:57] INFO root fetch - processPackages [phables]: Remove: archive file [/home/abi/fetcher/tmp/phables-1.1.0.tar.gz]
 [2023-07-16 05:45:57] INFO root fetch - main [MainThread]: End processing [phables]: success
 [2023-07-16 05:45:57] INFO root fetch - main [MainThread]: Store serial: [18904633]
+[2023-07-16 05:51:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18904633]
+[2023-07-16 05:51:06] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-16 05:51:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: phables
+[2023-07-16 05:51:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: olchikipython
+[2023-07-16 05:51:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Cantera
+[2023-07-16 05:51:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: coconut-develop
+[2023-07-16 05:51:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: spark-quality-rules-tools
+[2023-07-16 05:51:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aifactory
+[2023-07-16 05:51:06] INFO root fetch - processPackages [aifactory]: New version: [1.7.2] Old Version: [1.7.1]
+[2023-07-16 05:51:06] INFO root fetch - processPackages [Cantera]: New version: [3.0.0b1] Old Version: [2.6.0b2]
+[2023-07-16 05:51:06] WARNING root fetch - processPackages [olchikipython]: Skipping, unable to determine old version
+[2023-07-16 05:51:06] INFO root fetch - main [MainThread]: End processing [olchikipython] error
+[2023-07-16 05:51:06] INFO root fetch - processPackages [phables]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-07-16 05:51:06] INFO root fetch - processPackages [spark-quality-rules-tools]: New version: [0.9.0] Old Version: [0.8.5]
+[2023-07-16 05:51:06] INFO root fetch - processPackages [coconut-develop]: New version: [3.0.2.post0.dev9] Old Version: [3.0.2.post0.dev8]
+[2023-07-16 05:51:06] INFO root fetch - processPackages [aifactory]: Downloading https://files.pythonhosted.org/packages/85/5d/ba3f991f03d5162e200a1eb05972b845d582a068a255f3b46dc7105769c2/aifactory-1.7.1.tar.gz
+[2023-07-16 05:51:06] INFO root fetch - processPackages [phables]: Downloading https://files.pythonhosted.org/packages/a5/51/eeb3398ce6e507bec1222d82ab4954984be257a756916d38e9cf0965d02b/phables-1.0.0.tar.gz
+[2023-07-16 05:51:06] INFO root fetch - processPackages [spark-quality-rules-tools]: Downloading https://files.pythonhosted.org/packages/f7/6e/30aa34580ecfdaea3f42cafda9f15e2c2ce3daaec4283918b54988f494f1/spark_quality_rules_tools-0.8.5.tar.gz
+[2023-07-16 05:51:06] INFO root fetch - processPackages [coconut-develop]: Downloading https://files.pythonhosted.org/packages/76/ba/83f4a7e45967086c125a6525e086526f469362e3a1327a44f8df15d67400/coconut-develop-3.0.2.post0.dev8.tar.gz
+[2023-07-16 05:51:06] INFO root fetch - processPackages [Cantera]: Downloading https://files.pythonhosted.org/packages/eb/1d/689d742c411926b3453dca5faff7c66a2e03e1bb50ee7bd19a28029ed865/Cantera-2.6.0b2.tar.gz
+[2023-07-16 05:51:06] INFO root fetch - processPackages [aifactory]: Downloading https://files.pythonhosted.org/packages/72/e8/8b9e1d0ea53e063613c5afd8ff883d95c91ac405d6c91f655e4e1c8153aa/aifactory-1.7.2.tar.gz
+[2023-07-16 05:51:06] INFO root fetch - processPackages [spark-quality-rules-tools]: Downloading https://files.pythonhosted.org/packages/2a/ef/4cd37ee13c59de0b0b985b10f7d817bfeedf70d30e465e5c856064cf1f95/spark_quality_rules_tools-0.9.0.tar.gz
+[2023-07-16 05:51:06] INFO root fetch - processPackages [coconut-develop]: Downloading https://files.pythonhosted.org/packages/d7/8d/949a59bb813ee853bbb1d03d15a3f5a3de89562602ada8e1a9cca581a8d5/coconut-develop-3.0.2.post0.dev9.tar.gz
+[2023-07-16 05:51:06] INFO root fetch - processPackages [phables]: Downloading https://files.pythonhosted.org/packages/f3/52/b614fbd83f94ede6d157e647c1a61050e42242a7227cea23d97b511b0cfd/phables-1.1.0.tar.gz
+[2023-07-16 05:51:06] INFO root fetch - processPackages [aifactory]: executing diffoscope
+[2023-07-16 05:51:06] INFO root fetch - processPackages [aifactory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aifactory-1.7.1.tar.gz tmp/aifactory-1.7.2.tar.gz --markdown 20230716/a/aifactory/1.7.1-1.7.2/diff.md --exclude *.pyd
+[2023-07-16 05:51:06] INFO root fetch - processPackages [coconut-develop]: executing diffoscope
+[2023-07-16 05:51:06] INFO root fetch - processPackages [coconut-develop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coconut-develop-3.0.2.post0.dev8.tar.gz tmp/coconut-develop-3.0.2.post0.dev9.tar.gz --markdown 20230716/c/coconut-develop/3.0.2.post0.dev8-3.0.2.post0.dev9/diff.md --exclude *.pyd
+[2023-07-16 05:51:07] INFO root fetch - processPackages [spark-quality-rules-tools]: executing diffoscope
+[2023-07-16 05:51:07] INFO root fetch - processPackages [spark-quality-rules-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spark_quality_rules_tools-0.8.5.tar.gz tmp/spark_quality_rules_tools-0.9.0.tar.gz --markdown 20230716/s/spark-quality-rules-tools/0.8.5-0.9.0/diff.md --exclude *.pyd
+[2023-07-16 05:51:07] INFO root fetch - processPackages [phables]: executing diffoscope
+[2023-07-16 05:51:07] INFO root fetch - processPackages [phables]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phables-1.0.0.tar.gz tmp/phables-1.1.0.tar.gz --markdown 20230716/p/phables/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-07-16 05:51:07] INFO root fetch - processPackages [aifactory]: Remove: archive file [/home/abi/fetcher/tmp/aifactory-1.7.1.tar.gz]
+[2023-07-16 05:51:07] INFO root fetch - processPackages [aifactory]: Remove: archive file [/home/abi/fetcher/tmp/aifactory-1.7.2.tar.gz]
+[2023-07-16 05:51:07] INFO root fetch - main [MainThread]: End processing [aifactory]: success
+[2023-07-16 05:51:07] INFO root fetch - processPackages [spark-quality-rules-tools]: Remove: archive file [/home/abi/fetcher/tmp/spark_quality_rules_tools-0.8.5.tar.gz]
+[2023-07-16 05:51:07] INFO root fetch - processPackages [spark-quality-rules-tools]: Remove: archive file [/home/abi/fetcher/tmp/spark_quality_rules_tools-0.9.0.tar.gz]
+[2023-07-16 05:51:07] INFO root fetch - main [MainThread]: End processing [spark-quality-rules-tools]: success
+[2023-07-16 05:51:08] INFO root fetch - processPackages [coconut-develop]: Remove: archive file [/home/abi/fetcher/tmp/coconut-develop-3.0.2.post0.dev8.tar.gz]
+[2023-07-16 05:51:08] INFO root fetch - processPackages [coconut-develop]: Remove: archive file [/home/abi/fetcher/tmp/coconut-develop-3.0.2.post0.dev9.tar.gz]
+[2023-07-16 05:51:08] INFO root fetch - main [MainThread]: End processing [coconut-develop]: success
+[2023-07-16 05:51:08] INFO root fetch - processPackages [Cantera]: Downloading https://files.pythonhosted.org/packages/e4/fe/27b9f2bc620dd99fecb7470e6e3c14ff1f99537fd398c64e099238fe3f7c/Cantera-3.0.0b1.tar.gz
+[2023-07-16 05:51:08] INFO root fetch - processPackages [phables]: Remove: archive file [/home/abi/fetcher/tmp/phables-1.0.0.tar.gz]
+[2023-07-16 05:51:08] INFO root fetch - processPackages [phables]: Remove: archive file [/home/abi/fetcher/tmp/phables-1.1.0.tar.gz]
+[2023-07-16 05:51:08] INFO root fetch - main [MainThread]: End processing [phables]: success
+[2023-07-16 05:51:08] INFO root fetch - processPackages [Cantera]: executing diffoscope
+[2023-07-16 05:51:08] INFO root fetch - processPackages [Cantera]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Cantera-2.6.0b2.tar.gz tmp/Cantera-3.0.0b1.tar.gz --markdown 20230716/C/Cantera/2.6.0b2-3.0.0b1/diff.md --exclude *.pyd
+[2023-07-16 05:51:21] INFO root fetch - processPackages [Cantera]: Remove: archive file [/home/abi/fetcher/tmp/Cantera-2.6.0b2.tar.gz]
+[2023-07-16 05:51:21] INFO root fetch - processPackages [Cantera]: Remove: archive file [/home/abi/fetcher/tmp/Cantera-3.0.0b1.tar.gz]
+[2023-07-16 05:51:21] INFO root fetch - main [MainThread]: End processing [Cantera]: success
+[2023-07-16 05:51:21] INFO root fetch - main [MainThread]: Store serial: [18904692]
