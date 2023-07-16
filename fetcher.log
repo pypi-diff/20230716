@@ -12485,3 +12485,51 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-16 20:07:58] INFO root fetch - processPackages [piperider-nightly]: Remove: archive file [/home/abi/fetcher/tmp/piperider-nightly-0.9.0.20220921.tar.gz]
 [2023-07-16 20:07:58] INFO root fetch - main [MainThread]: End processing [piperider-nightly]: success
 [2023-07-16 20:07:58] INFO root fetch - main [MainThread]: Store serial: [18908553]
+[2023-07-16 20:13:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18908553]
+[2023-07-16 20:13:06] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-16 20:13:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: siman
+[2023-07-16 20:13:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: FinanceTrackerCLI
+[2023-07-16 20:13:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: openshift-python-wrapper
+[2023-07-16 20:13:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: samus-logging
+[2023-07-16 20:13:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Algo-Vi
+[2023-07-16 20:13:07] INFO root fetch - processPackages [siman]: New version: [1.3.7] Old Version: [1.3.6]
+[2023-07-16 20:13:07] INFO root fetch - processPackages [Algo-Vi]: New version: [1.0.3] Old Version: [1.0.1]
+[2023-07-16 20:13:07] INFO root fetch - processPackages [samus-logging]: New version: [0.1.93] Old Version: [0.1.92]
+[2023-07-16 20:13:07] INFO root fetch - processPackages [FinanceTrackerCLI]: New version: [1.3.0.6] Old Version: [1.3.0.5]
+[2023-07-16 20:13:07] INFO root fetch - processPackages [openshift-python-wrapper]: New version: [4.9.9.12] Old Version: [4.9.7.12]
+[2023-07-16 20:13:07] INFO root fetch - processPackages [samus-logging]: Downloading https://files.pythonhosted.org/packages/21/13/44f04b364d62e5b8909bb67aa0a9102e331b8fbd20ece1ac326b78843dce/samus-logging-0.1.92.tar.gz
+[2023-07-16 20:13:07] INFO root fetch - processPackages [FinanceTrackerCLI]: Downloading https://files.pythonhosted.org/packages/78/4e/cb54b7c17d74b735231eab66c8a3ad45bddf04167b25ae4000c3f1399be3/FinanceTrackerCLI-1.3.0.5.tar.gz
+[2023-07-16 20:13:07] INFO root fetch - processPackages [siman]: Downloading https://files.pythonhosted.org/packages/b1/b5/48804c51cd3d4ee3b86dea610a038c06a067455db64e16b8c6994e984159/siman-1.3.6.tar.gz
+[2023-07-16 20:13:07] INFO root fetch - processPackages [openshift-python-wrapper]: Downloading https://files.pythonhosted.org/packages/9f/52/8943f0836c823ed0ab894348233d99a219025753e654fa494137828358f9/openshift-python-wrapper-4.9.7.12.tar.gz
+[2023-07-16 20:13:07] INFO root fetch - processPackages [Algo-Vi]: Downloading https://files.pythonhosted.org/packages/be/72/d4f647e2e51690ebbb4b39a6a8c46f16dfb82275a8156534235a1a3f7de8/Algo_Vi-1.0.1.tar.gz
+[2023-07-16 20:13:07] INFO root fetch - processPackages [samus-logging]: Downloading https://files.pythonhosted.org/packages/a1/90/f9ce85a751f558f3fc2e7343e2f37d0c0035626d720a3b72453b06c51c59/samus-logging-0.1.93.tar.gz
+[2023-07-16 20:13:07] INFO root fetch - processPackages [FinanceTrackerCLI]: Downloading https://files.pythonhosted.org/packages/19/ac/35e3549569ceb875f0f835318eb482d4b929a3ecf94aa5829602f98934b4/FinanceTrackerCLI-1.3.0.6.tar.gz
+[2023-07-16 20:13:07] INFO root fetch - processPackages [siman]: Downloading https://files.pythonhosted.org/packages/85/6f/736f7240aac66ccd2cd17014bfc4f384ce312e15a2774c305f44a68649d0/siman-1.3.7.tar.gz
+[2023-07-16 20:13:07] INFO root fetch - processPackages [samus-logging]: executing diffoscope
+[2023-07-16 20:13:07] INFO root fetch - processPackages [samus-logging]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/samus-logging-0.1.92.tar.gz tmp/samus-logging-0.1.93.tar.gz --markdown 20230716/s/samus-logging/0.1.92-0.1.93/diff.md --exclude *.pyd
+[2023-07-16 20:13:07] INFO root fetch - processPackages [FinanceTrackerCLI]: executing diffoscope
+[2023-07-16 20:13:07] INFO root fetch - processPackages [FinanceTrackerCLI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FinanceTrackerCLI-1.3.0.5.tar.gz tmp/FinanceTrackerCLI-1.3.0.6.tar.gz --markdown 20230716/F/FinanceTrackerCLI/1.3.0.5-1.3.0.6/diff.md --exclude *.pyd
+[2023-07-16 20:13:07] INFO root fetch - processPackages [Algo-Vi]: Downloading https://files.pythonhosted.org/packages/d9/de/1e41814845c06079c407a8116a9e674f5c20b48b1ec2a3ebc1b12cb1b1ab/Algo-Vi-1.0.3.tar.gz
+[2023-07-16 20:13:07] INFO root fetch - processPackages [openshift-python-wrapper]: Downloading https://files.pythonhosted.org/packages/e7/2c/25381b003b6e49919b5c98f68796af474a0b6fb3e28c46552a6949c6160a/openshift-python-wrapper-4.9.9.12.tar.gz
+[2023-07-16 20:13:07] INFO root fetch - processPackages [siman]: executing diffoscope
+[2023-07-16 20:13:07] INFO root fetch - processPackages [siman]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/siman-1.3.6.tar.gz tmp/siman-1.3.7.tar.gz --markdown 20230716/s/siman/1.3.6-1.3.7/diff.md --exclude *.pyd
+[2023-07-16 20:13:08] INFO root fetch - processPackages [openshift-python-wrapper]: executing diffoscope
+[2023-07-16 20:13:08] INFO root fetch - processPackages [openshift-python-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openshift-python-wrapper-4.9.7.12.tar.gz tmp/openshift-python-wrapper-4.9.9.12.tar.gz --markdown 20230716/o/openshift-python-wrapper/4.9.7.12-4.9.9.12/diff.md --exclude *.pyd
+[2023-07-16 20:13:08] INFO root fetch - processPackages [Algo-Vi]: executing diffoscope
+[2023-07-16 20:13:08] INFO root fetch - processPackages [Algo-Vi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Algo_Vi-1.0.1.tar.gz tmp/Algo-Vi-1.0.3.tar.gz --markdown 20230716/A/Algo-Vi/1.0.1-1.0.3/diff.md --exclude *.pyd
+[2023-07-16 20:13:08] INFO root fetch - processPackages [samus-logging]: Remove: archive file [/home/abi/fetcher/tmp/samus-logging-0.1.92.tar.gz]
+[2023-07-16 20:13:08] INFO root fetch - processPackages [samus-logging]: Remove: archive file [/home/abi/fetcher/tmp/samus-logging-0.1.93.tar.gz]
+[2023-07-16 20:13:08] INFO root fetch - main [MainThread]: End processing [samus-logging]: success
+[2023-07-16 20:13:08] INFO root fetch - processPackages [FinanceTrackerCLI]: Remove: archive file [/home/abi/fetcher/tmp/FinanceTrackerCLI-1.3.0.5.tar.gz]
+[2023-07-16 20:13:08] INFO root fetch - processPackages [FinanceTrackerCLI]: Remove: archive file [/home/abi/fetcher/tmp/FinanceTrackerCLI-1.3.0.6.tar.gz]
+[2023-07-16 20:13:08] INFO root fetch - main [MainThread]: End processing [FinanceTrackerCLI]: success
+[2023-07-16 20:13:09] INFO root fetch - processPackages [openshift-python-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/openshift-python-wrapper-4.9.7.12.tar.gz]
+[2023-07-16 20:13:09] INFO root fetch - processPackages [openshift-python-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/openshift-python-wrapper-4.9.9.12.tar.gz]
+[2023-07-16 20:13:09] INFO root fetch - main [MainThread]: End processing [openshift-python-wrapper]: success
+[2023-07-16 20:13:09] INFO root fetch - processPackages [siman]: Remove: archive file [/home/abi/fetcher/tmp/siman-1.3.6.tar.gz]
+[2023-07-16 20:13:09] INFO root fetch - processPackages [siman]: Remove: archive file [/home/abi/fetcher/tmp/siman-1.3.7.tar.gz]
+[2023-07-16 20:13:09] INFO root fetch - main [MainThread]: End processing [siman]: success
+[2023-07-16 20:13:10] INFO root fetch - processPackages [Algo-Vi]: Remove: archive file [/home/abi/fetcher/tmp/Algo_Vi-1.0.1.tar.gz]
+[2023-07-16 20:13:10] INFO root fetch - processPackages [Algo-Vi]: Remove: archive file [/home/abi/fetcher/tmp/Algo-Vi-1.0.3.tar.gz]
+[2023-07-16 20:13:10] INFO root fetch - main [MainThread]: End processing [Algo-Vi]: success
+[2023-07-16 20:13:10] INFO root fetch - main [MainThread]: Store serial: [18908566]
