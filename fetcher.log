@@ -1750,3 +1750,42 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-16 02:46:12] INFO root fetch - processPackages [cdk8s-plus-26]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-26-2.4.91.tar.gz]
 [2023-07-16 02:46:12] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-26]: success
 [2023-07-16 02:46:12] INFO root fetch - main [MainThread]: Store serial: [18903955]
+[2023-07-16 02:51:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18903955]
+[2023-07-16 02:51:20] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-16 02:51:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tfds-nightly
+[2023-07-16 02:51:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sayswho
+[2023-07-16 02:51:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kubric-nightly
+[2023-07-16 02:51:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: state-machine-semaphore
+[2023-07-16 02:51:20] INFO root fetch - processPackages [sayswho]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-16 02:51:20] INFO root fetch - processPackages [state-machine-semaphore]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-16 02:51:20] INFO root fetch - processPackages [kubric-nightly]: New version: [2023.7.9] Old Version: [2023.7.8]
+[2023-07-16 02:51:20] INFO root fetch - processPackages [state-machine-semaphore]: Downloading https://files.pythonhosted.org/packages/fa/f7/eea494ef2079699969c054c97478b7e0d5db0ce186fbb2708d9a243b4366/state-machine-semaphore-0.1.98.tar.gz
+[2023-07-16 02:51:20] INFO root fetch - processPackages [tfds-nightly]: New version: [4.9.2.dev202307160046] Old Version: [4.9.2.dev202307150045]
+[2023-07-16 02:51:20] INFO root fetch - processPackages [kubric-nightly]: Downloading https://files.pythonhosted.org/packages/bf/45/efe5ab87889959326f80b81945414a41c438fa00b255ffe28308ecb3b52b/kubric-nightly-2023.7.8.tar.gz
+[2023-07-16 02:51:21] INFO root fetch - processPackages [sayswho]: Downloading https://files.pythonhosted.org/packages/3f/36/4b951043c0d05bf9c83d6700f904ce8e1c123adccbd33838c4f40e3d7b20/sayswho-0.1.1.tar.gz
+[2023-07-16 02:51:21] INFO root fetch - processPackages [kubric-nightly]: Downloading https://files.pythonhosted.org/packages/bb/cd/24a7d0673a40d4a2ccf50e8e9298594da4b918433ca23a33d7273fcb6871/kubric-nightly-2023.7.9.tar.gz
+[2023-07-16 02:51:21] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/a8/d0/bdbeefde54e9a7dd9d1fa5b0d0f9d2d87636e29a77a939c4369264516d82/tfds-nightly-4.9.2.dev202307150045.tar.gz
+[2023-07-16 02:51:21] INFO root fetch - processPackages [state-machine-semaphore]: Downloading https://files.pythonhosted.org/packages/80/0f/c73e069a7ceff3d9f61065aa4b5b338bc0b9f4f933b94a97692457bfa317/state-machine-semaphore-0.1.99.tar.gz
+[2023-07-16 02:51:21] INFO root fetch - processPackages [kubric-nightly]: executing diffoscope
+[2023-07-16 02:51:21] INFO root fetch - processPackages [kubric-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kubric-nightly-2023.7.8.tar.gz tmp/kubric-nightly-2023.7.9.tar.gz --markdown 20230716/k/kubric-nightly/2023.7.8-2023.7.9/diff.md --exclude *.pyd
+[2023-07-16 02:51:21] INFO root fetch - processPackages [state-machine-semaphore]: executing diffoscope
+[2023-07-16 02:51:21] INFO root fetch - processPackages [state-machine-semaphore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/state-machine-semaphore-0.1.98.tar.gz tmp/state-machine-semaphore-0.1.99.tar.gz --markdown 20230716/s/state-machine-semaphore/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-07-16 02:51:21] INFO root fetch - processPackages [sayswho]: Downloading https://files.pythonhosted.org/packages/95/8c/65492b607846e710f60467e88623a815e6d142e89edf8ffba559ee158dce/sayswho-0.1.2.tar.gz
+[2023-07-16 02:51:21] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/6b/aa/143b71e301035cfadfe161ba19c47c481c3cb22f06f09c54f13a6d29a4ef/tfds-nightly-4.9.2.dev202307160046.tar.gz
+[2023-07-16 02:51:21] INFO root fetch - processPackages [sayswho]: executing diffoscope
+[2023-07-16 02:51:21] INFO root fetch - processPackages [sayswho]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sayswho-0.1.1.tar.gz tmp/sayswho-0.1.2.tar.gz --markdown 20230716/s/sayswho/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-16 02:51:21] INFO root fetch - processPackages [tfds-nightly]: executing diffoscope
+[2023-07-16 02:51:21] INFO root fetch - processPackages [tfds-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfds-nightly-4.9.2.dev202307150045.tar.gz tmp/tfds-nightly-4.9.2.dev202307160046.tar.gz --markdown 20230716/t/tfds-nightly/4.9.2.dev202307150045-4.9.2.dev202307160046/diff.md --exclude *.pyd
+[2023-07-16 02:51:22] INFO root fetch - processPackages [kubric-nightly]: Remove: archive file [/home/abi/fetcher/tmp/kubric-nightly-2023.7.8.tar.gz]
+[2023-07-16 02:51:22] INFO root fetch - processPackages [kubric-nightly]: Remove: archive file [/home/abi/fetcher/tmp/kubric-nightly-2023.7.9.tar.gz]
+[2023-07-16 02:51:22] INFO root fetch - main [MainThread]: End processing [kubric-nightly]: success
+[2023-07-16 02:51:22] INFO root fetch - processPackages [state-machine-semaphore]: Remove: archive file [/home/abi/fetcher/tmp/state-machine-semaphore-0.1.98.tar.gz]
+[2023-07-16 02:51:22] INFO root fetch - processPackages [state-machine-semaphore]: Remove: archive file [/home/abi/fetcher/tmp/state-machine-semaphore-0.1.99.tar.gz]
+[2023-07-16 02:51:22] INFO root fetch - main [MainThread]: End processing [state-machine-semaphore]: success
+[2023-07-16 02:51:22] INFO root fetch - processPackages [sayswho]: Remove: archive file [/home/abi/fetcher/tmp/sayswho-0.1.1.tar.gz]
+[2023-07-16 02:51:22] INFO root fetch - processPackages [sayswho]: Remove: archive file [/home/abi/fetcher/tmp/sayswho-0.1.2.tar.gz]
+[2023-07-16 02:51:22] INFO root fetch - main [MainThread]: End processing [sayswho]: success
+[2023-07-16 02:51:27] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.2.dev202307150045.tar.gz]
+[2023-07-16 02:51:27] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.2.dev202307160046.tar.gz]
+[2023-07-16 02:51:27] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
+[2023-07-16 02:51:27] INFO root fetch - main [MainThread]: Store serial: [18904014]
