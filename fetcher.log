@@ -12964,3 +12964,90 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-16 20:44:25] INFO root fetch - main [MainThread]: End processing [antsibull-docs]: success
 [2023-07-16 20:44:25] INFO root fetch - main [MainThread]: End processing [antsibull-docs]: success
 [2023-07-16 20:44:25] INFO root fetch - main [MainThread]: Store serial: [18908722]
+[2023-07-16 20:49:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18908722]
+[2023-07-16 20:49:34] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-16 20:49:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gpforecaster
+[2023-07-16 20:49:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: orso
+[2023-07-16 20:49:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ast-grep-cli
+[2023-07-16 20:49:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: philbot-voice
+[2023-07-16 20:49:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kfish
+[2023-07-16 20:49:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: newslinkrss
+[2023-07-16 20:49:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: wodoo
+[2023-07-16 20:49:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: emergenet
+[2023-07-16 20:49:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: venture-ai
+[2023-07-16 20:49:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: roblox-pyc
+[2023-07-16 20:49:34] INFO root fetch - processPackages [ast-grep-cli]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-16 20:49:34] INFO root fetch - processPackages [gpforecaster]: New version: [0.3.9] Old Version: [0.3.89]
+[2023-07-16 20:49:34] INFO root fetch - processPackages [orso]: New version: [0.0.9] Old Version: [0.0.87]
+[2023-07-16 20:49:34] INFO root fetch - processPackages [emergenet]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-16 20:49:34] INFO root fetch - processPackages [roblox-pyc]: New version: [1.6.6.5a0] Old Version: [1.6.6.5.4]
+[2023-07-16 20:49:34] WARNING root fetch - processPackages [venture-ai]: Skipping, unable to determine old version
+[2023-07-16 20:49:34] INFO root fetch - main [MainThread]: End processing [venture-ai] error
+[2023-07-16 20:49:34] INFO root fetch - processPackages [newslinkrss]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-16 20:49:34] INFO root fetch - processPackages [wodoo]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-07-16 20:49:34] INFO root fetch - processPackages [philbot-voice]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-07-16 20:49:34] INFO root fetch - processPackages [kfish]: New version: [99.0.202307161845] Old Version: [99.0.202307161511]
+[2023-07-16 20:49:34] INFO root fetch - processPackages [emergenet]: Downloading https://files.pythonhosted.org/packages/01/89/383d61e6f1dad8986f99498987337f0dd51e603ef3d2daee7e550d748120/emergenet-0.0.8.tar.gz
+[2023-07-16 20:49:34] INFO root fetch - processPackages [roblox-pyc]: Downloading https://files.pythonhosted.org/packages/44/ab/2c1167a2d328570fcff41305068766f10c181301f2cd7a1f64f72287fa27/roblox-pyc-1.6.6.5.4.tar.gz
+[2023-07-16 20:49:34] INFO root fetch - processPackages [ast-grep-cli]: Downloading https://files.pythonhosted.org/packages/95/5e/217925d9a643a41a9daed8caa2610e96139bbeeb0ecfd3bb6d410701ef82/ast_grep_cli-0.9.0.tar.gz
+[2023-07-16 20:49:34] INFO root fetch - processPackages [gpforecaster]: Downloading https://files.pythonhosted.org/packages/8d/59/078d6fd6cea895bab35b189b6d8df39181dd0379123a34c7fd4d02302414/gpforecaster-0.3.89.tar.gz
+[2023-07-16 20:49:34] INFO root fetch - processPackages [orso]: Downloading https://files.pythonhosted.org/packages/49/ea/80239176d6e4288b7033a3479175da7feb51648db4ef9e4a2f91dbd7700c/orso-0.0.87.tar.gz
+[2023-07-16 20:49:34] INFO root fetch - processPackages [philbot-voice]: Downloading https://files.pythonhosted.org/packages/05/bb/01605bb60fce0733760899cdc771b31c44c401248bd2c28398c5ce9e9df5/philbot_voice-1.9.8.tar.gz
+[2023-07-16 20:49:34] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/82/a9/bd70c948b2bf7a48b57c54af30c414b0edb3e72593457b51cb55d5340d99/kfish-99.0.202307161511-py3-none-any.whl
+[2023-07-16 20:49:34] INFO root fetch - processPackages [wodoo]: Downloading https://files.pythonhosted.org/packages/f1/e5/4eaf4bac81e606caa8deb3d95f64c8de95dc532f6bd16aef12de595f56cc/wodoo-0.4.8.tar.gz
+[2023-07-16 20:49:34] INFO root fetch - processPackages [newslinkrss]: Downloading https://files.pythonhosted.org/packages/30/c1/c4ea53f3d5693c145e6274a3d0428e3aa3ee7de87c1aabd1f086924e6781/newslinkrss-0.8.0.tar.gz
+[2023-07-16 20:49:35] INFO root fetch - processPackages [emergenet]: Downloading https://files.pythonhosted.org/packages/64/cd/356b4a467f17df337330223342d19dfc1ce7bb82435213ef9b59c2b7fbbd/emergenet-0.0.9.tar.gz
+[2023-07-16 20:49:35] INFO root fetch - processPackages [gpforecaster]: Downloading https://files.pythonhosted.org/packages/92/5f/ac0cce7d644b9cf855fde3021fe913db55e05b3641325229c5df912c2f36/gpforecaster-0.3.9.tar.gz
+[2023-07-16 20:49:35] INFO root fetch - processPackages [roblox-pyc]: Downloading https://files.pythonhosted.org/packages/59/75/7884ffaab86bf051065880fd8aefdfc8e3f2c34e7c9d4a8d352321ec57f8/roblox-pyc-1.6.6.5a0.tar.gz
+[2023-07-16 20:49:35] INFO root fetch - processPackages [orso]: Downloading https://files.pythonhosted.org/packages/d0/a6/e427d299b4d15d22164372c94c2665865951bb26973a967eca19d3d2493c/orso-0.0.9.tar.gz
+[2023-07-16 20:49:35] INFO root fetch - processPackages [ast-grep-cli]: Downloading https://files.pythonhosted.org/packages/c1/ca/ac948a9107e88222b30d115380ba499d3604fd09d0f46d66a7ffa9f15666/ast_grep_cli-0.9.1.tar.gz
+[2023-07-16 20:49:35] INFO root fetch - processPackages [emergenet]: executing diffoscope
+[2023-07-16 20:49:35] INFO root fetch - processPackages [emergenet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emergenet-0.0.8.tar.gz tmp/emergenet-0.0.9.tar.gz --markdown 20230716/e/emergenet/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-16 20:49:35] INFO root fetch - processPackages [philbot-voice]: Downloading https://files.pythonhosted.org/packages/3b/a7/1895e6c9d15fef6a2e8afcf48baeacca3915011fbe849f600b6b3dac7afb/philbot_voice-1.9.9.tar.gz
+[2023-07-16 20:49:35] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/ce/9d/95621350edbe1085c0d22b99e21a799c04bfd620b54e06e9f99370f276fb/kfish-99.0.202307161845-py3-none-any.whl
+[2023-07-16 20:49:35] INFO root fetch - processPackages [gpforecaster]: executing diffoscope
+[2023-07-16 20:49:35] INFO root fetch - processPackages [gpforecaster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpforecaster-0.3.89.tar.gz tmp/gpforecaster-0.3.9.tar.gz --markdown 20230716/g/gpforecaster/0.3.89-0.3.9/diff.md --exclude *.pyd
+[2023-07-16 20:49:35] INFO root fetch - processPackages [roblox-pyc]: executing diffoscope
+[2023-07-16 20:49:35] INFO root fetch - processPackages [roblox-pyc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roblox-pyc-1.6.6.5.4.tar.gz tmp/roblox-pyc-1.6.6.5a0.tar.gz --markdown 20230716/r/roblox-pyc/1.6.6.5.4-1.6.6.5a0/diff.md --exclude *.pyd
+[2023-07-16 20:49:35] INFO root fetch - processPackages [orso]: executing diffoscope
+[2023-07-16 20:49:35] INFO root fetch - processPackages [orso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/orso-0.0.87.tar.gz tmp/orso-0.0.9.tar.gz --markdown 20230716/o/orso/0.0.87-0.0.9/diff.md --exclude *.pyd
+[2023-07-16 20:49:35] INFO root fetch - processPackages [newslinkrss]: Downloading https://files.pythonhosted.org/packages/fe/b7/f222d20a974915c47fd07cb23536afc3e1a3a926d50805f076378b63b61f/newslinkrss-0.9.0.tar.gz
+[2023-07-16 20:49:35] INFO root fetch - processPackages [wodoo]: Downloading https://files.pythonhosted.org/packages/34/e8/81686b3a77a0edae554159a95e4782f911bd4ea59a2990954162a6b1e97e/wodoo-0.4.9.tar.gz
+[2023-07-16 20:49:35] INFO root fetch - processPackages [philbot-voice]: executing diffoscope
+[2023-07-16 20:49:35] INFO root fetch - processPackages [philbot-voice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/philbot_voice-1.9.8.tar.gz tmp/philbot_voice-1.9.9.tar.gz --markdown 20230716/p/philbot-voice/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-07-16 20:49:35] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-07-16 20:49:35] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202307161511-py3-none-any.whl.zip tmp/kfish-99.0.202307161845-py3-none-any.whl.zip --markdown 20230716/k/kfish/99.0.202307161511-99.0.202307161845/diff.md --exclude *.pyd
+[2023-07-16 20:49:35] INFO root fetch - processPackages [ast-grep-cli]: executing diffoscope
+[2023-07-16 20:49:35] INFO root fetch - processPackages [ast-grep-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ast_grep_cli-0.9.0.tar.gz tmp/ast_grep_cli-0.9.1.tar.gz --markdown 20230716/a/ast-grep-cli/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-16 20:49:35] INFO root fetch - processPackages [newslinkrss]: executing diffoscope
+[2023-07-16 20:49:35] INFO root fetch - processPackages [newslinkrss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/newslinkrss-0.8.0.tar.gz tmp/newslinkrss-0.9.0.tar.gz --markdown 20230716/n/newslinkrss/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-16 20:49:35] INFO root fetch - processPackages [wodoo]: executing diffoscope
+[2023-07-16 20:49:35] INFO root fetch - processPackages [wodoo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wodoo-0.4.8.tar.gz tmp/wodoo-0.4.9.tar.gz --markdown 20230716/w/wodoo/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-07-16 20:49:36] INFO root fetch - processPackages [emergenet]: Remove: archive file [/home/abi/fetcher/tmp/emergenet-0.0.8.tar.gz]
+[2023-07-16 20:49:36] INFO root fetch - processPackages [emergenet]: Remove: archive file [/home/abi/fetcher/tmp/emergenet-0.0.9.tar.gz]
+[2023-07-16 20:49:36] INFO root fetch - main [MainThread]: End processing [emergenet]: success
+[2023-07-16 20:49:36] INFO root fetch - processPackages [gpforecaster]: Remove: archive file [/home/abi/fetcher/tmp/gpforecaster-0.3.89.tar.gz]
+[2023-07-16 20:49:36] INFO root fetch - processPackages [gpforecaster]: Remove: archive file [/home/abi/fetcher/tmp/gpforecaster-0.3.9.tar.gz]
+[2023-07-16 20:49:36] INFO root fetch - main [MainThread]: End processing [gpforecaster]: success
+[2023-07-16 20:49:36] INFO root fetch - processPackages [philbot-voice]: Remove: archive file [/home/abi/fetcher/tmp/philbot_voice-1.9.8.tar.gz]
+[2023-07-16 20:49:36] INFO root fetch - processPackages [philbot-voice]: Remove: archive file [/home/abi/fetcher/tmp/philbot_voice-1.9.9.tar.gz]
+[2023-07-16 20:49:36] INFO root fetch - main [MainThread]: End processing [philbot-voice]: success
+[2023-07-16 20:49:37] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202307161511-py3-none-any.whl.zip]
+[2023-07-16 20:49:37] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202307161845-py3-none-any.whl.zip]
+[2023-07-16 20:49:37] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-07-16 20:49:37] INFO root fetch - processPackages [roblox-pyc]: Remove: archive file [/home/abi/fetcher/tmp/roblox-pyc-1.6.6.5.4.tar.gz]
+[2023-07-16 20:49:37] INFO root fetch - processPackages [roblox-pyc]: Remove: archive file [/home/abi/fetcher/tmp/roblox-pyc-1.6.6.5a0.tar.gz]
+[2023-07-16 20:49:37] INFO root fetch - main [MainThread]: End processing [roblox-pyc]: success
+[2023-07-16 20:49:37] INFO root fetch - processPackages [orso]: Remove: archive file [/home/abi/fetcher/tmp/orso-0.0.87.tar.gz]
+[2023-07-16 20:49:37] INFO root fetch - processPackages [orso]: Remove: archive file [/home/abi/fetcher/tmp/orso-0.0.9.tar.gz]
+[2023-07-16 20:49:37] INFO root fetch - main [MainThread]: End processing [orso]: success
+[2023-07-16 20:49:37] INFO root fetch - processPackages [newslinkrss]: Remove: archive file [/home/abi/fetcher/tmp/newslinkrss-0.8.0.tar.gz]
+[2023-07-16 20:49:37] INFO root fetch - processPackages [newslinkrss]: Remove: archive file [/home/abi/fetcher/tmp/newslinkrss-0.9.0.tar.gz]
+[2023-07-16 20:49:37] INFO root fetch - main [MainThread]: End processing [newslinkrss]: success
+[2023-07-16 20:49:37] INFO root fetch - processPackages [wodoo]: Remove: archive file [/home/abi/fetcher/tmp/wodoo-0.4.8.tar.gz]
+[2023-07-16 20:49:37] INFO root fetch - processPackages [wodoo]: Remove: archive file [/home/abi/fetcher/tmp/wodoo-0.4.9.tar.gz]
+[2023-07-16 20:49:37] INFO root fetch - main [MainThread]: End processing [wodoo]: success
+[2023-07-16 20:49:37] INFO root fetch - processPackages [ast-grep-cli]: Remove: archive file [/home/abi/fetcher/tmp/ast_grep_cli-0.9.0.tar.gz]
+[2023-07-16 20:49:37] INFO root fetch - processPackages [ast-grep-cli]: Remove: archive file [/home/abi/fetcher/tmp/ast_grep_cli-0.9.1.tar.gz]
+[2023-07-16 20:49:37] INFO root fetch - main [MainThread]: End processing [ast-grep-cli]: success
+[2023-07-16 20:49:37] INFO root fetch - main [MainThread]: Store serial: [18908771]
