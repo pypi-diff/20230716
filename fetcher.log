@@ -2736,3 +2736,33 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-16 04:32:44] INFO root fetch - processPackages [coconut-develop]: Remove: archive file [/home/abi/fetcher/tmp/coconut-develop-3.0.2.post0.dev9.tar.gz]
 [2023-07-16 04:32:44] INFO root fetch - main [MainThread]: End processing [coconut-develop]: success
 [2023-07-16 04:32:44] INFO root fetch - main [MainThread]: Store serial: [18904425]
+[2023-07-16 04:37:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18904425]
+[2023-07-16 04:37:53] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-16 04:37:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-url-tokenizer
+[2023-07-16 04:37:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: remote-drawing-provider
+[2023-07-16 04:37:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sweetrpg-library-objects
+[2023-07-16 04:37:53] INFO root fetch - processPackages [django-url-tokenizer]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-16 04:37:53] INFO root fetch - processPackages [remote-drawing-provider]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-16 04:37:53] INFO root fetch - processPackages [sweetrpg-library-objects]: New version: [0.0.86] Old Version: [0.0.85]
+[2023-07-16 04:37:53] INFO root fetch - processPackages [remote-drawing-provider]: Downloading https://files.pythonhosted.org/packages/c1/9e/a3be6a9da9ca530009381e213255026f9a27397c0d58a1025a2e8a929c74/remote-drawing-provider-1.0.2.tar.gz
+[2023-07-16 04:37:53] INFO root fetch - processPackages [django-url-tokenizer]: Downloading https://files.pythonhosted.org/packages/58/fc/c297e12ea86d40bc35c3034412e468c38bef18667e6adfe0b24802b0e417/django-url-tokenizer-0.0.8.tar.gz
+[2023-07-16 04:37:53] INFO root fetch - processPackages [sweetrpg-library-objects]: Downloading https://files.pythonhosted.org/packages/3b/8f/5bc5b1bf1cbb2bd23cd2883844aade1e32b222ebf1f95ad4be614a5a5fab/sweetrpg-library-objects-0.0.85.tar.gz
+[2023-07-16 04:37:53] INFO root fetch - processPackages [django-url-tokenizer]: Downloading https://files.pythonhosted.org/packages/c5/13/df27d1141ec44b1c35f247440fc5cb506efe40a15cbed84328a82cab2d67/django-url-tokenizer-0.0.9.tar.gz
+[2023-07-16 04:37:53] INFO root fetch - processPackages [sweetrpg-library-objects]: Downloading https://files.pythonhosted.org/packages/5e/9f/6f76023a2ce599dcc8f9336e4ca97d11bf333da43274c8193887a32463aa/sweetrpg-library-objects-0.0.86.tar.gz
+[2023-07-16 04:37:53] INFO root fetch - processPackages [django-url-tokenizer]: executing diffoscope
+[2023-07-16 04:37:53] INFO root fetch - processPackages [django-url-tokenizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-url-tokenizer-0.0.8.tar.gz tmp/django-url-tokenizer-0.0.9.tar.gz --markdown 20230716/d/django-url-tokenizer/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-16 04:37:53] INFO root fetch - processPackages [remote-drawing-provider]: Downloading https://files.pythonhosted.org/packages/93/02/a7a5d5a3b1be2d2cd22bf61f24c0030dd21ee214e4e3994b3ff064bd8373/remote-drawing-provider-1.0.3.tar.gz
+[2023-07-16 04:37:54] INFO root fetch - processPackages [sweetrpg-library-objects]: executing diffoscope
+[2023-07-16 04:37:54] INFO root fetch - processPackages [sweetrpg-library-objects]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sweetrpg-library-objects-0.0.85.tar.gz tmp/sweetrpg-library-objects-0.0.86.tar.gz --markdown 20230716/s/sweetrpg-library-objects/0.0.85-0.0.86/diff.md --exclude *.pyd
+[2023-07-16 04:37:54] INFO root fetch - processPackages [remote-drawing-provider]: executing diffoscope
+[2023-07-16 04:37:54] INFO root fetch - processPackages [remote-drawing-provider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remote-drawing-provider-1.0.2.tar.gz tmp/remote-drawing-provider-1.0.3.tar.gz --markdown 20230716/r/remote-drawing-provider/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-16 04:37:54] INFO root fetch - processPackages [django-url-tokenizer]: Remove: archive file [/home/abi/fetcher/tmp/django-url-tokenizer-0.0.8.tar.gz]
+[2023-07-16 04:37:54] INFO root fetch - processPackages [django-url-tokenizer]: Remove: archive file [/home/abi/fetcher/tmp/django-url-tokenizer-0.0.9.tar.gz]
+[2023-07-16 04:37:54] INFO root fetch - main [MainThread]: End processing [django-url-tokenizer]: success
+[2023-07-16 04:37:54] INFO root fetch - processPackages [remote-drawing-provider]: Remove: archive file [/home/abi/fetcher/tmp/remote-drawing-provider-1.0.2.tar.gz]
+[2023-07-16 04:37:54] INFO root fetch - processPackages [remote-drawing-provider]: Remove: archive file [/home/abi/fetcher/tmp/remote-drawing-provider-1.0.3.tar.gz]
+[2023-07-16 04:37:54] INFO root fetch - main [MainThread]: End processing [remote-drawing-provider]: success
+[2023-07-16 04:37:54] INFO root fetch - processPackages [sweetrpg-library-objects]: Remove: archive file [/home/abi/fetcher/tmp/sweetrpg-library-objects-0.0.85.tar.gz]
+[2023-07-16 04:37:54] INFO root fetch - processPackages [sweetrpg-library-objects]: Remove: archive file [/home/abi/fetcher/tmp/sweetrpg-library-objects-0.0.86.tar.gz]
+[2023-07-16 04:37:54] INFO root fetch - main [MainThread]: End processing [sweetrpg-library-objects]: success
+[2023-07-16 04:37:54] INFO root fetch - main [MainThread]: Store serial: [18904433]
