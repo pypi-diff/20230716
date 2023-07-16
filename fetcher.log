@@ -4698,3 +4698,78 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-16 08:47:51] INFO root fetch - processPackages [pyblip]: Remove: archive file [/home/abi/fetcher/tmp/pyblip-0.4.2.tar.gz]
 [2023-07-16 08:47:51] INFO root fetch - main [MainThread]: End processing [pyblip]: success
 [2023-07-16 08:47:51] INFO root fetch - main [MainThread]: Store serial: [18905281]
+[2023-07-16 08:52:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18905281]
+[2023-07-16 08:53:00] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-16 08:53:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lightning-template
+[2023-07-16 08:53:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: agentaction
+[2023-07-16 08:53:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: socscikit
+[2023-07-16 08:53:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: varsnap
+[2023-07-16 08:53:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ps-optimize
+[2023-07-16 08:53:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: MySupermath
+[2023-07-16 08:53:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pytomorrowio
+[2023-07-16 08:53:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: decora-bleak
+[2023-07-16 08:53:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: myeasygui
+[2023-07-16 08:53:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bb-apputils
+[2023-07-16 08:53:00] INFO root fetch - processPackages [varsnap]: New version: [1.5.7] Old Version: [1.5.6]
+[2023-07-16 08:53:00] INFO root fetch - processPackages [bb-apputils]: New version: [0.3.95] Old Version: [0.3.94]
+[2023-07-16 08:53:00] WARNING root fetch - processPackages [MySupermath]: Skipping, unable to determine old version
+[2023-07-16 08:53:00] INFO root fetch - main [MainThread]: End processing [MySupermath] error
+[2023-07-16 08:53:00] INFO root fetch - processPackages [decora-bleak]: New version: [0.1.0] Old Version: [0.0.1]
+[2023-07-16 08:53:00] WARNING root fetch - processPackages [ps-optimize]: Skipping, unable to determine old version
+[2023-07-16 08:53:00] INFO root fetch - main [MainThread]: End processing [ps-optimize] error
+[2023-07-16 08:53:00] WARNING root fetch - processPackages [agentaction]: Skipping, unable to determine old version
+[2023-07-16 08:53:00] INFO root fetch - main [MainThread]: End processing [agentaction] error
+[2023-07-16 08:53:00] INFO root fetch - processPackages [socscikit]: New version: [0.0.5.4] Old Version: [0.0.5.3]
+[2023-07-16 08:53:00] INFO root fetch - processPackages [myeasygui]: New version: [0.0.0.2] Old Version: [0.0.0.1]
+[2023-07-16 08:53:00] INFO root fetch - processPackages [pytomorrowio]: New version: [0.3.6] Old Version: [0.3.5]
+[2023-07-16 08:53:00] INFO root fetch - processPackages [lightning-template]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-16 08:53:00] INFO root fetch - processPackages [bb-apputils]: Downloading https://files.pythonhosted.org/packages/2a/0e/f0fb8cfcc3d67073f763e6545dec433e5601c374c7fbb8ba18b77d1dd846/bb_apputils-0.3.94.tar.gz
+[2023-07-16 08:53:00] INFO root fetch - processPackages [socscikit]: Downloading https://files.pythonhosted.org/packages/3f/75/8756f6e93faae251307870ff43a1f17b1082b4c8a4231933349b1d018cfa/socscikit-0.0.5.3.tar.gz
+[2023-07-16 08:53:00] INFO root fetch - processPackages [lightning-template]: Downloading https://files.pythonhosted.org/packages/bb/23/283f51826390193fc77c120c748d3599480b234089dc9eea07057d06ac6a/lightning-template-1.0.8.tar.gz
+[2023-07-16 08:53:00] INFO root fetch - processPackages [myeasygui]: Downloading https://files.pythonhosted.org/packages/7f/63/f5f22b7888115baf832bcd56e528ee9b0f98331219732e96ba7dfcfec60c/myeasygui-0.0.0.1.tar.gz
+[2023-07-16 08:53:00] INFO root fetch - processPackages [varsnap]: Downloading https://files.pythonhosted.org/packages/b6/01/f795e1bc90bad8343670c3b5101bb156f8ad8ef8d900402774ea9f2cb540/varsnap-1.5.6.tar.gz
+[2023-07-16 08:53:00] INFO root fetch - processPackages [pytomorrowio]: Downloading https://files.pythonhosted.org/packages/3b/6a/7a526f7ebfb51ecf3a53def242447c3f7a58d97775ee9f6dc277531dc9a9/pytomorrowio-0.3.5.tar.gz
+[2023-07-16 08:53:00] INFO root fetch - processPackages [decora-bleak]: Downloading https://files.pythonhosted.org/packages/77/cd/b3f1b3a4a361acaf4e6b6af33f121d12ccf70045e3966d074c1f403d1176/decora_bleak-0.0.1.tar.gz
+[2023-07-16 08:53:01] INFO root fetch - processPackages [lightning-template]: Downloading https://files.pythonhosted.org/packages/3c/15/188896748e785a66931b38a2f6e0ae23e7a6c736948e3b34b74d3220587a/lightning-template-1.0.9.tar.gz
+[2023-07-16 08:53:01] INFO root fetch - processPackages [bb-apputils]: Downloading https://files.pythonhosted.org/packages/65/12/7e4d94e86dc6ea11cb76a559c3b90b11a80038e666a7182593cb34881f09/bb_apputils-0.3.95.tar.gz
+[2023-07-16 08:53:01] INFO root fetch - processPackages [myeasygui]: Downloading https://files.pythonhosted.org/packages/3d/b2/9eab65e7dd9367810707ef27f4e8240815d54e26db827b6b0ff97ba9c51a/myeasygui-0.0.0.2.tar.gz
+[2023-07-16 08:53:01] INFO root fetch - processPackages [pytomorrowio]: Downloading https://files.pythonhosted.org/packages/a1/f3/e91d61bb3f8ffa5ae58e9e11217a049f97709e03056776410ff81f763d03/pytomorrowio-0.3.6.tar.gz
+[2023-07-16 08:53:01] INFO root fetch - processPackages [decora-bleak]: Downloading https://files.pythonhosted.org/packages/5a/18/0bf90639f8d7b51fcccee79754be9f7afd0ca74e06d372ba2332c360380f/decora_bleak-0.1.0.tar.gz
+[2023-07-16 08:53:01] INFO root fetch - processPackages [socscikit]: Downloading https://files.pythonhosted.org/packages/7b/7d/16782189c7831883c231198381e5390f08ed3e978ebaff5135a6bcb434a7/socscikit-0.0.5.4.tar.gz
+[2023-07-16 08:53:01] INFO root fetch - processPackages [bb-apputils]: executing diffoscope
+[2023-07-16 08:53:01] INFO root fetch - processPackages [bb-apputils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bb_apputils-0.3.94.tar.gz tmp/bb_apputils-0.3.95.tar.gz --markdown 20230716/b/bb-apputils/0.3.94-0.3.95/diff.md --exclude *.pyd
+[2023-07-16 08:53:01] INFO root fetch - processPackages [myeasygui]: executing diffoscope
+[2023-07-16 08:53:01] INFO root fetch - processPackages [myeasygui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myeasygui-0.0.0.1.tar.gz tmp/myeasygui-0.0.0.2.tar.gz --markdown 20230716/m/myeasygui/0.0.0.1-0.0.0.2/diff.md --exclude *.pyd
+[2023-07-16 08:53:01] INFO root fetch - processPackages [pytomorrowio]: executing diffoscope
+[2023-07-16 08:53:01] INFO root fetch - processPackages [pytomorrowio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytomorrowio-0.3.5.tar.gz tmp/pytomorrowio-0.3.6.tar.gz --markdown 20230716/p/pytomorrowio/0.3.5-0.3.6/diff.md --exclude *.pyd
+[2023-07-16 08:53:01] INFO root fetch - processPackages [varsnap]: Downloading https://files.pythonhosted.org/packages/64/2a/7ed4cd0d6c28d9536038c091abaab52a4b2b5ac35791b5aa6b189a06014e/varsnap-1.5.7.tar.gz
+[2023-07-16 08:53:01] INFO root fetch - processPackages [decora-bleak]: executing diffoscope
+[2023-07-16 08:53:01] INFO root fetch - processPackages [decora-bleak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/decora_bleak-0.0.1.tar.gz tmp/decora_bleak-0.1.0.tar.gz --markdown 20230716/d/decora-bleak/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2023-07-16 08:53:01] INFO root fetch - processPackages [lightning-template]: executing diffoscope
+[2023-07-16 08:53:01] INFO root fetch - processPackages [lightning-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightning-template-1.0.8.tar.gz tmp/lightning-template-1.0.9.tar.gz --markdown 20230716/l/lightning-template/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-16 08:53:01] INFO root fetch - processPackages [socscikit]: executing diffoscope
+[2023-07-16 08:53:01] INFO root fetch - processPackages [socscikit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/socscikit-0.0.5.3.tar.gz tmp/socscikit-0.0.5.4.tar.gz --markdown 20230716/s/socscikit/0.0.5.3-0.0.5.4/diff.md --exclude *.pyd
+[2023-07-16 08:53:01] INFO root fetch - processPackages [varsnap]: executing diffoscope
+[2023-07-16 08:53:01] INFO root fetch - processPackages [varsnap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/varsnap-1.5.6.tar.gz tmp/varsnap-1.5.7.tar.gz --markdown 20230716/v/varsnap/1.5.6-1.5.7/diff.md --exclude *.pyd
+[2023-07-16 08:53:02] INFO root fetch - processPackages [bb-apputils]: Remove: archive file [/home/abi/fetcher/tmp/bb_apputils-0.3.94.tar.gz]
+[2023-07-16 08:53:02] INFO root fetch - processPackages [bb-apputils]: Remove: archive file [/home/abi/fetcher/tmp/bb_apputils-0.3.95.tar.gz]
+[2023-07-16 08:53:02] INFO root fetch - main [MainThread]: End processing [bb-apputils]: success
+[2023-07-16 08:53:02] INFO root fetch - processPackages [decora-bleak]: Remove: archive file [/home/abi/fetcher/tmp/decora_bleak-0.0.1.tar.gz]
+[2023-07-16 08:53:02] INFO root fetch - processPackages [decora-bleak]: Remove: archive file [/home/abi/fetcher/tmp/decora_bleak-0.1.0.tar.gz]
+[2023-07-16 08:53:02] INFO root fetch - main [MainThread]: End processing [decora-bleak]: success
+[2023-07-16 08:53:02] INFO root fetch - processPackages [lightning-template]: Remove: archive file [/home/abi/fetcher/tmp/lightning-template-1.0.8.tar.gz]
+[2023-07-16 08:53:02] INFO root fetch - processPackages [lightning-template]: Remove: archive file [/home/abi/fetcher/tmp/lightning-template-1.0.9.tar.gz]
+[2023-07-16 08:53:02] INFO root fetch - main [MainThread]: End processing [lightning-template]: success
+[2023-07-16 08:53:02] INFO root fetch - processPackages [myeasygui]: Remove: archive file [/home/abi/fetcher/tmp/myeasygui-0.0.0.1.tar.gz]
+[2023-07-16 08:53:02] INFO root fetch - processPackages [myeasygui]: Remove: archive file [/home/abi/fetcher/tmp/myeasygui-0.0.0.2.tar.gz]
+[2023-07-16 08:53:02] INFO root fetch - main [MainThread]: End processing [myeasygui]: success
+[2023-07-16 08:53:02] INFO root fetch - processPackages [varsnap]: Remove: archive file [/home/abi/fetcher/tmp/varsnap-1.5.6.tar.gz]
+[2023-07-16 08:53:02] INFO root fetch - processPackages [varsnap]: Remove: archive file [/home/abi/fetcher/tmp/varsnap-1.5.7.tar.gz]
+[2023-07-16 08:53:02] INFO root fetch - main [MainThread]: End processing [varsnap]: success
+[2023-07-16 08:53:02] INFO root fetch - processPackages [pytomorrowio]: Remove: archive file [/home/abi/fetcher/tmp/pytomorrowio-0.3.5.tar.gz]
+[2023-07-16 08:53:02] INFO root fetch - processPackages [pytomorrowio]: Remove: archive file [/home/abi/fetcher/tmp/pytomorrowio-0.3.6.tar.gz]
+[2023-07-16 08:53:02] INFO root fetch - main [MainThread]: End processing [pytomorrowio]: success
+[2023-07-16 08:53:03] INFO root fetch - processPackages [socscikit]: Remove: archive file [/home/abi/fetcher/tmp/socscikit-0.0.5.3.tar.gz]
+[2023-07-16 08:53:03] INFO root fetch - processPackages [socscikit]: Remove: archive file [/home/abi/fetcher/tmp/socscikit-0.0.5.4.tar.gz]
+[2023-07-16 08:53:03] INFO root fetch - main [MainThread]: End processing [socscikit]: success
+[2023-07-16 08:53:03] INFO root fetch - main [MainThread]: Store serial: [18905316]
