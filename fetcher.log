@@ -10092,3 +10092,27 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-16 16:38:58] INFO root fetch - processPackages [qtmetabolabpy]: Remove: archive file [/home/abi/fetcher/tmp/qtmetabolabpy-0.9.0.tar.gz]
 [2023-07-16 16:38:58] INFO root fetch - main [MainThread]: End processing [qtmetabolabpy]: success
 [2023-07-16 16:38:58] INFO root fetch - main [MainThread]: Store serial: [18907522]
+[2023-07-16 16:44:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18907522]
+[2023-07-16 16:44:07] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-16 16:44:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ldimbenchmark
+[2023-07-16 16:44:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: metathreads
+[2023-07-16 16:44:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kaiju-db
+[2023-07-16 16:44:07] INFO root fetch - processPackages [ldimbenchmark]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-16 16:44:07] INFO root fetch - processPackages [metathreads]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-16 16:44:07] WARNING root fetch - processPackages [kaiju-db]: Skipping, unable to determine old version
+[2023-07-16 16:44:07] INFO root fetch - main [MainThread]: End processing [kaiju-db] error
+[2023-07-16 16:44:07] INFO root fetch - processPackages [metathreads]: Downloading https://files.pythonhosted.org/packages/6c/73/a30b291ae6d78068c273482da1645e35a5be2efdba4b6007f660c73b3cdf/metathreads-0.0.1.tar.gz
+[2023-07-16 16:44:07] INFO root fetch - processPackages [ldimbenchmark]: Downloading https://files.pythonhosted.org/packages/40/ad/2f487f62a551984a54e0a4dc768ff692f22874530d9695d257d30b206c65/ldimbenchmark-0.2.8.tar.gz
+[2023-07-16 16:44:07] INFO root fetch - processPackages [ldimbenchmark]: Downloading https://files.pythonhosted.org/packages/1c/0e/d7ff04c87c7e7e468653d7cd9cbde0ab35f48885a880c1e2229267475009/ldimbenchmark-0.2.9.tar.gz
+[2023-07-16 16:44:07] INFO root fetch - processPackages [metathreads]: Downloading https://files.pythonhosted.org/packages/8a/a2/6fca453741659264b4d46a77c314c17bbd7f5a8e1c083602712abe4992e3/metathreads-0.0.2.tar.gz
+[2023-07-16 16:44:08] INFO root fetch - processPackages [ldimbenchmark]: executing diffoscope
+[2023-07-16 16:44:08] INFO root fetch - processPackages [ldimbenchmark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ldimbenchmark-0.2.8.tar.gz tmp/ldimbenchmark-0.2.9.tar.gz --markdown 20230716/l/ldimbenchmark/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-16 16:44:08] INFO root fetch - processPackages [metathreads]: executing diffoscope
+[2023-07-16 16:44:08] INFO root fetch - processPackages [metathreads]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metathreads-0.0.1.tar.gz tmp/metathreads-0.0.2.tar.gz --markdown 20230716/m/metathreads/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-16 16:44:08] INFO root fetch - processPackages [metathreads]: Remove: archive file [/home/abi/fetcher/tmp/metathreads-0.0.1.tar.gz]
+[2023-07-16 16:44:08] INFO root fetch - processPackages [metathreads]: Remove: archive file [/home/abi/fetcher/tmp/metathreads-0.0.2.tar.gz]
+[2023-07-16 16:44:08] INFO root fetch - main [MainThread]: End processing [metathreads]: success
+[2023-07-16 16:44:08] INFO root fetch - processPackages [ldimbenchmark]: Remove: archive file [/home/abi/fetcher/tmp/ldimbenchmark-0.2.8.tar.gz]
+[2023-07-16 16:44:08] INFO root fetch - processPackages [ldimbenchmark]: Remove: archive file [/home/abi/fetcher/tmp/ldimbenchmark-0.2.9.tar.gz]
+[2023-07-16 16:44:08] INFO root fetch - main [MainThread]: End processing [ldimbenchmark]: success
+[2023-07-16 16:44:08] INFO root fetch - main [MainThread]: Store serial: [18907530]
