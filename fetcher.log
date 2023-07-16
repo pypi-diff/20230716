@@ -7032,3 +7032,45 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-16 12:31:52] INFO root fetch - processPackages [sklearn-pmml-model]: Remove: archive file [/home/abi/fetcher/tmp/sklearn-pmml-model-1.0.3.tar.gz]
 [2023-07-16 12:31:52] INFO root fetch - main [MainThread]: End processing [sklearn-pmml-model]: success
 [2023-07-16 12:31:52] INFO root fetch - main [MainThread]: Store serial: [18906219]
+[2023-07-16 12:36:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18906219]
+[2023-07-16 12:37:01] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-16 12:37:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: somtodaypython
+[2023-07-16 12:37:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: remotior-sensus
+[2023-07-16 12:37:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lichenggong
+[2023-07-16 12:37:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kcli
+[2023-07-16 12:37:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: element-sdk
+[2023-07-16 12:37:01] WARNING root fetch - processPackages [element-sdk]: Skipping, unable to determine old version
+[2023-07-16 12:37:01] INFO root fetch - main [MainThread]: End processing [element-sdk] error
+[2023-07-16 12:37:01] INFO root fetch - processPackages [somtodaypython]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-16 12:37:01] INFO root fetch - processPackages [remotior-sensus]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-16 12:37:01] INFO root fetch - processPackages [lichenggong]: New version: [0.3.0.6] Old Version: [0.3.0.5]
+[2023-07-16 12:37:01] INFO root fetch - processPackages [kcli]: New version: [99.0.202307161035] Old Version: [99.0.202307141535]
+[2023-07-16 12:37:01] INFO root fetch - processPackages [lichenggong]: Downloading https://files.pythonhosted.org/packages/35/10/c8ea43c050a4ed904ea421cd6da94ba567850f6f4812620ed470fd51cfc0/lichenggong-0.3.0.5.tar.gz
+[2023-07-16 12:37:01] INFO root fetch - processPackages [remotior-sensus]: Downloading https://files.pythonhosted.org/packages/2d/82/4f0f8be3b8f3c4f00b90027ff3c32958918221be17a5ad7c3cf298d4af04/remotior_sensus-0.0.8.tar.gz
+[2023-07-16 12:37:01] INFO root fetch - processPackages [somtodaypython]: Downloading https://files.pythonhosted.org/packages/3f/b3/0bb3edd109b9863c2dcc7c1bcdda4a3dd911f475acb927af13261f3d2b55/somtodaypython-0.0.3.tar.gz
+[2023-07-16 12:37:02] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/8e/c5/e671b510159bd21d7bdd00e23bebf34d2e2e8ff3c623eb40917a8f709d7f/kcli-99.0.202307141535-py3-none-any.whl
+[2023-07-16 12:37:02] INFO root fetch - processPackages [lichenggong]: Downloading https://files.pythonhosted.org/packages/d7/2e/edac7e3f068ccdbdaa1f6fbfad878370646c280bef9ee9ff88861f138d48/lichenggong-0.3.0.6.tar.gz
+[2023-07-16 12:37:02] INFO root fetch - processPackages [remotior-sensus]: Downloading https://files.pythonhosted.org/packages/e4/c8/0c6054910848b2651da24ecb17a3d9ab9a62b4c844a98797ec686eaac17b/remotior_sensus-0.0.9.tar.gz
+[2023-07-16 12:37:02] INFO root fetch - processPackages [somtodaypython]: Downloading https://files.pythonhosted.org/packages/87/ce/5100aaa740ce1e5fb599d0494a03811fbbc9f07c6a8c45ee396cc0a2eadd/somtodaypython-0.0.4.tar.gz
+[2023-07-16 12:37:02] INFO root fetch - processPackages [remotior-sensus]: executing diffoscope
+[2023-07-16 12:37:02] INFO root fetch - processPackages [remotior-sensus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remotior_sensus-0.0.8.tar.gz tmp/remotior_sensus-0.0.9.tar.gz --markdown 20230716/r/remotior-sensus/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-16 12:37:02] INFO root fetch - processPackages [lichenggong]: executing diffoscope
+[2023-07-16 12:37:02] INFO root fetch - processPackages [lichenggong]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lichenggong-0.3.0.5.tar.gz tmp/lichenggong-0.3.0.6.tar.gz --markdown 20230716/l/lichenggong/0.3.0.5-0.3.0.6/diff.md --exclude *.pyd
+[2023-07-16 12:37:02] INFO root fetch - processPackages [somtodaypython]: executing diffoscope
+[2023-07-16 12:37:02] INFO root fetch - processPackages [somtodaypython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/somtodaypython-0.0.3.tar.gz tmp/somtodaypython-0.0.4.tar.gz --markdown 20230716/s/somtodaypython/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-16 12:37:02] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/a0/42/dfc9f04d20cd2686a8091b6acd485e9e81386e57c913a86abdbdfb0b694c/kcli-99.0.202307161035-py3-none-any.whl
+[2023-07-16 12:37:03] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-07-16 12:37:03] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202307141535-py3-none-any.whl.zip tmp/kcli-99.0.202307161035-py3-none-any.whl.zip --markdown 20230716/k/kcli/99.0.202307141535-99.0.202307161035/diff.md --exclude *.pyd
+[2023-07-16 12:37:03] INFO root fetch - processPackages [lichenggong]: Remove: archive file [/home/abi/fetcher/tmp/lichenggong-0.3.0.5.tar.gz]
+[2023-07-16 12:37:03] INFO root fetch - processPackages [lichenggong]: Remove: archive file [/home/abi/fetcher/tmp/lichenggong-0.3.0.6.tar.gz]
+[2023-07-16 12:37:03] INFO root fetch - main [MainThread]: End processing [lichenggong]: success
+[2023-07-16 12:37:03] INFO root fetch - processPackages [somtodaypython]: Remove: archive file [/home/abi/fetcher/tmp/somtodaypython-0.0.3.tar.gz]
+[2023-07-16 12:37:03] INFO root fetch - processPackages [somtodaypython]: Remove: archive file [/home/abi/fetcher/tmp/somtodaypython-0.0.4.tar.gz]
+[2023-07-16 12:37:03] INFO root fetch - main [MainThread]: End processing [somtodaypython]: success
+[2023-07-16 12:37:03] INFO root fetch - processPackages [remotior-sensus]: Remove: archive file [/home/abi/fetcher/tmp/remotior_sensus-0.0.8.tar.gz]
+[2023-07-16 12:37:03] INFO root fetch - processPackages [remotior-sensus]: Remove: archive file [/home/abi/fetcher/tmp/remotior_sensus-0.0.9.tar.gz]
+[2023-07-16 12:37:03] INFO root fetch - main [MainThread]: End processing [remotior-sensus]: success
+[2023-07-16 12:37:06] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202307141535-py3-none-any.whl.zip]
+[2023-07-16 12:37:06] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202307161035-py3-none-any.whl.zip]
+[2023-07-16 12:37:06] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-07-16 12:37:06] INFO root fetch - main [MainThread]: Store serial: [18906234]
