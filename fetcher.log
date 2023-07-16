@@ -1997,3 +1997,81 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-16 03:17:35] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Remove: archive file [/home/abi/fetcher/tmp/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz]
 [2023-07-16 03:17:35] INFO root fetch - main [MainThread]: End processing [cdk-emrserverless-with-delta-lake]: success
 [2023-07-16 03:17:35] INFO root fetch - main [MainThread]: Store serial: [18904152]
+[2023-07-16 03:22:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18904152]
+[2023-07-16 03:22:43] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-16 03:22:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: shiba-mysql
+[2023-07-16 03:22:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: langful
+[2023-07-16 03:22:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bioversions
+[2023-07-16 03:22:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: expam
+[2023-07-16 03:22:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-lambda-layer-curl
+[2023-07-16 03:22:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cjm-yolox-pytorch
+[2023-07-16 03:22:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: steamship
+[2023-07-16 03:22:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: PySolidState
+[2023-07-16 03:22:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aemcmc-nightly
+[2023-07-16 03:22:43] INFO root fetch - processPackages [bioversions]: New version: [0.5.99] Old Version: [0.5.98]
+[2023-07-16 03:22:43] INFO root fetch - processPackages [PySolidState]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-16 03:22:43] INFO root fetch - processPackages [cjm-yolox-pytorch]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-16 03:22:43] INFO root fetch - processPackages [langful]: New version: [0.35] Old Version: [0.34]
+[2023-07-16 03:22:43] INFO root fetch - processPackages [expam]: New version: [1.2.2.1] Old Version: [1.2.2]
+[2023-07-16 03:22:43] WARNING root fetch - processPackages [shiba-mysql]: Skipping, unable to determine old version
+[2023-07-16 03:22:43] INFO root fetch - main [MainThread]: End processing [shiba-mysql] error
+[2023-07-16 03:22:43] INFO root fetch - processPackages [steamship]: New version: [2.7.17] Old Version: [2.3.9]
+[2023-07-16 03:22:43] INFO root fetch - processPackages [cdk-lambda-layer-curl]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-16 03:22:43] INFO root fetch - processPackages [aemcmc-nightly]: New version: [0.0.8.dev20230716] Old Version: [0.0.8.dev20230715]
+[2023-07-16 03:22:43] INFO root fetch - processPackages [langful]: Downloading https://files.pythonhosted.org/packages/b2/68/d6ed7f3303e891d1a6d1612ebf69039c14e5d28f7d40b340600b0a1ddf5f/langful-0.34-py3-none-any.whl
+[2023-07-16 03:22:43] INFO root fetch - processPackages [PySolidState]: Downloading https://files.pythonhosted.org/packages/ee/4e/f283548f5918a67f83052b98c42231e1ddfa070f1d32ce5912d977ffc3a8/PySolidState-0.0.1.tar.gz
+[2023-07-16 03:22:43] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/c2/bc/1e51fa8009ac3b9bd8b49a4a63b9db3584cf5f4025074c91590c5e33e061/cjm-yolox-pytorch-0.0.98.tar.gz
+[2023-07-16 03:22:43] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/c8/e2/39c88cfa63f418383f3a383b2b62dfe801cbfd5c53de4d005804c19d76dc/cdk-lambda-layer-curl-2.0.98.tar.gz
+[2023-07-16 03:22:44] INFO root fetch - processPackages [aemcmc-nightly]: Downloading https://files.pythonhosted.org/packages/73/59/bd3dbceeb061d1075b475f16c83059fc4f36742ad2ef2db85a6c9e1a37bf/aemcmc-nightly-0.0.8.dev20230715.tar.gz
+[2023-07-16 03:22:44] INFO root fetch - processPackages [bioversions]: Downloading https://files.pythonhosted.org/packages/e6/34/7c40209c13edc9fe7c611a00fd4b0d6e59d501613427ed6713ad6398b655/bioversions-0.5.98.tar.gz
+[2023-07-16 03:22:44] INFO root fetch - processPackages [steamship]: Downloading https://files.pythonhosted.org/packages/8a/2c/45284b04a7bcb421510b1bbb2e3f826c87946551d954eb3a3cd6b481fe09/steamship-2.3.9.tar.gz
+[2023-07-16 03:22:44] INFO root fetch - processPackages [expam]: Downloading https://files.pythonhosted.org/packages/75/64/3d2015200f8ec88c9b7ee1b79fa4b55ebd4f768877c9c4b4144f1a76768a/expam-1.2.2.tar.gz
+[2023-07-16 03:22:44] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/48/c0/c61aa048df93a11ff930d1680535fee96bb684ff0e7e76a755726ebcf9e1/cjm-yolox-pytorch-0.0.99.tar.gz
+[2023-07-16 03:22:44] INFO root fetch - processPackages [langful]: Downloading https://files.pythonhosted.org/packages/66/7d/0ff871ec23fdce3344802cbdfbe1f5c9636f52696cef5a90e04d55d0b73f/langful-0.35-py3-none-any.whl
+[2023-07-16 03:22:44] INFO root fetch - processPackages [PySolidState]: Downloading https://files.pythonhosted.org/packages/40/ef/fd76421d6bd98d8aedb3e3563cad0aad012209a85a8a5cd5b5b63e5cd4f9/PySolidState-0.0.2.tar.gz
+[2023-07-16 03:22:44] INFO root fetch - processPackages [aemcmc-nightly]: Downloading https://files.pythonhosted.org/packages/df/d9/80a9a0ae4baad3095c7ab1acaf5191e2fc130e0fae391c33de31f2c78ff9/aemcmc-nightly-0.0.8.dev20230716.tar.gz
+[2023-07-16 03:22:44] INFO root fetch - processPackages [cjm-yolox-pytorch]: executing diffoscope
+[2023-07-16 03:22:44] INFO root fetch - processPackages [cjm-yolox-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cjm-yolox-pytorch-0.0.98.tar.gz tmp/cjm-yolox-pytorch-0.0.99.tar.gz --markdown 20230716/c/cjm-yolox-pytorch/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-16 03:22:44] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/2e/02/9e7ab6bc6191e2cbe6705c1530f695ed00527096133668b731e72d6a6445/cdk-lambda-layer-curl-2.0.99.tar.gz
+[2023-07-16 03:22:44] INFO root fetch - processPackages [expam]: Downloading https://files.pythonhosted.org/packages/2a/d8/bb17a216feaaf82e7eb4f31f49e618acc6ae38c19572bdba6106a7cc9b57/expam-1.2.2.1.tar.gz
+[2023-07-16 03:22:44] INFO root fetch - processPackages [bioversions]: Downloading https://files.pythonhosted.org/packages/0d/f5/5956eccd9643084cc5f7aba6325ec9de1ed3a2bb3568a8ee7ab88d0eac77/bioversions-0.5.99.tar.gz
+[2023-07-16 03:22:44] INFO root fetch - processPackages [steamship]: Downloading https://files.pythonhosted.org/packages/fc/7f/490997e5736bb6baca2fd79ebdb477307b56adeb7eeac9f7575d42158aa4/steamship-2.7.17.tar.gz
+[2023-07-16 03:22:44] INFO root fetch - processPackages [langful]: executing diffoscope
+[2023-07-16 03:22:44] INFO root fetch - processPackages [langful]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langful-0.34-py3-none-any.whl.zip tmp/langful-0.35-py3-none-any.whl.zip --markdown 20230716/l/langful/0.34-0.35/diff.md --exclude *.pyd
+[2023-07-16 03:22:44] INFO root fetch - processPackages [PySolidState]: executing diffoscope
+[2023-07-16 03:22:44] INFO root fetch - processPackages [PySolidState]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PySolidState-0.0.1.tar.gz tmp/PySolidState-0.0.2.tar.gz --markdown 20230716/P/PySolidState/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-16 03:22:44] INFO root fetch - processPackages [aemcmc-nightly]: executing diffoscope
+[2023-07-16 03:22:44] INFO root fetch - processPackages [aemcmc-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aemcmc-nightly-0.0.8.dev20230715.tar.gz tmp/aemcmc-nightly-0.0.8.dev20230716.tar.gz --markdown 20230716/a/aemcmc-nightly/0.0.8.dev20230715-0.0.8.dev20230716/diff.md --exclude *.pyd
+[2023-07-16 03:22:44] INFO root fetch - processPackages [bioversions]: executing diffoscope
+[2023-07-16 03:22:44] INFO root fetch - processPackages [bioversions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioversions-0.5.98.tar.gz tmp/bioversions-0.5.99.tar.gz --markdown 20230716/b/bioversions/0.5.98-0.5.99/diff.md --exclude *.pyd
+[2023-07-16 03:22:44] INFO root fetch - processPackages [expam]: executing diffoscope
+[2023-07-16 03:22:44] INFO root fetch - processPackages [expam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/expam-1.2.2.tar.gz tmp/expam-1.2.2.1.tar.gz --markdown 20230716/e/expam/1.2.2-1.2.2.1/diff.md --exclude *.pyd
+[2023-07-16 03:22:45] INFO root fetch - processPackages [steamship]: executing diffoscope
+[2023-07-16 03:22:45] INFO root fetch - processPackages [steamship]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/steamship-2.3.9.tar.gz tmp/steamship-2.7.17.tar.gz --markdown 20230716/s/steamship/2.3.9-2.7.17/diff.md --exclude *.pyd
+[2023-07-16 03:22:45] INFO root fetch - processPackages [cdk-lambda-layer-curl]: executing diffoscope
+[2023-07-16 03:22:45] INFO root fetch - processPackages [cdk-lambda-layer-curl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-curl-2.0.98.tar.gz tmp/cdk-lambda-layer-curl-2.0.99.tar.gz --markdown 20230716/c/cdk-lambda-layer-curl/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-07-16 03:22:45] INFO root fetch - processPackages [cjm-yolox-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/cjm-yolox-pytorch-0.0.98.tar.gz]
+[2023-07-16 03:22:45] INFO root fetch - processPackages [cjm-yolox-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/cjm-yolox-pytorch-0.0.99.tar.gz]
+[2023-07-16 03:22:45] INFO root fetch - main [MainThread]: End processing [cjm-yolox-pytorch]: success
+[2023-07-16 03:22:45] INFO root fetch - processPackages [langful]: Remove: archive file [/home/abi/fetcher/tmp/langful-0.34-py3-none-any.whl.zip]
+[2023-07-16 03:22:45] INFO root fetch - processPackages [langful]: Remove: archive file [/home/abi/fetcher/tmp/langful-0.35-py3-none-any.whl.zip]
+[2023-07-16 03:22:45] INFO root fetch - main [MainThread]: End processing [langful]: success
+[2023-07-16 03:22:45] INFO root fetch - processPackages [PySolidState]: Remove: archive file [/home/abi/fetcher/tmp/PySolidState-0.0.1.tar.gz]
+[2023-07-16 03:22:45] INFO root fetch - processPackages [PySolidState]: Remove: archive file [/home/abi/fetcher/tmp/PySolidState-0.0.2.tar.gz]
+[2023-07-16 03:22:45] INFO root fetch - main [MainThread]: End processing [PySolidState]: success
+[2023-07-16 03:22:46] INFO root fetch - processPackages [aemcmc-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aemcmc-nightly-0.0.8.dev20230715.tar.gz]
+[2023-07-16 03:22:46] INFO root fetch - processPackages [aemcmc-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aemcmc-nightly-0.0.8.dev20230716.tar.gz]
+[2023-07-16 03:22:46] INFO root fetch - main [MainThread]: End processing [aemcmc-nightly]: success
+[2023-07-16 03:22:46] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.98.tar.gz]
+[2023-07-16 03:22:46] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.99.tar.gz]
+[2023-07-16 03:22:46] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
+[2023-07-16 03:22:46] INFO root fetch - processPackages [expam]: Remove: archive file [/home/abi/fetcher/tmp/expam-1.2.2.tar.gz]
+[2023-07-16 03:22:46] INFO root fetch - processPackages [expam]: Remove: archive file [/home/abi/fetcher/tmp/expam-1.2.2.1.tar.gz]
+[2023-07-16 03:22:46] INFO root fetch - main [MainThread]: End processing [expam]: success
+[2023-07-16 03:22:47] INFO root fetch - processPackages [steamship]: Remove: archive file [/home/abi/fetcher/tmp/steamship-2.3.9.tar.gz]
+[2023-07-16 03:22:47] INFO root fetch - processPackages [steamship]: Remove: archive file [/home/abi/fetcher/tmp/steamship-2.7.17.tar.gz]
+[2023-07-16 03:22:47] INFO root fetch - main [MainThread]: End processing [steamship]: success
+[2023-07-16 03:23:04] INFO root fetch - processPackages [bioversions]: Remove: archive file [/home/abi/fetcher/tmp/bioversions-0.5.98.tar.gz]
+[2023-07-16 03:23:04] INFO root fetch - processPackages [bioversions]: Remove: archive file [/home/abi/fetcher/tmp/bioversions-0.5.99.tar.gz]
+[2023-07-16 03:23:04] INFO root fetch - main [MainThread]: End processing [bioversions]: success
+[2023-07-16 03:23:04] INFO root fetch - main [MainThread]: Store serial: [18904179]
