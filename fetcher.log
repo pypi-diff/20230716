@@ -6435,3 +6435,63 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-16 11:23:55] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221130.tar.gz]
 [2023-07-16 11:23:55] INFO root fetch - main [MainThread]: End processing [tbp-nightly]: success
 [2023-07-16 11:23:55] INFO root fetch - main [MainThread]: Store serial: [18905956]
+[2023-07-16 11:29:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18905956]
+[2023-07-16 11:29:08] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-16 11:29:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: noelgram1
+[2023-07-16 11:29:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: codeinterpreterapi
+[2023-07-16 11:29:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: threads-net
+[2023-07-16 11:29:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pymongo-curd
+[2023-07-16 11:29:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ipylivebash
+[2023-07-16 11:29:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: talkytimes-package
+[2023-07-16 11:29:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: citizenk
+[2023-07-16 11:29:08] INFO root fetch - processPackages [citizenk]: New version: [0.1.49] Old Version: [0.1.48]
+[2023-07-16 11:29:08] INFO root fetch - processPackages [noelgram1]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-16 11:29:08] INFO root fetch - processPackages [codeinterpreterapi]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-16 11:29:08] WARNING root fetch - processPackages [pymongo-curd]: Skipping, unable to determine old version
+[2023-07-16 11:29:08] INFO root fetch - main [MainThread]: End processing [pymongo-curd] error
+[2023-07-16 11:29:08] INFO root fetch - processPackages [ipylivebash]: New version: [0.2.0a2] Old Version: [0.2.0a1]
+[2023-07-16 11:29:08] INFO root fetch - processPackages [talkytimes-package]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-16 11:29:08] INFO root fetch - processPackages [threads-net]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-16 11:29:08] INFO root fetch - processPackages [noelgram1]: Downloading https://files.pythonhosted.org/packages/0f/3c/b31623ee76bda420934ba71909c1a3e4d29ab7cf2af2c0c710631cdb4b67/noelgram1-0.0.2.tar.gz
+[2023-07-16 11:29:08] INFO root fetch - processPackages [codeinterpreterapi]: Downloading https://files.pythonhosted.org/packages/c1/9d/fee8d9bb5332fa332cc260dbf37870215fd5ed7c97586d625dead39f9e86/codeinterpreterapi-0.0.4.tar.gz
+[2023-07-16 11:29:08] INFO root fetch - processPackages [talkytimes-package]: Downloading https://files.pythonhosted.org/packages/c4/73/5e7624f85de15c9db269378d884b192e1bbbc003ce8d1ab595947f453652/talkytimes_package-0.2.8.tar.gz
+[2023-07-16 11:29:08] INFO root fetch - processPackages [threads-net]: Downloading https://files.pythonhosted.org/packages/11/ba/483f4770d7c413aff80cfdfd96da75d50912f6604255f4a04d7e8448a5a1/threads-net-0.0.7.tar.gz
+[2023-07-16 11:29:08] INFO root fetch - processPackages [citizenk]: Downloading https://files.pythonhosted.org/packages/da/4d/e6ba8f37800bf16e9b4150a1529a60b2b87777505a5510ae6fefa6708cd7/citizenk-0.1.48.tar.gz
+[2023-07-16 11:29:08] INFO root fetch - processPackages [ipylivebash]: Downloading https://files.pythonhosted.org/packages/ed/ce/60cc319860913b23cd928f6e25c615cb47a7faec0ca4c3aedf0f766995a1/ipylivebash-0.2.0a1.tar.gz
+[2023-07-16 11:29:08] INFO root fetch - processPackages [threads-net]: Downloading https://files.pythonhosted.org/packages/de/bd/e372c12fe307c562ec3785151d74201431eddd2312171d55b8ee4ac81db6/threads-net-0.0.8.tar.gz
+[2023-07-16 11:29:09] INFO root fetch - processPackages [codeinterpreterapi]: Downloading https://files.pythonhosted.org/packages/9a/da/7ecd83f0a1ec6520fe6703bcf02dd3cb36cd308e3d334634038c9f31c5b2/codeinterpreterapi-0.0.5.tar.gz
+[2023-07-16 11:29:09] INFO root fetch - processPackages [noelgram1]: Downloading https://files.pythonhosted.org/packages/67/3c/d3b73ec55caa5a5c2fe43922ee9329c58c19eb9bebe3c850334a1be2f721/noelgram1-0.0.3.tar.gz
+[2023-07-16 11:29:09] INFO root fetch - processPackages [talkytimes-package]: Downloading https://files.pythonhosted.org/packages/a2/35/d9c0663ee1295df540e83891d09caa96cf33f08569b2efe177a473af5406/talkytimes_package-0.2.9.tar.gz
+[2023-07-16 11:29:09] INFO root fetch - processPackages [threads-net]: executing diffoscope
+[2023-07-16 11:29:09] INFO root fetch - processPackages [threads-net]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threads-net-0.0.7.tar.gz tmp/threads-net-0.0.8.tar.gz --markdown 20230716/t/threads-net/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-16 11:29:09] INFO root fetch - processPackages [citizenk]: Downloading https://files.pythonhosted.org/packages/87/bd/1425eed24e329f591a2454e922cebc488f8524178d8b56af0594e18a1324/citizenk-0.1.49.tar.gz
+[2023-07-16 11:29:09] INFO root fetch - processPackages [codeinterpreterapi]: executing diffoscope
+[2023-07-16 11:29:09] INFO root fetch - processPackages [codeinterpreterapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codeinterpreterapi-0.0.4.tar.gz tmp/codeinterpreterapi-0.0.5.tar.gz --markdown 20230716/c/codeinterpreterapi/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-16 11:29:09] INFO root fetch - processPackages [ipylivebash]: Downloading https://files.pythonhosted.org/packages/ef/e7/5b97c0e75a4cc67793eeb2b76b183c5a994d3c41ff2a43760ba9c83f68d8/ipylivebash-0.2.0a2.tar.gz
+[2023-07-16 11:29:09] INFO root fetch - processPackages [talkytimes-package]: executing diffoscope
+[2023-07-16 11:29:09] INFO root fetch - processPackages [talkytimes-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/talkytimes_package-0.2.8.tar.gz tmp/talkytimes_package-0.2.9.tar.gz --markdown 20230716/t/talkytimes-package/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-16 11:29:09] INFO root fetch - processPackages [noelgram1]: executing diffoscope
+[2023-07-16 11:29:09] INFO root fetch - processPackages [noelgram1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/noelgram1-0.0.2.tar.gz tmp/noelgram1-0.0.3.tar.gz --markdown 20230716/n/noelgram1/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-16 11:29:09] INFO root fetch - processPackages [citizenk]: executing diffoscope
+[2023-07-16 11:29:09] INFO root fetch - processPackages [citizenk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/citizenk-0.1.48.tar.gz tmp/citizenk-0.1.49.tar.gz --markdown 20230716/c/citizenk/0.1.48-0.1.49/diff.md --exclude *.pyd
+[2023-07-16 11:29:09] INFO root fetch - processPackages [ipylivebash]: executing diffoscope
+[2023-07-16 11:29:09] INFO root fetch - processPackages [ipylivebash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipylivebash-0.2.0a1.tar.gz tmp/ipylivebash-0.2.0a2.tar.gz --markdown 20230716/i/ipylivebash/0.2.0a1-0.2.0a2/diff.md --exclude *.pyd
+[2023-07-16 11:29:10] INFO root fetch - processPackages [talkytimes-package]: Remove: archive file [/home/abi/fetcher/tmp/talkytimes_package-0.2.8.tar.gz]
+[2023-07-16 11:29:10] INFO root fetch - processPackages [talkytimes-package]: Remove: archive file [/home/abi/fetcher/tmp/talkytimes_package-0.2.9.tar.gz]
+[2023-07-16 11:29:10] INFO root fetch - main [MainThread]: End processing [talkytimes-package]: success
+[2023-07-16 11:29:10] INFO root fetch - processPackages [codeinterpreterapi]: Remove: archive file [/home/abi/fetcher/tmp/codeinterpreterapi-0.0.4.tar.gz]
+[2023-07-16 11:29:10] INFO root fetch - processPackages [codeinterpreterapi]: Remove: archive file [/home/abi/fetcher/tmp/codeinterpreterapi-0.0.5.tar.gz]
+[2023-07-16 11:29:10] INFO root fetch - main [MainThread]: End processing [codeinterpreterapi]: success
+[2023-07-16 11:29:10] INFO root fetch - processPackages [threads-net]: Remove: archive file [/home/abi/fetcher/tmp/threads-net-0.0.7.tar.gz]
+[2023-07-16 11:29:10] INFO root fetch - processPackages [threads-net]: Remove: archive file [/home/abi/fetcher/tmp/threads-net-0.0.8.tar.gz]
+[2023-07-16 11:29:10] INFO root fetch - main [MainThread]: End processing [threads-net]: success
+[2023-07-16 11:29:10] INFO root fetch - processPackages [citizenk]: Remove: archive file [/home/abi/fetcher/tmp/citizenk-0.1.48.tar.gz]
+[2023-07-16 11:29:10] INFO root fetch - processPackages [citizenk]: Remove: archive file [/home/abi/fetcher/tmp/citizenk-0.1.49.tar.gz]
+[2023-07-16 11:29:10] INFO root fetch - main [MainThread]: End processing [citizenk]: success
+[2023-07-16 11:29:13] INFO root fetch - processPackages [noelgram1]: Remove: archive file [/home/abi/fetcher/tmp/noelgram1-0.0.2.tar.gz]
+[2023-07-16 11:29:13] INFO root fetch - processPackages [noelgram1]: Remove: archive file [/home/abi/fetcher/tmp/noelgram1-0.0.3.tar.gz]
+[2023-07-16 11:29:13] INFO root fetch - main [MainThread]: End processing [noelgram1]: success
+[2023-07-16 11:29:19] INFO root fetch - processPackages [ipylivebash]: Remove: archive file [/home/abi/fetcher/tmp/ipylivebash-0.2.0a1.tar.gz]
+[2023-07-16 11:29:19] INFO root fetch - processPackages [ipylivebash]: Remove: archive file [/home/abi/fetcher/tmp/ipylivebash-0.2.0a2.tar.gz]
+[2023-07-16 11:29:19] INFO root fetch - main [MainThread]: End processing [ipylivebash]: success
+[2023-07-16 11:29:19] INFO root fetch - main [MainThread]: Store serial: [18905978]
