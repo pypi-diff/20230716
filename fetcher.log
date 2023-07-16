@@ -7212,3 +7212,59 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-16 12:47:29] INFO root fetch - processPackages [pylabel]: Remove: archive file [/home/abi/fetcher/tmp/pylabel-0.1a12.tar.gz]
 [2023-07-16 12:47:29] INFO root fetch - main [MainThread]: End processing [pylabel]: success
 [2023-07-16 12:47:29] INFO root fetch - main [MainThread]: Store serial: [18906283]
+[2023-07-16 12:52:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18906283]
+[2023-07-16 12:52:38] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-16 12:52:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: arknights-mower
+[2023-07-16 12:52:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lichenggong
+[2023-07-16 12:52:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vimoweb-Summarizer
+[2023-07-16 12:52:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyle38
+[2023-07-16 12:52:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: OneOnOne
+[2023-07-16 12:52:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: database-infrastructure-local
+[2023-07-16 12:52:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: binpan
+[2023-07-16 12:52:38] INFO root fetch - processPackages [OneOnOne]: New version: [0.687] Old Version: [0.686]
+[2023-07-16 12:52:38] INFO root fetch - processPackages [database-infrastructure-local]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-16 12:52:38] WARNING root fetch - processPackages [vimoweb-Summarizer]: Skipping, unable to determine old version
+[2023-07-16 12:52:38] INFO root fetch - main [MainThread]: End processing [vimoweb-Summarizer] error
+[2023-07-16 12:52:38] INFO root fetch - processPackages [pyle38]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-16 12:52:38] INFO root fetch - processPackages [lichenggong]: New version: [0.3.0.8] Old Version: [0.3.0.7]
+[2023-07-16 12:52:38] INFO root fetch - processPackages [arknights-mower]: New version: [3.4.1] Old Version: [3.4.0]
+[2023-07-16 12:52:38] INFO root fetch - processPackages [OneOnOne]: Downloading https://files.pythonhosted.org/packages/36/d1/51d923fd3ff8980f76c232c2bfd9e841a89163dc3a17887e273c1c2865b6/OneOnOne-0.686.tar.gz
+[2023-07-16 12:52:38] INFO root fetch - processPackages [lichenggong]: Downloading https://files.pythonhosted.org/packages/fe/6b/928307d2a797890dcf5e3047b801a036379a825a09df9ef01191eb76ab3c/lichenggong-0.3.0.7.tar.gz
+[2023-07-16 12:52:38] INFO root fetch - processPackages [binpan]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-07-16 12:52:39] INFO root fetch - processPackages [database-infrastructure-local]: Downloading https://files.pythonhosted.org/packages/d8/f5/e5df59b8bbd301a4c47c8d980237668aa10ddbd67cbe5120dad628ecb9d5/database-infrastructure-local-0.0.3.tar.gz
+[2023-07-16 12:52:39] INFO root fetch - processPackages [pyle38]: Downloading https://files.pythonhosted.org/packages/89/dd/85e4a895b7f6aa388140283c0872f7c8a3cffb824cb4d8056b1bd27e79f1/pyle38-0.9.0.tar.gz
+[2023-07-16 12:52:39] INFO root fetch - processPackages [arknights-mower]: Downloading https://files.pythonhosted.org/packages/70/56/4716f93ebd48fdd91474a46489e320066af47f6bbe3569929fd299a1a45c/arknights_mower-3.4.0.tar.gz
+[2023-07-16 12:52:39] WARNING root fetch - processPackages [arknights-mower]: Skipping package: exceeds size limit 15859291>=10485760
+[2023-07-16 12:52:39] INFO root fetch - main [MainThread]: End processing [arknights-mower] error
+[2023-07-16 12:52:39] INFO root fetch - processPackages [binpan]: Downloading https://files.pythonhosted.org/packages/9a/c3/428612272a28dfbf5f1cdd8ea5a1b04925a2386a536f411087b1c492cb6b/binpan-0.4.8.tar.gz
+[2023-07-16 12:52:39] INFO root fetch - processPackages [lichenggong]: Downloading https://files.pythonhosted.org/packages/88/9f/fd0b603e0c70611c106a441e0823246a096262fd144724df36ce5f1ee886/lichenggong-0.3.0.8.tar.gz
+[2023-07-16 12:52:39] INFO root fetch - processPackages [OneOnOne]: Downloading https://files.pythonhosted.org/packages/65/d2/7d985f3ac44ad75554e76217be8fe3d28db1bdd322c1ce13e6fb41a13cfb/OneOnOne-0.687.tar.gz
+[2023-07-16 12:52:39] INFO root fetch - processPackages [database-infrastructure-local]: Downloading https://files.pythonhosted.org/packages/3f/b2/4567a1121345b6cfa9c66c34d263f3f27eeee66af36ab6a17608fb24e6a8/database-infrastructure-local-0.0.4.tar.gz
+[2023-07-16 12:52:39] INFO root fetch - processPackages [pyle38]: Downloading https://files.pythonhosted.org/packages/ee/de/687d56095ec61e79afea7b4a8337a68ac586b9f3215964868815e26939ab/pyle38-0.9.1.tar.gz
+[2023-07-16 12:52:39] INFO root fetch - processPackages [lichenggong]: executing diffoscope
+[2023-07-16 12:52:39] INFO root fetch - processPackages [lichenggong]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lichenggong-0.3.0.7.tar.gz tmp/lichenggong-0.3.0.8.tar.gz --markdown 20230716/l/lichenggong/0.3.0.7-0.3.0.8/diff.md --exclude *.pyd
+[2023-07-16 12:52:39] INFO root fetch - processPackages [pyle38]: executing diffoscope
+[2023-07-16 12:52:39] INFO root fetch - processPackages [pyle38]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyle38-0.9.0.tar.gz tmp/pyle38-0.9.1.tar.gz --markdown 20230716/p/pyle38/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-16 12:52:39] INFO root fetch - processPackages [database-infrastructure-local]: executing diffoscope
+[2023-07-16 12:52:39] INFO root fetch - processPackages [database-infrastructure-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/database-infrastructure-local-0.0.3.tar.gz tmp/database-infrastructure-local-0.0.4.tar.gz --markdown 20230716/d/database-infrastructure-local/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-16 12:52:39] INFO root fetch - processPackages [binpan]: Downloading https://files.pythonhosted.org/packages/a0/98/349c07c553f7bfad1d6e1c7717a411195002cd92d0fc40e3ade7867c8d7f/binpan-0.4.9.tar.gz
+[2023-07-16 12:52:39] INFO root fetch - processPackages [OneOnOne]: executing diffoscope
+[2023-07-16 12:52:39] INFO root fetch - processPackages [OneOnOne]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OneOnOne-0.686.tar.gz tmp/OneOnOne-0.687.tar.gz --markdown 20230716/O/OneOnOne/0.686-0.687/diff.md --exclude *.pyd
+[2023-07-16 12:52:40] INFO root fetch - processPackages [binpan]: executing diffoscope
+[2023-07-16 12:52:40] INFO root fetch - processPackages [binpan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/binpan-0.4.8.tar.gz tmp/binpan-0.4.9.tar.gz --markdown 20230716/b/binpan/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-07-16 12:52:40] INFO root fetch - processPackages [lichenggong]: Remove: archive file [/home/abi/fetcher/tmp/lichenggong-0.3.0.7.tar.gz]
+[2023-07-16 12:52:40] INFO root fetch - processPackages [lichenggong]: Remove: archive file [/home/abi/fetcher/tmp/lichenggong-0.3.0.8.tar.gz]
+[2023-07-16 12:52:40] INFO root fetch - main [MainThread]: End processing [lichenggong]: success
+[2023-07-16 12:52:40] INFO root fetch - processPackages [pyle38]: Remove: archive file [/home/abi/fetcher/tmp/pyle38-0.9.0.tar.gz]
+[2023-07-16 12:52:40] INFO root fetch - processPackages [pyle38]: Remove: archive file [/home/abi/fetcher/tmp/pyle38-0.9.1.tar.gz]
+[2023-07-16 12:52:40] INFO root fetch - main [MainThread]: End processing [pyle38]: success
+[2023-07-16 12:52:40] INFO root fetch - processPackages [database-infrastructure-local]: Remove: archive file [/home/abi/fetcher/tmp/database-infrastructure-local-0.0.3.tar.gz]
+[2023-07-16 12:52:40] INFO root fetch - processPackages [database-infrastructure-local]: Remove: archive file [/home/abi/fetcher/tmp/database-infrastructure-local-0.0.4.tar.gz]
+[2023-07-16 12:52:40] INFO root fetch - main [MainThread]: End processing [database-infrastructure-local]: success
+[2023-07-16 12:52:40] INFO root fetch - processPackages [OneOnOne]: Remove: archive file [/home/abi/fetcher/tmp/OneOnOne-0.686.tar.gz]
+[2023-07-16 12:52:40] INFO root fetch - processPackages [OneOnOne]: Remove: archive file [/home/abi/fetcher/tmp/OneOnOne-0.687.tar.gz]
+[2023-07-16 12:52:40] INFO root fetch - main [MainThread]: End processing [OneOnOne]: success
+[2023-07-16 12:52:41] INFO root fetch - processPackages [binpan]: Remove: archive file [/home/abi/fetcher/tmp/binpan-0.4.8.tar.gz]
+[2023-07-16 12:52:41] INFO root fetch - processPackages [binpan]: Remove: archive file [/home/abi/fetcher/tmp/binpan-0.4.9.tar.gz]
+[2023-07-16 12:52:41] INFO root fetch - main [MainThread]: End processing [binpan]: success
+[2023-07-16 12:52:41] INFO root fetch - main [MainThread]: Store serial: [18906306]
