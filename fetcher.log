@@ -7936,3 +7936,51 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-16 13:50:06] INFO root fetch - main [MainThread]: End processing [for-testing]: success
 [2023-07-16 13:50:06] INFO root fetch - main [MainThread]: End processing [for-testing]: success
 [2023-07-16 13:50:06] INFO root fetch - main [MainThread]: Store serial: [18906592]
+[2023-07-16 13:55:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18906592]
+[2023-07-16 13:55:14] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-16 13:55:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: unitxt
+[2023-07-16 13:55:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyrobosim
+[2023-07-16 13:55:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: miauw-base-service
+[2023-07-16 13:55:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Strings-OC
+[2023-07-16 13:55:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: anitube-simple-notification
+[2023-07-16 13:55:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: metrics-as-scores
+[2023-07-16 13:55:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lotr-api-rr
+[2023-07-16 13:55:15] WARNING root fetch - processPackages [lotr-api-rr]: Skipping, unable to determine old version
+[2023-07-16 13:55:15] INFO root fetch - main [MainThread]: End processing [lotr-api-rr] error
+[2023-07-16 13:55:15] INFO root fetch - processPackages [miauw-base-service]: New version: [1.7.1] Old Version: [1.2.4]
+[2023-07-16 13:55:15] INFO root fetch - processPackages [Strings-OC]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-16 13:55:15] WARNING root fetch - processPackages [pyrobosim]: Skipping, unable to determine old version
+[2023-07-16 13:55:15] INFO root fetch - main [MainThread]: End processing [pyrobosim] error
+[2023-07-16 13:55:15] INFO root fetch - processPackages [unitxt]: New version: [1.0.7] Old Version: [1.0.3]
+[2023-07-16 13:55:15] INFO root fetch - processPackages [metrics-as-scores]: New version: [2.7.0] Old Version: [2.5.0]
+[2023-07-16 13:55:15] WARNING root fetch - processPackages [anitube-simple-notification]: Skipping, unable to determine old version
+[2023-07-16 13:55:15] INFO root fetch - main [MainThread]: End processing [anitube-simple-notification] error
+[2023-07-16 13:55:15] INFO root fetch - processPackages [miauw-base-service]: Downloading https://files.pythonhosted.org/packages/fd/85/747e4215c12a10ef3c3e88e30bb891ff2215d752b4f66912dc4e4791b449/miauw-base-service-1.2.4.tar.gz
+[2023-07-16 13:55:15] INFO root fetch - processPackages [Strings-OC]: Downloading https://files.pythonhosted.org/packages/e9/71/6b352716aa8aa307c8fc3ba7314f927bacf182443257254eb6a16f3a26c6/Strings-OC-1.0.0.tar.gz
+[2023-07-16 13:55:15] INFO root fetch - processPackages [unitxt]: Downloading https://files.pythonhosted.org/packages/4f/ff/c37d78e0e45fb81dd94704314c9523413bdd6b65e9ed2f2ac77d869ea9ec/unitxt-1.0.3.tar.gz
+[2023-07-16 13:55:15] INFO root fetch - processPackages [metrics-as-scores]: Downloading https://files.pythonhosted.org/packages/a9/38/f1096786017d275f5b081acaba54f13812be0fea7c2f0930f1fa7d1101f6/metrics_as_scores-2.5.0.tar.gz
+[2023-07-16 13:55:15] INFO root fetch - processPackages [miauw-base-service]: Downloading https://files.pythonhosted.org/packages/ab/ff/7ef66beea6e245521f99b4b67d5c56b0ec3ecf28ba602cef259a709ce379/miauw-base-service-1.7.1.tar.gz
+[2023-07-16 13:55:15] INFO root fetch - processPackages [miauw-base-service]: executing diffoscope
+[2023-07-16 13:55:15] INFO root fetch - processPackages [miauw-base-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/miauw-base-service-1.2.4.tar.gz tmp/miauw-base-service-1.7.1.tar.gz --markdown 20230716/m/miauw-base-service/1.2.4-1.7.1/diff.md --exclude *.pyd
+[2023-07-16 13:55:15] INFO root fetch - processPackages [Strings-OC]: Downloading https://files.pythonhosted.org/packages/2f/d7/25c8075722de0ad69716ce266978f430a501535e7a1213f06b13800ea401/Strings-OC-1.0.1.tar.gz
+[2023-07-16 13:55:15] INFO root fetch - processPackages [metrics-as-scores]: Downloading https://files.pythonhosted.org/packages/37/a8/14def7c1608a9358105bd4311abde8de50826d970841fd4276f87bfaa60a/metrics_as_scores-2.7.0.tar.gz
+[2023-07-16 13:55:15] INFO root fetch - processPackages [unitxt]: Downloading https://files.pythonhosted.org/packages/11/d1/d3b62f8baf803050688a5209b7a249f450e3b915906be3b8636049f44de2/unitxt-1.0.7.tar.gz
+[2023-07-16 13:55:15] INFO root fetch - processPackages [Strings-OC]: executing diffoscope
+[2023-07-16 13:55:15] INFO root fetch - processPackages [Strings-OC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Strings-OC-1.0.0.tar.gz tmp/Strings-OC-1.0.1.tar.gz --markdown 20230716/S/Strings-OC/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-16 13:55:15] INFO root fetch - processPackages [unitxt]: executing diffoscope
+[2023-07-16 13:55:15] INFO root fetch - processPackages [unitxt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unitxt-1.0.3.tar.gz tmp/unitxt-1.0.7.tar.gz --markdown 20230716/u/unitxt/1.0.3-1.0.7/diff.md --exclude *.pyd
+[2023-07-16 13:55:16] INFO root fetch - processPackages [metrics-as-scores]: executing diffoscope
+[2023-07-16 13:55:16] INFO root fetch - processPackages [metrics-as-scores]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metrics_as_scores-2.5.0.tar.gz tmp/metrics_as_scores-2.7.0.tar.gz --markdown 20230716/m/metrics-as-scores/2.5.0-2.7.0/diff.md --exclude *.pyd
+[2023-07-16 13:55:16] INFO root fetch - processPackages [miauw-base-service]: Remove: archive file [/home/abi/fetcher/tmp/miauw-base-service-1.2.4.tar.gz]
+[2023-07-16 13:55:16] INFO root fetch - processPackages [miauw-base-service]: Remove: archive file [/home/abi/fetcher/tmp/miauw-base-service-1.7.1.tar.gz]
+[2023-07-16 13:55:16] INFO root fetch - main [MainThread]: End processing [miauw-base-service]: success
+[2023-07-16 13:55:16] INFO root fetch - processPackages [Strings-OC]: Remove: archive file [/home/abi/fetcher/tmp/Strings-OC-1.0.0.tar.gz]
+[2023-07-16 13:55:16] INFO root fetch - processPackages [Strings-OC]: Remove: archive file [/home/abi/fetcher/tmp/Strings-OC-1.0.1.tar.gz]
+[2023-07-16 13:55:16] INFO root fetch - main [MainThread]: End processing [Strings-OC]: success
+[2023-07-16 13:55:16] INFO root fetch - processPackages [unitxt]: Remove: archive file [/home/abi/fetcher/tmp/unitxt-1.0.3.tar.gz]
+[2023-07-16 13:55:16] INFO root fetch - processPackages [unitxt]: Remove: archive file [/home/abi/fetcher/tmp/unitxt-1.0.7.tar.gz]
+[2023-07-16 13:55:16] INFO root fetch - main [MainThread]: End processing [unitxt]: success
+[2023-07-16 13:55:17] INFO root fetch - processPackages [metrics-as-scores]: Remove: archive file [/home/abi/fetcher/tmp/metrics_as_scores-2.5.0.tar.gz]
+[2023-07-16 13:55:17] INFO root fetch - processPackages [metrics-as-scores]: Remove: archive file [/home/abi/fetcher/tmp/metrics_as_scores-2.7.0.tar.gz]
+[2023-07-16 13:55:17] INFO root fetch - main [MainThread]: End processing [metrics-as-scores]: success
+[2023-07-16 13:55:17] INFO root fetch - main [MainThread]: Store serial: [18906616]
