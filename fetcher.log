@@ -6854,3 +6854,58 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-16 12:10:53] INFO root fetch - processPackages [metaphor-connectors]: Remove: archive file [/home/abi/fetcher/tmp/metaphor-connectors-0.9.4.tar.gz]
 [2023-07-16 12:10:53] INFO root fetch - main [MainThread]: End processing [metaphor-connectors]: success
 [2023-07-16 12:10:53] INFO root fetch - main [MainThread]: Store serial: [18906108]
+[2023-07-16 12:15:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18906108]
+[2023-07-16 12:16:01] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-16 12:16:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyfrobot
+[2023-07-16 12:16:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyfrobot
+[2023-07-16 12:16:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: appconfigpy
+[2023-07-16 12:16:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lycoris-lora
+[2023-07-16 12:16:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: chempy
+[2023-07-16 12:16:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: FinQuant
+[2023-07-16 12:16:02] INFO root fetch - processPackages [chempy]: New version: [0.8.3] Old Version: [0.8.2]
+[2023-07-16 12:16:02] INFO root fetch - processPackages [lycoris-lora]: New version: [1.8.0.dev9] Old Version: [1.8.0.dev8]
+[2023-07-16 12:16:02] INFO root fetch - processPackages [pyfrobot]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-16 12:16:02] INFO root fetch - processPackages [appconfigpy]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-07-16 12:16:02] INFO root fetch - processPackages [pyfrobot]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-16 12:16:02] INFO root fetch - processPackages [FinQuant]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-16 12:16:02] INFO root fetch - processPackages [lycoris-lora]: Downloading https://files.pythonhosted.org/packages/de/80/86773036f7f51825e38b128d2eb02f8b4a73bd937ef34e8ec0fffdea719e/lycoris_lora-1.8.0.dev8.tar.gz
+[2023-07-16 12:16:02] INFO root fetch - processPackages [pyfrobot]: Downloading https://files.pythonhosted.org/packages/47/d8/4eff931acd80eb8b05f05c88112d1850849146f9915175d6eadf35df14ef/pyfrobot-0.1.8.tar.gz
+[2023-07-16 12:16:02] INFO root fetch - processPackages [pyfrobot]: Downloading https://files.pythonhosted.org/packages/47/d8/4eff931acd80eb8b05f05c88112d1850849146f9915175d6eadf35df14ef/pyfrobot-0.1.8.tar.gz
+[2023-07-16 12:16:02] INFO root fetch - processPackages [chempy]: Downloading https://files.pythonhosted.org/packages/ed/52/73ca496d0ff5e841a6f444c42969ade8c67f37417b18964d5e8395b1b0ed/chempy-0.8.2.tar.gz
+[2023-07-16 12:16:02] INFO root fetch - processPackages [appconfigpy]: Downloading https://files.pythonhosted.org/packages/d5/b9/8ece9074859239e4077ea3dbdb548909e731a069baf568ecc5cd7acca90a/appconfigpy-2.0.0.tar.gz
+[2023-07-16 12:16:02] INFO root fetch - processPackages [FinQuant]: Downloading https://files.pythonhosted.org/packages/60/45/4ddec8dce07349c10f1f5680f5c525718747e9707f1ba43ca6ea0252759b/FinQuant-0.3.0.tar.gz
+[2023-07-16 12:16:02] INFO root fetch - processPackages [lycoris-lora]: Downloading https://files.pythonhosted.org/packages/33/f8/dbedfb5d14ce42cc250e4b1bd8edc9b569669b04696eeb887792654467d4/lycoris_lora-1.8.0.dev9.tar.gz
+[2023-07-16 12:16:02] INFO root fetch - processPackages [pyfrobot]: Downloading https://files.pythonhosted.org/packages/a5/a7/c91a44b101557e88b0c525fd1fbcc9ee6e7a1d4fe9318da83243b9481ac4/pyfrobot-0.1.9.tar.gz
+[2023-07-16 12:16:02] INFO root fetch - processPackages [pyfrobot]: Downloading https://files.pythonhosted.org/packages/a5/a7/c91a44b101557e88b0c525fd1fbcc9ee6e7a1d4fe9318da83243b9481ac4/pyfrobot-0.1.9.tar.gz
+[2023-07-16 12:16:02] INFO root fetch - processPackages [lycoris-lora]: executing diffoscope
+[2023-07-16 12:16:02] INFO root fetch - processPackages [lycoris-lora]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lycoris_lora-1.8.0.dev8.tar.gz tmp/lycoris_lora-1.8.0.dev9.tar.gz --markdown 20230716/l/lycoris-lora/1.8.0.dev8-1.8.0.dev9/diff.md --exclude *.pyd
+[2023-07-16 12:16:02] INFO root fetch - processPackages [pyfrobot]: executing diffoscope
+[2023-07-16 12:16:02] INFO root fetch - processPackages [pyfrobot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfrobot-0.1.8.tar.gz tmp/pyfrobot-0.1.9.tar.gz --markdown 20230716/p/pyfrobot/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-16 12:16:02] INFO root fetch - processPackages [pyfrobot]: executing diffoscope
+[2023-07-16 12:16:02] INFO root fetch - processPackages [pyfrobot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfrobot-0.1.8.tar.gz tmp/pyfrobot-0.1.9.tar.gz --markdown 20230716/p/pyfrobot/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-16 12:16:02] INFO root fetch - processPackages [appconfigpy]: Downloading https://files.pythonhosted.org/packages/51/a0/5dbaf3c8b45b67350635d0e298913ea020efbd0474cdb13cbeb7aebfadb6/appconfigpy-2.0.1.tar.gz
+[2023-07-16 12:16:02] INFO root fetch - processPackages [chempy]: Downloading https://files.pythonhosted.org/packages/74/29/600fd5624080ac31711a6c40b9d4b19f7ab6007ec024bce1dbec11fcbe6c/chempy-0.8.3.tar.gz
+[2023-07-16 12:16:03] INFO root fetch - processPackages [FinQuant]: Downloading https://files.pythonhosted.org/packages/04/76/24969f256505491cf9190f20d2bb018d6005aa1d9f834a5830d46ea0c3f6/FinQuant-0.3.1.tar.gz
+[2023-07-16 12:16:03] INFO root fetch - processPackages [chempy]: executing diffoscope
+[2023-07-16 12:16:03] INFO root fetch - processPackages [chempy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chempy-0.8.2.tar.gz tmp/chempy-0.8.3.tar.gz --markdown 20230716/c/chempy/0.8.2-0.8.3/diff.md --exclude *.pyd
+[2023-07-16 12:16:03] INFO root fetch - processPackages [appconfigpy]: executing diffoscope
+[2023-07-16 12:16:03] INFO root fetch - processPackages [appconfigpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/appconfigpy-2.0.0.tar.gz tmp/appconfigpy-2.0.1.tar.gz --markdown 20230716/a/appconfigpy/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-07-16 12:16:03] INFO root fetch - processPackages [FinQuant]: executing diffoscope
+[2023-07-16 12:16:03] INFO root fetch - processPackages [FinQuant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FinQuant-0.3.0.tar.gz tmp/FinQuant-0.3.1.tar.gz --markdown 20230716/F/FinQuant/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-16 12:16:03] INFO root fetch - processPackages [pyfrobot]: Remove: archive file [/home/abi/fetcher/tmp/pyfrobot-0.1.8.tar.gz]
+[2023-07-16 12:16:03] INFO root fetch - processPackages [pyfrobot]: Remove: archive file [/home/abi/fetcher/tmp/pyfrobot-0.1.9.tar.gz]
+[2023-07-16 12:16:03] INFO root fetch - main [MainThread]: End processing [pyfrobot]: success
+[2023-07-16 12:16:03] INFO root fetch - main [MainThread]: End processing [pyfrobot]: success
+[2023-07-16 12:16:03] INFO root fetch - processPackages [lycoris-lora]: Remove: archive file [/home/abi/fetcher/tmp/lycoris_lora-1.8.0.dev8.tar.gz]
+[2023-07-16 12:16:03] INFO root fetch - processPackages [lycoris-lora]: Remove: archive file [/home/abi/fetcher/tmp/lycoris_lora-1.8.0.dev9.tar.gz]
+[2023-07-16 12:16:03] INFO root fetch - main [MainThread]: End processing [lycoris-lora]: success
+[2023-07-16 12:16:04] INFO root fetch - processPackages [appconfigpy]: Remove: archive file [/home/abi/fetcher/tmp/appconfigpy-2.0.0.tar.gz]
+[2023-07-16 12:16:04] INFO root fetch - processPackages [appconfigpy]: Remove: archive file [/home/abi/fetcher/tmp/appconfigpy-2.0.1.tar.gz]
+[2023-07-16 12:16:04] INFO root fetch - main [MainThread]: End processing [appconfigpy]: success
+[2023-07-16 12:16:04] INFO root fetch - processPackages [FinQuant]: Remove: archive file [/home/abi/fetcher/tmp/FinQuant-0.3.0.tar.gz]
+[2023-07-16 12:16:04] INFO root fetch - processPackages [FinQuant]: Remove: archive file [/home/abi/fetcher/tmp/FinQuant-0.3.1.tar.gz]
+[2023-07-16 12:16:04] INFO root fetch - main [MainThread]: End processing [FinQuant]: success
+[2023-07-16 12:16:04] INFO root fetch - processPackages [chempy]: Remove: archive file [/home/abi/fetcher/tmp/chempy-0.8.2.tar.gz]
+[2023-07-16 12:16:04] INFO root fetch - processPackages [chempy]: Remove: archive file [/home/abi/fetcher/tmp/chempy-0.8.3.tar.gz]
+[2023-07-16 12:16:04] INFO root fetch - main [MainThread]: End processing [chempy]: success
+[2023-07-16 12:16:04] INFO root fetch - main [MainThread]: Store serial: [18906129]
