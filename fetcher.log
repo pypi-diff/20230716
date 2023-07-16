@@ -12219,3 +12219,54 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-16 19:41:58] INFO root fetch - processPackages [forecastmanager]: Remove: archive file [/home/abi/fetcher/tmp/forecastmanager-0.0.8.tar.gz]
 [2023-07-16 19:41:58] INFO root fetch - main [MainThread]: End processing [forecastmanager]: success
 [2023-07-16 19:41:58] INFO root fetch - main [MainThread]: Store serial: [18908406]
+[2023-07-16 19:47:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18908406]
+[2023-07-16 19:47:07] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-16 19:47:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: emergenet
+[2023-07-16 19:47:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: betterplotlib
+[2023-07-16 19:47:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: slab
+[2023-07-16 19:47:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: staircase-kit
+[2023-07-16 19:47:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nodice-cli
+[2023-07-16 19:47:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ez-a-sync
+[2023-07-16 19:47:07] INFO root fetch - processPackages [staircase-kit]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-16 19:47:07] INFO root fetch - processPackages [betterplotlib]: New version: [1.9.3] Old Version: [1.9.2]
+[2023-07-16 19:47:07] WARNING root fetch - processPackages [nodice-cli]: Skipping, unable to determine old version
+[2023-07-16 19:47:07] INFO root fetch - main [MainThread]: End processing [nodice-cli] error
+[2023-07-16 19:47:07] INFO root fetch - processPackages [slab]: New version: [1.1.5] Old Version: [1.1.4]
+[2023-07-16 19:47:07] INFO root fetch - processPackages [emergenet]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-16 19:47:07] INFO root fetch - processPackages [ez-a-sync]: New version: [0.6.2.dev2] Old Version: [0.6.2.dev1]
+[2023-07-16 19:47:07] INFO root fetch - processPackages [ez-a-sync]: Downloading https://files.pythonhosted.org/packages/a6/21/9ba09e3f81e1ebf613032723f2f5f540612e1d4c2d56dcc0a64e147be098/ez-a-sync-0.6.2.dev1.tar.gz
+[2023-07-16 19:47:07] INFO root fetch - processPackages [slab]: Downloading https://files.pythonhosted.org/packages/65/30/4b7a0b71040220b6e100320ce8963fff97fc6ad5defad4f69b05ef03a224/slab-1.1.4.tar.gz
+[2023-07-16 19:47:07] INFO root fetch - processPackages [betterplotlib]: Downloading https://files.pythonhosted.org/packages/c8/14/457e2a0ebb4b1fa3e1fd67dfd378c0ad93e92d6fa69ef581415f566c9a53/betterplotlib-1.9.2.tar.gz
+[2023-07-16 19:47:07] INFO root fetch - processPackages [emergenet]: Downloading https://files.pythonhosted.org/packages/01/89/383d61e6f1dad8986f99498987337f0dd51e603ef3d2daee7e550d748120/emergenet-0.0.8.tar.gz
+[2023-07-16 19:47:07] INFO root fetch - processPackages [staircase-kit]: Downloading https://files.pythonhosted.org/packages/70/a0/ba7192aa39b6b280409446b0bf8109c5bc1d5effe7f54d2f459e36deaeb9/staircase_kit-0.1.8.tar.gz
+[2023-07-16 19:47:07] INFO root fetch - processPackages [ez-a-sync]: Downloading https://files.pythonhosted.org/packages/2d/9b/55723f6309e51f68dbcffccc8e89108f73533b251d59059c80bc80723104/ez-a-sync-0.6.2.dev2.tar.gz
+[2023-07-16 19:47:07] INFO root fetch - processPackages [ez-a-sync]: executing diffoscope
+[2023-07-16 19:47:07] INFO root fetch - processPackages [ez-a-sync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ez-a-sync-0.6.2.dev1.tar.gz tmp/ez-a-sync-0.6.2.dev2.tar.gz --markdown 20230716/e/ez-a-sync/0.6.2.dev1-0.6.2.dev2/diff.md --exclude *.pyd
+[2023-07-16 19:47:07] INFO root fetch - processPackages [slab]: Downloading https://files.pythonhosted.org/packages/27/14/abe50c64af2a0fde0556b585d7a33d6d7e463d2946e3d8eb3b62bb2576e5/slab-1.1.5.tar.gz
+[2023-07-16 19:47:07] INFO root fetch - processPackages [staircase-kit]: Downloading https://files.pythonhosted.org/packages/01/96/15a40885ce958da4972b51b06600031ea9983c0e9522cd8ef1e964283364/staircase_kit-0.1.9.tar.gz
+[2023-07-16 19:47:07] INFO root fetch - processPackages [betterplotlib]: Downloading https://files.pythonhosted.org/packages/76/1a/5fac23174af580fd89bd49cf886cf6e3d047c1dbc25771142fdc18d252c8/betterplotlib-1.9.3.tar.gz
+[2023-07-16 19:47:07] INFO root fetch - processPackages [slab]: executing diffoscope
+[2023-07-16 19:47:07] INFO root fetch - processPackages [slab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slab-1.1.4.tar.gz tmp/slab-1.1.5.tar.gz --markdown 20230716/s/slab/1.1.4-1.1.5/diff.md --exclude *.pyd
+[2023-07-16 19:47:07] INFO root fetch - processPackages [emergenet]: Downloading https://files.pythonhosted.org/packages/64/cd/356b4a467f17df337330223342d19dfc1ce7bb82435213ef9b59c2b7fbbd/emergenet-0.0.9.tar.gz
+[2023-07-16 19:47:08] INFO root fetch - processPackages [staircase-kit]: executing diffoscope
+[2023-07-16 19:47:08] INFO root fetch - processPackages [staircase-kit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/staircase_kit-0.1.8.tar.gz tmp/staircase_kit-0.1.9.tar.gz --markdown 20230716/s/staircase-kit/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-16 19:47:08] INFO root fetch - processPackages [betterplotlib]: executing diffoscope
+[2023-07-16 19:47:08] INFO root fetch - processPackages [betterplotlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/betterplotlib-1.9.2.tar.gz tmp/betterplotlib-1.9.3.tar.gz --markdown 20230716/b/betterplotlib/1.9.2-1.9.3/diff.md --exclude *.pyd
+[2023-07-16 19:47:08] INFO root fetch - processPackages [emergenet]: executing diffoscope
+[2023-07-16 19:47:08] INFO root fetch - processPackages [emergenet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emergenet-0.0.8.tar.gz tmp/emergenet-0.0.9.tar.gz --markdown 20230716/e/emergenet/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-16 19:47:08] INFO root fetch - processPackages [ez-a-sync]: Remove: archive file [/home/abi/fetcher/tmp/ez-a-sync-0.6.2.dev1.tar.gz]
+[2023-07-16 19:47:08] INFO root fetch - processPackages [ez-a-sync]: Remove: archive file [/home/abi/fetcher/tmp/ez-a-sync-0.6.2.dev2.tar.gz]
+[2023-07-16 19:47:08] INFO root fetch - main [MainThread]: End processing [ez-a-sync]: success
+[2023-07-16 19:47:09] INFO root fetch - processPackages [staircase-kit]: Remove: archive file [/home/abi/fetcher/tmp/staircase_kit-0.1.8.tar.gz]
+[2023-07-16 19:47:09] INFO root fetch - processPackages [staircase-kit]: Remove: archive file [/home/abi/fetcher/tmp/staircase_kit-0.1.9.tar.gz]
+[2023-07-16 19:47:09] INFO root fetch - main [MainThread]: End processing [staircase-kit]: success
+[2023-07-16 19:47:09] INFO root fetch - processPackages [slab]: Remove: archive file [/home/abi/fetcher/tmp/slab-1.1.4.tar.gz]
+[2023-07-16 19:47:09] INFO root fetch - processPackages [slab]: Remove: archive file [/home/abi/fetcher/tmp/slab-1.1.5.tar.gz]
+[2023-07-16 19:47:09] INFO root fetch - main [MainThread]: End processing [slab]: success
+[2023-07-16 19:47:09] INFO root fetch - processPackages [emergenet]: Remove: archive file [/home/abi/fetcher/tmp/emergenet-0.0.8.tar.gz]
+[2023-07-16 19:47:09] INFO root fetch - processPackages [emergenet]: Remove: archive file [/home/abi/fetcher/tmp/emergenet-0.0.9.tar.gz]
+[2023-07-16 19:47:09] INFO root fetch - main [MainThread]: End processing [emergenet]: success
+[2023-07-16 19:47:09] INFO root fetch - processPackages [betterplotlib]: Remove: archive file [/home/abi/fetcher/tmp/betterplotlib-1.9.2.tar.gz]
+[2023-07-16 19:47:09] INFO root fetch - processPackages [betterplotlib]: Remove: archive file [/home/abi/fetcher/tmp/betterplotlib-1.9.3.tar.gz]
+[2023-07-16 19:47:09] INFO root fetch - main [MainThread]: End processing [betterplotlib]: success
+[2023-07-16 19:47:09] INFO root fetch - main [MainThread]: Store serial: [18908428]
