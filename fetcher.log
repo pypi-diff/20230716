@@ -3288,3 +3288,42 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-16 05:35:34] INFO root fetch - processPackages [domain-admin]: Remove: archive file [/home/abi/fetcher/tmp/domain-admin-1.5.0.tar.gz]
 [2023-07-16 05:35:34] INFO root fetch - main [MainThread]: End processing [domain-admin]: success
 [2023-07-16 05:35:34] INFO root fetch - main [MainThread]: Store serial: [18904610]
+[2023-07-16 05:40:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18904610]
+[2023-07-16 05:40:43] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-16 05:40:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: falconlib
+[2023-07-16 05:40:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Subsearch
+[2023-07-16 05:40:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: data-diff
+[2023-07-16 05:40:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hak
+[2023-07-16 05:40:43] INFO root fetch - processPackages [falconlib]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-16 05:40:43] INFO root fetch - processPackages [hak]: New version: [0.0.9] Old Version: [0.0.87]
+[2023-07-16 05:40:43] INFO root fetch - processPackages [Subsearch]: New version: [2.37.0rc2] Old Version: [2.37.0rc1]
+[2023-07-16 05:40:43] INFO root fetch - processPackages [data-diff]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-07-16 05:40:43] INFO root fetch - processPackages [hak]: Downloading https://files.pythonhosted.org/packages/5c/9f/f6ee48e4293a7fd502550a1922ee305cda065c39f226a831ecabbe4b7b2c/hak-0.0.87.tar.gz
+[2023-07-16 05:40:43] INFO root fetch - processPackages [data-diff]: Downloading https://files.pythonhosted.org/packages/bb/36/ca801d8b1ef5dcc30d053086d846544bdbe2e29f31940737b24f7078a897/data_diff-0.7.8.tar.gz
+[2023-07-16 05:40:43] INFO root fetch - processPackages [Subsearch]: Downloading https://files.pythonhosted.org/packages/9e/d9/ac213202a3fa4036f2456aa9d07f84237e530c5c511eef38c302ea1aeb1a/Subsearch-2.37.0rc1.tar.gz
+[2023-07-16 05:40:43] INFO root fetch - processPackages [falconlib]: Downloading https://files.pythonhosted.org/packages/3d/74/57428cf78a3c7eb0de1c166379b9c053cd12b7d9c141a85e8e6374ffeb02/falconlib-0.0.8.tar.gz
+[2023-07-16 05:40:44] INFO root fetch - processPackages [hak]: Downloading https://files.pythonhosted.org/packages/fd/2b/bf7b3451d5e3a84e9a674b47e9f046c4db1f582764a85a4dfc00e14ecf00/hak-0.0.9.tar.gz
+[2023-07-16 05:40:44] INFO root fetch - processPackages [hak]: executing diffoscope
+[2023-07-16 05:40:44] INFO root fetch - processPackages [hak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hak-0.0.87.tar.gz tmp/hak-0.0.9.tar.gz --markdown 20230716/h/hak/0.0.87-0.0.9/diff.md --exclude *.pyd
+[2023-07-16 05:40:44] INFO root fetch - processPackages [data-diff]: Downloading https://files.pythonhosted.org/packages/3a/6a/c5f7e1a86329df1e80b20bb2e958573c2ef08727eb3743ac9daf7fe535f3/data_diff-0.7.9.tar.gz
+[2023-07-16 05:40:44] INFO root fetch - processPackages [falconlib]: Downloading https://files.pythonhosted.org/packages/af/66/b9c471ad44f60bb92cecd425a471bae725a037f39d79460cec927698b3eb/falconlib-0.0.9.tar.gz
+[2023-07-16 05:40:44] INFO root fetch - processPackages [Subsearch]: Downloading https://files.pythonhosted.org/packages/61/a1/9503d90cbe846a760ee5f47fa7ab0ea50bcc79090198f30df4f362880432/Subsearch-2.37.0rc2.tar.gz
+[2023-07-16 05:40:44] INFO root fetch - processPackages [falconlib]: executing diffoscope
+[2023-07-16 05:40:44] INFO root fetch - processPackages [falconlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/falconlib-0.0.8.tar.gz tmp/falconlib-0.0.9.tar.gz --markdown 20230716/f/falconlib/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-16 05:40:44] INFO root fetch - processPackages [data-diff]: executing diffoscope
+[2023-07-16 05:40:44] INFO root fetch - processPackages [data-diff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data_diff-0.7.8.tar.gz tmp/data_diff-0.7.9.tar.gz --markdown 20230716/d/data-diff/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-07-16 05:40:44] INFO root fetch - processPackages [Subsearch]: executing diffoscope
+[2023-07-16 05:40:44] INFO root fetch - processPackages [Subsearch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Subsearch-2.37.0rc1.tar.gz tmp/Subsearch-2.37.0rc2.tar.gz --markdown 20230716/S/Subsearch/2.37.0rc1-2.37.0rc2/diff.md --exclude *.pyd
+[2023-07-16 05:40:45] INFO root fetch - processPackages [falconlib]: Remove: archive file [/home/abi/fetcher/tmp/falconlib-0.0.8.tar.gz]
+[2023-07-16 05:40:45] INFO root fetch - processPackages [falconlib]: Remove: archive file [/home/abi/fetcher/tmp/falconlib-0.0.9.tar.gz]
+[2023-07-16 05:40:45] INFO root fetch - main [MainThread]: End processing [falconlib]: success
+[2023-07-16 05:40:45] INFO root fetch - processPackages [Subsearch]: Remove: archive file [/home/abi/fetcher/tmp/Subsearch-2.37.0rc1.tar.gz]
+[2023-07-16 05:40:45] INFO root fetch - processPackages [Subsearch]: Remove: archive file [/home/abi/fetcher/tmp/Subsearch-2.37.0rc2.tar.gz]
+[2023-07-16 05:40:45] INFO root fetch - main [MainThread]: End processing [Subsearch]: success
+[2023-07-16 05:40:45] INFO root fetch - processPackages [data-diff]: Remove: archive file [/home/abi/fetcher/tmp/data_diff-0.7.8.tar.gz]
+[2023-07-16 05:40:45] INFO root fetch - processPackages [data-diff]: Remove: archive file [/home/abi/fetcher/tmp/data_diff-0.7.9.tar.gz]
+[2023-07-16 05:40:45] INFO root fetch - main [MainThread]: End processing [data-diff]: success
+[2023-07-16 05:40:45] INFO root fetch - processPackages [hak]: Remove: archive file [/home/abi/fetcher/tmp/hak-0.0.87.tar.gz]
+[2023-07-16 05:40:45] INFO root fetch - processPackages [hak]: Remove: archive file [/home/abi/fetcher/tmp/hak-0.0.9.tar.gz]
+[2023-07-16 05:40:45] INFO root fetch - main [MainThread]: End processing [hak]: success
+[2023-07-16 05:40:45] INFO root fetch - main [MainThread]: Store serial: [18904621]
