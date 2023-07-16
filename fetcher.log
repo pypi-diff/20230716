@@ -3931,3 +3931,60 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-16 07:19:21] INFO root fetch - processPackages [tflite-runtime-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite_runtime_nightly-2.14.0.dev20230715-cp39-cp39-manylinux2014_x86_64.whl.zip]
 [2023-07-16 07:19:21] INFO root fetch - main [MainThread]: End processing [tflite-runtime-nightly]: success
 [2023-07-16 07:19:21] INFO root fetch - main [MainThread]: Store serial: [18904905]
+[2023-07-16 07:24:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18904905]
+[2023-07-16 07:24:30] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-16 07:24:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tkadw
+[2023-07-16 07:24:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: shibuya
+[2023-07-16 07:24:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hak
+[2023-07-16 07:24:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pylint-sarif-unofficial
+[2023-07-16 07:24:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: adafri
+[2023-07-16 07:24:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: revealjs
+[2023-07-16 07:24:30] INFO root fetch - processPackages [shibuya]: New version: [2023.7.16] Old Version: [2023.7.15]
+[2023-07-16 07:24:30] INFO root fetch - processPackages [adafri]: New version: [0.0.19.34] Old Version: [0.0.19.33]
+[2023-07-16 07:24:30] INFO root fetch - processPackages [pylint-sarif-unofficial]: New version: [0.2.0a0] Old Version: [0.1.0]
+[2023-07-16 07:24:30] INFO root fetch - processPackages [hak]: New version: [0.0.91] Old Version: [0.0.90]
+[2023-07-16 07:24:30] INFO root fetch - processPackages [tkadw]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-07-16 07:24:30] INFO root fetch - processPackages [revealjs]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-16 07:24:30] INFO root fetch - processPackages [adafri]: Downloading https://files.pythonhosted.org/packages/a0/36/5d76d576ee6cefab7c5993700edd4cdef33525172cacc32aed1eb0f13595/adafri-0.0.19.33.tar.gz
+[2023-07-16 07:24:30] INFO root fetch - processPackages [shibuya]: Downloading https://files.pythonhosted.org/packages/1c/fd/bfcec1e66932a545e2dbfd460196ee5ecfb1f5aceed31245060be705dcea/shibuya-2023.7.15.tar.gz
+[2023-07-16 07:24:30] INFO root fetch - processPackages [hak]: Downloading https://files.pythonhosted.org/packages/b4/4a/9bfd3f28ea5bb32d1adca0344d4c66858f789c10b1cd9a4855c146f31dd9/hak-0.0.90.tar.gz
+[2023-07-16 07:24:30] INFO root fetch - processPackages [revealjs]: Downloading https://files.pythonhosted.org/packages/48/9b/20856eed9f2d43c368b24cbe5067bc9d90176e56396d4b6f2ba2d5013b0b/revealjs-0.0.5.tar.gz
+[2023-07-16 07:24:30] INFO root fetch - processPackages [tkadw]: Downloading https://files.pythonhosted.org/packages/f0/40/272dce892e6fe82e4f8c19efaabbc6c03cba3a689be25d04a6c1dffca599/tkadw-0.3.2.tar.gz
+[2023-07-16 07:24:30] INFO root fetch - processPackages [pylint-sarif-unofficial]: Downloading https://files.pythonhosted.org/packages/84/39/a846cc8b4574c4e44274c9ccbe4a7bdd9160e4b3706e83e63191f24f263e/pylint_sarif_unofficial-0.1.0.tar.gz
+[2023-07-16 07:24:30] INFO root fetch - processPackages [revealjs]: Downloading https://files.pythonhosted.org/packages/dc/93/17e9bc620ba5cbda81cf7dbdda9cb32235ff4fcfa70c2bd49c34bc193e98/revealjs-0.0.6.tar.gz
+[2023-07-16 07:24:31] INFO root fetch - processPackages [shibuya]: Downloading https://files.pythonhosted.org/packages/cd/21/0c23fc4781dec4473e946e912768658a1515f43063f936ccd5c604e0de0e/shibuya-2023.7.16.tar.gz
+[2023-07-16 07:24:31] INFO root fetch - processPackages [adafri]: Downloading https://files.pythonhosted.org/packages/9d/2a/b4060224d811e7b8b505ac93e85c7f6c38fd1dbdf1456838eb7af5ec9a77/adafri-0.0.19.34.tar.gz
+[2023-07-16 07:24:31] INFO root fetch - processPackages [hak]: Downloading https://files.pythonhosted.org/packages/e0/33/ac345368de31fe3d3fff57fd6f19ffa16e4589d39c4c8233af3d6ffd7d71/hak-0.0.91.tar.gz
+[2023-07-16 07:24:31] INFO root fetch - processPackages [revealjs]: executing diffoscope
+[2023-07-16 07:24:31] INFO root fetch - processPackages [revealjs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/revealjs-0.0.5.tar.gz tmp/revealjs-0.0.6.tar.gz --markdown 20230716/r/revealjs/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-16 07:24:31] INFO root fetch - processPackages [tkadw]: Downloading https://files.pythonhosted.org/packages/ba/21/7a7930b760875c4bf6b6eb26a8d6edf653241b097f05586224157ad3acd2/tkadw-0.3.3.tar.gz
+[2023-07-16 07:24:31] INFO root fetch - processPackages [adafri]: executing diffoscope
+[2023-07-16 07:24:31] INFO root fetch - processPackages [adafri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafri-0.0.19.33.tar.gz tmp/adafri-0.0.19.34.tar.gz --markdown 20230716/a/adafri/0.0.19.33-0.0.19.34/diff.md --exclude *.pyd
+[2023-07-16 07:24:31] INFO root fetch - processPackages [shibuya]: executing diffoscope
+[2023-07-16 07:24:31] INFO root fetch - processPackages [shibuya]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shibuya-2023.7.15.tar.gz tmp/shibuya-2023.7.16.tar.gz --markdown 20230716/s/shibuya/2023.7.15-2023.7.16/diff.md --exclude *.pyd
+[2023-07-16 07:24:31] INFO root fetch - processPackages [pylint-sarif-unofficial]: Downloading https://files.pythonhosted.org/packages/fe/f4/f9f05b2d78de9ff7705c2d7f24e023cd14ed9995d73dd8048d285f13176d/pylint_sarif_unofficial-0.2.0a0.tar.gz
+[2023-07-16 07:24:31] INFO root fetch - processPackages [hak]: executing diffoscope
+[2023-07-16 07:24:31] INFO root fetch - processPackages [hak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hak-0.0.90.tar.gz tmp/hak-0.0.91.tar.gz --markdown 20230716/h/hak/0.0.90-0.0.91/diff.md --exclude *.pyd
+[2023-07-16 07:24:31] INFO root fetch - processPackages [tkadw]: executing diffoscope
+[2023-07-16 07:24:31] INFO root fetch - processPackages [tkadw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tkadw-0.3.2.tar.gz tmp/tkadw-0.3.3.tar.gz --markdown 20230716/t/tkadw/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-07-16 07:24:31] INFO root fetch - processPackages [pylint-sarif-unofficial]: executing diffoscope
+[2023-07-16 07:24:31] INFO root fetch - processPackages [pylint-sarif-unofficial]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylint_sarif_unofficial-0.1.0.tar.gz tmp/pylint_sarif_unofficial-0.2.0a0.tar.gz --markdown 20230716/p/pylint-sarif-unofficial/0.1.0-0.2.0a0/diff.md --exclude *.pyd
+[2023-07-16 07:24:32] INFO root fetch - processPackages [revealjs]: Remove: archive file [/home/abi/fetcher/tmp/revealjs-0.0.5.tar.gz]
+[2023-07-16 07:24:32] INFO root fetch - processPackages [revealjs]: Remove: archive file [/home/abi/fetcher/tmp/revealjs-0.0.6.tar.gz]
+[2023-07-16 07:24:32] INFO root fetch - main [MainThread]: End processing [revealjs]: success
+[2023-07-16 07:24:32] INFO root fetch - processPackages [adafri]: Remove: archive file [/home/abi/fetcher/tmp/adafri-0.0.19.33.tar.gz]
+[2023-07-16 07:24:32] INFO root fetch - processPackages [adafri]: Remove: archive file [/home/abi/fetcher/tmp/adafri-0.0.19.34.tar.gz]
+[2023-07-16 07:24:32] INFO root fetch - main [MainThread]: End processing [adafri]: success
+[2023-07-16 07:24:32] INFO root fetch - processPackages [pylint-sarif-unofficial]: Remove: archive file [/home/abi/fetcher/tmp/pylint_sarif_unofficial-0.1.0.tar.gz]
+[2023-07-16 07:24:32] INFO root fetch - processPackages [pylint-sarif-unofficial]: Remove: archive file [/home/abi/fetcher/tmp/pylint_sarif_unofficial-0.2.0a0.tar.gz]
+[2023-07-16 07:24:32] INFO root fetch - main [MainThread]: End processing [pylint-sarif-unofficial]: success
+[2023-07-16 07:24:32] INFO root fetch - processPackages [shibuya]: Remove: archive file [/home/abi/fetcher/tmp/shibuya-2023.7.15.tar.gz]
+[2023-07-16 07:24:32] INFO root fetch - processPackages [shibuya]: Remove: archive file [/home/abi/fetcher/tmp/shibuya-2023.7.16.tar.gz]
+[2023-07-16 07:24:32] INFO root fetch - main [MainThread]: End processing [shibuya]: success
+[2023-07-16 07:24:32] INFO root fetch - processPackages [tkadw]: Remove: archive file [/home/abi/fetcher/tmp/tkadw-0.3.2.tar.gz]
+[2023-07-16 07:24:32] INFO root fetch - processPackages [tkadw]: Remove: archive file [/home/abi/fetcher/tmp/tkadw-0.3.3.tar.gz]
+[2023-07-16 07:24:32] INFO root fetch - main [MainThread]: End processing [tkadw]: success
+[2023-07-16 07:24:33] INFO root fetch - processPackages [hak]: Remove: archive file [/home/abi/fetcher/tmp/hak-0.0.90.tar.gz]
+[2023-07-16 07:24:33] INFO root fetch - processPackages [hak]: Remove: archive file [/home/abi/fetcher/tmp/hak-0.0.91.tar.gz]
+[2023-07-16 07:24:33] INFO root fetch - main [MainThread]: End processing [hak]: success
+[2023-07-16 07:24:33] INFO root fetch - main [MainThread]: Store serial: [18904930]
