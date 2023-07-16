@@ -7268,3 +7268,81 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-16 12:52:41] INFO root fetch - processPackages [binpan]: Remove: archive file [/home/abi/fetcher/tmp/binpan-0.4.9.tar.gz]
 [2023-07-16 12:52:41] INFO root fetch - main [MainThread]: End processing [binpan]: success
 [2023-07-16 12:52:41] INFO root fetch - main [MainThread]: Store serial: [18906306]
+[2023-07-16 12:57:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18906306]
+[2023-07-16 12:57:49] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-16 12:57:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: snowddl
+[2023-07-16 12:57:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: photobooth-app
+[2023-07-16 12:57:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dasida
+[2023-07-16 12:57:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: barladb
+[2023-07-16 12:57:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: noelmode
+[2023-07-16 12:57:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pasta-eln
+[2023-07-16 12:57:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: anyon
+[2023-07-16 12:57:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ex4nicegui
+[2023-07-16 12:57:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: py-markdown-table
+[2023-07-16 12:57:49] INFO root fetch - processPackages [dasida]: New version: [2023.7.2] Old Version: [2023.7.1]
+[2023-07-16 12:57:49] INFO root fetch - processPackages [py-markdown-table]: New version: [0.4.0] Old Version: [0.3.3]
+[2023-07-16 12:57:49] INFO root fetch - processPackages [anyon]: New version: [3.7.7] Old Version: [3.6.3]
+[2023-07-16 12:57:49] INFO root fetch - processPackages [ex4nicegui]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-07-16 12:57:49] WARNING root fetch - processPackages [noelmode]: Skipping, unable to determine old version
+[2023-07-16 12:57:49] INFO root fetch - main [MainThread]: End processing [noelmode] error
+[2023-07-16 12:57:49] INFO root fetch - processPackages [barladb]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-16 12:57:49] INFO root fetch - processPackages [photobooth-app]: New version: [0.1.0rc7] Old Version: [0.1.0rc6]
+[2023-07-16 12:57:49] INFO root fetch - processPackages [snowddl]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-16 12:57:49] INFO root fetch - processPackages [pasta-eln]: New version: [2.4.5] Old Version: [2.4.4]
+[2023-07-16 12:57:50] INFO root fetch - processPackages [barladb]: Downloading https://files.pythonhosted.org/packages/62/a7/1fcd07487f6a0483120319bc36b68f9222b683176e4661f6c35f1b3b4221/barladb-0.1.4.tar.gz
+[2023-07-16 12:57:50] INFO root fetch - processPackages [py-markdown-table]: Downloading https://files.pythonhosted.org/packages/76/e7/93b4f8d735f4a62a40187f9672e16827ca4c58a5a0a2484f3ccfb1bd1a72/py-markdown-table-0.3.3.tar.gz
+[2023-07-16 12:57:50] INFO root fetch - processPackages [dasida]: Downloading https://files.pythonhosted.org/packages/22/80/2dadcdaa4f0c15fecbc59a494db5f77f534a2e95b4759051d398146f2145/dasida-2023.7.1.tar.gz
+[2023-07-16 12:57:50] INFO root fetch - processPackages [pasta-eln]: Downloading https://files.pythonhosted.org/packages/79/1e/2f4c36a43e35f6afe62f9f839767e8acefab860ff693bccbe4f96ca768f2/pasta_eln-2.4.4-py3-none-any.whl
+[2023-07-16 12:57:50] INFO root fetch - processPackages [photobooth-app]: Downloading https://files.pythonhosted.org/packages/2e/04/6e3b00a056198089a31fc12c08486801c0e1dd621e3f851e7a2da92f4419/photobooth_app-0.1.0rc6.tar.gz
+[2023-07-16 12:57:50] INFO root fetch - processPackages [anyon]: Downloading https://files.pythonhosted.org/packages/7f/d0/05abd12ed01e4e2885ad51f0601d68b25c709e08963bcb3cb0346e21ccd0/anyon-3.6.3-cp311-none-win_amd64.whl
+[2023-07-16 12:57:50] INFO root fetch - processPackages [ex4nicegui]: Downloading https://files.pythonhosted.org/packages/36/2d/7ac5138dd0946a2f4a8bcd05497ad2b668a54396b50613a99a72a3818142/ex4nicegui-0.1.7.tar.gz
+[2023-07-16 12:57:50] INFO root fetch - processPackages [barladb]: Downloading https://files.pythonhosted.org/packages/88/75/da780ef44dc7ac0f0b93a69785f272f4181314bcd0d111c26aeda3f235a8/barladb-0.1.5.tar.gz
+[2023-07-16 12:57:50] INFO root fetch - processPackages [snowddl]: Downloading https://files.pythonhosted.org/packages/de/fb/cfd61d54e05e02fe6de2cc9e2c72dd3a952770c7781bfa63593b47647600/snowddl-0.9.8.tar.gz
+[2023-07-16 12:57:50] INFO root fetch - processPackages [barladb]: executing diffoscope
+[2023-07-16 12:57:50] INFO root fetch - processPackages [barladb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/barladb-0.1.4.tar.gz tmp/barladb-0.1.5.tar.gz --markdown 20230716/b/barladb/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-16 12:57:50] INFO root fetch - processPackages [py-markdown-table]: Downloading https://files.pythonhosted.org/packages/db/fb/eac7239c77203b804c6f7cf1bee3c1d52250d3b943dfd1930fafbecafa2e/py-markdown-table-0.4.0.tar.gz
+[2023-07-16 12:57:50] INFO root fetch - processPackages [dasida]: Downloading https://files.pythonhosted.org/packages/8e/4e/f5cd6cd408fc47957d035c86aaf6fed5103623642d266fe0829ff50213bd/dasida-2023.7.2.tar.gz
+[2023-07-16 12:57:50] INFO root fetch - processPackages [pasta-eln]: Downloading https://files.pythonhosted.org/packages/f9/d4/1c252dbbb3f3cf0a5748d9a9055e73df4621dc3757762faf4089aae0139b/pasta_eln-2.4.5-py3-none-any.whl
+[2023-07-16 12:57:50] INFO root fetch - processPackages [ex4nicegui]: Downloading https://files.pythonhosted.org/packages/91/c9/e4c9a5275df231df00aed976eeb9498dab83a19ed76568923a88d9642a2a/ex4nicegui-0.1.8.tar.gz
+[2023-07-16 12:57:50] INFO root fetch - processPackages [dasida]: executing diffoscope
+[2023-07-16 12:57:50] INFO root fetch - processPackages [dasida]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dasida-2023.7.1.tar.gz tmp/dasida-2023.7.2.tar.gz --markdown 20230716/d/dasida/2023.7.1-2023.7.2/diff.md --exclude *.pyd
+[2023-07-16 12:57:50] INFO root fetch - processPackages [py-markdown-table]: executing diffoscope
+[2023-07-16 12:57:50] INFO root fetch - processPackages [py-markdown-table]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-markdown-table-0.3.3.tar.gz tmp/py-markdown-table-0.4.0.tar.gz --markdown 20230716/p/py-markdown-table/0.3.3-0.4.0/diff.md --exclude *.pyd
+[2023-07-16 12:57:50] INFO root fetch - processPackages [anyon]: Downloading https://files.pythonhosted.org/packages/2f/f0/7908e643c56975be54affd1dde71a30fedee2ab459e920706cc00c6382e7/anyon-3.7.7-cp311-none-win_amd64.whl
+[2023-07-16 12:57:50] INFO root fetch - processPackages [pasta-eln]: executing diffoscope
+[2023-07-16 12:57:50] INFO root fetch - processPackages [pasta-eln]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pasta_eln-2.4.4-py3-none-any.whl.zip tmp/pasta_eln-2.4.5-py3-none-any.whl.zip --markdown 20230716/p/pasta-eln/2.4.4-2.4.5/diff.md --exclude *.pyd
+[2023-07-16 12:57:50] INFO root fetch - processPackages [snowddl]: Downloading https://files.pythonhosted.org/packages/30/b1/743904be3436bae396d5a7d758a63419ad2a611878e2b644c34e43e5266b/snowddl-0.9.9.tar.gz
+[2023-07-16 12:57:51] INFO root fetch - processPackages [anyon]: executing diffoscope
+[2023-07-16 12:57:51] INFO root fetch - processPackages [anyon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anyon-3.6.3-cp311-none-win_amd64.whl.zip tmp/anyon-3.7.7-cp311-none-win_amd64.whl.zip --markdown 20230716/a/anyon/3.6.3-3.7.7/diff.md --exclude *.pyd
+[2023-07-16 12:57:51] INFO root fetch - processPackages [ex4nicegui]: executing diffoscope
+[2023-07-16 12:57:51] INFO root fetch - processPackages [ex4nicegui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ex4nicegui-0.1.7.tar.gz tmp/ex4nicegui-0.1.8.tar.gz --markdown 20230716/e/ex4nicegui/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-07-16 12:57:51] INFO root fetch - processPackages [snowddl]: executing diffoscope
+[2023-07-16 12:57:51] INFO root fetch - processPackages [snowddl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snowddl-0.9.8.tar.gz tmp/snowddl-0.9.9.tar.gz --markdown 20230716/s/snowddl/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-16 12:57:51] INFO root fetch - processPackages [photobooth-app]: Downloading https://files.pythonhosted.org/packages/dd/5f/5f613f65fcc34a22a1ef3f118e00b8e8f5dc0e31808532388f8631b4c0cb/photobooth_app-0.1.0rc7.tar.gz
+[2023-07-16 12:57:51] INFO root fetch - processPackages [barladb]: Remove: archive file [/home/abi/fetcher/tmp/barladb-0.1.4.tar.gz]
+[2023-07-16 12:57:51] INFO root fetch - processPackages [barladb]: Remove: archive file [/home/abi/fetcher/tmp/barladb-0.1.5.tar.gz]
+[2023-07-16 12:57:51] INFO root fetch - main [MainThread]: End processing [barladb]: success
+[2023-07-16 12:57:51] INFO root fetch - processPackages [dasida]: Remove: archive file [/home/abi/fetcher/tmp/dasida-2023.7.1.tar.gz]
+[2023-07-16 12:57:51] INFO root fetch - processPackages [dasida]: Remove: archive file [/home/abi/fetcher/tmp/dasida-2023.7.2.tar.gz]
+[2023-07-16 12:57:51] INFO root fetch - processPackages [py-markdown-table]: Remove: archive file [/home/abi/fetcher/tmp/py-markdown-table-0.3.3.tar.gz]
+[2023-07-16 12:57:51] INFO root fetch - main [MainThread]: End processing [dasida]: success
+[2023-07-16 12:57:51] INFO root fetch - processPackages [py-markdown-table]: Remove: archive file [/home/abi/fetcher/tmp/py-markdown-table-0.4.0.tar.gz]
+[2023-07-16 12:57:51] INFO root fetch - main [MainThread]: End processing [py-markdown-table]: success
+[2023-07-16 12:57:52] INFO root fetch - processPackages [anyon]: Remove: archive file [/home/abi/fetcher/tmp/anyon-3.6.3-cp311-none-win_amd64.whl.zip]
+[2023-07-16 12:57:52] INFO root fetch - processPackages [anyon]: Remove: archive file [/home/abi/fetcher/tmp/anyon-3.7.7-cp311-none-win_amd64.whl.zip]
+[2023-07-16 12:57:52] INFO root fetch - main [MainThread]: End processing [anyon]: success
+[2023-07-16 12:57:52] INFO root fetch - processPackages [pasta-eln]: Remove: archive file [/home/abi/fetcher/tmp/pasta_eln-2.4.4-py3-none-any.whl.zip]
+[2023-07-16 12:57:52] INFO root fetch - processPackages [pasta-eln]: Remove: archive file [/home/abi/fetcher/tmp/pasta_eln-2.4.5-py3-none-any.whl.zip]
+[2023-07-16 12:57:52] INFO root fetch - main [MainThread]: End processing [pasta-eln]: success
+[2023-07-16 12:57:52] INFO root fetch - processPackages [ex4nicegui]: Remove: archive file [/home/abi/fetcher/tmp/ex4nicegui-0.1.7.tar.gz]
+[2023-07-16 12:57:52] INFO root fetch - processPackages [ex4nicegui]: Remove: archive file [/home/abi/fetcher/tmp/ex4nicegui-0.1.8.tar.gz]
+[2023-07-16 12:57:52] INFO root fetch - main [MainThread]: End processing [ex4nicegui]: success
+[2023-07-16 12:57:52] INFO root fetch - processPackages [snowddl]: Remove: archive file [/home/abi/fetcher/tmp/snowddl-0.9.8.tar.gz]
+[2023-07-16 12:57:52] INFO root fetch - processPackages [snowddl]: Remove: archive file [/home/abi/fetcher/tmp/snowddl-0.9.9.tar.gz]
+[2023-07-16 12:57:52] INFO root fetch - main [MainThread]: End processing [snowddl]: success
+[2023-07-16 12:57:52] INFO root fetch - processPackages [photobooth-app]: executing diffoscope
+[2023-07-16 12:57:52] INFO root fetch - processPackages [photobooth-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/photobooth_app-0.1.0rc6.tar.gz tmp/photobooth_app-0.1.0rc7.tar.gz --markdown 20230716/p/photobooth-app/0.1.0rc6-0.1.0rc7/diff.md --exclude *.pyd
+[2023-07-16 12:57:55] INFO root fetch - processPackages [photobooth-app]: Remove: archive file [/home/abi/fetcher/tmp/photobooth_app-0.1.0rc6.tar.gz]
+[2023-07-16 12:57:55] INFO root fetch - processPackages [photobooth-app]: Remove: archive file [/home/abi/fetcher/tmp/photobooth_app-0.1.0rc7.tar.gz]
+[2023-07-16 12:57:55] INFO root fetch - main [MainThread]: End processing [photobooth-app]: success
+[2023-07-16 12:57:55] INFO root fetch - main [MainThread]: Store serial: [18906335]
