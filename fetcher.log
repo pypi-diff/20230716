@@ -2075,3 +2075,45 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-16 03:23:04] INFO root fetch - processPackages [bioversions]: Remove: archive file [/home/abi/fetcher/tmp/bioversions-0.5.99.tar.gz]
 [2023-07-16 03:23:04] INFO root fetch - main [MainThread]: End processing [bioversions]: success
 [2023-07-16 03:23:04] INFO root fetch - main [MainThread]: Store serial: [18904179]
+[2023-07-16 03:28:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18904179]
+[2023-07-16 03:28:13] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-16 03:28:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: supSMSGecko
+[2023-07-16 03:28:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: neuralken
+[2023-07-16 03:28:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hak
+[2023-07-16 03:28:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: AutoCarver
+[2023-07-16 03:28:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyagrum-nightly
+[2023-07-16 03:28:13] WARNING root fetch - processPackages [neuralken]: Skipping, unable to determine old version
+[2023-07-16 03:28:13] INFO root fetch - main [MainThread]: End processing [neuralken] error
+[2023-07-16 03:28:13] INFO root fetch - processPackages [AutoCarver]: New version: [5.0.9] Old Version: [5.0.8]
+[2023-07-16 03:28:13] INFO root fetch - processPackages [supSMSGecko]: New version: [0.1.0a5] Old Version: [0.1.0a4]
+[2023-07-16 03:28:13] INFO root fetch - processPackages [hak]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-16 03:28:13] INFO root fetch - processPackages [pyagrum-nightly]: New version: [1.8.3.dev202306121686326557] Old Version: [1.8.3.dev202306111686326557]
+[2023-07-16 03:28:13] INFO root fetch - processPackages [AutoCarver]: Downloading https://files.pythonhosted.org/packages/30/3c/49de77779070f39197dcc5b6923d3379358813d252f96887a389f7bc6c13/AutoCarver-5.0.8.tar.gz
+[2023-07-16 03:28:13] INFO root fetch - processPackages [hak]: Downloading https://files.pythonhosted.org/packages/05/17/ad5ef91170b7c0e991a9c8bffa9f9a2dcf3961d5e90c31185bdf3ce8f425/hak-0.0.8.tar.gz
+[2023-07-16 03:28:13] INFO root fetch - processPackages [pyagrum-nightly]: Downloading https://files.pythonhosted.org/packages/07/46/270b8b245feb59d5f249e10ced72a02b0db3ac8b574dbdc1c90e197d19b0/pyAgrum_nightly-1.8.3.dev202306111686326557-cp39-cp39-win_amd64.whl
+[2023-07-16 03:28:13] INFO root fetch - processPackages [supSMSGecko]: Downloading https://files.pythonhosted.org/packages/6a/82/0985ac49afc10a8389d272081e819e531ef7259eb85713cb0273a03dd8f6/supSMSGecko-0.1.0a4.tar.gz
+[2023-07-16 03:28:14] INFO root fetch - processPackages [hak]: Downloading https://files.pythonhosted.org/packages/fd/2b/bf7b3451d5e3a84e9a674b47e9f046c4db1f582764a85a4dfc00e14ecf00/hak-0.0.9.tar.gz
+[2023-07-16 03:28:14] INFO root fetch - processPackages [pyagrum-nightly]: Downloading https://files.pythonhosted.org/packages/c0/d4/20a48d2f9b4e252fe76b5a7e22de84caa21e8f08934645676fb47376de73/pyAgrum_nightly-1.8.3.dev202306121686326557-cp39-cp39-win_amd64.whl
+[2023-07-16 03:28:14] INFO root fetch - processPackages [AutoCarver]: Downloading https://files.pythonhosted.org/packages/e3/e8/92d0ab9532db046e34afdd26d0fa3d92b3902ebf04301c1faaac625a5209/AutoCarver-5.0.9.tar.gz
+[2023-07-16 03:28:14] INFO root fetch - processPackages [hak]: executing diffoscope
+[2023-07-16 03:28:14] INFO root fetch - processPackages [hak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hak-0.0.8.tar.gz tmp/hak-0.0.9.tar.gz --markdown 20230716/h/hak/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-16 03:28:14] INFO root fetch - processPackages [AutoCarver]: executing diffoscope
+[2023-07-16 03:28:14] INFO root fetch - processPackages [AutoCarver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AutoCarver-5.0.8.tar.gz tmp/AutoCarver-5.0.9.tar.gz --markdown 20230716/A/AutoCarver/5.0.8-5.0.9/diff.md --exclude *.pyd
+[2023-07-16 03:28:14] INFO root fetch - processPackages [pyagrum-nightly]: executing diffoscope
+[2023-07-16 03:28:14] INFO root fetch - processPackages [pyagrum-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyAgrum_nightly-1.8.3.dev202306111686326557-cp39-cp39-win_amd64.whl.zip tmp/pyAgrum_nightly-1.8.3.dev202306121686326557-cp39-cp39-win_amd64.whl.zip --markdown 20230716/p/pyagrum-nightly/1.8.3.dev202306111686326557-1.8.3.dev202306121686326557/diff.md --exclude *.pyd
+[2023-07-16 03:28:14] INFO root fetch - processPackages [supSMSGecko]: Downloading https://files.pythonhosted.org/packages/9b/83/405a06c13c26db2df529ff0d91ddcad4152243fedf88273218bcc351b3ae/supSMSGecko-0.1.0a5.tar.gz
+[2023-07-16 03:28:15] INFO root fetch - processPackages [supSMSGecko]: executing diffoscope
+[2023-07-16 03:28:15] INFO root fetch - processPackages [supSMSGecko]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/supSMSGecko-0.1.0a4.tar.gz tmp/supSMSGecko-0.1.0a5.tar.gz --markdown 20230716/s/supSMSGecko/0.1.0a4-0.1.0a5/diff.md --exclude *.pyd
+[2023-07-16 03:28:15] INFO root fetch - processPackages [AutoCarver]: Remove: archive file [/home/abi/fetcher/tmp/AutoCarver-5.0.8.tar.gz]
+[2023-07-16 03:28:15] INFO root fetch - processPackages [AutoCarver]: Remove: archive file [/home/abi/fetcher/tmp/AutoCarver-5.0.9.tar.gz]
+[2023-07-16 03:28:15] INFO root fetch - main [MainThread]: End processing [AutoCarver]: success
+[2023-07-16 03:28:15] INFO root fetch - processPackages [pyagrum-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyAgrum_nightly-1.8.3.dev202306111686326557-cp39-cp39-win_amd64.whl.zip]
+[2023-07-16 03:28:15] INFO root fetch - processPackages [pyagrum-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyAgrum_nightly-1.8.3.dev202306121686326557-cp39-cp39-win_amd64.whl.zip]
+[2023-07-16 03:28:15] INFO root fetch - main [MainThread]: End processing [pyagrum-nightly]: success
+[2023-07-16 03:28:15] INFO root fetch - processPackages [hak]: Remove: archive file [/home/abi/fetcher/tmp/hak-0.0.8.tar.gz]
+[2023-07-16 03:28:15] INFO root fetch - processPackages [hak]: Remove: archive file [/home/abi/fetcher/tmp/hak-0.0.9.tar.gz]
+[2023-07-16 03:28:15] INFO root fetch - main [MainThread]: End processing [hak]: success
+[2023-07-16 03:28:18] INFO root fetch - processPackages [supSMSGecko]: Remove: archive file [/home/abi/fetcher/tmp/supSMSGecko-0.1.0a4.tar.gz]
+[2023-07-16 03:28:18] INFO root fetch - processPackages [supSMSGecko]: Remove: archive file [/home/abi/fetcher/tmp/supSMSGecko-0.1.0a5.tar.gz]
+[2023-07-16 03:28:18] INFO root fetch - main [MainThread]: End processing [supSMSGecko]: success
+[2023-07-16 03:28:18] INFO root fetch - main [MainThread]: Store serial: [18904205]
