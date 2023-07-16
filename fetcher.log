@@ -11095,3 +11095,51 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-16 17:52:13] INFO root fetch - processPackages [buckaroo]: Remove: archive file [/home/abi/fetcher/tmp/buckaroo-0.3.8.tar.gz]
 [2023-07-16 17:52:13] INFO root fetch - main [MainThread]: End processing [buckaroo]: success
 [2023-07-16 17:52:13] INFO root fetch - main [MainThread]: Store serial: [18907937]
+[2023-07-16 17:57:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18907937]
+[2023-07-16 17:57:21] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-16 17:57:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyracer
+[2023-07-16 17:57:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: colorthon
+[2023-07-16 17:57:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kuro2sudachi
+[2023-07-16 17:57:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: talkytimes-package
+[2023-07-16 17:57:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: unitauto
+[2023-07-16 17:57:21] INFO root fetch - processPackages [kuro2sudachi]: New version: [0.4.6] Old Version: [0.4.5]
+[2023-07-16 17:57:21] INFO root fetch - processPackages [talkytimes-package]: New version: [0.3.0] Old Version: [0.2.9]
+[2023-07-16 17:57:21] INFO root fetch - processPackages [colorthon]: New version: [2.9.3] Old Version: [2.3.9]
+[2023-07-16 17:57:21] INFO root fetch - processPackages [unitauto]: New version: [0.9.3] Old Version: [0.9.0]
+[2023-07-16 17:57:21] INFO root fetch - processPackages [pyracer]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-16 17:57:21] INFO root fetch - processPackages [kuro2sudachi]: Downloading https://files.pythonhosted.org/packages/1d/9d/c57f1e24cccd6a3159c743c14d648c099ce3bb72dbe9e2ae6ee9b38747cc/kuro2sudachi-0.4.5.tar.gz
+[2023-07-16 17:57:21] INFO root fetch - processPackages [colorthon]: Downloading https://files.pythonhosted.org/packages/31/01/5dceb01e121ab3b8b735a983f8bbe4bfe685decd9c529b442a7d9ac9a1db/colorthon-2.3.9.tar.gz
+[2023-07-16 17:57:21] INFO root fetch - processPackages [talkytimes-package]: Downloading https://files.pythonhosted.org/packages/a2/35/d9c0663ee1295df540e83891d09caa96cf33f08569b2efe177a473af5406/talkytimes_package-0.2.9.tar.gz
+[2023-07-16 17:57:21] INFO root fetch - processPackages [unitauto]: Downloading https://files.pythonhosted.org/packages/0f/a1/94f2115c896656c85d659d7bab968770a963f13b10b94057cf632a419313/unitauto-0.9.0.tar.gz
+[2023-07-16 17:57:21] INFO root fetch - processPackages [pyracer]: Downloading https://files.pythonhosted.org/packages/c4/2f/2536991ce39cf155f8b92d520a10fa684d113f31ddbe4d6f004b6525258d/pyracer-1.0.0.tar.gz
+[2023-07-16 17:57:22] INFO root fetch - processPackages [kuro2sudachi]: Downloading https://files.pythonhosted.org/packages/3a/74/13b0f5d12efdb38e9031205622444a50ce80cc7ac21911a010b294e6b0ce/kuro2sudachi-0.4.6.tar.gz
+[2023-07-16 17:57:22] INFO root fetch - processPackages [colorthon]: Downloading https://files.pythonhosted.org/packages/53/50/f5a740e2a58f278cf1391806e740a2d90ba1dd0806c7a5e0527d3e64b5fb/colorthon-2.9.3.tar.gz
+[2023-07-16 17:57:22] INFO root fetch - processPackages [talkytimes-package]: Downloading https://files.pythonhosted.org/packages/37/2e/cfe298a0cae0053387d3672c2b327f8ef7f4eb0242addf1b570c8bbb099f/talkytimes_package-0.3.0.tar.gz
+[2023-07-16 17:57:22] INFO root fetch - processPackages [unitauto]: Downloading https://files.pythonhosted.org/packages/33/ec/eb5e6e5074cb2791b1973172f7c48beebfa6ec72465baeb469d23dcbcca4/unitauto-0.9.3.tar.gz
+[2023-07-16 17:57:22] INFO root fetch - processPackages [pyracer]: Downloading https://files.pythonhosted.org/packages/fa/4b/e63c3bf2340980a2618105c9d5719ef599e883f8740cea322c58b413c2a5/pyracer-1.0.1.tar.gz
+[2023-07-16 17:57:22] INFO root fetch - processPackages [kuro2sudachi]: executing diffoscope
+[2023-07-16 17:57:22] INFO root fetch - processPackages [kuro2sudachi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kuro2sudachi-0.4.5.tar.gz tmp/kuro2sudachi-0.4.6.tar.gz --markdown 20230716/k/kuro2sudachi/0.4.5-0.4.6/diff.md --exclude *.pyd
+[2023-07-16 17:57:22] INFO root fetch - processPackages [unitauto]: executing diffoscope
+[2023-07-16 17:57:22] INFO root fetch - processPackages [unitauto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unitauto-0.9.0.tar.gz tmp/unitauto-0.9.3.tar.gz --markdown 20230716/u/unitauto/0.9.0-0.9.3/diff.md --exclude *.pyd
+[2023-07-16 17:57:22] INFO root fetch - processPackages [colorthon]: executing diffoscope
+[2023-07-16 17:57:22] INFO root fetch - processPackages [colorthon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/colorthon-2.3.9.tar.gz tmp/colorthon-2.9.3.tar.gz --markdown 20230716/c/colorthon/2.3.9-2.9.3/diff.md --exclude *.pyd
+[2023-07-16 17:57:22] INFO root fetch - processPackages [talkytimes-package]: executing diffoscope
+[2023-07-16 17:57:22] INFO root fetch - processPackages [talkytimes-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/talkytimes_package-0.2.9.tar.gz tmp/talkytimes_package-0.3.0.tar.gz --markdown 20230716/t/talkytimes-package/0.2.9-0.3.0/diff.md --exclude *.pyd
+[2023-07-16 17:57:22] INFO root fetch - processPackages [pyracer]: executing diffoscope
+[2023-07-16 17:57:22] INFO root fetch - processPackages [pyracer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyracer-1.0.0.tar.gz tmp/pyracer-1.0.1.tar.gz --markdown 20230716/p/pyracer/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-16 17:57:23] INFO root fetch - processPackages [colorthon]: Remove: archive file [/home/abi/fetcher/tmp/colorthon-2.3.9.tar.gz]
+[2023-07-16 17:57:23] INFO root fetch - processPackages [colorthon]: Remove: archive file [/home/abi/fetcher/tmp/colorthon-2.9.3.tar.gz]
+[2023-07-16 17:57:23] INFO root fetch - main [MainThread]: End processing [colorthon]: success
+[2023-07-16 17:57:23] INFO root fetch - processPackages [unitauto]: Remove: archive file [/home/abi/fetcher/tmp/unitauto-0.9.0.tar.gz]
+[2023-07-16 17:57:23] INFO root fetch - processPackages [unitauto]: Remove: archive file [/home/abi/fetcher/tmp/unitauto-0.9.3.tar.gz]
+[2023-07-16 17:57:23] INFO root fetch - main [MainThread]: End processing [unitauto]: success
+[2023-07-16 17:57:23] INFO root fetch - processPackages [kuro2sudachi]: Remove: archive file [/home/abi/fetcher/tmp/kuro2sudachi-0.4.5.tar.gz]
+[2023-07-16 17:57:23] INFO root fetch - processPackages [kuro2sudachi]: Remove: archive file [/home/abi/fetcher/tmp/kuro2sudachi-0.4.6.tar.gz]
+[2023-07-16 17:57:23] INFO root fetch - main [MainThread]: End processing [kuro2sudachi]: success
+[2023-07-16 17:57:23] INFO root fetch - processPackages [pyracer]: Remove: archive file [/home/abi/fetcher/tmp/pyracer-1.0.0.tar.gz]
+[2023-07-16 17:57:23] INFO root fetch - processPackages [pyracer]: Remove: archive file [/home/abi/fetcher/tmp/pyracer-1.0.1.tar.gz]
+[2023-07-16 17:57:23] INFO root fetch - main [MainThread]: End processing [pyracer]: success
+[2023-07-16 17:57:23] INFO root fetch - processPackages [talkytimes-package]: Remove: archive file [/home/abi/fetcher/tmp/talkytimes_package-0.2.9.tar.gz]
+[2023-07-16 17:57:23] INFO root fetch - processPackages [talkytimes-package]: Remove: archive file [/home/abi/fetcher/tmp/talkytimes_package-0.3.0.tar.gz]
+[2023-07-16 17:57:23] INFO root fetch - main [MainThread]: End processing [talkytimes-package]: success
+[2023-07-16 17:57:23] INFO root fetch - main [MainThread]: Store serial: [18907955]
