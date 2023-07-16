@@ -10340,3 +10340,67 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-16 16:59:44] INFO root fetch - processPackages [birdepy]: Remove: archive file [/home/abi/fetcher/tmp/birdepy-0.0.9.tar.gz]
 [2023-07-16 16:59:44] INFO root fetch - main [MainThread]: End processing [birdepy]: success
 [2023-07-16 16:59:44] INFO root fetch - main [MainThread]: Store serial: [18907625]
+[2023-07-16 17:04:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18907625]
+[2023-07-16 17:04:52] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-16 17:04:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: clean-base
+[2023-07-16 17:04:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: chain-pointer
+[2023-07-16 17:04:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ursactl
+[2023-07-16 17:04:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dank-mids
+[2023-07-16 17:04:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: xdas
+[2023-07-16 17:04:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: langchain-model
+[2023-07-16 17:04:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bagbag
+[2023-07-16 17:04:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: spmp
+[2023-07-16 17:04:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: langchain-model
+[2023-07-16 17:04:53] INFO root fetch - processPackages [dank-mids]: New version: [4.20.9] Old Version: [4.20.8]
+[2023-07-16 17:04:53] INFO root fetch - processPackages [langchain-model]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-16 17:04:53] WARNING root fetch - processPackages [clean-base]: Skipping, unable to determine old version
+[2023-07-16 17:04:53] INFO root fetch - main [MainThread]: End processing [clean-base] error
+[2023-07-16 17:04:53] WARNING root fetch - processPackages [chain-pointer]: Skipping, unable to determine old version
+[2023-07-16 17:04:53] INFO root fetch - main [MainThread]: End processing [chain-pointer] error
+[2023-07-16 17:04:53] INFO root fetch - processPackages [xdas]: New version: [0.1b2] Old Version: [0.1b1]
+[2023-07-16 17:04:53] INFO root fetch - processPackages [langchain-model]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-16 17:04:53] WARNING root fetch - processPackages [spmp]: Skipping, unable to determine old version
+[2023-07-16 17:04:53] INFO root fetch - main [MainThread]: End processing [spmp] error
+[2023-07-16 17:04:53] INFO root fetch - processPackages [ursactl]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-07-16 17:04:53] INFO root fetch - processPackages [bagbag]: New version: [0.60.9] Old Version: [0.60.8]
+[2023-07-16 17:04:53] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/dd/d9/a90cdebb46db5a35fe035f493b14d48e210491b568f4927af7919ab2fdbd/dank_mids-4.20.8.tar.gz
+[2023-07-16 17:04:53] INFO root fetch - processPackages [langchain-model]: Downloading https://files.pythonhosted.org/packages/2d/56/62915401232c582a325e9b6b8f71be423bb2050ff32991caf782a77473de/langchain_model-0.0.2.tar.gz
+[2023-07-16 17:04:53] INFO root fetch - processPackages [langchain-model]: Downloading https://files.pythonhosted.org/packages/2d/56/62915401232c582a325e9b6b8f71be423bb2050ff32991caf782a77473de/langchain_model-0.0.2.tar.gz
+[2023-07-16 17:04:53] INFO root fetch - processPackages [xdas]: Downloading https://files.pythonhosted.org/packages/2d/79/750871b5e43f13b8850937bb904ac39446beadae7778f9d3a41c49a23c34/xdas-0.1b1.tar.gz
+[2023-07-16 17:04:53] INFO root fetch - processPackages [ursactl]: Downloading https://files.pythonhosted.org/packages/a7/57/a024311cf9f60bb3c2939bc21bf1c81d97b0d4c90fc82838ec0397cd3edf/ursactl-0.1.0.tar.gz
+[2023-07-16 17:04:53] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/9c/d9/18fcc3667854a152644716d257d55e30c5845485e0c8c0086d1449f5fca5/bagbag-0.60.8.tar.gz
+[2023-07-16 17:04:53] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/e9/d0/a0c6c8d2d154a0250f47b30968e60098b0d44d3b35571e97a925b9b3984f/dank_mids-4.20.9.tar.gz
+[2023-07-16 17:04:53] INFO root fetch - processPackages [xdas]: Downloading https://files.pythonhosted.org/packages/3d/cc/28a2ec2734e962655f8e9a9eb5df86997431639955e4b10fd34c5f993b1a/xdas-0.1b2.tar.gz
+[2023-07-16 17:04:53] INFO root fetch - processPackages [dank-mids]: executing diffoscope
+[2023-07-16 17:04:53] INFO root fetch - processPackages [dank-mids]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dank_mids-4.20.8.tar.gz tmp/dank_mids-4.20.9.tar.gz --markdown 20230716/d/dank-mids/4.20.8-4.20.9/diff.md --exclude *.pyd
+[2023-07-16 17:04:53] INFO root fetch - processPackages [langchain-model]: Downloading https://files.pythonhosted.org/packages/94/be/9773cd7c884a5bc5cd7711fec764cc55c364c65f06ba3955f02a5ae0bdcf/langchain_model-0.0.3.tar.gz
+[2023-07-16 17:04:53] INFO root fetch - processPackages [langchain-model]: Downloading https://files.pythonhosted.org/packages/94/be/9773cd7c884a5bc5cd7711fec764cc55c364c65f06ba3955f02a5ae0bdcf/langchain_model-0.0.3.tar.gz
+[2023-07-16 17:04:54] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/c5/51/7ae0a1a526da702787345e0082bd8b3269a7b0c64300d0b309a215fbe724/bagbag-0.60.9.tar.gz
+[2023-07-16 17:04:54] INFO root fetch - processPackages [xdas]: executing diffoscope
+[2023-07-16 17:04:54] INFO root fetch - processPackages [xdas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xdas-0.1b1.tar.gz tmp/xdas-0.1b2.tar.gz --markdown 20230716/x/xdas/0.1b1-0.1b2/diff.md --exclude *.pyd
+[2023-07-16 17:04:54] INFO root fetch - processPackages [ursactl]: Downloading https://files.pythonhosted.org/packages/7b/bc/e77099f6a0b357136ada3c2e22b4ecb013f395a6d45494b766ac809cb740/ursactl-0.2.0.tar.gz
+[2023-07-16 17:04:54] INFO root fetch - processPackages [langchain-model]: executing diffoscope
+[2023-07-16 17:04:54] INFO root fetch - processPackages [langchain-model]: executing diffoscope
+[2023-07-16 17:04:54] INFO root fetch - processPackages [langchain-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain_model-0.0.2.tar.gz tmp/langchain_model-0.0.3.tar.gz --markdown 20230716/l/langchain-model/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-16 17:04:54] INFO root fetch - processPackages [langchain-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain_model-0.0.2.tar.gz tmp/langchain_model-0.0.3.tar.gz --markdown 20230716/l/langchain-model/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-16 17:04:54] INFO root fetch - processPackages [bagbag]: executing diffoscope
+[2023-07-16 17:04:54] INFO root fetch - processPackages [bagbag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bagbag-0.60.8.tar.gz tmp/bagbag-0.60.9.tar.gz --markdown 20230716/b/bagbag/0.60.8-0.60.9/diff.md --exclude *.pyd
+[2023-07-16 17:04:54] INFO root fetch - processPackages [ursactl]: executing diffoscope
+[2023-07-16 17:04:54] INFO root fetch - processPackages [ursactl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ursactl-0.1.0.tar.gz tmp/ursactl-0.2.0.tar.gz --markdown 20230716/u/ursactl/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-07-16 17:04:54] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.8.tar.gz]
+[2023-07-16 17:04:54] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.9.tar.gz]
+[2023-07-16 17:04:54] INFO root fetch - main [MainThread]: End processing [dank-mids]: success
+[2023-07-16 17:04:55] INFO root fetch - processPackages [langchain-model]: Remove: archive file [/home/abi/fetcher/tmp/langchain_model-0.0.2.tar.gz]
+[2023-07-16 17:04:55] INFO root fetch - processPackages [langchain-model]: Remove: archive file [/home/abi/fetcher/tmp/langchain_model-0.0.3.tar.gz]
+[2023-07-16 17:04:55] INFO root fetch - main [MainThread]: End processing [langchain-model]: success
+[2023-07-16 17:04:55] INFO root fetch - main [MainThread]: End processing [langchain-model]: success
+[2023-07-16 17:04:55] INFO root fetch - processPackages [xdas]: Remove: archive file [/home/abi/fetcher/tmp/xdas-0.1b1.tar.gz]
+[2023-07-16 17:04:55] INFO root fetch - processPackages [xdas]: Remove: archive file [/home/abi/fetcher/tmp/xdas-0.1b2.tar.gz]
+[2023-07-16 17:04:55] INFO root fetch - main [MainThread]: End processing [xdas]: success
+[2023-07-16 17:04:55] INFO root fetch - processPackages [ursactl]: Remove: archive file [/home/abi/fetcher/tmp/ursactl-0.1.0.tar.gz]
+[2023-07-16 17:04:55] INFO root fetch - processPackages [ursactl]: Remove: archive file [/home/abi/fetcher/tmp/ursactl-0.2.0.tar.gz]
+[2023-07-16 17:04:55] INFO root fetch - main [MainThread]: End processing [ursactl]: success
+[2023-07-16 17:04:55] INFO root fetch - processPackages [bagbag]: Remove: archive file [/home/abi/fetcher/tmp/bagbag-0.60.8.tar.gz]
+[2023-07-16 17:04:55] INFO root fetch - processPackages [bagbag]: Remove: archive file [/home/abi/fetcher/tmp/bagbag-0.60.9.tar.gz]
+[2023-07-16 17:04:55] INFO root fetch - main [MainThread]: End processing [bagbag]: success
+[2023-07-16 17:04:55] INFO root fetch - main [MainThread]: Store serial: [18907664]
