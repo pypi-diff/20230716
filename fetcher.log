@@ -1810,3 +1810,38 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-16 02:56:40] INFO root fetch - processPackages [mispr]: Remove: archive file [/home/abi/fetcher/tmp/mispr-0.0.4.tar.gz]
 [2023-07-16 02:56:40] INFO root fetch - main [MainThread]: End processing [mispr]: success
 [2023-07-16 02:56:40] INFO root fetch - main [MainThread]: Store serial: [18904020]
+[2023-07-16 03:01:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18904020]
+[2023-07-16 03:01:48] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-16 03:01:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jupyterlab-optumi
+[2023-07-16 03:01:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gs2
+[2023-07-16 03:01:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: optumi-api
+[2023-07-16 03:01:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-comprehend-s3olap
+[2023-07-16 03:01:48] INFO root fetch - processPackages [optumi-api]: New version: [3.16.2] Old Version: [3.16.1]
+[2023-07-16 03:01:48] INFO root fetch - processPackages [cdk-comprehend-s3olap]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-16 03:01:48] INFO root fetch - processPackages [gs2]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-07-16 03:01:48] INFO root fetch - processPackages [jupyterlab-optumi]: New version: [3.9.9] Old Version: [3.9.8]
+[2023-07-16 03:01:49] INFO root fetch - processPackages [optumi-api]: Downloading https://files.pythonhosted.org/packages/af/b2/6f61b91b146427126b3f9388baf395e517df34be513c054c1f74ba8e36a3/optumi-api-3.16.1.tar.gz
+[2023-07-16 03:01:49] INFO root fetch - processPackages [gs2]: Downloading https://files.pythonhosted.org/packages/f4/b1/13ed585befcfa8c69b52af73acb96e39e14f443b95942ebcb9c4e9c2db0e/gs2-1.1.8.tar.gz
+[2023-07-16 03:01:49] INFO root fetch - processPackages [jupyterlab-optumi]: Downloading https://files.pythonhosted.org/packages/a7/8e/6085051d3edca1b7c81c1f3d4d29c79a216a8ea2dd87ead0913ef5c0cc68/jupyterlab-optumi-3.9.8.tar.gz
+[2023-07-16 03:01:49] INFO root fetch - processPackages [cdk-comprehend-s3olap]: Downloading https://files.pythonhosted.org/packages/d2/64/ec00fce58a2563fe9a768f5ee5a77ecba74bfccf89b1ec489306be4a20a8/cdk_comprehend_s3olap-2.0.98.tar.gz
+[2023-07-16 03:01:49] WARNING root fetch - processPackages [cdk-comprehend-s3olap]: Skipping package: exceeds size limit 14179128>=10485760
+[2023-07-16 03:01:49] INFO root fetch - main [MainThread]: End processing [cdk-comprehend-s3olap] error
+[2023-07-16 03:01:49] INFO root fetch - processPackages [optumi-api]: Downloading https://files.pythonhosted.org/packages/89/59/9c91898b0489574df4e2dc6aada66466febd20d35ff92c8ce25fa8168a36/optumi-api-3.16.2.tar.gz
+[2023-07-16 03:01:49] INFO root fetch - processPackages [gs2]: Downloading https://files.pythonhosted.org/packages/9e/ad/b84dd85efc1650d47b3308d729fd537f26fee338fdb19a43c7a243d07107/gs2-1.1.9.tar.gz
+[2023-07-16 03:01:49] INFO root fetch - processPackages [optumi-api]: executing diffoscope
+[2023-07-16 03:01:49] INFO root fetch - processPackages [optumi-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/optumi-api-3.16.1.tar.gz tmp/optumi-api-3.16.2.tar.gz --markdown 20230716/o/optumi-api/3.16.1-3.16.2/diff.md --exclude *.pyd
+[2023-07-16 03:01:49] INFO root fetch - processPackages [gs2]: executing diffoscope
+[2023-07-16 03:01:49] INFO root fetch - processPackages [gs2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gs2-1.1.8.tar.gz tmp/gs2-1.1.9.tar.gz --markdown 20230716/g/gs2/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-07-16 03:01:50] INFO root fetch - processPackages [optumi-api]: Remove: archive file [/home/abi/fetcher/tmp/optumi-api-3.16.1.tar.gz]
+[2023-07-16 03:01:50] INFO root fetch - processPackages [optumi-api]: Remove: archive file [/home/abi/fetcher/tmp/optumi-api-3.16.2.tar.gz]
+[2023-07-16 03:01:50] INFO root fetch - main [MainThread]: End processing [optumi-api]: success
+[2023-07-16 03:01:51] INFO root fetch - processPackages [jupyterlab-optumi]: Downloading https://files.pythonhosted.org/packages/97/75/ce93a28e75bfb407dedc53ae5f247a368eb93179c14c16bca8a11218f211/jupyterlab-optumi-3.9.9.tar.gz
+[2023-07-16 03:01:51] INFO root fetch - processPackages [gs2]: Remove: archive file [/home/abi/fetcher/tmp/gs2-1.1.8.tar.gz]
+[2023-07-16 03:01:51] INFO root fetch - processPackages [gs2]: Remove: archive file [/home/abi/fetcher/tmp/gs2-1.1.9.tar.gz]
+[2023-07-16 03:01:51] INFO root fetch - main [MainThread]: End processing [gs2]: success
+[2023-07-16 03:01:53] INFO root fetch - processPackages [jupyterlab-optumi]: executing diffoscope
+[2023-07-16 03:01:53] INFO root fetch - processPackages [jupyterlab-optumi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterlab-optumi-3.9.8.tar.gz tmp/jupyterlab-optumi-3.9.9.tar.gz --markdown 20230716/j/jupyterlab-optumi/3.9.8-3.9.9/diff.md --exclude *.pyd
+[2023-07-16 03:02:02] INFO root fetch - processPackages [jupyterlab-optumi]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab-optumi-3.9.8.tar.gz]
+[2023-07-16 03:02:02] INFO root fetch - processPackages [jupyterlab-optumi]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab-optumi-3.9.9.tar.gz]
+[2023-07-16 03:02:02] INFO root fetch - main [MainThread]: End processing [jupyterlab-optumi]: success
+[2023-07-16 03:02:02] INFO root fetch - main [MainThread]: Store serial: [18904039]
