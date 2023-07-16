@@ -8392,3 +8392,54 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-16 14:31:41] INFO root fetch - processPackages [eznet-keras]: Remove: archive file [/home/abi/fetcher/tmp/eznet_keras-1.0.2.tar.gz]
 [2023-07-16 14:31:41] INFO root fetch - main [MainThread]: End processing [eznet-keras]: success
 [2023-07-16 14:31:41] INFO root fetch - main [MainThread]: Store serial: [18906813]
+[2023-07-16 14:36:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18906813]
+[2023-07-16 14:36:49] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-16 14:36:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jupyter-collaboration
+[2023-07-16 14:36:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nonebot-plugin-sayoroll
+[2023-07-16 14:36:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spacy-partial-tagger
+[2023-07-16 14:36:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: baize
+[2023-07-16 14:36:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dash-blueprints
+[2023-07-16 14:36:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: projen
+[2023-07-16 14:36:50] INFO root fetch - processPackages [jupyter-collaboration]: New version: [1.1.0a0] Old Version: [1.0.1]
+[2023-07-16 14:36:50] WARNING root fetch - processPackages [dash-blueprints]: Skipping, unable to determine old version
+[2023-07-16 14:36:50] INFO root fetch - main [MainThread]: End processing [dash-blueprints] error
+[2023-07-16 14:36:50] INFO root fetch - processPackages [spacy-partial-tagger]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-07-16 14:36:50] INFO root fetch - processPackages [nonebot-plugin-sayoroll]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-07-16 14:36:50] INFO root fetch - processPackages [baize]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-07-16 14:36:50] INFO root fetch - processPackages [projen]: New version: [0.71.99] Old Version: [0.71.98]
+[2023-07-16 14:36:50] INFO root fetch - processPackages [spacy-partial-tagger]: Downloading https://files.pythonhosted.org/packages/26/a2/d2c993ac5dbe7491072834d8e2a7c8f13342a1479bef774d4e7d481155f9/spacy_partial_tagger-0.9.3.tar.gz
+[2023-07-16 14:36:50] INFO root fetch - processPackages [nonebot-plugin-sayoroll]: Downloading https://files.pythonhosted.org/packages/89/42/6428a4f536396cc3aeb60ee7f60eaa2a536251c2bc3cf6c8810d5b1138dd/nonebot-plugin-sayoroll-0.2.3.tar.gz
+[2023-07-16 14:36:50] INFO root fetch - processPackages [projen]: Downloading https://files.pythonhosted.org/packages/e6/32/7b9177419a0f336c70af7f165826714344a50cfd40e5990d888982c6ac99/projen-0.71.98.tar.gz
+[2023-07-16 14:36:50] INFO root fetch - processPackages [jupyter-collaboration]: Downloading https://files.pythonhosted.org/packages/47/64/5e5cc5e57ad628913c1eba1fdaeb156b1043bf6d00d30823bbcfd0e2e7b9/jupyter_collaboration-1.0.1.tar.gz
+[2023-07-16 14:36:50] INFO root fetch - processPackages [baize]: Downloading https://files.pythonhosted.org/packages/74/a1/d85d129205b48d7776ca788cdad82d2a75162f73fad2ed8410d24b51b518/baize-0.8.2.tar.gz
+[2023-07-16 14:36:50] INFO root fetch - processPackages [spacy-partial-tagger]: Downloading https://files.pythonhosted.org/packages/43/84/6e6226915e369f471cac4ebd7f252c6c93871af3c7248a3133b43366f8df/spacy_partial_tagger-0.9.4.tar.gz
+[2023-07-16 14:36:50] INFO root fetch - processPackages [nonebot-plugin-sayoroll]: Downloading https://files.pythonhosted.org/packages/cd/ba/2e943ca094676e4a5bbc4025a0b3110fc53c0d4061b5bb8d45e616934c48/nonebot-plugin-sayoroll-0.2.4.tar.gz
+[2023-07-16 14:36:50] INFO root fetch - processPackages [spacy-partial-tagger]: executing diffoscope
+[2023-07-16 14:36:50] INFO root fetch - processPackages [spacy-partial-tagger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spacy_partial_tagger-0.9.3.tar.gz tmp/spacy_partial_tagger-0.9.4.tar.gz --markdown 20230716/s/spacy-partial-tagger/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-07-16 14:36:50] INFO root fetch - processPackages [jupyter-collaboration]: Downloading https://files.pythonhosted.org/packages/0c/f1/88c1a703358a60809167d2bb5d362e83a8fe9f1b730031b75cd8462e09b2/jupyter_collaboration-1.1.0a0.tar.gz
+[2023-07-16 14:36:50] INFO root fetch - processPackages [nonebot-plugin-sayoroll]: executing diffoscope
+[2023-07-16 14:36:50] INFO root fetch - processPackages [nonebot-plugin-sayoroll]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot-plugin-sayoroll-0.2.3.tar.gz tmp/nonebot-plugin-sayoroll-0.2.4.tar.gz --markdown 20230716/n/nonebot-plugin-sayoroll/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-07-16 14:36:50] INFO root fetch - processPackages [projen]: Downloading https://files.pythonhosted.org/packages/21/a6/caf5451fda5ceed9de3dfadecf33e65b6279d0a5dfa4350206da3da20fac/projen-0.71.99.tar.gz
+[2023-07-16 14:36:51] INFO root fetch - processPackages [baize]: Downloading https://files.pythonhosted.org/packages/43/ba/70da73158ef8ed443aac613e8216939bbbabe90ab176d5174c3b919e5eea/baize-0.9.0.tar.gz
+[2023-07-16 14:36:51] INFO root fetch - processPackages [jupyter-collaboration]: executing diffoscope
+[2023-07-16 14:36:51] INFO root fetch - processPackages [jupyter-collaboration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyter_collaboration-1.0.1.tar.gz tmp/jupyter_collaboration-1.1.0a0.tar.gz --markdown 20230716/j/jupyter-collaboration/1.0.1-1.1.0a0/diff.md --exclude *.pyd
+[2023-07-16 14:36:51] INFO root fetch - processPackages [projen]: executing diffoscope
+[2023-07-16 14:36:51] INFO root fetch - processPackages [projen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/projen-0.71.98.tar.gz tmp/projen-0.71.99.tar.gz --markdown 20230716/p/projen/0.71.98-0.71.99/diff.md --exclude *.pyd
+[2023-07-16 14:36:51] INFO root fetch - processPackages [baize]: executing diffoscope
+[2023-07-16 14:36:51] INFO root fetch - processPackages [baize]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/baize-0.8.2.tar.gz tmp/baize-0.9.0.tar.gz --markdown 20230716/b/baize/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2023-07-16 14:36:51] INFO root fetch - processPackages [spacy-partial-tagger]: Remove: archive file [/home/abi/fetcher/tmp/spacy_partial_tagger-0.9.3.tar.gz]
+[2023-07-16 14:36:51] INFO root fetch - processPackages [spacy-partial-tagger]: Remove: archive file [/home/abi/fetcher/tmp/spacy_partial_tagger-0.9.4.tar.gz]
+[2023-07-16 14:36:51] INFO root fetch - main [MainThread]: End processing [spacy-partial-tagger]: success
+[2023-07-16 14:36:51] INFO root fetch - processPackages [nonebot-plugin-sayoroll]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-sayoroll-0.2.3.tar.gz]
+[2023-07-16 14:36:51] INFO root fetch - processPackages [nonebot-plugin-sayoroll]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-sayoroll-0.2.4.tar.gz]
+[2023-07-16 14:36:51] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-sayoroll]: success
+[2023-07-16 14:36:52] INFO root fetch - processPackages [baize]: Remove: archive file [/home/abi/fetcher/tmp/baize-0.8.2.tar.gz]
+[2023-07-16 14:36:52] INFO root fetch - processPackages [baize]: Remove: archive file [/home/abi/fetcher/tmp/baize-0.9.0.tar.gz]
+[2023-07-16 14:36:52] INFO root fetch - main [MainThread]: End processing [baize]: success
+[2023-07-16 14:36:52] INFO root fetch - processPackages [projen]: Remove: archive file [/home/abi/fetcher/tmp/projen-0.71.98.tar.gz]
+[2023-07-16 14:36:52] INFO root fetch - processPackages [projen]: Remove: archive file [/home/abi/fetcher/tmp/projen-0.71.99.tar.gz]
+[2023-07-16 14:36:52] INFO root fetch - main [MainThread]: End processing [projen]: success
+[2023-07-16 14:36:53] INFO root fetch - processPackages [jupyter-collaboration]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_collaboration-1.0.1.tar.gz]
+[2023-07-16 14:36:53] INFO root fetch - processPackages [jupyter-collaboration]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_collaboration-1.1.0a0.tar.gz]
+[2023-07-16 14:36:53] INFO root fetch - main [MainThread]: End processing [jupyter-collaboration]: success
+[2023-07-16 14:36:53] INFO root fetch - main [MainThread]: Store serial: [18906852]
