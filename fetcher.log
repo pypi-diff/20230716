@@ -1418,3 +1418,194 @@
 [2023-07-16 02:30:33] INFO root fetch - processPackages [cdk8s-plus-24]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-24-2.8.92.tar.gz]
 [2023-07-16 02:30:33] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-24]: success
 [2023-07-16 02:30:33] INFO root fetch - main [MainThread]: Store serial: [18903859]
+[2023-07-16 02:35:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18903859]
+[2023-07-16 02:35:42] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-07-16 02:35:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rattail
+[2023-07-16 02:35:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk8s
+[2023-07-16 02:35:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-docker-image-deployment
+[2023-07-16 02:35:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dj-veryfi
+[2023-07-16 02:35:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sweetrpg-web-core
+[2023-07-16 02:35:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Tailbone
+[2023-07-16 02:35:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cyberdrop-dl
+[2023-07-16 02:35:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sweetrpg-library-objects
+[2023-07-16 02:35:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sweetrpg-api-core
+[2023-07-16 02:35:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sweetrpg-catalog-objects
+[2023-07-16 02:35:42] INFO root fetch - processPackages [dj-veryfi]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-16 02:35:42] INFO root fetch - processPackages [sweetrpg-catalog-objects]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-16 02:35:42] INFO root fetch - processPackages [cdk8s]: New version: [2.7.99] Old Version: [2.7.98]
+[2023-07-16 02:35:42] INFO root fetch - processPackages [sweetrpg-api-core]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-16 02:35:42] INFO root fetch - processPackages [sweetrpg-library-objects]: New version: [0.0.86] Old Version: [0.0.85]
+[2023-07-16 02:35:42] INFO root fetch - processPackages [rattail]: New version: [0.9.99] Old Version: [0.9.98]
+[2023-07-16 02:35:42] INFO root fetch - processPackages [sweetrpg-web-core]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-16 02:35:42] INFO root fetch - processPackages [cyberdrop-dl]: New version: [4.2.99] Old Version: [4.2.98]
+[2023-07-16 02:35:42] INFO root fetch - processPackages [dj-veryfi]: Downloading https://files.pythonhosted.org/packages/72/aa/75e62ce6b38159890ef9c6582608a3112cf41132fc83ef1c5dcabcde8705/dj-veryfi-0.1.3.tar.gz
+[2023-07-16 02:35:42] INFO root fetch - processPackages [Tailbone]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-16 02:35:42] INFO root fetch - processPackages [cdk-docker-image-deployment]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-16 02:35:42] INFO root fetch - processPackages [cdk8s]: Downloading https://files.pythonhosted.org/packages/d8/60/774b00a08e1e8a1155f225bfc65207f11ae692dd4bd4cc19fc599853994a/cdk8s-2.7.98.tar.gz
+[2023-07-16 02:35:42] INFO root fetch - processPackages [cdk-docker-image-deployment]: Downloading https://files.pythonhosted.org/packages/df/53/1ddc54545e9ffbcefe4385747deddb0f87b200ddf27630a55f9728869564/cdk-docker-image-deployment-0.0.98.tar.gz
+[2023-07-16 02:35:42] INFO root fetch - processPackages [sweetrpg-catalog-objects]: Downloading https://files.pythonhosted.org/packages/e3/0a/e883b38f24e93f04f77c036902b22bf74fc6d3a653bb6c072e05ef490f39/sweetrpg-catalog-objects-0.0.1.tar.gz
+[2023-07-16 02:35:42] INFO root fetch - processPackages [sweetrpg-library-objects]: Downloading https://files.pythonhosted.org/packages/3b/8f/5bc5b1bf1cbb2bd23cd2883844aade1e32b222ebf1f95ad4be614a5a5fab/sweetrpg-library-objects-0.0.85.tar.gz
+[2023-07-16 02:35:42] INFO root fetch - processPackages [cyberdrop-dl]: Downloading https://files.pythonhosted.org/packages/1b/f8/0bf0ba2d44c54577234ba97b219752bdc63f63c54eddb613647161b06c5e/cyberdrop-dl-4.2.98.tar.gz
+[2023-07-16 02:35:42] INFO root fetch - processPackages [sweetrpg-api-core]: Downloading https://files.pythonhosted.org/packages/5d/9d/2398efc534be1a806373637db31588bc65727faee8d3d4ad1e210310552e/sweetrpg-api-core-0.0.98.tar.gz
+[2023-07-16 02:35:42] INFO root fetch - processPackages [sweetrpg-web-core]: Downloading https://files.pythonhosted.org/packages/10/78/7e4ec24c92190fa564c9ba8a1797ccda0c7472064d109da37e0d283f94d2/sweetrpg-web-core-0.0.98.tar.gz
+[2023-07-16 02:35:42] INFO root fetch - processPackages [Tailbone]: Downloading https://files.pythonhosted.org/packages/50/6f/b63e04f1e618b1f4d976e29b2185f60ed7b310a1fc1dfe6f8ae2a503598a/Tailbone-0.9.8.tar.gz
+[2023-07-16 02:35:42] INFO root fetch - processPackages [rattail]: Downloading https://files.pythonhosted.org/packages/8a/ab/1d0b66effa702be7aef6de038a0b9a0727d9d4053df5c56aa1ee5b1d9b45/rattail-0.9.98.tar.gz
+[2023-07-16 02:35:42] INFO root fetch - processPackages [dj-veryfi]: Downloading https://files.pythonhosted.org/packages/20/4f/5aa8aa4af7e333a200d186562289ef29ae9ba22aa4da8ed66384ec1fe8eb/dj-veryfi-0.1.4.tar.gz
+[2023-07-16 02:35:43] INFO root fetch - processPackages [cdk8s]: Downloading https://files.pythonhosted.org/packages/23/d1/ee5cf44f421921d790a4e0d2cf87c118188da9c30cbece10e0e66cf115fe/cdk8s-2.7.99.tar.gz
+[2023-07-16 02:35:43] INFO root fetch - processPackages [cyberdrop-dl]: Downloading https://files.pythonhosted.org/packages/cb/85/1082dbce7699795fa0752358803e2c52dedd79d14d96d728d35eae76c69a/cyberdrop-dl-4.2.99.tar.gz
+[2023-07-16 02:35:43] INFO root fetch - processPackages [sweetrpg-library-objects]: Downloading https://files.pythonhosted.org/packages/5e/9f/6f76023a2ce599dcc8f9336e4ca97d11bf333da43274c8193887a32463aa/sweetrpg-library-objects-0.0.86.tar.gz
+[2023-07-16 02:35:43] INFO root fetch - processPackages [dj-veryfi]: executing diffoscope
+[2023-07-16 02:35:43] INFO root fetch - processPackages [dj-veryfi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dj-veryfi-0.1.3.tar.gz tmp/dj-veryfi-0.1.4.tar.gz --markdown 20230716/d/dj-veryfi/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-16 02:35:43] INFO root fetch - processPackages [sweetrpg-web-core]: Downloading https://files.pythonhosted.org/packages/bd/15/72a761101e501277066578a42896229ae4a254ecf7602e2e15f38b35310d/sweetrpg-web-core-0.0.99.tar.gz
+[2023-07-16 02:35:43] INFO root fetch - processPackages [sweetrpg-api-core]: Downloading https://files.pythonhosted.org/packages/bf/6c/3cd8f95074a8f63967790523ccf02ffe9aef45c9c675b0a443c0371e8e04/sweetrpg-api-core-0.0.99.tar.gz
+[2023-07-16 02:35:43] INFO root fetch - processPackages [cdk8s]: executing diffoscope
+[2023-07-16 02:35:43] INFO root fetch - processPackages [cdk8s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-2.7.98.tar.gz tmp/cdk8s-2.7.99.tar.gz --markdown 20230716/c/cdk8s/2.7.98-2.7.99/diff.md --exclude *.pyd
+[2023-07-16 02:35:43] INFO root fetch - processPackages [cyberdrop-dl]: executing diffoscope
+[2023-07-16 02:35:43] INFO root fetch - processPackages [cyberdrop-dl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cyberdrop-dl-4.2.98.tar.gz tmp/cyberdrop-dl-4.2.99.tar.gz --markdown 20230716/c/cyberdrop-dl/4.2.98-4.2.99/diff.md --exclude *.pyd
+[2023-07-16 02:35:43] INFO root fetch - processPackages [sweetrpg-catalog-objects]: Downloading https://files.pythonhosted.org/packages/b2/9d/335df59defca47c3e1eef71f66e6cc55b871c883a810bd40090af4142d9c/sweetrpg-catalog-objects-0.0.2.tar.gz
+[2023-07-16 02:35:43] INFO root fetch - processPackages [sweetrpg-library-objects]: executing diffoscope
+[2023-07-16 02:35:43] INFO root fetch - processPackages [sweetrpg-library-objects]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sweetrpg-library-objects-0.0.85.tar.gz tmp/sweetrpg-library-objects-0.0.86.tar.gz --markdown 20230716/s/sweetrpg-library-objects/0.0.85-0.0.86/diff.md --exclude *.pyd
+[2023-07-16 02:35:43] INFO root fetch - processPackages [sweetrpg-web-core]: executing diffoscope
+[2023-07-16 02:35:43] INFO root fetch - processPackages [sweetrpg-web-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sweetrpg-web-core-0.0.98.tar.gz tmp/sweetrpg-web-core-0.0.99.tar.gz --markdown 20230716/s/sweetrpg-web-core/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-16 02:35:43] INFO root fetch - processPackages [Tailbone]: Downloading https://files.pythonhosted.org/packages/d0/d1/c2f74adc6b3442dc7514c806d0eb884cf730fe17792970c620291f5a53a0/Tailbone-0.9.9.tar.gz
+[2023-07-16 02:35:43] INFO root fetch - processPackages [rattail]: Downloading https://files.pythonhosted.org/packages/1e/c3/79e6d80f4a830a425f80fae7cf7f242293341bfd63e5d6f25421dfd44465/rattail-0.9.99.tar.gz
+[2023-07-16 02:35:43] INFO root fetch - processPackages [sweetrpg-catalog-objects]: executing diffoscope
+[2023-07-16 02:35:43] INFO root fetch - processPackages [sweetrpg-catalog-objects]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sweetrpg-catalog-objects-0.0.1.tar.gz tmp/sweetrpg-catalog-objects-0.0.2.tar.gz --markdown 20230716/s/sweetrpg-catalog-objects/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-16 02:35:43] INFO root fetch - processPackages [sweetrpg-api-core]: executing diffoscope
+[2023-07-16 02:35:43] INFO root fetch - processPackages [sweetrpg-api-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sweetrpg-api-core-0.0.98.tar.gz tmp/sweetrpg-api-core-0.0.99.tar.gz --markdown 20230716/s/sweetrpg-api-core/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-16 02:35:43] INFO root fetch - processPackages [Tailbone]: executing diffoscope
+[2023-07-16 02:35:43] INFO root fetch - processPackages [Tailbone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Tailbone-0.9.8.tar.gz tmp/Tailbone-0.9.9.tar.gz --markdown 20230716/T/Tailbone/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-16 02:35:43] INFO root fetch - processPackages [cdk-docker-image-deployment]: Downloading https://files.pythonhosted.org/packages/a3/f9/be2a564d48355f28c54c00f791e3f39262ae2d2d740e34b1e0d70ba48448/cdk-docker-image-deployment-0.0.99.tar.gz
+[2023-07-16 02:35:43] INFO root fetch - processPackages [rattail]: executing diffoscope
+[2023-07-16 02:35:43] INFO root fetch - processPackages [rattail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rattail-0.9.98.tar.gz tmp/rattail-0.9.99.tar.gz --markdown 20230716/r/rattail/0.9.98-0.9.99/diff.md --exclude *.pyd
+[2023-07-16 02:35:44] INFO root fetch - processPackages [cdk-docker-image-deployment]: executing diffoscope
+[2023-07-16 02:35:44] INFO root fetch - processPackages [cdk-docker-image-deployment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-docker-image-deployment-0.0.98.tar.gz tmp/cdk-docker-image-deployment-0.0.99.tar.gz --markdown 20230716/c/cdk-docker-image-deployment/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-16 02:35:44] INFO root fetch - processPackages [dj-veryfi]: Remove: archive file [/home/abi/fetcher/tmp/dj-veryfi-0.1.3.tar.gz]
+[2023-07-16 02:35:44] INFO root fetch - processPackages [dj-veryfi]: Remove: archive file [/home/abi/fetcher/tmp/dj-veryfi-0.1.4.tar.gz]
+[2023-07-16 02:35:44] INFO root fetch - processPackages [dj-veryfi]: Start processing: cdk-certbot-dns-route53
+[2023-07-16 02:35:44] INFO root fetch - main [MainThread]: End processing [dj-veryfi]: success
+[2023-07-16 02:35:44] INFO root fetch - processPackages [cdk-certbot-dns-route53]: New version: [2.1.99] Old Version: [2.1.98]
+[2023-07-16 02:35:44] INFO root fetch - processPackages [cdk8s]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-2.7.98.tar.gz]
+[2023-07-16 02:35:44] INFO root fetch - processPackages [cdk8s]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-2.7.99.tar.gz]
+[2023-07-16 02:35:44] INFO root fetch - processPackages [cdk8s]: Start processing: cdk8s
+[2023-07-16 02:35:44] INFO root fetch - main [MainThread]: End processing [cdk8s]: success
+[2023-07-16 02:35:44] INFO root fetch - processPackages [cdk8s]: New version: [2.7.99] Old Version: [2.7.98]
+[2023-07-16 02:35:45] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Downloading https://files.pythonhosted.org/packages/3a/17/b6246ecdc02e08f5a2a265eb410094bc1978a1c23a9ff1ef9625deee1c7c/cdk-certbot-dns-route53-2.1.98.tar.gz
+[2023-07-16 02:35:45] INFO root fetch - processPackages [sweetrpg-web-core]: Remove: archive file [/home/abi/fetcher/tmp/sweetrpg-web-core-0.0.98.tar.gz]
+[2023-07-16 02:35:45] INFO root fetch - processPackages [sweetrpg-web-core]: Remove: archive file [/home/abi/fetcher/tmp/sweetrpg-web-core-0.0.99.tar.gz]
+[2023-07-16 02:35:45] INFO root fetch - processPackages [sweetrpg-web-core]: Start processing: cdk8s-redis
+[2023-07-16 02:35:45] INFO root fetch - main [MainThread]: End processing [sweetrpg-web-core]: success
+[2023-07-16 02:35:45] INFO root fetch - processPackages [cdk8s]: Downloading https://files.pythonhosted.org/packages/d8/60/774b00a08e1e8a1155f225bfc65207f11ae692dd4bd4cc19fc599853994a/cdk8s-2.7.98.tar.gz
+[2023-07-16 02:35:45] INFO root fetch - processPackages [sweetrpg-library-objects]: Remove: archive file [/home/abi/fetcher/tmp/sweetrpg-library-objects-0.0.85.tar.gz]
+[2023-07-16 02:35:45] INFO root fetch - processPackages [sweetrpg-library-objects]: Remove: archive file [/home/abi/fetcher/tmp/sweetrpg-library-objects-0.0.86.tar.gz]
+[2023-07-16 02:35:45] INFO root fetch - processPackages [sweetrpg-library-objects]: Start processing: cdk-serverless-clamscan
+[2023-07-16 02:35:45] INFO root fetch - main [MainThread]: End processing [sweetrpg-library-objects]: success
+[2023-07-16 02:35:45] INFO root fetch - processPackages [cdk8s-redis]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-16 02:35:45] INFO root fetch - processPackages [sweetrpg-api-core]: Remove: archive file [/home/abi/fetcher/tmp/sweetrpg-api-core-0.0.98.tar.gz]
+[2023-07-16 02:35:45] INFO root fetch - processPackages [sweetrpg-api-core]: Remove: archive file [/home/abi/fetcher/tmp/sweetrpg-api-core-0.0.99.tar.gz]
+[2023-07-16 02:35:45] INFO root fetch - processPackages [sweetrpg-api-core]: Start processing: metaphor-models
+[2023-07-16 02:35:45] INFO root fetch - main [MainThread]: End processing [sweetrpg-api-core]: success
+[2023-07-16 02:35:45] INFO root fetch - processPackages [cdk-serverless-clamscan]: New version: [2.5.9] Old Version: [2.5.8]
+[2023-07-16 02:35:45] INFO root fetch - processPackages [metaphor-models]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-16 02:35:45] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Downloading https://files.pythonhosted.org/packages/cc/b6/654c84ec7d8620b5f17a064219a77d716eea46f886b19741e6e9cf3eff24/cdk-certbot-dns-route53-2.1.99.tar.gz
+[2023-07-16 02:35:45] INFO root fetch - processPackages [sweetrpg-catalog-objects]: Remove: archive file [/home/abi/fetcher/tmp/sweetrpg-catalog-objects-0.0.1.tar.gz]
+[2023-07-16 02:35:45] INFO root fetch - processPackages [sweetrpg-catalog-objects]: Remove: archive file [/home/abi/fetcher/tmp/sweetrpg-catalog-objects-0.0.2.tar.gz]
+[2023-07-16 02:35:45] INFO root fetch - processPackages [sweetrpg-catalog-objects]: Start processing: cdk-secret-manager-wrapper-layer
+[2023-07-16 02:35:45] INFO root fetch - main [MainThread]: End processing [sweetrpg-catalog-objects]: success
+[2023-07-16 02:35:45] INFO root fetch - processPackages [cdk8s-redis]: Downloading https://files.pythonhosted.org/packages/5a/8c/825ae4195bc273e13b4fb93e9ef112419d75fcd2c5194121692b5cd9fd19/cdk8s-redis-0.1.98.tar.gz
+[2023-07-16 02:35:45] INFO root fetch - processPackages [cdk-serverless-clamscan]: Downloading https://files.pythonhosted.org/packages/f1/94/234c7859ea38bf3bfd719842cb9ba335317746c85e3d6ea2c21db624c3c9/cdk-serverless-clamscan-2.5.8.tar.gz
+[2023-07-16 02:35:45] INFO root fetch - processPackages [cdk8s]: Downloading https://files.pythonhosted.org/packages/23/d1/ee5cf44f421921d790a4e0d2cf87c118188da9c30cbece10e0e66cf115fe/cdk8s-2.7.99.tar.gz
+[2023-07-16 02:35:45] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-16 02:35:45] INFO root fetch - processPackages [metaphor-models]: Downloading https://files.pythonhosted.org/packages/74/c8/861ac19e980a9e86a231d993a5edbbe8c2ed5a3c7ec8a0d0202fc8ec34c7/metaphor-models-0.9.0.tar.gz
+[2023-07-16 02:35:45] INFO root fetch - processPackages [cyberdrop-dl]: Remove: archive file [/home/abi/fetcher/tmp/cyberdrop-dl-4.2.98.tar.gz]
+[2023-07-16 02:35:45] INFO root fetch - processPackages [cyberdrop-dl]: Remove: archive file [/home/abi/fetcher/tmp/cyberdrop-dl-4.2.99.tar.gz]
+[2023-07-16 02:35:45] INFO root fetch - processPackages [cyberdrop-dl]: Start processing: cdk-certbot-dns-route53
+[2023-07-16 02:35:45] INFO root fetch - main [MainThread]: End processing [cyberdrop-dl]: success
+[2023-07-16 02:35:45] INFO root fetch - processPackages [cdk-certbot-dns-route53]: executing diffoscope
+[2023-07-16 02:35:45] INFO root fetch - processPackages [cdk-certbot-dns-route53]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-certbot-dns-route53-2.1.98.tar.gz tmp/cdk-certbot-dns-route53-2.1.99.tar.gz --markdown 20230716/c/cdk-certbot-dns-route53/2.1.98-2.1.99/diff.md --exclude *.pyd
+[2023-07-16 02:35:45] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Downloading https://files.pythonhosted.org/packages/00/91/545869a3cc999dbc9750aad345d775087610ebf834517c928a0d0e289c4e/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz
+[2023-07-16 02:35:45] INFO root fetch - processPackages [cdk-certbot-dns-route53]: New version: [2.1.99] Old Version: [2.1.98]
+[2023-07-16 02:35:45] INFO root fetch - processPackages [cdk-serverless-clamscan]: Downloading https://files.pythonhosted.org/packages/28/a2/7652c50d98b37eb12999dac92423c2e06eb02ce205876482c411d4948af3/cdk-serverless-clamscan-2.5.9.tar.gz
+[2023-07-16 02:35:45] INFO root fetch - processPackages [cdk8s]: executing diffoscope
+[2023-07-16 02:35:45] INFO root fetch - processPackages [cdk8s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-2.7.98.tar.gz tmp/cdk8s-2.7.99.tar.gz --markdown 20230716/c/cdk8s/2.7.98-2.7.99/diff.md --exclude *.pyd
+[2023-07-16 02:35:45] INFO root fetch - processPackages [cdk8s-redis]: Downloading https://files.pythonhosted.org/packages/f2/71/df3da901bc2e5bd800b595302ae54fadb2f66a5789cfb0dd7e7d34eb2d91/cdk8s-redis-0.1.99.tar.gz
+[2023-07-16 02:35:45] INFO root fetch - processPackages [cdk-serverless-clamscan]: executing diffoscope
+[2023-07-16 02:35:45] INFO root fetch - processPackages [cdk-serverless-clamscan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-serverless-clamscan-2.5.8.tar.gz tmp/cdk-serverless-clamscan-2.5.9.tar.gz --markdown 20230716/c/cdk-serverless-clamscan/2.5.8-2.5.9/diff.md --exclude *.pyd
+[2023-07-16 02:35:45] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Downloading https://files.pythonhosted.org/packages/c2/c5/a8a13bb72ea375e2ce99dd389e945478ce7d95d8628acf6db64f14f674f5/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz
+[2023-07-16 02:35:45] INFO root fetch - processPackages [cdk-certbot-dns-route53]: executing diffoscope
+[2023-07-16 02:35:45] INFO root fetch - processPackages [cdk-certbot-dns-route53]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-certbot-dns-route53-2.1.98.tar.gz tmp/cdk-certbot-dns-route53-2.1.99.tar.gz --markdown 20230716/c/cdk-certbot-dns-route53/2.1.98-2.1.99/diff.md --exclude *.pyd
+[2023-07-16 02:35:46] INFO root fetch - processPackages [metaphor-models]: Downloading https://files.pythonhosted.org/packages/56/65/21a7865fd28d1a8651af865fd1ef807e93d934f8e69bf168c4bd764821d7/metaphor-models-0.9.1.tar.gz
+[2023-07-16 02:35:46] INFO root fetch - processPackages [cdk8s-redis]: executing diffoscope
+[2023-07-16 02:35:46] INFO root fetch - processPackages [cdk8s-redis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-redis-0.1.98.tar.gz tmp/cdk8s-redis-0.1.99.tar.gz --markdown 20230716/c/cdk8s-redis/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-07-16 02:35:46] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: executing diffoscope
+[2023-07-16 02:35:46] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz tmp/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz --markdown 20230716/c/cdk-secret-manager-wrapper-layer/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-07-16 02:35:46] INFO root fetch - processPackages [metaphor-models]: executing diffoscope
+[2023-07-16 02:35:46] INFO root fetch - processPackages [metaphor-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metaphor-models-0.9.0.tar.gz tmp/metaphor-models-0.9.1.tar.gz --markdown 20230716/m/metaphor-models/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-16 02:35:46] INFO root fetch - processPackages [cdk-docker-image-deployment]: Remove: archive file [/home/abi/fetcher/tmp/cdk-docker-image-deployment-0.0.98.tar.gz]
+[2023-07-16 02:35:46] INFO root fetch - processPackages [cdk-docker-image-deployment]: Remove: archive file [/home/abi/fetcher/tmp/cdk-docker-image-deployment-0.0.99.tar.gz]
+[2023-07-16 02:35:46] INFO root fetch - processPackages [cdk-docker-image-deployment]: Start processing: pymino
+[2023-07-16 02:35:46] INFO root fetch - main [MainThread]: End processing [cdk-docker-image-deployment]: success
+[2023-07-16 02:35:46] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Remove: archive file [/home/abi/fetcher/tmp/cdk-certbot-dns-route53-2.1.98.tar.gz]
+[2023-07-16 02:35:46] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Remove: archive file [/home/abi/fetcher/tmp/cdk-certbot-dns-route53-2.1.99.tar.gz]
+[2023-07-16 02:35:46] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Start processing: sweetrpg-web-core
+[2023-07-16 02:35:46] INFO root fetch - main [MainThread]: End processing [cdk-certbot-dns-route53]: success
+[2023-07-16 02:35:46] INFO root fetch - processPackages [pymino]: New version: [1.2.3.4] Old Version: [1.2.3.3]
+[2023-07-16 02:35:46] INFO root fetch - processPackages [sweetrpg-web-core]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-16 02:35:46] INFO root fetch - processPackages [sweetrpg-web-core]: Downloading https://files.pythonhosted.org/packages/10/78/7e4ec24c92190fa564c9ba8a1797ccda0c7472064d109da37e0d283f94d2/sweetrpg-web-core-0.0.98.tar.gz
+[2023-07-16 02:35:47] INFO root fetch - processPackages [pymino]: Downloading https://files.pythonhosted.org/packages/85/5a/c9a706a6677bdec3baf0f138b0bb758357860083aad2c56a911945ddbba1/pymino-1.2.3.3.tar.gz
+[2023-07-16 02:35:47] INFO root fetch - processPackages [cdk8s]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-2.7.98.tar.gz]
+[2023-07-16 02:35:47] INFO root fetch - processPackages [cdk8s]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-2.7.99.tar.gz]
+[2023-07-16 02:35:47] INFO root fetch - main [MainThread]: End processing [cdk8s]: success
+[2023-07-16 02:35:47] INFO root fetch - processPackages [sweetrpg-web-core]: Downloading https://files.pythonhosted.org/packages/bd/15/72a761101e501277066578a42896229ae4a254ecf7602e2e15f38b35310d/sweetrpg-web-core-0.0.99.tar.gz
+[2023-07-16 02:35:47] INFO root fetch - processPackages [sweetrpg-web-core]: executing diffoscope
+[2023-07-16 02:35:47] INFO root fetch - processPackages [sweetrpg-web-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sweetrpg-web-core-0.0.98.tar.gz tmp/sweetrpg-web-core-0.0.99.tar.gz --markdown 20230716/s/sweetrpg-web-core/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-16 02:35:47] ERROR root fetch - processPackages [cdk-certbot-dns-route53]: Diffoscope failed: time="2023-07-16T02:35:46+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 66, in compare_root_paths
+    file1 = specialize(FilesystemFile(path1, container=container1))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/specialize.py", line 54, in specialize
+    if try_recognize(file, cls, cls.recognizes):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/specialize.py", line 37, in try_recognize
+    if not recognizes(file):
+           ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/missing_file.py", line 43, in recognizes
+    assert Config().new_file, f"{file.name} does not exist"
+AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
+
+[2023-07-16 02:35:47] INFO root fetch - main [MainThread]: End processing [cdk-certbot-dns-route53] error
+[2023-07-16 02:35:47] INFO root fetch - processPackages [pymino]: Downloading https://files.pythonhosted.org/packages/74/26/6ae06e1ded3f6c7cc1c471e60f7db5aad5888beb15cd25b086e438600ab4/pymino-1.2.3.4.tar.gz
+[2023-07-16 02:35:47] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Remove: archive file [/home/abi/fetcher/tmp/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz]
+[2023-07-16 02:35:47] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Remove: archive file [/home/abi/fetcher/tmp/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz]
+[2023-07-16 02:35:47] INFO root fetch - main [MainThread]: End processing [cdk-secret-manager-wrapper-layer]: success
+[2023-07-16 02:35:47] INFO root fetch - processPackages [cdk8s-redis]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-redis-0.1.98.tar.gz]
+[2023-07-16 02:35:47] INFO root fetch - processPackages [cdk8s-redis]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-redis-0.1.99.tar.gz]
+[2023-07-16 02:35:47] INFO root fetch - main [MainThread]: End processing [cdk8s-redis]: success
+[2023-07-16 02:35:47] INFO root fetch - processPackages [metaphor-models]: Remove: archive file [/home/abi/fetcher/tmp/metaphor-models-0.9.0.tar.gz]
+[2023-07-16 02:35:47] INFO root fetch - processPackages [metaphor-models]: Remove: archive file [/home/abi/fetcher/tmp/metaphor-models-0.9.1.tar.gz]
+[2023-07-16 02:35:47] INFO root fetch - main [MainThread]: End processing [metaphor-models]: success
+[2023-07-16 02:35:47] INFO root fetch - processPackages [pymino]: executing diffoscope
+[2023-07-16 02:35:47] INFO root fetch - processPackages [pymino]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymino-1.2.3.3.tar.gz tmp/pymino-1.2.3.4.tar.gz --markdown 20230716/p/pymino/1.2.3.3-1.2.3.4/diff.md --exclude *.pyd
+[2023-07-16 02:35:47] INFO root fetch - processPackages [cdk-serverless-clamscan]: Remove: archive file [/home/abi/fetcher/tmp/cdk-serverless-clamscan-2.5.8.tar.gz]
+[2023-07-16 02:35:47] INFO root fetch - processPackages [cdk-serverless-clamscan]: Remove: archive file [/home/abi/fetcher/tmp/cdk-serverless-clamscan-2.5.9.tar.gz]
+[2023-07-16 02:35:47] INFO root fetch - main [MainThread]: End processing [cdk-serverless-clamscan]: success
+[2023-07-16 02:35:47] INFO root fetch - processPackages [Tailbone]: Remove: archive file [/home/abi/fetcher/tmp/Tailbone-0.9.8.tar.gz]
+[2023-07-16 02:35:47] INFO root fetch - processPackages [Tailbone]: Remove: archive file [/home/abi/fetcher/tmp/Tailbone-0.9.9.tar.gz]
+[2023-07-16 02:35:47] INFO root fetch - main [MainThread]: End processing [Tailbone]: success
+[2023-07-16 02:35:48] INFO root fetch - processPackages [rattail]: Remove: archive file [/home/abi/fetcher/tmp/rattail-0.9.98.tar.gz]
+[2023-07-16 02:35:48] INFO root fetch - processPackages [rattail]: Remove: archive file [/home/abi/fetcher/tmp/rattail-0.9.99.tar.gz]
+[2023-07-16 02:35:48] INFO root fetch - main [MainThread]: End processing [rattail]: success
+[2023-07-16 02:35:48] INFO root fetch - processPackages [sweetrpg-web-core]: Remove: archive file [/home/abi/fetcher/tmp/sweetrpg-web-core-0.0.98.tar.gz]
+[2023-07-16 02:35:48] INFO root fetch - processPackages [sweetrpg-web-core]: Remove: archive file [/home/abi/fetcher/tmp/sweetrpg-web-core-0.0.99.tar.gz]
+[2023-07-16 02:35:48] INFO root fetch - main [MainThread]: End processing [sweetrpg-web-core]: success
+[2023-07-16 02:35:48] INFO root fetch - processPackages [pymino]: Remove: archive file [/home/abi/fetcher/tmp/pymino-1.2.3.3.tar.gz]
+[2023-07-16 02:35:48] INFO root fetch - processPackages [pymino]: Remove: archive file [/home/abi/fetcher/tmp/pymino-1.2.3.4.tar.gz]
+[2023-07-16 02:35:48] INFO root fetch - main [MainThread]: End processing [pymino]: success
+[2023-07-16 02:35:48] INFO root fetch - main [MainThread]: Store serial: [18903913]
