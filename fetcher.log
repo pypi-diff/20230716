@@ -11480,3 +11480,87 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-16 18:28:34] INFO root fetch - processPackages [wcferry]: Remove: archive file [/home/abi/fetcher/tmp/wcferry-39.0.2.0.tar.gz]
 [2023-07-16 18:28:34] INFO root fetch - main [MainThread]: End processing [wcferry]: success
 [2023-07-16 18:28:34] INFO root fetch - main [MainThread]: Store serial: [18908089]
+[2023-07-16 18:33:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18908089]
+[2023-07-16 18:33:43] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-16 18:33:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: llmflows
+[2023-07-16 18:33:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zshgpt
+[2023-07-16 18:33:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: docx-charts
+[2023-07-16 18:33:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyDecision
+[2023-07-16 18:33:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: i8-terminal
+[2023-07-16 18:33:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: relenv
+[2023-07-16 18:33:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dnfunc
+[2023-07-16 18:33:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: scikit-rt
+[2023-07-16 18:33:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: digimat.bac0
+[2023-07-16 18:33:43] INFO root fetch - processPackages [i8-terminal]: New version: [0.2.98] Old Version: [0.2.97]
+[2023-07-16 18:33:43] INFO root fetch - processPackages [relenv]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-07-16 18:33:43] INFO root fetch - processPackages [dnfunc]: New version: [0.0.4] Old Version: [0.0.3a2]
+[2023-07-16 18:33:43] INFO root fetch - processPackages [docx-charts]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-16 18:33:43] INFO root fetch - processPackages [scikit-rt]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-07-16 18:33:43] INFO root fetch - processPackages [zshgpt]: New version: [0.1.1] Old Version: [0.0.1]
+[2023-07-16 18:33:43] INFO root fetch - processPackages [digimat.bac0]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-16 18:33:43] INFO root fetch - processPackages [pyDecision]: New version: [3.0.2] Old Version: [2.9.8]
+[2023-07-16 18:33:43] INFO root fetch - processPackages [llmflows]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-16 18:33:44] INFO root fetch - processPackages [docx-charts]: Downloading https://files.pythonhosted.org/packages/2a/c8/18b56247900c009f63f49cf8a0ab599e70ee09686a0b87940b554833047b/docx_charts-0.1.5.tar.gz
+[2023-07-16 18:33:44] INFO root fetch - processPackages [digimat.bac0]: Downloading https://files.pythonhosted.org/packages/93/69/86e0838e726c0937c564256e80ef37aa475670fd71b17c0760827302f8e2/digimat.bac0-0.0.7.tar.gz
+[2023-07-16 18:33:44] INFO root fetch - processPackages [dnfunc]: Downloading https://files.pythonhosted.org/packages/84/6b/8df916bb4f6e1eea6370c98992bbe4cc37844a5e7fbb876b9a5dfbf8ef6a/dnfunc-0.0.3a2.tar.gz
+[2023-07-16 18:33:44] INFO root fetch - processPackages [pyDecision]: Downloading https://files.pythonhosted.org/packages/6d/71/30b43e3f57da74a3db75f3a52394667863391307e47caca1029a2f8354d9/pyDecision-2.9.8.tar.gz
+[2023-07-16 18:33:44] INFO root fetch - processPackages [i8-terminal]: Downloading https://files.pythonhosted.org/packages/28/97/6a15c1b235ca54723a4e28e56b25518589f8077afa34075e3b41c95f664a/i8-terminal-0.2.97.tar.gz
+[2023-07-16 18:33:44] INFO root fetch - processPackages [relenv]: Downloading https://files.pythonhosted.org/packages/0c/d5/97c45b457073cb4e184305fe8ccdc6d0269f1bfafec501d37d491139a2b0/relenv-0.8.2-py3-none-any.whl
+[2023-07-16 18:33:44] INFO root fetch - processPackages [llmflows]: Downloading https://files.pythonhosted.org/packages/f8/dc/bbfde1dd77de994b17275fc1d99ed6dc805507fbe4e899a6959afd59ae27/llmflows-0.0.6.tar.gz
+[2023-07-16 18:33:44] INFO root fetch - processPackages [zshgpt]: Downloading https://files.pythonhosted.org/packages/fc/29/5cab9bf2ff1be1f71c5654a0a2583bebb18f3cf684679aa72097a4e39cef/zshgpt-0.0.1.tar.gz
+[2023-07-16 18:33:44] INFO root fetch - processPackages [scikit-rt]: Downloading https://files.pythonhosted.org/packages/01/55/42f9d246f993ca4ce958673e9bdf0acfa56e7f22b1272815f1978772319f/scikit-rt-0.5.8.tar.gz
+[2023-07-16 18:33:44] INFO root fetch - processPackages [digimat.bac0]: Downloading https://files.pythonhosted.org/packages/78/69/c221dd8f83b0cf18b4d8071cc4f3e464fd1a4a46aedfcc6da331732122ce/digimat.bac0-0.0.8.tar.gz
+[2023-07-16 18:33:44] INFO root fetch - processPackages [docx-charts]: Downloading https://files.pythonhosted.org/packages/28/1c/1f1ac9cbb4e1215f3fb9a35a22641a6772c6899bb5b93c225fbc7d9ad4b0/docx_charts-0.1.6.tar.gz
+[2023-07-16 18:33:44] INFO root fetch - processPackages [dnfunc]: Downloading https://files.pythonhosted.org/packages/b1/ff/f38f832f4a0f37fb70cdd287087993cc1f384f3b6b33322b1d11bc35e8a0/dnfunc-0.0.4.tar.gz
+[2023-07-16 18:33:44] INFO root fetch - processPackages [digimat.bac0]: executing diffoscope
+[2023-07-16 18:33:44] INFO root fetch - processPackages [digimat.bac0]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digimat.bac0-0.0.7.tar.gz tmp/digimat.bac0-0.0.8.tar.gz --markdown 20230716/d/digimat.bac0/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-16 18:33:44] INFO root fetch - processPackages [docx-charts]: executing diffoscope
+[2023-07-16 18:33:44] INFO root fetch - processPackages [docx-charts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docx_charts-0.1.5.tar.gz tmp/docx_charts-0.1.6.tar.gz --markdown 20230716/d/docx-charts/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-16 18:33:44] INFO root fetch - processPackages [pyDecision]: Downloading https://files.pythonhosted.org/packages/50/3c/f22785287204865c5e2f7ed479c1a97421dc1eb62969b7dda2cbdf386d87/pyDecision-3.0.2.tar.gz
+[2023-07-16 18:33:44] INFO root fetch - processPackages [llmflows]: Downloading https://files.pythonhosted.org/packages/49/ec/110301ba9f4e83aa89843764cc36c040325c0aca50a6df6d5d5ee5544326/llmflows-0.0.7.tar.gz
+[2023-07-16 18:33:44] INFO root fetch - processPackages [zshgpt]: Downloading https://files.pythonhosted.org/packages/0a/6a/624387d253fbeef9e92e81cc1dbec7259c501de5fee5f7f70e78f1db5be2/zshgpt-0.1.1.tar.gz
+[2023-07-16 18:33:44] INFO root fetch - processPackages [i8-terminal]: Downloading https://files.pythonhosted.org/packages/73/6b/1f17514655bb325e4dd1d803628b471e37e46f47d02c13ddf52f64dcf516/i8-terminal-0.2.98.tar.gz
+[2023-07-16 18:33:44] INFO root fetch - processPackages [scikit-rt]: Downloading https://files.pythonhosted.org/packages/d9/fa/1dc29e607a73b56bcd7fb6c90e72514a7fe4c2f00e44b2321c82fb5715a9/scikit-rt-0.5.9.tar.gz
+[2023-07-16 18:33:44] INFO root fetch - processPackages [dnfunc]: executing diffoscope
+[2023-07-16 18:33:44] INFO root fetch - processPackages [dnfunc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dnfunc-0.0.3a2.tar.gz tmp/dnfunc-0.0.4.tar.gz --markdown 20230716/d/dnfunc/0.0.3a2-0.0.4/diff.md --exclude *.pyd
+[2023-07-16 18:33:44] INFO root fetch - processPackages [llmflows]: executing diffoscope
+[2023-07-16 18:33:44] INFO root fetch - processPackages [llmflows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llmflows-0.0.6.tar.gz tmp/llmflows-0.0.7.tar.gz --markdown 20230716/l/llmflows/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-16 18:33:44] INFO root fetch - processPackages [i8-terminal]: executing diffoscope
+[2023-07-16 18:33:44] INFO root fetch - processPackages [i8-terminal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/i8-terminal-0.2.97.tar.gz tmp/i8-terminal-0.2.98.tar.gz --markdown 20230716/i/i8-terminal/0.2.97-0.2.98/diff.md --exclude *.pyd
+[2023-07-16 18:33:44] INFO root fetch - processPackages [pyDecision]: executing diffoscope
+[2023-07-16 18:33:44] INFO root fetch - processPackages [pyDecision]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyDecision-2.9.8.tar.gz tmp/pyDecision-3.0.2.tar.gz --markdown 20230716/p/pyDecision/2.9.8-3.0.2/diff.md --exclude *.pyd
+[2023-07-16 18:33:45] INFO root fetch - processPackages [scikit-rt]: executing diffoscope
+[2023-07-16 18:33:45] INFO root fetch - processPackages [scikit-rt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scikit-rt-0.5.8.tar.gz tmp/scikit-rt-0.5.9.tar.gz --markdown 20230716/s/scikit-rt/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-07-16 18:33:45] INFO root fetch - processPackages [zshgpt]: executing diffoscope
+[2023-07-16 18:33:45] INFO root fetch - processPackages [zshgpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zshgpt-0.0.1.tar.gz tmp/zshgpt-0.1.1.tar.gz --markdown 20230716/z/zshgpt/0.0.1-0.1.1/diff.md --exclude *.pyd
+[2023-07-16 18:33:45] INFO root fetch - processPackages [relenv]: Downloading https://files.pythonhosted.org/packages/04/91/998d91dcc3df027619800fcef9a4d6de71c3976d23450216e6ebd6055f57/relenv-0.9.0-py3-none-any.whl
+[2023-07-16 18:33:45] INFO root fetch - processPackages [relenv]: executing diffoscope
+[2023-07-16 18:33:45] INFO root fetch - processPackages [relenv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/relenv-0.8.2-py3-none-any.whl.zip tmp/relenv-0.9.0-py3-none-any.whl.zip --markdown 20230716/r/relenv/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2023-07-16 18:33:45] INFO root fetch - processPackages [digimat.bac0]: Remove: archive file [/home/abi/fetcher/tmp/digimat.bac0-0.0.7.tar.gz]
+[2023-07-16 18:33:45] INFO root fetch - processPackages [digimat.bac0]: Remove: archive file [/home/abi/fetcher/tmp/digimat.bac0-0.0.8.tar.gz]
+[2023-07-16 18:33:45] INFO root fetch - main [MainThread]: End processing [digimat.bac0]: success
+[2023-07-16 18:33:46] INFO root fetch - processPackages [docx-charts]: Remove: archive file [/home/abi/fetcher/tmp/docx_charts-0.1.5.tar.gz]
+[2023-07-16 18:33:46] INFO root fetch - processPackages [docx-charts]: Remove: archive file [/home/abi/fetcher/tmp/docx_charts-0.1.6.tar.gz]
+[2023-07-16 18:33:46] INFO root fetch - main [MainThread]: End processing [docx-charts]: success
+[2023-07-16 18:33:46] INFO root fetch - processPackages [dnfunc]: Remove: archive file [/home/abi/fetcher/tmp/dnfunc-0.0.3a2.tar.gz]
+[2023-07-16 18:33:46] INFO root fetch - processPackages [dnfunc]: Remove: archive file [/home/abi/fetcher/tmp/dnfunc-0.0.4.tar.gz]
+[2023-07-16 18:33:46] INFO root fetch - main [MainThread]: End processing [dnfunc]: success
+[2023-07-16 18:33:46] INFO root fetch - processPackages [llmflows]: Remove: archive file [/home/abi/fetcher/tmp/llmflows-0.0.6.tar.gz]
+[2023-07-16 18:33:46] INFO root fetch - processPackages [llmflows]: Remove: archive file [/home/abi/fetcher/tmp/llmflows-0.0.7.tar.gz]
+[2023-07-16 18:33:46] INFO root fetch - main [MainThread]: End processing [llmflows]: success
+[2023-07-16 18:33:46] INFO root fetch - processPackages [zshgpt]: Remove: archive file [/home/abi/fetcher/tmp/zshgpt-0.0.1.tar.gz]
+[2023-07-16 18:33:46] INFO root fetch - processPackages [zshgpt]: Remove: archive file [/home/abi/fetcher/tmp/zshgpt-0.1.1.tar.gz]
+[2023-07-16 18:33:46] INFO root fetch - main [MainThread]: End processing [zshgpt]: success
+[2023-07-16 18:33:46] INFO root fetch - processPackages [relenv]: Remove: archive file [/home/abi/fetcher/tmp/relenv-0.8.2-py3-none-any.whl.zip]
+[2023-07-16 18:33:46] INFO root fetch - processPackages [relenv]: Remove: archive file [/home/abi/fetcher/tmp/relenv-0.9.0-py3-none-any.whl.zip]
+[2023-07-16 18:33:46] INFO root fetch - main [MainThread]: End processing [relenv]: success
+[2023-07-16 18:33:46] INFO root fetch - processPackages [i8-terminal]: Remove: archive file [/home/abi/fetcher/tmp/i8-terminal-0.2.97.tar.gz]
+[2023-07-16 18:33:46] INFO root fetch - processPackages [i8-terminal]: Remove: archive file [/home/abi/fetcher/tmp/i8-terminal-0.2.98.tar.gz]
+[2023-07-16 18:33:46] INFO root fetch - main [MainThread]: End processing [i8-terminal]: success
+[2023-07-16 18:33:46] INFO root fetch - processPackages [scikit-rt]: Remove: archive file [/home/abi/fetcher/tmp/scikit-rt-0.5.8.tar.gz]
+[2023-07-16 18:33:46] INFO root fetch - processPackages [scikit-rt]: Remove: archive file [/home/abi/fetcher/tmp/scikit-rt-0.5.9.tar.gz]
+[2023-07-16 18:33:46] INFO root fetch - main [MainThread]: End processing [scikit-rt]: success
+[2023-07-16 18:33:46] INFO root fetch - processPackages [pyDecision]: Remove: archive file [/home/abi/fetcher/tmp/pyDecision-2.9.8.tar.gz]
+[2023-07-16 18:33:46] INFO root fetch - processPackages [pyDecision]: Remove: archive file [/home/abi/fetcher/tmp/pyDecision-3.0.2.tar.gz]
+[2023-07-16 18:33:46] INFO root fetch - main [MainThread]: End processing [pyDecision]: success
+[2023-07-16 18:33:46] INFO root fetch - main [MainThread]: Store serial: [18908113]
