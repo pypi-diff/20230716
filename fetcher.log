@@ -8491,3 +8491,65 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-16 14:42:04] INFO root fetch - processPackages [DEODR]: Remove: archive file [/home/abi/fetcher/tmp/deodr-0.2.0.tar.gz]
 [2023-07-16 14:42:04] INFO root fetch - main [MainThread]: End processing [DEODR]: success
 [2023-07-16 14:42:04] INFO root fetch - main [MainThread]: Store serial: [18906901]
+[2023-07-16 14:47:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18906901]
+[2023-07-16 14:47:16] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-16 14:47:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pydantic-apply
+[2023-07-16 14:47:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: whisper-autosrt
+[2023-07-16 14:47:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vosk-autosrt
+[2023-07-16 14:47:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: threads-py
+[2023-07-16 14:47:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: frictionless
+[2023-07-16 14:47:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: anitube-simple-notification
+[2023-07-16 14:47:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mypy-boto3-builder
+[2023-07-16 14:47:16] INFO root fetch - processPackages [threads-py]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-16 14:47:16] INFO root fetch - processPackages [whisper-autosrt]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-16 14:47:16] INFO root fetch - processPackages [pydantic-apply]: New version: [0.5.0] Old Version: [0.1.5]
+[2023-07-16 14:47:16] INFO root fetch - processPackages [anitube-simple-notification]: New version: [1.2.4] Old Version: [1.2.2]
+[2023-07-16 14:47:16] INFO root fetch - processPackages [vosk-autosrt]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-16 14:47:16] INFO root fetch - processPackages [mypy-boto3-builder]: New version: [7.9.2] Old Version: [7.9.1]
+[2023-07-16 14:47:16] INFO root fetch - processPackages [frictionless]: New version: [5.8.3] Old Version: [5.8.2]
+[2023-07-16 14:47:16] INFO root fetch - processPackages [frictionless]: Downloading https://files.pythonhosted.org/packages/64/ee/14733c5b1fcd9a121c750af080aa978bfe1e801a9de882afa8cfe53382a6/frictionless-5.8.2.tar.gz
+[2023-07-16 14:47:16] INFO root fetch - processPackages [anitube-simple-notification]: Downloading https://files.pythonhosted.org/packages/b1/2c/984bd18cc4cd9aa3047805e82e0cce7ffc560ae56f6ea55343e174edc451/anitube-simple-notification-1.2.2.tar.gz
+[2023-07-16 14:47:16] INFO root fetch - processPackages [threads-py]: Downloading https://files.pythonhosted.org/packages/04/e5/0d8fd52f2dbc5796f45d86a0a320ca587fdf3d72ef0619d31bf420f708ba/threads-py-0.0.6.tar.gz
+[2023-07-16 14:47:16] INFO root fetch - processPackages [whisper-autosrt]: Downloading https://files.pythonhosted.org/packages/f1/6e/e7e8097bd77890d8e5ee457044a99688c31339d565a13dd7b9fa7b510637/whisper_autosrt-0.1.8.tar.gz
+[2023-07-16 14:47:16] INFO root fetch - processPackages [pydantic-apply]: Downloading https://files.pythonhosted.org/packages/d8/36/e9e67f9e6b5d9551425d162c9aa4e82f7b6a080ce818b351cfc7b19bd320/pydantic_apply-0.1.5.tar.gz
+[2023-07-16 14:47:16] INFO root fetch - processPackages [vosk-autosrt]: Downloading https://files.pythonhosted.org/packages/44/47/523d4b91f8ccaf5c192f2fbbd22a957d621d2af0ab1c0c0e83c7f2b77eab/vosk_autosrt-0.1.4.tar.gz
+[2023-07-16 14:47:16] INFO root fetch - processPackages [mypy-boto3-builder]: Downloading https://files.pythonhosted.org/packages/ee/11/341b105bf6345e78400793dd64c53ee46392936cabff33772d368be4ab89/mypy-boto3-builder-7.9.1.tar.gz
+[2023-07-16 14:47:16] INFO root fetch - processPackages [frictionless]: Downloading https://files.pythonhosted.org/packages/90/d2/f85c7cedee239a748294362c4c36984bc70e846a057ecc7f4ed136298a34/frictionless-5.8.3.tar.gz
+[2023-07-16 14:47:17] INFO root fetch - processPackages [frictionless]: executing diffoscope
+[2023-07-16 14:47:17] INFO root fetch - processPackages [frictionless]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frictionless-5.8.2.tar.gz tmp/frictionless-5.8.3.tar.gz --markdown 20230716/f/frictionless/5.8.2-5.8.3/diff.md --exclude *.pyd
+[2023-07-16 14:47:17] INFO root fetch - processPackages [threads-py]: Downloading https://files.pythonhosted.org/packages/65/96/f67229b27627e37f59c3d22ea9d310acdda7d7abec330f62e8c4a373bd14/threads_py-0.0.7.tar.gz
+[2023-07-16 14:47:17] INFO root fetch - processPackages [anitube-simple-notification]: Downloading https://files.pythonhosted.org/packages/2c/ca/1c4e2045a7f6a83540193e5907cc8dc6c2ddb49d9206311a318c9e1606f3/anitube-simple-notification-1.2.4.tar.gz
+[2023-07-16 14:47:17] WARNING root fetch - processPackages [vosk-autosrt]: Skipping package: exceeds size limit 21465988>=10485760
+[2023-07-16 14:47:17] INFO root fetch - main [MainThread]: End processing [vosk-autosrt] error
+[2023-07-16 14:47:17] INFO root fetch - processPackages [threads-py]: executing diffoscope
+[2023-07-16 14:47:17] INFO root fetch - processPackages [threads-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threads-py-0.0.6.tar.gz tmp/threads_py-0.0.7.tar.gz --markdown 20230716/t/threads-py/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-16 14:47:17] INFO root fetch - processPackages [anitube-simple-notification]: executing diffoscope
+[2023-07-16 14:47:17] INFO root fetch - processPackages [anitube-simple-notification]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anitube-simple-notification-1.2.2.tar.gz tmp/anitube-simple-notification-1.2.4.tar.gz --markdown 20230716/a/anitube-simple-notification/1.2.2-1.2.4/diff.md --exclude *.pyd
+[2023-07-16 14:47:17] INFO root fetch - processPackages [mypy-boto3-builder]: Downloading https://files.pythonhosted.org/packages/fe/ae/2a0da74f6827713d434b6fdb09c80ff83f450cffa43c5b8811492236e7ac/mypy-boto3-builder-7.9.2.tar.gz
+[2023-07-16 14:47:17] INFO root fetch - processPackages [pydantic-apply]: Downloading https://files.pythonhosted.org/packages/69/41/4383a7d8149a00fc32b1a3dc35b8d28e5c60e13f9326568d435d06873858/pydantic_apply-0.5.0.tar.gz
+[2023-07-16 14:47:17] INFO root fetch - processPackages [whisper-autosrt]: Downloading https://files.pythonhosted.org/packages/a5/15/c1b752668cd35743a87e4dc1cbc004fb134a8a83aa08c9ec90d310de3a8f/whisper_autosrt-0.1.9.tar.gz
+[2023-07-16 14:47:17] INFO root fetch - processPackages [mypy-boto3-builder]: executing diffoscope
+[2023-07-16 14:47:17] INFO root fetch - processPackages [mypy-boto3-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypy-boto3-builder-7.9.1.tar.gz tmp/mypy-boto3-builder-7.9.2.tar.gz --markdown 20230716/m/mypy-boto3-builder/7.9.1-7.9.2/diff.md --exclude *.pyd
+[2023-07-16 14:47:17] INFO root fetch - processPackages [pydantic-apply]: executing diffoscope
+[2023-07-16 14:47:17] INFO root fetch - processPackages [pydantic-apply]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydantic_apply-0.1.5.tar.gz tmp/pydantic_apply-0.5.0.tar.gz --markdown 20230716/p/pydantic-apply/0.1.5-0.5.0/diff.md --exclude *.pyd
+[2023-07-16 14:47:17] INFO root fetch - processPackages [whisper-autosrt]: executing diffoscope
+[2023-07-16 14:47:17] INFO root fetch - processPackages [whisper-autosrt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whisper_autosrt-0.1.8.tar.gz tmp/whisper_autosrt-0.1.9.tar.gz --markdown 20230716/w/whisper-autosrt/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-16 14:47:18] INFO root fetch - processPackages [threads-py]: Remove: archive file [/home/abi/fetcher/tmp/threads-py-0.0.6.tar.gz]
+[2023-07-16 14:47:18] INFO root fetch - processPackages [threads-py]: Remove: archive file [/home/abi/fetcher/tmp/threads_py-0.0.7.tar.gz]
+[2023-07-16 14:47:18] INFO root fetch - main [MainThread]: End processing [threads-py]: success
+[2023-07-16 14:47:18] INFO root fetch - processPackages [whisper-autosrt]: Remove: archive file [/home/abi/fetcher/tmp/whisper_autosrt-0.1.8.tar.gz]
+[2023-07-16 14:47:18] INFO root fetch - processPackages [whisper-autosrt]: Remove: archive file [/home/abi/fetcher/tmp/whisper_autosrt-0.1.9.tar.gz]
+[2023-07-16 14:47:18] INFO root fetch - main [MainThread]: End processing [whisper-autosrt]: success
+[2023-07-16 14:47:18] INFO root fetch - processPackages [pydantic-apply]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_apply-0.1.5.tar.gz]
+[2023-07-16 14:47:18] INFO root fetch - processPackages [pydantic-apply]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_apply-0.5.0.tar.gz]
+[2023-07-16 14:47:18] INFO root fetch - main [MainThread]: End processing [pydantic-apply]: success
+[2023-07-16 14:47:18] INFO root fetch - processPackages [anitube-simple-notification]: Remove: archive file [/home/abi/fetcher/tmp/anitube-simple-notification-1.2.2.tar.gz]
+[2023-07-16 14:47:18] INFO root fetch - processPackages [anitube-simple-notification]: Remove: archive file [/home/abi/fetcher/tmp/anitube-simple-notification-1.2.4.tar.gz]
+[2023-07-16 14:47:18] INFO root fetch - main [MainThread]: End processing [anitube-simple-notification]: success
+[2023-07-16 14:47:19] INFO root fetch - processPackages [mypy-boto3-builder]: Remove: archive file [/home/abi/fetcher/tmp/mypy-boto3-builder-7.9.1.tar.gz]
+[2023-07-16 14:47:19] INFO root fetch - processPackages [mypy-boto3-builder]: Remove: archive file [/home/abi/fetcher/tmp/mypy-boto3-builder-7.9.2.tar.gz]
+[2023-07-16 14:47:19] INFO root fetch - main [MainThread]: End processing [mypy-boto3-builder]: success
+[2023-07-16 14:47:19] INFO root fetch - processPackages [frictionless]: Remove: archive file [/home/abi/fetcher/tmp/frictionless-5.8.2.tar.gz]
+[2023-07-16 14:47:19] INFO root fetch - processPackages [frictionless]: Remove: archive file [/home/abi/fetcher/tmp/frictionless-5.8.3.tar.gz]
+[2023-07-16 14:47:19] INFO root fetch - main [MainThread]: End processing [frictionless]: success
+[2023-07-16 14:47:19] INFO root fetch - main [MainThread]: Store serial: [18906927]
