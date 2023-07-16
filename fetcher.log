@@ -10116,3 +10116,100 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-16 16:44:08] INFO root fetch - processPackages [ldimbenchmark]: Remove: archive file [/home/abi/fetcher/tmp/ldimbenchmark-0.2.9.tar.gz]
 [2023-07-16 16:44:08] INFO root fetch - main [MainThread]: End processing [ldimbenchmark]: success
 [2023-07-16 16:44:08] INFO root fetch - main [MainThread]: Store serial: [18907530]
+[2023-07-16 16:49:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18907530]
+[2023-07-16 16:49:17] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-16 16:49:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qtgql
+[2023-07-16 16:49:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: AshCrypt
+[2023-07-16 16:49:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Abg
+[2023-07-16 16:49:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: docx-charts
+[2023-07-16 16:49:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: deepl-translator-selenium
+[2023-07-16 16:49:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: 1stcaptcha
+[2023-07-16 16:49:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: philbot-voice
+[2023-07-16 16:49:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: kaiju-redis
+[2023-07-16 16:49:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tychos
+[2023-07-16 16:49:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tychos
+[2023-07-16 16:49:17] INFO root fetch - processPackages [AshCrypt]: New version: [2.0.0] Old Version: [1.3.6]
+[2023-07-16 16:49:17] INFO root fetch - processPackages [tychos]: New version: [0.0.89] Old Version: [0.0.8]
+[2023-07-16 16:49:17] INFO root fetch - processPackages [1stcaptcha]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-16 16:49:17] INFO root fetch - processPackages [qtgql]: New version: [0.129.0] Old Version: [0.128.0]
+[2023-07-16 16:49:17] WARNING root fetch - processPackages [deepl-translator-selenium]: Skipping, unable to determine old version
+[2023-07-16 16:49:17] INFO root fetch - processPackages [deepl-translator-selenium]: Start processing: areixlib
+[2023-07-16 16:49:17] INFO root fetch - main [MainThread]: End processing [deepl-translator-selenium] error
+[2023-07-16 16:49:17] INFO root fetch - processPackages [tychos]: New version: [0.0.89] Old Version: [0.0.8]
+[2023-07-16 16:49:17] INFO root fetch - processPackages [docx-charts]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-16 16:49:17] WARNING root fetch - processPackages [kaiju-redis]: Skipping, unable to determine old version
+[2023-07-16 16:49:17] INFO root fetch - processPackages [kaiju-redis]: Start processing: doy
+[2023-07-16 16:49:17] INFO root fetch - main [MainThread]: End processing [kaiju-redis] error
+[2023-07-16 16:49:17] INFO root fetch - processPackages [Abg]: New version: [2.3.3] Old Version: [2.3.2]
+[2023-07-16 16:49:17] INFO root fetch - processPackages [philbot-voice]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-07-16 16:49:17] INFO root fetch - processPackages [areixlib]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-16 16:49:17] INFO root fetch - processPackages [doy]: New version: [1.3.1] Old Version: [1.3]
+[2023-07-16 16:49:17] INFO root fetch - processPackages [docx-charts]: Downloading https://files.pythonhosted.org/packages/f8/1a/0af52d3ff1eba9c383bb18c04d44c8efdf6a352e8f4a8f16ba94202d2bde/docx_charts-0.1.3.tar.gz
+[2023-07-16 16:49:17] INFO root fetch - processPackages [tychos]: Downloading https://files.pythonhosted.org/packages/75/b4/6b64ef0b734fcefcac00b29de5602c6c5b44bf3f86ea549f4dc222268917/tychos-0.0.8.tar.gz
+[2023-07-16 16:49:17] INFO root fetch - processPackages [tychos]: Downloading https://files.pythonhosted.org/packages/75/b4/6b64ef0b734fcefcac00b29de5602c6c5b44bf3f86ea549f4dc222268917/tychos-0.0.8.tar.gz
+[2023-07-16 16:49:17] INFO root fetch - processPackages [AshCrypt]: Downloading https://files.pythonhosted.org/packages/eb/ff/0ffe1b8ebf57f9f46f03f60a142dc51d6c90332844d0486e9172d5f915bc/AshCrypt-1.3.6.tar.gz
+[2023-07-16 16:49:18] INFO root fetch - processPackages [1stcaptcha]: Downloading https://files.pythonhosted.org/packages/da/d7/1331b7d1ceb0ba5e60b5b6b33e1a532c9377e6a3ed8898ac27b2035d20d9/1stcaptcha-1.0.3.tar.gz
+[2023-07-16 16:49:18] INFO root fetch - processPackages [doy]: Downloading https://files.pythonhosted.org/packages/d6/31/5b014c9d0e8cfb1220ba74cd8bf14d8de832acd82b1cdfad9f1355a10714/doy-1.3.tar.gz
+[2023-07-16 16:49:18] INFO root fetch - processPackages [qtgql]: Downloading https://files.pythonhosted.org/packages/97/c3/51d80b8f3fd5edb3d33a5d37ce7fca3a4109f25dd0cfbd814c883b116399/qtgql-0.128.0.tar.gz
+[2023-07-16 16:49:18] INFO root fetch - processPackages [Abg]: Downloading https://files.pythonhosted.org/packages/b5/7d/0b371f1a46648d487d14330deacbbb378ff1830def46441c5dd1957e4086/Abg-2.3.2.tar.gz
+[2023-07-16 16:49:18] INFO root fetch - processPackages [philbot-voice]: Downloading https://files.pythonhosted.org/packages/05/bb/01605bb60fce0733760899cdc771b31c44c401248bd2c28398c5ce9e9df5/philbot_voice-1.9.8.tar.gz
+[2023-07-16 16:49:18] INFO root fetch - processPackages [areixlib]: Downloading https://files.pythonhosted.org/packages/2f/5e/82622925325cc40694a164901608e142eed6fe99d83a8e99327bd5a0ac16/areixlib-0.1.8.tar.gz
+[2023-07-16 16:49:18] INFO root fetch - processPackages [doy]: Downloading https://files.pythonhosted.org/packages/34/2f/bd31f319021de76e8cffac6ca3b1bee9a15fad2d18154916aac220a4850c/doy-1.3.1.tar.gz
+[2023-07-16 16:49:18] INFO root fetch - processPackages [docx-charts]: Downloading https://files.pythonhosted.org/packages/46/86/50af6ce1fe4f032c6470cc2c9b5b6dcb463809fe9440f72e069e4d29a64c/docx_charts-0.1.4.tar.gz
+[2023-07-16 16:49:18] INFO root fetch - processPackages [tychos]: Downloading https://files.pythonhosted.org/packages/27/10/1ef5957f4876243a60ff32e0f14e4977088165031804201bd244ea759b0b/tychos-0.0.89.tar.gz
+[2023-07-16 16:49:18] INFO root fetch - processPackages [tychos]: Downloading https://files.pythonhosted.org/packages/27/10/1ef5957f4876243a60ff32e0f14e4977088165031804201bd244ea759b0b/tychos-0.0.89.tar.gz
+[2023-07-16 16:49:18] INFO root fetch - processPackages [Abg]: Downloading https://files.pythonhosted.org/packages/43/7d/95a4b16c782eb90f78de163b75c846482d057ca07909190da9c89a51ef9d/Abg-2.3.3.tar.gz
+[2023-07-16 16:49:18] INFO root fetch - processPackages [qtgql]: Downloading https://files.pythonhosted.org/packages/b8/0a/705bf2aea7b0285d877d1bfd191043a03225d10f15c0584e154758518a89/qtgql-0.129.0.tar.gz
+[2023-07-16 16:49:18] INFO root fetch - processPackages [1stcaptcha]: Downloading https://files.pythonhosted.org/packages/38/6f/8127b99beb366af6b065e080827e55f1d71af5ddc6727c4b450ae971c090/1stcaptcha-1.0.4.tar.gz
+[2023-07-16 16:49:18] INFO root fetch - processPackages [AshCrypt]: Downloading https://files.pythonhosted.org/packages/6e/a9/06968a55cfaaca7749b9bada3f1d16ee12cc93b2c169fcf5b6b8cc96029c/AshCrypt-2.0.0.tar.gz
+[2023-07-16 16:49:18] INFO root fetch - processPackages [philbot-voice]: Downloading https://files.pythonhosted.org/packages/3b/a7/1895e6c9d15fef6a2e8afcf48baeacca3915011fbe849f600b6b3dac7afb/philbot_voice-1.9.9.tar.gz
+[2023-07-16 16:49:18] INFO root fetch - processPackages [docx-charts]: executing diffoscope
+[2023-07-16 16:49:18] INFO root fetch - processPackages [docx-charts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docx_charts-0.1.3.tar.gz tmp/docx_charts-0.1.4.tar.gz --markdown 20230716/d/docx-charts/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-16 16:49:18] INFO root fetch - processPackages [doy]: executing diffoscope
+[2023-07-16 16:49:18] INFO root fetch - processPackages [doy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/doy-1.3.tar.gz tmp/doy-1.3.1.tar.gz --markdown 20230716/d/doy/1.3-1.3.1/diff.md --exclude *.pyd
+[2023-07-16 16:49:18] INFO root fetch - processPackages [Abg]: executing diffoscope
+[2023-07-16 16:49:18] INFO root fetch - processPackages [Abg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Abg-2.3.2.tar.gz tmp/Abg-2.3.3.tar.gz --markdown 20230716/A/Abg/2.3.2-2.3.3/diff.md --exclude *.pyd
+[2023-07-16 16:49:18] INFO root fetch - processPackages [areixlib]: Downloading https://files.pythonhosted.org/packages/0e/30/827f03b0c15db63f31ae32ac76732b2adeffa605ca1625390c1b47464679/areixlib-0.1.9.tar.gz
+[2023-07-16 16:49:18] INFO root fetch - processPackages [tychos]: executing diffoscope
+[2023-07-16 16:49:18] INFO root fetch - processPackages [tychos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tychos-0.0.8.tar.gz tmp/tychos-0.0.89.tar.gz --markdown 20230716/t/tychos/0.0.8-0.0.89/diff.md --exclude *.pyd
+[2023-07-16 16:49:18] INFO root fetch - processPackages [tychos]: executing diffoscope
+[2023-07-16 16:49:18] INFO root fetch - processPackages [tychos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tychos-0.0.8.tar.gz tmp/tychos-0.0.89.tar.gz --markdown 20230716/t/tychos/0.0.8-0.0.89/diff.md --exclude *.pyd
+[2023-07-16 16:49:18] INFO root fetch - processPackages [AshCrypt]: executing diffoscope
+[2023-07-16 16:49:18] INFO root fetch - processPackages [AshCrypt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AshCrypt-1.3.6.tar.gz tmp/AshCrypt-2.0.0.tar.gz --markdown 20230716/A/AshCrypt/1.3.6-2.0.0/diff.md --exclude *.pyd
+[2023-07-16 16:49:18] INFO root fetch - processPackages [philbot-voice]: executing diffoscope
+[2023-07-16 16:49:18] INFO root fetch - processPackages [philbot-voice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/philbot_voice-1.9.8.tar.gz tmp/philbot_voice-1.9.9.tar.gz --markdown 20230716/p/philbot-voice/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-07-16 16:49:18] INFO root fetch - processPackages [qtgql]: executing diffoscope
+[2023-07-16 16:49:18] INFO root fetch - processPackages [qtgql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qtgql-0.128.0.tar.gz tmp/qtgql-0.129.0.tar.gz --markdown 20230716/q/qtgql/0.128.0-0.129.0/diff.md --exclude *.pyd
+[2023-07-16 16:49:19] INFO root fetch - processPackages [1stcaptcha]: executing diffoscope
+[2023-07-16 16:49:19] INFO root fetch - processPackages [1stcaptcha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/1stcaptcha-1.0.3.tar.gz tmp/1stcaptcha-1.0.4.tar.gz --markdown 20230716/1/1stcaptcha/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-16 16:49:19] INFO root fetch - processPackages [areixlib]: executing diffoscope
+[2023-07-16 16:49:19] INFO root fetch - processPackages [areixlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/areixlib-0.1.8.tar.gz tmp/areixlib-0.1.9.tar.gz --markdown 20230716/a/areixlib/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-16 16:49:20] INFO root fetch - processPackages [docx-charts]: Remove: archive file [/home/abi/fetcher/tmp/docx_charts-0.1.3.tar.gz]
+[2023-07-16 16:49:20] INFO root fetch - processPackages [docx-charts]: Remove: archive file [/home/abi/fetcher/tmp/docx_charts-0.1.4.tar.gz]
+[2023-07-16 16:49:20] INFO root fetch - main [MainThread]: End processing [docx-charts]: success
+[2023-07-16 16:49:20] INFO root fetch - processPackages [doy]: Remove: archive file [/home/abi/fetcher/tmp/doy-1.3.tar.gz]
+[2023-07-16 16:49:20] INFO root fetch - processPackages [doy]: Remove: archive file [/home/abi/fetcher/tmp/doy-1.3.1.tar.gz]
+[2023-07-16 16:49:20] INFO root fetch - main [MainThread]: End processing [doy]: success
+[2023-07-16 16:49:20] INFO root fetch - processPackages [tychos]: Remove: archive file [/home/abi/fetcher/tmp/tychos-0.0.8.tar.gz]
+[2023-07-16 16:49:20] INFO root fetch - processPackages [tychos]: Remove: archive file [/home/abi/fetcher/tmp/tychos-0.0.89.tar.gz]
+[2023-07-16 16:49:20] INFO root fetch - main [MainThread]: End processing [tychos]: success
+[2023-07-16 16:49:20] INFO root fetch - processPackages [Abg]: Remove: archive file [/home/abi/fetcher/tmp/Abg-2.3.2.tar.gz]
+[2023-07-16 16:49:20] INFO root fetch - processPackages [Abg]: Remove: archive file [/home/abi/fetcher/tmp/Abg-2.3.3.tar.gz]
+[2023-07-16 16:49:20] INFO root fetch - main [MainThread]: End processing [Abg]: success
+[2023-07-16 16:49:20] INFO root fetch - processPackages [philbot-voice]: Remove: archive file [/home/abi/fetcher/tmp/philbot_voice-1.9.8.tar.gz]
+[2023-07-16 16:49:20] INFO root fetch - processPackages [philbot-voice]: Remove: archive file [/home/abi/fetcher/tmp/philbot_voice-1.9.9.tar.gz]
+[2023-07-16 16:49:20] INFO root fetch - main [MainThread]: End processing [philbot-voice]: success
+[2023-07-16 16:49:20] INFO root fetch - processPackages [1stcaptcha]: Remove: archive file [/home/abi/fetcher/tmp/1stcaptcha-1.0.3.tar.gz]
+[2023-07-16 16:49:20] INFO root fetch - processPackages [1stcaptcha]: Remove: archive file [/home/abi/fetcher/tmp/1stcaptcha-1.0.4.tar.gz]
+[2023-07-16 16:49:20] INFO root fetch - main [MainThread]: End processing [1stcaptcha]: success
+[2023-07-16 16:49:20] INFO root fetch - processPackages [qtgql]: Remove: archive file [/home/abi/fetcher/tmp/qtgql-0.128.0.tar.gz]
+[2023-07-16 16:49:20] INFO root fetch - processPackages [qtgql]: Remove: archive file [/home/abi/fetcher/tmp/qtgql-0.129.0.tar.gz]
+[2023-07-16 16:49:20] INFO root fetch - main [MainThread]: End processing [qtgql]: success
+[2023-07-16 16:49:20] INFO root fetch - processPackages [AshCrypt]: Remove: archive file [/home/abi/fetcher/tmp/AshCrypt-1.3.6.tar.gz]
+[2023-07-16 16:49:20] INFO root fetch - processPackages [AshCrypt]: Remove: archive file [/home/abi/fetcher/tmp/AshCrypt-2.0.0.tar.gz]
+[2023-07-16 16:49:20] INFO root fetch - main [MainThread]: End processing [AshCrypt]: success
+[2023-07-16 16:49:20] INFO root fetch - main [MainThread]: End processing [tychos]: success
+[2023-07-16 16:49:20] INFO root fetch - processPackages [areixlib]: Remove: archive file [/home/abi/fetcher/tmp/areixlib-0.1.8.tar.gz]
+[2023-07-16 16:49:20] INFO root fetch - processPackages [areixlib]: Remove: archive file [/home/abi/fetcher/tmp/areixlib-0.1.9.tar.gz]
+[2023-07-16 16:49:20] INFO root fetch - main [MainThread]: End processing [areixlib]: success
+[2023-07-16 16:49:20] INFO root fetch - main [MainThread]: Store serial: [18907571]
