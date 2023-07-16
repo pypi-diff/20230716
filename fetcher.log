@@ -4406,3 +4406,48 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-16 08:11:22] INFO root fetch - processPackages [fdfat]: Remove: archive file [/home/abi/fetcher/tmp/fdfat-0.1.4.tar.gz]
 [2023-07-16 08:11:22] INFO root fetch - main [MainThread]: End processing [fdfat]: success
 [2023-07-16 08:11:22] INFO root fetch - main [MainThread]: Store serial: [18905175]
+[2023-07-16 08:16:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18905175]
+[2023-07-16 08:16:31] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-16 08:16:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bloark
+[2023-07-16 08:16:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bloark
+[2023-07-16 08:16:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pylint-sarif-unofficial
+[2023-07-16 08:16:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: adafri
+[2023-07-16 08:16:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyg-nightly
+[2023-07-16 08:16:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: miauw-base-service
+[2023-07-16 08:16:31] INFO root fetch - processPackages [adafri]: New version: [0.0.19.36] Old Version: [0.0.19.35]
+[2023-07-16 08:16:31] INFO root fetch - processPackages [pylint-sarif-unofficial]: New version: [0.2.0a0] Old Version: [0.2.0]
+[2023-07-16 08:16:31] INFO root fetch - processPackages [miauw-base-service]: New version: [1.2.0] Old Version: [1.1.1]
+[2023-07-16 08:16:31] WARNING root fetch - processPackages [bloark]: Skipping, unable to determine old version
+[2023-07-16 08:16:31] INFO root fetch - main [MainThread]: End processing [bloark] error
+[2023-07-16 08:16:31] WARNING root fetch - processPackages [bloark]: Skipping, unable to determine old version
+[2023-07-16 08:16:31] INFO root fetch - main [MainThread]: End processing [bloark] error
+[2023-07-16 08:16:31] INFO root fetch - processPackages [pyg-nightly]: New version: [2.4.0.dev20230715] Old Version: [2.4.0.dev20230714]
+[2023-07-16 08:16:31] INFO root fetch - processPackages [adafri]: Downloading https://files.pythonhosted.org/packages/e2/a0/ccb26fb57d68b9e29c3377a082e837f6da615f0ef1513290febcdd38ecea/adafri-0.0.19.35.tar.gz
+[2023-07-16 08:16:31] INFO root fetch - processPackages [miauw-base-service]: Downloading https://files.pythonhosted.org/packages/01/23/5b867f76ae7c04ee7e03467e6d0ed4e5525cf090a685dc7cfc1b0090ce1d/miauw-base-service-1.1.1.tar.gz
+[2023-07-16 08:16:31] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/61/a1/75c5ecc7be3827d785e7e6da1ba179214edf92ee98e1f9d16072bc20a190/pyg_nightly-2.4.0.dev20230714.tar.gz
+[2023-07-16 08:16:31] INFO root fetch - processPackages [pylint-sarif-unofficial]: Downloading https://files.pythonhosted.org/packages/95/6b/081d66517aceff02969ab3629cc30e0441bd07812e4a71f76f684e903036/pylint_sarif_unofficial-0.2.0.tar.gz
+[2023-07-16 08:16:32] INFO root fetch - processPackages [adafri]: Downloading https://files.pythonhosted.org/packages/ff/8c/00c64e2820220b3348a62c2c422666d2ea0fcfce035b8ffa1c9aae6cc512/adafri-0.0.19.36.tar.gz
+[2023-07-16 08:16:32] INFO root fetch - processPackages [pylint-sarif-unofficial]: Downloading https://files.pythonhosted.org/packages/fe/f4/f9f05b2d78de9ff7705c2d7f24e023cd14ed9995d73dd8048d285f13176d/pylint_sarif_unofficial-0.2.0a0.tar.gz
+[2023-07-16 08:16:32] INFO root fetch - processPackages [miauw-base-service]: Downloading https://files.pythonhosted.org/packages/24/42/bce8873e64a4a8b362bf168f817c7f6d5c80c5c04e482389c68e3b30c834/miauw-base-service-1.2.0.tar.gz
+[2023-07-16 08:16:32] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/d9/a9/d90eebd18da44f617aa3349e3526fd1e640123480c7522680806d38b32aa/pyg_nightly-2.4.0.dev20230715.tar.gz
+[2023-07-16 08:16:32] INFO root fetch - processPackages [adafri]: executing diffoscope
+[2023-07-16 08:16:32] INFO root fetch - processPackages [adafri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafri-0.0.19.35.tar.gz tmp/adafri-0.0.19.36.tar.gz --markdown 20230716/a/adafri/0.0.19.35-0.0.19.36/diff.md --exclude *.pyd
+[2023-07-16 08:16:32] INFO root fetch - processPackages [pylint-sarif-unofficial]: executing diffoscope
+[2023-07-16 08:16:32] INFO root fetch - processPackages [pylint-sarif-unofficial]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylint_sarif_unofficial-0.2.0.tar.gz tmp/pylint_sarif_unofficial-0.2.0a0.tar.gz --markdown 20230716/p/pylint-sarif-unofficial/0.2.0-0.2.0a0/diff.md --exclude *.pyd
+[2023-07-16 08:16:32] INFO root fetch - processPackages [miauw-base-service]: executing diffoscope
+[2023-07-16 08:16:32] INFO root fetch - processPackages [miauw-base-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/miauw-base-service-1.1.1.tar.gz tmp/miauw-base-service-1.2.0.tar.gz --markdown 20230716/m/miauw-base-service/1.1.1-1.2.0/diff.md --exclude *.pyd
+[2023-07-16 08:16:32] INFO root fetch - processPackages [pyg-nightly]: executing diffoscope
+[2023-07-16 08:16:32] INFO root fetch - processPackages [pyg-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyg_nightly-2.4.0.dev20230714.tar.gz tmp/pyg_nightly-2.4.0.dev20230715.tar.gz --markdown 20230716/p/pyg-nightly/2.4.0.dev20230714-2.4.0.dev20230715/diff.md --exclude *.pyd
+[2023-07-16 08:16:33] INFO root fetch - processPackages [miauw-base-service]: Remove: archive file [/home/abi/fetcher/tmp/miauw-base-service-1.1.1.tar.gz]
+[2023-07-16 08:16:33] INFO root fetch - processPackages [miauw-base-service]: Remove: archive file [/home/abi/fetcher/tmp/miauw-base-service-1.2.0.tar.gz]
+[2023-07-16 08:16:33] INFO root fetch - main [MainThread]: End processing [miauw-base-service]: success
+[2023-07-16 08:16:33] INFO root fetch - processPackages [adafri]: Remove: archive file [/home/abi/fetcher/tmp/adafri-0.0.19.35.tar.gz]
+[2023-07-16 08:16:33] INFO root fetch - processPackages [adafri]: Remove: archive file [/home/abi/fetcher/tmp/adafri-0.0.19.36.tar.gz]
+[2023-07-16 08:16:33] INFO root fetch - main [MainThread]: End processing [adafri]: success
+[2023-07-16 08:16:33] INFO root fetch - processPackages [pylint-sarif-unofficial]: Remove: archive file [/home/abi/fetcher/tmp/pylint_sarif_unofficial-0.2.0.tar.gz]
+[2023-07-16 08:16:33] INFO root fetch - processPackages [pylint-sarif-unofficial]: Remove: archive file [/home/abi/fetcher/tmp/pylint_sarif_unofficial-0.2.0a0.tar.gz]
+[2023-07-16 08:16:33] INFO root fetch - main [MainThread]: End processing [pylint-sarif-unofficial]: success
+[2023-07-16 08:16:35] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.4.0.dev20230714.tar.gz]
+[2023-07-16 08:16:35] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.4.0.dev20230715.tar.gz]
+[2023-07-16 08:16:35] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
+[2023-07-16 08:16:35] INFO root fetch - main [MainThread]: Store serial: [18905196]
