@@ -6344,3 +6344,94 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-16 11:18:41] INFO root fetch - processPackages [yaylib]: Remove: archive file [/home/abi/fetcher/tmp/yaylib-1.0.0.tar.gz]
 [2023-07-16 11:18:41] INFO root fetch - main [MainThread]: End processing [yaylib]: success
 [2023-07-16 11:18:41] INFO root fetch - main [MainThread]: Store serial: [18905927]
+[2023-07-16 11:23:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18905927]
+[2023-07-16 11:23:50] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-16 11:23:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qcloud-user
+[2023-07-16 11:23:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lycoris-lora
+[2023-07-16 11:23:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: talkytimes-package
+[2023-07-16 11:23:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nonebot-plugin-game-collection
+[2023-07-16 11:23:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tbp-nightly
+[2023-07-16 11:23:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: spanishconjugator
+[2023-07-16 11:23:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pydwf
+[2023-07-16 11:23:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyfrobot
+[2023-07-16 11:23:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: spanishconjugator
+[2023-07-16 11:23:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: legend-pygeom-hpges
+[2023-07-16 11:23:50] INFO root fetch - processPackages [talkytimes-package]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-07-16 11:23:50] INFO root fetch - processPackages [lycoris-lora]: New version: [1.8.0.dev9] Old Version: [1.8.0.dev8]
+[2023-07-16 11:23:50] INFO root fetch - processPackages [nonebot-plugin-game-collection]: New version: [2.3.9] Old Version: [2.3.8]
+[2023-07-16 11:23:50] INFO root fetch - processPackages [qcloud-user]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-16 11:23:50] INFO root fetch - processPackages [pyfrobot]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-16 11:23:50] INFO root fetch - processPackages [pydwf]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-07-16 11:23:50] INFO root fetch - processPackages [tbp-nightly]: New version: [2.9.0a20221130] Old Version: [2.9.0a20221129]
+[2023-07-16 11:23:50] INFO root fetch - processPackages [talkytimes-package]: Downloading https://files.pythonhosted.org/packages/76/df/47f1560f124d6880fb4f04695ac02f6357534e677d85334fcdff316c6106/talkytimes_package-0.2.7.tar.gz
+[2023-07-16 11:23:50] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-07-16 11:23:50] INFO root fetch - processPackages [legend-pygeom-hpges]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-16 11:23:50] INFO root fetch - processPackages [pyfrobot]: Downloading https://files.pythonhosted.org/packages/f1/3a/4200fd42fb7e3d1ec042ba51bc8874b1051e50b1cc6ce8c11b48f7cfc290/pyfrobot-0.1.4.tar.gz
+[2023-07-16 11:23:50] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-07-16 11:23:50] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Downloading https://files.pythonhosted.org/packages/51/fb/d907f05bab271d6408024397bb87d8e7e069ff91fa3152a09c37d0191aec/nonebot_plugin_game_collection-2.3.8.tar.gz
+[2023-07-16 11:23:50] INFO root fetch - processPackages [lycoris-lora]: Downloading https://files.pythonhosted.org/packages/de/80/86773036f7f51825e38b128d2eb02f8b4a73bd937ef34e8ec0fffdea719e/lycoris_lora-1.8.0.dev8.tar.gz
+[2023-07-16 11:23:50] INFO root fetch - processPackages [pydwf]: Downloading https://files.pythonhosted.org/packages/e8/e3/73515590306773b7ff8aa4dd4d91bb1bda59a7baf3a154ee1c08445e7940/pydwf-1.1.8.tar.gz
+[2023-07-16 11:23:50] INFO root fetch - processPackages [qcloud-user]: Downloading https://files.pythonhosted.org/packages/50/4d/c6099baf130005333ec3c5b069c427109704dfc9696b7377ab1c3f1804de/qcloud_user-1.0.1.tar.gz
+[2023-07-16 11:23:50] INFO root fetch - processPackages [tbp-nightly]: Downloading https://files.pythonhosted.org/packages/b9/6c/43a589e5ab1d1b961e5780e41057576c7abd5bf16d3f871d8ef4ebdaf461/tbp-nightly-2.9.0a20221129.tar.gz
+[2023-07-16 11:23:50] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-07-16 11:23:50] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-07-16 11:23:51] INFO root fetch - processPackages [legend-pygeom-hpges]: Downloading https://files.pythonhosted.org/packages/81/6e/04600c92baf7f1b0f6a20909e965e73238dc999f7f1665632e4ff0e8b670/legend_pygeom_hpges-0.3.0.tar.gz
+[2023-07-16 11:23:51] INFO root fetch - processPackages [talkytimes-package]: Downloading https://files.pythonhosted.org/packages/c4/73/5e7624f85de15c9db269378d884b192e1bbbc003ce8d1ab595947f453652/talkytimes_package-0.2.8.tar.gz
+[2023-07-16 11:23:51] INFO root fetch - processPackages [pyfrobot]: Downloading https://files.pythonhosted.org/packages/51/65/51d93c6ac78ac68ecacc4df570ae4bc16f7ca9a40092c3263329697f780f/pyfrobot-0.1.5.tar.gz
+[2023-07-16 11:23:51] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Downloading https://files.pythonhosted.org/packages/e4/94/777d03c2f9fbba4c5835c0178b82dffa9d6007ab381b752f81e9af32ff1e/nonebot_plugin_game_collection-2.3.9.tar.gz
+[2023-07-16 11:23:51] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-07-16 11:23:51] INFO root fetch - processPackages [lycoris-lora]: Downloading https://files.pythonhosted.org/packages/33/f8/dbedfb5d14ce42cc250e4b1bd8edc9b569669b04696eeb887792654467d4/lycoris_lora-1.8.0.dev9.tar.gz
+[2023-07-16 11:23:51] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-07-16 11:23:51] INFO root fetch - processPackages [talkytimes-package]: executing diffoscope
+[2023-07-16 11:23:51] INFO root fetch - processPackages [talkytimes-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/talkytimes_package-0.2.7.tar.gz tmp/talkytimes_package-0.2.8.tar.gz --markdown 20230716/t/talkytimes-package/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-07-16 11:23:51] INFO root fetch - processPackages [nonebot-plugin-game-collection]: executing diffoscope
+[2023-07-16 11:23:51] INFO root fetch - processPackages [nonebot-plugin-game-collection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_game_collection-2.3.8.tar.gz tmp/nonebot_plugin_game_collection-2.3.9.tar.gz --markdown 20230716/n/nonebot-plugin-game-collection/2.3.8-2.3.9/diff.md --exclude *.pyd
+[2023-07-16 11:23:51] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-07-16 11:23:51] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230716/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-07-16 11:23:51] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-07-16 11:23:51] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230716/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-07-16 11:23:51] INFO root fetch - processPackages [lycoris-lora]: executing diffoscope
+[2023-07-16 11:23:51] INFO root fetch - processPackages [lycoris-lora]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lycoris_lora-1.8.0.dev8.tar.gz tmp/lycoris_lora-1.8.0.dev9.tar.gz --markdown 20230716/l/lycoris-lora/1.8.0.dev8-1.8.0.dev9/diff.md --exclude *.pyd
+[2023-07-16 11:23:51] INFO root fetch - processPackages [qcloud-user]: Downloading https://files.pythonhosted.org/packages/17/ba/f1bc2b867d1ab85b647db12d4ddcb5d01878ce4e2afb7b46dc79771f8e72/qcloud_user-1.0.2.tar.gz
+[2023-07-16 11:23:51] INFO root fetch - processPackages [legend-pygeom-hpges]: Downloading https://files.pythonhosted.org/packages/61/a8/55cfb4704272748499205d72f1fcf1df101579fa1d7d7647e44956392fad/legend_pygeom_hpges-0.3.1.tar.gz
+[2023-07-16 11:23:51] INFO root fetch - processPackages [pyfrobot]: executing diffoscope
+[2023-07-16 11:23:51] INFO root fetch - processPackages [pyfrobot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfrobot-0.1.4.tar.gz tmp/pyfrobot-0.1.5.tar.gz --markdown 20230716/p/pyfrobot/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-16 11:23:51] INFO root fetch - processPackages [qcloud-user]: executing diffoscope
+[2023-07-16 11:23:51] INFO root fetch - processPackages [qcloud-user]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qcloud_user-1.0.1.tar.gz tmp/qcloud_user-1.0.2.tar.gz --markdown 20230716/q/qcloud-user/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-16 11:23:51] INFO root fetch - processPackages [legend-pygeom-hpges]: executing diffoscope
+[2023-07-16 11:23:51] INFO root fetch - processPackages [legend-pygeom-hpges]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/legend_pygeom_hpges-0.3.0.tar.gz tmp/legend_pygeom_hpges-0.3.1.tar.gz --markdown 20230716/l/legend-pygeom-hpges/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-16 11:23:52] INFO root fetch - processPackages [pydwf]: Downloading https://files.pythonhosted.org/packages/6a/11/6ca4e12095cf52c2729e4560fcc38174c6f183c36a37af626d803293293f/pydwf-1.1.9.tar.gz
+[2023-07-16 11:23:52] INFO root fetch - processPackages [tbp-nightly]: Downloading https://files.pythonhosted.org/packages/2e/31/c611af28c0d42c7cbb86781523f94e57796654fd8b7a7049e8a6db2eecf3/tbp-nightly-2.9.0a20221130.tar.gz
+[2023-07-16 11:23:52] INFO root fetch - processPackages [talkytimes-package]: Remove: archive file [/home/abi/fetcher/tmp/talkytimes_package-0.2.7.tar.gz]
+[2023-07-16 11:23:52] INFO root fetch - processPackages [talkytimes-package]: Remove: archive file [/home/abi/fetcher/tmp/talkytimes_package-0.2.8.tar.gz]
+[2023-07-16 11:23:52] INFO root fetch - main [MainThread]: End processing [talkytimes-package]: success
+[2023-07-16 11:23:52] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2023-07-16 11:23:52] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2023-07-16 11:23:52] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_game_collection-2.3.8.tar.gz]
+[2023-07-16 11:23:52] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-07-16 11:23:52] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_game_collection-2.3.9.tar.gz]
+[2023-07-16 11:23:52] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-game-collection]: success
+[2023-07-16 11:23:53] INFO root fetch - processPackages [pyfrobot]: Remove: archive file [/home/abi/fetcher/tmp/pyfrobot-0.1.4.tar.gz]
+[2023-07-16 11:23:53] INFO root fetch - processPackages [pyfrobot]: Remove: archive file [/home/abi/fetcher/tmp/pyfrobot-0.1.5.tar.gz]
+[2023-07-16 11:23:53] INFO root fetch - main [MainThread]: End processing [pyfrobot]: success
+[2023-07-16 11:23:53] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-07-16 11:23:53] INFO root fetch - processPackages [lycoris-lora]: Remove: archive file [/home/abi/fetcher/tmp/lycoris_lora-1.8.0.dev8.tar.gz]
+[2023-07-16 11:23:53] INFO root fetch - processPackages [lycoris-lora]: Remove: archive file [/home/abi/fetcher/tmp/lycoris_lora-1.8.0.dev9.tar.gz]
+[2023-07-16 11:23:53] INFO root fetch - main [MainThread]: End processing [lycoris-lora]: success
+[2023-07-16 11:23:53] INFO root fetch - processPackages [qcloud-user]: Remove: archive file [/home/abi/fetcher/tmp/qcloud_user-1.0.1.tar.gz]
+[2023-07-16 11:23:53] INFO root fetch - processPackages [qcloud-user]: Remove: archive file [/home/abi/fetcher/tmp/qcloud_user-1.0.2.tar.gz]
+[2023-07-16 11:23:53] INFO root fetch - main [MainThread]: End processing [qcloud-user]: success
+[2023-07-16 11:23:53] INFO root fetch - processPackages [legend-pygeom-hpges]: Remove: archive file [/home/abi/fetcher/tmp/legend_pygeom_hpges-0.3.0.tar.gz]
+[2023-07-16 11:23:53] INFO root fetch - processPackages [legend-pygeom-hpges]: Remove: archive file [/home/abi/fetcher/tmp/legend_pygeom_hpges-0.3.1.tar.gz]
+[2023-07-16 11:23:53] INFO root fetch - main [MainThread]: End processing [legend-pygeom-hpges]: success
+[2023-07-16 11:23:53] INFO root fetch - processPackages [pydwf]: executing diffoscope
+[2023-07-16 11:23:53] INFO root fetch - processPackages [pydwf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydwf-1.1.8.tar.gz tmp/pydwf-1.1.9.tar.gz --markdown 20230716/p/pydwf/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-07-16 11:23:53] INFO root fetch - processPackages [tbp-nightly]: executing diffoscope
+[2023-07-16 11:23:53] INFO root fetch - processPackages [tbp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tbp-nightly-2.9.0a20221129.tar.gz tmp/tbp-nightly-2.9.0a20221130.tar.gz --markdown 20230716/t/tbp-nightly/2.9.0a20221129-2.9.0a20221130/diff.md --exclude *.pyd
+[2023-07-16 11:23:55] INFO root fetch - processPackages [pydwf]: Remove: archive file [/home/abi/fetcher/tmp/pydwf-1.1.8.tar.gz]
+[2023-07-16 11:23:55] INFO root fetch - processPackages [pydwf]: Remove: archive file [/home/abi/fetcher/tmp/pydwf-1.1.9.tar.gz]
+[2023-07-16 11:23:55] INFO root fetch - main [MainThread]: End processing [pydwf]: success
+[2023-07-16 11:23:55] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221129.tar.gz]
+[2023-07-16 11:23:55] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221130.tar.gz]
+[2023-07-16 11:23:55] INFO root fetch - main [MainThread]: End processing [tbp-nightly]: success
+[2023-07-16 11:23:55] INFO root fetch - main [MainThread]: Store serial: [18905956]
