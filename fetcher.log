@@ -11564,3 +11564,36 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-16 18:33:46] INFO root fetch - processPackages [pyDecision]: Remove: archive file [/home/abi/fetcher/tmp/pyDecision-3.0.2.tar.gz]
 [2023-07-16 18:33:46] INFO root fetch - main [MainThread]: End processing [pyDecision]: success
 [2023-07-16 18:33:46] INFO root fetch - main [MainThread]: Store serial: [18908113]
+[2023-07-16 18:38:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18908113]
+[2023-07-16 18:38:55] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-16 18:38:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qtgql
+[2023-07-16 18:38:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: EnergyDataModel
+[2023-07-16 18:38:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: unkey-py
+[2023-07-16 18:38:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: muspectre
+[2023-07-16 18:38:55] INFO root fetch - processPackages [muspectre]: New version: [0.26.1] Old Version: [0.26.0]
+[2023-07-16 18:38:55] WARNING root fetch - processPackages [EnergyDataModel]: Skipping, unable to determine old version
+[2023-07-16 18:38:55] INFO root fetch - processPackages [qtgql]: New version: [0.129.1] Old Version: [0.129.0]
+[2023-07-16 18:38:55] INFO root fetch - main [MainThread]: End processing [EnergyDataModel] error
+[2023-07-16 18:38:55] INFO root fetch - processPackages [unkey-py]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-07-16 18:38:55] INFO root fetch - processPackages [qtgql]: Downloading https://files.pythonhosted.org/packages/b8/0a/705bf2aea7b0285d877d1bfd191043a03225d10f15c0584e154758518a89/qtgql-0.129.0.tar.gz
+[2023-07-16 18:38:56] INFO root fetch - processPackages [muspectre]: Downloading https://files.pythonhosted.org/packages/26/6e/faf1f57459e77a5eb504ba4fac23b4663b1bca97c222747431eecad5563e/muspectre-0.26.0.tar.gz
+[2023-07-16 18:38:56] INFO root fetch - processPackages [unkey-py]: Downloading https://files.pythonhosted.org/packages/4d/d9/7ad108053d59378edc413729e1833df4d94f5f94a70163a4a8a731f2307f/unkey_py-0.2.0.tar.gz
+[2023-07-16 18:38:56] INFO root fetch - processPackages [qtgql]: Downloading https://files.pythonhosted.org/packages/cc/d1/5833459eb774714cea04e55b9715cadf4b75b56a1ec7d6d4853c01f8e70e/qtgql-0.129.1.tar.gz
+[2023-07-16 18:38:56] INFO root fetch - processPackages [qtgql]: executing diffoscope
+[2023-07-16 18:38:56] INFO root fetch - processPackages [qtgql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qtgql-0.129.0.tar.gz tmp/qtgql-0.129.1.tar.gz --markdown 20230716/q/qtgql/0.129.0-0.129.1/diff.md --exclude *.pyd
+[2023-07-16 18:38:56] INFO root fetch - processPackages [unkey-py]: Downloading https://files.pythonhosted.org/packages/23/43/d0786168a3500aef8127b386d2596c0574069ff591e2d1399bf6f1be4681/unkey_py-0.3.0.tar.gz
+[2023-07-16 18:38:56] INFO root fetch - processPackages [unkey-py]: executing diffoscope
+[2023-07-16 18:38:56] INFO root fetch - processPackages [unkey-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unkey_py-0.2.0.tar.gz tmp/unkey_py-0.3.0.tar.gz --markdown 20230716/u/unkey-py/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-07-16 18:38:57] INFO root fetch - processPackages [muspectre]: Downloading https://files.pythonhosted.org/packages/41/7b/bfafc326aa05ad3d097dc7a14436e6781d0f3635ef6bdb9a5a3fd2d62b83/muspectre-0.26.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-16 18:38:57] INFO root fetch - processPackages [qtgql]: Remove: archive file [/home/abi/fetcher/tmp/qtgql-0.129.0.tar.gz]
+[2023-07-16 18:38:57] INFO root fetch - processPackages [qtgql]: Remove: archive file [/home/abi/fetcher/tmp/qtgql-0.129.1.tar.gz]
+[2023-07-16 18:38:57] INFO root fetch - main [MainThread]: End processing [qtgql]: success
+[2023-07-16 18:38:57] INFO root fetch - processPackages [unkey-py]: Remove: archive file [/home/abi/fetcher/tmp/unkey_py-0.2.0.tar.gz]
+[2023-07-16 18:38:57] INFO root fetch - processPackages [unkey-py]: Remove: archive file [/home/abi/fetcher/tmp/unkey_py-0.3.0.tar.gz]
+[2023-07-16 18:38:57] INFO root fetch - main [MainThread]: End processing [unkey-py]: success
+[2023-07-16 18:38:58] INFO root fetch - processPackages [muspectre]: executing diffoscope
+[2023-07-16 18:38:58] INFO root fetch - processPackages [muspectre]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/muspectre-0.26.0.tar.gz tmp/muspectre-0.26.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230716/m/muspectre/0.26.0-0.26.1/diff.md --exclude *.pyd
+[2023-07-16 18:39:00] INFO root fetch - processPackages [muspectre]: Remove: archive file [/home/abi/fetcher/tmp/muspectre-0.26.0.tar.gz]
+[2023-07-16 18:39:00] INFO root fetch - processPackages [muspectre]: Remove: archive file [/home/abi/fetcher/tmp/muspectre-0.26.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-16 18:39:00] INFO root fetch - main [MainThread]: End processing [muspectre]: success
+[2023-07-16 18:39:00] INFO root fetch - main [MainThread]: Store serial: [18908126]
