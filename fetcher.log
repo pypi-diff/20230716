@@ -5254,3 +5254,69 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-16 09:50:16] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl.zip]
 [2023-07-16 09:50:16] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
 [2023-07-16 09:50:16] INFO root fetch - main [MainThread]: Store serial: [18905508]
+[2023-07-16 09:55:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18905508]
+[2023-07-16 09:55:24] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-16 09:55:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: plapperkasten
+[2023-07-16 09:55:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tf-nightly-cpu
+[2023-07-16 09:55:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spark-sdk
+[2023-07-16 09:55:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Primice
+[2023-07-16 09:55:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: adafri
+[2023-07-16 09:55:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: talkytimes-package
+[2023-07-16 09:55:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: django-url-tokenizer
+[2023-07-16 09:55:25] INFO root fetch - processPackages [django-url-tokenizer]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-16 09:55:25] INFO root fetch - processPackages [Primice]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-16 09:55:25] INFO root fetch - processPackages [adafri]: New version: [0.0.19.37] Old Version: [0.0.19.36]
+[2023-07-16 09:55:25] INFO root fetch - processPackages [spark-sdk]: New version: [0.4.9] Old Version: [0.4.23rc1]
+[2023-07-16 09:55:25] INFO root fetch - processPackages [talkytimes-package]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-07-16 09:55:25] INFO root fetch - processPackages [plapperkasten]: New version: [0.5.3] Old Version: [0.5.2]
+[2023-07-16 09:55:25] INFO root fetch - processPackages [tf-nightly-cpu]: New version: [2.14.0.dev20230716] Old Version: [2.14.0.dev20230715]
+[2023-07-16 09:55:25] INFO root fetch - processPackages [django-url-tokenizer]: Downloading https://files.pythonhosted.org/packages/58/fc/c297e12ea86d40bc35c3034412e468c38bef18667e6adfe0b24802b0e417/django-url-tokenizer-0.0.8.tar.gz
+[2023-07-16 09:55:25] INFO root fetch - processPackages [adafri]: Downloading https://files.pythonhosted.org/packages/ff/8c/00c64e2820220b3348a62c2c422666d2ea0fcfce035b8ffa1c9aae6cc512/adafri-0.0.19.36.tar.gz
+[2023-07-16 09:55:25] INFO root fetch - processPackages [Primice]: Downloading https://files.pythonhosted.org/packages/07/0a/6f7b5d9e8a18d84a04091e3740ef03a0014cab086693842b28bae16f72d8/Primice-0.0.1.tar.gz
+[2023-07-16 09:55:25] INFO root fetch - processPackages [spark-sdk]: Downloading https://files.pythonhosted.org/packages/1e/aa/2c4d46949dfe6a7b88ffd8531a133318d9ad18abed660fb1eeccec1bf4eb/spark_sdk-0.4.23rc1-py3-none-any.whl
+[2023-07-16 09:55:25] INFO root fetch - processPackages [talkytimes-package]: Downloading https://files.pythonhosted.org/packages/4c/f9/f3a89a97ba3faa13abbd15e27a2e2768880b0ab796c89f34ba09ee138472/talkytimes_package-0.1.7.tar.gz
+[2023-07-16 09:55:25] INFO root fetch - processPackages [plapperkasten]: Downloading https://files.pythonhosted.org/packages/10/e5/d30e8583d924333f9d059cd7a05b1adc05252a5b2e6b3fa5a8811143e8cc/plapperkasten-0.5.2.tar.gz
+[2023-07-16 09:55:25] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/29/e3/5a5fbfa2e283c57243c813f7149e92289363d9b0cf0eca9ed8ac777d6eb1/tf_nightly_cpu-2.14.0.dev20230715-cp39-cp39-win_amd64.whl
+[2023-07-16 09:55:25] INFO root fetch - processPackages [django-url-tokenizer]: Downloading https://files.pythonhosted.org/packages/c5/13/df27d1141ec44b1c35f247440fc5cb506efe40a15cbed84328a82cab2d67/django-url-tokenizer-0.0.9.tar.gz
+[2023-07-16 09:55:25] INFO root fetch - processPackages [adafri]: Downloading https://files.pythonhosted.org/packages/67/30/678a0badaf62e07e2cca59654f8dfe1b54c51c7a510c1e27f1b1ce9f0257/adafri-0.0.19.37.tar.gz
+[2023-07-16 09:55:25] INFO root fetch - processPackages [django-url-tokenizer]: executing diffoscope
+[2023-07-16 09:55:25] INFO root fetch - processPackages [django-url-tokenizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-url-tokenizer-0.0.8.tar.gz tmp/django-url-tokenizer-0.0.9.tar.gz --markdown 20230716/d/django-url-tokenizer/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-16 09:55:25] INFO root fetch - processPackages [Primice]: Downloading https://files.pythonhosted.org/packages/88/10/154001cecceef8b7d414ffe48d75374ad5baabcedf9f9e2490b2412f18f2/Primice-0.0.2.tar.gz
+[2023-07-16 09:55:25] INFO root fetch - processPackages [spark-sdk]: Downloading https://files.pythonhosted.org/packages/78/ef/a94fc9e735951687c8ae5c09971b47a197f864afe848bd3c4ada1591b88a/spark_sdk-0.4.9-py3-none-any.whl
+[2023-07-16 09:55:25] INFO root fetch - processPackages [adafri]: executing diffoscope
+[2023-07-16 09:55:25] INFO root fetch - processPackages [adafri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafri-0.0.19.36.tar.gz tmp/adafri-0.0.19.37.tar.gz --markdown 20230716/a/adafri/0.0.19.36-0.0.19.37/diff.md --exclude *.pyd
+[2023-07-16 09:55:25] INFO root fetch - processPackages [talkytimes-package]: Downloading https://files.pythonhosted.org/packages/a3/61/09b6802d908d34e06aff4f9e4a38158b459be5ae1dc4062bdbf69274a964/talkytimes_package-0.1.8.tar.gz
+[2023-07-16 09:55:25] INFO root fetch - processPackages [spark-sdk]: executing diffoscope
+[2023-07-16 09:55:25] INFO root fetch - processPackages [spark-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spark_sdk-0.4.23rc1-py3-none-any.whl.zip tmp/spark_sdk-0.4.9-py3-none-any.whl.zip --markdown 20230716/s/spark-sdk/0.4.23rc1-0.4.9/diff.md --exclude *.pyd
+[2023-07-16 09:55:26] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/a5/9f/4598428599b1164d9699a618b5e16ad0cac92b3066c60debca63db41612f/tf_nightly_cpu-2.14.0.dev20230716-cp39-cp39-win_amd64.whl
+[2023-07-16 09:55:26] INFO root fetch - processPackages [Primice]: executing diffoscope
+[2023-07-16 09:55:26] INFO root fetch - processPackages [Primice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Primice-0.0.1.tar.gz tmp/Primice-0.0.2.tar.gz --markdown 20230716/P/Primice/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-16 09:55:26] INFO root fetch - processPackages [talkytimes-package]: executing diffoscope
+[2023-07-16 09:55:26] INFO root fetch - processPackages [talkytimes-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/talkytimes_package-0.1.7.tar.gz tmp/talkytimes_package-0.1.8.tar.gz --markdown 20230716/t/talkytimes-package/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-07-16 09:55:26] INFO root fetch - processPackages [tf-nightly-cpu]: executing diffoscope
+[2023-07-16 09:55:26] INFO root fetch - processPackages [tf-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly_cpu-2.14.0.dev20230715-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly_cpu-2.14.0.dev20230716-cp39-cp39-win_amd64.whl.zip --markdown 20230716/t/tf-nightly-cpu/2.14.0.dev20230715-2.14.0.dev20230716/diff.md --exclude *.pyd
+[2023-07-16 09:55:26] INFO root fetch - processPackages [plapperkasten]: Downloading https://files.pythonhosted.org/packages/80/0f/94494d8def8ed21d838b0d3f1eb67375c0194560b661179ed711a8abeb79/plapperkasten-0.5.3.tar.gz
+[2023-07-16 09:55:26] INFO root fetch - processPackages [django-url-tokenizer]: Remove: archive file [/home/abi/fetcher/tmp/django-url-tokenizer-0.0.8.tar.gz]
+[2023-07-16 09:55:26] INFO root fetch - processPackages [django-url-tokenizer]: Remove: archive file [/home/abi/fetcher/tmp/django-url-tokenizer-0.0.9.tar.gz]
+[2023-07-16 09:55:26] INFO root fetch - main [MainThread]: End processing [django-url-tokenizer]: success
+[2023-07-16 09:55:27] INFO root fetch - processPackages [adafri]: Remove: archive file [/home/abi/fetcher/tmp/adafri-0.0.19.36.tar.gz]
+[2023-07-16 09:55:27] INFO root fetch - processPackages [adafri]: Remove: archive file [/home/abi/fetcher/tmp/adafri-0.0.19.37.tar.gz]
+[2023-07-16 09:55:27] INFO root fetch - main [MainThread]: End processing [adafri]: success
+[2023-07-16 09:55:27] INFO root fetch - processPackages [spark-sdk]: Remove: archive file [/home/abi/fetcher/tmp/spark_sdk-0.4.23rc1-py3-none-any.whl.zip]
+[2023-07-16 09:55:27] INFO root fetch - processPackages [spark-sdk]: Remove: archive file [/home/abi/fetcher/tmp/spark_sdk-0.4.9-py3-none-any.whl.zip]
+[2023-07-16 09:55:27] INFO root fetch - main [MainThread]: End processing [spark-sdk]: success
+[2023-07-16 09:55:27] INFO root fetch - processPackages [Primice]: Remove: archive file [/home/abi/fetcher/tmp/Primice-0.0.1.tar.gz]
+[2023-07-16 09:55:27] INFO root fetch - processPackages [Primice]: Remove: archive file [/home/abi/fetcher/tmp/Primice-0.0.2.tar.gz]
+[2023-07-16 09:55:27] INFO root fetch - main [MainThread]: End processing [Primice]: success
+[2023-07-16 09:55:27] INFO root fetch - processPackages [talkytimes-package]: Remove: archive file [/home/abi/fetcher/tmp/talkytimes_package-0.1.7.tar.gz]
+[2023-07-16 09:55:27] INFO root fetch - processPackages [talkytimes-package]: Remove: archive file [/home/abi/fetcher/tmp/talkytimes_package-0.1.8.tar.gz]
+[2023-07-16 09:55:27] INFO root fetch - main [MainThread]: End processing [talkytimes-package]: success
+[2023-07-16 09:55:27] INFO root fetch - processPackages [plapperkasten]: executing diffoscope
+[2023-07-16 09:55:27] INFO root fetch - processPackages [plapperkasten]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plapperkasten-0.5.2.tar.gz tmp/plapperkasten-0.5.3.tar.gz --markdown 20230716/p/plapperkasten/0.5.2-0.5.3/diff.md --exclude *.pyd
+[2023-07-16 09:55:27] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.14.0.dev20230715-cp39-cp39-win_amd64.whl.zip]
+[2023-07-16 09:55:27] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.14.0.dev20230716-cp39-cp39-win_amd64.whl.zip]
+[2023-07-16 09:55:27] INFO root fetch - main [MainThread]: End processing [tf-nightly-cpu]: success
+[2023-07-16 09:55:28] INFO root fetch - processPackages [plapperkasten]: Remove: archive file [/home/abi/fetcher/tmp/plapperkasten-0.5.2.tar.gz]
+[2023-07-16 09:55:28] INFO root fetch - processPackages [plapperkasten]: Remove: archive file [/home/abi/fetcher/tmp/plapperkasten-0.5.3.tar.gz]
+[2023-07-16 09:55:28] INFO root fetch - main [MainThread]: End processing [plapperkasten]: success
+[2023-07-16 09:55:28] INFO root fetch - main [MainThread]: Store serial: [18905527]
