@@ -12599,3 +12599,45 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-16 20:18:21] INFO root fetch - processPackages [approvaltests-minimal]: Remove: archive file [/home/abi/fetcher/tmp/approvaltests-minimal-8.4.0.tar.gz]
 [2023-07-16 20:18:21] INFO root fetch - main [MainThread]: End processing [approvaltests-minimal]: success
 [2023-07-16 20:18:21] INFO root fetch - main [MainThread]: Store serial: [18908593]
+[2023-07-16 20:23:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18908593]
+[2023-07-16 20:23:30] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-16 20:23:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ovos-audio-plugin-spotify
+[2023-07-16 20:23:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mercury-sync
+[2023-07-16 20:23:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: asteval
+[2023-07-16 20:23:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: curlgoogle
+[2023-07-16 20:23:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ez-a-sync
+[2023-07-16 20:23:30] INFO root fetch - processPackages [mercury-sync]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-07-16 20:23:30] INFO root fetch - processPackages [ez-a-sync]: New version: [0.6.2.dev3] Old Version: [0.6.2.dev2]
+[2023-07-16 20:23:30] INFO root fetch - processPackages [ovos-audio-plugin-spotify]: New version: [0.0.0a3] Old Version: [0.0.0a2]
+[2023-07-16 20:23:30] WARNING root fetch - processPackages [curlgoogle]: Skipping, unable to determine old version
+[2023-07-16 20:23:30] INFO root fetch - main [MainThread]: End processing [curlgoogle] error
+[2023-07-16 20:23:30] INFO root fetch - processPackages [asteval]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-16 20:23:30] INFO root fetch - processPackages [ez-a-sync]: Downloading https://files.pythonhosted.org/packages/2d/9b/55723f6309e51f68dbcffccc8e89108f73533b251d59059c80bc80723104/ez-a-sync-0.6.2.dev2.tar.gz
+[2023-07-16 20:23:30] INFO root fetch - processPackages [mercury-sync]: Downloading https://files.pythonhosted.org/packages/2e/38/eb57b7bfb83214529c6c206b751deea615ec61ed1ae0fdd497b3709b67bb/mercury-sync-0.4.0.tar.gz
+[2023-07-16 20:23:30] INFO root fetch - processPackages [ovos-audio-plugin-spotify]: Downloading https://files.pythonhosted.org/packages/ca/c2/83eb0d4effb61647f057c3ebba172c753e7f4e0188bc23ea5d4fee8018da/ovos_audio_plugin_spotify-0.0.0a2-py3-none-any.whl
+[2023-07-16 20:23:30] INFO root fetch - processPackages [asteval]: Downloading https://files.pythonhosted.org/packages/7b/3f/fcc67318fc2ebc0b68804610abf78d3c71629d873a81c696778191a4471f/asteval-0.9.8.tar.gz
+[2023-07-16 20:23:30] INFO root fetch - processPackages [ez-a-sync]: Downloading https://files.pythonhosted.org/packages/9c/4a/1b82385337468eceb4d71e09a94c7b89b28109079e8bb426be92ac3c2cb9/ez-a-sync-0.6.2.dev3.tar.gz
+[2023-07-16 20:23:31] INFO root fetch - processPackages [ovos-audio-plugin-spotify]: Downloading https://files.pythonhosted.org/packages/5f/51/1c4d5fe79d3434e07150b0bdc556c9cef1b955664ac74cbb30f3556a0ca9/ovos_audio_plugin_spotify-0.0.0a3-py3-none-any.whl
+[2023-07-16 20:23:31] INFO root fetch - processPackages [ez-a-sync]: executing diffoscope
+[2023-07-16 20:23:31] INFO root fetch - processPackages [ez-a-sync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ez-a-sync-0.6.2.dev2.tar.gz tmp/ez-a-sync-0.6.2.dev3.tar.gz --markdown 20230716/e/ez-a-sync/0.6.2.dev2-0.6.2.dev3/diff.md --exclude *.pyd
+[2023-07-16 20:23:31] INFO root fetch - processPackages [mercury-sync]: Downloading https://files.pythonhosted.org/packages/0e/e2/f297e76d821d4833cc793ae178a0ab338b304ea37e0350d9a4fba3a981d1/mercury-sync-0.4.1.tar.gz
+[2023-07-16 20:23:31] INFO root fetch - processPackages [asteval]: Downloading https://files.pythonhosted.org/packages/b4/64/58d1ef4d95c1ebe57d21f897a82b74b2670083b993701c8c0a047762ab4a/asteval-0.9.9.tar.gz
+[2023-07-16 20:23:31] INFO root fetch - processPackages [ovos-audio-plugin-spotify]: executing diffoscope
+[2023-07-16 20:23:31] INFO root fetch - processPackages [ovos-audio-plugin-spotify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos_audio_plugin_spotify-0.0.0a2-py3-none-any.whl.zip tmp/ovos_audio_plugin_spotify-0.0.0a3-py3-none-any.whl.zip --markdown 20230716/o/ovos-audio-plugin-spotify/0.0.0a2-0.0.0a3/diff.md --exclude *.pyd
+[2023-07-16 20:23:31] INFO root fetch - processPackages [mercury-sync]: executing diffoscope
+[2023-07-16 20:23:31] INFO root fetch - processPackages [mercury-sync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mercury-sync-0.4.0.tar.gz tmp/mercury-sync-0.4.1.tar.gz --markdown 20230716/m/mercury-sync/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-07-16 20:23:31] INFO root fetch - processPackages [asteval]: executing diffoscope
+[2023-07-16 20:23:31] INFO root fetch - processPackages [asteval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asteval-0.9.8.tar.gz tmp/asteval-0.9.9.tar.gz --markdown 20230716/a/asteval/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-16 20:23:32] INFO root fetch - processPackages [ez-a-sync]: Remove: archive file [/home/abi/fetcher/tmp/ez-a-sync-0.6.2.dev2.tar.gz]
+[2023-07-16 20:23:32] INFO root fetch - processPackages [ez-a-sync]: Remove: archive file [/home/abi/fetcher/tmp/ez-a-sync-0.6.2.dev3.tar.gz]
+[2023-07-16 20:23:32] INFO root fetch - processPackages [ovos-audio-plugin-spotify]: Remove: archive file [/home/abi/fetcher/tmp/ovos_audio_plugin_spotify-0.0.0a2-py3-none-any.whl.zip]
+[2023-07-16 20:23:32] INFO root fetch - main [MainThread]: End processing [ez-a-sync]: success
+[2023-07-16 20:23:32] INFO root fetch - processPackages [ovos-audio-plugin-spotify]: Remove: archive file [/home/abi/fetcher/tmp/ovos_audio_plugin_spotify-0.0.0a3-py3-none-any.whl.zip]
+[2023-07-16 20:23:32] INFO root fetch - main [MainThread]: End processing [ovos-audio-plugin-spotify]: success
+[2023-07-16 20:23:32] INFO root fetch - processPackages [asteval]: Remove: archive file [/home/abi/fetcher/tmp/asteval-0.9.8.tar.gz]
+[2023-07-16 20:23:32] INFO root fetch - processPackages [asteval]: Remove: archive file [/home/abi/fetcher/tmp/asteval-0.9.9.tar.gz]
+[2023-07-16 20:23:32] INFO root fetch - main [MainThread]: End processing [asteval]: success
+[2023-07-16 20:23:32] INFO root fetch - processPackages [mercury-sync]: Remove: archive file [/home/abi/fetcher/tmp/mercury-sync-0.4.0.tar.gz]
+[2023-07-16 20:23:32] INFO root fetch - processPackages [mercury-sync]: Remove: archive file [/home/abi/fetcher/tmp/mercury-sync-0.4.1.tar.gz]
+[2023-07-16 20:23:32] INFO root fetch - main [MainThread]: End processing [mercury-sync]: success
+[2023-07-16 20:23:32] INFO root fetch - main [MainThread]: Store serial: [18908607]
