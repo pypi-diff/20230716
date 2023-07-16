@@ -10497,3 +10497,72 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-16 17:10:09] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202307161508-py3-none-any.whl.zip]
 [2023-07-16 17:10:09] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2023-07-16 17:10:09] INFO root fetch - main [MainThread]: Store serial: [18907697]
+[2023-07-16 17:15:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18907697]
+[2023-07-16 17:15:18] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-16 17:15:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: alibabacloud-rds20140815
+[2023-07-16 17:15:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cacheline
+[2023-07-16 17:15:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kaiju-auth
+[2023-07-16 17:15:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyatmos
+[2023-07-16 17:15:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kfish
+[2023-07-16 17:15:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nonebot-plugin-bilichat
+[2023-07-16 17:15:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kaiju-tasks
+[2023-07-16 17:15:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: py-astrolab
+[2023-07-16 17:15:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: urllib3-future
+[2023-07-16 17:15:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: liteindex
+[2023-07-16 17:15:18] WARNING root fetch - processPackages [cacheline]: Skipping, unable to determine old version
+[2023-07-16 17:15:18] INFO root fetch - main [MainThread]: End processing [cacheline] error
+[2023-07-16 17:15:18] INFO root fetch - processPackages [kfish]: New version: [99.0.202307161511] Old Version: [99.0.202307161038]
+[2023-07-16 17:15:18] INFO root fetch - processPackages [nonebot-plugin-bilichat]: New version: [2.9.1] Old Version: [2.9.0]
+[2023-07-16 17:15:19] INFO root fetch - processPackages [pyatmos]: New version: [1.2.5] Old Version: [1.2.4]
+[2023-07-16 17:15:19] INFO root fetch - processPackages [liteindex]: New version: [0.0.1.dev9] Old Version: [0.0.1.dev8]
+[2023-07-16 17:15:19] INFO root fetch - processPackages [alibabacloud-rds20140815]: New version: [2.2.9] Old Version: [2.2.8]
+[2023-07-16 17:15:19] WARNING root fetch - processPackages [urllib3-future]: Skipping, unable to determine old version
+[2023-07-16 17:15:19] INFO root fetch - main [MainThread]: End processing [urllib3-future] error
+[2023-07-16 17:15:19] INFO root fetch - processPackages [py-astrolab]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-07-16 17:15:19] WARNING root fetch - processPackages [kaiju-tasks]: Skipping, unable to determine old version
+[2023-07-16 17:15:19] INFO root fetch - main [MainThread]: End processing [kaiju-tasks] error
+[2023-07-16 17:15:19] WARNING root fetch - processPackages [kaiju-auth]: Skipping, unable to determine old version
+[2023-07-16 17:15:19] INFO root fetch - main [MainThread]: End processing [kaiju-auth] error
+[2023-07-16 17:15:19] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/30/c2/c7c1028ef55068028bb597f8c6fef3139ed0598cc7d6cd9c16d0ed30dbf2/kfish-99.0.202307161038-py3-none-any.whl
+[2023-07-16 17:15:19] INFO root fetch - processPackages [nonebot-plugin-bilichat]: Downloading https://files.pythonhosted.org/packages/47/8e/394ab4c66a3c5fb9c446076756afcb14c47bbd6395f25d80e21efad816da/nonebot_plugin_bilichat-2.9.0.tar.gz
+[2023-07-16 17:15:19] INFO root fetch - processPackages [liteindex]: Downloading https://files.pythonhosted.org/packages/64/86/78ca28331191a408e87ecb1d6fd24f53ae97027824ac7d02565608d0804f/liteindex-0.0.1.dev8.tar.gz
+[2023-07-16 17:15:19] INFO root fetch - processPackages [py-astrolab]: Downloading https://files.pythonhosted.org/packages/9c/cc/25305b15ca22c0d26e4413323b580933899d31d5e0862410c62e2c9f72a6/py_astrolab-0.2.4.tar.gz
+[2023-07-16 17:15:19] INFO root fetch - processPackages [alibabacloud-rds20140815]: Downloading https://files.pythonhosted.org/packages/5f/38/f84538e433bf80888d80fff1ecb5949fa755b46ec10e96b1238c937fc80f/alibabacloud_rds20140815-2.2.8.tar.gz
+[2023-07-16 17:15:19] INFO root fetch - processPackages [pyatmos]: Downloading https://files.pythonhosted.org/packages/ee/92/9be3b8dea1330a8a4a6b90646e2f6302b832fdfe6bac3d5f693563cea950/pyatmos-1.2.4-py3-none-any.whl
+[2023-07-16 17:15:19] INFO root fetch - processPackages [nonebot-plugin-bilichat]: Downloading https://files.pythonhosted.org/packages/b4/3c/8f5b12dd594cc0001f59a7b4bce5d99d5d145553c4cd12eaef65109a5d78/nonebot_plugin_bilichat-2.9.1.tar.gz
+[2023-07-16 17:15:19] INFO root fetch - processPackages [liteindex]: Downloading https://files.pythonhosted.org/packages/07/8a/18d41da9e5fe3b5fd11a4870a48b06c79c2910eb02a8b9223d79e921b246/liteindex-0.0.1.dev9.tar.gz
+[2023-07-16 17:15:19] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/82/a9/bd70c948b2bf7a48b57c54af30c414b0edb3e72593457b51cb55d5340d99/kfish-99.0.202307161511-py3-none-any.whl
+[2023-07-16 17:15:19] INFO root fetch - processPackages [py-astrolab]: Downloading https://files.pythonhosted.org/packages/ce/d8/89a32a88dbd8b4b2f1035c47a839f1014f91a9fd3795e2e2d54374c95c80/py_astrolab-0.2.5.tar.gz
+[2023-07-16 17:15:19] INFO root fetch - processPackages [alibabacloud-rds20140815]: Downloading https://files.pythonhosted.org/packages/8e/38/2ed843ab2f4bae57c984e9c496af84eaedd402b05d3492d4c9d1a253f508/alibabacloud_rds20140815-2.2.9.tar.gz
+[2023-07-16 17:15:19] INFO root fetch - processPackages [liteindex]: executing diffoscope
+[2023-07-16 17:15:19] INFO root fetch - processPackages [liteindex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liteindex-0.0.1.dev8.tar.gz tmp/liteindex-0.0.1.dev9.tar.gz --markdown 20230716/l/liteindex/0.0.1.dev8-0.0.1.dev9/diff.md --exclude *.pyd
+[2023-07-16 17:15:19] INFO root fetch - processPackages [nonebot-plugin-bilichat]: executing diffoscope
+[2023-07-16 17:15:19] INFO root fetch - processPackages [nonebot-plugin-bilichat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_bilichat-2.9.0.tar.gz tmp/nonebot_plugin_bilichat-2.9.1.tar.gz --markdown 20230716/n/nonebot-plugin-bilichat/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2023-07-16 17:15:19] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-07-16 17:15:19] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202307161038-py3-none-any.whl.zip tmp/kfish-99.0.202307161511-py3-none-any.whl.zip --markdown 20230716/k/kfish/99.0.202307161038-99.0.202307161511/diff.md --exclude *.pyd
+[2023-07-16 17:15:19] INFO root fetch - processPackages [alibabacloud-rds20140815]: executing diffoscope
+[2023-07-16 17:15:19] INFO root fetch - processPackages [alibabacloud-rds20140815]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_rds20140815-2.2.8.tar.gz tmp/alibabacloud_rds20140815-2.2.9.tar.gz --markdown 20230716/a/alibabacloud-rds20140815/2.2.8-2.2.9/diff.md --exclude *.pyd
+[2023-07-16 17:15:19] INFO root fetch - processPackages [pyatmos]: Downloading https://files.pythonhosted.org/packages/aa/3d/ba6d6385904f70327fb830e8351e54a1f9262d217f11d033c08c675b3154/pyatmos-1.2.5-py3-none-any.whl
+[2023-07-16 17:15:19] INFO root fetch - processPackages [py-astrolab]: executing diffoscope
+[2023-07-16 17:15:19] INFO root fetch - processPackages [py-astrolab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_astrolab-0.2.4.tar.gz tmp/py_astrolab-0.2.5.tar.gz --markdown 20230716/p/py-astrolab/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-07-16 17:15:20] INFO root fetch - processPackages [pyatmos]: executing diffoscope
+[2023-07-16 17:15:20] INFO root fetch - processPackages [pyatmos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyatmos-1.2.4-py3-none-any.whl.zip tmp/pyatmos-1.2.5-py3-none-any.whl.zip --markdown 20230716/p/pyatmos/1.2.4-1.2.5/diff.md --exclude *.pyd
+[2023-07-16 17:15:20] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202307161038-py3-none-any.whl.zip]
+[2023-07-16 17:15:20] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202307161511-py3-none-any.whl.zip]
+[2023-07-16 17:15:20] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-07-16 17:15:20] INFO root fetch - processPackages [liteindex]: Remove: archive file [/home/abi/fetcher/tmp/liteindex-0.0.1.dev8.tar.gz]
+[2023-07-16 17:15:20] INFO root fetch - processPackages [liteindex]: Remove: archive file [/home/abi/fetcher/tmp/liteindex-0.0.1.dev9.tar.gz]
+[2023-07-16 17:15:20] INFO root fetch - main [MainThread]: End processing [liteindex]: success
+[2023-07-16 17:15:21] INFO root fetch - processPackages [py-astrolab]: Remove: archive file [/home/abi/fetcher/tmp/py_astrolab-0.2.4.tar.gz]
+[2023-07-16 17:15:21] INFO root fetch - processPackages [py-astrolab]: Remove: archive file [/home/abi/fetcher/tmp/py_astrolab-0.2.5.tar.gz]
+[2023-07-16 17:15:21] INFO root fetch - main [MainThread]: End processing [py-astrolab]: success
+[2023-07-16 17:15:21] INFO root fetch - processPackages [nonebot-plugin-bilichat]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_bilichat-2.9.0.tar.gz]
+[2023-07-16 17:15:21] INFO root fetch - processPackages [nonebot-plugin-bilichat]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_bilichat-2.9.1.tar.gz]
+[2023-07-16 17:15:21] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-bilichat]: success
+[2023-07-16 17:15:21] INFO root fetch - processPackages [alibabacloud-rds20140815]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_rds20140815-2.2.8.tar.gz]
+[2023-07-16 17:15:21] INFO root fetch - processPackages [alibabacloud-rds20140815]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_rds20140815-2.2.9.tar.gz]
+[2023-07-16 17:15:21] INFO root fetch - main [MainThread]: End processing [alibabacloud-rds20140815]: success
+[2023-07-16 17:15:21] INFO root fetch - processPackages [pyatmos]: Remove: archive file [/home/abi/fetcher/tmp/pyatmos-1.2.4-py3-none-any.whl.zip]
+[2023-07-16 17:15:21] INFO root fetch - processPackages [pyatmos]: Remove: archive file [/home/abi/fetcher/tmp/pyatmos-1.2.5-py3-none-any.whl.zip]
+[2023-07-16 17:15:21] INFO root fetch - main [MainThread]: End processing [pyatmos]: success
+[2023-07-16 17:15:21] INFO root fetch - main [MainThread]: Store serial: [18907727]
