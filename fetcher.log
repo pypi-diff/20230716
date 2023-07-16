@@ -13321,3 +13321,51 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-16 21:20:47] INFO root fetch - processPackages [aws-spy]: Remove: archive file [/home/abi/fetcher/tmp/aws_spy-0.2.9.tar.gz]
 [2023-07-16 21:20:47] INFO root fetch - main [MainThread]: End processing [aws-spy]: success
 [2023-07-16 21:20:47] INFO root fetch - main [MainThread]: Store serial: [18908881]
+[2023-07-16 21:25:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18908881]
+[2023-07-16 21:25:56] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-16 21:25:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: DoWell-Secure-Github-Repository
+[2023-07-16 21:25:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: q2gui
+[2023-07-16 21:25:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ghastoolkit
+[2023-07-16 21:25:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aiomql
+[2023-07-16 21:25:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: q2rad
+[2023-07-16 21:25:56] INFO root fetch - processPackages [DoWell-Secure-Github-Repository]: New version: [1.0.0] Old Version: [0.6.0]
+[2023-07-16 21:25:56] INFO root fetch - processPackages [aiomql]: New version: [2.1] Old Version: [2.0]
+[2023-07-16 21:25:56] INFO root fetch - processPackages [ghastoolkit]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-07-16 21:25:56] INFO root fetch - processPackages [q2gui]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-16 21:25:56] INFO root fetch - processPackages [DoWell-Secure-Github-Repository]: Downloading https://files.pythonhosted.org/packages/5c/59/fcbd2ea687701e70b63e0fd1e593b2c35277e7e88e3a4089823cf2a61568/Dowell%20secure%20github%20repository-0.6.0.tar.gz
+[2023-07-16 21:25:56] INFO root fetch - processPackages [q2rad]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-16 21:25:56] INFO root fetch - processPackages [ghastoolkit]: Downloading https://files.pythonhosted.org/packages/30/f9/1beb70ac15fa410cfa8a573c2b4253b6dd08245b99c0a944f4fc434c79e0/ghastoolkit-0.5.0.tar.gz
+[2023-07-16 21:25:56] INFO root fetch - processPackages [aiomql]: Downloading https://files.pythonhosted.org/packages/94/96/aa213d2c403adee0e35a8a39958d5b867ba1eba66bba49156b04c8f5300a/aiomql-2.0.tar.gz
+[2023-07-16 21:25:56] INFO root fetch - processPackages [q2gui]: Downloading https://files.pythonhosted.org/packages/97/15/9a5e27167a28b919a9cddce6abb2321351e6113cdec2d4d638ba8252564d/q2gui-0.1.98.tar.gz
+[2023-07-16 21:25:57] INFO root fetch - processPackages [q2rad]: Downloading https://files.pythonhosted.org/packages/80/49/6ec4d4467c701099cbfa21472d6b7c426277eeae8e82db973157f4077dd1/q2rad-0.1.98.tar.gz
+[2023-07-16 21:25:57] INFO root fetch - processPackages [DoWell-Secure-Github-Repository]: Downloading https://files.pythonhosted.org/packages/93/ce/f6b79dc20289968bf55d8be1d65975023cc86437df3355e5a1517c0d3b00/DoWell%20Secure%20Github%20Repository-1.0.0.tar.gz
+[2023-07-16 21:25:57] INFO root fetch - processPackages [ghastoolkit]: Downloading https://files.pythonhosted.org/packages/c8/ee/23f2a32bb0b6c5986e59efc1fbc71a6d8700d66600b607bde44c94305ecb/ghastoolkit-0.5.1.tar.gz
+[2023-07-16 21:25:57] INFO root fetch - processPackages [aiomql]: Downloading https://files.pythonhosted.org/packages/34/cd/128a03f88b5fdf21ad330767895f349375f76855700ff31f9261b3bcae0c/aiomql-2.1.tar.gz
+[2023-07-16 21:25:57] INFO root fetch - processPackages [DoWell-Secure-Github-Repository]: executing diffoscope
+[2023-07-16 21:25:57] INFO root fetch - processPackages [DoWell-Secure-Github-Repository]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Dowell secure github repository-0.6.0.tar.gz tmp/DoWell Secure Github Repository-1.0.0.tar.gz --markdown 20230716/D/DoWell-Secure-Github-Repository/0.6.0-1.0.0/diff.md --exclude *.pyd
+[2023-07-16 21:25:57] INFO root fetch - processPackages [ghastoolkit]: executing diffoscope
+[2023-07-16 21:25:57] INFO root fetch - processPackages [ghastoolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ghastoolkit-0.5.0.tar.gz tmp/ghastoolkit-0.5.1.tar.gz --markdown 20230716/g/ghastoolkit/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-07-16 21:25:57] INFO root fetch - processPackages [q2rad]: Downloading https://files.pythonhosted.org/packages/47/0e/9309c87c362671a5eef5895adc1cb5d29e984c27a0e09a60a83cada10f73/q2rad-0.1.99.tar.gz
+[2023-07-16 21:25:57] INFO root fetch - processPackages [q2gui]: Downloading https://files.pythonhosted.org/packages/58/3e/df0471f53d74fc7d0d5885ad90423ae0ffbcaec42bcc77a0b466ed7fef7f/q2gui-0.1.99.tar.gz
+[2023-07-16 21:25:57] INFO root fetch - processPackages [aiomql]: executing diffoscope
+[2023-07-16 21:25:57] INFO root fetch - processPackages [aiomql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiomql-2.0.tar.gz tmp/aiomql-2.1.tar.gz --markdown 20230716/a/aiomql/2.0-2.1/diff.md --exclude *.pyd
+[2023-07-16 21:25:57] INFO root fetch - processPackages [q2rad]: executing diffoscope
+[2023-07-16 21:25:57] INFO root fetch - processPackages [q2rad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/q2rad-0.1.98.tar.gz tmp/q2rad-0.1.99.tar.gz --markdown 20230716/q/q2rad/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-07-16 21:25:57] INFO root fetch - processPackages [q2gui]: executing diffoscope
+[2023-07-16 21:25:57] INFO root fetch - processPackages [q2gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/q2gui-0.1.98.tar.gz tmp/q2gui-0.1.99.tar.gz --markdown 20230716/q/q2gui/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-07-16 21:25:58] INFO root fetch - processPackages [DoWell-Secure-Github-Repository]: Remove: archive file [/home/abi/fetcher/tmp/Dowell secure github repository-0.6.0.tar.gz]
+[2023-07-16 21:25:58] INFO root fetch - processPackages [DoWell-Secure-Github-Repository]: Remove: archive file [/home/abi/fetcher/tmp/DoWell Secure Github Repository-1.0.0.tar.gz]
+[2023-07-16 21:25:58] INFO root fetch - main [MainThread]: End processing [DoWell-Secure-Github-Repository]: success
+[2023-07-16 21:25:58] INFO root fetch - processPackages [ghastoolkit]: Remove: archive file [/home/abi/fetcher/tmp/ghastoolkit-0.5.0.tar.gz]
+[2023-07-16 21:25:58] INFO root fetch - processPackages [ghastoolkit]: Remove: archive file [/home/abi/fetcher/tmp/ghastoolkit-0.5.1.tar.gz]
+[2023-07-16 21:25:58] INFO root fetch - main [MainThread]: End processing [ghastoolkit]: success
+[2023-07-16 21:25:58] INFO root fetch - processPackages [aiomql]: Remove: archive file [/home/abi/fetcher/tmp/aiomql-2.0.tar.gz]
+[2023-07-16 21:25:58] INFO root fetch - processPackages [aiomql]: Remove: archive file [/home/abi/fetcher/tmp/aiomql-2.1.tar.gz]
+[2023-07-16 21:25:58] INFO root fetch - main [MainThread]: End processing [aiomql]: success
+[2023-07-16 21:25:58] INFO root fetch - processPackages [q2rad]: Remove: archive file [/home/abi/fetcher/tmp/q2rad-0.1.98.tar.gz]
+[2023-07-16 21:25:58] INFO root fetch - processPackages [q2rad]: Remove: archive file [/home/abi/fetcher/tmp/q2rad-0.1.99.tar.gz]
+[2023-07-16 21:25:58] INFO root fetch - main [MainThread]: End processing [q2rad]: success
+[2023-07-16 21:25:58] INFO root fetch - processPackages [q2gui]: Remove: archive file [/home/abi/fetcher/tmp/q2gui-0.1.98.tar.gz]
+[2023-07-16 21:25:58] INFO root fetch - processPackages [q2gui]: Remove: archive file [/home/abi/fetcher/tmp/q2gui-0.1.99.tar.gz]
+[2023-07-16 21:25:58] INFO root fetch - main [MainThread]: End processing [q2gui]: success
+[2023-07-16 21:25:58] INFO root fetch - main [MainThread]: Store serial: [18908893]
