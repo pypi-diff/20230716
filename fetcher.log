@@ -9644,3 +9644,86 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-16 15:57:24] INFO root fetch - processPackages [vitriolic]: Remove: archive file [/home/abi/fetcher/tmp/vitriolic-3.3.1-py3-none-any.whl.zip]
 [2023-07-16 15:57:24] INFO root fetch - main [MainThread]: End processing [vitriolic]: success
 [2023-07-16 15:57:24] INFO root fetch - main [MainThread]: Store serial: [18907336]
+[2023-07-16 16:02:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18907336]
+[2023-07-16 16:02:32] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-16 16:02:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cloudlanguagetools
+[2023-07-16 16:02:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: discord-advert-framework
+[2023-07-16 16:02:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: deye-controller
+[2023-07-16 16:02:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: survlimepy
+[2023-07-16 16:02:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: universi
+[2023-07-16 16:02:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: digimat.bac0
+[2023-07-16 16:02:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: noun-decomposition
+[2023-07-16 16:02:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fastestimator-nightly
+[2023-07-16 16:02:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: doy
+[2023-07-16 16:02:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: argtoolbox
+[2023-07-16 16:02:32] INFO root fetch - processPackages [survlimepy]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-16 16:02:32] INFO root fetch - processPackages [argtoolbox]: New version: [1.1.5] Old Version: [1.1.4]
+[2023-07-16 16:02:32] INFO root fetch - processPackages [doy]: New version: [1.3] Old Version: [1.2]
+[2023-07-16 16:02:32] WARNING root fetch - processPackages [deye-controller]: Skipping, unable to determine old version
+[2023-07-16 16:02:32] INFO root fetch - main [MainThread]: End processing [deye-controller] error
+[2023-07-16 16:02:32] INFO root fetch - processPackages [cloudlanguagetools]: New version: [5.9] Old Version: [5.8]
+[2023-07-16 16:02:32] INFO root fetch - processPackages [digimat.bac0]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-16 16:02:32] INFO root fetch - processPackages [noun-decomposition]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-16 16:02:32] INFO root fetch - processPackages [universi]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-07-16 16:02:32] INFO root fetch - processPackages [discord-advert-framework]: New version: [2.9.2] Old Version: [2.9.1]
+[2023-07-16 16:02:32] INFO root fetch - processPackages [fastestimator-nightly]: New version: [1.6.0.dev202307151357] Old Version: [1.6.0.dev202306301354]
+[2023-07-16 16:02:33] INFO root fetch - processPackages [cloudlanguagetools]: Downloading https://files.pythonhosted.org/packages/c5/76/0ec9ebc260b93775cb3237d54c5e8e181c6baa5767c619145472db79b8c4/cloudlanguagetools-5.8.tar.gz
+[2023-07-16 16:02:33] INFO root fetch - processPackages [noun-decomposition]: Downloading https://files.pythonhosted.org/packages/dd/55/f81b6d29a2d6372f4f4d634577b6a7c52c61f070bf2421d1ea8e0d52bc62/noun-decomposition-0.0.6.tar.gz
+[2023-07-16 16:02:33] INFO root fetch - processPackages [universi]: Downloading https://files.pythonhosted.org/packages/2d/86/fcdc22ae91d914bfa11f560d09a620789bc8ec46550beb1b5ff2e635a6c4/universi-0.5.0.tar.gz
+[2023-07-16 16:02:33] INFO root fetch - processPackages [fastestimator-nightly]: Downloading https://files.pythonhosted.org/packages/06/18/c310f460b7366c25b7eb1d959c95730800f2bb37fc463ac99ef214957770/fastestimator-nightly-1.6.0.dev202306301354.tar.gz
+[2023-07-16 16:02:33] INFO root fetch - processPackages [argtoolbox]: Downloading https://files.pythonhosted.org/packages/d6/5a/fb29c2e8752e8a11b9b7f0ff0db15167e4f7bfa022309fb56400e6a09fa9/argtoolbox-1.1.4.tar.gz
+[2023-07-16 16:02:33] INFO root fetch - processPackages [survlimepy]: Downloading https://files.pythonhosted.org/packages/21/3f/22df935e9a2e5e2812d385fca9e8c70812616dbe6b1ea242c5d526e66cb1/survlimepy-0.0.8.tar.gz
+[2023-07-16 16:02:33] INFO root fetch - processPackages [doy]: Downloading https://files.pythonhosted.org/packages/63/1a/d8ad6dae009a928ed276aed176c0e2ae5d21793bbc6f2222371c3308130d/doy-1.2.tar.gz
+[2023-07-16 16:02:33] INFO root fetch - processPackages [digimat.bac0]: Downloading https://files.pythonhosted.org/packages/93/69/86e0838e726c0937c564256e80ef37aa475670fd71b17c0760827302f8e2/digimat.bac0-0.0.7.tar.gz
+[2023-07-16 16:02:33] INFO root fetch - processPackages [discord-advert-framework]: Downloading https://files.pythonhosted.org/packages/98/7d/a79ef1a5d73098ca755c47ecf6d683868dfc0d5b80ca41b36ee3d9915881/discord-advert-framework-2.9.1.tar.gz
+[2023-07-16 16:02:33] WARNING root fetch - processPackages [discord-advert-framework]: Skipping package: exceeds size limit 11286735>=10485760
+[2023-07-16 16:02:33] INFO root fetch - main [MainThread]: End processing [discord-advert-framework] error
+[2023-07-16 16:02:33] INFO root fetch - processPackages [fastestimator-nightly]: Downloading https://files.pythonhosted.org/packages/cb/15/7f61923deebca6df7286ce2b6a26375e6827b45df0afdf3ad01e557f8a32/fastestimator-nightly-1.6.0.dev202307151357.tar.gz
+[2023-07-16 16:02:33] INFO root fetch - processPackages [cloudlanguagetools]: Downloading https://files.pythonhosted.org/packages/f2/cf/3a13b15882efb70f23d24f1fa85ce8eb293887e711a319bc3897caafec0d/cloudlanguagetools-5.9.tar.gz
+[2023-07-16 16:02:33] INFO root fetch - processPackages [noun-decomposition]: Downloading https://files.pythonhosted.org/packages/53/7c/3a73031fb1878845a9ddca497561da856ec9c06b21e66c1b13bca5e79a60/noun-decomposition-0.0.7.tar.gz
+[2023-07-16 16:02:33] INFO root fetch - processPackages [universi]: Downloading https://files.pythonhosted.org/packages/47/51/d07039ff26de4b10beef18ff6e29eb7b24719afe3de8cb868ba6582dee7f/universi-0.6.0.tar.gz
+[2023-07-16 16:02:33] INFO root fetch - processPackages [argtoolbox]: Downloading https://files.pythonhosted.org/packages/6b/ba/39c952ab8a813558197049eecf6cce89351d9f6c166585eda1d0f1e5ed69/argtoolbox-1.1.5.tar.gz
+[2023-07-16 16:02:33] INFO root fetch - processPackages [doy]: Downloading https://files.pythonhosted.org/packages/d6/31/5b014c9d0e8cfb1220ba74cd8bf14d8de832acd82b1cdfad9f1355a10714/doy-1.3.tar.gz
+[2023-07-16 16:02:33] INFO root fetch - processPackages [cloudlanguagetools]: executing diffoscope
+[2023-07-16 16:02:33] INFO root fetch - processPackages [cloudlanguagetools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudlanguagetools-5.8.tar.gz tmp/cloudlanguagetools-5.9.tar.gz --markdown 20230716/c/cloudlanguagetools/5.8-5.9/diff.md --exclude *.pyd
+[2023-07-16 16:02:33] INFO root fetch - processPackages [digimat.bac0]: Downloading https://files.pythonhosted.org/packages/78/69/c221dd8f83b0cf18b4d8071cc4f3e464fd1a4a46aedfcc6da331732122ce/digimat.bac0-0.0.8.tar.gz
+[2023-07-16 16:02:33] INFO root fetch - processPackages [noun-decomposition]: executing diffoscope
+[2023-07-16 16:02:33] INFO root fetch - processPackages [noun-decomposition]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/noun-decomposition-0.0.6.tar.gz tmp/noun-decomposition-0.0.7.tar.gz --markdown 20230716/n/noun-decomposition/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-16 16:02:33] INFO root fetch - processPackages [fastestimator-nightly]: executing diffoscope
+[2023-07-16 16:02:33] INFO root fetch - processPackages [fastestimator-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastestimator-nightly-1.6.0.dev202306301354.tar.gz tmp/fastestimator-nightly-1.6.0.dev202307151357.tar.gz --markdown 20230716/f/fastestimator-nightly/1.6.0.dev202306301354-1.6.0.dev202307151357/diff.md --exclude *.pyd
+[2023-07-16 16:02:33] INFO root fetch - processPackages [digimat.bac0]: executing diffoscope
+[2023-07-16 16:02:33] INFO root fetch - processPackages [digimat.bac0]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digimat.bac0-0.0.7.tar.gz tmp/digimat.bac0-0.0.8.tar.gz --markdown 20230716/d/digimat.bac0/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-16 16:02:33] INFO root fetch - processPackages [universi]: executing diffoscope
+[2023-07-16 16:02:33] INFO root fetch - processPackages [universi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/universi-0.5.0.tar.gz tmp/universi-0.6.0.tar.gz --markdown 20230716/u/universi/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-07-16 16:02:33] INFO root fetch - processPackages [doy]: executing diffoscope
+[2023-07-16 16:02:33] INFO root fetch - processPackages [doy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/doy-1.2.tar.gz tmp/doy-1.3.tar.gz --markdown 20230716/d/doy/1.2-1.3/diff.md --exclude *.pyd
+[2023-07-16 16:02:33] INFO root fetch - processPackages [argtoolbox]: executing diffoscope
+[2023-07-16 16:02:33] INFO root fetch - processPackages [argtoolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/argtoolbox-1.1.4.tar.gz tmp/argtoolbox-1.1.5.tar.gz --markdown 20230716/a/argtoolbox/1.1.4-1.1.5/diff.md --exclude *.pyd
+[2023-07-16 16:02:34] INFO root fetch - processPackages [survlimepy]: Downloading https://files.pythonhosted.org/packages/2e/bd/3f6d4b39e0af5b97954cfb6672c9b16755fb0b651406928b09f10e87b03c/survlimepy-0.0.9.tar.gz
+[2023-07-16 16:02:34] INFO root fetch - processPackages [argtoolbox]: Remove: archive file [/home/abi/fetcher/tmp/argtoolbox-1.1.4.tar.gz]
+[2023-07-16 16:02:34] INFO root fetch - processPackages [argtoolbox]: Remove: archive file [/home/abi/fetcher/tmp/argtoolbox-1.1.5.tar.gz]
+[2023-07-16 16:02:34] INFO root fetch - main [MainThread]: End processing [argtoolbox]: success
+[2023-07-16 16:02:35] INFO root fetch - processPackages [noun-decomposition]: Remove: archive file [/home/abi/fetcher/tmp/noun-decomposition-0.0.6.tar.gz]
+[2023-07-16 16:02:35] INFO root fetch - processPackages [noun-decomposition]: Remove: archive file [/home/abi/fetcher/tmp/noun-decomposition-0.0.7.tar.gz]
+[2023-07-16 16:02:35] INFO root fetch - main [MainThread]: End processing [noun-decomposition]: success
+[2023-07-16 16:02:35] INFO root fetch - processPackages [cloudlanguagetools]: Remove: archive file [/home/abi/fetcher/tmp/cloudlanguagetools-5.8.tar.gz]
+[2023-07-16 16:02:35] INFO root fetch - processPackages [cloudlanguagetools]: Remove: archive file [/home/abi/fetcher/tmp/cloudlanguagetools-5.9.tar.gz]
+[2023-07-16 16:02:35] INFO root fetch - main [MainThread]: End processing [cloudlanguagetools]: success
+[2023-07-16 16:02:35] INFO root fetch - processPackages [digimat.bac0]: Remove: archive file [/home/abi/fetcher/tmp/digimat.bac0-0.0.7.tar.gz]
+[2023-07-16 16:02:35] INFO root fetch - processPackages [digimat.bac0]: Remove: archive file [/home/abi/fetcher/tmp/digimat.bac0-0.0.8.tar.gz]
+[2023-07-16 16:02:35] INFO root fetch - main [MainThread]: End processing [digimat.bac0]: success
+[2023-07-16 16:02:35] INFO root fetch - processPackages [survlimepy]: executing diffoscope
+[2023-07-16 16:02:35] INFO root fetch - processPackages [survlimepy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/survlimepy-0.0.8.tar.gz tmp/survlimepy-0.0.9.tar.gz --markdown 20230716/s/survlimepy/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-16 16:02:35] INFO root fetch - processPackages [universi]: Remove: archive file [/home/abi/fetcher/tmp/universi-0.5.0.tar.gz]
+[2023-07-16 16:02:35] INFO root fetch - processPackages [universi]: Remove: archive file [/home/abi/fetcher/tmp/universi-0.6.0.tar.gz]
+[2023-07-16 16:02:35] INFO root fetch - main [MainThread]: End processing [universi]: success
+[2023-07-16 16:02:35] INFO root fetch - processPackages [doy]: Remove: archive file [/home/abi/fetcher/tmp/doy-1.2.tar.gz]
+[2023-07-16 16:02:35] INFO root fetch - processPackages [doy]: Remove: archive file [/home/abi/fetcher/tmp/doy-1.3.tar.gz]
+[2023-07-16 16:02:35] INFO root fetch - main [MainThread]: End processing [doy]: success
+[2023-07-16 16:02:35] INFO root fetch - processPackages [survlimepy]: Remove: archive file [/home/abi/fetcher/tmp/survlimepy-0.0.8.tar.gz]
+[2023-07-16 16:02:35] INFO root fetch - processPackages [survlimepy]: Remove: archive file [/home/abi/fetcher/tmp/survlimepy-0.0.9.tar.gz]
+[2023-07-16 16:02:35] INFO root fetch - main [MainThread]: End processing [survlimepy]: success
+[2023-07-16 16:02:38] INFO root fetch - processPackages [fastestimator-nightly]: Remove: archive file [/home/abi/fetcher/tmp/fastestimator-nightly-1.6.0.dev202306301354.tar.gz]
+[2023-07-16 16:02:38] INFO root fetch - processPackages [fastestimator-nightly]: Remove: archive file [/home/abi/fetcher/tmp/fastestimator-nightly-1.6.0.dev202307151357.tar.gz]
+[2023-07-16 16:02:38] INFO root fetch - main [MainThread]: End processing [fastestimator-nightly]: success
+[2023-07-16 16:02:38] INFO root fetch - main [MainThread]: Store serial: [18907388]
