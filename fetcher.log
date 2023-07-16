@@ -14645,3 +14645,81 @@ zipfile.BadZipFile: File is not a zip file
 [2023-07-16 23:20:04] INFO root fetch - processPackages [icloudpd]: Remove: archive file [/home/abi/fetcher/tmp/icloudpd-1.9.0-py2.py3-none-any.whl.zip]
 [2023-07-16 23:20:04] INFO root fetch - main [MainThread]: End processing [icloudpd]: success
 [2023-07-16 23:20:04] INFO root fetch - main [MainThread]: Store serial: [18909495]
+[2023-07-16 23:25:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18909495]
+[2023-07-16 23:25:13] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-16 23:25:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: poonia
+[2023-07-16 23:25:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Numkdoc
+[2023-07-16 23:25:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: policyengine-us
+[2023-07-16 23:25:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: proxyframe
+[2023-07-16 23:25:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: WinJobster
+[2023-07-16 23:25:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: roblox-pyc
+[2023-07-16 23:25:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyvista-examples
+[2023-07-16 23:25:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ml-starter
+[2023-07-16 23:25:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: symlib
+[2023-07-16 23:25:13] INFO root fetch - processPackages [Numkdoc]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-07-16 23:25:13] INFO root fetch - processPackages [pyvista-examples]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-16 23:25:13] INFO root fetch - processPackages [poonia]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-16 23:25:13] INFO root fetch - processPackages [WinJobster]: New version: [2.0.0] Old Version: [1.0.0]
+[2023-07-16 23:25:13] INFO root fetch - processPackages [roblox-pyc]: New version: [1.6.6.5a0] Old Version: [1.6.6.5.4]
+[2023-07-16 23:25:13] INFO root fetch - processPackages [policyengine-us]: New version: [0.367.0] Old Version: [0.366.0]
+[2023-07-16 23:25:13] WARNING root fetch - processPackages [proxyframe]: Skipping, unable to determine old version
+[2023-07-16 23:25:13] INFO root fetch - main [MainThread]: End processing [proxyframe] error
+[2023-07-16 23:25:13] INFO root fetch - processPackages [ml-starter]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-16 23:25:13] INFO root fetch - processPackages [symlib]: New version: [1.3.8] Old Version: [1.3.7]
+[2023-07-16 23:25:13] INFO root fetch - processPackages [roblox-pyc]: Downloading https://files.pythonhosted.org/packages/44/ab/2c1167a2d328570fcff41305068766f10c181301f2cd7a1f64f72287fa27/roblox-pyc-1.6.6.5.4.tar.gz
+[2023-07-16 23:25:13] INFO root fetch - processPackages [ml-starter]: Downloading https://files.pythonhosted.org/packages/f1/6e/ab5edbd173735efb035421e439282ab35dea267430a8049f476e1d08ff16/ml-starter-0.1.8.tar.gz
+[2023-07-16 23:25:13] INFO root fetch - processPackages [poonia]: Downloading https://files.pythonhosted.org/packages/c0/9a/d2fa5b974fa18c1244709a14876136ce2e769b9dccea53484d9374d9c2fa/poonia-0.1.8.tar.gz
+[2023-07-16 23:25:13] INFO root fetch - processPackages [Numkdoc]: Downloading https://files.pythonhosted.org/packages/f2/b6/9e5103b885a4e04e41fc4d935b1ebf66c4326b05361367405c5ba96d8bb1/Numkdoc-0.4.1.tar.gz
+[2023-07-16 23:25:13] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/aa/be/b5c13549806de0687951cf0da094c69735fb05b9728ed99943745f1b68eb/policyengine-us-0.366.0.tar.gz
+[2023-07-16 23:25:13] INFO root fetch - processPackages [pyvista-examples]: Downloading https://files.pythonhosted.org/packages/31/e7/10b25496e6985046b6d4f95b2cc8ed357e784345d2b4b7ea5d0416474dad/pyvista-examples-0.1.2.tar.gz
+[2023-07-16 23:25:13] INFO root fetch - processPackages [WinJobster]: Downloading https://files.pythonhosted.org/packages/38/e4/036f8a7263a0f6a420bdbd169c5ca2667776b1ba70c5fb834fdca2b9a4c6/WinJobster-1.0.0.tar.gz
+[2023-07-16 23:25:13] INFO root fetch - processPackages [symlib]: Downloading https://files.pythonhosted.org/packages/e6/bd/0bd14f78f4897aff442c0e5496dfef6e1ba6c9f0c532bfb6e57b8d4963f6/symlib-1.3.7.tar.gz
+[2023-07-16 23:25:13] INFO root fetch - processPackages [roblox-pyc]: Downloading https://files.pythonhosted.org/packages/59/75/7884ffaab86bf051065880fd8aefdfc8e3f2c34e7c9d4a8d352321ec57f8/roblox-pyc-1.6.6.5a0.tar.gz
+[2023-07-16 23:25:13] INFO root fetch - processPackages [ml-starter]: Downloading https://files.pythonhosted.org/packages/44/9f/ffb6ae287f30a52a4bcc5aae269e948d3ffcd9bd7ab6aafda6ce73f567c8/ml-starter-0.1.9.tar.gz
+[2023-07-16 23:25:13] INFO root fetch - processPackages [roblox-pyc]: executing diffoscope
+[2023-07-16 23:25:13] INFO root fetch - processPackages [roblox-pyc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roblox-pyc-1.6.6.5.4.tar.gz tmp/roblox-pyc-1.6.6.5a0.tar.gz --markdown 20230716/r/roblox-pyc/1.6.6.5.4-1.6.6.5a0/diff.md --exclude *.pyd
+[2023-07-16 23:25:14] INFO root fetch - processPackages [ml-starter]: executing diffoscope
+[2023-07-16 23:25:14] INFO root fetch - processPackages [ml-starter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml-starter-0.1.8.tar.gz tmp/ml-starter-0.1.9.tar.gz --markdown 20230716/m/ml-starter/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-16 23:25:14] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/8d/4c/7628c4c040159f40495dc00cd1e86acf6c45f241bc165f4d0701f721a18d/policyengine-us-0.367.0.tar.gz
+[2023-07-16 23:25:14] INFO root fetch - processPackages [Numkdoc]: Downloading https://files.pythonhosted.org/packages/ff/9c/2091d0067b02685f2cfb27499c8ad11e019da4f76c1155c5c915ee697742/Numkdoc-0.4.2.tar.gz
+[2023-07-16 23:25:14] INFO root fetch - processPackages [pyvista-examples]: Downloading https://files.pythonhosted.org/packages/82/0d/3b23f9e5b137717467b6a49a0a6805042deaf20f2976784da411664b7b4a/pyvista-examples-0.1.3.tar.gz
+[2023-07-16 23:25:14] INFO root fetch - processPackages [WinJobster]: Downloading https://files.pythonhosted.org/packages/87/9b/98e8d5a99abac7a1750e646d39e4c55f17cf6cbe3a68ff8ad5e4abd65229/WinJobster-2.0.0.tar.gz
+[2023-07-16 23:25:14] INFO root fetch - processPackages [Numkdoc]: executing diffoscope
+[2023-07-16 23:25:14] INFO root fetch - processPackages [Numkdoc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Numkdoc-0.4.1.tar.gz tmp/Numkdoc-0.4.2.tar.gz --markdown 20230716/N/Numkdoc/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-07-16 23:25:14] INFO root fetch - processPackages [policyengine-us]: executing diffoscope
+[2023-07-16 23:25:14] INFO root fetch - processPackages [policyengine-us]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policyengine-us-0.366.0.tar.gz tmp/policyengine-us-0.367.0.tar.gz --markdown 20230716/p/policyengine-us/0.366.0-0.367.0/diff.md --exclude *.pyd
+[2023-07-16 23:25:14] INFO root fetch - processPackages [WinJobster]: executing diffoscope
+[2023-07-16 23:25:14] INFO root fetch - processPackages [WinJobster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/WinJobster-1.0.0.tar.gz tmp/WinJobster-2.0.0.tar.gz --markdown 20230716/W/WinJobster/1.0.0-2.0.0/diff.md --exclude *.pyd
+[2023-07-16 23:25:14] INFO root fetch - processPackages [pyvista-examples]: executing diffoscope
+[2023-07-16 23:25:14] INFO root fetch - processPackages [pyvista-examples]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyvista-examples-0.1.2.tar.gz tmp/pyvista-examples-0.1.3.tar.gz --markdown 20230716/p/pyvista-examples/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-16 23:25:14] INFO root fetch - processPackages [symlib]: Downloading https://files.pythonhosted.org/packages/2e/c7/f94c28557cb09bfd01f2dba44d320236663033aee85cf9eb7bd3c66ea8ae/symlib-1.3.8.tar.gz
+[2023-07-16 23:25:14] INFO root fetch - processPackages [poonia]: Downloading https://files.pythonhosted.org/packages/09/db/c75f9a2a193bcbbbbad0543dba1745517caa715e67629b7828fd529e22ee/poonia-0.1.9.tar.gz
+[2023-07-16 23:25:14] INFO root fetch - processPackages [poonia]: executing diffoscope
+[2023-07-16 23:25:14] INFO root fetch - processPackages [poonia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/poonia-0.1.8.tar.gz tmp/poonia-0.1.9.tar.gz --markdown 20230716/p/poonia/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-16 23:25:15] INFO root fetch - processPackages [symlib]: executing diffoscope
+[2023-07-16 23:25:15] INFO root fetch - processPackages [symlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/symlib-1.3.7.tar.gz tmp/symlib-1.3.8.tar.gz --markdown 20230716/s/symlib/1.3.7-1.3.8/diff.md --exclude *.pyd
+[2023-07-16 23:25:15] INFO root fetch - processPackages [roblox-pyc]: Remove: archive file [/home/abi/fetcher/tmp/roblox-pyc-1.6.6.5.4.tar.gz]
+[2023-07-16 23:25:15] INFO root fetch - processPackages [roblox-pyc]: Remove: archive file [/home/abi/fetcher/tmp/roblox-pyc-1.6.6.5a0.tar.gz]
+[2023-07-16 23:25:15] INFO root fetch - main [MainThread]: End processing [roblox-pyc]: success
+[2023-07-16 23:25:15] INFO root fetch - processPackages [Numkdoc]: Remove: archive file [/home/abi/fetcher/tmp/Numkdoc-0.4.1.tar.gz]
+[2023-07-16 23:25:15] INFO root fetch - processPackages [Numkdoc]: Remove: archive file [/home/abi/fetcher/tmp/Numkdoc-0.4.2.tar.gz]
+[2023-07-16 23:25:15] INFO root fetch - main [MainThread]: End processing [Numkdoc]: success
+[2023-07-16 23:25:15] INFO root fetch - processPackages [WinJobster]: Remove: archive file [/home/abi/fetcher/tmp/WinJobster-1.0.0.tar.gz]
+[2023-07-16 23:25:15] INFO root fetch - processPackages [WinJobster]: Remove: archive file [/home/abi/fetcher/tmp/WinJobster-2.0.0.tar.gz]
+[2023-07-16 23:25:15] INFO root fetch - main [MainThread]: End processing [WinJobster]: success
+[2023-07-16 23:25:15] INFO root fetch - processPackages [pyvista-examples]: Remove: archive file [/home/abi/fetcher/tmp/pyvista-examples-0.1.2.tar.gz]
+[2023-07-16 23:25:15] INFO root fetch - processPackages [pyvista-examples]: Remove: archive file [/home/abi/fetcher/tmp/pyvista-examples-0.1.3.tar.gz]
+[2023-07-16 23:25:15] INFO root fetch - main [MainThread]: End processing [pyvista-examples]: success
+[2023-07-16 23:25:15] INFO root fetch - processPackages [ml-starter]: Remove: archive file [/home/abi/fetcher/tmp/ml-starter-0.1.8.tar.gz]
+[2023-07-16 23:25:15] INFO root fetch - processPackages [ml-starter]: Remove: archive file [/home/abi/fetcher/tmp/ml-starter-0.1.9.tar.gz]
+[2023-07-16 23:25:15] INFO root fetch - main [MainThread]: End processing [ml-starter]: success
+[2023-07-16 23:25:15] INFO root fetch - processPackages [symlib]: Remove: archive file [/home/abi/fetcher/tmp/symlib-1.3.7.tar.gz]
+[2023-07-16 23:25:15] INFO root fetch - processPackages [symlib]: Remove: archive file [/home/abi/fetcher/tmp/symlib-1.3.8.tar.gz]
+[2023-07-16 23:25:15] INFO root fetch - main [MainThread]: End processing [symlib]: success
+[2023-07-16 23:25:16] INFO root fetch - processPackages [poonia]: Remove: archive file [/home/abi/fetcher/tmp/poonia-0.1.8.tar.gz]
+[2023-07-16 23:25:16] INFO root fetch - processPackages [poonia]: Remove: archive file [/home/abi/fetcher/tmp/poonia-0.1.9.tar.gz]
+[2023-07-16 23:25:16] INFO root fetch - main [MainThread]: End processing [poonia]: success
+[2023-07-16 23:25:39] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.366.0.tar.gz]
+[2023-07-16 23:25:39] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.367.0.tar.gz]
+[2023-07-16 23:25:39] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
+[2023-07-16 23:25:39] INFO root fetch - main [MainThread]: Store serial: [18909521]
