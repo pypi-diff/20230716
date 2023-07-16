@@ -11323,3 +11323,61 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-16 18:12:59] INFO root fetch - processPackages [teapy]: Remove: archive file [/home/abi/fetcher/tmp/teapy-0.1.9.tar.gz]
 [2023-07-16 18:12:59] INFO root fetch - main [MainThread]: End processing [teapy]: success
 [2023-07-16 18:12:59] INFO root fetch - main [MainThread]: Store serial: [18908032]
+[2023-07-16 18:18:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18908032]
+[2023-07-16 18:18:07] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-16 18:18:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yetl-framework
+[2023-07-16 18:18:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jupyterlab-iframe
+[2023-07-16 18:18:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: yetl-framework
+[2023-07-16 18:18:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lxns
+[2023-07-16 18:18:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: python-drawio
+[2023-07-16 18:18:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dragonfly-grasshopper
+[2023-07-16 18:18:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: anjani
+[2023-07-16 18:18:08] WARNING root fetch - processPackages [lxns]: Skipping, unable to determine old version
+[2023-07-16 18:18:08] INFO root fetch - main [MainThread]: End processing [lxns] error
+[2023-07-16 18:18:08] INFO root fetch - processPackages [python-drawio]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-16 18:18:08] INFO root fetch - processPackages [jupyterlab-iframe]: New version: [0.5.0] Old Version: [0.4.4]
+[2023-07-16 18:18:08] INFO root fetch - processPackages [yetl-framework]: New version: [2.0.0.dev4] Old Version: [2.0.0.dev3]
+[2023-07-16 18:18:08] INFO root fetch - processPackages [yetl-framework]: New version: [2.0.0.dev4] Old Version: [2.0.0.dev3]
+[2023-07-16 18:18:08] INFO root fetch - processPackages [dragonfly-grasshopper]: New version: [1.9.0] Old Version: [1.8.4]
+[2023-07-16 18:18:08] INFO root fetch - processPackages [anjani]: New version: [2.9.0] Old Version: [2.8.1]
+[2023-07-16 18:18:08] INFO root fetch - processPackages [yetl-framework]: Downloading https://files.pythonhosted.org/packages/4f/70/ffa0944a9c4ba0e0bdf8043b772eaf68ce0191147c6da1f4059e2ccd6736/yetl-framework-2.0.0.dev3.tar.gz
+[2023-07-16 18:18:08] INFO root fetch - processPackages [python-drawio]: Downloading https://files.pythonhosted.org/packages/78/b7/3af2e8093b3fbdb4bf3106b80db766534242d7efe99842d00e05a5b3bf90/python-drawio-0.1.1.tar.gz
+[2023-07-16 18:18:08] INFO root fetch - processPackages [yetl-framework]: Downloading https://files.pythonhosted.org/packages/4f/70/ffa0944a9c4ba0e0bdf8043b772eaf68ce0191147c6da1f4059e2ccd6736/yetl-framework-2.0.0.dev3.tar.gz
+[2023-07-16 18:18:08] INFO root fetch - processPackages [dragonfly-grasshopper]: Downloading https://files.pythonhosted.org/packages/61/7c/926c180ac51778655057fbd9c2b7a694a7cfbc634c510e4bab5af0beb8d9/dragonfly-grasshopper-1.8.4.tar.gz
+[2023-07-16 18:18:08] INFO root fetch - processPackages [jupyterlab-iframe]: Downloading https://files.pythonhosted.org/packages/05/be/b3ae8d55062b56de680acbcfdb18b78c935a28066c453934dab1ad449c35/jupyterlab_iframe-0.4.4.tar.gz
+[2023-07-16 18:18:08] INFO root fetch - processPackages [anjani]: Downloading https://files.pythonhosted.org/packages/a0/4b/02833bc01203d0b9addbff43d3b48c7c40022e828cbd0b8fdb836018bcac/anjani-2.8.1.tar.gz
+[2023-07-16 18:18:08] INFO root fetch - processPackages [python-drawio]: Downloading https://files.pythonhosted.org/packages/36/44/c43b334a3f4fbe26f5be6e8d44d06ef38881e8642344424b70a71cd749d5/python-drawio-0.1.2.tar.gz
+[2023-07-16 18:18:09] INFO root fetch - processPackages [yetl-framework]: Downloading https://files.pythonhosted.org/packages/00/c4/a5d3286537b1e2012de51d7b9eb1d6166806258c182e4d4ddddc70635759/yetl-framework-2.0.0.dev4.tar.gz
+[2023-07-16 18:18:09] INFO root fetch - processPackages [yetl-framework]: Downloading https://files.pythonhosted.org/packages/00/c4/a5d3286537b1e2012de51d7b9eb1d6166806258c182e4d4ddddc70635759/yetl-framework-2.0.0.dev4.tar.gz
+[2023-07-16 18:18:09] INFO root fetch - processPackages [jupyterlab-iframe]: Downloading https://files.pythonhosted.org/packages/5e/11/9b7d53fd636bca114092854199d19cbea8ebdd66cd8729e2d2ab32f0496c/jupyterlab_iframe-0.5.0.tar.gz
+[2023-07-16 18:18:09] INFO root fetch - processPackages [anjani]: Downloading https://files.pythonhosted.org/packages/f9/9d/09023cad363092c71cd40b8312939b2e4d4bfbd47cae721893d04ab5a6d9/anjani-2.9.0.tar.gz
+[2023-07-16 18:18:09] INFO root fetch - processPackages [python-drawio]: executing diffoscope
+[2023-07-16 18:18:09] INFO root fetch - processPackages [python-drawio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-drawio-0.1.1.tar.gz tmp/python-drawio-0.1.2.tar.gz --markdown 20230716/p/python-drawio/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-16 18:18:09] INFO root fetch - processPackages [jupyterlab-iframe]: executing diffoscope
+[2023-07-16 18:18:09] INFO root fetch - processPackages [jupyterlab-iframe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterlab_iframe-0.4.4.tar.gz tmp/jupyterlab_iframe-0.5.0.tar.gz --markdown 20230716/j/jupyterlab-iframe/0.4.4-0.5.0/diff.md --exclude *.pyd
+[2023-07-16 18:18:09] INFO root fetch - processPackages [anjani]: executing diffoscope
+[2023-07-16 18:18:09] INFO root fetch - processPackages [anjani]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anjani-2.8.1.tar.gz tmp/anjani-2.9.0.tar.gz --markdown 20230716/a/anjani/2.8.1-2.9.0/diff.md --exclude *.pyd
+[2023-07-16 18:18:09] INFO root fetch - processPackages [yetl-framework]: executing diffoscope
+[2023-07-16 18:18:09] INFO root fetch - processPackages [yetl-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yetl-framework-2.0.0.dev3.tar.gz tmp/yetl-framework-2.0.0.dev4.tar.gz --markdown 20230716/y/yetl-framework/2.0.0.dev3-2.0.0.dev4/diff.md --exclude *.pyd
+[2023-07-16 18:18:09] INFO root fetch - processPackages [yetl-framework]: executing diffoscope
+[2023-07-16 18:18:09] INFO root fetch - processPackages [yetl-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yetl-framework-2.0.0.dev3.tar.gz tmp/yetl-framework-2.0.0.dev4.tar.gz --markdown 20230716/y/yetl-framework/2.0.0.dev3-2.0.0.dev4/diff.md --exclude *.pyd
+[2023-07-16 18:18:09] INFO root fetch - processPackages [dragonfly-grasshopper]: Downloading https://files.pythonhosted.org/packages/ed/a1/8b42a38306e46248ca16ca8ad5c9b02b4f86db7634aa329ec5ef99e2a623/dragonfly-grasshopper-1.9.0.tar.gz
+[2023-07-16 18:18:10] INFO root fetch - processPackages [dragonfly-grasshopper]: executing diffoscope
+[2023-07-16 18:18:10] INFO root fetch - processPackages [dragonfly-grasshopper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonfly-grasshopper-1.8.4.tar.gz tmp/dragonfly-grasshopper-1.9.0.tar.gz --markdown 20230716/d/dragonfly-grasshopper/1.8.4-1.9.0/diff.md --exclude *.pyd
+[2023-07-16 18:18:10] INFO root fetch - processPackages [python-drawio]: Remove: archive file [/home/abi/fetcher/tmp/python-drawio-0.1.1.tar.gz]
+[2023-07-16 18:18:10] INFO root fetch - processPackages [python-drawio]: Remove: archive file [/home/abi/fetcher/tmp/python-drawio-0.1.2.tar.gz]
+[2023-07-16 18:18:10] INFO root fetch - main [MainThread]: End processing [python-drawio]: success
+[2023-07-16 18:18:10] INFO root fetch - processPackages [yetl-framework]: Remove: archive file [/home/abi/fetcher/tmp/yetl-framework-2.0.0.dev3.tar.gz]
+[2023-07-16 18:18:10] INFO root fetch - processPackages [yetl-framework]: Remove: archive file [/home/abi/fetcher/tmp/yetl-framework-2.0.0.dev4.tar.gz]
+[2023-07-16 18:18:10] INFO root fetch - main [MainThread]: End processing [yetl-framework]: success
+[2023-07-16 18:18:10] INFO root fetch - main [MainThread]: End processing [yetl-framework]: success
+[2023-07-16 18:18:10] INFO root fetch - processPackages [anjani]: Remove: archive file [/home/abi/fetcher/tmp/anjani-2.8.1.tar.gz]
+[2023-07-16 18:18:10] INFO root fetch - processPackages [anjani]: Remove: archive file [/home/abi/fetcher/tmp/anjani-2.9.0.tar.gz]
+[2023-07-16 18:18:10] INFO root fetch - main [MainThread]: End processing [anjani]: success
+[2023-07-16 18:18:11] INFO root fetch - processPackages [jupyterlab-iframe]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_iframe-0.4.4.tar.gz]
+[2023-07-16 18:18:11] INFO root fetch - processPackages [jupyterlab-iframe]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_iframe-0.5.0.tar.gz]
+[2023-07-16 18:18:11] INFO root fetch - main [MainThread]: End processing [jupyterlab-iframe]: success
+[2023-07-16 18:18:11] INFO root fetch - processPackages [dragonfly-grasshopper]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-grasshopper-1.8.4.tar.gz]
+[2023-07-16 18:18:11] INFO root fetch - processPackages [dragonfly-grasshopper]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-grasshopper-1.9.0.tar.gz]
+[2023-07-16 18:18:11] INFO root fetch - main [MainThread]: End processing [dragonfly-grasshopper]: success
+[2023-07-16 18:18:11] INFO root fetch - main [MainThread]: Store serial: [18908056]
