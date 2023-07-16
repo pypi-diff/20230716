@@ -14603,3 +14603,45 @@ zipfile.BadZipFile: File is not a zip file
 [2023-07-16 23:14:53] INFO root fetch - processPackages [drtools]: Remove: archive file [/home/abi/fetcher/tmp/drtools-2.0.0.tar.gz]
 [2023-07-16 23:14:53] INFO root fetch - main [MainThread]: End processing [drtools]: success
 [2023-07-16 23:14:53] INFO root fetch - main [MainThread]: Store serial: [18909476]
+[2023-07-16 23:19:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18909476]
+[2023-07-16 23:20:02] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-16 23:20:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aicodebot
+[2023-07-16 23:20:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: idlerich
+[2023-07-16 23:20:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: icloudpd
+[2023-07-16 23:20:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: uk-bin-collection
+[2023-07-16 23:20:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dxsp
+[2023-07-16 23:20:02] WARNING root fetch - processPackages [uk-bin-collection]: Skipping, unable to determine old version
+[2023-07-16 23:20:02] INFO root fetch - main [MainThread]: End processing [uk-bin-collection] error
+[2023-07-16 23:20:02] INFO root fetch - processPackages [idlerich]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-16 23:20:02] INFO root fetch - processPackages [dxsp]: New version: [4.0.5] Old Version: [4.0.4]
+[2023-07-16 23:20:02] INFO root fetch - processPackages [icloudpd]: New version: [1.9.0] Old Version: [1.8.1]
+[2023-07-16 23:20:02] INFO root fetch - processPackages [aicodebot]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-07-16 23:20:03] INFO root fetch - processPackages [idlerich]: Downloading https://files.pythonhosted.org/packages/ba/77/bea2d7a3b94ed6e8ed29a6f493dd69e053f6a92ae7258c8f9cab72637606/idlerich-0.2.0.tar.gz
+[2023-07-16 23:20:03] INFO root fetch - processPackages [dxsp]: Downloading https://files.pythonhosted.org/packages/6b/1b/fa69ae82adefcce9de74bc579cf9a1bd05487d360c8d1dba1b470cf990fa/dxsp-4.0.4.tar.gz
+[2023-07-16 23:20:03] INFO root fetch - processPackages [aicodebot]: Downloading https://files.pythonhosted.org/packages/de/93/5893654a616bad8ecf7cff940e452492ff5cadede0c121a0b836015603f8/aicodebot-0.9.5.tar.gz
+[2023-07-16 23:20:03] INFO root fetch - processPackages [icloudpd]: Downloading https://files.pythonhosted.org/packages/51/5d/1f1e447501b790f1082e506da57a315aeda5268be4c23f0027804937436a/icloudpd-1.8.1-py2.py3-none-any.whl
+[2023-07-16 23:20:03] INFO root fetch - processPackages [aicodebot]: Downloading https://files.pythonhosted.org/packages/f0/54/b7976dc18a7bd9ee80ceff88ce124d243c375fa58db5ebe25e50df423f49/aicodebot-0.9.6.tar.gz
+[2023-07-16 23:20:03] INFO root fetch - processPackages [idlerich]: Downloading https://files.pythonhosted.org/packages/07/d6/cb1ecf2dcaa540c62b517d1f3e60a38c0b069cbc9a04f89d654b806fe1c5/idlerich-0.2.1.tar.gz
+[2023-07-16 23:20:03] INFO root fetch - processPackages [icloudpd]: Downloading https://files.pythonhosted.org/packages/62/71/4d2c70cdcacbafa12d0d59f0a600a1d90223aeb131739c382716470d6320/icloudpd-1.9.0-py2.py3-none-any.whl
+[2023-07-16 23:20:03] INFO root fetch - processPackages [dxsp]: Downloading https://files.pythonhosted.org/packages/05/1c/3f1a92a24af9f72979241479db39e20e136edae34a231250fda449a04e85/dxsp-4.0.5.tar.gz
+[2023-07-16 23:20:03] INFO root fetch - processPackages [aicodebot]: executing diffoscope
+[2023-07-16 23:20:03] INFO root fetch - processPackages [aicodebot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aicodebot-0.9.5.tar.gz tmp/aicodebot-0.9.6.tar.gz --markdown 20230716/a/aicodebot/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-07-16 23:20:03] INFO root fetch - processPackages [icloudpd]: executing diffoscope
+[2023-07-16 23:20:03] INFO root fetch - processPackages [icloudpd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/icloudpd-1.8.1-py2.py3-none-any.whl.zip tmp/icloudpd-1.9.0-py2.py3-none-any.whl.zip --markdown 20230716/i/icloudpd/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2023-07-16 23:20:03] INFO root fetch - processPackages [idlerich]: executing diffoscope
+[2023-07-16 23:20:03] INFO root fetch - processPackages [idlerich]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idlerich-0.2.0.tar.gz tmp/idlerich-0.2.1.tar.gz --markdown 20230716/i/idlerich/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-16 23:20:03] INFO root fetch - processPackages [dxsp]: executing diffoscope
+[2023-07-16 23:20:03] INFO root fetch - processPackages [dxsp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dxsp-4.0.4.tar.gz tmp/dxsp-4.0.5.tar.gz --markdown 20230716/d/dxsp/4.0.4-4.0.5/diff.md --exclude *.pyd
+[2023-07-16 23:20:04] INFO root fetch - processPackages [aicodebot]: Remove: archive file [/home/abi/fetcher/tmp/aicodebot-0.9.5.tar.gz]
+[2023-07-16 23:20:04] INFO root fetch - processPackages [aicodebot]: Remove: archive file [/home/abi/fetcher/tmp/aicodebot-0.9.6.tar.gz]
+[2023-07-16 23:20:04] INFO root fetch - main [MainThread]: End processing [aicodebot]: success
+[2023-07-16 23:20:04] INFO root fetch - processPackages [idlerich]: Remove: archive file [/home/abi/fetcher/tmp/idlerich-0.2.0.tar.gz]
+[2023-07-16 23:20:04] INFO root fetch - processPackages [idlerich]: Remove: archive file [/home/abi/fetcher/tmp/idlerich-0.2.1.tar.gz]
+[2023-07-16 23:20:04] INFO root fetch - main [MainThread]: End processing [idlerich]: success
+[2023-07-16 23:20:04] INFO root fetch - processPackages [dxsp]: Remove: archive file [/home/abi/fetcher/tmp/dxsp-4.0.4.tar.gz]
+[2023-07-16 23:20:04] INFO root fetch - processPackages [dxsp]: Remove: archive file [/home/abi/fetcher/tmp/dxsp-4.0.5.tar.gz]
+[2023-07-16 23:20:04] INFO root fetch - main [MainThread]: End processing [dxsp]: success
+[2023-07-16 23:20:04] INFO root fetch - processPackages [icloudpd]: Remove: archive file [/home/abi/fetcher/tmp/icloudpd-1.8.1-py2.py3-none-any.whl.zip]
+[2023-07-16 23:20:04] INFO root fetch - processPackages [icloudpd]: Remove: archive file [/home/abi/fetcher/tmp/icloudpd-1.9.0-py2.py3-none-any.whl.zip]
+[2023-07-16 23:20:04] INFO root fetch - main [MainThread]: End processing [icloudpd]: success
+[2023-07-16 23:20:04] INFO root fetch - main [MainThread]: Store serial: [18909495]
