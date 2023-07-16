@@ -3327,3 +3327,51 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-16 05:40:45] INFO root fetch - processPackages [hak]: Remove: archive file [/home/abi/fetcher/tmp/hak-0.0.9.tar.gz]
 [2023-07-16 05:40:45] INFO root fetch - main [MainThread]: End processing [hak]: success
 [2023-07-16 05:40:45] INFO root fetch - main [MainThread]: Store serial: [18904621]
+[2023-07-16 05:45:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18904621]
+[2023-07-16 05:45:54] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-16 05:45:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: MisER
+[2023-07-16 05:45:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: psychoanalyze
+[2023-07-16 05:45:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mynacode
+[2023-07-16 05:45:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Subsearch
+[2023-07-16 05:45:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: phables
+[2023-07-16 05:45:54] INFO root fetch - processPackages [Subsearch]: New version: [2.37.0rc2] Old Version: [2.37.0rc1]
+[2023-07-16 05:45:54] INFO root fetch - processPackages [psychoanalyze]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-07-16 05:45:54] INFO root fetch - processPackages [MisER]: New version: [1.0.0] Old Version: [0.0.3]
+[2023-07-16 05:45:54] INFO root fetch - processPackages [mynacode]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-07-16 05:45:55] INFO root fetch - processPackages [Subsearch]: Downloading https://files.pythonhosted.org/packages/9e/d9/ac213202a3fa4036f2456aa9d07f84237e530c5c511eef38c302ea1aeb1a/Subsearch-2.37.0rc1.tar.gz
+[2023-07-16 05:45:55] INFO root fetch - processPackages [psychoanalyze]: Downloading https://files.pythonhosted.org/packages/e8/16/02c1738fa56f11bb53ad224ff86b74ebe2029a5b616ee980d3c7c937d8aa/psychoanalyze-0.6.1.tar.gz
+[2023-07-16 05:45:55] INFO root fetch - processPackages [phables]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-07-16 05:45:55] INFO root fetch - processPackages [MisER]: Downloading https://files.pythonhosted.org/packages/70/8e/829dfa71758731c4779c18f618903b5d1043e39fd9e1237d51cde588193f/MisER-0.0.3.tar.gz
+[2023-07-16 05:45:55] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/1d/24/3d4ef0a0a267fb47bcbac68ff9b760a9b892095f2ee727874f0286d600c3/mynacode-1.0.98-py3-none-any.whl
+[2023-07-16 05:45:55] INFO root fetch - processPackages [phables]: Downloading https://files.pythonhosted.org/packages/a5/51/eeb3398ce6e507bec1222d82ab4954984be257a756916d38e9cf0965d02b/phables-1.0.0.tar.gz
+[2023-07-16 05:45:55] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/38/32/362f7abef6d28b78afa03843fa2eadc7bb1454ef66bde894a08e281d5bfb/mynacode-1.0.99-py3-none-any.whl
+[2023-07-16 05:45:55] INFO root fetch - processPackages [Subsearch]: Downloading https://files.pythonhosted.org/packages/61/a1/9503d90cbe846a760ee5f47fa7ab0ea50bcc79090198f30df4f362880432/Subsearch-2.37.0rc2.tar.gz
+[2023-07-16 05:45:55] INFO root fetch - processPackages [psychoanalyze]: Downloading https://files.pythonhosted.org/packages/20/83/5e8cb4582c4391d1c3c3a2c456461adef4a0c932645dcca2d02aa0921b26/psychoanalyze-0.6.2.tar.gz
+[2023-07-16 05:45:55] INFO root fetch - processPackages [MisER]: Downloading https://files.pythonhosted.org/packages/d1/33/5f81334d2297419ff1e0c98b6eca9d08bcabeea7cce6efbf4996807d61d2/MisER-1.0.0.tar.gz
+[2023-07-16 05:45:55] INFO root fetch - processPackages [Subsearch]: executing diffoscope
+[2023-07-16 05:45:55] INFO root fetch - processPackages [Subsearch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Subsearch-2.37.0rc1.tar.gz tmp/Subsearch-2.37.0rc2.tar.gz --markdown 20230716/S/Subsearch/2.37.0rc1-2.37.0rc2/diff.md --exclude *.pyd
+[2023-07-16 05:45:55] INFO root fetch - processPackages [mynacode]: executing diffoscope
+[2023-07-16 05:45:55] INFO root fetch - processPackages [mynacode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mynacode-1.0.98-py3-none-any.whl.zip tmp/mynacode-1.0.99-py3-none-any.whl.zip --markdown 20230716/m/mynacode/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-07-16 05:45:55] INFO root fetch - processPackages [MisER]: executing diffoscope
+[2023-07-16 05:45:55] INFO root fetch - processPackages [MisER]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MisER-0.0.3.tar.gz tmp/MisER-1.0.0.tar.gz --markdown 20230716/M/MisER/0.0.3-1.0.0/diff.md --exclude *.pyd
+[2023-07-16 05:45:55] INFO root fetch - processPackages [psychoanalyze]: executing diffoscope
+[2023-07-16 05:45:55] INFO root fetch - processPackages [psychoanalyze]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psychoanalyze-0.6.1.tar.gz tmp/psychoanalyze-0.6.2.tar.gz --markdown 20230716/p/psychoanalyze/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-07-16 05:45:56] INFO root fetch - processPackages [phables]: Downloading https://files.pythonhosted.org/packages/f3/52/b614fbd83f94ede6d157e647c1a61050e42242a7227cea23d97b511b0cfd/phables-1.1.0.tar.gz
+[2023-07-16 05:45:56] INFO root fetch - processPackages [phables]: executing diffoscope
+[2023-07-16 05:45:56] INFO root fetch - processPackages [phables]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phables-1.0.0.tar.gz tmp/phables-1.1.0.tar.gz --markdown 20230716/p/phables/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-07-16 05:45:56] INFO root fetch - processPackages [MisER]: Remove: archive file [/home/abi/fetcher/tmp/MisER-0.0.3.tar.gz]
+[2023-07-16 05:45:56] INFO root fetch - processPackages [MisER]: Remove: archive file [/home/abi/fetcher/tmp/MisER-1.0.0.tar.gz]
+[2023-07-16 05:45:56] INFO root fetch - main [MainThread]: End processing [MisER]: success
+[2023-07-16 05:45:56] INFO root fetch - processPackages [mynacode]: Remove: archive file [/home/abi/fetcher/tmp/mynacode-1.0.98-py3-none-any.whl.zip]
+[2023-07-16 05:45:56] INFO root fetch - processPackages [mynacode]: Remove: archive file [/home/abi/fetcher/tmp/mynacode-1.0.99-py3-none-any.whl.zip]
+[2023-07-16 05:45:56] INFO root fetch - main [MainThread]: End processing [mynacode]: success
+[2023-07-16 05:45:56] INFO root fetch - processPackages [psychoanalyze]: Remove: archive file [/home/abi/fetcher/tmp/psychoanalyze-0.6.1.tar.gz]
+[2023-07-16 05:45:56] INFO root fetch - processPackages [psychoanalyze]: Remove: archive file [/home/abi/fetcher/tmp/psychoanalyze-0.6.2.tar.gz]
+[2023-07-16 05:45:56] INFO root fetch - main [MainThread]: End processing [psychoanalyze]: success
+[2023-07-16 05:45:56] INFO root fetch - processPackages [Subsearch]: Remove: archive file [/home/abi/fetcher/tmp/Subsearch-2.37.0rc1.tar.gz]
+[2023-07-16 05:45:56] INFO root fetch - processPackages [Subsearch]: Remove: archive file [/home/abi/fetcher/tmp/Subsearch-2.37.0rc2.tar.gz]
+[2023-07-16 05:45:56] INFO root fetch - main [MainThread]: End processing [Subsearch]: success
+[2023-07-16 05:45:57] INFO root fetch - processPackages [phables]: Remove: archive file [/home/abi/fetcher/tmp/phables-1.0.0.tar.gz]
+[2023-07-16 05:45:57] INFO root fetch - processPackages [phables]: Remove: archive file [/home/abi/fetcher/tmp/phables-1.1.0.tar.gz]
+[2023-07-16 05:45:57] INFO root fetch - main [MainThread]: End processing [phables]: success
+[2023-07-16 05:45:57] INFO root fetch - main [MainThread]: Store serial: [18904633]
