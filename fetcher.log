@@ -6040,3 +6040,144 @@ AssertionError: tmp/cdk-certbot-dns-route53-2.1.98.tar.gz does not exist
 [2023-07-16 11:03:04] INFO root fetch - processPackages [iman]: Remove: archive file [/home/abi/fetcher/tmp/iman-0.0.9.tar.gz]
 [2023-07-16 11:03:04] INFO root fetch - main [MainThread]: End processing [iman]: success
 [2023-07-16 11:03:04] INFO root fetch - main [MainThread]: Store serial: [18905812]
+[2023-07-16 11:08:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18905812]
+[2023-07-16 11:08:13] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-07-16 11:08:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: autogluon.common
+[2023-07-16 11:08:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: autogluon.core
+[2023-07-16 11:08:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: autogluon.features
+[2023-07-16 11:08:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: autogluon.tabular
+[2023-07-16 11:08:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: autogluon.multimodal
+[2023-07-16 11:08:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: autogluon.timeseries
+[2023-07-16 11:08:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: autogluon
+[2023-07-16 11:08:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: autogluon.eda
+[2023-07-16 11:08:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: autogluon.cloud
+[2023-07-16 11:08:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: streamlit-cropperjs
+[2023-07-16 11:08:13] INFO root fetch - processPackages [autogluon.eda]: New version: [0.8.3b20230716] Old Version: [0.8.3b20230715]
+[2023-07-16 11:08:13] INFO root fetch - processPackages [autogluon.features]: New version: [0.8.3b20230716] Old Version: [0.8.3b20230715]
+[2023-07-16 11:08:13] WARNING root fetch - processPackages [streamlit-cropperjs]: Skipping, unable to determine old version
+[2023-07-16 11:08:13] INFO root fetch - processPackages [streamlit-cropperjs]: Start processing: deltalake-redis-lock
+[2023-07-16 11:08:13] INFO root fetch - main [MainThread]: End processing [streamlit-cropperjs] error
+[2023-07-16 11:08:13] INFO root fetch - processPackages [autogluon.common]: New version: [0.8.3b20230716] Old Version: [0.8.3b20230715]
+[2023-07-16 11:08:13] INFO root fetch - processPackages [autogluon.cloud]: New version: [0.2.1b20230716] Old Version: [0.2.1b20230715]
+[2023-07-16 11:08:13] INFO root fetch - processPackages [autogluon.timeseries]: New version: [0.8.3b20230716] Old Version: [0.8.3b20230715]
+[2023-07-16 11:08:13] INFO root fetch - processPackages [autogluon.tabular]: New version: [0.8.3b20230716] Old Version: [0.8.3b20230715]
+[2023-07-16 11:08:13] INFO root fetch - processPackages [autogluon.multimodal]: New version: [0.8.3b20230716] Old Version: [0.8.3b20230715]
+[2023-07-16 11:08:13] INFO root fetch - processPackages [autogluon]: New version: [0.8.3b20230716] Old Version: [0.8.3b20230715]
+[2023-07-16 11:08:13] INFO root fetch - processPackages [autogluon.eda]: Downloading https://files.pythonhosted.org/packages/6c/b7/d5150074a1bee0d9d21d531b7cc1a4497e528637e90fc6bf34c72d7dd410/autogluon.eda-0.8.3b20230715.tar.gz
+[2023-07-16 11:08:13] INFO root fetch - processPackages [autogluon.core]: New version: [0.8.3b20230716] Old Version: [0.8.3b20230715]
+[2023-07-16 11:08:13] INFO root fetch - processPackages [deltalake-redis-lock]: New version: [0.0.1a6] Old Version: [0.0.1a5]
+[2023-07-16 11:08:13] INFO root fetch - processPackages [autogluon.features]: Downloading https://files.pythonhosted.org/packages/36/07/2ac1cd5165393695813fc0e22941f16981b7ea48a30d1c2e9d7c12a3ac53/autogluon.features-0.8.3b20230715.tar.gz
+[2023-07-16 11:08:13] INFO root fetch - processPackages [autogluon.common]: Downloading https://files.pythonhosted.org/packages/c2/38/cc7036439f363f713305eb3a5696436802b5224ef0529a9b106662a25228/autogluon.common-0.8.3b20230715.tar.gz
+[2023-07-16 11:08:13] INFO root fetch - processPackages [autogluon.tabular]: Downloading https://files.pythonhosted.org/packages/cc/92/29af6c10446bc2bc366c7798c4347f63fd0b8d08179dc3013c87cb992ad9/autogluon.tabular-0.8.3b20230715.tar.gz
+[2023-07-16 11:08:13] INFO root fetch - processPackages [autogluon.timeseries]: Downloading https://files.pythonhosted.org/packages/2d/04/105e0e8ac5b71fc7c471e6c75a54418bb7e45a14034e8eda9f0505a849bd/autogluon.timeseries-0.8.3b20230715.tar.gz
+[2023-07-16 11:08:13] INFO root fetch - processPackages [autogluon.multimodal]: Downloading https://files.pythonhosted.org/packages/19/61/c18431004629306b2407d64a2b59e0c758b5ec781102300e3969bd29b376/autogluon.multimodal-0.8.3b20230715.tar.gz
+[2023-07-16 11:08:13] INFO root fetch - processPackages [autogluon.core]: Downloading https://files.pythonhosted.org/packages/8c/06/564802745c96127cd23618b7cb6e15adb79ecc3ff6319f1a0516e19f3672/autogluon.core-0.8.3b20230715.tar.gz
+[2023-07-16 11:08:13] INFO root fetch - processPackages [autogluon.cloud]: Downloading https://files.pythonhosted.org/packages/7c/6a/5caa6f4ced3a5ba1f900e3200343329771ab6d1683f7db5230d6e23563ed/autogluon.cloud-0.2.1b20230715.tar.gz
+[2023-07-16 11:08:13] INFO root fetch - processPackages [deltalake-redis-lock]: Downloading https://files.pythonhosted.org/packages/27/72/5d13efedab6e373fd8a8ebda85c4eb83f80a3816255d3bc28b5058596b46/deltalake-redis-lock-0.0.1a5.tar.gz
+[2023-07-16 11:08:13] INFO root fetch - processPackages [autogluon]: Downloading https://files.pythonhosted.org/packages/fb/0f/659173413134ad0c153201839769ce3a4221af2d138a85258637bfca9fbf/autogluon-0.8.3b20230715.tar.gz
+[2023-07-16 11:08:14] INFO root fetch - processPackages [autogluon.eda]: Downloading https://files.pythonhosted.org/packages/61/8a/1125550899cd360fe8964031f15796944749a161d02746f61aed224da73e/autogluon.eda-0.8.3b20230716.tar.gz
+[2023-07-16 11:08:14] INFO root fetch - processPackages [autogluon.features]: Downloading https://files.pythonhosted.org/packages/df/f4/9892afcce257de1df681c5ea65be23c1beb8a30b183597120c2caa88d0df/autogluon.features-0.8.3b20230716.tar.gz
+[2023-07-16 11:08:14] INFO root fetch - processPackages [autogluon.common]: Downloading https://files.pythonhosted.org/packages/47/21/dbec7fb64743610750b0caeff00317ed5db71c162b20334222ea6813c206/autogluon.common-0.8.3b20230716.tar.gz
+[2023-07-16 11:08:14] INFO root fetch - processPackages [autogluon.tabular]: Downloading https://files.pythonhosted.org/packages/a3/d8/f3ac5122a95ee3f2e844be8c9d235cc7cf9fe03864f3cc363d798368a519/autogluon.tabular-0.8.3b20230716.tar.gz
+[2023-07-16 11:08:14] INFO root fetch - processPackages [autogluon.timeseries]: Downloading https://files.pythonhosted.org/packages/e3/09/14244c707bae8870ddfe62c10ae1c5414d5bf785ee4f035b2902616dbde1/autogluon.timeseries-0.8.3b20230716.tar.gz
+[2023-07-16 11:08:14] INFO root fetch - processPackages [autogluon.multimodal]: Downloading https://files.pythonhosted.org/packages/bb/c2/cd757a1da2617ba27bf6a5e3a4330908abcf8e2b1e9d5ba3bc5a6cb1447b/autogluon.multimodal-0.8.3b20230716.tar.gz
+[2023-07-16 11:08:14] INFO root fetch - processPackages [deltalake-redis-lock]: Downloading https://files.pythonhosted.org/packages/23/eb/9c79583777706bbbb4816fea25534b2f7aafcbcaf035b46ebc2033474b47/deltalake-redis-lock-0.0.1a6.tar.gz
+[2023-07-16 11:08:14] INFO root fetch - processPackages [autogluon]: Downloading https://files.pythonhosted.org/packages/fe/72/b0e1b7249c8232c6ec27c1161f5e6460e5dfcd1c43bb2d3a2b72148bc912/autogluon-0.8.3b20230716.tar.gz
+[2023-07-16 11:08:14] INFO root fetch - processPackages [autogluon.cloud]: Downloading https://files.pythonhosted.org/packages/0a/82/8ff2aaf19e1077e8625031e62944b86ef65aec2da3f07f0e08dd1c208f49/autogluon.cloud-0.2.1b20230716.tar.gz
+[2023-07-16 11:08:14] INFO root fetch - processPackages [autogluon.eda]: executing diffoscope
+[2023-07-16 11:08:14] INFO root fetch - processPackages [autogluon.eda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.eda-0.8.3b20230715.tar.gz tmp/autogluon.eda-0.8.3b20230716.tar.gz --markdown 20230716/a/autogluon.eda/0.8.3b20230715-0.8.3b20230716/diff.md --exclude *.pyd
+[2023-07-16 11:08:14] INFO root fetch - processPackages [autogluon.features]: executing diffoscope
+[2023-07-16 11:08:14] INFO root fetch - processPackages [autogluon.features]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.features-0.8.3b20230715.tar.gz tmp/autogluon.features-0.8.3b20230716.tar.gz --markdown 20230716/a/autogluon.features/0.8.3b20230715-0.8.3b20230716/diff.md --exclude *.pyd
+[2023-07-16 11:08:14] INFO root fetch - processPackages [autogluon.common]: executing diffoscope
+[2023-07-16 11:08:14] INFO root fetch - processPackages [autogluon.common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.common-0.8.3b20230715.tar.gz tmp/autogluon.common-0.8.3b20230716.tar.gz --markdown 20230716/a/autogluon.common/0.8.3b20230715-0.8.3b20230716/diff.md --exclude *.pyd
+[2023-07-16 11:08:14] INFO root fetch - processPackages [autogluon.core]: Downloading https://files.pythonhosted.org/packages/f1/60/7d569d2450e3adbfe2faf66282f16e71b37837c4fb5f905d7115e60e6e38/autogluon.core-0.8.3b20230716.tar.gz
+[2023-07-16 11:08:14] INFO root fetch - processPackages [autogluon.tabular]: executing diffoscope
+[2023-07-16 11:08:14] INFO root fetch - processPackages [autogluon.tabular]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.tabular-0.8.3b20230715.tar.gz tmp/autogluon.tabular-0.8.3b20230716.tar.gz --markdown 20230716/a/autogluon.tabular/0.8.3b20230715-0.8.3b20230716/diff.md --exclude *.pyd
+[2023-07-16 11:08:14] INFO root fetch - processPackages [autogluon.timeseries]: executing diffoscope
+[2023-07-16 11:08:14] INFO root fetch - processPackages [autogluon.timeseries]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.timeseries-0.8.3b20230715.tar.gz tmp/autogluon.timeseries-0.8.3b20230716.tar.gz --markdown 20230716/a/autogluon.timeseries/0.8.3b20230715-0.8.3b20230716/diff.md --exclude *.pyd
+[2023-07-16 11:08:14] INFO root fetch - processPackages [deltalake-redis-lock]: executing diffoscope
+[2023-07-16 11:08:14] INFO root fetch - processPackages [deltalake-redis-lock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deltalake-redis-lock-0.0.1a5.tar.gz tmp/deltalake-redis-lock-0.0.1a6.tar.gz --markdown 20230716/d/deltalake-redis-lock/0.0.1a5-0.0.1a6/diff.md --exclude *.pyd
+[2023-07-16 11:08:14] INFO root fetch - processPackages [autogluon.multimodal]: executing diffoscope
+[2023-07-16 11:08:14] INFO root fetch - processPackages [autogluon.multimodal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.multimodal-0.8.3b20230715.tar.gz tmp/autogluon.multimodal-0.8.3b20230716.tar.gz --markdown 20230716/a/autogluon.multimodal/0.8.3b20230715-0.8.3b20230716/diff.md --exclude *.pyd
+[2023-07-16 11:08:14] INFO root fetch - processPackages [autogluon]: executing diffoscope
+[2023-07-16 11:08:14] INFO root fetch - processPackages [autogluon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon-0.8.3b20230715.tar.gz tmp/autogluon-0.8.3b20230716.tar.gz --markdown 20230716/a/autogluon/0.8.3b20230715-0.8.3b20230716/diff.md --exclude *.pyd
+[2023-07-16 11:08:14] INFO root fetch - processPackages [autogluon.cloud]: executing diffoscope
+[2023-07-16 11:08:14] INFO root fetch - processPackages [autogluon.cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.cloud-0.2.1b20230715.tar.gz tmp/autogluon.cloud-0.2.1b20230716.tar.gz --markdown 20230716/a/autogluon.cloud/0.2.1b20230715-0.2.1b20230716/diff.md --exclude *.pyd
+[2023-07-16 11:08:14] INFO root fetch - processPackages [autogluon.core]: executing diffoscope
+[2023-07-16 11:08:14] INFO root fetch - processPackages [autogluon.core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.core-0.8.3b20230715.tar.gz tmp/autogluon.core-0.8.3b20230716.tar.gz --markdown 20230716/a/autogluon.core/0.8.3b20230715-0.8.3b20230716/diff.md --exclude *.pyd
+[2023-07-16 11:08:16] INFO root fetch - processPackages [autogluon]: Remove: archive file [/home/abi/fetcher/tmp/autogluon-0.8.3b20230715.tar.gz]
+[2023-07-16 11:08:16] INFO root fetch - processPackages [autogluon]: Remove: archive file [/home/abi/fetcher/tmp/autogluon-0.8.3b20230716.tar.gz]
+[2023-07-16 11:08:16] INFO root fetch - processPackages [autogluon]: Start processing: wiliot-deployment-tools
+[2023-07-16 11:08:16] INFO root fetch - main [MainThread]: End processing [autogluon]: success
+[2023-07-16 11:08:16] INFO root fetch - processPackages [autogluon.eda]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.eda-0.8.3b20230715.tar.gz]
+[2023-07-16 11:08:16] INFO root fetch - processPackages [autogluon.eda]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.eda-0.8.3b20230716.tar.gz]
+[2023-07-16 11:08:16] INFO root fetch - processPackages [autogluon.eda]: Start processing: Coquille
+[2023-07-16 11:08:16] INFO root fetch - main [MainThread]: End processing [autogluon.eda]: success
+[2023-07-16 11:08:16] INFO root fetch - processPackages [wiliot-deployment-tools]: New version: [4.0.8] Old Version: [4.0.7]
+[2023-07-16 11:08:16] INFO root fetch - processPackages [Coquille]: New version: [1.1.1] Old Version: [1.0.2]
+[2023-07-16 11:08:16] INFO root fetch - processPackages [autogluon.features]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.features-0.8.3b20230715.tar.gz]
+[2023-07-16 11:08:16] INFO root fetch - processPackages [autogluon.features]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.features-0.8.3b20230716.tar.gz]
+[2023-07-16 11:08:16] INFO root fetch - processPackages [autogluon.features]: Start processing: redis-chatgpt
+[2023-07-16 11:08:16] INFO root fetch - main [MainThread]: End processing [autogluon.features]: success
+[2023-07-16 11:08:16] INFO root fetch - processPackages [wiliot-deployment-tools]: Downloading https://files.pythonhosted.org/packages/dc/92/c5b9a483fe38ba3d8168fab282f11332917de54eb6ba9ef5c674f0fd6f98/wiliot-deployment-tools-4.0.7.tar.gz
+[2023-07-16 11:08:16] INFO root fetch - processPackages [Coquille]: Downloading https://files.pythonhosted.org/packages/b3/4e/7a32f0551ef05f4ecad5643d6702e82705f83a9d46a9d27cc7cbf13fc0f4/Coquille-1.0.2.tar.gz
+[2023-07-16 11:08:16] INFO root fetch - processPackages [autogluon.common]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.common-0.8.3b20230715.tar.gz]
+[2023-07-16 11:08:16] INFO root fetch - processPackages [autogluon.common]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.common-0.8.3b20230716.tar.gz]
+[2023-07-16 11:08:16] INFO root fetch - processPackages [autogluon.common]: Start processing: flake8-type-checking
+[2023-07-16 11:08:16] INFO root fetch - main [MainThread]: End processing [autogluon.common]: success
+[2023-07-16 11:08:16] INFO root fetch - processPackages [redis-chatgpt]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-16 11:08:16] INFO root fetch - processPackages [autogluon.timeseries]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.timeseries-0.8.3b20230715.tar.gz]
+[2023-07-16 11:08:16] INFO root fetch - processPackages [autogluon.timeseries]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.timeseries-0.8.3b20230716.tar.gz]
+[2023-07-16 11:08:16] INFO root fetch - processPackages [autogluon.timeseries]: Start processing: talkytimes-package
+[2023-07-16 11:08:16] INFO root fetch - main [MainThread]: End processing [autogluon.timeseries]: success
+[2023-07-16 11:08:16] INFO root fetch - processPackages [flake8-type-checking]: New version: [2.4.1] Old Version: [2.4.0]
+[2023-07-16 11:08:16] INFO root fetch - processPackages [talkytimes-package]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-07-16 11:08:16] INFO root fetch - processPackages [autogluon.cloud]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.cloud-0.2.1b20230715.tar.gz]
+[2023-07-16 11:08:16] INFO root fetch - processPackages [autogluon.cloud]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.cloud-0.2.1b20230716.tar.gz]
+[2023-07-16 11:08:16] INFO root fetch - main [MainThread]: End processing [autogluon.cloud]: success
+[2023-07-16 11:08:16] INFO root fetch - processPackages [redis-chatgpt]: Downloading https://files.pythonhosted.org/packages/17/7e/c46f9d46e46bc6b6584cb6028f896a9ac9389ae990da117b9e03b37fea01/redis_chatgpt-0.1.1.tar.gz
+[2023-07-16 11:08:16] INFO root fetch - processPackages [deltalake-redis-lock]: Remove: archive file [/home/abi/fetcher/tmp/deltalake-redis-lock-0.0.1a5.tar.gz]
+[2023-07-16 11:08:16] INFO root fetch - processPackages [deltalake-redis-lock]: Remove: archive file [/home/abi/fetcher/tmp/deltalake-redis-lock-0.0.1a6.tar.gz]
+[2023-07-16 11:08:16] INFO root fetch - main [MainThread]: End processing [deltalake-redis-lock]: success
+[2023-07-16 11:08:16] INFO root fetch - processPackages [talkytimes-package]: Downloading https://files.pythonhosted.org/packages/c9/6a/f49c439f1f861e414deeb7f2cdf32bfead1629c37f0e7831ac13592224eb/talkytimes_package-0.2.4.tar.gz
+[2023-07-16 11:08:16] INFO root fetch - processPackages [autogluon.tabular]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.tabular-0.8.3b20230715.tar.gz]
+[2023-07-16 11:08:16] INFO root fetch - processPackages [autogluon.tabular]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.tabular-0.8.3b20230716.tar.gz]
+[2023-07-16 11:08:16] INFO root fetch - main [MainThread]: End processing [autogluon.tabular]: success
+[2023-07-16 11:08:16] INFO root fetch - processPackages [wiliot-deployment-tools]: Downloading https://files.pythonhosted.org/packages/c1/d8/ac9ca94ecddd03059c1fc825f3afd9097f77d7810f76c2d615ba559b0c3c/wiliot-deployment-tools-4.0.8.tar.gz
+[2023-07-16 11:08:16] INFO root fetch - processPackages [autogluon.core]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.core-0.8.3b20230715.tar.gz]
+[2023-07-16 11:08:16] INFO root fetch - processPackages [autogluon.core]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.core-0.8.3b20230716.tar.gz]
+[2023-07-16 11:08:16] INFO root fetch - main [MainThread]: End processing [autogluon.core]: success
+[2023-07-16 11:08:16] INFO root fetch - processPackages [Coquille]: Downloading https://files.pythonhosted.org/packages/46/96/02a23574ea3415975c2855ae0781d940c76fa05fe110704029c6c948857f/Coquille-1.1.1.tar.gz
+[2023-07-16 11:08:16] INFO root fetch - processPackages [flake8-type-checking]: Downloading https://files.pythonhosted.org/packages/d2/94/f31522b4cb53bf3c18d4b23d311e2f467f1b3c8fe42f17d357d75e91698e/flake8_type_checking-2.4.0.tar.gz
+[2023-07-16 11:08:16] INFO root fetch - processPackages [autogluon.multimodal]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.multimodal-0.8.3b20230715.tar.gz]
+[2023-07-16 11:08:16] INFO root fetch - processPackages [autogluon.multimodal]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.multimodal-0.8.3b20230716.tar.gz]
+[2023-07-16 11:08:16] INFO root fetch - main [MainThread]: End processing [autogluon.multimodal]: success
+[2023-07-16 11:08:16] INFO root fetch - processPackages [Coquille]: executing diffoscope
+[2023-07-16 11:08:16] INFO root fetch - processPackages [Coquille]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Coquille-1.0.2.tar.gz tmp/Coquille-1.1.1.tar.gz --markdown 20230716/C/Coquille/1.0.2-1.1.1/diff.md --exclude *.pyd
+[2023-07-16 11:08:16] INFO root fetch - processPackages [redis-chatgpt]: Downloading https://files.pythonhosted.org/packages/82/a1/ec3d93147b751d437f05ca38f0cf4e7999d16e1476a086d5e2e4f431965a/redis_chatgpt-0.1.2.tar.gz
+[2023-07-16 11:08:16] INFO root fetch - processPackages [wiliot-deployment-tools]: executing diffoscope
+[2023-07-16 11:08:16] INFO root fetch - processPackages [wiliot-deployment-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wiliot-deployment-tools-4.0.7.tar.gz tmp/wiliot-deployment-tools-4.0.8.tar.gz --markdown 20230716/w/wiliot-deployment-tools/4.0.7-4.0.8/diff.md --exclude *.pyd
+[2023-07-16 11:08:16] INFO root fetch - processPackages [talkytimes-package]: Downloading https://files.pythonhosted.org/packages/7b/4f/8348f7cd93b60771e92f326723687cdfa19ee0c72df0142633978955d96f/talkytimes_package-0.2.5.tar.gz
+[2023-07-16 11:08:16] INFO root fetch - processPackages [redis-chatgpt]: executing diffoscope
+[2023-07-16 11:08:16] INFO root fetch - processPackages [redis-chatgpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redis_chatgpt-0.1.1.tar.gz tmp/redis_chatgpt-0.1.2.tar.gz --markdown 20230716/r/redis-chatgpt/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-16 11:08:17] INFO root fetch - processPackages [talkytimes-package]: executing diffoscope
+[2023-07-16 11:08:17] INFO root fetch - processPackages [talkytimes-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/talkytimes_package-0.2.4.tar.gz tmp/talkytimes_package-0.2.5.tar.gz --markdown 20230716/t/talkytimes-package/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-07-16 11:08:17] INFO root fetch - processPackages [flake8-type-checking]: Downloading https://files.pythonhosted.org/packages/0d/ee/76b777381b812bfcbcc1b0a0991be5dd40b3098b9f9dcf403afeecaedf8b/flake8_type_checking-2.4.1.tar.gz
+[2023-07-16 11:08:17] INFO root fetch - processPackages [flake8-type-checking]: executing diffoscope
+[2023-07-16 11:08:17] INFO root fetch - processPackages [flake8-type-checking]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230716:/home/abi/fetcher/20230716:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flake8_type_checking-2.4.0.tar.gz tmp/flake8_type_checking-2.4.1.tar.gz --markdown 20230716/f/flake8-type-checking/2.4.0-2.4.1/diff.md --exclude *.pyd
+[2023-07-16 11:08:17] INFO root fetch - processPackages [redis-chatgpt]: Remove: archive file [/home/abi/fetcher/tmp/redis_chatgpt-0.1.1.tar.gz]
+[2023-07-16 11:08:17] INFO root fetch - processPackages [redis-chatgpt]: Remove: archive file [/home/abi/fetcher/tmp/redis_chatgpt-0.1.2.tar.gz]
+[2023-07-16 11:08:17] INFO root fetch - main [MainThread]: End processing [redis-chatgpt]: success
+[2023-07-16 11:08:17] INFO root fetch - processPackages [Coquille]: Remove: archive file [/home/abi/fetcher/tmp/Coquille-1.0.2.tar.gz]
+[2023-07-16 11:08:17] INFO root fetch - processPackages [Coquille]: Remove: archive file [/home/abi/fetcher/tmp/Coquille-1.1.1.tar.gz]
+[2023-07-16 11:08:17] INFO root fetch - main [MainThread]: End processing [Coquille]: success
+[2023-07-16 11:08:17] INFO root fetch - processPackages [talkytimes-package]: Remove: archive file [/home/abi/fetcher/tmp/talkytimes_package-0.2.4.tar.gz]
+[2023-07-16 11:08:17] INFO root fetch - processPackages [talkytimes-package]: Remove: archive file [/home/abi/fetcher/tmp/talkytimes_package-0.2.5.tar.gz]
+[2023-07-16 11:08:17] INFO root fetch - main [MainThread]: End processing [talkytimes-package]: success
+[2023-07-16 11:08:18] INFO root fetch - processPackages [wiliot-deployment-tools]: Remove: archive file [/home/abi/fetcher/tmp/wiliot-deployment-tools-4.0.7.tar.gz]
+[2023-07-16 11:08:18] INFO root fetch - processPackages [wiliot-deployment-tools]: Remove: archive file [/home/abi/fetcher/tmp/wiliot-deployment-tools-4.0.8.tar.gz]
+[2023-07-16 11:08:18] INFO root fetch - main [MainThread]: End processing [wiliot-deployment-tools]: success
+[2023-07-16 11:08:18] INFO root fetch - processPackages [flake8-type-checking]: Remove: archive file [/home/abi/fetcher/tmp/flake8_type_checking-2.4.0.tar.gz]
+[2023-07-16 11:08:18] INFO root fetch - processPackages [flake8-type-checking]: Remove: archive file [/home/abi/fetcher/tmp/flake8_type_checking-2.4.1.tar.gz]
+[2023-07-16 11:08:18] INFO root fetch - main [MainThread]: End processing [flake8-type-checking]: success
+[2023-07-16 11:08:18] INFO root fetch - main [MainThread]: Store serial: [18905863]
